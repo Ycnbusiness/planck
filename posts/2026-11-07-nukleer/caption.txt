@@ -1,0 +1,15 @@
+Nükleer tabu: 81 yıldır neden kimse düğmeye basmadı?
+
+Dünyada 12.187 nükleer savaş başlığı var, 9 ülke nükleer silaha sahip ve Kıyamet Saati tarihin en yakın ayarında: gece yarısına 85 saniye. Buna rağmen 1945'ten bu yana hiçbir savaşta nükleer silah kullanılmadı.
+
+Planck, tabunun dört frenini inceledi ve bir soruyu hesapladı: ABD'nin İran'a nükleer silah kullanma olasılığı ne?
+→ Dünyada herhangi bir nükleer kullanım, yıllık taban: %1,2
+→ ABD–İran arasında yeni askerî çatışma, 5 yıl: %45
+→ Çatışma çıkarsa nükleer seçeneğe başvurma: %3
+→ Sonuç, 2031'e kadar: %1,4 (Düşük · Etki: Çok yüksek)
+
+Yöntem: Laplace ardıllık kuralı (81 yıl, 0 olay) ve koşullu olasılık zinciri. Kaynaklar: SIPRI Yearbook 2026, Bulletin of the Atomic Scientists. Analiz Anthropic'in yapay zekâ modeli Claude tarafından hazırlandı; olasılıklar kesin bilgi değil, tahmindir.
+
+Sizce tabu bozulur mu? Bozulursa ilk kim basar?
+
+#planck #nükleer #jeopolitik #küreselriskler #yapayzeka
