@@ -36,6 +36,7 @@ h1{font-size:${(s.headline || '').length > 60 ? 70 : 84}px;line-height:1.02;font
 <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px">
 <div style="font-family:ML,MX,monospace;font-weight:500;font-size:170px;line-height:1;letter-spacing:-.04em;color:${BLUE}"><small style="font-size:.45em;vertical-align:.95em;margin-right:8px;opacity:.7">%</small>${s.to}</div>
 <div style="display:flex;flex-direction:column;gap:14px;align-items:flex-end;padding-bottom:18px">${meter}<span class="mono" style="font-size:24px;color:${BLUE}">${lab}</span><span class="mono" style="font-size:22px;color:${d >= 0 ? '#eef1f6' : MUT}">${delta}</span></div></div>
+${s.motor != null ? `<div class="mono" style="font-size:22px;color:${MUT}">Motor %${s.motor} · Claude ${s.adj >= 0 ? '+' : ''}${s.adj} · <span style="color:${BLUE}">Planck %${s.to}</span></div>` : ''}
 ${s.source ? `<div class="mono" style="font-size:18px;color:${MUT};letter-spacing:.04em">Kaynak: ${esc(s.source)} · ${QT ? 'Son tarih: ' + esc(s.deadline || '') + ' · Yatırım tavsiyesi değildir' : 'Ufuk: 2031'}</div>` : ''}
 </div></div>
 <div class="hb mono"><span>@PLANCK.${QT ? 'QUANT' : 'NEWS'}</span><span>CLAUDE İLE HAZIRLANMIŞTIR</span></div></div></body></html>`;
