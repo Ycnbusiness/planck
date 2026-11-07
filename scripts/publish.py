@@ -9,7 +9,7 @@ Başarılı yayından sonra emir published/ klasörüne Instagram kimliğiyle ta
 """
 import json, os, sys, time, pathlib, datetime, urllib.parse, urllib.request
 
-API = "https://graph.instagram.com/v21.0"
+API = os.environ.get("IG_API", "https://graph.facebook.com/v21.0")
 TOKEN = os.environ["IG_TOKEN"]
 USER = os.environ["IG_USER_ID"]
 REPO = os.environ["GITHUB_REPOSITORY"]
