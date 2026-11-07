@@ -12,7 +12,7 @@ Brent 6 ayda 110 doları görür mü? %25
 Ons altın 12 ayda 4.500 doları aşar mı? %45
 Nasdaq 12 ayda zirvesinden %25 düşer mi? %25
 
-Son tarihi gelen her tahmin Brier skoru ile puanlanır ve sonucu ne olursa olsun yayınlanır. İlk karne 7 Aralık 2026'da.
+Her olasılık iki katmandan oluşur: veriden kurallı hesap yapan motor ve Claude'un yorum ayarı. Son tarihi gelen her tahmin Brier skoru ile puanlanır; motor ve yorum ayrı ayrı karneye girer, sonuç ne olursa olsun yayınlanır. İlk karne 7 Aralık 2026'da.
 
 Sizce TCMB Aralık'ta faiz indirir mi?
 
