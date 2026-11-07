@@ -1,0 +1,20 @@
+{
+  "updated": "2026-11-07T07:00:00+03:00",
+  "horizon": "2031",
+  "bands": {"Çok yüksek": [80, 100], "Yüksek": [60, 79], "Orta-yüksek": [45, 59], "Orta": [25, 44], "Düşük": [0, 24]},
+  "thresholds": {
+    "kirmizi": "Bir riskin olasılığını tek seferde 10 puan veya daha fazla değiştiren ya da listede olmayan, büyük ölçekli yeni bir risk doğuran olay",
+    "sari": "Bir riskin olasılığını 3–9 puan değiştiren olay",
+    "yesil": "3 puandan az etkileyen, mevcut eğilimi doğrulayan gelişme"
+  },
+  "risks": [
+    {"id": "catisma", "name": "Kronik Bölgesel Çatışmalar", "p": 82, "impact": "Çok yüksek", "geo": [35, 48.5]},
+    {"id": "enerji", "name": "Kalıcı Enerji ve Lojistik Maliyetleri", "p": 71, "impact": "Yüksek", "geo": [56.3, 26.5]},
+    {"id": "avrupa", "name": "Avrupa'da Siyasi Parçalanma", "p": 64, "impact": "Yüksek", "geo": [4.35, 50.85]},
+    {"id": "yz-issizlik", "name": "Yapay Zekâ Kaynaklı Beyaz Yaka İşsizliği", "p": 52, "impact": "Yüksek", "geo": null},
+    {"id": "gida", "name": "Gıda Fiyatlarında Şok", "p": 48, "impact": "Yüksek", "geo": null},
+    {"id": "siber", "name": "Kritik Altyapıya Siber Saldırılar", "p": 38, "impact": "Yüksek", "geo": null},
+    {"id": "kurumlar", "name": "Demokratik Kurumlarda Aşınma", "p": 33, "impact": "Orta", "geo": null},
+    {"id": "tayvan", "name": "Tayvan Krizi", "p": 12, "impact": "Çok yüksek", "geo": [121, 23.7]}
+  ]
+}
