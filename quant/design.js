@@ -37,7 +37,7 @@ const row = (f, n) => { const [lv, lab] = band(f.p); const dl = f.deadline.split
 const F = Q.forecasts, S = [];
 // 1 Kapak
 S.push(frame(`<div>${qlock(64)}</div>
-<div style="margin-top:auto"><div class="eb mono">Yeni kanal<b></b></div><h1 style="margin-top:28px">Fiyat Değil,<br>Olasılık.</h1>
+<div style="margin-top:auto"><div class="eb mono">Yeni kanal<b></b></div><h1 style="margin-top:28px">Yorum Değil,<br>Hesap.</h1>
 <p class="b" style="margin-top:36px;max-width:22ch;font-size:38px;line-height:52px">Piyasayı ilgilendiren olayların gerçekleşme ihtimali. Her hafta, puanlanarak.</p></div>
 <div style="margin-top:72px;display:flex;align-items:flex-end;justify-content:space-between;border-top:2px solid ${DIM};padding-top:32px">
 <div class="mono" style="font-size:22px;line-height:34px;color:${MUT}">TCMB · Fed · Enflasyon<br>Kur · Petrol · Altın · Endeksler</div>${meter(3,56,16)}</div>`, 1));

@@ -4,7 +4,7 @@
 
 - Kanal: Instagram **@planck.quant** · Web: **planck.news/quant**
 - Üst slogan (değişmez): *Bilginin bittiği yerde tahmin başlar.*
-- Kanal sloganı: **Fiyat değil, olasılık.**
+- Kanal sloganı: **Yorum değil, hesap.** "Hesap" iki anlamlıdır: rakamla hesaplamak ve tuttu mu tutmadı mı diye hesap vermek (karne).
 - Ad: "Quant" hem kuantumu (Max Planck) hem de sayısal yatırım analistini anlatır: duyguyla değil, modelle çalışan.
 
 ## 1. Yasal çizgi (SPK uyumu) — pazarlık konusu değil
@@ -78,7 +78,7 @@ Ana Planck kurallarının hepsi geçerlidir: üçüncü şahıs, resmi, tarafsı
 Planck tasarım sisteminin aynısı; ayrı bir renk yok. Quant'ı ayıran üç şey:
 
 1. **Kilit logo:** ħ işareti + PLANCK + ince dikey çizgi + **QUANT** (Helvetica Bold, PLANCK ile aynı harf yüksekliği, `on-void-muted` gri). Ana marka beyaz, alt kanal gri: hiyerarşi rengiyle değil tonuyla kurulur.
-2. **Profil:** `void` zemin üzerinde ħ işareti, altında 5 dilimli olasılık göstergesi (3 dolu). Yazı yok; küçük boyutta yazı okunmaz, gösterge okunur. Kanal adı Instagram'da profil adında zaten yazar. Gösterge "fiyat değil, olasılık" fikrinin sembolüdür ve ana Planck profilinden tek bakışta ayırır.
+2. **Profil:** `void` zemin üzerinde ħ işareti, altında 5 dilimli olasılık göstergesi (3 dolu). Yazı yok; küçük boyutta yazı okunmaz, gösterge okunur. Kanal adı Instagram'da profil adında zaten yazar. Gösterge olasılık fikrinin sembolüdür ve ana Planck profilinden tek bakışta ayırır.
 3. **Kartlarda üst satır:** `PLANCK QUANT · <TÜR>` ve alt satır `@PLANCK.QUANT`. Kartta her zaman **son tarih** ve **"Yatırım tavsiyesi değildir"** satırı bulunur.
 
 `signal` turuncusu yalnızca "Etki: Çok yüksek" ve FLAŞ etiketi içindir. Fiyat yükseldi/düştü için yeşil-kırmızı kullanılmaz.
