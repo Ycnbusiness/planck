@@ -77,8 +77,8 @@ Ana Planck kurallarının hepsi geçerlidir: üçüncü şahıs, resmi, tarafsı
 
 Planck tasarım sisteminin aynısı; ayrı bir renk yok. Quant'ı ayıran üç şey:
 
-1. **Kilit logo:** ħ işareti + PLANCK + ince dikey çizgi + **QUANT** (IBM Plex Mono).
-2. **Profil:** `void` zemin üzerinde ħ işareti, altında mono **QUANT** etiketi.
+1. **Kilit logo:** ħ işareti + PLANCK + ince dikey çizgi + **QUANT** (Helvetica Bold, PLANCK ile aynı harf yüksekliği, `on-void-muted` gri). Ana marka beyaz, alt kanal gri: hiyerarşi rengiyle değil tonuyla kurulur.
+2. **Profil:** `void` zemin üzerinde ħ işareti, altında 5 dilimli olasılık göstergesi (3 dolu). Yazı yok; küçük boyutta yazı okunmaz, gösterge okunur. Kanal adı Instagram'da profil adında zaten yazar. Gösterge "fiyat değil, olasılık" fikrinin sembolüdür ve ana Planck profilinden tek bakışta ayırır.
 3. **Kartlarda üst satır:** `PLANCK QUANT · <TÜR>` ve alt satır `@PLANCK.QUANT`. Kartta her zaman **son tarih** ve **"Yatırım tavsiyesi değildir"** satırı bulunur.
 
 `signal` turuncusu yalnızca "Etki: Çok yüksek" ve FLAŞ etiketi içindir. Fiyat yükseldi/düştü için yeşil-kırmızı kullanılmaz.

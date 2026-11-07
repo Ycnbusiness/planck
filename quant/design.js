@@ -22,12 +22,12 @@ const css = `${fonts}*{box-sizing:border-box}body{margin:0;background:${VOID}}
 h1{font-size:120px;line-height:.95;font-weight:700;letter-spacing:-.04em;margin:0}
 h2{font-size:76px;line-height:1;font-weight:700;letter-spacing:-.03em;margin:0;text-wrap:balance}
 .b{font-size:32px;line-height:46px;color:#c9d0db;margin:0}
-.ql{display:inline-flex;align-items:center;gap:22px}.ql img{height:56px}.ql span{width:2px;height:52px;background:${MUT}}.ql em{font-style:normal;font-family:ML,MX,monospace;font-weight:500;font-size:44px;letter-spacing:.14em;color:#eef1f6}`;
+.ql{display:inline-flex;align-items:center;gap:22px}.ql img{height:56px}.ql span{width:2px;height:52px;background:${MUT}}.ql em{font-style:normal;font-family:AL,AX,sans-serif;font-weight:700;letter-spacing:.01em;color:#9aa3b2}`;
 const N = 6, pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
 const frame = (inner, i, kind='LANSMAN') => `<div class="s"><div class="scan"></div><div class="hud"><i></i><i></i><i></i><i></i></div>
 <div class="hl mono"><span>PLANCK QUANT · ${kind}</span><span>8 KASIM 2026</span></div><div class="in">${inner}</div>
 <div class="hb mono"><span>@PLANCK.QUANT · ${pg(i)}</span><span>CLAUDE İLE HAZIRLANMIŞTIR</span></div></div>`;
-const qlock = (h=56) => `<div class="ql"><img src="${lock}" style="height:${h}px"><span style="height:${h*.93}px"></span><em style="font-size:${h*.78}px">QUANT</em></div>`;
+const qlock = (h=56) => `<div class="ql"><img src="${lock}" style="height:${h}px"><span style="height:${h*.93}px"></span><em style="font-size:${h*.62}px">QUANT</em></div>`;
 const row = (f, n) => { const [lv, lab] = band(f.p); const dl = f.deadline.split('-'); const ay=['Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'][+dl[1]-1];
   return `<div style="display:grid;grid-template-columns:1fr auto;gap:10px 28px;padding:30px 0;border-top:2px solid ${DIM}">
   <div style="display:flex;flex-direction:column;gap:12px"><div class="mono" style="font-size:19px;color:${MUT}">${String(n).padStart(2,'0')} · Son tarih ${+dl[2]} ${ay} ${dl[0]}${f.impact==='Çok yüksek'?` · <span style="color:${AMB}">■ Etki: Çok yüksek</span>`:''}</div>
@@ -73,7 +73,5 @@ const avatar = `<div style="width:1080px;height:1080px;background:${VOID};displa
 const lockup = `<div style="width:1600px;height:400px;background:${VOID};display:flex;align-items:center;justify-content:center">${qlock(120)}</div>`;
 (async () => { const br = await chromium.launch();
   const shot = async (html, w, h, file) => { const p = await br.newPage({ viewport: { width: w, height: h } }); await p.setContent(`<html><head><style>${css}</style></head><body>${html}</body></html>`); await p.waitForTimeout(250); await p.screenshot({ path: path.join(OUT, file) }); await p.close(); };
-  await shot(avatar, 1080, 1080, 'planck-quant-profil.png');
-  await shot(lockup, 1600, 400, 'planck-quant-logo.png');
-  for (let i = 0; i < S.length; i++) await shot(S[i], 1080, 1350, `lansman-${String(i+1).padStart(2,'0')}.png`);
+    for (let i = 0; i < S.length; i++) await shot(S[i], 1080, 1350, `lansman-${String(i+1).padStart(2,'0')}.png`);
   await br.close(); console.log('ok'); })();
