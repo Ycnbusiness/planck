@@ -33,6 +33,19 @@ Her tahmin **evet/hayır ile sonuçlanabilen, tarihli** bir soru olmalıdır.
 
 Her tahminin dört alanı vardır: **Soru · Olasılık (%) · Son tarih · Gerekçe (2 cümle)**. Bantlar Planck ile aynıdır: Çok yüksek ≥80, Yüksek 60–79, Orta-yüksek 45–59, Orta 25–44, Düşük <25.
 
+## 2a. Olasılık nasıl üretilir: Motor + Claude
+
+Her olasılık iki katmandan oluşur ve ikisi de ayrı ayrı yayınlanır.
+
+1. **Motor (dış görünüm):** Veriden kurallı hesap. Tarihsel taban oranı, piyasa fiyatlamasından çıkan olasılık (vadeli faiz, opsiyon, tahvil getirileri), gösterge eşikleri. Aynı veriyle her seferinde aynı sonucu verir. Rakamı yapay zekâ uydurmaz.
+2. **Claude ayarı (iç görünüm):** Motorun göremediğini ekler: açıklamaların tonu, siyasi bağlam, kurumların geçmiş davranışı, olaylar arasındaki bağlantılar. Ayar puan olarak yazılır ve gerekçesi verilir.
+
+Kartta gösterim: `Motor %52 · Claude +8 · Planck %60`
+
+Karne iki katmanı ayrı puanlar: motorun Brier skoru, Claude ayarlı skor. Ayar isabeti artırmıyorsa bu da yayınlanır. Aylık karnenin sabit sorusu: **"Bu ay zekâ mı kazandı, hesap mı?"**
+
+Ayar sınırı: tek tahminde ±20 puan. Daha büyük sapma için en az iki bağımsız kaynakla desteklenen somut bir gelişme gerekir.
+
 ## 3. Karne (Quant'ı farklı kılan şey)
 
 Son tarihi gelen her tahmin kapatılır ve **Brier skoru** ile puanlanır (0 = kusursuz, 0,25 = yazı-tura). Sonuç ne olursa olsun yayınlanır; yanılan tahmin silinmez.
