@@ -1,0 +1,21 @@
+Planck Quant yayında: Fiyat değil, olasılık.
+
+Planck Quant, Planck'in finans ve ekonomi kanalıdır. Piyasanın ne yapacağını söylemez; piyasayı ilgilendiren olayların gerçekleşme olasılığını ölçer. Her tahmin son tarihi olan, evet ya da hayır ile sonuçlanan bir sorudur.
+
+İlk tahmin haritası:
+TCMB Aralık'ta faiz indirir mi? %60
+2026 yıl sonu enflasyonu %30'un altında kalır mı? %30
+Dolar/TL 12 ayda 60'ı aşar mı? %20
+Fed 12 ayda faiz artırır mı? %40
+ABD 12 ayda resesyona girer mi? %35
+Brent 6 ayda 110 doları görür mü? %25
+Ons altın 12 ayda 4.500 doları aşar mı? %45
+Nasdaq 12 ayda zirvesinden %25 düşer mi? %25
+
+Son tarihi gelen her tahmin Brier skoru ile puanlanır ve sonucu ne olursa olsun yayınlanır. İlk karne 7 Aralık 2026'da.
+
+Sizce TCMB Aralık'ta faiz indirir mi?
+
+Yatırım tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+
+#planckquant #planck #ekonomi #piyasalar #olasılık
