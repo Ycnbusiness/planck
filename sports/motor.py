@@ -22,7 +22,7 @@ def run(path):
     att = {n: ((r[2] + K*avg) / (r[1] + K)) / avg for n, r in t.items()}
     dfn = {n: ((r[3] + K*avg) / (r[1] + K)) / avg for n, r in t.items()}
     out = []
-    for h, a in d['week12']:
+    for h, a in d.get('fixtures', d.get('week12', [])):
         lh = avg * att[h] * dfn[a] * HOME; la = avg * att[a] * dfn[h] / HOME
         ph = pd = pa = 0
         for i in range(11):
@@ -35,8 +35,18 @@ def run(path):
         out.append({"ev": h, "dep": a, "xg_ev": round(lh, 2), "xg_dep": round(la, 2),
                     "p": [round(100*ph/s), round(100*pd/s), round(100*pa/s)]})
     return avg, out
+def elo_match(elo_h, elo_a, home=65, draw_base=0.27):
+    """Farklı liglerden takımlar (Avrupa kupaları) için: ClubElo puanları.
+    Ev beklenen skoru We = 1/(1+10^(-(dr)/400)); beraberlik payı güç farkı büyüdükçe azalır."""
+    dr = elo_h + home - elo_a
+    we = 1 / (1 + 10 ** (-dr / 400))
+    pd = max(0.12, draw_base * (1 - abs(we - 0.5) * 1.1))
+    ph = max(0.0, we - pd / 2); pa = max(0.0, 1 - we - pd / 2)
+    s = ph + pd + pa
+    return [round(100*ph/s), round(100*pd/s), round(100*pa/s)]
+
 if __name__ == '__main__':
     avg, out = run(sys.argv[1] if len(sys.argv) > 1 else 'data/sports/superlig.json')
     print(f"lig ort. {avg:.2f} gol/takım/maç")
     for m in out: print(f"{m['ev']:>15} - {m['dep']:<15} {m['p'][0]:>3}% {m['p'][1]:>3}% {m['p'][2]:>3}%   xG {m['xg_ev']}-{m['xg_dep']}")
-    json.dump(out, open('data/sports/week12-motor.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump(out, open(sys.argv[2] if len(sys.argv) > 2 else 'data/sports/motor-out.json', 'w'), ensure_ascii=False, indent=1)

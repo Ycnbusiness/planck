@@ -14,7 +14,8 @@
 - Her gönderinin son satırı: **"Bahis tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır."**
 
 ## 2. Olasılık: Motor + Claude
-- **Motor:** Elo tabanlı güç puanı + iç saha avantajı + son form + gol beklentisi (xG) eğilimi. Kod: `sports/motor.py`. Aynı veriyle aynı sonuç.
+- **Motor:** Lig içi maçlarda attığı/yediği gole dayalı Poisson + Dixon-Coles güç modeli; ligler arası (Avrupa kupaları) maçlarda ClubElo puanı + iç saha avantajı. Kod: `sports/motor.py`. Aynı veriyle aynı sonuç.
+- **Genişleme sırası:** Futbol (Türkiye + Avrupa) → basketbol (NBA, EuroLeague; sayı farkı Elo) → tenis (oyuncu Elo) → Formula 1.
 - **Claude ayarı:** Sakat/cezalı oyuncular, teknik direktör değişikliği, rotasyon, derbi baskısı, kulüp krizi. Tek maçta en fazla ±10 puan (spor verisi zengin olduğu için sınır finanstakinden dardır). Gerekçe yazılır.
 - Kartta gösterim: `Ev %44 · Beraberlik %27 · Deplasman %29` ve altında `Motor · Claude ayarı`.
 
@@ -26,7 +27,8 @@
 ## 4. Takvim
 | Ne zaman | İçerik |
 |---|---|
-| Cuma 12:00 | **Hafta Sonu Haritası**: ligin tüm maçları, olasılıklar |
+| Cuma 12:00 | **Hafta Sonu Haritası**: Süper Lig'in tüm maçları + Avrupa'nın 5 büyük liginden haftanın 2–3 büyük maçı |
+| Salı / Çarşamba / Perşembe 12:00 | **Avrupa Gecesi**: Şampiyonlar Ligi, Avrupa Ligi, Konferans Ligi; Türk takımları her zaman dahil (ClubElo tabanlı) |
 | Büyük maç günü 10:00 | **Mola**: tek maç derin analizi (derbi, Avrupa maçı) |
 | Pazartesi 10:00 | **Haftanın Karnesi** |
 | Ayın sonu | Şampiyonluk ve küme düşme olasılıkları |
