@@ -1,0 +1,10 @@
+Avrupa'da soğuk zincire eşzamanlı siber saldırılar
+
+Fransa'da yüzlerce marketin ve üç kan merkezinin soğutma sistemleri uzaktan ısıtma moduna alındı; benzer saldırılar Belçika, Lüksemburg, İsveç ve diğer Avrupa ülkelerinde de görüldü. ABD'de CISA, FBI ve üç federal kurum, gıda ve ilaç depolayan soğutma kontrolcülerinin hedef alındığına dair ortak uyarı yayımladı. Saldırılar fiziksel zarar doğuran ve birden çok ülkeye yayılan bir altyapı açığına işaret ediyor; fail henüz belirlenmedi.
+
+Etkilenen risk: Kritik Altyapıya Siber Saldırılar
+Olasılık: %38 → %42 (Orta)
+
+Bu değerlendirme Anthropic'in yapay zekâ modeli Claude tarafından güncel haberler taranarak hazırlanmıştır. Yatırım veya politika tavsiyesi değildir.
+
+#planck #küreselrisk #tahmin

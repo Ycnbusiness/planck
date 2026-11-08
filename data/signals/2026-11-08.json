@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-08",
+  "scan_window": "2026-11-07 → 2026-11-08 (TSİ); bazı olaylar 5–6 Kasım tarihli olup veriye ilk kez işleniyor",
+  "summary": {
+    "kirmizi": 0,
+    "sari": 1,
+    "yesil": 4
+  },
+  "events": [
+    {
+      "id": "soguk-zincir-siber",
+      "class": "SARI",
+      "risk": "siber",
+      "delta": 4,
+      "from": 38,
+      "to": 42,
+      "event": "ABD'de CISA, FBI, HHS, USDA ve DOT, market ve soğuk hava deposu soğutma kontrolcülerine yönelik saldırılar için ortak uyarı yayımladı. Fransa'da yüzlerce markette ve üç kan merkezinde soğutma sistemleri uzaktan ısıtma moduna alındı; ikinci dalga Belçika, Lüksemburg, İsveç ve diğer Avrupa ülkelerine yayıldı.",
+      "rationale": "Saldırılar birden çok ülkede eşzamanlı ve fiziksel zarar doğuran bir kritik altyapı katmanını (gıda ve tıbbi soğuk zincir) hedef aldı; beş ABD kurumunun ortak uyarısı bunun yerel değil sistemik bir açık olarak görüldüğünü gösteriyor. Failin belirsiz olması ve can kaybı bulunmaması etkiyi kırmızı eşiğin altında tutuyor.",
+      "sources": [
+        "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+        "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi/",
+        "https://www.scworld.com/news/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems"
+      ]
+    },
+    {
+      "id": "brent-haftalik-dusus",
+      "class": "YEŞİL",
+      "risk": "enerji",
+      "delta": -2,
+      "from": 71,
+      "to": 69,
+      "event": "Brent petrol 2020'den bu yana en sert haftalık düşüşünü yaşadı (yaklaşık %12–16); ABD–İran anlaşma beklentileri ve arz fazlası işaretleri fiyatı 100 doların altına çekti.",
+      "rationale": "Orta Doğu ham petrol spot primlerinin savaş öncesi düzeye dönmesi kalıcı maliyet varsayımını bir miktar zayıflatıyor. Ancak Körfez'de tanker saldırıları rekor hıza yakın sürüyor ve anlaşma imzalanmadı; bu yüzden düşüş sınırlı tutuldu.",
+      "sources": [
+        "https://www.bairdmaritime.com/shipping/tankers/is-the-crude-rally-over-brent-on-track-for-worst-week-since-2020",
+        "https://invezz.com/news/2026/11/06/oil-prices-today-brent-weekly-slump/"
+      ]
+    },
+    {
+      "id": "iran-qeshm-sinirli-saldiri",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 0,
+      "from": 82,
+      "to": 82,
+      "event": "ABD, 6 Kasım gecesi Keşm Adası'ndaki İran hava savunma unsurlarına sınırlı saldırı düzenledi; Katar arabuluculuğundaki görüşmeler sürüyor, Körfez'de tanker saldırıları devam ediyor.",
+      "rationale": "Sınırlı saldırılar ile süren müzakerelerin bir arada olması mevcut kronik çatışma eğilimini doğruluyor; yönü değiştiren bir gelişme yok.",
+      "sources": [
+        "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+        "https://cyprus-mail.com/2026/11/07/qatar-says-its-mediation-efforts-between-us-and-iran-continue-to-prevent-escalation"
+      ]
+    },
+    {
+      "id": "pla-bati-pasifik",
+      "class": "YEŞİL",
+      "risk": "tayvan",
+      "delta": 1,
+      "from": 12,
+      "to": 13,
+      "event": "Tayvan Ulusal Güvenlik Konseyi, Batı Pasifik'te 100'ü aşkın Çin donanma ve sahil güvenlik gemisi bildirdi; AEI ve ISW analistleri bunun duyurulmamış bir ada izolasyonu tatbikatı olabileceğini değerlendirdi.",
+      "rationale": "Duyurusuz ve çok komutanlıklı konuşlanma baskı eğilimini doğruluyor, ancak doğrudan bir kriz tetikleyicisi değil; Mayıs'ta da benzer ölçekte bir konuşlanma yaşanmıştı.",
+      "sources": [
+        "https://www.taiwannews.com.tw/news/6471672",
+        "https://www.aei.org/commentary/china-taiwan-update-november-6-2026/"
+      ]
+    },
+    {
+      "id": "fao-ekim",
+      "class": "YEŞİL",
+      "risk": "gida",
+      "delta": -1,
+      "from": 48,
+      "to": 47,
+      "event": "FAO Gıda Fiyat Endeksi ekimde %1,2 düşüşle 133,9 puana geriledi; tahıl düştü, şeker %6,6 yükseldi.",
+      "rationale": "Endeks dört yılın zirvesine yakın ve yıllık bazda %5,9 yukarıda; tek aylık düşüş eğilimi tersine çevirmiyor, yalnızca hafif rahatlama sağlıyor.",
+      "sources": [
+        "https://www.fao.org/worldfoodsituation/FoodPricesIndex/en",
+        "https://www.potatopro.com/news/2026/fao-food-price-index-edges-down-october-commodity-price-indices-easing-except-sugar-and"
+      ]
+    }
+  ],
+  "not_scored": [
+    "Avrupa siyaseti, yapay zekâ ve istihdam, demokratik kurumlar: son 24 saatte iki bağımsız kaynakla doğrulanan, puan oynatacak bir gelişme bulunmadı."
+  ],
+  "content": {
+    "type": "sinyal",
+    "event": "soguk-zincir-siber",
+    "time": "08:30",
+    "path": "posts/2026-11-08-soguk-zincir-siber/"
+  }
+}

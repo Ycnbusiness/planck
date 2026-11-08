@@ -12,6 +12,19 @@
                 "kurumlar": 33,
                 "tayvan": 12
             }
+        },
+        {
+            "date": "2026-11-08",
+            "values": {
+                "catisma": 82,
+                "enerji": 69,
+                "avrupa": 64,
+                "yz-issizlik": 52,
+                "gida": 47,
+                "siber": 42,
+                "kurumlar": 33,
+                "tayvan": 13
+            }
         }
     ]
 }
