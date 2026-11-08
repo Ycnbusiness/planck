@@ -1,0 +1,94 @@
+{
+ "date": "9 KASIM 2026",
+ "slides": 6,
+ "eyebrow": "Ne olur? · Teknoloji × Jeopolitik",
+ "title": "Nvidia Soruşturması: Ne Olur?",
+ "lede": "Nvidia, CEO'su Jensen Huang'ın Çin istihbaratıyla bağlantılı olduğundan şüphelenilen bir yöneticiyle ilişkisini soruşturuyor. Planck, olayın şirketten politikaya, politikadan piyasaya uzanan beş olası sonucunu hesapladı.",
+ "factsTitle": "Bugüne Kadar Olanlar",
+ "facts": [
+  [
+   "29 Ekim",
+   "New York Times: ABD istihbaratı, Huang'ın görüştüğü Singapurlu Megaspeed yöneticisini Çin adına çalışmakla ve kısıtlı çiplerin Çin'e ulaşmasına aracılık etmekle şüpheleniyor."
+  ],
+  [
+   "30 Ekim",
+   "Çin iddiaları asılsız olarak reddetti. Nvidia görüşmelerin olağan iş ilişkisi olduğunu açıkladı."
+  ],
+  [
+   "5 Kasım",
+   "ABD Temsilciler Meclisi'nde üç komite başkanı, Huang'dan 18 Kasım'da kapalı oturumda bilgi vermesini istedi."
+  ],
+  [
+   "8 Kasım",
+   "Nvidia, Huang'ın bu yöneticiyle ilişkisi hakkında iç soruşturma başlattı."
+  ]
+ ],
+ "factsNote": "Huang'ın bilerek bilgi aktardığına dair kamuya açık bir kanıt yok. Aşağıdaki olasılıklar suçlamayı değil, olayın doğurabileceği sonuçları ölçer.",
+ "rings": [
+  {
+   "name": "Şirket",
+   "title": "İlk Halka: Şirket ve Yönetim",
+   "items": [
+    {
+     "q": "Huang, 31 Aralık 2026'ya kadar Kongre'ye bilgi verir mi?",
+     "p": 65,
+     "lab": "Taban %75 · Claude −10",
+     "why": "Şirketler Kongre komitelerinin taleplerine çoğunlukla uyar. Nvidia'nın katılımı henüz netleştirmemesi olasılığı düşürüyor."
+    },
+    {
+     "q": "Huang, 30 Haziran 2027'ye kadar CEO'luktan ayrılır mı?",
+     "p": 7,
+     "lab": "Taban %5 · Claude +2",
+     "why": "Kurucu CEO'lar kanıtlanmamış iddialarla nadiren görevden ayrılır. Tek belirsizlik iç soruşturmanın sonucu."
+    }
+   ]
+  },
+  {
+   "name": "Politika",
+   "title": "İkinci Halka: Washington",
+   "items": [
+    {
+     "q": "ABD, 31 Mart 2027'ye kadar Megaspeed'i ihracat kara listesine alır mı?",
+     "p": 35,
+     "lab": "Taban %25 · Claude +10",
+     "why": "Ticaret Bakanlığı çip aracılarını düzenli olarak listeye ekliyor. Şirketin adının kamuoyu önünde geçmesi baskıyı artırıyor."
+    },
+    {
+     "q": "ABD, 31 Mart 2027'ye kadar Çin'e yapay zekâ çipi satışına yeni kısıtlama getirir mi?",
+     "p": 30,
+     "lab": "Taban %35 · Claude −5",
+     "why": "Yönetimin son bir yıldaki eğilimi gevşetme yönünde. Kongre'den yasa çıkması ise aylar sürer."
+    }
+   ]
+  },
+  {
+   "name": "Piyasa",
+   "title": "Üçüncü Halka: Piyasa",
+   "items": [
+    {
+     "q": "Yarı İletken Endeksi (SOX), 31 Aralık 2026'ya kadar 6 Kasım kapanışının %10 altında kapanış görür mü?",
+     "p": 47,
+     "lab": "Motor %44 · Claude +3",
+     "why": "Endeksin tarihsel oynaklığı yüksek; 8 haftada %10'luk bir düşüş bu haber olmasa da sık görülür. Haberin katkısı birkaç puan."
+    }
+   ],
+   "note": "Okuma: %47'nin büyük kısmı haberden değil, endeksin olağan oynaklığından geliyor. Bu olayın asıl sonucu piyasada değil Washington'da: en olası hedef, Çin'e çip akışını sağlayan aracılar."
+  }
+ ],
+ "watchTitle": "Bundan Sonra İzlenecek",
+ "watch": [
+  [
+   "18 Kasım",
+   "Kapalı Kongre oturumu: Huang katılıyor mu?"
+  ],
+  [
+   "Kasım–Aralık",
+   "Nvidia iç soruşturmasının sonucu açıklanıyor mu?"
+  ],
+  [
+   "Aralık",
+   "Ticaret Bakanlığı'nın yeni kara liste eklemeleri"
+  ]
+ ],
+ "question": "Bir şirketin CEO'su hakkındaki şüphe, iki ülkenin teknoloji ilişkisini değiştirebilir mi?"
+}

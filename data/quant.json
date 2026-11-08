@@ -1,126 +1,170 @@
 {
-  "brand": "Planck Quant",
-  "handle": "@planck.quant",
-  "updated": "2026-11-08T09:00:00+03:00",
-  "snapshot": {
-    "_not": "6 Kasım 2026 kapanışları ve son açıklanan veriler",
-    "tcmb_politika_faizi": 36.0,
-    "tr_tufe_yillik_ekim": 29.77,
-    "tr_tufe_aylik_ekim": 2.58,
-    "usdtry": 50.16,
-    "bist100": 11482.6,
-    "gram_altin_tl": 6541.76,
-    "ons_altin_usd": 4050,
-    "brent_usd": 97.5,
-    "bitcoin_usd": 75621,
-    "fed_aralik": "3,75–4,00",
-    "abd_tufe_eylul": 3.7,
-    "abd_issizlik_eylul": 4.2
-  },
-  "bands": {
-    "Çok yüksek": [
-      80,
-      100
-    ],
-    "Yüksek": [
-      60,
-      79
-    ],
-    "Orta-yüksek": [
-      45,
-      59
-    ],
-    "Orta": [
-      25,
-      44
-    ],
-    "Düşük": [
-      0,
-      24
-    ]
-  },
-  "forecasts": [
-    {
-      "id": "tcmb-aralik",
-      "q": "TCMB Aralık PPK'da Faiz İndirir mi?",
-      "p": 60,
-      "deadline": "2026-12-31",
-      "impact": "Yüksek",
-      "why": "Ekimde 100 baz puanlık indirimle süreç devam ediyor; ancak Ekim enflasyonu beklentinin üzerinde geldi (%2,58). İndirim ihtimali yüksek, adımın küçülmesi bekleniyor.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "tr-tufe-30",
-      "q": "2026 Yıl Sonu Enflasyonu %30'un Altında Kalır mı?",
-      "p": 30,
-      "deadline": "2027-01-05",
-      "impact": "Yüksek",
-      "why": "Yıllık enflasyon %29,77. Geçen yılın Kasım–Aralık aylık verileri düşük olduğundan baz etkisi yıllık rakamı yukarı itiyor.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "usdtry-60",
-      "q": "Dolar/TL 12 Ay İçinde 60'ı Aşar mı?",
-      "p": 20,
-      "deadline": "2027-11-08",
-      "impact": "Yüksek",
-      "why": "Kur kontrollü bir patikada; son sekiz ayda yaklaşık %13 değer kaybı var. Bu hız sürerse 12 ay sonrası 57–58 bandına işaret ediyor; 60 için ek bir şok gerekir.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "fed-artirim",
-      "q": "Fed 12 Ay İçinde Faiz Artırır mı?",
-      "p": 40,
-      "deadline": "2027-11-08",
-      "impact": "Çok yüksek",
-      "why": "Ekim toplantısında iki üye artırım yönünde oy kullandı; ABD enflasyonu %3,7 ile hedefin belirgin biçimde üzerinde.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "abd-resesyon",
-      "q": "ABD 12 Ay İçinde Resesyona Girer mi?",
-      "p": 35,
-      "deadline": "2027-11-08",
-      "impact": "Çok yüksek",
-      "why": "İşsizlik %4,2'ye yükseldi, enflasyon inatçı. Sıkı para politikası ile enerji maliyeti birlikte büyümeyi baskılıyor.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "brent-110",
-      "q": "Brent Petrol 6 Ay İçinde 110 Doları Görür mü?",
-      "p": 25,
-      "deadline": "2027-05-08",
-      "impact": "Çok yüksek",
-      "why": "Hürmüz'de anlaşma umuduyla fiyat 100 doların altına indi. Anlaşma bozulursa hızlı bir sıçrama riski canlı kalıyor.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "altin-4500",
-      "q": "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?",
-      "p": 45,
-      "deadline": "2027-11-08",
-      "impact": "Orta",
-      "why": "Altın zirvesinden sert geri çekildi ve 4.050 dolar civarında. Merkez bankası alımları ve jeopolitik risk desteği sürüyor; sıkı Fed ise baskı unsuru.",
-      "motor": null,
-      "adj": null
-    },
-    {
-      "id": "nasdaq-25",
-      "q": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
-      "p": 25,
-      "deadline": "2027-11-08",
-      "impact": "Yüksek",
-      "why": "Yapay zekâ yatırımlarının değerlemeleri tarihsel ortalamaların üzerinde. Faiz artırımı ve resesyon senaryoları birlikte gerçekleşirse düzeltme derinleşebilir.",
-      "motor": null,
-      "adj": null
-    }
+ "brand": "Planck Quant",
+ "handle": "@planck.quant",
+ "updated": "2026-11-08T09:00:00+03:00",
+ "snapshot": {
+  "_not": "6 Kasım 2026 kapanışları ve son açıklanan veriler",
+  "tcmb_politika_faizi": 36.0,
+  "tr_tufe_yillik_ekim": 29.77,
+  "tr_tufe_aylik_ekim": 2.58,
+  "usdtry": 50.16,
+  "bist100": 11482.6,
+  "gram_altin_tl": 6541.76,
+  "ons_altin_usd": 4050,
+  "brent_usd": 97.5,
+  "bitcoin_usd": 75621,
+  "fed_aralik": "3,75–4,00",
+  "abd_tufe_eylul": 3.7,
+  "abd_issizlik_eylul": 4.2
+ },
+ "bands": {
+  "Çok yüksek": [
+   80,
+   100
   ],
-  "resolved": [],
-  "_motor_not": "motor ve adj ilk Quant taramasında doldurulacak; p = motor + adj"
+  "Yüksek": [
+   60,
+   79
+  ],
+  "Orta-yüksek": [
+   45,
+   59
+  ],
+  "Orta": [
+   25,
+   44
+  ],
+  "Düşük": [
+   0,
+   24
+  ]
+ },
+ "forecasts": [
+  {
+   "id": "tcmb-aralik",
+   "q": "TCMB Aralık PPK'da Faiz İndirir mi?",
+   "p": 60,
+   "deadline": "2026-12-31",
+   "impact": "Yüksek",
+   "why": "Ekimde 100 baz puanlık indirimle süreç devam ediyor; ancak Ekim enflasyonu beklentinin üzerinde geldi (%2,58). İndirim ihtimali yüksek, adımın küçülmesi bekleniyor.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "tr-tufe-30",
+   "q": "2026 Yıl Sonu Enflasyonu %30'un Altında Kalır mı?",
+   "p": 30,
+   "deadline": "2027-01-05",
+   "impact": "Yüksek",
+   "why": "Yıllık enflasyon %29,77. Geçen yılın Kasım–Aralık aylık verileri düşük olduğundan baz etkisi yıllık rakamı yukarı itiyor.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "usdtry-60",
+   "q": "Dolar/TL 12 Ay İçinde 60'ı Aşar mı?",
+   "p": 20,
+   "deadline": "2027-11-08",
+   "impact": "Yüksek",
+   "why": "Kur kontrollü bir patikada; son sekiz ayda yaklaşık %13 değer kaybı var. Bu hız sürerse 12 ay sonrası 57–58 bandına işaret ediyor; 60 için ek bir şok gerekir.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "fed-artirim",
+   "q": "Fed 12 Ay İçinde Faiz Artırır mı?",
+   "p": 40,
+   "deadline": "2027-11-08",
+   "impact": "Çok yüksek",
+   "why": "Ekim toplantısında iki üye artırım yönünde oy kullandı; ABD enflasyonu %3,7 ile hedefin belirgin biçimde üzerinde.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "abd-resesyon",
+   "q": "ABD 12 Ay İçinde Resesyona Girer mi?",
+   "p": 35,
+   "deadline": "2027-11-08",
+   "impact": "Çok yüksek",
+   "why": "İşsizlik %4,2'ye yükseldi, enflasyon inatçı. Sıkı para politikası ile enerji maliyeti birlikte büyümeyi baskılıyor.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "brent-110",
+   "q": "Brent Petrol 6 Ay İçinde 110 Doları Görür mü?",
+   "p": 25,
+   "deadline": "2027-05-08",
+   "impact": "Çok yüksek",
+   "why": "Hürmüz'de anlaşma umuduyla fiyat 100 doların altına indi. Anlaşma bozulursa hızlı bir sıçrama riski canlı kalıyor.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "altin-4500",
+   "q": "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?",
+   "p": 45,
+   "deadline": "2027-11-08",
+   "impact": "Orta",
+   "why": "Altın zirvesinden sert geri çekildi ve 4.050 dolar civarında. Merkez bankası alımları ve jeopolitik risk desteği sürüyor; sıkı Fed ise baskı unsuru.",
+   "motor": null,
+   "adj": null
+  },
+  {
+   "id": "nasdaq-25",
+   "q": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
+   "p": 25,
+   "deadline": "2027-11-08",
+   "impact": "Yüksek",
+   "why": "Yapay zekâ yatırımlarının değerlemeleri tarihsel ortalamaların üzerinde. Faiz artırımı ve resesyon senaryoları birlikte gerçekleşirse düzeltme derinleşebilir.",
+   "motor": null,
+   "adj": null
+  }
+ ],
+ "resolved": [],
+ "_motor_not": "motor ve adj ilk Quant taramasında doldurulacak; p = motor + adj",
+ "neolur": [
+  {
+   "id": "nvidia-2026-11",
+   "date": "2026-11-09",
+   "event": "Nvidia CEO'su hakkında Çin istihbaratı şüphesi ve iç soruşturma",
+   "items": [
+    {
+     "id": "nv-0",
+     "q": "Huang, 31 Aralık 2026'ya kadar Kongre'ye bilgi verir mi?",
+     "p": 65,
+     "lab": "Taban %75 · Claude −10",
+     "deadline": "2026-12-31"
+    },
+    {
+     "id": "nv-1",
+     "q": "Huang, 30 Haziran 2027'ye kadar CEO'luktan ayrılır mı?",
+     "p": 7,
+     "lab": "Taban %5 · Claude +2",
+     "deadline": "2027-06-30"
+    },
+    {
+     "id": "nv-2",
+     "q": "ABD, 31 Mart 2027'ye kadar Megaspeed'i ihracat kara listesine alır mı?",
+     "p": 35,
+     "lab": "Taban %25 · Claude +10",
+     "deadline": "2027-03-31"
+    },
+    {
+     "id": "nv-3",
+     "q": "ABD, 31 Mart 2027'ye kadar Çin'e yapay zekâ çipi satışına yeni kısıtlama getirir mi?",
+     "p": 30,
+     "lab": "Taban %35 · Claude −5",
+     "deadline": "2027-03-31"
+    },
+    {
+     "id": "nv-4",
+     "q": "Yarı İletken Endeksi (SOX), 31 Aralık 2026'ya kadar 6 Kasım kapanışının %10 altında kapanış görür mü?",
+     "p": 47,
+     "lab": "Motor %44 · Claude +3",
+     "deadline": "2026-12-31"
+    }
+   ]
+  }
+ ]
 }

@@ -46,6 +46,16 @@ Karne iki katmanı ayrı puanlar: motorun Brier skoru, Claude ayarlı skor. Ayar
 
 Ayar sınırı: tek tahminde ±20 puan. Daha büyük sapma için en az iki bağımsız kaynakla desteklenen somut bir gelişme gerekir.
 
+## 2b. "Ne Olur?" formatı (etki zinciri)
+
+Bir haber mevcut tahminleri eşik üstünde oynatmasa da piyasa için önemliyse içerik **"Ne Olur?"** sorusuyla üretilir. Olaydan başlanır, olası sonuçları tümden gelimle halka halka çıkarılır:
+
+1. **Şirket / aktör:** olayın doğrudan tarafları ne yapar?
+2. **Politika / kurum:** düzenleyici, hükümet, merkez bankası nasıl tepki verir?
+3. **Piyasa:** endeks, kur, emtia, sektör ne görür? (Tekil hisse yönü yok; endeks ve sektör var.)
+
+Her sonuç tarihli evet/hayır sorusudur; olasılık Taban/Motor + Claude ayarı olarak gösterilir, `data/quant.json` → `neolur` listesine yazılır ve son tarihinde karnede puanlanır. Ölçü: haber büyüklüğü değil, analizin sağlamlığı. Zayıf ya da tek kaynaklı olayda üretilmez. Kart: `node quant/zincir.js spec.json çıktı/`.
+
 ## 3. Karne (Quant'ı farklı kılan şey)
 
 Son tarihi gelen her tahmin kapatılır ve **Brier skoru** ile puanlanır (0 = kusursuz, 0,25 = yazı-tura). Sonuç ne olursa olsun yayınlanır; yanılan tahmin silinmez.
