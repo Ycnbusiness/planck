@@ -1,6 +1,6 @@
-# Planck T — Kurumsal Kurallar
+# Planck T+ — Kurumsal Kurallar
 
-**Planck T**, Planck'in spor kanalıdır. Instagram: **@planck.sports**.
+**Planck T+** (profil adı), Planck'in spor kanalıdır. Instagram: **@planck.sports**.
 
 - **Ad:** T, sporun evrensel mola işaretidir: oyunun durduğu, hesabın yapıldığı an. Fizikte T zamanın ve sıcaklığın sembolüdür; Planck zamanı ve Planck sıcaklığı temel Planck birimleridir. Uzay fırlatmalarında T+ kalkıştan sonraki zamandır.
 - **Üst slogan:** Bilginin bittiği yerde tahmin başlar.
