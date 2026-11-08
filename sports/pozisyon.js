@@ -29,7 +29,7 @@ function hud(t){x.strokeStyle=MUT;x.lineWidth=3;const m=56,Lh=56;[[m,m,1,1],[W-m
  T('@PLANCK.SPORTS',72,H-96,22,MUT,1,500,true,2);T('CLAUDE İLE HAZIRLANMIŞTIR',W-72,H-96,22,MUT,1,500,true,2,'right');}
 const KEY=new Set();S.players.forEach((p,i)=>{if(p.shooter||p.gk||(S.pass&&p.name===S.pass.by))KEY.add(i);});
 const LAB=(()=>{const placed=[],dots=S.players.map(p=>P(p.x,p.y));const order=S.players.map((p,i)=>i).sort((a,b)=>(KEY.has(b)?1:0)-(KEY.has(a)?1:0));const out=[];
- const G=10;const hit=(r)=>placed.some(q=>r.x-G<q.x+q.w&&r.x+r.w+G>q.x&&r.y-G<q.y+q.h&&r.y+r.h+G>q.y)||dots.some(d=>d[0]>r.x-14&&d[0]<r.x+r.w+14&&d[1]>r.y-14&&d[1]<r.y+r.h+14);
+ const G=7;const hit=(r)=>placed.some(q=>r.x-G<q.x+q.w&&r.x+r.w+G>q.x&&r.y-G<q.y+q.h&&r.y+r.h+G>q.y)||dots.some(d=>d[0]>r.x-14&&d[0]<r.x+r.w+14&&d[1]>r.y-14&&d[1]<r.y+r.h+14);
  for(const i of order){const p=S.players[i],[X,Y]=dots[i];const sz=p.shooter?26:21;F(sz,p.shooter?700:500,!p.shooter);const w=x.measureText(p.name).width+6,h=sz+4;
   const cands=[];for(const d of [0,28,56,84,112]){cands.push([X-w/2,Y-22-h-d],[X-w/2,Y+20+d],[X+20+d*.6,Y-h/2-d*.5],[X-20-w-d*.6,Y-h/2-d*.5],[X+20+d*.6,Y-h/2+d*.5],[X-20-w-d*.6,Y-h/2+d*.5]);}
   let r=null;for(const [cx,cy] of cands){const q={x:cx,y:cy,w,h};if(!hit(q)){r=q;break;}}if(!r)r={x:cands[0][0],y:cands[0][1],w,h};placed.push(r);out[i]={tx:r.x+w/2,ty:r.y+h-4,X,Y};}
