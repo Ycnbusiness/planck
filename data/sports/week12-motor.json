@@ -1,0 +1,101 @@
+[
+ {
+  "ev": "Amedspor",
+  "dep": "Rizespor",
+  "xg_ev": 2.37,
+  "xg_dep": 0.95,
+  "p": [
+   68,
+   20,
+   12
+  ]
+ },
+ {
+  "ev": "Gençlerbirliği",
+  "dep": "Gaziantep FK",
+  "xg_ev": 1.67,
+  "xg_dep": 1.07,
+  "p": [
+   50,
+   27,
+   23
+  ]
+ },
+ {
+  "ev": "Galatasaray",
+  "dep": "Samsunspor",
+  "xg_ev": 3.0,
+  "xg_dep": 0.94,
+  "p": [
+   78,
+   14,
+   8
+  ]
+ },
+ {
+  "ev": "Kocaelispor",
+  "dep": "Fenerbahçe",
+  "xg_ev": 1.23,
+  "xg_dep": 1.28,
+  "p": [
+   34,
+   30,
+   36
+  ]
+ },
+ {
+  "ev": "Konyaspor",
+  "dep": "Beşiktaş",
+  "xg_ev": 0.97,
+  "xg_dep": 1.41,
+  "p": [
+   24,
+   30,
+   46
+  ]
+ },
+ {
+  "ev": "Trabzonspor",
+  "dep": "Eyüpspor",
+  "xg_ev": 3.41,
+  "xg_dep": 0.51,
+  "p": [
+   90,
+   8,
+   2
+  ]
+ },
+ {
+  "ev": "Erzurumspor",
+  "dep": "Göztepe",
+  "xg_ev": 1.44,
+  "xg_dep": 1.6,
+  "p": [
+   33,
+   27,
+   40
+  ]
+ },
+ {
+  "ev": "Kasımpaşa",
+  "dep": "Alanyaspor",
+  "xg_ev": 1.82,
+  "xg_dep": 0.82,
+  "p": [
+   60,
+   25,
+   15
+  ]
+ },
+ {
+  "ev": "Başakşehir",
+  "dep": "Çorum FK",
+  "xg_ev": 1.93,
+  "xg_dep": 1.66,
+  "p": [
+   43,
+   24,
+   33
+  ]
+ }
+]
