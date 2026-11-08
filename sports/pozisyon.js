@@ -61,7 +61,7 @@ function draw(rt){const t=remap(rt);x.fillStyle=BG;x.fillRect(0,0,W,H);x.globalA
  const ca=seg(t,7.4,.8);if(ca>0){const s=P(S.shot[0],S.shot[1]),g1=P(120,36.34),g2=P(120,43.66);x.save();x.globalAlpha=ca*.18;x.fillStyle=BLUE;x.beginPath();x.moveTo(s[0],s[1]);x.lineTo(g1[0],g1[1]);x.lineTo(g2[0],g2[1]);x.closePath();x.fill();x.globalAlpha=ca;x.strokeStyle=BLUE;x.lineWidth=2;x.beginPath();x.moveTo(g1[0],g1[1]);x.lineTo(s[0],s[1]);x.lineTo(g2[0],g2[1]);x.stroke();x.restore();}
  // Ölçümler 8.4–12.8 (alt bölge)
  const ma=seg(t,8.4,.5)*(1-seg(t,12.6,.4));const by0=PY+PH+120;
- [['UZAKLIK',S.dist_m.toString().replace('.',',')+' m'],['ÖNÜNDEKİ SAVUNMACI',String(S.defenders_in_cone)],['VURUŞ',S.header?'Kafa':'Ayak']].forEach(([k,v],i)=>{const o=ma*seg(t,8.4+i*.5,.4);T(k,72,by0+i*120,24,MUT,o,500,true,3);T(v,W-72,by0+i*120,52,INK,o,500,true,0,'right');x.save();x.globalAlpha=o;x.fillStyle=DIM;x.fillRect(72,by0+i*120+30,W-144,2);x.restore();});
+ [['UZAKLIK',S.dist_m.toString().replace('.',',')+' m'],['ÖNÜNDEKİ SAVUNMACI',String(S.defenders_in_cone)],['VURUŞ ŞEKLİ',S.body||(S.header?'Kafa':'Ayak')]].forEach(([k,v],i)=>{const o=ma*seg(t,8.4+i*.5,.4);T(k,72,by0+i*120,24,MUT,o,500,true,3);T(v,W-72,by0+i*120,52,INK,o,500,true,0,'right');x.save();x.globalAlpha=o;x.fillStyle=DIM;x.fillRect(72,by0+i*120+30,W-144,2);x.restore();});
  // xG 12.8–16
  const xa=seg(t,12.8,.5);if(xa>0){const v=S.xg*100*E(seg(t,12.9,1.4));T('GOL OLASILIĞI (xG)',72,by0,24,MUT,xa,500,true,3);T('%'+v.toFixed(1).replace('.',','),72,by0+170,190,BLUE,xa,500,true,-6);
   T('Motor %'+(S.xg*100).toFixed(1).replace('.',',')+' · StatsBomb %'+(S.sb_xg*100).toFixed(1).replace('.',','),72,by0+230,24,MUT,xa*seg(t,13.6,.4),500,true,2);

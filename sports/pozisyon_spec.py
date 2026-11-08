@@ -20,5 +20,5 @@ spec = {'minute': shot['minute'], 'team': shot['team']['name'], 'shooter': playe
         'shot': shot['location'][:2], 'end': shot['shot']['end_location'][:2], 'outcome': shot['shot']['outcome']['name'],
         'pass': {'from': kp['location'], 'to': kp['pass']['end_location'], 'by': short(kp['player']['id'], kp['player']['name'])} if kp else None,
         'players': players, 'xg': round(pxg, 4), 'sb_xg': round(shot['shot']['statsbomb_xg'], 4),
-        'dist_m': round(f[1] * 0.9144, 1), 'defenders_in_cone': int(f[4]), 'header': bool(f[3])}
+        'dist_m': round(f[1] * 0.9144, 1), 'defenders_in_cone': int(f[4]), 'header': bool(f[3]), 'body': {'Left Foot': 'Sol ayak', 'Right Foot': 'Sağ ayak', 'Head': 'Kafa'}.get(shot['shot'].get('body_part', {}).get('name'), 'Diğer')}
 json.dump(spec, open(out, 'w'), ensure_ascii=False, indent=1); print(json.dumps({k: spec[k] for k in ('minute','shooter','xg','sb_xg','dist_m','defenders_in_cone','outcome')}, ensure_ascii=False)); print([p['name'] for p in players])
