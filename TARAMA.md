@@ -43,3 +43,7 @@ Bu değerlendirme Anthropic'in yapay zekâ modeli Claude tarafından güncel hab
 
 ## Yayın
 Görevler **asla kendi başına yayınlamaz**. Kartı repoya koyar ve kullanıcıya bildirir. Kullanıcı "yayınla" deyince Instagram'a Chrome üzerinden konur (AI etiketi açık, Facebook paylaşımı kapalı).
+
+## Otomatik yayın (09.11.2026 kararı)
+
+İki bağımsız güvenilir kaynakla doğrulanmış içerik onay beklemeden yayınlanır. Yayından önce Claude ana iddiayı kendisi iki bağımsız kaynakta yeniden doğrular; tek kaynak, söylenti veya resmi olmayan iddia yayınlanmaz. Her yayın `data/yayin-log.json`a kaynakları ve doğrulama sonucuyla kaydedilir; yanlış veri oranı buradan izlenir. Planck T+ bu kuralın dışındadır.

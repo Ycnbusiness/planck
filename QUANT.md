@@ -99,3 +99,7 @@ Planck tasarım sisteminin aynısı; ayrı bir renk yok. Quant'ı ayıran üç �
 ## 8. Ana Planck ile ilişki
 
 Quant, Planck'in içindedir: aynı model, aynı yöntem, aynı künye. Jeopolitik bir olay (ör. Hürmüz) ana Planck'te risk olarak, Quant'ta piyasa etkisi olarak işlenir; iki kanal birbirini etiketleyebilir ama içerik kopyalanmaz.
+
+## Otomatik yayın (09.11.2026 kararı)
+
+İki bağımsız güvenilir kaynakla doğrulanmış içerik onay beklemeden yayınlanır. Yayından önce Claude ana iddiayı kendisi iki bağımsız kaynakta yeniden doğrular; tek kaynak, söylenti veya resmi olmayan iddia yayınlanmaz. Her yayın `data/yayin-log.json`a kaynakları ve doğrulama sonucuyla kaydedilir; yanlış veri oranı buradan izlenir. Planck T+ bu kuralın dışındadır.
