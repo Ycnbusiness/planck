@@ -1,0 +1,130 @@
+{
+ "minute": 72,
+ "team": "England",
+ "shooter": "Palmer",
+ "shot": [
+  98.4,
+  49.0
+ ],
+ "end": [
+  120.0,
+  37.1
+ ],
+ "outcome": "Goal",
+ "pass": {
+  "from": [
+   107.6,
+   47.0
+  ],
+  "to": [
+   98.4,
+   51.8
+  ],
+  "by": "Bellingham"
+ },
+ "players": [
+  {
+   "name": "Carvajal",
+   "x": 110.4,
+   "y": 39.5,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Simón",
+   "x": 118.2,
+   "y": 40.7,
+   "team": "def",
+   "gk": true
+  },
+  {
+   "name": "Ruiz",
+   "x": 108.0,
+   "y": 58.3,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Laporte",
+   "x": 107.5,
+   "y": 53.1,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Cucurella",
+   "x": 109.1,
+   "y": 45.5,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Zubimendi",
+   "x": 106.4,
+   "y": 46.0,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Yamal",
+   "x": 102.1,
+   "y": 37.1,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Normand",
+   "x": 106.8,
+   "y": 44.4,
+   "team": "def",
+   "gk": false
+  },
+  {
+   "name": "Bellingham",
+   "x": 108.5,
+   "y": 47.0,
+   "team": "att",
+   "gk": false
+  },
+  {
+   "name": "Saka",
+   "x": 107.0,
+   "y": 54.1,
+   "team": "att",
+   "gk": false
+  },
+  {
+   "name": "Watkins",
+   "x": 108.7,
+   "y": 38.6,
+   "team": "att",
+   "gk": false
+  },
+  {
+   "name": "Foden",
+   "x": 108.5,
+   "y": 33.7,
+   "team": "att",
+   "gk": false
+  },
+  {
+   "name": "Shaw",
+   "x": 99.2,
+   "y": 27.2,
+   "team": "att",
+   "gk": false
+  },
+  {
+   "name": "Palmer",
+   "x": 98.4,
+   "y": 49.0,
+   "team": "att",
+   "shooter": true
+  }
+ ],
+ "xg": 0.0192,
+ "sb_xg": 0.0379,
+ "dist_m": 21.4,
+ "defenders_in_cone": 3,
+ "header": false
+}
