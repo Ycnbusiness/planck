@@ -28,13 +28,19 @@ function hud(t){x.strokeStyle=MUT;x.lineWidth=3;const m=56,Lh=56;[[m,m,1,1],[W-m
  T('PLANCK T+ · POZİSYON',72,128,22,MUT,1,500,true,2);T(M.sub.toUpperCase(),W-72,128,22,MUT,1,500,true,2,'right');
  T('@PLANCK.SPORTS',72,H-96,22,MUT,1,500,true,2);T('CLAUDE İLE HAZIRLANMIŞTIR',W-72,H-96,22,MUT,1,500,true,2,'right');}
 const KEY=new Set();S.players.forEach((p,i)=>{if(p.shooter||p.gk||(S.pass&&p.name===S.pass.by))KEY.add(i);});
-const LAB=(()=>{const placed=[],dots=S.players.map(p=>P(p.x,p.y));const order=S.players.map((p,i)=>i).sort((a,b)=>(KEY.has(b)?1:0)-(KEY.has(a)?1:0));const out=[];
- const G=7;const hit=(r)=>placed.some(q=>r.x-G<q.x+q.w&&r.x+r.w+G>q.x&&r.y-G<q.y+q.h&&r.y+r.h+G>q.y)||dots.some(d=>d[0]>r.x-14&&d[0]<r.x+r.w+14&&d[1]>r.y-14&&d[1]<r.y+r.h+14);
+// İsim yerleşimi: birkaç (boşluk, adım) ayarını dener, en kaliteli sonucu seçer.
+// Puan: çakışma çok ağır ceza; isim oyuncudan ne kadar uzaksa ve bağlantı çizgisi gerekiyorsa ceza; kilit oyuncular için ceza 2 kat.
+function layout(G,STEP){const placed=[],dots=S.players.map(p=>P(p.x,p.y));const order=S.players.map((p,i)=>i).sort((a,b)=>(KEY.has(b)?1:0)-(KEY.has(a)?1:0));const out=[];let score=0;
+ const ov=(r,g)=>placed.some(q=>r.x-g<q.x+q.w&&r.x+r.w+g>q.x&&r.y-g<q.y+q.h&&r.y+r.h+g>q.y)||dots.some(d=>d[0]>r.x-14&&d[0]<r.x+r.w+14&&d[1]>r.y-14&&d[1]<r.y+r.h+14);
  for(const i of order){const p=S.players[i],[X,Y]=dots[i];const sz=p.shooter?26:21;F(sz,p.shooter?700:500,!p.shooter);const w=x.measureText(p.name).width+6,h=sz+4;
-  const cands=[];for(const d of [0,28,56,84,112]){cands.push([X-w/2,Y-22-h-d],[X-w/2,Y+20+d],[X+20+d*.6,Y-h/2-d*.5],[X-20-w-d*.6,Y-h/2-d*.5],[X+20+d*.6,Y-h/2+d*.5],[X-20-w-d*.6,Y-h/2+d*.5]);}
-  let r=null;for(const [cx,cy] of cands){const q={x:cx,y:cy,w,h};if(!hit(q)){r=q;break;}}if(!r)r={x:cands[0][0],y:cands[0][1],w,h};placed.push(r);out[i]={tx:r.x+w/2,ty:r.y+h-4,X,Y};}
- return out;})();
-function player(p,o,hl,i){const [X,Y]=P(p.x,p.y);x.save();x.globalAlpha=o;
+  const cands=[];for(let k=0;k<6;k++){const d=k*STEP;cands.push([X-w/2,Y-22-h-d],[X-w/2,Y+20+d],[X+20+d*.6,Y-h/2-d*.5],[X-20-w-d*.6,Y-h/2-d*.5],[X+20+d*.6,Y-h/2+d*.5],[X-20-w-d*.6,Y-h/2+d*.5]);}
+  let r=null;for(const [cx,cy] of cands){const q={x:cx,y:cy,w,h};if(!ov(q,G)){r=q;break;}}
+  if(!r){r={x:cands[0][0],y:cands[0][1],w,h};score+=10000;}
+  const dist=Math.hypot(r.x+w/2-X,r.y+h/2-Y);score+=(KEY.has(i)?2:1)*(dist+(dist>48?60:0));
+  placed.push(r);out[i]={tx:r.x+w/2,ty:r.y+h-4,X,Y};}
+ return {out,score,G,STEP};}
+let LAB=null;function computeLAB(){let best=null;for(const G of [5,7,10,14])for(const STEP of [16,20,24,28]){const L=layout(G,STEP);if(!best||L.score<best.score)best=L;}window.LAYOUT={G:best.G,STEP:best.STEP,score:Math.round(best.score)};return best.out;}
+function player(p,o,hl,i){if(!LAB)LAB=computeLAB();const [X,Y]=P(p.x,p.y);x.save();x.globalAlpha=o;
  if(p.team==='att'){x.fillStyle=p.shooter?BLUE:'#2c3a66';x.strokeStyle=BLUE;x.lineWidth=3;x.beginPath();x.arc(X,Y,p.shooter?16:12,0,7);x.fill();x.stroke();}
  else{x.strokeStyle=hl?INK:MUT;x.lineWidth=hl?4:3;if(p.gk){x.strokeRect(X-12,Y-12,24,24);}else{x.beginPath();x.arc(X,Y,12,0,7);x.stroke();}}
  F(p.shooter?26:21,p.shooter?700:500,!p.shooter);x.fillStyle=p.team==='att'?(p.shooter?INK:'#b8c6ff'):MUT;x.textAlign='center';const L=LAB[i];const lx=L.tx,lyy=L.ty-8;if(Math.hypot(lx-X,lyy-Y)>48){x.strokeStyle=LINE;x.lineWidth=1.5;x.beginPath();x.moveTo(X,Y);x.lineTo(lx,lyy+(lyy<Y?10:-14));x.stroke();}x.fillText(p.name,L.tx,L.ty);x.restore();}
@@ -70,7 +76,7 @@ function draw(rt){const t=remap(rt);x.fillStyle=BG;x.fillRect(0,0,W,H);x.globalA
 window.draw=draw;</script>`;
 (async () => {
   const br = await chromium.launch(); const pg = await br.newPage({ viewport: { width: 1080, height: 1920 } });
-  await pg.setContent(page); await pg.waitForTimeout(400); await pg.evaluate(() => document.fonts.ready);
+  await pg.setContent(page); await pg.waitForTimeout(400); await pg.evaluate(() => document.fonts.ready); await pg.evaluate(() => window.draw(10)); console.error('isim yerleşimi:', JSON.stringify(await pg.evaluate(() => window.LAYOUT)));
   if (process.env.STILLS) { for (const t of process.env.STILLS.split(',')) { await pg.evaluate(v => window.draw(+v), t); await pg.screenshot({ path: OUT.replace('.mp4', `-${t}.png`) }); } await br.close(); return; }
   const tmp = OUT + '.silent.mp4';
   const f = spawn('ffmpeg', ['-y','-f','image2pipe','-framerate',String(FPS),'-c:v','mjpeg','-i','-','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p',tmp], { stdio: ['pipe','ignore','ignore'] });
