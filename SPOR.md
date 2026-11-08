@@ -4,6 +4,7 @@
 
 - **Ad:** T, sporun evrensel mola işaretidir: oyunun durduğu, hesabın yapıldığı an. Fizikte T zamanın ve sıcaklığın sembolüdür; Planck zamanı ve Planck sıcaklığı temel Planck birimleridir. Uzay fırlatmalarında T+ kalkıştan sonraki zamandır.
 - **Üst slogan:** Bilginin bittiği yerde tahmin başlar.
+- **Kanal sloganı:** Oyun durur, hesap başlar.
 - **Kapsam:** Futbol öncelikli (Süper Lig, Avrupa kupaları, büyük ligler), ardından basketbol, tenis, Formula 1 ve büyük turnuvalar.
 
 ## 1. Kırmızı çizgi: bahis
