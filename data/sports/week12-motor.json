@@ -2,7 +2,7 @@
  {
   "ev": "Amedspor",
   "dep": "Rizespor",
-  "xg_ev": 2.37,
+  "xg_ev": 2.38,
   "xg_dep": 0.95,
   "p": [
    68,
@@ -47,7 +47,7 @@
   "ev": "Konyaspor",
   "dep": "Beşiktaş",
   "xg_ev": 0.97,
-  "xg_dep": 1.41,
+  "xg_dep": 1.42,
   "p": [
    24,
    30,
@@ -57,8 +57,8 @@
  {
   "ev": "Trabzonspor",
   "dep": "Eyüpspor",
-  "xg_ev": 3.41,
-  "xg_dep": 0.51,
+  "xg_ev": 3.42,
+  "xg_dep": 0.5,
   "p": [
    90,
    8,
@@ -79,7 +79,7 @@
  {
   "ev": "Kasımpaşa",
   "dep": "Alanyaspor",
-  "xg_ev": 1.82,
+  "xg_ev": 1.83,
   "xg_dep": 0.82,
   "p": [
    60,

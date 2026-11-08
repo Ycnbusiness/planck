@@ -14,7 +14,7 @@
 - Her gönderinin son satırı: **"Bahis tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır."**
 
 ## 2. Olasılık: Motor + Claude
-- **Motor:** Lig içi maçlarda attığı/yediği gole dayalı Poisson + Dixon-Coles güç modeli; ligler arası (Avrupa kupaları) maçlarda ClubElo puanı + iç saha avantajı. Kod: `sports/motor.py`. Aynı veriyle aynı sonuç.
+- **Motor:** Lig içi maçlarda attığı/yediği gole dayalı Poisson + Dixon-Coles güç modeli; ligler arası (Avrupa kupaları) maçlarda ClubElo puanı + iç saha avantajı. Kod: `sports/motor.py`. Aynı veriyle aynı sonuç. Parametreler geçmiş maç verisinden ölçülür ve `sports/params.json`'da durur; ölçüm raporu `sports/EGITIM.md`.
 - **Genişleme sırası:** Futbol (Türkiye + Avrupa) → basketbol (NBA, EuroLeague; sayı farkı Elo) → tenis (oyuncu Elo) → Formula 1.
 - **Claude ayarı:** Sakat/cezalı oyuncular, teknik direktör değişikliği, rotasyon, derbi baskısı, kulüp krizi. Tek maçta en fazla ±10 puan (spor verisi zengin olduğu için sınır finanstakinden dardır). Gerekçe yazılır.
 - Kartta gösterim: `Ev %44 · Beraberlik %27 · Deplasman %29` ve altında `Motor · Claude ayarı`.

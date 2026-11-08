@@ -1,0 +1,136 @@
+{
+ "_aciklama": "Planck T+ motor parametreleri; sports/egitim.py ile openfootball verisinden ölçüldü. tablo: sadece puan tablosuyla çalışan yol (HOME ev avantajı çarpanı, RHO Dixon-Coles, K büzülme). maclar: maç listesiyle çalışan yol (ek olarak XI zaman ağırlığı gün^-1, ONCEKI_SEZON). LIG_ORT takım başına maç başı gol öncülü. ELO_HOME/ELO_DRAW: Elo ev puanı ve beraberlik payı.",
+ "superlig": {
+  "tablo": {
+   "K": 8,
+   "RHO": -0.12,
+   "HOME": 1.15,
+   "kaynak": "eski"
+  },
+  "maclar": {
+   "K": 7,
+   "RHO": -0.06,
+   "HOME": 1.1196,
+   "XI": 0.001,
+   "ONCEKI_SEZON": true,
+   "kaynak": "genel"
+  },
+  "LIG_ORT": 1.372,
+  "ELO_HOME": 65,
+  "ELO_DRAW": 0.27
+ },
+ "ligue1": {
+  "tablo": {
+   "K": 9,
+   "RHO": -0.04,
+   "HOME": 1.119,
+   "kaynak": "lig"
+  },
+  "maclar": {
+   "K": 9,
+   "RHO": -0.04,
+   "HOME": 1.119,
+   "XI": 0.001,
+   "ONCEKI_SEZON": true,
+   "kaynak": "lig"
+  },
+  "LIG_ORT": 1.346,
+  "ELO_HOME": 65,
+  "ELO_DRAW": 0.27
+ },
+ "premierleague": {
+  "tablo": {
+   "K": 7,
+   "RHO": -0.03,
+   "HOME": 1.1102,
+   "kaynak": "lig"
+  },
+  "maclar": {
+   "K": 7,
+   "RHO": -0.03,
+   "HOME": 1.1102,
+   "XI": 0.002,
+   "ONCEKI_SEZON": true,
+   "kaynak": "lig"
+  },
+  "LIG_ORT": 1.417,
+  "ELO_HOME": 50,
+  "ELO_DRAW": 0.285
+ },
+ "bundesliga": {
+  "tablo": {
+   "K": 7,
+   "RHO": -0.06,
+   "HOME": 1.1196,
+   "kaynak": "genel"
+  },
+  "maclar": {
+   "K": 7,
+   "RHO": -0.06,
+   "HOME": 1.1196,
+   "XI": 0.001,
+   "ONCEKI_SEZON": true,
+   "kaynak": "genel"
+  },
+  "LIG_ORT": 1.537,
+  "ELO_HOME": 52,
+  "ELO_DRAW": 0.305
+ },
+ "laliga": {
+  "tablo": {
+   "K": 8,
+   "RHO": -0.04,
+   "HOME": 1.1438,
+   "kaynak": "lig"
+  },
+  "maclar": {
+   "K": 8,
+   "RHO": -0.04,
+   "HOME": 1.1438,
+   "XI": 0.0,
+   "ONCEKI_SEZON": true,
+   "kaynak": "lig"
+  },
+  "LIG_ORT": 1.304,
+  "ELO_HOME": 68,
+  "ELO_DRAW": 0.335
+ },
+ "seriea": {
+  "tablo": {
+   "K": 4,
+   "RHO": -0.06,
+   "HOME": 1.0916,
+   "kaynak": "lig"
+  },
+  "maclar": {
+   "K": 4,
+   "RHO": -0.06,
+   "HOME": 1.0916,
+   "XI": 0.001,
+   "ONCEKI_SEZON": true,
+   "kaynak": "lig"
+  },
+  "LIG_ORT": 1.403,
+  "ELO_HOME": 38,
+  "ELO_DRAW": 0.325
+ },
+ "genel": {
+  "tablo": {
+   "K": 7,
+   "RHO": -0.06,
+   "HOME": 1.1196,
+   "kaynak": "genel"
+  },
+  "maclar": {
+   "K": 7,
+   "RHO": -0.06,
+   "HOME": 1.1196,
+   "XI": 0.001,
+   "ONCEKI_SEZON": true,
+   "kaynak": "genel"
+  },
+  "LIG_ORT": 1.395,
+  "ELO_HOME": 50,
+  "ELO_DRAW": 0.316
+ }
+}
