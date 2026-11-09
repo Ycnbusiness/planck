@@ -1,0 +1,53 @@
+{
+ "week": "2026-W46",
+ "title": "Bu Hafta Dünya",
+ "items": [
+  {
+   "name": "Kronik Bölgesel Çatışmalar",
+   "p": 85,
+   "d": 3
+  },
+  {
+   "name": "Kalıcı Enerji ve Lojistik Maliyetleri",
+   "p": 71,
+   "d": 0
+  },
+  {
+   "name": "Avrupa'da Siyasi Parçalanma",
+   "p": 65,
+   "d": 1
+  },
+  {
+   "name": "ABD–Çin Teknoloji Ayrışması",
+   "p": 58,
+   "d": 0
+  },
+  {
+   "name": "Yapay Zekâ Kaynaklı Beyaz Yaka İşsizliği",
+   "p": 51,
+   "d": -1
+  },
+  {
+   "name": "Gıda Fiyatlarında Şok",
+   "p": 47,
+   "d": -1
+  },
+  {
+   "name": "Kritik Altyapıya Siber Saldırılar",
+   "p": 42,
+   "d": 4
+  },
+  {
+   "name": "Demokratik Kurumlarda Aşınma",
+   "p": 35,
+   "d": 2
+  }
+ ],
+ "focus": {
+  "name": "Kritik Altyapıya Siber Saldırılar",
+  "from": 38,
+  "to": 42,
+  "why": "Fransa'da yüzlerce marketin soğutma sistemi uzaktan ele geçirildi; ABD'den ortak uyarı."
+ },
+ "question": "Altyapıya yönelen saldırılar kışı nasıl etkiler?"
+}
