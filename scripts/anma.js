@@ -23,7 +23,8 @@ let SILC=null;const getSIL=()=>SILC||(SILC=(()=>{const im=document.getElementByI
  const cv=document.createElement('canvas'),Wm=S.maskW||420,Hm=Math.round(Wm*im.naturalHeight/im.naturalWidth);cv.width=Wm;cv.height=Hm;const g=cv.getContext('2d');g.drawImage(im,0,0,Wm,Hm);
  const d=g.getImageData(0,0,Wm,Hm).data,on=(X,Y)=>{if(X<0||Y<0||X>=Wm||Y>=Hm)return false;const i=(Y*Wm+X)*4;const a=d[i+3]/255,l=(d[i]+d[i+1]+d[i+2])/765;return S.maskInvert?(a>.5&&l<.5):(a>.5&&(S.maskAlpha?true:l>.5));};
  const scale=Math.min(860/Wm,980/Hm),OX=(1080-Wm*scale)/2,OY=1400-Hm*scale;let sd=11;const r=()=>(sd=(sd*16807)%2147483647)/2147483647;const out=[];
- const STP=S.maskStep||2,KI=S.keepIn??.38,KE=S.keepEdge??.75;for(let Y=0;Y<Hm;Y+=STP)for(let X=0;X<Wm;X+=STP){if(!on(X,Y))continue;const e=!on(X-3,Y)||!on(X+3,Y)||!on(X,Y-3)||!on(X,Y+3);if(!e&&r()>KI)continue;if(e&&r()>KE)continue;
+ const STP=S.maskStep||2,KI=S.keepIn??.38,KE=S.keepEdge??.75;const kx=im.naturalWidth/Wm,EY=(S.eyes||[]),inEye=(X,Y)=>EY.some(([cx,cy,rr])=>Math.hypot(X*kx-cx,Y*kx-cy)<=rr);
+ for(let Y=0;Y<Hm;Y+=STP)for(let X=0;X<Wm;X+=STP){if(inEye(X,Y)){const ang=r()*6.283,rad=900+r()*700;out.push({tx:OX+X*scale,ty:OY+Y*scale,sx:540+Math.cos(ang)*rad,sy:960+Math.sin(ang)*rad,d:.3+r()*.4,c:false,b:true});continue;}if(!on(X,Y))continue;const e=!on(X-3,Y)||!on(X+3,Y)||!on(X,Y-3)||!on(X,Y+3);if(!e&&r()>KI)continue;if(e&&r()>KE)continue;
   const ang=r()*6.283,rad=900+r()*700;out.push({tx:OX+(X+(r()-.5)*1.5)*scale,ty:OY+(Y+(r()-.5)*1.5)*scale,sx:540+Math.cos(ang)*rad,sy:960+Math.sin(ang)*rad,d:r()*(e?.5:1),c:e});}
  return out;})());
 function hud(t){x.strokeStyle=MUT;x.lineWidth=3;const m=56,L=56;[[m,m,1,1],[W-m,m,-1,1],[m,H-m,1,-1],[W-m,H-m,-1,-1]].forEach(([a,b,sx,sy])=>{x.beginPath();x.moveTo(a,b+sy*L);x.lineTo(a,b);x.lineTo(a+sx*L,b);x.stroke();});
@@ -64,9 +65,9 @@ function draw(t){bg(t);hud(t);
  // 5) Kapanış — yıldızlar birleşip silüeti oluşturur (36.6–46)
  if(t>36.4){const SIL=getSIL();const k=SIL.length;for(let i=0;i<k;i++){const q=SIL[i];const st=36.6+q.d*2.2,p=seg(t,st,1.6+q.d*.6),e=1-Math.pow(1-p,4);
    const px=q.sx+(q.tx-q.sx)*e,py=q.sy+(q.ty-q.sy)*e;const tw=.75+.25*Math.sin(t*3+i);
-   x.globalAlpha=(p>0?(.35+.65*e):.25)*tw;x.fillStyle=(q.c&&e>.98)?'#ffffff':(i%9==0?BLUE:'#dfe6f5');const DS=S.dot||3.2;x.fillRect(px-DS/2,py-DS/2,DS,DS);
+   x.globalAlpha=(p>0?(.35+.65*e):.25)*tw;x.fillStyle=q.b?(e>.9?'#62b0ff':'#8cc4ff'):(q.c&&e>.98)?'#ffffff':(i%9==0?BLUE:'#dfe6f5');if(q.b)x.globalAlpha=Math.min(1,x.globalAlpha*1.2);const DS=S.dot||3.2;x.fillRect(px-DS/2,py-DS/2,DS,DS);
    if(p>0&&p<1){x.globalAlpha=.25*(1-e);x.fillRect(px-(q.tx-q.sx)*.04,py-(q.ty-q.sy)*.04,2,2);}}
-  x.globalAlpha=1;const a5=seg(t,41.2,1.2);
+  x.globalAlpha=1;const eb=SIL.filter(q=>q.b);if(eb.length){const g2=seg(t,39.4,1.6);[0,1].forEach(side=>{const pts=eb.filter(q=>(q.tx<540)===(side===0));if(!pts.length)return;const cx=pts.reduce((a,q)=>a+q.tx,0)/pts.length,cy=pts.reduce((a,q)=>a+q.ty,0)/pts.length;const gr=x.createRadialGradient(cx,cy,0,cx,cy,46);gr.addColorStop(0,'rgba(98,176,255,'+(.45*g2)+')');gr.addColorStop(1,'rgba(98,176,255,0)');x.fillStyle=gr;x.fillRect(cx-50,cy-50,100,100);});}const a5=seg(t,41.2,1.2);
   C('Saygı, özlem ve minnetle.',1560,50,INK,a5,400);C('10 KASIM 1938 — 10 KASIM 2026',1640,28,MUT,a5*seg(t,42,.8),500,true,4);}}
 window.draw=draw;</script>`;
 (async () => {
