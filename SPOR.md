@@ -1,5 +1,7 @@
 # Planck T+ — Kurumsal Kurallar
 
+> **Önce `ANAYASA.md` okunur.** O belge bütün kanalları bağlar; bu dosya onunla çelişirse Anayasa geçerlidir. Yayınlanan her olasılık `data/sorular.json` siciline kayıtlı olmak zorundadır (`scripts/sicil.py`).
+
 **Planck T+** (profil adı), Planck'in spor kanalıdır. Instagram: **@planck.sports**.
 
 - **Ad:** T, sporun evrensel mola işaretidir: oyunun durduğu, hesabın yapıldığı an. Fizikte T zamanın ve sıcaklığın sembolüdür; Planck zamanı ve Planck sıcaklığı temel Planck birimleridir. Uzay fırlatmalarında T+ kalkıştan sonraki zamandır.

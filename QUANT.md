@@ -1,5 +1,7 @@
 # Planck Quant — Kurumsal Kurallar
 
+> **Önce `ANAYASA.md` okunur.** O belge bütün kanalları bağlar; bu dosya onunla çelişirse Anayasa geçerlidir. Yayınlanan her olasılık `data/sorular.json` siciline kayıtlı olmak zorundadır (`scripts/sicil.py`).
+
 **Planck Quant**, Planck'in finans, ekonomi ve piyasa kanalıdır. Fiyat tahmini yapmaz, yön söylemez; piyasayı ilgilendiren olayların gerçekleşme olasılığını ölçer.
 
 - Kanal: Instagram **@planck.quant** · Web: **planck.news/quant**

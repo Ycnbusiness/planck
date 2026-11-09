@@ -1,5 +1,7 @@
 # Planck · Kanıt — Yöntem (v0)
 
+> **Önce `ANAYASA.md` okunur.** O belge bütün kanalları bağlar; bu dosya onunla çelişirse Anayasa geçerlidir. Yayınlanan her olasılık `data/sorular.json` siciline kayıtlı olmak zorundadır (`scripts/sicil.py`).
+
 Kanıt serisi bir olayın değil bir **iddianın** geleceğini ölçer: "Bu bulgu başka çalışmalarca doğrulanır mı?"
 
 ## Motor (kurallı, puan bazlı)

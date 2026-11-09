@@ -1,0 +1,714 @@
+{
+ "surum": 1,
+ "updated": "2026-11-10",
+ "sorular": [
+  {
+   "id": "risk-catisma",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Kronik Bölgesel Çatışmalar (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 85,
+   "ilk_p": 85,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 85,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-enerji",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Kalıcı Enerji ve Lojistik Maliyetleri (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 71,
+   "ilk_p": 71,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 71,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-avrupa",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Avrupa'da Siyasi Parçalanma (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 65,
+   "ilk_p": 65,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 65,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-yz-issizlik",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Yapay Zekâ Kaynaklı Beyaz Yaka İşsizliği (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 51,
+   "ilk_p": 51,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 51,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-gida",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Gıda Fiyatlarında Şok (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 47,
+   "ilk_p": 47,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 47,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-siber",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Kritik Altyapıya Siber Saldırılar (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 42,
+   "ilk_p": 42,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 42,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-kurumlar",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Demokratik Kurumlarda Aşınma (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 35,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-tayvan",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "Tayvan Krizi (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 13,
+   "ilk_p": 13,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 13,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "risk-abd-cin-teknoloji",
+   "kanal": "news",
+   "tur": "endeks",
+   "q": "ABD–Çin Teknoloji Ayrışması (2031 ufku)",
+   "acilis": "2026-11-09",
+   "deadline": "2031-12-31",
+   "kriter": null,
+   "kaynak_cozum": null,
+   "taban": null,
+   "mercekler": [],
+   "on_otopsi": null,
+   "motor": null,
+   "p": 58,
+   "ilk_p": 58,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 58,
+     "motor": null,
+     "neden": "göç: risks.json"
+    }
+   ]
+  },
+  {
+   "id": "q-tcmb-aralik",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "TCMB Aralık PPK'da Faiz İndirir mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2026-12-31",
+   "kriter": "TCMB, Aralık 2026 PPK toplantısında bir hafta vadeli repo faizini düşürürse evet.",
+   "kaynak_cozum": "TCMB PPK karar duyurusu",
+   "taban": "Motor %70 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Enflasyon Raporu'nda tahmin yukarı çekilir ve Kurul beklemeyi seçer.",
+   "motor": 70,
+   "p": 62,
+   "ilk_p": 62,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 62,
+     "motor": 70,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-tr-tufe-30",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "2026 Yıl Sonu Enflasyonu %30'un Altında Kalır mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-01-05",
+   "kriter": "TÜİK'in Ocak 2027 başında açıklayacağı Aralık 2026 yıllık TÜFE %30,0'ın altındaysa evet.",
+   "kaynak_cozum": "TÜİK tüketici fiyat endeksi bülteni",
+   "taban": "Motor %60 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Kasım–Aralık aylık artışları kur ya da yönetilen fiyatlar nedeniyle beklentiyi aşar.",
+   "motor": 60,
+   "p": 52,
+   "ilk_p": 52,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 52,
+     "motor": 60,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-usdtry-60",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "Dolar/TL 12 Ay İçinde 60'ı Aşar mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-11-08",
+   "kriter": "TCMB gösterge niteliğindeki dolar alış kuru 8 Kasım 2027'ye kadar herhangi bir gün 60,00'ın üstünde ilan edilirse evet.",
+   "kaynak_cozum": "TCMB günlük kur tablosu",
+   "taban": "Motor %56 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Reel değerlenme politikası beklenenden uzun sürer ya da tersine sert bir kur şoku yaşanır.",
+   "motor": 56,
+   "p": 46,
+   "ilk_p": 46,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 46,
+     "motor": 56,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-fed-artirim",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "Fed 12 Ay İçinde Faiz Artırır mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-11-08",
+   "kriter": "FOMC, 8 Kasım 2027'ye kadar federal fon hedef aralığını en az bir kez yükseltirse evet.",
+   "kaynak_cozum": "Federal Reserve FOMC açıklaması",
+   "taban": "Motor %86 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Büyüme ve istihdam zayıflar, enflasyona rağmen Fed bekler.",
+   "motor": 86,
+   "p": 81,
+   "ilk_p": 81,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 81,
+     "motor": 86,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-abd-resesyon",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "ABD 12 Ay İçinde Resesyona Girer mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-11-08",
+   "kriter": "8 Kasım 2027'ye kadar yayımlanan BEA verisinde art arda iki çeyrek negatif reel GSYH büyümesi görülürse ya da NBER bu dönemde başlayan bir resesyon ilan ederse evet.",
+   "kaynak_cozum": "BEA GSYH bülteni; NBER",
+   "taban": "Motor %25 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Enerji şoku tüketimi beklenenden hızlı düşürür.",
+   "motor": 25,
+   "p": 32,
+   "ilk_p": 32,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 32,
+     "motor": 25,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-brent-110",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "Brent Petrol 6 Ay İçinde 110 Doları Görür mü?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-05-08",
+   "kriter": "Brent vadeli (ön ay) 8 Mayıs 2027'ye kadar herhangi bir gün 110 doların üstünde kapanırsa evet.",
+   "kaynak_cozum": "ICE Brent günlük kapanış (iki ajans teyidi)",
+   "taban": "Motor %78 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Arz kesintisi kısa sürer ya da talep zayıflığı fiyatı sınırlar.",
+   "motor": 78,
+   "p": 63,
+   "ilk_p": 63,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 63,
+     "motor": 78,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-altin-4500",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-11-08",
+   "kriter": "Ons altın spot fiyatı (LBMA öğleden sonra) 8 Kasım 2027'ye kadar herhangi bir gün 4.500 doların üstünde belirlenirse evet.",
+   "kaynak_cozum": "LBMA Gold Price PM",
+   "taban": "Motor %73 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Reel faiz yükselişi merkez bankası alımlarını bastırır.",
+   "motor": 73,
+   "p": 61,
+   "ilk_p": 61,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 61,
+     "motor": 73,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-nasdaq-25",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-11-08",
+   "kriter": "Nasdaq Bileşik, 8 Kasım 2027'ye kadar herhangi bir kapanışta tüm zamanların en yüksek kapanışının %25 altına inerse evet.",
+   "kaynak_cozum": "Nasdaq günlük kapanış verisi",
+   "taban": "Motor %54 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Kazançlar faiz artışını telafi eder ve düşüş %15–20 bandında kalır.",
+   "motor": 54,
+   "p": 45,
+   "ilk_p": 45,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 45,
+     "motor": 54,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "q-abd-tufe-ekim-03",
+   "kanal": "quant",
+   "tur": "olay",
+   "q": "Ekim ABD TÜFE Aylık %0,3 veya Üzerinde Gelir mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2026-11-10",
+   "kriter": "BLS'nin açıkladığı Ekim 2026 mevsimsellikten arındırılmış aylık manşet TÜFE değişimi %0,3 ya da üstündeyse evet.",
+   "kaynak_cozum": "BLS CPI bülteni",
+   "taban": "Motor %57 (quant/motor.py)",
+   "mercekler": [],
+   "on_otopsi": "Enerji kalemi aylık bazda geri çekilir.",
+   "motor": 57,
+   "p": 60,
+   "ilk_p": 60,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 60,
+     "motor": 57,
+     "neden": "göç: quant.json"
+    }
+   ]
+  },
+  {
+   "id": "nv-0",
+   "kanal": "quant",
+   "tur": "neolur",
+   "q": "Huang, 31 Aralık 2026'ya kadar Kongre'ye bilgi verir mi?",
+   "acilis": "2026-11-09",
+   "deadline": "2026-12-31",
+   "kriter": "Jensen Huang 31 Aralık 2026'ya kadar bir Kongre komitesinde ifade verir ya da kapalı oturumda bilgi verdiği iki ajansça bildirilirse evet.",
+   "kaynak_cozum": "Kongre komite kaydı; Reuters/AP",
+   "taban": "Taban %75 · Claude −10",
+   "mercekler": [],
+   "on_otopsi": "Süreç yazılı yanıtla ya da avukatlar üzerinden yürür.",
+   "motor": null,
+   "p": 65,
+   "ilk_p": 65,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 65,
+     "motor": null,
+     "neden": "göç: nvidia-2026-11"
+    }
+   ]
+  },
+  {
+   "id": "nv-1",
+   "kanal": "quant",
+   "tur": "neolur",
+   "q": "Huang, 30 Haziran 2027'ye kadar CEO'luktan ayrılır mı?",
+   "acilis": "2026-11-09",
+   "deadline": "2027-06-30",
+   "kriter": "Nvidia, 30 Haziran 2027'ye kadar Huang'ın CEO görevinden ayrıldığını ya da görevden alındığını duyurursa evet.",
+   "kaynak_cozum": "Nvidia SEC 8-K bildirimi",
+   "taban": "Taban %5 · Claude +2",
+   "mercekler": [],
+   "on_otopsi": "Soruşturma beklenmeyen bir bulguyla derinleşir.",
+   "motor": null,
+   "p": 7,
+   "ilk_p": 7,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 7,
+     "motor": null,
+     "neden": "göç: nvidia-2026-11"
+    }
+   ]
+  },
+  {
+   "id": "nv-2",
+   "kanal": "quant",
+   "tur": "neolur",
+   "q": "ABD, 31 Mart 2027'ye kadar Megaspeed'i ihracat kara listesine alır mı?",
+   "acilis": "2026-11-09",
+   "deadline": "2027-03-31",
+   "kriter": "ABD Ticaret Bakanlığı BIS, 31 Mart 2027'ye kadar Megaspeed'i Entity List'e eklerse evet.",
+   "kaynak_cozum": "Federal Register / BIS duyurusu",
+   "taban": "Taban %25 · Claude +10",
+   "mercekler": [],
+   "on_otopsi": "İdare şirket yerine genel kural yolunu seçer.",
+   "motor": null,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 35,
+     "motor": null,
+     "neden": "göç: nvidia-2026-11"
+    }
+   ]
+  },
+  {
+   "id": "nv-3",
+   "kanal": "quant",
+   "tur": "neolur",
+   "q": "ABD, 31 Mart 2027'ye kadar Çin'e yapay zekâ çipi satışına yeni kısıtlama getirir mi?",
+   "acilis": "2026-11-09",
+   "deadline": "2027-03-31",
+   "kriter": "BIS, 31 Mart 2027'ye kadar Çin'e yapay zekâ çipi ihracatını daraltan yeni bir kural ya da lisans şartı yayımlarsa evet.",
+   "kaynak_cozum": "Federal Register / BIS duyurusu",
+   "taban": "Taban %35 · Claude −5",
+   "mercekler": [],
+   "on_otopsi": "Ticaret müzakeresi nedeniyle kısıtlama ertelenir.",
+   "motor": null,
+   "p": 30,
+   "ilk_p": 30,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 30,
+     "motor": null,
+     "neden": "göç: nvidia-2026-11"
+    }
+   ]
+  },
+  {
+   "id": "nv-4",
+   "kanal": "quant",
+   "tur": "neolur",
+   "q": "Yarı İletken Endeksi (SOX), 31 Aralık 2026'ya kadar 6 Kasım kapanışının %10 altında kapanış görür mü?",
+   "acilis": "2026-11-09",
+   "deadline": "2026-12-31",
+   "kriter": "PHLX Yarı İletken Endeksi (SOX) 31 Aralık 2026'ya kadar herhangi bir gün 6 Kasım 2026 kapanışının %10 ya da daha fazla altında kapanırsa evet.",
+   "kaynak_cozum": "Nasdaq PHLX SOX günlük kapanış",
+   "taban": "Motor %44 · Claude +3",
+   "mercekler": [],
+   "on_otopsi": "Soruşturma haberi fiyatlanır, sektör kazançları düşüşü sınırlar.",
+   "motor": null,
+   "p": 47,
+   "ilk_p": 47,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-09",
+     "p": 47,
+     "motor": null,
+     "neden": "göç: nvidia-2026-11"
+    }
+   ]
+  },
+  {
+   "id": "pb-2026-W46-0",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Türkiye, 31 Mart 2027'ye kadar sanayiye doğal gaz kısıtlamasına gider mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-03-31",
+   "kriter": "BOTAŞ ya da Enerji Bakanlığı 31 Mart 2027'ye kadar sanayi abonelerine gaz kesintisi ya da kısıntısı uyguladığını duyurursa evet.",
+   "kaynak_cozum": "BOTAŞ / ETKB duyurusu; iki ajans",
+   "taban": "Taban %10 · Claude 0",
+   "mercekler": [
+    "Enerji Mühendisliği"
+   ],
+   "on_otopsi": "Sert kış ile tedarik kesintisi aynı haftaya denk gelir.",
+   "motor": null,
+   "p": 10,
+   "ilk_p": 10,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 10,
+     "motor": null,
+     "neden": "göç: 2026-W46"
+    }
+   ]
+  },
+  {
+   "id": "pb-2026-W46-1",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-03-31",
+   "kriter": "Türkiye'de faaliyet gösteren bir market zinciri, hastane ya da enerji şirketi 31 Mart 2027'ye kadar siber saldırı nedeniyle hizmetinin aksadığını kamuya açıklarsa ya da bunu resmi kurum doğrularsa evet.",
+   "kaynak_cozum": "Şirket/KAP açıklaması, USOM/BTK; iki ajans",
+   "taban": "Taban %35 · Claude +5",
+   "mercekler": [
+    "Bilgisayar Bilimi"
+   ],
+   "on_otopsi": "Olaylar yaşanır ama kamuya açıklanmaz; kriter açıklamaya bağlı.",
+   "motor": null,
+   "p": 40,
+   "ilk_p": 40,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 40,
+     "motor": null,
+     "neden": "göç: 2026-W46"
+    }
+   ]
+  },
+  {
+   "id": "pb-2026-W46-2",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "10–11 Kasım Abu Dabi görüşmeleri sonrası Rusya ile Ukrayna 31 Aralık 2026'ya kadar ateşkes ilan eder mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2026-12-31",
+   "kriter": "Rusya ve Ukrayna hükümetleri 31 Aralık 2026'ya kadar cephe genelinde ateşkes ilan ederse evet; yalnız enerji altyapısı ya da bölgesel/geçici ateşkes sayılmaz.",
+   "kaynak_cozum": "İki hükümetin resmi açıklaması; Reuters/AP",
+   "taban": "Taban %10 · Claude +2",
+   "mercekler": [
+    "Uluslararası İlişkiler"
+   ],
+   "on_otopsi": "Görüşmeler beklenmedik biçimde çerçeve anlaşmaya döner.",
+   "motor": null,
+   "p": 12,
+   "ilk_p": 12,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 12,
+     "motor": null,
+     "neden": "göç: 2026-W46"
+    }
+   ]
+  }
+ ]
+}

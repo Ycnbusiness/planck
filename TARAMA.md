@@ -1,5 +1,7 @@
 # Planck Tarama Kuralları
 
+> **Önce `ANAYASA.md` okunur.** O belge bütün kanalları bağlar; bu dosya onunla çelişirse Anayasa geçerlidir. Yayınlanan her olasılık `data/sorular.json` siciline kayıtlı olmak zorundadır (`scripts/sicil.py`).
+
 Bu dosya zamanlanmış görevlerin talimat kitabıdır. Görevler her çalışmada bunu okur.
 
 ## Veri
@@ -80,3 +82,14 @@ Tüm "Peki Biz?" soruları `data/pekibiz.json`a son tarihleriyle yazılır ve ka
 
 ### Risk listesi
 Üst sınır yok (15–20 olabilir). Giriş: 2031 ufkunda olasılık ≥ %10 ve etki "yüksek" veya üstü, iki bağımsız kaynakla desteklenen gelişme. Çıkış: üç ay üst üste < %10 kalan risk "izleme listesi"ne (`data/risks.json` → `watch`) taşınır.
+
+## Sicil ve hakem görevleri (Anayasa v1 · 10.11.2026)
+
+Günlük taramanın **ilk adımı hakemliktir**, sonra tarama gelir:
+
+1. `python3 scripts/sicil.py vadesi` — vadesi gelen soruları listeler. Her biri için kriterde yazan kaynağa bakılır; sonuç iki kaynakla kesinse `python3 scripts/sicil.py kapat <id> evet|hayir <bağlantı>`. Kesin değilse dokunulmaz, ertesi gün yeniden bakılır. Tarihinden önce kesinleşen soru da kapatılır.
+2. `python3 scripts/sicil.py karne` — `data/karne.json` yenilenir. "ISKA" uyarısı çıkan soru için `posts/<tarih>-neden-yanildik-<id>/` altında otopsi taslağı yazılır.
+3. Tarama sırasında olasılığı değişen her soru `sicil.py guncelle <id> <p> "<neden>"` ile işlenir; sayı Anayasa §3'teki LR tablosuyla hesaplanır (`sicil.py lr`). `risks.json`, `quant.json` ile sicil aynı sayıyı taşımak zorundadır.
+4. İçerikte geçen her yeni olasılık (Olay ve Cevap, Ne Olur?, Peki Biz?, Dosya) yayın kuyruğuna girmeden önce `sicil.py ekle` ile kaydedilir. Zorunlu alanı eksik soru yayınlanmaz.
+5. **Geçiş işi (16 Kasım'a kadar):** Her taramada sıradaki üç `risk-*` kaydı için 2031 kapanış kriteri, kaynağı, tabanı ve ön-otopsisi yazılır; ayrıca o riski sınayan iki öncü soru (son tarih ≤ 6 ay, tercihen ≤ 90 gün) açılır ve `bagli` alanına risk kimliği yazılır. `sicil.py dogrula` sıfır eksik gösterene kadar sürer.
+6. Kapanan her soru için `posts/<tarih>-kapandi-<id>/` altında "Tuttu / Tutmadı" kartı taslağı üretilir; cuma 18:00 toplu yayına girer (STRATEJI.md).
