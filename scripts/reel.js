@@ -8,7 +8,7 @@ const ff = (n, f, w) => `@font-face{font-family:${n};src:url(data:font/woff2;bas
 const fonts = ff('AL','arimo-latin-400-normal.woff2',400)+ff('AL','arimo-latin-700-normal.woff2',700)+ff('AX','arimo-latin-ext-400-normal.woff2',400)+ff('AX','arimo-latin-ext-700-normal.woff2',700)+ff('ML','ibm-plex-mono-latin-500-normal.woff2',500)+ff('MX','ibm-plex-mono-latin-ext-500-normal.woff2',500);
 const lock = 'data:image/svg+xml;base64,' + b64('logos/planck-lockup-reversed.svg');
 const spec = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const OUT = process.argv[3] || 'reel.mp4';
-const FPS = 30, DUR = 20;
+const FPS = 30, DUR = Number(process.env.DUR || 30), TS = 20 / DUR; // 20 sn'lik zaman çizelgesi DUR'a yayılır (yazılar okunabilsin)
 const page = `<style>${fonts}body{margin:0;background:#0a0d13}</style><canvas id="c" width="1080" height="1920"></canvas><img id="lk" src="${lock}" style="display:none">
 <script>
 const S=${JSON.stringify(spec)};const c=document.getElementById('c'),x=c.getContext('2d'),W=1080,H=1920;
@@ -28,12 +28,16 @@ function draw(t){bg(t);hud(t);
  const a1=seg(t,0,.6)*(1-seg(t,3,.4));if(a1>0){T('HAFTALIK RİSK HARİTASI',96,700,30,MUT,a1,500,true,4);
   x.save();x.globalAlpha=a1;x.fillStyle=BLUE;x.fillRect(96,736,120*E(seg(t,.3,.8)),8);x.restore();
   wrap(S.title,96,860,128,880,128,INK,a1,700);T('2031 ufkunda olasılıklar',96,1180,40,MUT,a1*seg(t,1,.6),400);}
- // 2) Liste 3.4–14
- const a2=seg(t,3.4,.5)*(1-seg(t,13.6,.5));if(a2>0){T('BU HAFTA',96,330,26,MUT,a2,500,true,4);
-  S.items.forEach((it,i)=>{const y=430+i*165,p=seg(t,3.6+i*.55,.9),o=a2*cl(p*2);if(o<=0)return;
+ // 2) Liste 3.4–14 (8'li sayfalar; 15–20 risk desteklenir)
+ const PG=8,NP=Math.max(1,Math.ceil(S.items.length/PG)),PD=10.2/NP,ST=Math.min(.55,(PD-1.6)/PG);
+ const a2=seg(t,3.4,.5)*(1-seg(t,13.6,.5));if(a2>0){const pi=Math.min(NP-1,Math.floor(Math.max(0,t-3.4)/PD)),t0=3.4+pi*PD;
+  const pa=a2*(pi<NP-1?(1-seg(t,t0+PD-.35,.35)):1)*(pi>0?seg(t,t0,.35):1);
+  T(NP>1?'BU HAFTA · '+(pi+1)+'/'+NP:'BU HAFTA',96,330,26,MUT,a2,500,true,4);
+  S.items.slice(pi*PG,(pi+1)*PG).forEach((it,j)=>{const y=430+j*165,p=seg(t,t0+.2+j*ST,.9),o=pa*cl(p*2);if(o<=0)return;
    const ly=wrap(it.name,96,y,32,640,36,INK,o,700),by=Math.max(y+46,ly+22);const v=Math.round(it.p*E(p));T('%'+v,W-96,y+6,66,BLUE,o,500,true,0,'right');
    x.save();x.globalAlpha=o;x.fillStyle=DIM;x.fillRect(96,by,W-192,10);x.fillStyle=BLUE;x.fillRect(96,by,(W-192)*it.p/100*E(p),10);x.restore();
-   if(it.d){T((it.d>0?'▲ +':'▼ ')+it.d,W-96,by+44,26,it.d>0?INK:MUT,o*seg(t,4.4+i*.55,.4),500,true,2,'right');}});}
+   if(it.d===null||it.d==='yeni'){T('YENİ',W-96,by+44,26,'#f5b14c',o*seg(t,t0+1+j*ST,.4),500,true,2,'right');}
+   else if(it.d){T((it.d>0?'▲ +':'▼ ')+it.d,W-96,by+44,26,it.d>0?INK:MUT,o*seg(t,t0+1+j*ST,.4),500,true,2,'right');}});}
  // 3) Odak 14–17.6
  const a3=seg(t,14,.5)*(1-seg(t,17.4,.4));if(a3>0&&S.focus){const f=S.focus;T('HAFTANIN EN BÜYÜK DEĞİŞİMİ',96,620,28,MUT,a3,500,true,4);
   wrap(f.name,96,730,64,880,72,INK,a3,700);const pr=E(seg(t,14.6,1.6)),v=Math.round(f.from+(f.to-f.from)*pr);
@@ -47,7 +51,7 @@ window.draw=draw;</script>`;
   await pg.setContent(page); await pg.waitForTimeout(500); await pg.evaluate(() => document.fonts.ready);
   const tmp = OUT + '.silent.mp4';
   const f = spawn('ffmpeg', ['-y','-f','image2pipe','-framerate',String(FPS),'-c:v','mjpeg','-i','-','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p',tmp], { stdio: ['pipe','ignore','ignore'] });
-  for (let i = 0; i < FPS * DUR; i++) { const d = await pg.evaluate(t => { window.draw(t); return document.getElementById('c').toDataURL('image/jpeg', .9).split(',')[1]; }, i / FPS); if (!f.stdin.write(Buffer.from(d, 'base64'))) await new Promise(r => f.stdin.once('drain', r)); }
+  for (let i = 0; i < FPS * DUR; i++) { const d = await pg.evaluate(t => { window.draw(t); return document.getElementById('c').toDataURL('image/jpeg', .9).split(',')[1]; }, i / FPS * TS); if (!f.stdin.write(Buffer.from(d, 'base64'))) await new Promise(r => f.stdin.once('drain', r)); }
   f.stdin.end(); await new Promise(r => f.on('close', r)); await br.close();
   const music = path.join(R, 'audio', 'planck-arka-plan-radar-quiet.m4a');
   await new Promise((res, rej) => spawn('ffmpeg', ['-y','-i',tmp,'-i',music,'-filter_complex',`[1:a]atrim=0:${DUR},afade=t=in:d=0.8,afade=t=out:st=${DUR-1.8}:d=1.8,loudnorm=I=-14:TP=-1.5[a]`,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-b:a','192k','-shortest',OUT], { stdio: 'ignore' }).on('close', c => c ? rej(new Error('ffmpeg audio')) : res()));

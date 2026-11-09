@@ -48,13 +48,35 @@ Görevler **asla kendi başına yayınlamaz**. Kartı repoya koyar ve kullanıc�
 
 İki bağımsız güvenilir kaynakla doğrulanmış içerik onay beklemeden yayınlanır. Yayından önce Claude ana iddiayı kendisi iki bağımsız kaynakta yeniden doğrular; tek kaynak, söylenti veya resmi olmayan iddia yayınlanmaz. Her yayın `data/yayin-log.json`a kaynakları ve doğrulama sonucuyla kaydedilir; yanlış veri oranı buradan izlenir. Planck T+ bu kuralın dışındadır.
 
-## "Peki Biz?" — haftalık rapordan sonraki yayın (09.11.2026 kararı)
+## Yayın akışı v2 (09.11.2026 kararı) — olay ve cevap tek içerikte
 
-Amaç: okurun "bundan bana ne, ne yapacağız?" sorusunu kapatmak. Her salı 12:30, haftalık raporun ana temasından üretilir; 6 sayfalık carousel.
+İlke: her içerik kendi başına anlaşılır; olay ve "Peki Biz?" cevabı aynı gönderidedir. Gönderi sayısına üst sınır yok, haber sayısı belirler. Ana akışta iki gönderi arası en az 2 saat.
 
-1. Kapak: tema + "Bu Bizi Nasıl Etkiler?"
-2. Ne oldu, neden önemli (3 satır olgu).
-3–5. Üç bilim dalı (ör. enerji mühendisliği, bilgisayar bilimi, ekonomi, halk sağlığı, psikoloji, sosyoloji, uluslararası ilişkiler; temaya en uygun üçü). Her biri Türkiye'ye uyarlanmış tarihli evet/hayır sorusu + olasılık (Taban + Claude ayarı) + tek cümle "Okuma".
-6. Ne yapabiliriz: evde / dijitalde / işte / haberde somut, genel adımlar (kişisel finans veya sağlık tavsiyesi yok) + kapanış sorusu.
+### Önem puanı ve yönlendirme
+Her olay için: **Önem = |Δ puan| × Türkiye bağı (0 yok · 1 dolaylı · 2 doğrudan) × etki (1 orta · 2 yüksek · 3 çok yüksek)**.
 
-Kurallar: olgular iki bağımsız kaynakla; sorular `data/pekibiz.json`a son tarihleriyle yazılır ve karnede puanlanır; panik dili yok. Kart: `node news/pekibiz.js spec.json çıktı/`.
+| Puan | Nereye | Ne üretilir |
+|---|---|---|
+| ≥ 12 veya KIRMIZI | Ana akış | "Olay ve Cevap" carousel'i (4 sayfa) + olay Reel'i (16 sn) |
+| 6–11 | Story | Olay Reel'i (Story olarak) |
+| 2–5 ve kayda değer | Akşam | "Günün Dosyası"na tek sayfa |
+
+Türkiye bağı 0 olan olaya zorla "Peki Biz?" yazılmaz; o olay Reel/Dosya'da yalnızca olay olarak geçer.
+
+### Günlük takvim
+- 08:30 — pazartesi haftalık Reel (30 sn, tüm riskler, 8'li sayfalar); diğer günler ilk olay gönderisi.
+- 11:00'den itibaren — "Olay ve Cevap" gönderileri, önem sırasıyla, en az 2 saat arayla (11:00, 13:00, 15:00, 17:00, 19:00…). Sıra `data/kuyruk/YYYY-MM-DD.json`.
+- 21:00 — "Günün Dosyası" carousel'i (kapak + olay başına 1 sayfa + kapanış; olay yoksa yayın yok).
+- Kırmızı alarm kuyruğu beklemez, hemen çıkar.
+
+### Formatlar
+- **Olay ve Cevap** (`node news/pekibiz.js spec.json çıktı/`, spec'te `"header":"PLANCK · OLAY VE CEVAP"`, `slides:4`, tek ring): 1 olay ve olasılık · 2 ne oldu (3 satır, iki bağımsız kaynak) · 3 Peki Biz? (Türkiye'ye uyarlanmış 1–2 tarihli soru, Taban + Claude) · 4 Ne yapabiliriz + soru.
+- **Olay Reel'i** (`node scripts/olayreel.js spec.json çıktı.mp4`): olay → risk değişimi → Peki Biz? → kapanış, 16 sn.
+- **Günün Dosyası** (`node news/dosya.js spec.json çıktı/`).
+- **Haftalık Reel** (`node scripts/reel.js`, 30 sn; liste 15–20 riske kadar sayfalanır).
+- Haftalık uzun rapor (`rapor.md`) arşiv içindir; Instagram'da uzun carousel yok.
+
+Tüm "Peki Biz?" soruları `data/pekibiz.json`a son tarihleriyle yazılır ve karnede puanlanır.
+
+### Risk listesi
+Üst sınır yok (15–20 olabilir). Giriş: 2031 ufkunda olasılık ≥ %10 ve etki "yüksek" veya üstü, iki bağımsız kaynakla desteklenen gelişme. Çıkış: üç ay üst üste < %10 kalan risk "izleme listesi"ne (`data/risks.json` → `watch`) taşınır.

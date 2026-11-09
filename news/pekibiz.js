@@ -25,7 +25,7 @@ h2{font-size:76px;line-height:1;font-weight:700;letter-spacing:-.03em;margin:0;t
 const SP = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const OUT = process.argv[3];
 const N = SP.slides || 6, pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
 const frame = (inner, i) => `<div class="s"><div class="scan"></div><div class="hud"><i></i><i></i><i></i><i></i></div>
-<div class="hl mono"><span>PLANCK · PEKİ BİZ?</span><span>${SP.date}</span></div><div class="in">${inner}</div>
+<div class="hl mono"><span>${SP.header||"PLANCK · PEKİ BİZ?"}</span><span>${SP.date}</span></div><div class="in">${inner}</div>
 <div class="hb mono"><span>@PLANCK.NEWS · ${pg(i)}</span><span>CLAUDE İLE HAZIRLANMIŞTIR</span></div></div>`;
 const pct = p => `<span style="font-family:ML,MX,monospace;font-weight:500">%${p}</span>`;
 const item = (q, n) => { const [lv, b] = band(q.p); return `<div style="border-top:2px solid ${DIM};padding:30px 0 34px">
