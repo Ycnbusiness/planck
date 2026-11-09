@@ -47,3 +47,14 @@ Görevler **asla kendi başına yayınlamaz**. Kartı repoya koyar ve kullanıc�
 ## Otomatik yayın (09.11.2026 kararı)
 
 İki bağımsız güvenilir kaynakla doğrulanmış içerik onay beklemeden yayınlanır. Yayından önce Claude ana iddiayı kendisi iki bağımsız kaynakta yeniden doğrular; tek kaynak, söylenti veya resmi olmayan iddia yayınlanmaz. Her yayın `data/yayin-log.json`a kaynakları ve doğrulama sonucuyla kaydedilir; yanlış veri oranı buradan izlenir. Planck T+ bu kuralın dışındadır.
+
+## "Peki Biz?" — haftalık rapordan sonraki yayın (09.11.2026 kararı)
+
+Amaç: okurun "bundan bana ne, ne yapacağız?" sorusunu kapatmak. Her salı 12:30, haftalık raporun ana temasından üretilir; 6 sayfalık carousel.
+
+1. Kapak: tema + "Bu Bizi Nasıl Etkiler?"
+2. Ne oldu, neden önemli (3 satır olgu).
+3–5. Üç bilim dalı (ör. enerji mühendisliği, bilgisayar bilimi, ekonomi, halk sağlığı, psikoloji, sosyoloji, uluslararası ilişkiler; temaya en uygun üçü). Her biri Türkiye'ye uyarlanmış tarihli evet/hayır sorusu + olasılık (Taban + Claude ayarı) + tek cümle "Okuma".
+6. Ne yapabiliriz: evde / dijitalde / işte / haberde somut, genel adımlar (kişisel finans veya sağlık tavsiyesi yok) + kapanış sorusu.
+
+Kurallar: olgular iki bağımsız kaynakla; sorular `data/pekibiz.json`a son tarihleriyle yazılır ve karnede puanlanır; panik dili yok. Kart: `node news/pekibiz.js spec.json çıktı/`.

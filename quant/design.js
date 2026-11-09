@@ -72,6 +72,6 @@ const avatar = `<div style="width:1080px;height:1080px;background:${VOID};displa
 <img src="${mark}" style="width:440px;height:440px"><em class="mono" style="font-style:normal;font-size:96px;letter-spacing:.2em;margin-right:-.2em;color:#eef1f6">QUANT</em></div>`;
 const lockup = `<div style="width:1600px;height:400px;background:${VOID};display:flex;align-items:center;justify-content:center">${qlock(120)}</div>`;
 (async () => { const br = await chromium.launch();
-  const shot = async (html, w, h, file) => { const p = await br.newPage({ viewport: { width: w, height: h } }); await p.setContent(`<html><head><style>${css}</style></head><body>${html}</body></html>`); await p.waitForTimeout(250); await p.screenshot({ path: path.join(OUT, file) }); await p.close(); };
+  const shot = async (html, w, h, file) => { const p = await br.newPage({ viewport: { width: w, height: h } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${html}</body></html>`); await p.waitForTimeout(250); await p.screenshot({ path: path.join(OUT, file) }); await p.close(); };
     for (let i = 0; i < S.length; i++) await shot(S[i], 1080, 1350, `lansman-${String(i+1).padStart(2,'0')}.png`);
   await br.close(); console.log('ok'); })();

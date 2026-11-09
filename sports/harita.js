@@ -65,5 +65,5 @@ pages.push(frame(`<div class="eb mono">Karne<b></b></div><h2 style="margin-top:2
 <div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:30px"><p style="margin:0;font-size:40px;line-height:50px;font-weight:700">${spec.question || 'Haftanın sürprizi sizce hangi maçta çıkar?'}</p>
 <p class="mono" style="margin:18px 0 0;font-size:17px;line-height:26px;color:${MUT};letter-spacing:.04em">Bahis tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.</p></div>`, i++, 'KARNE'));
 (async () => { const br = await chromium.launch();
-  for (let k = 0; k < pages.length; k++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html><head><style>${css}</style></head><body>${pages[k]}</body></html>`); await p.waitForTimeout(250); await p.screenshot({ path: path.join(OUTD, `${String(k+1).padStart(2,'0')}.png`) }); await p.close(); }
+  for (let k = 0; k < pages.length; k++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${pages[k]}</body></html>`); await p.waitForTimeout(250); await p.screenshot({ path: path.join(OUTD, `${String(k+1).padStart(2,'0')}.png`) }); await p.close(); }
   await br.close(); console.log(pages.length + ' sayfa'); })();

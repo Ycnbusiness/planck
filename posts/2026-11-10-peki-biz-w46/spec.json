@@ -1,0 +1,85 @@
+{
+ "date": "10 KASIM 2026",
+ "slides": 6,
+ "eyebrow": "Peki Biz? · Hafta 46",
+ "title": "Kış Erken Geldi: Bu Bizi Nasıl Etkiler?",
+ "lede": "Haftalık raporun ana teması: saldırılar cepheden altyapıya kayıyor. Planck bu gelişmeyi üç bilim dalının gözünden Türkiye için olasılığa çevirdi ve ne yapılabileceğini derledi.",
+ "factsTitle": "Ne Oldu, Neden Önemli?",
+ "facts": [
+  [
+   "Enerji",
+   "Rusya, 7 Kasım gecesi Kiev'in elektrik iletim hatlarını vurdu; Irak Kürdistan'da bir gaz sahası İHA ile durduruldu."
+  ],
+  [
+   "Gıda zinciri",
+   "Fransa'da yüzlerce marketin ve üç kan merkezinin soğutma sistemleri uzaktan ele geçirildi; dalga Belçika ve İsveç'e yayıldı."
+  ],
+  [
+   "Ortak nokta",
+   "Hedef artık asker değil; ısınma, elektrik ve soğuk zincir. Riskler savaş haberinden çıkıp gündelik hayata giriyor."
+  ]
+ ],
+ "factsNote": "Aşağıdaki olasılıklar Türkiye'ye uyarlanmıştır. Her biri tarihli bir sorudur ve son tarihinde karnede puanlanır.",
+ "rings": [
+  {
+   "name": "Enerji Mühendisliği",
+   "title": "Türkiye'nin Gazı Bu Kış Yeter mi?",
+   "items": [
+    {
+     "q": "Türkiye, 31 Mart 2027'ye kadar sanayiye doğal gaz kısıtlamasına gider mi?",
+     "p": 10,
+     "lab": "Taban %10 · Claude 0",
+     "why": "Son on kışta bir kez yaşandı (Ocak 2022, İran kesintisi). Depolar kışa dolu girdi ve 6,3 milyar m³ kapasite ile LNG terminalleri tampon sağlıyor."
+    }
+   ],
+   "note": "Okuma: Avrupa'yı vuran altyapı saldırıları Türkiye'nin gaz arzını doğrudan tehdit etmiyor; asıl hassasiyet fiyatta, miktarda değil."
+  },
+  {
+   "name": "Bilgisayar Bilimi",
+   "title": "Soğutucu Saldırıları Buraya Gelir mi?",
+   "items": [
+    {
+     "q": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
+     "p": 40,
+     "lab": "Taban %35 · Claude +5",
+     "why": "Türkiye fidye yazılımlarının sık hedef aldığı ülkeler arasında; ancak şirketler aksamayı kamuya nadiren açıklıyor. Avrupa'daki dalga riski bir miktar artırıyor."
+    }
+   ],
+   "note": "Okuma: Saldırıların ortak açığı internete açık bırakılmış, varsayılan şifreli cihaz panelleri. Bu açık her ülkede var."
+  },
+  {
+   "name": "Uluslararası İlişkiler",
+   "title": "Abu Dabi'den Ateşkes Çıkar mı?",
+   "items": [
+    {
+     "q": "10–11 Kasım Abu Dabi görüşmeleri sonrası Rusya ile Ukrayna 31 Aralık 2026'ya kadar ateşkes ilan eder mi?",
+     "p": 12,
+     "lab": "Taban %10 · Claude +2",
+     "why": "Görüşmelerden üç gün önceki büyük saldırı, tarafların masaya güçlü pozisyonla oturmak istediğini gösteriyor. Ateşkes olasılığı düşük; ancak görüşmenin yapılması sıfırdan iyidir."
+    }
+   ],
+   "note": "Okuma: Ateşkes olmazsa enerji fiyatları ve Karadeniz güvenliği kış boyunca Türkiye'nin gündeminde kalır."
+  }
+ ],
+ "watchTitle": "Ne Yapabiliriz?",
+ "watch": [
+  [
+   "Evde",
+   "Uzun kesintiye karşı 72 saatlik temel hazırlık: su, şarjlı ışık, powerbank, ilaçlar. AFAD'ın acil durum çantası listesi iyi bir başlangıç."
+  ],
+  [
+   "Dijitalde",
+   "Modem, kamera ve akıllı cihazların varsayılan şifrelerini değiştirin; yazılımlarını güncelleyin."
+  ],
+  [
+   "İşte",
+   "Soğutma, enerji ve kamera panellerini internete doğrudan açık bırakmayın; uzaktan erişimi iki adımlı doğrulamaya bağlayın."
+  ],
+  [
+   "Haberde",
+   "Tek kaynaklı alarm haberlerini değil, olasılığın değişimini izleyin. Panik, bilgiden hızlı yayılır."
+  ]
+ ],
+ "question": "Bu üç alandan hangisi sizin gündelik hayatınıza daha yakın?",
+ "watchEyebrow": "Öneriler"
+}

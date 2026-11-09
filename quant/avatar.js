@@ -13,5 +13,5 @@ const lockup=`<div style="width:1600px;height:400px;background:${VOID};display:f
 <img src="${lock}" style="height:120px"><span style="width:4px;height:84px;background:#3a4357;margin-top:6px"></span>
 <span style="font-family:AL,AX,sans-serif;font-weight:700;font-size:74px;line-height:1;letter-spacing:.01em;color:#9aa3b2;margin-top:8px">QUANT</span></div>`;
 (async()=>{const b=await chromium.launch();
-const shot=async(h,w,H,f)=>{const p=await b.newPage({viewport:{width:w,height:H}});await p.setContent(`<html><head><style>${fonts}body{margin:0}</style></head><body>${h}</body></html>`);await p.waitForTimeout(200);await p.screenshot({path:path.join(__dirname,'out',f)});await p.close();};
+const shot=async(h,w,H,f)=>{const p=await b.newPage({viewport:{width:w,height:H}});await p.setContent(`<html lang="tr"><head><style>${fonts}body{margin:0}</style></head><body>${h}</body></html>`);await p.waitForTimeout(200);await p.screenshot({path:path.join(__dirname,'out',f)});await p.close();};
 await shot(avatar,1080,1080,'planck-quant-profil.png');await shot(lockup,1600,400,'planck-quant-logo.png');await b.close();})();

@@ -14,7 +14,7 @@ const flas = s.type === 'flas'; const QT = s.brand === 'quant';
 const d = (s.to ?? 0) - (s.from ?? 0); const [lv, lab] = band(s.to ?? 0);
 const delta = s.from == null ? (QT ? 'YENİ TAHMİN' : 'YENİ RİSK') : `${d > 0 ? '+' : ''}${d} PUAN · %${s.from} → %${s.to}`;
 const meter = `<div style="display:grid;grid-template-columns:repeat(5,64px);gap:10px">${[1,2,3,4,5].map(k => `<i style="display:block;height:18px;background:${k <= lv ? BLUE : DIM}"></i>`).join('')}</div>`;
-const html = `<html><head><style>${fonts}*{box-sizing:border-box}body{margin:0}
+const html = `<html lang="tr"><head><style>${fonts}*{box-sizing:border-box}body{margin:0}
 .s{width:1080px;height:1350px;background:#0a0d13;color:#eef1f6;font-family:AL,AX,sans-serif;position:relative;overflow:hidden}
 .in{position:absolute;inset:0;padding:130px 96px 120px;display:flex;flex-direction:column}
 .hud{position:absolute;inset:44px}.hud i{position:absolute;width:44px;height:44px;border:0 solid ${flas ? AMB : MUT}}

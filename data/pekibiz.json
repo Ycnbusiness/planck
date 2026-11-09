@@ -1,0 +1,32 @@
+{
+ "weeks": [
+  {
+   "week": "2026-W46",
+   "date": "2026-11-10",
+   "tema": "Altyapıya yönelen saldırılar",
+   "items": [
+    {
+     "alan": "Enerji Mühendisliği",
+     "q": "Türkiye, 31 Mart 2027'ye kadar sanayiye doğal gaz kısıtlamasına gider mi?",
+     "p": 10,
+     "lab": "Taban %10 · Claude 0",
+     "deadline": "2027-03-31"
+    },
+    {
+     "alan": "Bilgisayar Bilimi",
+     "q": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
+     "p": 40,
+     "lab": "Taban %35 · Claude +5",
+     "deadline": "2027-03-31"
+    },
+    {
+     "alan": "Uluslararası İlişkiler",
+     "q": "10–11 Kasım Abu Dabi görüşmeleri sonrası Rusya ile Ukrayna 31 Aralık 2026'ya kadar ateşkes ilan eder mi?",
+     "p": 12,
+     "lab": "Taban %10 · Claude +2",
+     "deadline": "2026-12-31"
+    }
+   ]
+  }
+ ]
+}

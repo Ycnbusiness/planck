@@ -50,7 +50,7 @@ P.push(()=>`<div class="eb mono">Genel çerçeve<b></b></div><h2 style="margin-t
 <img src="${lock}" style="height:62px;margin-top:34px"></div>`);
 N = P.length; P.forEach((f,i)=>S.push(frame(f(),i+1)));
 (async () => { const br = await chromium.launch(); fs.mkdirSync(OUT, { recursive: true });
-  for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
+  for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
     const over = await p.evaluate(() => { const i = document.querySelector('.in'); return i.scrollHeight > i.clientHeight + 2; }); if (over) console.log('TAŞMA sayfa', i+1);
     await p.screenshot({ path: path.join(OUT, `${String(i+1).padStart(2,'0')}.jpg`), type: 'jpeg', quality: 92 }); await p.close(); }
   await br.close(); console.log('ok', S.length); })();

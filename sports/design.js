@@ -10,5 +10,5 @@ const avatar=`<div style="width:1080px;height:1080px;background:${VOID};display:
 const lockup=`<div style="width:1600px;height:400px;background:${VOID};display:flex;align-items:center;justify-content:center;gap:34px">
 <img src="${lock}" style="height:120px"><span style="width:4px;height:84px;background:#3a4357;margin-top:6px"></span><span style="display:block;margin-top:6px">${T(118)}</span></div>`;
 (async()=>{const b=await chromium.launch();
-const shot=async(h,w,H,f)=>{const p=await b.newPage({viewport:{width:w,height:H}});await p.setContent(`<html><head><style>${fonts}body{margin:0}</style></head><body>${h}</body></html>`);await p.waitForTimeout(200);await p.screenshot({path:path.join(__dirname,'out',f)});await p.close();};
+const shot=async(h,w,H,f)=>{const p=await b.newPage({viewport:{width:w,height:H}});await p.setContent(`<html lang="tr"><head><style>${fonts}body{margin:0}</style></head><body>${h}</body></html>`);await p.waitForTimeout(200);await p.screenshot({path:path.join(__dirname,'out',f)});await p.close();};
 await shot(avatar,1080,1080,'planck-t-profil.png');await shot(lockup,1600,400,'planck-t-logo.png');await b.close();console.log('ok')})();

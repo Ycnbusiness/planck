@@ -47,7 +47,7 @@ S.push(frame(`<div class="eb mono">İzlenecek<b></b></div><h2 style="margin-top:
 <div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:30px"><p style="margin:0;font-size:38px;line-height:48px;font-weight:700">${SP.question}</p>
 <p class="mono" style="margin:18px 0 0;font-size:17px;line-height:26px;color:${MUT};letter-spacing:.04em">Her tahmin son tarihinde kapatılır ve karnede puanlanır. Yatırım tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.</p></div>`, N));
 (async () => { const br = await chromium.launch(); fs.mkdirSync(OUT, { recursive: true });
-  for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
+  for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
     const over = await p.evaluate(() => { const i = document.querySelector('.in'); return i.scrollHeight > i.clientHeight + 2; }); if (over) console.log('TAŞMA sayfa', i+1);
     await p.screenshot({ path: path.join(OUT, `${String(i+1).padStart(2,'0')}.png`) }); await p.close(); }
   await br.close(); console.log('ok', S.length); })();

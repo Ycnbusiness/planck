@@ -92,7 +92,7 @@ S.push(`<div class="eb mono">Kapanış<b></b></div><h2 style="margin-top:22px">$
 
 (async () => { const br = await chromium.launch(); const p = await br.newPage({ viewport: { width: 1080, height: 1350 } });
   for (let i = 0; i < S.length; i++) {
-    await p.setContent(`<html><head><style>${css}</style></head><body>${frame(S[i], i + 1, S.length)}</body></html>`); await p.waitForTimeout(200);
+    await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${frame(S[i], i + 1, S.length)}</body></html>`); await p.waitForTimeout(200);
     const over = await p.evaluate(() => { const r = document.querySelector('.in'); const ft = r.lastElementChild.getBoundingClientRect(); return r.scrollHeight > r.clientHeight + 1 || ft.bottom > 1350 - 118; });
     if (over) console.warn(`UYARI: sayfa ${i + 1} taşıyor`);
     await p.screenshot({ path: path.join(OUT, `${String(i + 1).padStart(2, '0')}.png`) }); }
