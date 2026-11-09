@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-09",
+  "scan_window": "2026-11-08 → 2026-11-09 06:45 (TSİ); 7 Kasım gecesi Kiev saldırısı önceki taramada işlenmediği için bugün ilk kez veriye giriyor",
+  "summary": {
+    "kirmizi": 0,
+    "sari": 1,
+    "yesil": 6
+  },
+  "events": [
+    {
+      "id": "kiev-balistik-kis",
+      "class": "SARI",
+      "risk": "catisma",
+      "delta": 3,
+      "from": 82,
+      "to": 85,
+      "event": "Rusya 7 Kasım gecesi Kiev ve çevresine 36 balistik füze ve 172 İHA gönderdi; Ukrayna Hava Kuvvetleri füzelerin yalnızca dördünü, İHA'ların 149'unu düşürebildi. Dinyeper üzerindeki Kuzey Köprüsü vuruldu ve trafiğe kapatıldı; iki nükleer santralden başkente elektrik taşıyan iletim tesisleri devre dışı kaldı, Kiev'de elektrik, ısınma ve su kesintileri başladı. En az iki kişi öldü. Saldırı, 10–11 Kasım'da Abu Dabi'de yapılacak ABD–Ukrayna–Rusya üçlü görüşmelerinden üç gün önce geldi.",
+      "rationale": "Balistik füzelerin yüzde 89'unun hedefe ulaşması, Batı'nın önleyici füze stoklarındaki daralmanın sahaya yansıdığını gösteriyor; köprüler ve nükleer santral iletim hatlarının hedef alınması kış kampanyasının önceki yıllardan daha sert olacağına işaret ediyor. Görüşmelerin hemen öncesinde bu ölçekte bir saldırı, 2026–27'de kalıcı bir ateşkes ihtimalini düşürüp çatışmanın 2031'e dek kronikleşme olasılığını yükseltiyor. Risk zaten çok yüksek bantta olduğu için etki sarı eşiğin alt ucunda tutuldu.",
+      "sources": [
+        "https://www.themoscowtimes.com/2026/11/07/russia-pounds-power-facilities-around-kyiv-damages-major-bridge-a94198",
+        "https://abcnews.com/International/wireStory/missiles-target-kyiv-injure-5-ukraine-prepares-talks-137937211",
+        "https://news.liga.net/en/war/news/russia-launched-ballistic-missile-strikes-on-kyiv-and-the-surrounding-region-the-northern-bridge-has-been-shut-down-and-the-power-grid-has-been-damaged-again",
+        "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi"
+      ]
+    },
+    {
+      "id": "khor-mor-iha",
+      "class": "YEŞİL",
+      "risk": "enerji",
+      "delta": 2,
+      "from": 69,
+      "to": 71,
+      "event": "8 Kasım gecesi Irak Kürdistan Bölgesi'ndeki Khor Mor gaz sahasına İHA saldırısı düzenlendi; LPG depolama tankında yangın çıktı, Dana Gas üretimi durdurdu. Bölge Elektrik Bakanlığı yaklaşık 2,8 GW üretim kaybı bildirdi; Erbil, Süleymaniye ve Duhok dahil bölgenin yüzde 70'inden fazlası elektriksiz kaldı. Can kaybı bildirilmedi, fail belirlenmedi.",
+      "rationale": "Aynı hafta sonu Riyad'da bir Aramco binasının Husi saldırısı kalıntılarıyla hasar görmesi ve Hürmüz'de iki tankerin mayına çarptığının bildirilmesiyle birlikte, bölgesel enerji altyapısının çatışmanın hedefi olma eğilimi doğrulanıyor. Ancak Khor Mor daha önce de vurulmuş bir tesis ve Brent pazartesi 98 doların altında seyrediyor; küresel maliyet etkisi sınırlı kaldığı için yeşil.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield",
+        "https://www.internazionale.it/ultime-notizie-reuters/2026/11/08/production-suspended-at-iraq-s-khor-mor-gas-field-after-drone-attack-sources-say",
+        "https://www.tribuneindia.com/news/world/drone-strike-on-iraqs-khor-mor-gas-field-cuts-power-production-by-2-8-gw-ministry",
+        "https://www.nationthailand.com/news/world/40073266"
+      ]
+    },
+    {
+      "id": "hurmuz-abluka-muzakere",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 0,
+      "from": 85,
+      "to": 85,
+      "event": "ABD, İran limanlarına ablukayı kara ve Hazar güzergâhlarına genişleten 'Iron Gate' görev gücünü duyurdu ve Umman Körfezi'nde St. Kitts bandıralı bir gemiyi ateş açarak durdurdu. İran Devrim Muhafızları iki tankerin mayına çarptığını, Katar aracılığıyla yeni bir nükleer öneri iletildiğini ve ablukanın kaldırılması dahil yedi ön koşulu açıkladı. ABD Başkanı, İran güçlü bir anlaşma imzalarsa yeni saldırıların pek olası olmadığını söyledi; Dışişleri Bakanı kısa vadede atılım beklemediğini belirtti.",
+      "rationale": "Sınırlı saldırı, abluka ve dolaylı müzakerenin bir arada sürmesi dünkü değerlendirmeyi değiştirmiyor; yön belirleyen yeni bir gelişme yok.",
+      "sources": [
+        "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html",
+        "https://www.abc.net.au/news/2026-11-08/iran-strait-of-hormuz-update-explosions-talks/107360730",
+        "https://www.criticalthreats.org/analysis/iran-update-november-8-2026"
+      ]
+    },
+    {
+      "id": "abd-kongre-sorusturma",
+      "class": "YEŞİL",
+      "risk": "kurumlar",
+      "delta": 2,
+      "from": 33,
+      "to": 35,
+      "event": "Ara seçimlerde Kongre'nin iki kanadını da kazanan Demokratlar, Temsilciler Meclisi Gözetim Komitesi üzerinden geniş bir soruşturma dizisi ve Savunma Bakanı hakkında azil önergesi hazırlığında. Başkan bu talepleri 'en üst düzeyde şantaj' olarak nitelendirdi; Adalet Bakanı, Demokrat yetkililer hakkında ceza soruşturması açılabileceğini söyledi.",
+      "rationale": "Yürütmenin, yasama denetimine ceza soruşturması ihtimaliyle karşılık vermesi kurumlar arası denge açısından aşındırıcı bir sinyal; ancak henüz somut bir adım yok ve seçim sonuçlarının kendisi tartışmasız kabul edildi. Bu nedenle küçük artış.",
+      "sources": [
+        "https://www.wptf.com/2026/11/08/19032/",
+        "https://federalnewsnetwork.com/congress/2026/11/after-election-day-trump-stares-down-the-specter-of-democratic-probes-and-the-race-to-succeed-him/",
+        "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+      ]
+    },
+    {
+      "id": "ekim-istihdam-beyaz-yaka",
+      "class": "YEŞİL",
+      "risk": "yz-issizlik",
+      "delta": -1,
+      "from": 52,
+      "to": 51,
+      "event": "ABD ekim istihdam raporu 165 bin yeni iş gösterdi (beklenti 65 bin); işsizlik yüzde 4,1'e geriledi. Profesyonel ve iş hizmetleri sektörü 70 bin istihdam ekledi; bu, 12 aylık ortalamasının (15 bin) yaklaşık beş katı.",
+      "rationale": "Yapay zekâdan en çok etkilenmesi beklenen beyaz yaka sektörlerinde tek aylık güçlü toparlanma, hızlı ve geniş çaplı işsizlik senaryosunu bir miktar zayıflatıyor. Tek aylık veri ve 2026'da teknoloji sektöründe 80 bine yakın işten çıkarma nedeniyle etki küçük tutuldu.",
+      "sources": [
+        "https://www.foxbusiness.com/economy/us-jobs-report-october-2026",
+        "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+        "https://www.washingtonpost.com/business/2026/11/07/white-collar-hiring-jumps-october-complicating-ai-story/"
+      ]
+    },
+    {
+      "id": "fransa-dorduncu-hafta",
+      "class": "YEŞİL",
+      "risk": "avrupa",
+      "delta": 1,
+      "from": 64,
+      "to": 65,
+      "event": "Fransa'da 7 Kasım'da dördüncü hafta sonu ülke çapında protesto yapıldı: İçişleri Bakanlığı 146 bin, sendikalar 250 bin katılımcı bildirdi; 360 kişi gözaltına alındı. Bütçe tasarısı 5 Kasım'da mecliste reddedilmişti; Başbakan 9 Kasım'da sendika ve işverenlerle görüşecek, 10 Kasım için yeni genel grev çağrısı var.",
+      "rationale": "Katılım bir önceki haftaya göre düşse de bütçe tıkanıklığı ve grev takvimi parçalanma eğilimini sürdürüyor; Almanya'da koalisyon içi reform anlaşmazlıkları da devam ediyor. Yeni bir kırılma olmadığı için küçük artış.",
+      "sources": [
+        "https://www.cnbc.com/2026/11/08/france-protests-clashes-arrests.html",
+        "https://www.byteseu.com/2507390/",
+        "https://www.cnbc.com/2026/11/05/france-budget-debt-strikes.html"
+      ]
+    },
+    {
+      "id": "israil-hukumet-yetkisi",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 0,
+      "from": 85,
+      "to": 85,
+      "event": "İsrail Cumhurbaşkanı 8 Kasım'da hükümeti kurma görevini 67 milletvekilinin önerisiyle Yashar lideri Gadi Eisenkot'a verdi; Eisenkot 'ulusal acil durum hükümeti' kurmak için 28 gün süreye sahip. Hiçbir blok 61 sandalyeye ulaşamadı.",
+      "rationale": "Hükümet kurulana kadar bölgesel politikada belirgin bir değişim beklenmiyor; koalisyon şekli netleşince yeniden değerlendirilecek.",
+      "sources": [
+        "https://www.jpost.com/israel-election-2026/article-914236",
+        "https://www.jpost.com/israel-election-2026/2026-11-08/live-updates-914159"
+      ]
+    }
+  ],
+  "not_scored": [
+    "Tayvan: Savunma Bakanlığı 8 Kasım'da 4 uçak ve 6 gemi bildirdi; önceki günlere göre düşük tempo, puan etkisi yok (13 sabit).",
+    "Siber: son 24 saatte iki bağımsız kaynakla doğrulanmış yeni kritik altyapı saldırısı yok (42 sabit).",
+    "Gıda: yeni veri yok; FAO ekim endeksi dün işlendi (47 sabit).",
+    "ABD–Çin teknoloji: ABD Başkanı gelecek hafta APEC'te Çin Devlet Başkanı ile görüşmeyi planladığını söyledi; sonuç beklenmeden puan değişmedi (58 sabit).",
+    "Finansal piyasalar: S&P 500 haftayı yüzde 2,7 düşüşle kapattı, cuma günü yapay zekâ hisseleri toparlandı; aralık ayında faiz artışı olasılığı yüzde 77'ye çıktı. Listede doğrudan karşılığı olan risk yok."
+  ],
+  "content": {
+    "type": "sinyal",
+    "event": "kiev-balistik-kis",
+    "time": "08:30",
+    "path": "posts/2026-11-09-kiev-balistik-kis/"
+  },
+  "note": "TARAMA.md'deki 09.11.2026 tarihli otomatik yayın kuralı ile görev talimatındaki 'asla kendi başına yayınlama' kuralı çelişiyor; bu tarama görev talimatına uyarak yayınlamadı, onay bekliyor."
+}
