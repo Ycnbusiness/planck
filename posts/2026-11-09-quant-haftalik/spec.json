@@ -1,0 +1,108 @@
+{
+ "range": "9–15 KASIM 2026",
+ "title": "Motor Devrede, Olasılıklar Yeniden Hesaplandı",
+ "lede": "Lansmandaki değerler motorsuz ilk tahminlerdi. 9 Kasım'da motor ilk kez çalıştı; farkların büyük kısmı yöntemden, Fed'deki değişimin bir bölümü veriden geliyor.",
+ "baseLabel": "Lansman (8 Kasım) değerine göre",
+ "base": {
+  "tcmb-aralik": 60,
+  "tr-tufe-30": 30,
+  "usdtry-60": 20,
+  "fed-artirim": 40,
+  "abd-resesyon": 35,
+  "brent-110": 25,
+  "altin-4500": 45,
+  "nasdaq-25": 25
+ },
+ "order": [
+  [
+   "tcmb-aralik",
+   "tr-tufe-30",
+   "usdtry-60",
+   "fed-artirim"
+  ],
+  [
+   "abd-resesyon",
+   "brent-110",
+   "altin-4500",
+   "nasdaq-25"
+  ]
+ ],
+ "groups": [
+  "Türkiye ve Fed",
+  "Küresel Piyasalar"
+ ],
+ "tableNote": "Δ: lansman (8 Kasım) değerine göre · Veri: 9 Kasım sabahı",
+ "changedTitle": "En Çok Oynayan Üç Tahmin",
+ "changed": [
+  {
+   "id": "fed-artirim",
+   "text": "6 Kasım'da Ekim istihdamı 165 binle beklentinin (59 bin) üzerinde geldi, işsizlik %4,1'e geriledi; vadeli piyasa Aralık artırımına %77–81 olasılık veriyor. Motor bu fiyatlamaya çapa attı; Kongre'nin el değiştirmesi ve petroldeki geri çekilme nedeniyle Claude ayarı −5."
+  },
+  {
+   "id": "brent-110",
+   "text": "Değişimin kaynağı piyasa olayı değil, motorun ilk çalışması: opsiyon piyasasının fiyatladığı %60 oynaklıkla 97,7 dolardan 110 dolara dokunuş 6 ayda olağan. Vadeli eğrinin geriye dönük olması ve süren İran görüşmeleri nedeniyle Claude ayarı −15."
+  },
+  {
+   "id": "usdtry-60",
+   "text": "Motor, TCMB anketindeki 12 ay sonrası kur beklentisini (59,26) çapa aldı; 60 bu beklentinin yalnızca %1 üzerinde. Anket beklentilerinin son yıllarda gerçekleşenin üzerinde kalması nedeniyle Claude ayarı −10."
+  }
+ ],
+ "note": "Lansman değerleri motorsuzdu; motor Δ'sı ilk haftada hesaplanamaz",
+ "quiet": [
+  "TCMB Aralık indirimi %60 → %62: 16 kurumluk ankette 7 kurum indirim, 3 kurum sabit bekliyor.",
+  "ABD resesyonu %35 → %32: Ekim istihdamı güçlü, işsizlik %4,1; Sahm kuralı uyarı vermiyor.",
+  "Yıl sonu TÜFE, altın ve Nasdaq'taki büyük farklar da motorun ilk çalışmasından; piyasa olayı değil.",
+  "Yeni tahmin: Ekim ABD TÜFE aylık %0,3 veya üzeri, olasılık %60 (Motor %57 · Claude +3)."
+ ],
+ "cal": [
+  [
+   "10 Kas · 16:30",
+   "ABD Ekim TÜFE",
+   "Yalnızca aylık oran açıklanacak"
+  ],
+  [
+   "12 Kas",
+   "TCMB Enflasyon Raporu",
+   ""
+  ],
+  [
+   "13 Kas",
+   "ABD Ekim ÜFE",
+   ""
+  ],
+  [
+   "29 Kas",
+   "OPEC+ Yedi Ülke Toplantısı",
+   ""
+  ],
+  [
+   "3 Ara · 10:00",
+   "TÜİK Kasım TÜFE",
+   ""
+  ],
+  [
+   "9 Ara · 22:00",
+   "Fed FOMC Kararı",
+   ""
+  ],
+  [
+   "10 Ara · 14:00",
+   "TCMB PPK Kararı",
+   ""
+  ]
+ ],
+ "calNote": "Kaynak: TCMB, Fed, OPEC, BLS takvimleri",
+ "closingTitle": "Yarın İlk Sınav: ABD TÜFE",
+ "closingText": "Ekim ABD TÜFE'nin aylık %0,3 veya üzerinde gelme olasılığı %60. Rakam açıklanınca tahmin kapanır ve Brier skoru ile puanlanır; ilk Quant Karnesi 7 Aralık'ta yayınlanır.",
+ "closing": "Sizce Fed Aralık'ta faiz artırır mı?",
+ "method": [
+  [
+   "Motor",
+   "Veriden kurallı hesap: piyasa fiyatlaması, opsiyon oynaklığı, anketler ve tarihsel taban oranı. Aynı veriyle aynı sonuç."
+  ],
+  [
+   "Claude ayarı",
+   "Motorun göremediği bağlam: kurumların geçmiş davranışı, açıklamaların tonu, olaylar arası bağlantılar. Sınır ±20 puan."
+  ]
+ ]
+}
