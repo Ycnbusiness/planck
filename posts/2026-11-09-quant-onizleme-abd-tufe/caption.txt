@@ -1,0 +1,15 @@
+Yarın ABD TÜFE: Aylık %0,3 ve Üzeri Gelme Olasılığı %60
+
+ABD Ekim enflasyonu yarın 16:30 TSİ'de açıklanıyor. Cleveland Fed'in anlık tahmini %0,24, RBC'nin beklentisi %0,3; eşik tam ortada. Eylül'de aylık artış %0,6, yıllık %3,7 olmuştu.
+
+2025'teki hükümet kapanması nedeniyle Ekim 2025 fiyatları toplanamamıştı; bu yüzden Ekim için yıllık oran yayımlanmayacak, yalnızca aylık değişim açıklanacak. Vadeli piyasa Aralık'ta Fed artırımına yüzde 80 civarı olasılık verirken rakam bu fiyatlamayı iki yöne de oynatabilir.
+
+Soru: Ekim ABD TÜFE Aylık %0,3 veya Üzerinde Gelir mi?
+Motor %57 · Claude +3 · Planck %60 (Yüksek) · Son tarih: 10 Kasım 2026
+
+Motor: anket ve anlık tahmin ortalaması (%0,27) ile tarihsel tahmin hatası (0,12 puan) üzerinden hesap. Claude ayarı +3: Ekimde petrolün 100 doların üzerinde seyretmesi enerji kalemini yukarı itmiş olabilir.
+
+Kaynaklar: BLS, Cleveland Fed, RBC Economics, CME FedWatch.
+
+Yatırım tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+#planckquant #enflasyon #abd #olasılık

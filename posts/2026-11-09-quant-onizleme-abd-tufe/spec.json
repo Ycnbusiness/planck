@@ -1,0 +1,18 @@
+{
+ "brand": "quant",
+ "type": "sinyal",
+ "kind": "ÖNİZLEME",
+ "date": "9 KASIM 2026",
+ "time": "09:00",
+ "eyebrow": "Yarın 16:30 · ABD Enflasyonu",
+ "headline": "Yarın ABD TÜFE: Aylık %0,3 ve Üzeri Gelme Olasılığı",
+ "why": "Cleveland Fed anlık tahmini %0,24, RBC beklentisi %0,3; eşik tam ortada. Eylül'de aylık artış %0,6, yıllık %3,7 idi. 2025'teki hükümet kapanması nedeniyle Ekim için yıllık oran yayımlanmayacak; piyasa yalnızca aylık rakamı görecek.",
+ "risk": "Ekim ABD TÜFE Aylık %0,3 veya Üzerinde Gelir mi?",
+ "from": null,
+ "to": 60,
+ "motor": 57,
+ "adj": 3,
+ "impact": "Yüksek",
+ "deadline": "10 Kasım 2026",
+ "source": "BLS, Cleveland Fed, RBC"
+}

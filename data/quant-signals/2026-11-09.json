@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-09",
+ "scan_window": "2026-11-08 → 2026-11-09 08:00 TSİ",
+ "note": "İlk motor çalıştırması (quant/motor.py). 8 Kasım değerleri motorsuz Claude tahminiydi; bugünkü farkların çoğu yöntem kalibrasyonu. Kalibrasyon kaynaklı ≥15 puanlık farklar KALİBRASYON olarak ayrıldı, FLAŞ üretilmedi.",
+ "summary": {
+  "kirmizi": 1,
+  "sari": 0,
+  "yesil": 2,
+  "kalibrasyon": 5
+ },
+ "events": [
+  {
+   "id": "tcmb-aralik",
+   "q": "TCMB Aralık PPK'da Faiz İndirir mi?",
+   "from": 60,
+   "to": 62,
+   "delta": 2,
+   "motor": 70,
+   "adj": -8,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "veri",
+   "sources": [
+    "https://www.cnbce.com/haberler/16-kurumun-enflasyon-ve-faiz-beklentisi-belli-oldu-aralikta-iki-farkli-senaryo-h40984"
+   ]
+  },
+  {
+   "id": "tr-tufe-30",
+   "q": "2026 Yıl Sonu Enflasyonu %30'un Altında Kalır mı?",
+   "from": 30,
+   "to": 52,
+   "delta": 22,
+   "motor": 60,
+   "adj": -8,
+   "class_by_magnitude": "KIRMIZI",
+   "class": "KALİBRASYON",
+   "trigger": "ilk motor çalıştırması",
+   "rationale": "Değişim piyasa olayından değil, motorun ilk kez çalışmasından (opsiyon oynaklığı / anket beklentisiyle bariyer hesabı) kaynaklanıyor; içerik tetiklemez, haftalık raporda açıklanır.",
+   "sources": [
+    "https://www.cnbce.com/haberler/16-kurumun-enflasyon-ve-faiz-beklentisi-belli-oldu-aralikta-iki-farkli-senaryo-h40984",
+    "https://www.dunya.com/ekonomi/son-dakika-tuik-milyonlarin-bekledigi-enflasyon-oranlarini-acikladi-iste-aralik-2025-enflasyon-rakamlari-haberi-810034"
+   ]
+  },
+  {
+   "id": "usdtry-60",
+   "q": "Dolar/TL 12 Ay İçinde 60'ı Aşar mı?",
+   "from": 20,
+   "to": 46,
+   "delta": 26,
+   "motor": 56,
+   "adj": -10,
+   "class_by_magnitude": "KIRMIZI",
+   "class": "KALİBRASYON",
+   "trigger": "ilk motor çalıştırması",
+   "rationale": "Değişim piyasa olayından değil, motorun ilk kez çalışmasından (opsiyon oynaklığı / anket beklentisiyle bariyer hesabı) kaynaklanıyor; içerik tetiklemez, haftalık raporda açıklanır.",
+   "sources": [
+    "https://www.dunya.com/ekonomik-veriler/merkez-bankasi-duyurdu-enflasyon-beklentisi-artti-yil-sonu-dolar-tahmini-geriledi-haberi-844111",
+    "https://www.bloomberght.com/piyasalarda-gunun-ozeti-6-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3793839"
+   ]
+  },
+  {
+   "id": "fed-artirim",
+   "q": "Fed 12 Ay İçinde Faiz Artırır mı?",
+   "from": 40,
+   "to": 81,
+   "delta": 41,
+   "motor": 86,
+   "adj": -5,
+   "class_by_magnitude": "KIRMIZI",
+   "class": "KIRMIZI",
+   "trigger": "kalibrasyon + veri",
+   "event": "ABD Ekim istihdamı 165 bin (beklenti 59 bin), işsizlik %4,1 (6 Kasım). CME FedWatch Aralık artırım olasılığı %77–81. Fed Eylül'de 25 bp artırmış, Ekim'de 3,75–4,00'da sabit tutmuştu; iki üye artırım istedi.",
+   "rationale": "Önceki değer (%40) piyasa fiyatlamasını yansıtmıyordu; motor ilk çalıştırmasında FedWatch'a çapa attı (%86), Claude −5 ile %81. Hareketin büyük kısmı kalibrasyon, küçük kısmı 6 Kasım verisi; bu nedenle FLAŞ değil 09:00 Açılış Sinyali olarak işlendi.",
+   "content": "posts/2026-11-09-quant-fed-artirim/01.png",
+   "sources": [
+    "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915",
+    "https://finance.yahoo.com/markets/stocks/articles/markets-pricing-fed-rate-hike-100400968.html",
+    "https://stockanalysis.com/news/fed-holds-rates-steady-oct-2026/",
+    "https://www.axios.com/2026/11/06/october-2026-jobs-report-unemployment-165000"
+   ]
+  },
+  {
+   "id": "abd-resesyon",
+   "q": "ABD 12 Ay İçinde Resesyona Girer mi?",
+   "from": 35,
+   "to": 32,
+   "delta": -3,
+   "motor": 25,
+   "adj": 7,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "veri",
+   "sources": [
+    "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915",
+    "https://www.stl.news/stock-market-weekly-update-november-6-2026/"
+   ]
+  },
+  {
+   "id": "brent-110",
+   "q": "Brent Petrol 6 Ay İçinde 110 Doları Görür mü?",
+   "from": 25,
+   "to": 63,
+   "delta": 38,
+   "motor": 78,
+   "adj": -15,
+   "class_by_magnitude": "KIRMIZI",
+   "class": "KALİBRASYON",
+   "trigger": "ilk motor çalıştırması",
+   "rationale": "Değişim piyasa olayından değil, motorun ilk kez çalışmasından (opsiyon oynaklığı / anket beklentisiyle bariyer hesabı) kaynaklanıyor; içerik tetiklemez, haftalık raporda açıklanır.",
+   "sources": [
+    "https://fred.stlouisfed.org/series/OVXCLS",
+    "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "https://www.thestar.com.my/business/business-news/2026/11/09/oil-falls-on-open-as-trump-says-fresh-iran-attacks-039unlikely039"
+   ]
+  },
+  {
+   "id": "altin-4500",
+   "q": "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?",
+   "from": 45,
+   "to": 61,
+   "delta": 16,
+   "motor": 73,
+   "adj": -12,
+   "class_by_magnitude": "KIRMIZI",
+   "class": "KALİBRASYON",
+   "trigger": "ilk motor çalıştırması",
+   "rationale": "Değişim piyasa olayından değil, motorun ilk kez çalışmasından (opsiyon oynaklığı / anket beklentisiyle bariyer hesabı) kaynaklanıyor; içerik tetiklemez, haftalık raporda açıklanır.",
+   "sources": [
+    "https://fred.stlouisfed.org/series/GVZCLS",
+    "https://12punto.com.tr/ekonomi/altin-haftaya-yukselisle-basladi-ons-ve-gram-altin-ne-kadar-158484",
+    "https://www.ssga.com/library-content/products/fund-docs/etfs/us/insights-investment-ideas/monthly-gold-monitor.pdf"
+   ]
+  },
+  {
+   "id": "nasdaq-25",
+   "q": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
+   "from": 25,
+   "to": 45,
+   "delta": 20,
+   "motor": 54,
+   "adj": -9,
+   "class_by_magnitude": "KIRMIZI",
+   "class": "KALİBRASYON",
+   "trigger": "ilk motor çalıştırması",
+   "rationale": "Değişim piyasa olayından değil, motorun ilk kez çalışmasından (opsiyon oynaklığı / anket beklentisiyle bariyer hesabı) kaynaklanıyor; içerik tetiklemez, haftalık raporda açıklanır.",
+   "sources": [
+    "https://www.stl.news/stock-market-weekly-update-november-6-2026/",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html",
+    "https://en.wikipedia.org/wiki/Closing_milestones_of_the_Nasdaq_Composite"
+   ]
+  }
+ ],
+ "onizleme": {
+  "id": "abd-tufe-ekim-03",
+  "release": "2026-11-10T16:30:00+03:00",
+  "p": 60,
+  "motor": 57,
+  "adj": 3,
+  "content": "posts/2026-11-09-quant-onizleme-abd-tufe/01.png"
+ },
+ "neolur": "Bugün için Ne Olur? zaten üretildi (posts/2026-11-09-quant-ne-olur-nvidia); günlük sınır 1.",
+ "resolved_today": []
+}

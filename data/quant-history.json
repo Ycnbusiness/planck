@@ -1,1 +1,68 @@
-{"history":[]}
+{
+ "history": [
+  {
+   "date": "2026-11-09",
+   "forecasts": {
+    "tcmb-aralik": {
+     "motor": 70,
+     "adj": -8,
+     "p": 62
+    },
+    "tr-tufe-30": {
+     "motor": 60,
+     "adj": -8,
+     "p": 52
+    },
+    "usdtry-60": {
+     "motor": 56,
+     "adj": -10,
+     "p": 46
+    },
+    "fed-artirim": {
+     "motor": 86,
+     "adj": -5,
+     "p": 81
+    },
+    "abd-resesyon": {
+     "motor": 25,
+     "adj": 7,
+     "p": 32
+    },
+    "brent-110": {
+     "motor": 78,
+     "adj": -15,
+     "p": 63
+    },
+    "altin-4500": {
+     "motor": 73,
+     "adj": -12,
+     "p": 61
+    },
+    "nasdaq-25": {
+     "motor": 54,
+     "adj": -9,
+     "p": 45
+    },
+    "abd-tufe-ekim-03": {
+     "motor": 57,
+     "adj": 3,
+     "p": 60
+    }
+   },
+   "snapshot": {
+    "usdtry": 50.16,
+    "eurtry": 56.01,
+    "bist100": 11482.6,
+    "gram_altin_tl": 6647.53,
+    "ons_altin_usd": 4118.8,
+    "brent_usd": 97.7,
+    "bitcoin_usd": 74245,
+    "us10y": 4.87,
+    "fedwatch_aralik_artirim": 79,
+    "ovx": 60.29,
+    "gvz": 25.83,
+    "vix": 28.18
+   }
+  }
+ ]
+}

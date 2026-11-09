@@ -1,0 +1,18 @@
+{
+ "brand": "quant",
+ "type": "sinyal",
+ "kind": "AÇILIŞ SİNYALİ",
+ "date": "9 KASIM 2026",
+ "time": "09:00",
+ "eyebrow": "Fed · Faiz",
+ "headline": "Piyasa Aralık'ta Fed Artırımına %80 Veriyor",
+ "why": "Ekim istihdamı 165 bin ile beklentinin (59 bin) yaklaşık üç katı geldi, işsizlik %4,1'e geriledi. Fed Eylül'de 25 baz puan artırmış, Ekim'de 3,75–4,00 aralığında sabit tutmuştu; iki üye yeniden artırım istedi. Quant motoru ilk kez çalıştı ve olasılığı piyasa fiyatlamasına göre yeniden hesapladı.",
+ "risk": "Fed 12 Ay İçinde Faiz Artırır mı?",
+ "from": 40,
+ "to": 81,
+ "motor": 86,
+ "adj": -5,
+ "impact": "Çok yüksek",
+ "deadline": "8 Kasım 2027",
+ "source": "CME FedWatch, BLS, Fed"
+}

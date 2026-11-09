@@ -1,0 +1,16 @@
+Piyasa Aralık'ta Fed Artırımına %80 Veriyor
+
+ABD'de Ekim istihdamı 165 bin ile beklentinin yaklaşık üç katı geldi, işsizlik %4,1'e geriledi. Vadeli faiz piyasası Aralık toplantısı için yüzde 77–81 artırım olasılığı fiyatlıyor. Fed Eylül'de 25 baz puan artırmış, Ekim'de 3,75–4,00 aralığında sabit tutmuştu; iki üye yeniden artırım yönünde oy kullanmıştı.
+
+Planck Quant motoru bugün ilk kez çalıştı. Önceki değer (%40) piyasa fiyatlamasını yansıtmıyordu; motor Aralık fiyatlaması ile sonraki toplantıların koşullu olasılığını birleştirerek %86 hesapladı. Claude ayarı −5: Kongre'nin el değiştirmesi, teknoloji hisselerindeki satış ve petrolde haftalık yüzde 13 düşüş artırım patikasını yumuşatabilir.
+
+Soru: Fed 12 Ay İçinde Faiz Artırır mı?
+Motor %86 · Claude −5 · Planck %81 (Çok yüksek) · Son tarih: 8 Kasım 2027
+Eski değer: %40
+
+Yarın 16:30 TSİ: ABD Ekim TÜFE. Aylık %0,3 ve üzeri gelme olasılığı %60.
+
+Kaynaklar: CME FedWatch, BLS, Federal Reserve, InvestmentNews, Yahoo Finance.
+
+Yatırım tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+#planckquant #fed #faiz #olasılık

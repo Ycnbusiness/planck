@@ -12,7 +12,7 @@ const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const s = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const out = process.argv[3] || 'card.png';
 const flas = s.type === 'flas'; const QT = s.brand === 'quant';
 const d = (s.to ?? 0) - (s.from ?? 0); const [lv, lab] = band(s.to ?? 0);
-const delta = s.from == null ? 'YENİ RİSK' : `${d > 0 ? '+' : ''}${d} PUAN · %${s.from} → %${s.to}`;
+const delta = s.from == null ? (QT ? 'YENİ TAHMİN' : 'YENİ RİSK') : `${d > 0 ? '+' : ''}${d} PUAN · %${s.from} → %${s.to}`;
 const meter = `<div style="display:grid;grid-template-columns:repeat(5,64px);gap:10px">${[1,2,3,4,5].map(k => `<i style="display:block;height:18px;background:${k <= lv ? BLUE : DIM}"></i>`).join('')}</div>`;
 const html = `<html><head><style>${fonts}*{box-sizing:border-box}body{margin:0}
 .s{width:1080px;height:1350px;background:#0a0d13;color:#eef1f6;font-family:AL,AX,sans-serif;position:relative;overflow:hidden}
