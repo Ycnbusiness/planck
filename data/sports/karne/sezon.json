@@ -1,0 +1,16 @@
+{
+ "season": "2026-27",
+ "guncelleme": "2026-11-09",
+ "gercek": [],
+ "deneme": [],
+ "bekleyen": [
+  {
+   "dosya": "data/sports/week12-motor.json",
+   "hafta": 12,
+   "lig": "Süper Lig",
+   "durum": "maçlar henüz oynanmadı (milli ara sonrası, 20–23 Kasım)",
+   "yayinlandi": false
+  }
+ ],
+ "not": "9 Kasım 2026 itibarıyla puanlanacak tahmin yok: yayınlanmış hafta yok (data/sports/launched yok), tek motor tahmini 12. haftaya ait ve oynanmadı."
+}

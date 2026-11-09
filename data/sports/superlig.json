@@ -1,26 +1,33 @@
 {
  "season": "2026-27",
- "source": "TFF, 8 Kasım 2026 03:00 (11. hafta 6 maç oynanmadan önce)",
+ "source": "ajansspor.com + star.com.tr, 11. hafta tamamlandıktan sonra (9 Kasım 2026)",
  "table": [
   [
    "Galatasaray",
-   10,
-   23,
-   12,
+   11,
+   27,
+   15,
+   28
+  ],
+  [
+   "Trabzonspor",
+   11,
+   26,
+   8,
    25
   ],
   [
    "Amedspor",
-   10,
-   25,
    11,
+   28,
+   15,
    23
   ],
   [
-   "Trabzonspor",
-   10,
-   24,
-   8,
+   "Beşiktaş",
+   11,
+   23,
+   12,
    22
   ],
   [
@@ -31,10 +38,10 @@
    20
   ],
   [
-   "Beşiktaş",
+   "Fenerbahçe",
+   11,
+   29,
    10,
-   20,
-   12,
    19
   ],
   [
@@ -45,59 +52,52 @@
    19
   ],
   [
-   "Fenerbahçe",
-   10,
-   24,
-   10,
-   16
+   "Başakşehir",
+   11,
+   19,
+   17,
+   17
   ],
   [
    "Çorum FK",
-   10,
+   11,
    21,
-   16,
+   21,
    16
   ],
   [
    "Göztepe",
-   10,
-   21,
-   17,
+   11,
+   22,
+   19,
    15
   ],
   [
-   "Başakşehir",
-   10,
-   17,
+   "Rizespor",
+   11,
+   13,
    16,
    14
   ],
   [
    "Erzurumspor",
+   11,
    10,
-   9,
-   15,
+   17,
    14
   ],
   [
    "Alanyaspor",
-   10,
+   11,
    9,
-   16,
+   18,
    12
   ],
   [
-   "Rizespor",
-   10,
-   11,
-   15,
-   11
-  ],
-  [
    "Gençlerbirliği",
-   10,
+   11,
    12,
-   18,
+   21,
    11
   ],
   [

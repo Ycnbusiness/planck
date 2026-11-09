@@ -1,0 +1,65 @@
+[
+ {
+  "tarih": "2026-11-06",
+  "ev": "Gaziantep FK",
+  "dep": "Kasımpaşa",
+  "gol_ev": 0,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Eyüpspor",
+  "dep": "Kocaelispor",
+  "gol_ev": 0,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Samsunspor",
+  "dep": "Konyaspor",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Göztepe",
+  "dep": "Başakşehir",
+  "gol_ev": 1,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Galatasaray",
+  "dep": "Amedspor",
+  "gol_ev": 4,
+  "gol_dep": 3
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Rizespor",
+  "dep": "Erzurumspor",
+  "gol_ev": 2,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Çorum FK",
+  "dep": "Fenerbahçe",
+  "gol_ev": 0,
+  "gol_dep": 5
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Alanyaspor",
+  "dep": "Trabzonspor",
+  "gol_ev": 0,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Beşiktaş",
+  "dep": "Gençlerbirliği",
+  "gol_ev": 3,
+  "gol_dep": 0
+ }
+]

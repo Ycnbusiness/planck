@@ -1,0 +1,72 @@
+[
+ {
+  "tarih": "2026-11-06",
+  "ev": "Everton",
+  "dep": "Coventry City",
+  "gol_ev": 3,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Leeds United",
+  "dep": "Tottenham",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Arsenal",
+  "dep": "Hull City",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Fulham",
+  "dep": "Newcastle",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-07",
+  "ev": "Nottingham Forest",
+  "dep": "Manchester City",
+  "gol_ev": 3,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Ipswich Town",
+  "dep": "Bournemouth",
+  "gol_ev": 1,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Sunderland",
+  "dep": "Chelsea",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Brighton",
+  "dep": "Brentford",
+  "gol_ev": 2,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Crystal Palace",
+  "dep": "Liverpool",
+  "gol_ev": 1,
+  "gol_dep": 3
+ },
+ {
+  "tarih": "2026-11-08",
+  "ev": "Manchester United",
+  "dep": "Aston Villa",
+  "gol_ev": 4,
+  "gol_dep": 4
+ }
+]
