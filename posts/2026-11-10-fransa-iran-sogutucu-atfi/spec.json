@@ -7,11 +7,20 @@
  "lede": "Paris, 700 marketin soğutma sistemini altı saat boyunca 50 dereceye çıkaran saldırıyı resmen Devrim Muhafızları'na bağlı bir siber birime atfetti; yakalama kararı ve AB yaptırımı yolda. Planck'in kritik altyapıya siber saldırı riski %42'den %48'e çıktı.",
  "factsTitle": "Ne Oldu?",
  "facts": [
-  ["Atıf", "Fransa Dışişleri Bakanı ve ulusal siber güvenlik kurumu ANSSI, 12 Ekim'deki saldırının arkasında 'Şehit Kaveh' adlı birimin olduğunu açıkladı: Farsça izler ve İran'daki cihazlara bağlı IP adresleri."],
-  ["Yargı", "Paris savcılığı birimin lideri ve iki yardımcısı için uluslararası yakalama kararı istedi. İran büyükelçisi Dışişleri'ne çağrıldı; yaptırımların AB düzeyinde izleneceği açıklandı."],
-  ["Dalga", "Geçen hafta kan merkezlerine yönelik benzer bir girişim engellendi; İsveç, Belçika, Lüksemburg, İrlanda ve Estonya'da marketlerde soğutucu arızaları bildirildi. Bir zincir tek günde on milyonlarca euro kayıp açıkladı."]
+  [
+   "Atıf",
+   "Fransa Dışişleri Bakanı ve ulusal siber güvenlik kurumu ANSSI, 12 Ekim'deki saldırının arkasında 'Şehit Kaveh' adlı birimin olduğunu açıkladı: Farsça izler ve İran'daki cihazlara bağlı IP adresleri."
+  ],
+  [
+   "Yargı",
+   "Paris savcılığı birimin lideri ve iki yardımcısı için uluslararası yakalama kararı istedi. İran büyükelçisi Dışişleri'ne çağrıldı; yaptırımların AB düzeyinde izleneceği açıklandı."
+  ],
+  [
+   "Dalga",
+   "Geçen hafta kan merkezlerine yönelik benzer bir girişim engellendi; İsveç, Belçika, Lüksemburg, İrlanda ve Estonya'da marketlerde soğutucu arızaları bildirildi. Bir zincir tek günde on milyonlarca euro kayıp açıkladı."
+  ]
  ],
- "factsNote": "Saldırının kendisi 8 Kasım'da veriye işlenmişti; bugünkü yeni olgu, bir AB üyesinin ilk kez resmî devlet atfı yapması ve yargı sürecini başlatmasıdır. İran'ın yanıtı henüz yok.",
+ "factsNote": "Saldırının kendisi 8 Kasım'da veriye işlenmişti; bugünkü yeni olgu, Fransa'nın saldırıyı resmen bir devlet birimine bağlaması ve yargı sürecini başlatmasıdır. İran'ın yanıtı henüz yok.",
  "rings": [
   {
    "name": "Peki Biz?",
@@ -36,10 +45,22 @@
  "watchTitle": "Ne Yapabiliriz?",
  "watchEyebrow": "Öneriler",
  "watch": [
-  ["İşte", "Soğutma, HVAC ve enerji izleme panellerini doğrudan internete açık bırakmayın; uzaktan erişimi VPN ve iki adımlı doğrulamaya bağlayın, varsayılan şifreleri değiştirin."],
-  ["Kurumda", "Sıcaklık alarmı eşiklerini bağımsız bir sensörle yedekleyin; yazılım 'normal' derken ürün bozulmasın."],
-  ["Evde", "Ev ağınızdaki akıllı cihazları ayrı bir misafir ağına alın; üreticisi güncelleme vermeyen cihazları değiştirin."],
-  ["Haberde", "Atıf ile kanıt aynı şey değil: resmî açıklamalardaki teknik gerekçeyi (dil izi, IP, altyapı) arayın; tek kaynaklı 'kim yaptı' iddialarına mesafeli durun."]
+  [
+   "İşte",
+   "Soğutma, HVAC ve enerji izleme panellerini doğrudan internete açık bırakmayın; uzaktan erişimi VPN ve iki adımlı doğrulamaya bağlayın, varsayılan şifreleri değiştirin."
+  ],
+  [
+   "Kurumda",
+   "Sıcaklık alarmı eşiklerini bağımsız bir sensörle yedekleyin; yazılım 'normal' derken ürün bozulmasın."
+  ],
+  [
+   "Evde",
+   "Ev ağınızdaki akıllı cihazları ayrı bir misafir ağına alın; üreticisi güncelleme vermeyen cihazları değiştirin."
+  ],
+  [
+   "Haberde",
+   "Atıf ile kanıt aynı şey değil: resmî açıklamalardaki teknik gerekçeyi (dil izi, IP, altyapı) arayın; tek kaynaklı 'kim yaptı' iddialarına mesafeli durun."
+  ]
  ],
  "question": "İşyerinizde internete açık bir cihaz paneli olduğunu biliyor musunuz?"
 }
