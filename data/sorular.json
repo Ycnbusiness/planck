@@ -1066,6 +1066,36 @@
     }
    ],
    "bagli": "risk-avrupa"
+  },
+  {
+   "id": "dosya-2026-11-10-cin-nadir-toprak",
+   "kanal": "news",
+   "tur": "dosya",
+   "q": "Çin, 10 Ocak 2027'ye kadar ABD'ye yönelik nadir toprak / kritik mineral ihracat kontrollerinin askısını kaldırıp kontrolleri yeniden yürürlüğe koyar mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-01-10",
+   "kriter": "Çin Ticaret Bakanlığı (MOFCOM) 10 Ocak 2027'den önce askıya alınan kritik mineral ihracat kontrollerinden en az birini ABD için yeniden uygulamaya koyduğunu duyurursa evet. Süresi dolup uzatılmaması sayılmaz (son tarih 10 Ocak).",
+   "kaynak_cozum": "MOFCOM duyurusu; Reuters/AP",
+   "taban": "%15 — 2025'ten beri üç uzatmanın hiçbiri süresinden önce bozulmadı",
+   "mercekler": [
+    "uluslararası ilişkiler",
+    "ekonomi"
+   ],
+   "on_otopsi": "APEC görüşmesi çöker ve ABD yeni çip kısıtlaması getirir; Çin misilleme kartını erken kullanır.",
+   "motor": null,
+   "p": 20,
+   "ilk_p": 20,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 20,
+     "motor": null,
+     "neden": "Günün Dosyası 10.11"
+    }
+   ]
   }
  ]
 }

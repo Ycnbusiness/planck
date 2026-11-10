@@ -83,5 +83,16 @@
   "durum": "yayında (profilde doğrulandı 10:59)",
   "tur": "ozel-reel",
   "klasor": "posts/2026-11-10-10-kasim"
+ },
+ {
+  "t": "2026-11-10T21:10+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-10-dosya",
+  "baslik": "Günün Dosyası · 10 Kasım",
+  "ai_etiketi": true,
+  "facebook": false,
+  "duzeltme": "Doğrulanamayan 'ABD 301. madde askısı' ve '458'e 0' ifadeleri çıkarıldı; Çin askısı yüzde 24'lük tarife olarak netleştirildi; Çin sorusu sicile eklendi."
  }
 ]
