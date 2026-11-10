@@ -1,0 +1,18 @@
+VIX 20'ye İndi: Nasdaq'ta Sert Düşüş Olasılığı %45'ten %33'e
+
+Wall Street 9 Kasım'da geniş tabanlı bir yükseliş gördü: S&P 500 %2,35, Nasdaq %2,74, Dow %2,15 yükseldi. Oynaklık endeksi VIX %22 düşüşle 20'ye geriledi. Petrolde %5,85'lik düşüş ve yarı iletken hisselerindeki toparlanma alımları destekledi; Nvidia, yönetim kurulunun başlattığı bağımsız soruşturma haberiyle %4,3 geriledi ama sektörün yükselişini durdurmadı.
+
+Nasdaq zirvesinin %7 altında; %25'lik düşüş için ek %19 gerekiyor. Planck Quant motoru bu mesafeyi opsiyon piyasasının fiyatladığı oynaklıkla ölçer: VIX 28'den 20'ye inince 12 ayda bu seviyeye dokunma olasılığı %54'ten %38'e indi. Claude ayarı −5: hisse senetlerinin uzun vadeli yukarı eğilimi olasılığı aşağı çekerken, tek günde %22 düşen oynaklığın bugünkü ABD TÜFE verisi, 17 Kasım Nvidia bilançosu ve Aralık Fed toplantısı önünde bu kadar düşük kalması zor; iki etki birbirini kısmen dengeliyor.
+
+Soru: Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?
+Motor %38 · Claude −5 · Planck %33 (Orta) · Son tarih: 8 Kasım 2027
+Eski değer: %45
+
+Aynı günün ikinci sinyali: Brent %5,85 düşüşle 92,57 dolara, 31 Ağustos'tan bu yana en düşük seviyeye geriledi. "Brent 6 Ay İçinde 110 Doları Görür mü?" %63'ten %54'e. Vadeli faiz piyasası Aralık'ta Fed artırımına %84 veriyor; "Fed 12 Ay İçinde Faiz Artırır mı?" %81'den %85'e.
+
+Bugün 16:30 TSİ: ABD Ekim TÜFE. Aylık %0,3 ve üzeri gelme olasılığı %60 (dünkü önizleme).
+
+Kaynaklar: Cboe, Nasdaq, Motley Fool, Anadolu Ajansı, Business Recorder.
+
+Yatırım tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+#planckquant #nasdaq #vix #olasılık

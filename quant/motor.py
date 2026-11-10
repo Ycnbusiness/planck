@@ -23,6 +23,9 @@ Yöntemler
 """
 import json, math, sys
 
+AYAR_SINIRI = 15      # ANAYASA.md §3.7: finans için Claude ayarı en fazla ±15 puan (QUANT.md'deki ±20'yi Anayasa daraltır)
+P_MIN, P_MAX = 3, 97  # ANAYASA.md §3.7: yayınlanan olasılık %3'ün altına, %97'nin üstüne çıkmaz
+
 def Phi(x):
     return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
 
@@ -105,11 +108,22 @@ def motor_altin_4500(s):
     p = touch_up(S, K, sig, 1.0, 0.0)
     return pct(p), f"S={S}, K=4500, σ=GVZ %{s['gvz']}, μ=0, T=1"
 
+NASDAQ_BETA = 1.07      # Nasdaq'ın S&P 500'e göre oynaklık çarpanı (9 Kasım: 30/28,18)
+NASDAQ_VOL_TABAN = 24   # 12 aylık ufuk için taban: Nasdaq'ın uzun dönem gerçekleşen yıllık oynaklığı (%);
+                        # 1 aylık VIX düşükken 1 yıllık ima edilen oynaklığı olduğundan az gösterir
+
+def nasdaq_vol(s):
+    """Nasdaq yıllık oynaklığı: VIX × beta, tabanla sınırlı. Snapshot'ta açık değer varsa o kullanılır."""
+    if s.get("nasdaq_vol_sabit") is not None:
+        return float(s["nasdaq_vol_sabit"])
+    return max(NASDAQ_BETA * s["vix"], NASDAQ_VOL_TABAN)
+
 def motor_nasdaq_25(s):
     S = s["nasdaq"]; K = 0.75 * s["nasdaq_zirve"]
-    sig = s["nasdaq_vol"] / 100
+    vol = nasdaq_vol(s)
+    sig = vol / 100
     p = touch_down(S, K, sig, 1.0, 0.0)
-    return pct(p), f"S={S}, K=0,75×{s['nasdaq_zirve']}={K:.0f}, σ=%{s['nasdaq_vol']}, μ=0, T=1"
+    return pct(p), f"S={S}, K=0,75×{s['nasdaq_zirve']}={K:.0f}, σ=max({NASDAQ_BETA}×VIX {s['vix']}, {NASDAQ_VOL_TABAN})=%{vol:.1f}, μ=0, T=1"
 
 def motor_abd_tufe_ekim_03(s):
     """Ekim aylık manşet TÜFE ≥ %0,3 (yuvarlanmış; eşik 0,25). Beklenti = anket ve nowcast ortalaması."""
@@ -145,9 +159,9 @@ def run(path, apply=False):
             fc["motor"] = m
             fc["motor_not"] = note
             adj = fc.get("adj") or 0
-            if abs(adj) > 20:
-                raise SystemExit(f"{fc['id']}: Claude ayarı ±20 sınırını aşıyor ({adj})")
-            fc["p"] = max(1, min(99, m + adj))
+            if abs(adj) > AYAR_SINIRI:
+                raise SystemExit(f"{fc['id']}: Claude ayarı ±{AYAR_SINIRI} sınırını aşıyor ({adj})")
+            fc["p"] = max(P_MIN, min(P_MAX, m + adj))
     for fid, m, note in rows:
         print(f"{fid:18s} motor={'—' if m is None else m:>3}  {note}")
     if apply:

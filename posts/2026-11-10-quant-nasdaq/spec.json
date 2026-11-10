@@ -1,0 +1,18 @@
+{
+ "brand": "quant",
+ "type": "sinyal",
+ "kind": "AÇILIŞ SİNYALİ",
+ "date": "10 KASIM 2026",
+ "time": "09:00",
+ "eyebrow": "Wall Street · Oynaklık",
+ "headline": "VIX 20'ye İndi: Nasdaq'ta Sert Düşüş Olasılığı %45'ten %33'e",
+ "why": "S&P 500 9 Kasım'da %2,35, Nasdaq %2,74 yükseldi; oynaklık endeksi VIX %22 düşüşle 20'ye geriledi. Petrolde %5,85'lik düşüş ve yarı iletken hisselerindeki toparlanma alımları destekledi. Endeks zirvesinin %7 altında; %25'lik düşüş için ek %19 gerekiyor ve düşen oynaklıkla bu 12 ayda daha seyrek bir olay.",
+ "risk": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
+ "from": 45,
+ "to": 33,
+ "motor": 38,
+ "adj": -5,
+ "impact": "Yüksek",
+ "deadline": "8 Kasım 2027",
+ "source": "Cboe, Nasdaq, Motley Fool"
+}

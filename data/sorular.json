@@ -380,8 +380,8 @@
    "taban": "Motor %86 (quant/motor.py)",
    "mercekler": [],
    "on_otopsi": "Büyüme ve istihdam zayıflar, enflasyona rağmen Fed bekler.",
-   "motor": 86,
-   "p": 81,
+   "motor": 90.0,
+   "p": 85,
    "ilk_p": 81,
    "durum": "acik",
    "sonuc": null,
@@ -392,6 +392,12 @@
      "p": 81,
      "motor": 86,
      "neden": "göç: quant.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 85,
+     "motor": 90.0,
+     "neden": "Vadeli piyasa Aralık artırımını %84'e çıkardı (9 Kasım); motor 90, Claude −5"
     }
    ]
   },
@@ -434,8 +440,8 @@
    "taban": "Motor %78 (quant/motor.py)",
    "mercekler": [],
    "on_otopsi": "Arz kesintisi kısa sürer ya da talep zayıflığı fiyatı sınırlar.",
-   "motor": 78,
-   "p": 63,
+   "motor": 69.0,
+   "p": 54,
    "ilk_p": 63,
    "durum": "acik",
    "sonuc": null,
@@ -446,6 +452,12 @@
      "p": 63,
      "motor": 78,
      "neden": "göç: quant.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 54,
+     "motor": 69.0,
+     "neden": "Brent %5,85 düşüşle 92,57 dolar, 31 Ağustos'tan beri en düşük; Trump İran'a yeni saldırı gerekli değil dedi; motor 69, Claude −15"
     }
    ]
   },
@@ -461,8 +473,8 @@
    "taban": "Motor %73 (quant/motor.py)",
    "mercekler": [],
    "on_otopsi": "Reel faiz yükselişi merkez bankası alımlarını bastırır.",
-   "motor": 73,
-   "p": 61,
+   "motor": 72.0,
+   "p": 60,
    "ilk_p": 61,
    "durum": "acik",
    "sonuc": null,
@@ -473,6 +485,12 @@
      "p": 61,
      "motor": 73,
      "neden": "göç: quant.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 60,
+     "motor": 72.0,
+     "neden": "Ons 4.109 dolar; motor 72, Claude −12"
     }
    ]
   },
@@ -488,8 +506,8 @@
    "taban": "Motor %54 (quant/motor.py)",
    "mercekler": [],
    "on_otopsi": "Kazançlar faiz artışını telafi eder ve düşüş %15–20 bandında kalır.",
-   "motor": 54,
-   "p": 45,
+   "motor": 38.0,
+   "p": 33,
    "ilk_p": 45,
    "durum": "acik",
    "sonuc": null,
@@ -500,6 +518,12 @@
      "p": 45,
      "motor": 54,
      "neden": "göç: quant.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 33,
+     "motor": 38.0,
+     "neden": "Nasdaq %2,74 yükseldi, VIX 20,02; oynaklık kuralı max(1,07×VIX, 24) ile motor 38, Claude −5"
     }
    ]
   },

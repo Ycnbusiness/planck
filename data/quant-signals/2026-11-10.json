@@ -1,0 +1,159 @@
+{
+ "date": "2026-11-10",
+ "scan_window": "2026-11-09 08:00 → 2026-11-10 08:00 TSİ",
+ "note": "Piyasa şoku yok (BIST +%2,00; Dolar/TL +%0,1). Claude ayar sınırı Anayasa §3.7 gereği ±15'e çekildi (motor.py); mevcut ayarların hepsi sınır içinde. Oynaklık girdisi nasdaq_vol artık motor kuralı: max(1,07×VIX, 24).",
+ "summary": {
+  "kirmizi": 0,
+  "sari": 2,
+  "yesil": 7
+ },
+ "events": [
+  {
+   "id": "tcmb-aralik",
+   "q": "TCMB Aralık PPK'da Faiz İndirir mi?",
+   "from": 62,
+   "to": 62,
+   "delta": 0,
+   "motor": 70,
+   "adj": -8,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "değişim yok",
+   "sources": [
+    "https://www.paraanaliz.com/haberler/analiz-enflasyon-yeniden-dusecek-mi-tcmb-aralik-ayinda-faiz-indirecek-mi"
+   ]
+  },
+  {
+   "id": "tr-tufe-30",
+   "q": "2026 Yıl Sonu Enflasyonu %30'un Altında Kalır mı?",
+   "from": 52,
+   "to": 52,
+   "delta": 0,
+   "motor": 60,
+   "adj": -8,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "değişim yok",
+   "sources": []
+  },
+  {
+   "id": "usdtry-60",
+   "q": "Dolar/TL 12 Ay İçinde 60'ı Aşar mı?",
+   "from": 46,
+   "to": 46,
+   "delta": 0,
+   "motor": 56,
+   "adj": -10,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "değişim yok",
+   "sources": [
+    "https://www.tgrthaber.com/ekonomi/10-kasim-2026-doviz-kurlari-dolar-yukselise-gecti-euro-frene-basti-3370469",
+    "https://www.bloomberght.com/piyasalarda-gunun-ozeti-9-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3793995"
+   ]
+  },
+  {
+   "id": "fed-artirim",
+   "q": "Fed 12 Ay İçinde Faiz Artırır mı?",
+   "from": 81,
+   "to": 85,
+   "delta": 4,
+   "motor": 90,
+   "adj": -5,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "veri",
+   "event": "Vadeli faiz piyasası Aralık artırım olasılığını %78'den %84'e çıkardı (9 Kasım kapanış).",
+   "sources": [
+    "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias",
+    "https://www.memurlar.net/haber/1182935/fed-faiz-artirimi-beklentisi-yuzde-84-e-yukseldi-altin-geriledi.html"
+   ]
+  },
+  {
+   "id": "abd-resesyon",
+   "q": "ABD 12 Ay İçinde Resesyona Girer mi?",
+   "from": 32,
+   "to": 32,
+   "delta": 0,
+   "motor": 25,
+   "adj": 7,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "değişim yok",
+   "sources": []
+  },
+  {
+   "id": "brent-110",
+   "q": "Brent Petrol 6 Ay İçinde 110 Doları Görür mü?",
+   "from": 63,
+   "to": 54,
+   "delta": -9,
+   "motor": 69,
+   "adj": -15,
+   "class_by_magnitude": "SARI",
+   "class": "SARI",
+   "trigger": "veri",
+   "event": "Brent 9 Kasım'da %5,85 düşüşle 92,57 dolara geriledi (31 Ağustos'tan bu yana en düşük). Trump, İran'a yeni askeri harekâtın 'bu aşamada' gerekli olmadığını söyledi; Hürmüz ablukası ve gemi saldırıları sürüyor.",
+   "rationale": "Hareketin tamamı fiyat girdisinden (97,7 → 92,57); Claude ayarı −15 ile aynı.",
+   "sources": [
+    "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran",
+    "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias",
+    "https://journalarta.com/en/2026/11/10/stock-market-today-sp-500-surges-2-35-to-7549-94-and-nasdaq-jumps-2-74-as-oil-falls-and-vix-drops/"
+   ]
+  },
+  {
+   "id": "altin-4500",
+   "q": "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?",
+   "from": 61,
+   "to": 60,
+   "delta": -1,
+   "motor": 72,
+   "adj": -12,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "veri",
+   "sources": [
+    "https://www.memurlar.net/haber/1182935/fed-faiz-artirimi-beklentisi-yuzde-84-e-yukseldi-altin-geriledi.html",
+    "https://www.ekoturk.com/gundem/gune-baslarken-gozler-abd-enflasyonunda-iceride-sanayi-uretimi-izlenecek"
+   ]
+  },
+  {
+   "id": "nasdaq-25",
+   "q": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
+   "from": 45,
+   "to": 33,
+   "delta": -12,
+   "motor": 38,
+   "adj": -5,
+   "class_by_magnitude": "SARI",
+   "class": "SARI",
+   "trigger": "veri",
+   "event": "9 Kasım: S&P 500 %2,35, Nasdaq %2,74 yükseldi; VIX %21,9 düşüşle 20,02'ye geriledi.",
+   "rationale": "12 puanlık düşüşün yaklaşık 6 puanı fiyat ve oynaklık verisinden (9 Kasım oynaklık girdisi %30 sabit tutulsaydı motor 48, p 39 olurdu); kalan 6 puan oynaklık girdisinin VIX'e bağlı kurala (max(1,07×VIX, 24)) geçmesinden. Kural dün örtük olarak aynıydı (30 = 1,07×28,18), bugün taban eklendi. İki bileşen de sarı bandında; FLAŞ değil Açılış Sinyali.",
+   "content": "posts/2026-11-10-quant-nasdaq/01.png",
+   "sources": [
+    "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-markets-rally-as-semiconductor-gains-lift-nasdaq/",
+    "https://journalarta.com/en/2026/11/10/stock-market-today-sp-500-surges-2-35-to-7549-94-and-nasdaq-jumps-2-74-as-oil-falls-and-vix-drops/",
+    "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+   ]
+  },
+  {
+   "id": "abd-tufe-ekim-03",
+   "q": "Ekim ABD TÜFE Aylık %0,3 veya Üzerinde Gelir mi?",
+   "from": 60,
+   "to": 60,
+   "delta": 0,
+   "motor": 57,
+   "adj": 3,
+   "class_by_magnitude": "YEŞİL",
+   "class": "YEŞİL",
+   "trigger": "değişim yok",
+   "sources": []
+  }
+ ],
+ "onizleme": null,
+ "onizleme_not": "11 Kasım'da takvimde TÜİK TÜFE, PPK, FOMC, ABD TÜFE/istihdam veya OPEC+ yok; 12 Kasım TCMB Enflasyon Raporu önizleme listesinde değil. Bugün 16:30 ABD Ekim TÜFE (dünkü önizleme: %60).",
+ "neolur": "Üretilmedi. Mevcut tahminler eşik üstünde oynadığı için koşul sağlanmadı; aday olay (Rusya–Ukrayna–ABD Abu Dabi görüşmeleri, 10–11 Kasım, Şubat'tan beri ilk tur) henüz sonuç vermedi ve ana Planck'in alanında; sonuç çıkarsa yarın değerlendirilir.",
+ "resolved_today": [],
+ "resolved_not": "abd-tufe-ekim-03 son tarihi bugün; veri 16:30 TSİ'de açıklanacak, kapanış ayrı (hakem) çalıştırmada BLS bülteniyle yapılacak."
+}
