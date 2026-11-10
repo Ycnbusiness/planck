@@ -767,8 +767,8 @@
     "Mühendislik/enerji: dizel çatlak marjı küresel dizel kıtlığıyla yüksek, indirimi sınırlar"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: dizel ürün fiyatının ham petrolü izlememesi (yüksek çatlak marjı) ya da kurun beklenenden hızlı artması.",
-   "motor": 52,
-   "p": 45,
+   "motor": 88.0,
+   "p": 85,
    "ilk_p": 45,
    "durum": "acik",
    "sonuc": null,
@@ -779,6 +779,12 @@
      "p": 45,
      "motor": 52,
      "neden": "açılış: Trump 'savaş fiilen bitti', Brent 92 dolar"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 85,
+     "motor": 88.0,
+     "neden": "Yayın öncesi doğrulama düzeltmesi: tarama 7 Kasım'daki 5,44 TL indirimi (95,09 TL) görmemişti; yayınlanmadan düzeltildi"
     }
    ],
    "bagli": "risk-enerji"
