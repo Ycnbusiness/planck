@@ -36,5 +36,52 @@
    "posts/2026-11-10-fransa-iran-sogutucu-atfi (13:00)"
   ],
   "dogrulama": "Her iki olay bağımsız kaynaklarla doğrulandı (AP, Reuters, Al Jazeera, CBS). Yayın öncesi düzeltmeler: motorin sorusu %45→%85, Hürmüz ifadesi, 'ilk kez' ifadesi."
+ },
+ {
+  "t": "2026-11-10T11:20+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "olay-cevap carousel",
+  "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
+  "baslik": "\"Savaş Fiilen Bitti\": Brent 92 Dolara İndi",
+  "ai_etiketi": true,
+  "facebook": false
+ },
+ {
+  "t": "2026-11-10T12:20+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "olay reel",
+  "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
+  "baslik": "aynı",
+  "ai_etiketi": true,
+  "facebook": false
+ },
+ {
+  "t": "2026-11-10T13:20+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "olay-cevap carousel",
+  "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
+  "baslik": "Fransa, Market Soğutucu Saldırısını İran'a Bağladı",
+  "ai_etiketi": true,
+  "facebook": false
+ },
+ {
+  "t": "2026-11-10T14:20+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "olay reel",
+  "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
+  "baslik": "aynı",
+  "ai_etiketi": true,
+  "facebook": false
+ },
+ {
+  "t": "2026-11-10T09:03+03:00",
+  "hesap": "planck.news",
+  "durum": "yayında (profilde doğrulandı 10:59)",
+  "tur": "ozel-reel",
+  "klasor": "posts/2026-11-10-10-kasim"
  }
 ]

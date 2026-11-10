@@ -6,18 +6,20 @@
   "not": "10 Kasım anma — planlandı; bu gün ana akışta ilk olay gönderisi en erken 11:00"
  },
  {
-  "saat": "11:00",
+  "saat": "11:20",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
   "onem": 20,
-  "not": "carousel 4 sayfa + reel.mp4; enerji 71→66 (ikincil: çatışma 85→82)"
+  "not": "carousel 4 sayfa + reel.mp4; enerji 71→66 (ikincil: çatışma 85→82)",
+  "durum": "planlandı (+reel 12:20)"
  },
  {
-  "saat": "13:00",
+  "saat": "13:20",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
   "onem": 12,
-  "not": "carousel 4 sayfa + reel.mp4; siber 42→48"
+  "not": "carousel 4 sayfa + reel.mp4; siber 42→48",
+  "durum": "planlandı (+reel 14:20)"
  },
  {
   "saat": "21:00",
