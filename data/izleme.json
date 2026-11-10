@@ -1,0 +1,13 @@
+{
+ "ogeler": [
+  {
+   "id": "didamar-radar",
+   "acilis": "2026-11-10",
+   "olay": "IRGC yetkilisi, 9 Kasım akşamı Umman'ın Didamar adasında (Hürmüz güney rotası) gemi geçişine yardım eden radar/haberleşme sistemlerini vurduğunu söyledi. Duman videosu ve Sentinel-2 yanık izi OSINT kaynaklı; Gulf News 'iddia' olarak aktardı.",
+   "durum": "doğrulanmadı",
+   "eksik": "Umman veya ABD resmî açıklaması ya da Reuters/AP/AFP/BBC haberi",
+   "olursa": "Bugünkü Günün Dosyası'na ekle (risk: enerji; güney rotası etkisi). Önem ≥12 çıkarsa Olay ve Cevap adayı.",
+   "bitis": "2026-11-13"
+  }
+ ]
+}

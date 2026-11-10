@@ -93,3 +93,7 @@ Günlük taramanın **ilk adımı hakemliktir**, sonra tarama gelir:
 4. İçerikte geçen her yeni olasılık (Olay ve Cevap, Ne Olur?, Peki Biz?, Dosya) yayın kuyruğuna girmeden önce `sicil.py ekle` ile kaydedilir. Zorunlu alanı eksik soru yayınlanmaz.
 5. **Geçiş işi (16 Kasım'a kadar):** Her taramada sıradaki üç `risk-*` kaydı için 2031 kapanış kriteri, kaynağı, tabanı ve ön-otopsisi yazılır; ayrıca o riski sınayan iki öncü soru (son tarih ≤ 6 ay, tercihen ≤ 90 gün) açılır ve `bagli` alanına risk kimliği yazılır. `sicil.py dogrula` sıfır eksik gösterene kadar sürer.
 6. Kapanan her soru için `posts/<tarih>-kapandi-<id>/` altında "Tuttu / Tutmadı" kartı taslağı üretilir; cuma 18:00 toplu yayına girer (STRATEJI.md).
+
+## İzleme listesi
+
+`data/izleme.json`: doğrulanmamış ama önemli iddialar. Her tarama, kırmızı alarm ve Günün Dosyası görevi önce bu listeyi kontrol eder; `eksik` alanındaki doğrulama geldiyse `olursa` alanındaki işi yapar ve `durum`u günceller. `bitis` tarihine kadar doğrulanmayan öğe `durum: düştü` olur. Doğrulanmamış öğe hiçbir içerikte olgu olarak geçmez.
