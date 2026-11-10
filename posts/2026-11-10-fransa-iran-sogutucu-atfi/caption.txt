@@ -1,0 +1,14 @@
+Fransa, market soğutucu saldırısını İran'a bağladı
+
+Fransa, 12 Ekim'de yaklaşık 700 marketin soğutma sistemini altı saat boyunca 50 dereceye çıkaran siber saldırıyı 9 Kasım'da resmen Devrim Muhafızları'na bağlı bir siber birime atfetti. Paris savcılığı birimin lideri ve iki yardımcısı için uluslararası yakalama kararı istedi; İran büyükelçisi Dışişleri'ne çağrıldı, yaptırımların AB düzeyinde izleneceği açıklandı. Geçen hafta kan merkezlerine yönelik benzer bir girişim engellenmiş, beş Avrupa ülkesinde marketlerde soğutucu arızaları bildirilmişti.
+
+Etkilenen risk: Kritik Altyapıya Siber Saldırılar
+Olasılık: %42 → %48 (Orta-yüksek)
+
+Peki biz? Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketinin siber saldırıyla hizmet aksaması açıklama olasılığı %40 (değişmedi). Türkiye'nin aynı tarihe kadar bir siber saldırıyı resmî olarak yabancı bir devlete atfetme olasılığı %8.
+
+Son sayfada işte, kurumda ve evde yapılabilecekler var.
+
+İşyerinizde internete açık bir cihaz paneli olduğunu biliyor musunuz?
+
+Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır. #planck #pekibiz #siberguvenlik

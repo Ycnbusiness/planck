@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-10",
+  "scan_window": "2026-11-09 06:45 → 2026-11-10 06:50 (TSİ)",
+  "hakem": {
+    "vadesi_gelen": ["q-abd-tufe-ekim-03"],
+    "not": "BLS Ekim TÜFE verisi 10 Kasım 16:30 TSİ'de açıklanacak; tarama saatinde veri yok, soru dokunulmadan bırakıldı. Yayın turu veriyi gördükten sonra kapatmalı.",
+    "karne": "yenilendi (kapanan 0)"
+  },
+  "summary": {
+    "kirmizi": 0,
+    "sari": 3,
+    "yesil": 2
+  },
+  "events": [
+    {
+      "id": "iran-savas-fiilen-bitti",
+      "class": "SARI",
+      "risk": "enerji",
+      "secondary_risk": "catisma",
+      "delta": -5,
+      "from": 71,
+      "to": 66,
+      "secondary": {"risk": "catisma", "from": 85, "to": 82, "delta": -3, "lr": 0.8},
+      "lr": 0.8,
+      "onem": 20,
+      "onem_hesap": "|−5| × Türkiye bağı 2 (akaryakıt ve enerji ithalat faturası) × etki 2 (Yüksek)",
+      "turkiye_bagi": 2,
+      "event": "ABD Başkanı, 9 Kasım'da Katar Başbakanı ile Beyaz Saray'da görüştükten sonra İran savaşının askeri olarak fiilen bittiğini, deniz ablukasının ve yeni 'Iron Gate' görev gücünün sürdüğü mevcut durumun korunacağını ve yeni saldırıların pek olası olmadığını söyledi. Katar Başbakanı görüşmeleri 'olumlu' diye niteledi. İran Ulusal Güvenlik Konseyi Sekreteri açıklamaları dikkat dağıtma olarak nitelendirdi; Dışişleri Bakanı Rubio, tarafların bir atılımın eşiğinde olmadığını yineledi. Brent, geçen haftaki yüzde 16'lık düşüşün ardından pazartesi yüzde 6'ya yakın gerileyerek 92 dolar civarına indi; Reuters anketine göre OPEC üretimi ekimde günde 1,38 milyon varil artarak savaş öncesinin yüzde 90'ına ulaştı. Aynı gün Suudi Enerji Bakanlığı, Hürmüz'ü by-pass eden Doğu-Batı boru hattında Medine bölgesinde sınırlı bir yangınla sonuçlanan saldırıyı doğruladı; operasyonların aksamadığını bildirdi.",
+      "rationale": "Enerji: Fiyat ve arz tarafında iki bağımsız gösterge aynı yönde (Brent 92, OPEC üretimi savaş öncesinin yüzde 90'ı); ABD yönetiminin yeni saldırı istemediğini açıkça söylemesi arz şokunun uzaması ihtimalini azaltıyor. Ancak Hürmüz fiilen kapalı, abluka sürüyor, İran günde 1,9 milyon varille 1989'dan bu yana en düşük üretimde ve dizel fiyatları ABD'de galon başına 6 doları aştı; Suudi boru hattı saldırısı da altyapının hâlâ hedef olduğunu gösteriyor. Bu nedenle zayıf ters kanıt (LR 1/1,25): 71 → 66. Çatışma: Savaşın büyük ölçekli yeniden alevlenme ihtimali düşüyor, fakat ateşkes veya anlaşma yok; Katar aracılığıyla iletilen ara anlaşma taslağı tek kaynaklı (İsrail basını) olduğu için olasılığa işlenmedi. Zayıf ters kanıt: 85 → 82. Ana akışta olasılık enerji riski üzerinden anlatılıyor; çatışma değişimi aynı olayın ikincil etkisi olarak kaydedildi.",
+      "pekibiz": ["pb-2026-11-10-motorin"],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm",
+        "https://www.arabnews.com/middle-east/trump-says-iran-war-is-militarily-effectively-over-after-qatar-pm-talks-3010816",
+        "https://uk.investing.com/news/commodities-news/oil-prices-dip-amid-iran-peace-hopes-improving-supplies-4970012",
+        "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crashes-7-on-Iran-Peace-Hopes-Despite-Fresh-Saudi-Pipeline-Attack.html",
+        "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html",
+        "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure"
+      ]
+    },
+    {
+      "id": "fransa-iran-sogutucu-atfi",
+      "class": "SARI",
+      "risk": "siber",
+      "delta": 6,
+      "from": 42,
+      "to": 48,
+      "lr": 1.25,
+      "onem": 12,
+      "onem_hesap": "|+6| × Türkiye bağı 1 (aynı cihaz açığı Türkiye'de de var; doğrudan hedef değil) × etki 2 (Yüksek)",
+      "turkiye_bagi": 1,
+      "event": "Fransa, 12 Ekim'de ülkedeki yaklaşık 10 bin marketten 700'ünün soğutma sistemlerini altı saat boyunca 50 dereceye çıkaran siber saldırıyı 9 Kasım'da resmen İran Devrim Muhafızları'na bağlı 'Şehit Kaveh' birimine atfetti. Ulusal siber güvenlik kurumu ANSSI saldırganların Farsça kullandığını ve İran'daki cihazlara bağlı IP adreslerinden geldiğini bildirdi. Paris savcılığı birimin lideri ve iki yardımcısı için uluslararası yakalama kararı istedi; Dışişleri Bakanı İran büyükelçisini çağırdı ve AB düzeyinde yaptırım izleneceğini söyledi. Geçen hafta Fransa'da kan merkezlerine yönelik benzer bir girişim engellenmiş; İsveç, Belçika, Lüksemburg, İrlanda ve Estonya'da marketlerde soğutucu arızaları bildirilmişti. Intermarché zinciri tek günde on milyonlarca euroluk kayıp açıkladı.",
+      "rationale": "Soğuk zincir saldırısı 8 Kasım taramasında işlenmişti; yeni olan, bir AB üyesinin saldırıyı ilk kez resmî olarak bir devlet birimine bağlaması, yargı ve yaptırım sürecini başlatması. Bu, sivil kritik altyapıya siber saldırının devletler arası çatışmanın olağan aracı hâline gelmesi eğilimini doğruluyor ve misilleme döngüsü riskini artırıyor. Zayıf kanıt (LR 1,25): 42 → 48. İran'ın tepkisi henüz yok; AB yaptırım kararı alınmadı.",
+      "pekibiz": ["pb-2026-W46-1", "pb-2026-11-10-siber-atif"],
+      "sources": [
+        "https://www.pbs.org/newshour/world/france-blames-iran-for-last-months-cyberattack-on-supermarket-fridges",
+        "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges",
+        "https://www.cbc.ca/news/world/france-iran-cyberattack-accusation-9.7415031"
+      ]
+    },
+    {
+      "id": "cin-ticaret-ateskesi-uzatma",
+      "class": "YEŞİL",
+      "risk": "abd-cin-teknoloji",
+      "delta": -2,
+      "from": 58,
+      "to": 56,
+      "lr": 0.92,
+      "onem": 4,
+      "onem_hesap": "|−2| × Türkiye bağı 1 (nadir toprak mıknatıs ve çip tedariki) × etki 2 (Yüksek)",
+      "turkiye_bagi": 1,
+      "event": "Çin Ticaret Bakanlığı 9 Kasım'da bazı kritik minerallere yönelik ihracat kontrollerinin askıya alınmasını, Maliye Bakanlığı da ABD mallarına yüzde 24'lük ek tarifenin askısını 10 Ocak 2027'ye kadar iki ay uzattı; yüzde 10'luk oran sürüyor. ABD Ticaret Temsilciliği de Çin'in denizcilik sektörüne yönelik 301. madde soruşturmasındaki yaptırımı askıya aldı ve 178 tarife muafiyetini uzattı. ABD Hazine Bakanı, Çin'den Busan taahhütlerini 'tam ve derhal' uygulamasını istedi. ABD ve Çin liderlerinin gelecek hafta Shenzhen'deki APEC zirvesinde görüşmesi bekleniyor.",
+      "rationale": "Uzatma bekleniyordu; süre iki ayla sınırlı tutuldu ve ABD tarafı uygulama eksikliğinden yakınıyor. Kalıcı ayrışma eğilimi değişmedi, yalnızca takvim ertelendi: küçük düşüş, 58 → 56. APEC görüşmesinin sonucu beklenmeden daha fazla oynatılmadı.",
+      "pekibiz": ["pb-2026-11-10-nadir-toprak"],
+      "sources": [
+        "https://www.thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months/",
+        "https://bloomberg.com/news/articles/2026-11-09/china-extends-pause-on-24-us-tariffs-to-january-keeps-10-rate",
+        "https://gcaptain.com/china-extends-us-trade-truce-by-two-months/"
+      ]
+    },
+    {
+      "id": "fransa-asgari-ucret-odunu",
+      "class": "YEŞİL",
+      "risk": "avrupa",
+      "delta": 1,
+      "from": 65,
+      "to": 66,
+      "lr": 1.05,
+      "onem": 2,
+      "onem_hesap": "|+1| × Türkiye bağı 1 (AB talebi, euro) × etki 2 (Yüksek)",
+      "turkiye_bagi": 1,
+      "event": "Fransa Başbakanı 9 Kasım'da sendika ve işveren görüşmelerinin ardından asgari ücrete yüzde 1,6'lık artışın 1 Ocak yerine 1 Aralık'ta yapılacağını (net aylık yaklaşık 24 euro) ve fazla mesaiye 10 bin euroya kadar vergi muafiyeti dahil bir dizi önlemi açıkladı. Sendikalar artışı taleplerinin (CFDT 100 euro, CGT yaklaşık 150 euro) çok altında buldu; CGT 17 Kasım için yeni ülke çapında grev ve gösteri çağrısı yaptı. 2027 bütçesinin gelir bölümü 4 Kasım'da Ulusal Meclis'te 458'e 0 reddedilmiş, metin Senato'ya gitmişti.",
+      "rationale": "Hükümetin tavizi protesto dalgasını durdurmadı; yeni grev tarihi ve bütçe tıkanıklığı parçalanma eğilimini sürdürüyor. Dünkü değerlendirmenin devamı niteliğinde, yeni bir kırılma yok: küçük artış, 65 → 66.",
+      "pekibiz": ["pb-2026-11-10-fransa-butce"],
+      "sources": [
+        "https://www.euronews.com/2026/11/09/pm-sebastien-lecornu-lifts-minimum-wage-16-from-december-offers-tax-breaks",
+        "https://www.riotimesonline.com/france-talks-pay-unions-weigh-next-move",
+        "https://www.france24.com/en/france/20261109-french-pm-lecornu-announces-increase-minimum-wage-bid-to-calm-protests"
+      ]
+    },
+    {
+      "id": "abu-dabi-gorusmeleri-basladi",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 0,
+      "from": 82,
+      "to": 82,
+      "lr": 1,
+      "onem": 0,
+      "turkiye_bagi": 1,
+      "event": "Ukrayna heyeti 9 Kasım'da Abu Dabi'ye ulaştı; ABD arabuluculuğundaki üçlü görüşmeler 10–11 Kasım'da yapılıyor. 9 Kasım akşamı Harkiv'e Şahed İHA saldırısında en az altı kişi yaralandı. Ukrayna Devlet Başkanı, Rusya'nın köprü ve şebeke saldırılarıyla ülkeyi Dinyeper boyunca bölmeye çalıştığını söyledi.",
+      "rationale": "Görüşmelerin başlaması beklenen gelişme; sonuç çıkmadan olasılık oynatılmadı. Ateşkes sorusu (pb-2026-W46-2, yüzde 12) görüşme sonuçlanınca yeniden değerlendirilecek.",
+      "sources": [
+        "https://www.kyivpost.com/thread/89615",
+        "https://www.rferl.org/a/us-russia-ukraine-peace-talks-abu-dhabi-ceasefire/33889451.html"
+      ]
+    }
+  ],
+  "not_scored": [
+    "Tayvan: 7 Kasım'da 11 uçak, 13 gemi; 9 uçak orta hattı geçti. Aylık tempo olağan aralıkta, puan etkisi yok (13 sabit).",
+    "Yapay zekâ ve istihdam: son 24 saatte yeni veri yok; Microsoft'un 60 bin kişilik gönüllü ayrılma programı 26 Ekim tarihli, daha önce işlendi (51 sabit).",
+    "Gıda: yeni endeks verisi yok (47 sabit). Fransa soğuk zincir saldırısının gıda fiyatına ölçülebilir etkisi bildirilmedi.",
+    "Demokratik kurumlar: Rubio'nun G7'de UCM'ye yönelik 'büyük zarar' uyarısı temmuzdan beri süren kampanyanın devamı; Temsilci Massie'nin Savunma Bakanı için azil maddeleri eylülde de sunulmuştu, 9 Kasım'daki yeniden sunuma ilişkin kaynaklar tarih konusunda çelişiyor. İkisi de puan oynatmadı (35 sabit).",
+    "Nvidia: ABD Başkanı 9 Kasım'da CEO'yu 'onurlu' diye savundu; şirket yönetim kurulu bağımsız soruşturma başlattı; hisse yüzde 4'ten fazla düştü. Quant kanalındaki nv-0…nv-4 soruları yayın turunda ayrıca değerlendirilmeli; bu taramada dokunulmadı.",
+    "Finansal piyasalar: S&P 500 yüzde 2,35 (7.549,94), Nasdaq yüzde 2,74 yükseldi — nisandan bu yana en iyi gün; 10 yıllık tahvil faizi yüzde 4,88; altın 4.138 dolar. Listede doğrudan karşılığı olan risk yok.",
+    "Katar aracılığıyla iletildiği bildirilen 8 milyar dolarlık Hürmüz ara anlaşması tek kaynaklı (İsrail basını, isimsiz diplomatlar); hiçbir hükümet doğrulamadı, olasılığa işlenmedi."
+  ],
+  "content": [
+    {"type": "olay-cevap", "event": "iran-savas-fiilen-bitti", "time": "11:00", "path": "posts/2026-11-10-iran-savas-fiilen-bitti/", "onem": 20},
+    {"type": "olay-cevap", "event": "fransa-iran-sogutucu-atfi", "time": "13:00", "path": "posts/2026-11-10-fransa-iran-sogutucu-atfi/", "onem": 12},
+    {"type": "dosya", "events": ["cin-ticaret-ateskesi-uzatma", "fransa-asgari-ucret-odunu"], "time": "21:00", "path": "posts/2026-11-10-dosya/"}
+  ],
+  "note": "Görev talimatı gereği yayın yapılmadı; yayın ana oturumdaki otomatik yayın turuna bırakıldı. 08:30 slotu bugün 09:03'teki 10 Kasım anma Reel'ine ayrıldığından ilk olay gönderisi 11:00."
+}

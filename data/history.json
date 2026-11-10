@@ -1,44 +1,58 @@
 {
-    "history": [
-        {
-            "date": "2026-11-07",
-            "values": {
-                "catisma": 82,
-                "enerji": 71,
-                "avrupa": 64,
-                "yz-issizlik": 52,
-                "gida": 48,
-                "siber": 38,
-                "kurumlar": 33,
-                "tayvan": 12
-            }
-        },
-        {
-            "date": "2026-11-08",
-            "values": {
-                "catisma": 82,
-                "enerji": 69,
-                "avrupa": 64,
-                "yz-issizlik": 52,
-                "gida": 47,
-                "siber": 42,
-                "kurumlar": 33,
-                "tayvan": 13
-            }
-        },
-        {
-            "date": "2026-11-09",
-            "values": {
-                "catisma": 85,
-                "enerji": 71,
-                "avrupa": 65,
-                "yz-issizlik": 51,
-                "gida": 47,
-                "siber": 42,
-                "kurumlar": 35,
-                "tayvan": 13,
-                "abd-cin-teknoloji": 58
-            }
-        }
-    ]
+ "history": [
+  {
+   "date": "2026-11-07",
+   "values": {
+    "catisma": 82,
+    "enerji": 71,
+    "avrupa": 64,
+    "yz-issizlik": 52,
+    "gida": 48,
+    "siber": 38,
+    "kurumlar": 33,
+    "tayvan": 12
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "values": {
+    "catisma": 82,
+    "enerji": 69,
+    "avrupa": 64,
+    "yz-issizlik": 52,
+    "gida": 47,
+    "siber": 42,
+    "kurumlar": 33,
+    "tayvan": 13
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "values": {
+    "catisma": 85,
+    "enerji": 71,
+    "avrupa": 65,
+    "yz-issizlik": 51,
+    "gida": 47,
+    "siber": 42,
+    "kurumlar": 35,
+    "tayvan": 13,
+    "abd-cin-teknoloji": 58
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "values": {
+    "catisma": 82,
+    "enerji": 66,
+    "avrupa": 66,
+    "yz-issizlik": 51,
+    "gida": 47,
+    "siber": 48,
+    "kurumlar": 35,
+    "tayvan": 13,
+    "abd-cin-teknoloji": 56
+   }
+  }
+ ]
 }

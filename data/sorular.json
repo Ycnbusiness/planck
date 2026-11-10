@@ -9,13 +9,17 @@
    "q": "Kronik Bölgesel Çatışmalar (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
-   "p": 85,
+   "kriter": "31 Aralık 2031 itibarıyla Uppsala Conflict Data Program'ın (UCDP) son yıllık verisinde Orta Doğu, Doğu Avrupa ve Sahra Altı Afrika'nın her birinde yıllık 1.000'den fazla savaş ölümü olan en az bir silahlı çatışma sürüyorsa evet.",
+   "kaynak_cozum": "UCDP yıllık raporu (ucdp.uu.se) + Reuters ya da AP",
+   "taban": "UCDP 1991–2024: 34 yılın 34'ünde dünyada ≥3 'savaş' düzeyinde çatışma; üç bölgede aynı anda sürme koşulu 2014–2024'te 11/11 yıl. Taban ≈%90; beş yıllık ufukta anlaşma ihtimalleri için −5. Motor %85.",
+   "mercekler": [
+    "Uluslararası ilişkiler: çok kutuplu rekabet vekâlet savaşlarını besliyor, yukarı",
+    "Tarih: uzun savaşlar genelde tükenmeyle biter, 2031'e kadar en az birinin bitmesi olası, aşağı küçük",
+    "Oyun teorisi: ateşkeslerin kalıcılığı garantör gerektiriyor, garantör yok"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
+   "motor": 85,
+   "p": 82,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -26,6 +30,12 @@
      "p": 85,
      "motor": null,
      "neden": "göç: risks.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 82,
+     "motor": null,
+     "neden": "ABD yeni saldırı istemediğini açıkladı, abluka sürüyor; anlaşma yok (LR 1/1,25)"
     }
    ]
   },
@@ -36,13 +46,17 @@
    "q": "Kalıcı Enerji ve Lojistik Maliyetleri (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
-   "p": 71,
+   "kriter": "EIA/FRED verisine göre Brent yıllık ortalaması 2027–2031 arasındaki beş takvim yılının en az üçünde 90 doların üzerindeyse evet.",
+   "kaynak_cozum": "FRED DCOILBRENTEU yıllık ortalama + EIA",
+   "taban": "1987–2025 arası 39 yılda Brent yıllık ortalaması 90 $ üstü: 4 yıl (2011–2013, 2022). Beş yıllık pencerede ≥3 yıl: tarihsel ≈%10. Mevcut 92 $ ve Hürmüz'ün kapalı olması tabanı yukarı çeker. Motor %55; Claude +11 (lojistik ve sigorta maliyetlerinin kalıcılığı).",
+   "mercekler": [
+    "Mühendislik/enerji: OPEC üretimi savaş öncesinin %90'ına döndü, arz tarafı toparlanıyor, aşağı",
+    "Ekonomi: dizel marjları ve navlun savaş öncesi düzeye dönmedi, yukarı",
+    "Meteoroloji: La Niña kışı Avrupa'da gaz talebini artırabilir, küçük yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
+   "motor": 55,
+   "p": 66,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -53,6 +67,12 @@
      "p": 71,
      "motor": null,
      "neden": "göç: risks.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 66,
+     "motor": null,
+     "neden": "Trump: İran savaşı askeri olarak fiilen bitti; Brent 92, OPEC üretimi savaş öncesinin %90'ı; Hürmüz hâlâ kapalı (LR 1/1,25)"
     }
    ]
   },
@@ -63,13 +83,17 @@
    "q": "Avrupa'da Siyasi Parçalanma (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
-   "p": 65,
+   "kriter": "31 Aralık 2031 itibarıyla AB'nin en büyük beş ekonomisinden (Almanya, Fransa, İtalya, İspanya, Polonya) en az ikisinde 2024 Avrupa Parlamentosu sınıflamasına göre PfE ya da ESN grubuna bağlı bir parti hükümette (başbakanlık ya da kabine ortağı) yer alıyorsa evet.",
+   "kaynak_cozum": "Resmî hükümet listeleri + Reuters ya da AFP",
+   "taban": "Son 10 yılda bu beş ülkede PfE/ESN partisinin kabineye girdiği örnek: İtalya (Lega, 2018–19 ve 2022–). Aynı anda ≥2 ülke: 0 yıl. Taban ≈%30; Fransa (RN) ve Almanya'da (AfD) anket birinciliği ile Motor %55, Claude +11.",
+   "mercekler": [
+    "Siyaset bilimi: anket ortalaması ve tarihsel anket hatası (±4) RN'yi 2027'de ikinci tura taşıyor, yukarı",
+    "Sosyoloji: satın alma gücü protestoları merkez partileri aşındırıyor, yukarı",
+    "Demografi: yaşlanan seçmen kitlesi radikal değişime karşı, aşağı küçük"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: anket üstünlüğünün iki turlu seçim ve koalisyon dışlaması (cordon sanitaire) nedeniyle hükümete dönüşmemesi.",
+   "motor": 55,
+   "p": 66,
    "ilk_p": 65,
    "durum": "acik",
    "sonuc": null,
@@ -80,6 +104,12 @@
      "p": 65,
      "motor": null,
      "neden": "göç: risks.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 66,
+     "motor": null,
+     "neden": "Fransa asgari ücret tavizi sendikaları yatıştırmadı; CGT 17 Kasım grevi (teyit, ≈LR 1,05)"
     }
    ]
   },
@@ -150,7 +180,7 @@
    "mercekler": [],
    "on_otopsi": null,
    "motor": null,
-   "p": 42,
+   "p": 48,
    "ilk_p": 42,
    "durum": "acik",
    "sonuc": null,
@@ -161,6 +191,12 @@
      "p": 42,
      "motor": null,
      "neden": "göç: risks.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 48,
+     "motor": null,
+     "neden": "Fransa soğuk zincir saldırısını resmen Devrim Muhafızları birimine atfetti; yakalama kararı ve AB yaptırımı süreci (LR 1,25)"
     }
    ]
   },
@@ -231,7 +267,7 @@
    "mercekler": [],
    "on_otopsi": null,
    "motor": null,
-   "p": 58,
+   "p": 56,
    "ilk_p": 58,
    "durum": "acik",
    "sonuc": null,
@@ -242,6 +278,12 @@
      "p": 58,
      "motor": null,
      "neden": "göç: risks.json"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 56,
+     "motor": null,
+     "neden": "Çin tarife ve nadir toprak askısını 10 Ocak 2027'ye uzattı; beklenen, iki ayla sınırlı (teyit, ≈LR 0,92)"
     }
    ]
   },
@@ -709,6 +751,285 @@
      "neden": "göç: 2026-W46"
     }
    ]
+  },
+  {
+   "id": "pb-2026-11-10-motorin",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "İstanbul'da motorin litre fiyatı 30 Kasım 2026'ya kadar 95 TL'nin altına iner mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2026-11-30",
+   "kriter": "30 Kasım 2026 dahil herhangi bir günde İstanbul Avrupa Yakası için büyük dağıtıcıların (Opet, Petrol Ofisi veya Shell) yayımladığı pompa listesinde motorin litre fiyatı 95,00 TL'nin altındaysa evet. 1 Kasım 2026 referansı: 100,50 TL.",
+   "kaynak_cozum": "Dağıtıcı fiyat arşivi (opet.com.tr / petrolofisi.com.tr) + AA ya da Reuters haberi",
+   "taban": "Kurallı model: Brent'teki 18 dolarlık düşüş KDV dahil litrede yaklaşık 6 TL indirim karşılığı; kurdaki aylık %1,5 artış yaklaşık 1 TL geri alır; dizel rafineri marjı savaş nedeniyle yüksek ve belirsiz. Motor %52; geçmiş geçiş hızı için referans sınıfı yok (taban yok, ayar sınırı ±7).",
+   "mercekler": [
+    "Ekonomi: Brent–pompa geçişi 3–7 gün, aşağı; büyüklük ≈6 TL",
+    "Mühendislik/enerji: dizel çatlak marjı küresel dizel kıtlığıyla yüksek, indirimi sınırlar"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: dizel ürün fiyatının ham petrolü izlememesi (yüksek çatlak marjı) ya da kurun beklenenden hızlı artması.",
+   "motor": 52,
+   "p": 45,
+   "ilk_p": 45,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 45,
+     "motor": 52,
+     "neden": "açılış: Trump 'savaş fiilen bitti', Brent 92 dolar"
+    }
+   ],
+   "bagli": "risk-enerji"
+  },
+  {
+   "id": "pb-2026-11-10-siber-atif",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Türkiye, 31 Mart 2027'ye kadar bir siber saldırıyı resmî olarak yabancı bir devlete atfeder mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-03-31",
+   "kriter": "Cumhurbaşkanlığı, Dışişleri, İçişleri, Ulaştırma ve Altyapı Bakanlığı ya da USOM'un yazılı açıklamasında belirli bir siber saldırının belirli bir yabancı devlete ya da o devletin resmî birimine bağlanması; AA'nın bunu haberleştirmesi.",
+   "kaynak_cozum": "Resmî açıklama metni + AA ya da Reuters",
+   "taban": "2020–2025 arasında Türkiye'nin kamuoyu önünde belirli bir devlete siber atıf yaptığı örnek yok (0/6 yıl) → taban ≈%5. Fransa örneği atıf normunu güçlendiriyor; Claude +3.",
+   "mercekler": [
+    "Uluslararası ilişkiler: Türkiye dengeli ilişkileri korumak için kamusal atıftan kaçınır, yön aşağı",
+    "Bilgisayar bilimi/kriminoloji: AB ülkelerinde atıf sıklığı artıyor, norm yayılması yön yukarı, küçük"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: büyük bir altyapı kesintisinin kamuoyu baskısıyla alışılmadık bir resmî atıfa yol açması.",
+   "motor": 5,
+   "p": 8,
+   "ilk_p": 8,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 8,
+     "motor": 5,
+     "neden": "açılış: Fransa'nın İran atfı"
+    }
+   ],
+   "bagli": "risk-siber"
+  },
+  {
+   "id": "pb-2026-11-10-nadir-toprak",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Çin, 10 Ocak 2027'ye kadar nadir toprak ihracat kontrollerini yeniden yürürlüğe koyar mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-01-10",
+   "kriter": "Çin Ticaret Bakanlığı'nın 10 Ocak 2027'den önce, 9 Kasım 2026'da askıya aldığı kritik mineral ihracat kontrollerinin tamamını ya da bir kısmını yeniden yürürlüğe koyduğunu duyurması.",
+   "kaynak_cozum": "Çin Ticaret Bakanlığı duyurusu + Reuters ya da Bloomberg",
+   "taban": "Ekim 2025'ten bu yana ateşkes dönemi askıları (3 uzatma) hiçbirinde süresinden önce kaldırılmadı (0/3). Askının erken bozulması için ABD'nin yeni çip kısıtlaması gerekir; APEC görüşmesi planlı. Motor %15, Claude +5.",
+   "mercekler": [
+    "Uluslararası ilişkiler/oyun teorisi: iki taraf da APEC öncesi masayı devirmek istemiyor, aşağı",
+    "İktisat: Çin'in rafine nadir toprakta %91 payı kaldıraç olarak saklanıyor, erken kullanım düşük olasılık"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: ABD'nin Nvidia/Megaspeed soruşturması sonrası yeni çip ihracat kısıtlaması açıklaması ve Çin'in misilleme yapması.",
+   "motor": 15,
+   "p": 20,
+   "ilk_p": 20,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 20,
+     "motor": 15,
+     "neden": "açılış: Çin askıyı 10 Ocak'a uzattı"
+    }
+   ],
+   "bagli": "risk-abd-cin-teknoloji"
+  },
+  {
+   "id": "pb-2026-11-10-fransa-butce",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Fransa'nın 2027 bütçesi 31 Aralık 2026'ya kadar parlamentodan geçer mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2026-12-31",
+   "kriter": "2027 bütçe yasasının (projet de loi de finances 2027) 31 Aralık 2026'ya kadar nihai olarak kabul edilmesi (Anayasa 49.3 ile de olsa); yalnızca 'özel yasa' (loi spéciale) çıkarsa hayır.",
+   "kaynak_cozum": "Fransa Ulusal Meclisi/Senato kayıtları + Reuters ya da AFP",
+   "taban": "Son iki bütçe: 2025 bütçesi yıl sonunda geçmedi (özel yasa, Şubat 2025'te kabul), 2026 bütçesi azınlık hükümetiyle gecikmeli geçti → referans 1/2. Gelir bölümünün 458'e 0 reddi ve grev takvimi aşağı çekiyor. Motor %40, Claude −5.",
+   "mercekler": [
+    "Siyaset bilimi: azınlık hükümeti, 49.3 kullanımı güvensizlik oylaması riski taşıyor, aşağı",
+    "Makroekonomi: piyasa baskısı ve AB açık prosedürü hükümeti yıl sonuna yetiştirmeye zorluyor, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: hükümetin 49.3'ü kullanıp güvensizlik oylamasını atlatması ya da tam tersine düşmesi.",
+   "motor": 40,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 35,
+     "motor": 40,
+     "neden": "açılış: asgari ücret tavizi ve 17 Kasım grev çağrısı"
+    }
+   ],
+   "bagli": "risk-avrupa"
+  },
+  {
+   "id": "on-catisma-rusya-ateskes",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Rusya ile Ukrayna 30 Nisan 2027'ye kadar genel ateşkes ilan eder mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-04-30",
+   "kriter": "Her iki hükümetin de tüm cephe hattını kapsayan ateşkesi resmen duyurması ve ateşkesin en az 7 gün sürmesi; yerel/insani ateşkesler sayılmaz.",
+   "kaynak_cozum": "Resmî açıklamalar + Reuters ve AP",
+   "taban": "Şubat 2022'den bu yana genel ateşkes girişimleri (İstanbul 2022, Riyad/Cidde 2025, Abu Dabi 2026): 0 başarı; 1990 sonrası devletler arası savaşlarda ilk 5 yılda genel ateşkes oranı yaklaşık %40. Motor %15, Claude +3 (ABD'nin aktif arabuluculuğu).",
+   "mercekler": [
+    "Tarih: benzer süre ve yoğunluktaki savaşlarda ateşkes genelde tükenme sonrası gelir, henüz o aşama değil",
+    "Oyun teorisi: Rusya'nın kış kampanyasıyla pozisyon güçlendirme stratejisi ateşkesi erteler"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: ABD'nin Ukrayna'ya yardımı ateşkese bağlaması ve Kiev'in kış altyapı kayıpları altında kabul etmesi.",
+   "motor": 15,
+   "p": 18,
+   "ilk_p": 18,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 18,
+     "motor": 15,
+     "neden": "açılış: geçiş işi, risk-catisma öncü sorusu"
+    }
+   ],
+   "bagli": "risk-catisma"
+  },
+  {
+   "id": "on-catisma-abd-iran-anlasma",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "ABD ile İran 30 Nisan 2027'ye kadar savaşı sona erdiren yazılı anlaşma imzalar mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-04-30",
+   "kriter": "İki hükümetin de imzaladığını açıkladığı, ablukanın kaldırılmasını ve düşmanlıkların sonunu içeren yazılı metin; sözlü 'ateşkes' ya da tek taraflı duyuru sayılmaz.",
+   "kaynak_cozum": "Resmî açıklamalar + Reuters ve AP",
+   "taban": "2026 Haziran İslamabad mutabakatı bir kez imzalandı ve bozuldu (1/1 imza, 0/1 kalıcı). 1980 sonrası ABD'nin doğrudan taraf olduğu savaşlarda 14 ay içinde yazılı anlaşma: düşük. Motor %30; Claude +10 (Trump'ın 'yakında bitecek' açıklaması, Katar/Pakistan arabuluculuğu).",
+   "mercekler": [
+    "Uluslararası ilişkiler: tarafların talepleri (abluka, nükleer, Hürmüz) hâlâ uyuşmuyor, aşağı",
+    "Ekonomi: Körfez ülkeleri ve petrol fiyatı baskısı iki tarafı da masaya itiyor, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: İran'ın zenginleştirilmiş uranyum konusunda taviz vermemesi ve anlaşmanın yazılı metne dönüşmeden 'statüko' olarak sürmesi.",
+   "motor": 30,
+   "p": 40,
+   "ilk_p": 40,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 40,
+     "motor": 30,
+     "neden": "açılış: geçiş işi, risk-catisma öncü sorusu"
+    }
+   ],
+   "bagli": "risk-catisma"
+  },
+  {
+   "id": "on-enerji-brent-80",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Brent, 30 Nisan 2027'ye kadar herhangi bir gün 80 doların altında kapanır mı?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-04-30",
+   "kriter": "ICE Brent ön ay vadeli kontratının günlük kapanışı herhangi bir işlem gününde 80,00 doların altındaysa evet.",
+   "kaynak_cozum": "ICE/FRED (DCOILBRENTEU) + Reuters",
+   "taban": "Brent 92 dolar; 2022 şokunda zirveden %35 düşüş 8 ayda geldi. Savaş sonu senaryosunda vadeli eğri geriye dönük (backwardation) ve 6 ay sonrası kontratlar 80'lerin ortasında. Motor %45 (vadeli eğri), Claude −5 (Hürmüz'ün fiilen açılması zaman alır).",
+   "mercekler": [
+    "Finans: vadeli eğri 6 ayda 80'lerin ortasını fiyatlıyor, 80 altı için savaşın bitmesi gerekir",
+    "Mühendislik/enerji: OPEC üretimi %90'a döndü, Hürmüz açılırsa stok birikimi hızlı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: anlaşmanın yazılı metne dönmemesi ve tanker saldırılarının sürmesi.",
+   "motor": 45,
+   "p": 40,
+   "ilk_p": 40,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 40,
+     "motor": 45,
+     "neden": "açılış: geçiş işi, risk-enerji öncü sorusu"
+    }
+   ],
+   "bagli": "risk-enerji"
+  },
+  {
+   "id": "on-enerji-hurmuz-gecis",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Hürmüz Boğazı'ndan günlük tanker geçişi 31 Mart 2027'ye kadar savaş öncesi (Şubat 2026) ortalamasının yarısına döner mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-03-31",
+   "kriter": "Lloyd's List Intelligence ya da Kpler'in yayımladığı haftalık ortalama tanker geçiş sayısının herhangi bir haftada Şubat 2026 haftalık ortalamasının %50'sine ulaşması; Reuters ya da Bloomberg'in bunu haberleştirmesi.",
+   "kaynak_cozum": "Lloyd's List Intelligence / Kpler verisi + Reuters ya da Bloomberg",
+   "taban": "Savaşlarda kapanan deniz yollarının (Süveyş 1967–75, Kızıldeniz 2024–) açılması yıllar sürebilir; sınırlı kapanmalar (1984–88 tanker savaşı) sırasında trafik yarıya indi ama sürdü. Mayın temizliği ve sigorta normalleşmesi aylar alır. Motor %30, Claude +5 (ABD koordineli konvoy sistemi zaten işliyor).",
+   "mercekler": [
+    "Mühendislik/lojistik: mayın temizliği ve seyir sistemleri hasarı en az 2–3 ay",
+    "Finans/sigorta: savaş riski primleri anlaşma olmadan düşmez"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: yazılı anlaşma olmadan fiilî geçiş düzeninin (Umman koridoru) trafiği hızla yarıya taşıması.",
+   "motor": 30,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 35,
+     "motor": 30,
+     "neden": "açılış: geçiş işi, risk-enerji öncü sorusu"
+    }
+   ],
+   "bagli": "risk-enerji"
+  },
+  {
+   "id": "on-avrupa-fransa-fesih",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Fransa'da Ulusal Meclis 30 Nisan 2027'ye kadar feshedilir mi?",
+   "acilis": "2026-11-10",
+   "deadline": "2027-04-30",
+   "kriter": "Cumhurbaşkanı'nın Anayasa'nın 12. maddesine göre fesih kararnamesini Resmî Gazete'de yayımlaması.",
+   "kaynak_cozum": "Journal officiel + Reuters ya da AFP",
+   "taban": "Beşinci Cumhuriyet'te fesih 6 kez (1962, 1968, 1981, 1988, 1997, 2024); herhangi bir 6 aylık pencerede ≈%5. Azınlık hükümeti, 458–0 bütçe reddi ve sokak hareketi bu tabanı yükseltiyor; cumhurbaşkanlığı seçimine (Nisan–Mayıs 2027) yakınlık ise düşürüyor. Motor %10, Claude +15.",
+   "mercekler": [
+    "Siyaset bilimi: seçim öncesi fesih nadir, aşağı",
+    "Sosyoloji: dört haftadır süren protestolar ve 17 Kasım grevi baskıyı artırıyor, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: hükümetin 49.3 ile bütçeyi geçirip baharı görmesi ya da güvensizlik sonrası yeni başbakan atanması (fesih yerine).",
+   "motor": 10,
+   "p": 25,
+   "ilk_p": 25,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-10",
+     "p": 25,
+     "motor": 10,
+     "neden": "açılış: geçiş işi, risk-avrupa öncü sorusu"
+    }
+   ],
+   "bagli": "risk-avrupa"
   }
  ]
 }

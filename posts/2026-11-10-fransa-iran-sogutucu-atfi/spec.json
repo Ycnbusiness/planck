@@ -1,0 +1,45 @@
+{
+ "header": "PLANCK · OLAY VE CEVAP",
+ "date": "10 KASIM 2026",
+ "slides": 4,
+ "eyebrow": "Siber Güvenlik · 10 Kasım",
+ "title": "Fransa, Market Soğutucu Saldırısını İran'a Bağladı",
+ "lede": "Paris, 700 marketin soğutma sistemini altı saat boyunca 50 dereceye çıkaran saldırıyı resmen Devrim Muhafızları'na bağlı bir siber birime atfetti; yakalama kararı ve AB yaptırımı yolda. Planck'in kritik altyapıya siber saldırı riski %42'den %48'e çıktı.",
+ "factsTitle": "Ne Oldu?",
+ "facts": [
+  ["Atıf", "Fransa Dışişleri Bakanı ve ulusal siber güvenlik kurumu ANSSI, 12 Ekim'deki saldırının arkasında 'Şehit Kaveh' adlı birimin olduğunu açıkladı: Farsça izler ve İran'daki cihazlara bağlı IP adresleri."],
+  ["Yargı", "Paris savcılığı birimin lideri ve iki yardımcısı için uluslararası yakalama kararı istedi. İran büyükelçisi Dışişleri'ne çağrıldı; yaptırımların AB düzeyinde izleneceği açıklandı."],
+  ["Dalga", "Geçen hafta kan merkezlerine yönelik benzer bir girişim engellendi; İsveç, Belçika, Lüksemburg, İrlanda ve Estonya'da marketlerde soğutucu arızaları bildirildi. Bir zincir tek günde on milyonlarca euro kayıp açıkladı."]
+ ],
+ "factsNote": "Saldırının kendisi 8 Kasım'da veriye işlenmişti; bugünkü yeni olgu, bir AB üyesinin ilk kez resmî devlet atfı yapması ve yargı sürecini başlatmasıdır. İran'ın yanıtı henüz yok.",
+ "rings": [
+  {
+   "name": "Peki Biz?",
+   "title": "Aynı Açık Bizde de Var mı?",
+   "items": [
+    {
+     "q": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
+     "p": 40,
+     "lab": "Taban %35 · Claude +5",
+     "why": "9 Kasım'da açılan soru; bugünkü atıf olasılığı değiştirmedi. Saldırganın devlet birimi çıkması Türkiye'yi hedef yapmaz, ancak internete açık soğutma panelleri her ülkede aynı açığı taşıyor."
+    },
+    {
+     "q": "Türkiye, 31 Mart 2027'ye kadar bir siber saldırıyı resmî olarak yabancı bir devlete atfeder mi?",
+     "p": 8,
+     "lab": "Taban %5 · Claude +3",
+     "why": "2020'den bu yana Türkiye hiçbir siber saldırıyı kamuoyu önünde bir devlete bağlamadı. Fransa örneği Avrupa'da atıf normunu güçlendiriyor; Türkiye'nin dengeli ilişki tercihi olasılığı düşük tutuyor."
+    }
+   ],
+   "note": "Okuma: Türkiye için asıl soru 'kim saldırır' değil, 'hangi cihaz açıkta'. Soğutma, kamera ve enerji panelleri çoğu yerde varsayılan şifreyle internete bakıyor."
+  }
+ ],
+ "watchTitle": "Ne Yapabiliriz?",
+ "watchEyebrow": "Öneriler",
+ "watch": [
+  ["İşte", "Soğutma, HVAC ve enerji izleme panellerini doğrudan internete açık bırakmayın; uzaktan erişimi VPN ve iki adımlı doğrulamaya bağlayın, varsayılan şifreleri değiştirin."],
+  ["Kurumda", "Sıcaklık alarmı eşiklerini bağımsız bir sensörle yedekleyin; yazılım 'normal' derken ürün bozulmasın."],
+  ["Evde", "Ev ağınızdaki akıllı cihazları ayrı bir misafir ağına alın; üreticisi güncelleme vermeyen cihazları değiştirin."],
+  ["Haberde", "Atıf ile kanıt aynı şey değil: resmî açıklamalardaki teknik gerekçeyi (dil izi, IP, altyapı) arayın; tek kaynaklı 'kim yaptı' iddialarına mesafeli durun."]
+ ],
+ "question": "İşyerinizde internete açık bir cihaz paneli olduğunu biliyor musunuz?"
+}

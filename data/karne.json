@@ -1,0 +1,19 @@
+{
+ "updated": "2026-11-10",
+ "kapanan": 0,
+ "acik": 35,
+ "iptal": 0,
+ "kanallar": {
+  "toplam": {
+   "planck": null,
+   "motor": null,
+   "ilk": null,
+   "tuttu": 0,
+   "n": 0
+  }
+ },
+ "kalibrasyon": [],
+ "otopsi_bekleyen": [],
+ "iddia_serbest": false,
+ "kalibrasyon_duzeltmesi_serbest": false
+}

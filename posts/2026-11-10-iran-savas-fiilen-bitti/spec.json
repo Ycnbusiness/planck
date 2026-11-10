@@ -1,0 +1,39 @@
+{
+ "header": "PLANCK · OLAY VE CEVAP",
+ "date": "10 KASIM 2026",
+ "slides": 4,
+ "eyebrow": "Enerji · 10 Kasım",
+ "title": "\"Savaş Fiilen Bitti\": Brent 92 Dolara İndi",
+ "lede": "ABD Başkanı, Katar Başbakanı ile görüşmesinin ardından İran savaşının askeri olarak fiilen bittiğini söyledi; abluka sürüyor. Petrol bir günde yüzde 6 düştü. Planck'in enerji maliyeti riski %71'den %66'ya indi.",
+ "factsTitle": "Ne Oldu?",
+ "facts": [
+  ["Açıklama", "9 Kasım'da Beyaz Saray'da Katar Başbakanı ile görüşen ABD Başkanı, yeni saldırıların pek olası olmadığını, deniz ablukasının ise süreceğini söyledi. İran yetkilileri açıklamayı dikkat dağıtma olarak niteledi."],
+  ["Fiyat", "Brent, geçen haftaki yüzde 16'lık düşüşün üstüne pazartesi yüzde 6'ya yakın gerileyerek 92 dolar civarına indi. Reuters anketine göre OPEC üretimi ekimde savaş öncesinin yüzde 90'ına ulaştı."],
+  ["Ama", "Hürmüz fiilen kapalı; İran günde 1,9 milyon varille 1989'dan beri en düşük üretimde. Aynı gün Suudi Doğu-Batı boru hattına saldırı doğrulandı; sınırlı yangın, operasyon aksamadı."]
+ ],
+ "factsNote": "Olasılık, iki bağımsız kaynakla doğrulanmış olgulara göre log-odds üzerinden güncellendi. Katar üzerinden iletildiği öne sürülen ara anlaşma taslağı tek kaynaklı olduğu için hesaba katılmadı.",
+ "rings": [
+  {
+   "name": "Peki Biz?",
+   "title": "Pompaya Ne Zaman Yansır?",
+   "items": [
+    {
+     "q": "İstanbul'da motorin litre fiyatı 30 Kasım'a kadar 95 TL'nin altına iner mi?",
+     "p": 45,
+     "lab": "Motor %52 · Claude −7",
+     "why": "1 Kasım'da motorin 100,50 TL idi. Brent'teki 18 dolarlık düşüş, KDV dahil litrede yaklaşık 6 TL indirim karşılığı; kur artışı bunun bir kısmını geri alır. Dizel rafineri marjı savaş nedeniyle yüksek ve belirsiz; 1 Aralık'ta ÖTV 3 TL artacak."
+    }
+   ],
+   "note": "Okuma: Ham petrol düşüşü pompaya genellikle bir hafta içinde yansır; asıl belirsizlik dizel marjında ve kurda. Soru 30 Kasım'da kapanır ve karnede puanlanır."
+  }
+ ],
+ "watchTitle": "Ne Yapabiliriz?",
+ "watchEyebrow": "Öneriler",
+ "watch": [
+  ["Evde", "Yakıt ve ısınma bütçesini 'savaş bitti' manşetine göre değil, pompa ve fatura fiyatına göre planlayın; indirim gelirse birkaç gün gecikmeli gelir."],
+  ["İşte", "Nakliye ve enerji sözleşmelerinde fiyat güncelleme maddelerini gözden geçirin; dizel marjı ham petrolden ayrı hareket edebilir."],
+  ["Haberde", "Açıklama ile anlaşma farklı şeylerdir: yazılı anlaşma, ablukanın kalkması ve Hürmüz'den tanker geçişi ayrı ayrı doğrulanmalı."],
+  ["Takipte", "Planck'in öncü sorularını izleyin: Brent 30 Nisan'a kadar 80 doların altına iner mi (%40), Hürmüz trafiği 31 Mart'a kadar yarıya döner mi (%35)."]
+ ],
+ "question": "Sizce motorin ay sonuna kadar 95 liranın altına iner mi?"
+}

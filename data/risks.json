@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:45:00+03:00",
+ "updated": "2026-11-10T06:50:00+03:00",
  "horizon": "2031",
  "bands": {
   "Çok yüksek": [
@@ -32,7 +32,7 @@
   {
    "id": "catisma",
    "name": "Kronik Bölgesel Çatışmalar",
-   "p": 85,
+   "p": 82,
    "impact": "Çok yüksek",
    "geo": [
     35,
@@ -42,7 +42,7 @@
   {
    "id": "enerji",
    "name": "Kalıcı Enerji ve Lojistik Maliyetleri",
-   "p": 71,
+   "p": 66,
    "impact": "Yüksek",
    "geo": [
     56.3,
@@ -52,7 +52,7 @@
   {
    "id": "avrupa",
    "name": "Avrupa'da Siyasi Parçalanma",
-   "p": 65,
+   "p": 66,
    "impact": "Yüksek",
    "geo": [
     4.35,
@@ -76,7 +76,7 @@
   {
    "id": "siber",
    "name": "Kritik Altyapıya Siber Saldırılar",
-   "p": 42,
+   "p": 48,
    "impact": "Yüksek",
    "geo": null
   },
@@ -100,7 +100,7 @@
   {
    "id": "abd-cin-teknoloji",
    "name": "ABD–Çin Teknoloji Ayrışması",
-   "p": 58,
+   "p": 56,
    "impact": "Yüksek",
    "geo": [
     116.4,
