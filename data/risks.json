@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T06:50:00+03:00",
+ "updated": "2026-11-10T20:30:00+03:00",
  "horizon": "2031",
  "bands": {
   "Çok yüksek": [
@@ -42,7 +42,7 @@
   {
    "id": "enerji",
    "name": "Kalıcı Enerji ve Lojistik Maliyetleri",
-   "p": 66,
+   "p": 67,
    "impact": "Yüksek",
    "geo": [
     56.3,

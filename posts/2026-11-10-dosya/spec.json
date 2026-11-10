@@ -1,0 +1,40 @@
+{
+ "date": "10 KASIM 2026",
+ "lede": "Ana akışa çıkmayan ama kayda değer üç gelişme: Çin'in ticaret ateşkesini iki ay uzatması, Fransa'da asgari ücret tavizinin sokağı yatıştırmaması ve Körfez'de bir BAE gemisine yeni saldırı. Her sayfada bir olay, bir cevap.",
+ "items": [
+  {
+   "tag": "Ticaret",
+   "title": "Çin, ABD ile ticaret ateşkesini 10 Ocak'a uzattı",
+   "text": "Çin, ABD mallarına ek tarife ve kritik mineral ihracat kontrollerinin askısını iki ay daha, 10 Ocak 2027'ye uzattı; ABD de 301. madde yaptırımını askıya aldı. İki ülkenin liderleri gelecek hafta APEC'te görüşecek.",
+   "risk": "ABD–Çin Teknoloji Ayrışması",
+   "from": 58,
+   "to": 56,
+   "pq": "Çin, 10 Ocak 2027'ye kadar nadir toprak ihracat kontrollerini yeniden yürürlüğe koyar mı?",
+   "pp": 20,
+   "pdo": "Türkiye'ye en yakın etki: savunma ve elektrikli araç sanayisinin kullandığı nadir toprak mıknatısları. Taban %15 (üç uzatmanın hiçbiri erken bozulmadı), Claude +5."
+  },
+  {
+   "tag": "Avrupa",
+   "title": "Fransa'da asgari ücret tavizi sokağı yatıştırmadı",
+   "text": "Başbakan, asgari ücrete yüzde 1,6'lık artışı bir ay öne çekti ve fazla mesaiye vergi muafiyeti açıkladı; sendikalar artışı yetersiz buldu, CGT 17 Kasım için yeni grev çağrısı yaptı. Bütçenin gelir bölümü mecliste 458'e 0 reddedilmişti.",
+   "risk": "Avrupa'da Siyasi Parçalanma",
+   "from": 65,
+   "to": 66,
+   "pq": "Fransa'nın 2027 bütçesi 31 Aralık 2026'ya kadar parlamentodan geçer mi?",
+   "pp": 35,
+   "pdo": "Türkiye'ye en yakın etki: en büyük ihracat pazarı olan AB'de talep ve euro. Taban %40 (son iki bütçeden biri yıl sonunda geçti), Claude −5."
+  },
+  {
+   "tag": "Enerji",
+   "title": "Körfez'de ADNOC gemisine saldırı",
+   "text": "BAE devlet şirketi ADNOC'un bir gemisi 10 Kasım öğleden sonra Basra Körfezi'ndeki BAE karasularında saldırıya uğrayıp hasar gördü; saldırgan ve can kaybı açıklanmadı. Aynı gün Suudi hava savunması Riyad'a atılan füzeleri düşürdü, şehirde okullar uzaktan eğitime geçti.",
+   "risk": "Kalıcı Enerji ve Lojistik Maliyetleri",
+   "from": 66,
+   "to": 67,
+   "pq": "İstanbul'da motorin litre fiyatı 30 Kasım 2026'ya kadar 95 TL'nin altına iner mi?",
+   "pp": 85,
+   "pdo": "Türkiye'ye en yakın etki: akaryakıt ve navlun. Tek saldırı motorin tahminini değiştirmedi; Körfez içindeki sevkiyatın hedef olmayı sürdürmesi enerji riskini canlı tutuyor."
+  }
+ ],
+ "question": "Sizce Çin kartı masada tutar mı, yoksa APEC'te yeni bir anlaşma mı çıkar?"
+}

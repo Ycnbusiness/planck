@@ -56,7 +56,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
    "motor": 55,
-   "p": 66,
+   "p": 67,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -73,6 +73,12 @@
      "p": 66,
      "motor": null,
      "neden": "Trump: İran savaşı askeri olarak fiilen bitti; Brent 92, OPEC üretimi savaş öncesinin %90'ı; Hürmüz hâlâ kapalı (LR 1/1,25)"
+    },
+    {
+     "t": "2026-11-10",
+     "p": 67,
+     "motor": 55,
+     "neden": "ADNOC L&S gemisi 10 Kasım'da BAE karasularında (Basra Körfezi) saldırıyla hasar gördü; Körfez içi sevkiyat hâlâ hedef (LR 1,05)"
     }
    ]
   },
