@@ -94,5 +94,26 @@
   "ai_etiketi": true,
   "facebook": false,
   "duzeltme": "Doğrulanamayan 'ABD 301. madde askısı' ve '458'e 0' ifadeleri çıkarıldı; Çin askısı yüzde 24'lük tarife olarak netleştirildi; Çin sorusu sicile eklendi."
+ },
+ {
+  "t": "2026-11-11T11:00+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "olay-cevap carousel",
+  "klasor": "posts/2026-11-11-dizel-cephesi",
+  "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
+  "ai_etiketi": true,
+  "facebook": false,
+  "duzeltme": "Motorin 90 sorusu %25→%37: motor indirim öncesi fiyatla hesaplanmıştı; sektör 3–5 TL indirim bekliyor. 'Kiriși' yazımı düzeltildi."
+ },
+ {
+  "t": "2026-11-11T12:00+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "olay reel",
+  "klasor": "posts/2026-11-11-dizel-cephesi",
+  "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
+  "ai_etiketi": true,
+  "facebook": false
  }
 ]
