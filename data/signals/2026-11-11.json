@@ -200,6 +200,65 @@
       "id": "abd-ingiltere-ussu-iran-tehdidi",
       "onem": 3,
       "klasor": "data/dosya/2026-11-11.json"
+    },
+    {
+      "id": "opec-uretim-savas-oncesi-eia",
+      "onem": 4,
+      "klasor": "posts/2026-11-11-gunun-dosyasi"
     }
-  ]
+  ],
+  "aksam": {
+    "scan_window": "2026-11-11 08:50 → 20:15 (TSİ)",
+    "events": [
+      {
+        "id": "opec-uretim-savas-oncesi-eia",
+        "class": "YEŞİL",
+        "risk": "enerji",
+        "delta": -1,
+        "from": 70,
+        "to": 69,
+        "lr": 0.95,
+        "onem": 4,
+        "onem_hesap": "|−1| × Türkiye bağı 2 (akaryakıt, navlun) × etki 2 (Yüksek)",
+        "turkiye_bagi": 2,
+        "event": "OPEC aylık raporu: OPEC+ Ekim üretimi 2,04 milyon v/g artışla 41,23 milyon v/g; Reuters hesabıyla savaş öncesinin (Şubat 42,72) ~%97'si. Suudi Arabistan 8,37'den 10,56 milyon v/g'ye çıktı. Talep tahmini 2026 +180 bin, 2027 +2,55 milyon v/g (değişmedi). EIA Kasım STEO: Brent 2026 ortalaması 97 $ (+1), 2027 86 $ (+2), 2027 4. çeyrek ~77 $; Orta Doğu üretim kaybı Mayıs'taki 10,9'dan Ekim'de 2,5 milyon v/g'ye indi; Hürmüz akışları kısıtlı kalıyor.",
+        "rationale": "Körfez arzının dolambaçlı yollarla (gemiden gemiye aktarma vb.) savaş öncesine yaklaşması 2031 ufkunda kalıcı yüksek maliyet senaryosunu zayıflatıyor; EIA'nın 2027 tahminini 2 $ yükseltmesi ve dizel tahminini artırması etkiyi sınırlıyor. Zayıf kanıt (LR 0,95): 70 → 69. Motorin 90 sorusu %37'de bırakıldı.",
+        "pekibiz": [
+          "pb-2026-11-11-motorin-90"
+        ],
+        "sources": [
+          "https://www.cp24.com/news/money/2026/11/11/opec-oil-output-in-october-nears-pre-iran-war-rate-led-by-saudi-arabia/",
+          "https://www.aa.com.tr/en/energy/oil/opec-crude-production-rises-by-nearly-2-million-bpd-in-october/60890",
+          "https://finance.biggo.com/news/00ce9643-f5e7-4360-b34a-b2012cf6b070",
+          "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf"
+        ]
+      },
+      {
+        "id": "abu-dabi-sonuc-esir-takasi",
+        "class": "YEŞİL",
+        "risk": "catisma",
+        "delta": 0,
+        "from": 83,
+        "to": 83,
+        "onem": 0,
+        "onem_hesap": "|0| × Türkiye bağı 1 × etki 3",
+        "turkiye_bagi": 1,
+        "event": "ABD arabuluculuğundaki iki günlük Abu Dabi görüşmeleri büyük çaplı esir takası anlaşmasıyla bitti; toprak konusunda ilerleme yok, yeni tur tarihi belirlenmedi. ABD elçileri Perşembe Moskova'da Putin'i bilgilendirecek.",
+        "rationale": "Olumlu insani adım, ama ateşkes yönünde kırılma yok. Risk ve on-catisma-rusya-ateskes (%18) değiştirilmedi; önem 0, içerik yok.",
+        "sources": [
+          "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement",
+          "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+          "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+        ]
+      }
+    ],
+    "elenen": [
+      "İtalya okul bomba ihbarları (Türkiye bağı yok, yeni dalga doğrulanmadı)",
+      "Tayvan 'alan engelleme' tatbikatı (10 Kasım açıklaması, sabah penceresinde; yarın taramaya)",
+      "Qantas 850 kişilik YZ bağlantılı kesinti (Türkiye bağı 0, Δ 0)"
+    ],
+    "izleme": "didamar-radar: yeni teyit yok, durum değişmedi.",
+    "dosya": "posts/2026-11-11-gunun-dosyasi (2 olay)",
+    "olay_cevap_adayi": null
+  }
 }

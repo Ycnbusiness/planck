@@ -1,7 +1,18 @@
 {
  "date": "11 KASIM 2026",
- "lede": "Ana akışa çıkmayan ama kayda değer bir gelişme: İran savaşının tehdit haritası Avrupa'daki NATO üslerine uzanıyor. Bir sayfada bir olay, bir cevap.",
+ "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: Körfez petrol üretiminin savaş öncesine yaklaşması ve İran savaşının tehdit haritasının Avrupa'daki NATO üslerine uzanması. Her sayfada bir olay, bir cevap.",
  "items": [
+  {
+   "tag": "Enerji",
+   "title": "Körfez petrolü savaş öncesine yaklaştı, fiyat tahmini yükseldi",
+   "text": "OPEC'e göre OPEC+ ekimde günde 41,2 milyon varil üretti, savaş öncesinin yaklaşık yüzde 97'si; artışı Suudi Arabistan sürükledi. ABD Enerji Bilgi İdaresi ise Hürmüz kısıtı sürdüğü için Brent'in yıl sonuna kadar 100 dolar civarında kalacağını öngörüyor.",
+   "risk": "Kalıcı Enerji ve Lojistik Maliyetleri",
+   "from": 70,
+   "to": 69,
+   "pq": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+   "pp": 37,
+   "pdo": "Türkiye'ye en yakın etki: akaryakıt ve navlun. Arzın dönmesi kalıcı maliyet riskini biraz düşürdü; ama EIA dizel tahminini de yükselttiği için motorin tahmini %37'de kaldı."
+  },
   {
    "tag": "Çatışma",
    "title": "ABD, İran tehdidi nedeniyle İngiltere'deki ikinci üssünden uçak çekti",
@@ -14,5 +25,5 @@
    "pdo": "Türkiye'ye en yakın etki: NATO üyesi olarak bölgedeki müttefik tesislerine yönelik tehdit algısı ve İran sınırındaki istikrar. İran'ın ABD ile görüşmeyi reddetmesiyle olasılık %40'tan %38'e indi."
   }
  ],
- "question": "Sizce savaşın tehdit haritası Avrupa'ya mı genişliyor, yoksa bu önlemler caydırıcılık mı?"
+ "question": "Sizce petrol arzının dönmesi pompaya yansır mı, yoksa Hürmüz kapalı kaldıkça fiyat yüksek mi kalır?"
 }

@@ -61,8 +61,8 @@
     "Meteoroloji: La Niña kışı Avrupa'da gaz talebini artırabilir, küçük yukarı"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
-   "motor": 55,
-   "p": 70,
+   "motor": 55.0,
+   "p": 69,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -97,6 +97,12 @@
      "p": 70,
      "motor": 55,
      "neden": "Ukrayna saldırılarıyla Rusya'nın rafineri kapasitesinin ≈%30'u devre dışı (Reuters; Kiriși yangını Leningrad valisince doğrulandı); dizel arzı daralıyor (LR 1,1)"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 69,
+     "motor": 55.0,
+     "neden": "OPEC aylık raporu (11 Kasım): OPEC+ Ekim üretimi 2,04 milyon v/g artışla 41,23 milyona çıktı, savaş öncesinin ~%97'si (Suudi 10,56 milyon). EIA STEO: Orta Doğu üretim kaybı Mayıs'taki 10,9'dan Ekim'de 2,5 milyon v/g'ye indi, 2027 ortalaması 86 $ (+2). Arz toparlanması ağır basıyor (LR 0,95)"
     }
    ]
   },
