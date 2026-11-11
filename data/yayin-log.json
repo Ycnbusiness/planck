@@ -115,5 +115,16 @@
   "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
   "ai_etiketi": true,
   "facebook": false
+ },
+ {
+  "t": "2026-11-11T21:10+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-11-gunun-dosyasi",
+  "baslik": "Günün Dosyası · 11 Kasım",
+  "ai_etiketi": true,
+  "facebook": false,
+  "dogrulama": "OPEC+ 41,23 mb/g = %97 (Reuters/CP24, AA); EIA Brent ~100$ (EIA STEO, Morningstar); Mildenhall tanker taşıması (CNN, ABC)"
  }
 ]
