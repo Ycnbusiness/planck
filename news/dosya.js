@@ -38,9 +38,11 @@ SP.items.forEach((it,k)=>{ const [lv,b]=band(it.to); S.push(frame(`<div class="e
 <div style="border-top:2px solid ${DIM};margin-top:34px;padding-top:26px"><span class="mono" style="font-size:20px;color:${MUT}">ETKİLENEN RİSK</span>
 <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:10px"><span style="font-size:32px;font-weight:700">${it.risk}</span><span style="font-family:ML,MX,monospace;font-size:56px;color:${BLUE}">%${it.to}</span></div>
 <div style="display:flex;gap:16px;align-items:center;margin-top:10px">${meter(lv,36,9)}<span class="mono" style="font-size:18px;color:${BLUE}">${b}</span><span class="mono" style="font-size:18px">%${it.from} → %${it.to} · ${dl(it.from,it.to)}</span></div></div>
-<div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:26px"><span class="mono" style="font-size:20px;color:${BLUE}">PEKİ BİZ?</span>
+${it.pq?`<div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:26px"><span class="mono" style="font-size:20px;color:${BLUE}">PEKİ BİZ?</span>
 <div style="display:flex;justify-content:space-between;gap:24px;align-items:baseline;margin-top:12px"><p style="margin:0;font-size:30px;line-height:40px;font-weight:700">${it.pq}</p><span style="font-family:ML,MX,monospace;font-size:64px;color:${BLUE}">%${it.pp}</span></div>
-${it.pdo?`<p style="margin:14px 0 0;font-size:25px;line-height:35px;color:#c9d0db">${it.pdo}</p>`:''}</div>`,k+2)); });
+${it.pdo?`<p style="margin:14px 0 0;font-size:25px;line-height:35px;color:#c9d0db">${it.pdo}</p>`:''}</div>`
+:`<div style="margin-top:auto;border-top:2px solid ${DIM};padding-top:26px"><span class="mono" style="font-size:20px;color:${MUT}">NEDEN ÖNEMLİ?</span>
+${it.pdo?`<p style="margin:14px 0 0;font-size:27px;line-height:38px;color:#c9d0db">${it.pdo}</p>`:''}</div>`}</div>`,k+2)); });
 S.push(frame(`<div class="eb mono">Kapanış<b></b></div><h2 style="margin-top:28px;font-size:72px">${SP.question}</h2>
 <p class="mono" style="margin-top:auto;font-size:19px;line-height:30px;color:${MUT}">HER TAHMİN SON TARİHİNDE KAPATILIR VE KARNEDE PUANLANIR. OLASILIKLAR CLAUDE'UN TAHMİNİDİR, KESİN BİLGİ DEĞİLDİR.</p>
 <img src="${lock}" style="height:62px;margin-top:34px">`,N));

@@ -63,7 +63,7 @@ Her olay için: **Önem = |Δ puan| × Türkiye bağı (0 yok · 1 dolaylı · 2
 | 6–11 | Story | Olay Reel'i (Story olarak) |
 | 2–5 ve kayda değer | Akşam | "Günün Dosyası"na tek sayfa |
 
-Türkiye bağı 0 olan olaya zorla "Peki Biz?" yazılmaz; o olay Reel/Dosya'da yalnızca olay olarak geçer.
+**Türkiye bağı 0 olan olaylar (11.11.2026 kararı):** Risk ve sicil hesabına her zaman girer (Δ, LR, `risks.json`, `sorular.json` Türkiye bağından bağımsızdır). Yayın için ayrı puan kullanılır: **Küresel önem = |Δ puan| × etki**. Küresel önem ≥ 2 ise olay yalnızca "Günün Dosyası"na girer; "Peki Biz?" alanları (`pq`, `pp`) boş bırakılır, `pdo` tek cümlelik "neden önemli" açıklamasıdır. Bu olaylar Story'ye ve ana akışa gitmez; onlar Türkiye bağı olan olaylar içindir. Zorla "Peki Biz?" yazılmaz.
 
 ### Günlük takvim
 - 08:30 — pazartesi haftalık Reel (30 sn, tüm riskler, 8'li sayfalar); diğer günler ilk olay gönderisi.
