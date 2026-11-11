@@ -1,0 +1,13 @@
+{
+ "tur": "kapandi",
+ "id": "q-abd-tufe-ekim-03",
+ "kanal": "quant",
+ "soru": "Ekim ABD TÜFE aylık %0,3 veya üzerinde gelir mi?",
+ "verdigimiz": 60,
+ "sonuc": "evet",
+ "etiket": "TUTTU",
+ "gerceklesen": "BLS, 10 Kasım 2026: Ekim manşet TÜFE aylık %0,4 (mevsimsellikten arındırılmış), çekirdek %0,3.",
+ "kaynak": "https://www.bls.gov/news.release/cpi.htm",
+ "brier": 0.16,
+ "not": "Cuma 18:00 Tuttu/Tutmadı toplu carousel'ine girer. Quant yayını durdurulduğu için kanal kararı Yusuf'ta. 30 kapanmış sorudan önce isabet iddiası yok; yalnız ham sonuç."
+}

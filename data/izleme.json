@@ -7,7 +7,10 @@
    "durum": "doğrulanmadı",
    "eksik": "Umman veya ABD resmî açıklaması ya da Reuters/AP/AFP/BBC haberi",
    "olursa": "Bugünkü Günün Dosyası'na ekle (risk: enerji; güney rotası etkisi). Önem ≥12 çıkarsa Olay ve Cevap adayı.",
-   "bitis": "2026-11-13"
+   "bitis": "2026-11-13",
+   "notlar": [
+    "2026-11-11: Umman yetkilisi (anonim, The Maritime Executive) seyir yardımcılarının vurulmadığını söyledi; 10 Kasım uydu görüntüsünde belirgin hasar yok. Reuters/AP teyidi yok."
+   ]
   }
  ]
 }

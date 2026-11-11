@@ -1,0 +1,39 @@
+{
+ "header": "PLANCK · OLAY VE CEVAP",
+ "date": "11 KASIM 2026",
+ "slides": 4,
+ "eyebrow": "Enerji · 11 Kasım",
+ "title": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
+ "lede": "Ham petrol ucuzlarken dizelin iki kaynağı birden daralıyor: Rusya'nın rafinerileri saldırı altında, Hürmüz'de gemi saldırıları sürüyor. Planck'in enerji maliyeti riski %67'den %70'e çıktı.",
+ "factsTitle": "Ne Oldu?",
+ "facts": [
+  ["Rusya", "Ukrayna'nın Ekim sonundan beri süren İHA saldırıları Rusya'nın rafine kapasitesinin yaklaşık yüzde 30'unu devre dışı bıraktı. Bir haftada 35 büyük rafineriden 9'u etkilendi; ikinci büyük tesis Kiriși 9 Kasım'da yandı."],
+  ["Hürmüz", "Ekim'de boğaz çevresinde 37 gemi saldırıya uğradı, Kasım'ın ilk on gününde 10 saldırı oldu. 10 Kasım'da Umman açıklarında bir tanker daha vuruldu; İran, ABD ile görüşme yürütmediğini açıkladı."],
+  ["Türkiye", "Rusya 5 Kasım haftasında 410 bin ton dizel ihraç etti, 43 bin tonu Türkiye'ye gitti; Kasım hedefi geçen yılın altında. Brent salı iki ayın dibine indi, çarşamba 92 dolara toparlandı."]
+ ],
+ "factsNote": "İki olay aynı riski aynı gün etkilediği için tek içerikte birleştirildi: rafineri kaybı +2, Hürmüz +1 puan (log-odds). İran'ın iki tankerin mayına çarptığı iddiası tek kaynaklı olduğu için hesaba katılmadı.",
+ "rings": [
+  {
+   "name": "Peki Biz?",
+   "title": "Kışın Motorin 90'ın Altını Görür mü?",
+   "items": [
+    {
+     "q": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+     "p": 25,
+     "lab": "Motor %30 · Claude −5",
+     "why": "Motorin bugün 95,20 TL; sektör 14 Kasım için yaklaşık 4 TL indirim bekliyor. 90'ın altı için Brent'in 83 doların altına inmesi gerekir. Kur artışı ve yüksek dizel marjı ters yönde çalışıyor; yazılı bir İran anlaşması ise tabloyu değiştirir."
+    }
+   ],
+   "note": "Okuma: Kısa vadeli indirim ile kış boyu kalıcı düşüş ayrı şeyler. Üç bağımsız geçişin aralığı %20–35. Soru 31 Ocak'ta kapanır ve karnede puanlanır."
+  }
+ ],
+ "watchTitle": "Ne Yapabiliriz?",
+ "watchEyebrow": "Öneriler",
+ "watch": [
+  ["Evde", "Ulaşım ve ısınma bütçesini manşetteki petrol fiyatına değil, pompadaki motorin fiyatına göre haftalık izleyin."],
+  ["İşte", "Nakliye ve lojistik sözleşmelerindeki yakıt ayarlama maddelerini ham petrol yerine dizel fiyatına bağlamayı gözden geçirin."],
+  ["Haberde", "'Petrol düştü' ile 'motorin düştü' aynı haber değil; ham petrol ile ürün fiyatını ayrı okuyun."],
+  ["Takipte", "Planck'in öncü soruları: Hürmüz geçişi 31 Mart'a kadar yarıya döner mi (%33), Brent 30 Nisan'a kadar 80'in altını görür mü (%40)."]
+ ],
+ "question": "Sizce kışın motorin 90 liranın altını görür mü?"
+}

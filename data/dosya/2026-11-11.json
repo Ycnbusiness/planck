@@ -1,0 +1,18 @@
+{
+ "date": "11 KASIM 2026",
+ "lede": "Ana akışa çıkmayan ama kayda değer bir gelişme: İran savaşının tehdit haritası Avrupa'daki NATO üslerine uzanıyor. Bir sayfada bir olay, bir cevap.",
+ "items": [
+  {
+   "tag": "Çatışma",
+   "title": "ABD, İran tehdidi nedeniyle İngiltere'deki ikinci üssünden uçak çekti",
+   "text": "ABD Hava Kuvvetleri, İran bağlantılı bir tehdit gerekçesiyle yakıt ikmal uçaklarını İngiltere'deki RAF Mildenhall'dan Almanya'ya taşıdı; haftalar önce bombardıman uçakları Fairford'dan çekilmişti. ABD Adalet Bakanlığı, Fairford'a yönelik iddia edilen bir planla bağlantılı üç İranlıyı suçladı.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 82,
+   "to": 83,
+   "pq": "ABD ile İran 30 Nisan 2027'ye kadar savaşı sona erdiren yazılı anlaşma imzalar mı?",
+   "pp": 38,
+   "pdo": "Türkiye'ye en yakın etki: NATO üyesi olarak bölgedeki müttefik tesislerine yönelik tehdit algısı ve İran sınırındaki istikrar. İran'ın ABD ile görüşmeyi reddetmesiyle olasılık %40'tan %38'e indi."
+  }
+ ],
+ "question": "Sizce savaşın tehdit haritası Avrupa'ya mı genişliyor, yoksa bu önlemler caydırıcılık mı?"
+}

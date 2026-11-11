@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-11",
+  "scan_window": "2026-11-10 06:50 → 2026-11-11 08:50 (TSİ)",
+  "hakem": {
+    "vadesi_gelen": [
+      "q-abd-tufe-ekim-03"
+    ],
+    "kapanan": [
+      {
+        "id": "q-abd-tufe-ekim-03",
+        "sonuc": "evet",
+        "p": 60,
+        "kaynak": "https://www.bls.gov/news.release/cpi.htm",
+        "not": "Ekim aylık manşet TÜFE %0,4 (BLS, 10 Kasım)"
+      }
+    ],
+    "karne": "yenilendi (kapanan 1: tuttu)",
+    "tuttu_karti": "posts/2026-11-11-kapandi-q-abd-tufe-ekim-03/"
+  },
+  "gecis": {
+    "tamamlanan": [
+      "risk-yz-issizlik",
+      "risk-gida",
+      "risk-siber"
+    ],
+    "yeni_oncu": [
+      "on-yz-challenger-130bin",
+      "on-yz-lisans-issizlik-3",
+      "on-gida-fao-140",
+      "on-gida-tr-gida-30",
+      "on-siber-ab-iran-yaptirim",
+      "on-siber-yeni-devlet-atfi"
+    ],
+    "kalan": [
+      "risk-kurumlar",
+      "risk-tayvan",
+      "risk-abd-cin-teknoloji"
+    ]
+  },
+  "izleme": {
+    "didamar-radar": "Hâlâ doğrulanmadı; Umman yetkilisi (anonim, Maritime Executive) seyir yardımcılarının vurulmadığını söyledi; 10 Kasım sabahı uydu görüntüsünde belirgin hasar yok."
+  },
+  "summary": {
+    "kirmizi": 0,
+    "sari": 1,
+    "yesil": 4,
+    "not": "Enerji riski iki yeşil olayla 67→70 (+3); art arda üç yeşil kuralıyla SARI. Olay ve Cevap: dizel cephesi (önem 12). Dosya: ABD'nin İngiltere'deki üssü (önem 3)."
+  },
+  "events": [
+    {
+      "id": "rusya-rafineri-yuzde-30",
+      "class": "YEŞİL",
+      "risk": "enerji",
+      "delta": 2,
+      "from": 68,
+      "to": 70,
+      "lr": 1.1,
+      "onem": 8,
+      "onem_hesap": "|+2| × Türkiye bağı 2 (Türkiye Rus dizelinin düzenli alıcısı; 5 Kasım haftasında 43 bin ton) × etki 2 (Yüksek)",
+      "turkiye_bagi": 2,
+      "event": "Ukrayna'nın Ekim sonunda yeniden başlattığı İHA saldırıları Rusya'nın rafine kapasitesinin yaklaşık yüzde 30'unu devre dışı bıraktı; son bir haftada 35 büyük rafineriden 9'unda üretim aksadı ya da acil durum yaşandı. Ülkenin ikinci büyük rafinerisi Kiriși 9 Kasım'da İHA saldırısıyla yandı; Leningrad valisi bir kişinin öldüğünü açıkladı. Rusya ABD ile yapılan anlaşma kapsamında dizel ihracatını sürdürüyor: 5 Kasım'a kadarki haftada 410 bin ton dizel yüklendi, 43 bin tonu Türkiye'ye gitti; Kasım hedefi 2,15 milyon ton, geçen yılın aynı ayında 2,7 milyon tondu.",
+      "rationale": "Küresel dizel arzını daraltan, iki bağımsız kaynakla doğrulanmış yapısal bir gelişme: Reuters'a konuşan iki sektör kaynağı kapasite kaybını, Leningrad valisi Kiriși saldırısını doğruluyor; S&P Global ihracat verisi Rus dizel yüklemelerinin geçen yılın altında kaldığını gösteriyor. Ham petrol düşerken dizel marjını yüksek tutan bir etken; orta kanıt değil, zayıf-orta (LR 1,1): 68 → 70. Pompada beklenen 14 Kasım indirimi (sektör kaynakları, ≈4 TL) motorin sorusunu değiştirmediği için soru %85'te bırakıldı.",
+      "pekibiz": [
+        "pb-2026-11-11-motorin-90"
+      ],
+      "sources": [
+        "https://gcaptain.com/recent-ukrainian-attacks-have-reduced-russias-oil-processing-capacity-by-30-sources-say/",
+        "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/110926-russian-diesel-exports-rise-despite-refinery-strikes-us-top-destination",
+        "https://www.business-standard.com/amp/markets/commodities/oil-rises-from-2-month-low-as-hormuz-shipping-attacks-offset-truce-hopes-126111100088_1.html",
+        "https://www.yatirimx.com.tr/piyasa/akaryakita-cifte-indirim-11-kasim-2026-benzin-ve-motorin-fiyati/27988"
+      ],
+      "birlesik": "dizel-cephesi"
+    },
+    {
+      "id": "hurmuz-saldirilar-suruyor",
+      "class": "YEŞİL",
+      "risk": "enerji",
+      "delta": 1,
+      "from": 67,
+      "to": 68,
+      "lr": 1.05,
+      "secondary": [
+        {
+          "soru": "on-catisma-abd-iran-anlasma",
+          "from": 40,
+          "to": 38,
+          "lr": 0.9
+        },
+        {
+          "soru": "on-enerji-hurmuz-gecis",
+          "from": 35,
+          "to": 33,
+          "lr": 0.9
+        }
+      ],
+      "onem": 4,
+      "onem_hesap": "|+1| × Türkiye bağı 2 (akaryakıt, navlun) × etki 2 (Yüksek)",
+      "turkiye_bagi": 2,
+      "event": "UKMTO, 10 Kasım'da Umman'ın Lima kenti açıklarında bir tankerin kimliği belirsiz bir mermiyle vurulduğunu, mürettebatın güvende olduğunu bildirdi. Washington Yakın Doğu Politikası Enstitüsü'ne göre Ekim'de Hürmüz ve çevresinde 37 gemi saldırıya uğradı (savaşın en yüksek aylık sayısı), Kasım'ın ilk on gününde 10 saldırı kaydedildi. İran Ulusal Güvenlik Konseyi Sekreteri ABD ile görüşme yürütülmediğini ve Katar'da planlanmış bir görüşme olmadığını söyledi; ABD Dışişleri Bakanı G7'ye ekonomik baskı sürerken askeri saldırıya gerek görmediklerini iletti. Brent salı günü iki ayın en düşüğüne indi, çarşamba sabahı 92 dolar civarına toparlandı.",
+      "rationale": "Dünkü 'savaş fiilen bitti' indiriminin bir kısmını sınırlayan teyit niteliğinde kanıt: saldırılar yavaşlamıyor ve diplomatik kanal İran tarafından reddediliyor. Yeni bir kırılma yok, zayıf kanıt (LR 1,05): 67 → 68. Aynı olgular ABD–İran yazılı anlaşma (40→38) ve Hürmüz geçişinin yarıya dönmesi (35→33) öncü sorularını aşağı çekti. Didamar adası iddiası: The Maritime Executive'e konuşan Umman yetkilisi seyir yardımcılarının vurulmadığını söyledi; Reuters/AP teyidi yok, izleme listesinde kalıyor. IRGC'nin iki tankerin mayına çarptığı iddiası tek kaynaklı, işlenmedi.",
+      "sources": [
+        "https://www.arabnews.com/middle-east/tanker-struck-by-unknown-projectile-off-oman-ukmto-says-3010988",
+        "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-hit-two-unknown-projectiles-oman-ukmto-says",
+        "https://www.business-standard.com/amp/markets/commodities/oil-rises-from-2-month-low-as-hormuz-shipping-attacks-offset-truce-hopes-126111100088_1.html",
+        "https://www.middleeastmonitor.com/20261110-iran-denies-ongoing-talks-with-us-planned-meeting-in-qatar/",
+        "https://tass.com/world/2215701",
+        "https://maritime-executive.com/article/uncertainty-surrounds-possible-attack-on-oman-s-strait-of-hormuz-lighthouse"
+      ],
+      "birlesik": "dizel-cephesi"
+    },
+    {
+      "id": "abd-ingiltere-ussu-iran-tehdidi",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 1,
+      "from": 82,
+      "to": 83,
+      "lr": 1.05,
+      "onem": 3,
+      "onem_hesap": "|+1| × Türkiye bağı 1 (NATO üyesi, ABD'nin kullandığı tesislere ev sahipliği) × etki 3 (Çok yüksek)",
+      "turkiye_bagi": 1,
+      "event": "ABD Hava Kuvvetleri, belirtilmeyen İran bağlantılı bir tehdit nedeniyle yakıt ikmal uçaklarını İngiltere'deki RAF Mildenhall'dan Almanya'ya taşıdı ve Mildenhall ile Lakenheath'te tehdit seviyesini yükseltti. Bu, haftalar önce bombardıman uçaklarının RAF Fairford'dan çekilmesinin ardından ikinci üs. ABD Adalet Bakanlığı, kısmen Fairford'a yönelik iddia edilen bir planla bağlantılı olarak üç İranlıyı suçladı.",
+      "rationale": "İran savaşının tehdit coğrafyasının Avrupa'daki NATO tesislerine uzandığını gösteren, iki bağımsız kaynakla doğrulanmış gelişme. Saldırı yok; önlem ve iddianame düzeyinde. Zayıf kanıt (LR 1,05): 82 → 83.",
+      "sources": [
+        "https://www.cnn.com/2026/11/10/world/us-moves-aircraft-british-military-base-intl",
+        "https://abcnews.com/International/refueling-tankers-moved-uk-germany-due-unspecified-iran/story?id=138004946",
+        "https://www.aerotime.aero/articles/usaf-tankers-raf-mildenhall-iran-threat"
+      ]
+    },
+    {
+      "id": "abd-secim-sonucu-suphesi",
+      "class": "YEŞİL",
+      "risk": "kurumlar",
+      "delta": 1,
+      "from": 35,
+      "to": 36,
+      "lr": 1.05,
+      "onem": 0,
+      "onem_hesap": "|+1| × Türkiye bağı 0 × etki 1 (Orta)",
+      "turkiye_bagi": 0,
+      "event": "ABD Başkanı 9 Kasım'da, Demokratların iki meclisi de kazandığı ara seçimlerin dürüstlüğünü kanıt sunmadan sorguladı; birkaç gün önce sonuçları kabul ettiğini söylemişti. Resmî itiraz ya da dava açılmadı. Temsilciler Meclisi 10 Kasım'da Savunma Bakanı hakkındaki azil maddelerini 211'e 204 oyla Yargı Komitesi'ne havale etti.",
+      "rationale": "Seçim sonuçlarına kurumsal güveni zayıflatan söylem; resmî adım olmadığı için zayıf kanıt (LR 1,05): 35 → 36. Türkiye bağı yok; içerik üretilmedi.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/9/trump-reverses-stance-alleges-fraud-in-recent-us-midterm-elections",
+        "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html",
+        "https://www.washingtonpost.com/politics/2026/11/09/trump-casts-doubt-democrats-historic-midterm-wins/"
+      ]
+    },
+    {
+      "id": "abu-dabi-ilk-gun",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 0,
+      "from": 83,
+      "to": 83,
+      "lr": 1,
+      "onem": 0,
+      "turkiye_bagi": 1,
+      "event": "Rusya ve Ukrayna heyetleri 10 Kasım'da Abu Dabi'de ABD arabuluculuğunda dokuz ay sonra ilk kez yaklaşık dört saat görüştü; gündem esir takası, sivil tutuklular, çocukların iadesi ve güvenlik garantileriydi. Büyük ölçekli esir takası konuşuldu, ayrıntılar önümüzdeki günlere bırakıldı; ateşkes yok. Görüşmeler 11 Kasım'da sürüyor. Aynı gece Rusya 162 İHA ve bir balistik füze fırlattı.",
+      "rationale": "Beklenen gelişme, sonuç yok; olasılık oynatılmadı. Ateşkes soruları (pb-2026-W46-2 %12, on-catisma-rusya-ateskes %18) görüşmenin ikinci günü sonrası yeniden değerlendirilecek.",
+      "sources": [
+        "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi",
+        "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+        "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+      ]
+    },
+    {
+      "id": "abd-tufe-ekim-fed",
+      "class": "QUANT",
+      "risk": null,
+      "delta": 0,
+      "onem": 0,
+      "turkiye_bagi": 2,
+      "event": "ABD'de Ekim TÜFE aylık %0,4, çekirdek %0,3 arttı; ikisi de beklentinin üstünde. CME FedWatch'a göre piyasalar 8–9 Aralık'ta en az 25 baz puanlık artırımı tamamen fiyatlıyor; 50 baz puan olasılığı %11,8. 2 yıllık tahvil faizi ≈19 baz puan yükseldi.",
+      "rationale": "Risk listesinde karşılığı yok; Quant kanalına ait (q-fed-artirim %85 — Quant görevi güncellemeli). Hakem: q-abd-tufe-ekim-03 'evet' kapandı.",
+      "sources": [
+        "https://www.bls.gov/news.release/cpi.htm",
+        "https://www.staradvertiser.com/2026/11/10/breaking-news/wall-street-falls-as-hot-inflation-fuels-fed-rate-hike-fears/",
+        "https://www.freemalaysiatoday.com/category/business/2026/11/11/us-stocks-fall-as-inflation-data-boosts-bets-on-larger-fed-rate-hike"
+      ]
+    }
+  ],
+  "yayin": [
+    {
+      "id": "dizel-cephesi",
+      "class": "SARI",
+      "risk": "enerji",
+      "delta": 3,
+      "from": 67,
+      "to": 70,
+      "onem": 12,
+      "onem_hesap": "|+3| × Türkiye bağı 2 (motorin, navlun) × etki 2 (Yüksek)",
+      "gerekce": "Aynı riske aynı gün etki eden iki bağımsız olay (Rus rafineri kaybı +2, Hürmüz saldırıları +1) tek içerikte birleştirildi. TARAMA.md eşik kuralı: enerji riskinde art arda üç yeşil aynı yönde (10.11 ADNOC +1, 11.11 +1, +2) toplam +4 → SARI'ya yükseldi. Önem 12 → Olay ve Cevap.",
+      "pekibiz": [
+        "pb-2026-11-11-motorin-90"
+      ],
+      "klasor": "posts/2026-11-11-dizel-cephesi"
+    },
+    {
+      "id": "abd-ingiltere-ussu-iran-tehdidi",
+      "onem": 3,
+      "klasor": "data/dosya/2026-11-11.json"
+    }
+  ]
+}

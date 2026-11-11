@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85,
-   "p": 82,
+   "p": 83,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -36,6 +36,12 @@
      "p": 82,
      "motor": null,
      "neden": "ABD yeni saldırı istemediğini açıkladı, abluka sürüyor; anlaşma yok (LR 1/1,25)"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 83,
+     "motor": 85,
+     "neden": "ABD, İran bağlantılı tehdit nedeniyle yakıt ikmal uçaklarını İngiltere'deki RAF Mildenhall'dan Almanya'ya taşıdı; ABD Adalet Bakanlığı RAF Fairford'a yönelik iddia edilen planla bağlantılı üç İranlıyı suçladı (LR 1,05)"
     }
    ]
   },
@@ -56,7 +62,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
    "motor": 55,
-   "p": 67,
+   "p": 70,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -79,6 +85,18 @@
      "p": 67,
      "motor": 55,
      "neden": "ADNOC L&S gemisi 10 Kasım'da BAE karasularında (Basra Körfezi) saldırıyla hasar gördü; Körfez içi sevkiyat hâlâ hedef (LR 1,05)"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 68,
+     "motor": 55,
+     "neden": "Hürmüz'de saldırılar sürüyor (UKMTO: 10 Kasım'da Lima açıklarında tanker vuruldu; WINEP: Kasım'da 10 saldırı); İran Ulusal Güvenlik Konseyi ABD ile görüşme olmadığını söyledi (LR 1,05)"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 70,
+     "motor": 55,
+     "neden": "Ukrayna saldırılarıyla Rusya'nın rafineri kapasitesinin ≈%30'u devre dışı (Reuters; Kiriși yangını Leningrad valisince doğrulandı); dizel arzı daralıyor (LR 1,1)"
     }
    ]
   },
@@ -126,12 +144,15 @@
    "q": "Yapay Zekâ Kaynaklı Beyaz Yaka İşsizliği (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
+   "kriter": "BLS'nin mevsimsellikten arındırılmış 'lisans ve üstü eğitimli, 25 yaş üstü' işsizlik oranı (LNS14027662) Ocak 2027–Aralık 2031 arasındaki herhangi bir ayda %4,0'ın üstünde açıklanırsa evet.",
+   "kaynak_cozum": "BLS Employment Situation, Tablo A-4 / FRED LNS14027662 + Reuters ya da AP",
+   "taban": "1992–2025: oranın en az bir ay %4,0'ı aştığı yıllar iki dönemde toplanıyor (2009–2012 ve 2020–2021). 1992–2021 arasında başlayan 30 beş yıllık pencerenin 14'ü (≈%47) böyle bir yıl içeriyor. Ekim 2026 değeri %2,6. Motor %47; Claude +4 (yapay zekâ gerekçeli işten çıkarmalar 2026'da Ekim sonuna kadar 121 bin, Challenger).",
+   "mercekler": [
+    "İktisat: beyaz yaka işsizliğindeki sıçramalar tarihsel olarak resesyonlarla geliyor; yapay zekâ etkisi şimdilik işe alım yavaşlığı olarak görülüyor, yukarı küçük",
+    "Mühendislik/teknoloji: ajan tabanlı otomasyonun yayılma eğrisi 2027–29'da dikleşebilir, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: yapay zekânın işten çıkarmadan çok işe alımı yavaşlatması ve 2031'e kadar derin bir resesyon yaşanmaması; oran %3 bandında kalır.",
+   "motor": 47,
    "p": 51,
    "ilk_p": 51,
    "durum": "acik",
@@ -153,12 +174,15 @@
    "q": "Gıda Fiyatlarında Şok (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
+   "kriter": "FAO Gıda Fiyat Endeksi'nin yıllık ortalaması 2027–2031 arasındaki herhangi bir takvim yılında bir önceki yıla göre %15 veya daha fazla artarsa evet.",
+   "kaynak_cozum": "FAO Food Price Index yıllık seri (fao.org/worldfoodsituation) + Reuters",
+   "taban": "1991–2025: yıllık ortalamada ≥%15 artış 5 yılda görüldü (2007, 2008, 2010, 2011, 2021); yıllık ≈%14. Beş yıllık pencerede en az bir şok ≈%53; şoklar kümelendiği için Motor %50. Ekim 2026: 133,9 puan, yıllık +%5,9. Claude −3 (tahıl fiyatları gevşiyor).",
+   "mercekler": [
+    "Ekonomi: enerji ve gübre maliyetleri gıdaya 6–12 ay gecikmeyle geçer; Hürmüz kaynaklı gübre şoku yukarı",
+    "Meteoroloji/iklim: El Niño–La Niña geçişleri ve aşırı sıcaklar hasat riskini artırıyor, yukarı küçük"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: enerji fiyatlarının 2027'de normale dönmesi ve iyi hasat yıllarının arka arkaya gelmesiyle endeksin %5–10 bandında dalgalanması.",
+   "motor": 50,
    "p": 47,
    "ilk_p": 47,
    "durum": "acik",
@@ -180,12 +204,15 @@
    "q": "Kritik Altyapıya Siber Saldırılar (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
+   "kriter": "2027–2031 arasında bir AB veya NATO üyesinde (Türkiye dahil) elektrik, su, ulaşım, sağlık ya da gıda dağıtım hizmeti siber saldırı nedeniyle en az 24 saat aksar, en az 100 bin kişiyi etkiler ve saldırı o ülke hükümetince resmen bir devlete ya da devlet bağlantılı gruba atfedilirse evet.",
+   "kaynak_cozum": "İlgili hükümetin resmî atıf açıklaması (ör. ANSSI, NCSC, CISA, USOM) + Reuters ya da AP",
+   "taban": "2015–2025 AB/NATO'da tüm koşulları karşılayan olay ≈1 (2022 KA-SAT uydu modem saldırısı, Rusya'ya atfedildi; sınırda). Yıllık ≈%10 → beş yılda ≈%40. Son 18 ayda devlete atfedilen sabotaj sıklığı arttı (Norveç barajı 2025, Fransa market soğutucuları 2026). Motor %42; Claude +6.",
+   "mercekler": [
+    "Bilgisayar bilimi: endüstriyel kontrol cihazlarındaki yamasız açıklar saldırı yüzeyini genişletiyor, yukarı",
+    "Kriminoloji/uluslararası ilişkiler: devletler atıf yapmaya daha istekli ama 24 saat eşiği yüksek; çoğu saldırı saatler içinde toparlanıyor, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: saldırıların sürmesine rağmen hizmet kesintilerinin 24 saatin altında kalması ya da atfın resmî değil, gayriresmî kanallardan yapılması.",
+   "motor": 42,
    "p": 48,
    "ilk_p": 42,
    "durum": "acik",
@@ -219,7 +246,7 @@
    "mercekler": [],
    "on_otopsi": null,
    "motor": null,
-   "p": 35,
+   "p": 36,
    "ilk_p": 35,
    "durum": "acik",
    "sonuc": null,
@@ -230,6 +257,12 @@
      "p": 35,
      "motor": null,
      "neden": "göç: risks.json"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 36,
+     "motor": null,
+     "neden": "ABD Başkanı ara seçim sonuçlarının dürüstlüğünü kanıt sunmadan sorguladı; resmî itiraz yok (LR 1,05)"
     }
    ]
   },
@@ -548,9 +581,13 @@
    "motor": 57,
    "p": 60,
    "ilk_p": 60,
-   "durum": "acik",
-   "sonuc": null,
-   "kapanis": null,
+   "durum": "kapandi",
+   "sonuc": 1,
+   "kapanis": {
+    "t": "2026-11-11",
+    "kaynak": "https://www.bls.gov/news.release/cpi.htm",
+    "not": "BLS 10.11: Ekim manşet TÜFE aylık %0,4 (mevsimsellikten arındırılmış); Fox Business teyit"
+   },
    "gecmis": [
     {
      "t": "2026-11-10",
@@ -959,7 +996,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: İran'ın zenginleştirilmiş uranyum konusunda taviz vermemesi ve anlaşmanın yazılı metne dönüşmeden 'statüko' olarak sürmesi.",
    "motor": 30,
-   "p": 40,
+   "p": 38,
    "ilk_p": 40,
    "durum": "acik",
    "sonuc": null,
@@ -970,6 +1007,12 @@
      "p": 40,
      "motor": 30,
      "neden": "açılış: geçiş işi, risk-catisma öncü sorusu"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 38,
+     "motor": 30,
+     "neden": "İran Ulusal Güvenlik Konseyi 10 Kasım'da ABD ile görüşme yürütülmediğini, Katar'da görüşme planı olmadığını açıkladı (LR 0,9)"
     }
    ],
    "bagli": "risk-catisma"
@@ -1021,7 +1064,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: yazılı anlaşma olmadan fiilî geçiş düzeninin (Umman koridoru) trafiği hızla yarıya taşıması.",
    "motor": 30,
-   "p": 35,
+   "p": 33,
    "ilk_p": 35,
    "durum": "acik",
    "sonuc": null,
@@ -1032,6 +1075,12 @@
      "p": 35,
      "motor": 30,
      "neden": "açılış: geçiş işi, risk-enerji öncü sorusu"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 33,
+     "motor": 30,
+     "neden": "Kasım'ın ilk 10 gününde 10 gemi saldırısı (WINEP); İran Hürmüz'ün ABD şartları kabul edilene kadar kapalı kalacağını yineledi; LSEG: anlaşma olsa bile mayın temizliği ve sigorta geçişi geciktirir (LR 0,9)"
     }
    ],
    "bagli": "risk-enerji"
@@ -1096,6 +1145,224 @@
      "neden": "Günün Dosyası 10.11"
     }
    ]
+  },
+  {
+   "id": "on-yz-challenger-130bin",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Challenger raporuna göre 2026 yılında ABD'de yapay zekâ gerekçeli işten çıkarma duyuruları toplamı 130.000'i aşar mı?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-01-15",
+   "kriter": "Challenger, Gray & Christmas'ın Aralık 2026 raporunda 'Artificial Intelligence' gerekçesiyle 2026 yılı toplam işten çıkarma duyurusu 130.000'in üstündeyse evet. Ekim sonu toplamı: 121.401.",
+   "kaynak_cozum": "challengergray.com Aralık 2026 raporu + Reuters ya da CNBC",
+   "taban": "Ocak–Ekim 2026 aylık ortalama ≈12.100, ama Ekim'de yalnız 1.265. Kalan iki ayda 8.600 gerekiyor. Aylık dağılım çok dalgalı (birkaç büyük şirket duyurusu belirleyici). Motor %40.",
+   "mercekler": [
+    "İktisat: yıl sonu bütçe dönemleri işten çıkarma duyurularını artırır, yukarı",
+    "İstatistik: son ay verisi düşük; dağılım büyük duyurulara bağlı, belirsizlik yüksek"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: şirketlerin kesintileri 'maliyet' ya da 'yeniden yapılanma' gerekçesiyle duyurması ve YZ kategorisinin düşük kalması.",
+   "motor": 40,
+   "p": 40,
+   "ilk_p": 40,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 40,
+     "motor": 40,
+     "neden": "açılış: geçiş işi, risk-yz-issizlik öncü sorusu"
+    }
+   ],
+   "bagli": "risk-yz-issizlik"
+  },
+  {
+   "id": "on-yz-lisans-issizlik-3",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "ABD'de lisans ve üstü eğitimlilerin işsizlik oranı 6 Şubat 2027'ye kadar açıklanan herhangi bir ayda %3,0 veya üstüne çıkar mı?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-02-06",
+   "kriter": "BLS'nin 6 Şubat 2027'ye kadar yayımladığı Kasım 2026, Aralık 2026 ya da Ocak 2027 verilerinde 'Bachelor's degree and higher, 25 years and over' mevsimsellikten arındırılmış işsizlik oranı %3,0 veya üstündeyse evet. Ekim 2026: %2,6.",
+   "kaynak_cozum": "BLS Employment Situation Tablo A-4 + Reuters",
+   "taban": "Oran son üç ayda %2,5–2,7 arasında. Resesyon dışı dönemlerde üç ay içinde 0,4 puanlık sıçrama nadir (2000 sonrası resesyon dışı ≈%10). Motor %8; Claude +2.",
+   "mercekler": [
+    "İktisat: genel işsizlik %4,1'de yatay, ani sıçrama işareti yok",
+    "İstatistik: anket örneklem hatası ±0,2 puan; tek ayda gürültü eşiği yaklaştırabilir"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Fed faiz artırımlarıyla hızlanan işe alım donması ve büyük teknoloji şirketlerinin toplu çıkışları.",
+   "motor": 8,
+   "p": 10,
+   "ilk_p": 10,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 10,
+     "motor": 8,
+     "neden": "açılış: geçiş işi, risk-yz-issizlik öncü sorusu"
+    }
+   ],
+   "bagli": "risk-yz-issizlik"
+  },
+  {
+   "id": "on-gida-fao-140",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "FAO Gıda Fiyat Endeksi 6 Şubat 2027'ye kadar açıklanan herhangi bir aylık değerde 140 puanı aşar mı?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-02-06",
+   "kriter": "FAO'nun 6 Şubat 2027'ye kadar yayımladığı Kasım 2026, Aralık 2026 ya da Ocak 2027 Gıda Fiyat Endeksi değerlerinden biri (ilk açıklanan haliyle) 140,0 puanın üstündeyse evet. Ekim 2026: 133,9.",
+   "kaynak_cozum": "FAO Food Price Index basın bülteni + Reuters",
+   "taban": "Eşik için üç ayda %4,6 artış gerekiyor. 1990 sonrası üç aylık değişimlerin ≈%15'i bu büyüklükte; Ekim'de endeks %1,2 düştü, tahıl %4,5 geriledi. Motor %15; Claude −3.",
+   "mercekler": [
+    "Ekonomi: tahıl ve et gevşiyor, bitkisel yağ ve şeker yükseliyor; net yön aşağı",
+    "Meteoroloji: Güney Yarımküre hasadı Aralık–Ocak'ta belirleyici"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Hürmüz kaynaklı gübre ve enerji maliyetinin bitkisel yağ ve şekere hızlı geçmesi.",
+   "motor": 15,
+   "p": 12,
+   "ilk_p": 12,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 12,
+     "motor": 15,
+     "neden": "açılış: geçiş işi, risk-gida öncü sorusu"
+    }
+   ],
+   "bagli": "risk-gida"
+  },
+  {
+   "id": "on-gida-tr-gida-30",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Türkiye'de Aralık 2026 gıda ve alkolsüz içecekler yıllık enflasyonu %30'un üstünde açıklanır mı?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-01-06",
+   "kriter": "TÜİK'in Aralık 2026 TÜFE bülteninde 'gıda ve alkolsüz içecekler' ana harcama grubunun yıllık değişimi %30,00'ın üstündeyse evet. Ekim 2026: %27,73.",
+   "kaynak_cozum": "TÜİK TÜFE bülteni (data.tuik.gov.tr) + AA ya da Reuters",
+   "taban": "Eşik için iki ayda yıllık oranda 2,3 puan artış gerekiyor. Gıda yıllık oranının iki aylık değişiminin standart sapması ≈3 puan; Motor %22. Claude +3 (Ekim'de aylık %3,5 ivme).",
+   "mercekler": [
+    "Ekonomi: enerji ve navlun maliyetleri gıdaya gecikmeli geçiyor, yukarı",
+    "İstatistik: baz etkisi geçen yılın Kasım–Aralık aylık artışlarına bağlı, belirsiz"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: geçen yılın Kasım–Aralık gıda artışlarının yüksek olması nedeniyle baz etkisinin yıllık oranı aşağı çekmesi.",
+   "motor": 22,
+   "p": 25,
+   "ilk_p": 25,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 25,
+     "motor": 22,
+     "neden": "açılış: geçiş işi, risk-gida öncü sorusu"
+    }
+   ],
+   "bagli": "risk-gida"
+  },
+  {
+   "id": "on-siber-ab-iran-yaptirim",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "AB Konseyi 31 Mart 2027'ye kadar siber saldırı gerekçesiyle İran bağlantılı kişi ya da kuruluşlara yaptırım kararı alır mı?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-03-31",
+   "kriter": "AB Konseyi, siber saldırılara karşı kısıtlayıcı tedbirler rejimi (Karar (CFSP) 2019/797) kapsamında 31 Mart 2027'ye kadar en az bir İran bağlantılı kişi ya da kuruluşu listeye eklerse evet.",
+   "kaynak_cozum": "AB Resmî Gazetesi / consilium.europa.eu + Reuters",
+   "taban": "AB siber yaptırım rejimi 2020'den beri birkaç kez kullanıldı; atıftan listeye geçiş genellikle 4–12 ay sürdü. Fransa 9 Kasım'da AB düzeyinde yaptırım izleyeceğini açıkladı. Motor %35; Claude +5.",
+   "mercekler": [
+    "Uluslararası ilişkiler: oybirliği gerekir; İran'la diplomatik kanal arayan üyeler yavaşlatabilir",
+    "Kriminoloji: birden fazla ülkede benzer saldırı (İsveç, Belçika, İrlanda, Estonya) ortak kararı kolaylaştırır"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: oybirliği sağlanamaması ya da yaptırımın siber rejim yerine insan hakları/İran rejimi altında alınması.",
+   "motor": 35,
+   "p": 40,
+   "ilk_p": 40,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 40,
+     "motor": 35,
+     "neden": "açılış: geçiş işi, risk-siber öncü sorusu"
+    }
+   ],
+   "bagli": "risk-siber"
+  },
+  {
+   "id": "on-siber-yeni-devlet-atfi",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Bir AB ya da NATO üyesi hükümet, 31 Ocak 2027'ye kadar kritik altyapıya yönelik yeni bir siber saldırıyı resmen bir devlete atfeder mi?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-01-31",
+   "kriter": "11 Kasım 2026–31 Ocak 2027 arasında bir AB veya NATO üyesi hükümet ya da ulusal siber güvenlik kurumu, enerji, su, ulaşım, sağlık veya gıda dağıtımına yönelik bir siber saldırıyı adını vererek bir devlete veya devlet birimine resmen atfederse evet. 9 Kasım Fransa atfı sayılmaz.",
+   "kaynak_cozum": "Hükümet/kurum açıklaması + Reuters ya da AP",
+   "taban": "2024–2026 arasında AB/NATO üyelerinin kritik altyapı saldırısına yönelik resmî devlet atıfları yılda birkaç kez; 82 günlük pencerede en az bir atıf ≈%50. Motor %50; Claude +5 (İran kaynaklı saldırı dalgası sürüyor).",
+   "mercekler": [
+    "Bilgisayar bilimi: aynı cihaz açığı birçok ülkede istismar ediliyor",
+    "Uluslararası ilişkiler: atıf siyasi bir karar; savaş ortamında atıf eşiği düşüyor"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: diğer ülkelerin Fransa'nın atfını teknik olarak desteklemekle yetinip kendi olaylarını resmî olarak atfetmemesi.",
+   "motor": 50,
+   "p": 55,
+   "ilk_p": 55,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 55,
+     "motor": 50,
+     "neden": "açılış: geçiş işi, risk-siber öncü sorusu"
+    }
+   ],
+   "bagli": "risk-siber"
+  },
+  {
+   "id": "pb-2026-11-11-motorin-90",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+   "acilis": "2026-11-11",
+   "deadline": "2027-01-31",
+   "kriter": "31 Ocak 2027 günü İstanbul Avrupa Yakası için büyük dağıtıcıların (Opet, Petrol Ofisi veya Shell) pompa listesindeki motorin litre fiyatı 90,00 TL'nin altındaysa evet. 11 Kasım 2026 referansı: 95,20 TL.",
+   "kaynak_cozum": "Dağıtıcı fiyat arşivi (opet.com.tr / petrolofisi.com.tr) + AA ya da Dünya Gazetesi",
+   "taban": "Kurallı model: sektör kaynaklarının beklediği 14 Kasım indirimiyle (≈4 TL) fiyat ≈91,2 TL. Kurun aylık ≈%1,5 artışı Ocak sonuna kadar litrede ≈2 TL ekler; Brent'te 1 dolar ≈0,33 TL. 90 altı için Brent'in ≈83 doların altına inmesi gerekiyor; mevcut oynaklıkla Motor %30. Üç geçiş: dış görünüm %25, iç görünüm (Rus rafineri kaybı, yüksek dizel marjı) %20, karşı görüş (yazılı ABD–İran anlaşması, Brent 75) %35; medyan %25, aralık 15 puan.",
+   "mercekler": [
+    "Ekonomi: kur geçişi ve ÖTV sabit; ham petrol düşüşü pompaya gecikmeli ve eksik yansır, aşağı yönlü fiyat hareketini sınırlar",
+    "Mühendislik/enerji: Rusya'nın rafine kapasitesinin %30'unun devre dışı olması küresel dizel marjını yüksek tutar",
+    "Uluslararası ilişkiler: yazılı ABD–İran anlaşması Hürmüz'ü açarsa Brent hızla 70'lere inebilir"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Ocak'ta ÖTV veya KDV ayarlaması ya da kurdaki sıçramanın petroldeki düşüşü silmesi; ya da tersine, ani bir İran anlaşmasının petrolü 75 doların altına indirmesi.",
+   "motor": 30,
+   "p": 25,
+   "ilk_p": 25,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-11",
+     "p": 25,
+     "motor": 30,
+     "neden": "açılış: Olay ve Cevap 11.11 (dizel cephesi), üç geçiş medyanı"
+    }
+   ],
+   "bagli": "risk-enerji"
   }
  ]
 }
