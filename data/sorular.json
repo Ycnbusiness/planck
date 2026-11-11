@@ -1348,8 +1348,8 @@
     "Uluslararası ilişkiler: yazılı ABD–İran anlaşması Hürmüz'ü açarsa Brent hızla 70'lere inebilir"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ocak'ta ÖTV veya KDV ayarlaması ya da kurdaki sıçramanın petroldeki düşüşü silmesi; ya da tersine, ani bir İran anlaşmasının petrolü 75 doların altına indirmesi.",
-   "motor": 30,
-   "p": 25,
+   "motor": 45.0,
+   "p": 37,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1360,6 +1360,12 @@
      "p": 25,
      "motor": 30,
      "neden": "açılış: Olay ve Cevap 11.11 (dizel cephesi), üç geçiş medyanı"
+    },
+    {
+     "t": "2026-11-11",
+     "p": 37,
+     "motor": 45.0,
+     "neden": "Yayın öncesi doğrulama: motor indirim öncesi 95,20 TL ile hesaplanmıştı; sektör beklentisi 3–5 TL indirim (12–14 Kasım), taban ~91 TL ile lognormal motor %45, Claude −8 (kur, dizel marjı)"
     }
    ],
    "bagli": "risk-enerji"
