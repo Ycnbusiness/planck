@@ -97,3 +97,8 @@ Günlük taramanın **ilk adımı hakemliktir**, sonra tarama gelir:
 ## İzleme listesi
 
 `data/izleme.json`: doğrulanmamış ama önemli iddialar. Her tarama, kırmızı alarm ve Günün Dosyası görevi önce bu listeyi kontrol eder; `eksik` alanındaki doğrulama geldiyse `olursa` alanındaki işi yapar ve `durum`u günceller. `bitis` tarihine kadar doğrulanmayan öğe `durum: düştü` olur. Doğrulanmamış öğe hiçbir içerikte olgu olarak geçmez.
+
+## Model ve alarm düzeni (11.11.2026)
+
+- Opus 5.5: Günlük Tarama, Haftalık Rapor, Günün Dosyası, T+ Hafta Sonu Haritası, T+ Karne. Sonnet 5.5: Kırmızı Alarm, T+ Avrupa Gecesi, Quant Açılış, Quant Haftalık (Quant yayını açılana kadar).
+- Ana oturumdaki 3 saatlik kontrol kaldırıldı. Bulut Kırmızı Alarm, @planck.news için KIRMIZI flaş üretip push ettiğinde "Planck flaş yayın (alarmla uyanır)" görevini (trig_01GgZkfkri4DJsWqzNgPyqDe) fire_trigger ile çalıştırır; ana oturum uyanır, olayı bağımsız olarak doğrular ve Chrome ile yayınlar. Sabah 08:00 ve akşam 20:40 yayın turları sürer.
