@@ -708,9 +708,13 @@
    "motor": null,
    "p": 7,
    "ilk_p": 7,
-   "durum": "acik",
-   "sonuc": null,
-   "kapanis": null,
+   "durum": "kapandi",
+   "sonuc": 1,
+   "kapanis": {
+    "t": "2026-11-12",
+    "kaynak": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "not": "Nvidia 8-K, 12 Kasım 2026: Huang CEO, başkan ve yönetim kurulu üyeliğinden derhal ayrıldı"
+   },
    "gecmis": [
     {
      "t": "2026-11-09",
@@ -718,7 +722,8 @@
      "motor": null,
      "neden": "göç: nvidia-2026-11"
     }
-   ]
+   ],
+   "otopsi_gerekli": true
   },
   {
    "id": "nv-2",

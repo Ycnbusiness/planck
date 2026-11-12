@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-11",
- "kapanan": 1,
- "acik": 35,
+ "updated": "2026-11-12",
+ "kapanan": 2,
+ "acik": 47,
  "iptal": 0,
  "kanallar": {
   "toplam": {
    "planck": {
-    "n": 1,
-    "brier": 0.16,
-    "log": 0.5108,
-    "beceri_50": 0.36
+    "n": 2,
+    "brier": 0.5124,
+    "log": 1.585,
+    "beceri_50": -1.05
    },
    "motor": {
     "n": 1,
@@ -18,13 +18,13 @@
     "beceri_50": 0.26
    },
    "ilk": {
-    "n": 1,
-    "brier": 0.16,
-    "log": 0.5108,
-    "beceri_50": 0.36
+    "n": 2,
+    "brier": 0.5124,
+    "log": 1.585,
+    "beceri_50": -1.05
    },
    "tuttu": 1,
-   "n": 1,
+   "n": 2,
    "planck_motorlu_sorularda": {
     "n": 1,
     "brier": 0.16,
@@ -34,10 +34,10 @@
   },
   "quant": {
    "planck": {
-    "n": 1,
-    "brier": 0.16,
-    "log": 0.5108,
-    "beceri_50": 0.36
+    "n": 2,
+    "brier": 0.5124,
+    "log": 1.585,
+    "beceri_50": -1.05
    },
    "motor": {
     "n": 1,
@@ -46,13 +46,13 @@
     "beceri_50": 0.26
    },
    "ilk": {
-    "n": 1,
-    "brier": 0.16,
-    "log": 0.5108,
-    "beceri_50": 0.36
+    "n": 2,
+    "brier": 0.5124,
+    "log": 1.585,
+    "beceri_50": -1.05
    },
    "tuttu": 1,
-   "n": 1,
+   "n": 2,
    "planck_motorlu_sorularda": {
     "n": 1,
     "brier": 0.16,
@@ -63,13 +63,21 @@
  },
  "kalibrasyon": [
   {
+   "dilim": "0-9",
+   "n": 1,
+   "ort_tahmin": 7.0,
+   "gerceklesen": 100.0
+  },
+  {
    "dilim": "60-69",
    "n": 1,
    "ort_tahmin": 60.0,
    "gerceklesen": 100.0
   }
  ],
- "otopsi_bekleyen": [],
+ "otopsi_bekleyen": [
+  "nv-1"
+ ],
  "iddia_serbest": false,
  "kalibrasyon_duzeltmesi_serbest": false
 }
