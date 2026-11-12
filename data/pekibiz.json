@@ -86,6 +86,31 @@
      "olay": "dizel-cephesi"
     }
    ]
+  },
+  {
+   "week": "2026-W46",
+   "date": "2026-11-12",
+   "tema": "Günün Dosyası · 12 Kasım",
+   "items": [
+    {
+     "id": "on-catisma-abd-iran-anlasma",
+     "alan": "Çatışma",
+     "q": "ABD ile İran 30 Nisan 2027'ye kadar savaşı sona erdiren yazılı anlaşma imzalar mı?",
+     "p": 31,
+     "lab": "Motor %30 · Claude +1",
+     "deadline": "2027-04-30",
+     "olay": "trump-iran-anlasma-gerekmez"
+    },
+    {
+     "id": "on-gida-tr-gida-30",
+     "alan": "Ekonomi",
+     "q": "Türkiye'de Aralık 2026 gıda ve alkolsüz içecekler yıllık enflasyonu %30'un üstünde açıklanır mı?",
+     "p": 40,
+     "lab": "Motor %22 · TCMB gıda tahmini %31,3 ile güncellendi",
+     "deadline": "2027-01-06",
+     "olay": "tcmb-enflasyon-raporu-2026-iv"
+    }
+   ]
   }
  ]
 }

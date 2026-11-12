@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85,
-   "p": 84,
+   "p": 85,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -48,6 +48,12 @@
      "p": 84,
      "motor": 85,
      "neden": "Abu Dabi görüşmeleri ateşkessiz bitti (yalnız esir takası); Rus topraklarına saldırılarda sapan İHA'lar üç Baltık ülkesinde sığınak uyarısı ve NATO önlemine yol açtı (LR 1,05)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 85,
+     "motor": 85,
+     "neden": "Akşam: Trump 12 Kasım'da İran'la anlaşmaya ihtiyaç olmadığını yazdı, Vance'in görevini iç gündeme kaydırdı; diplomatik çıkış zayıfladı (LR 1,05)"
     }
    ]
   },
@@ -68,7 +74,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
    "motor": 55.0,
-   "p": 70,
+   "p": 71,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -115,6 +121,12 @@
      "p": 70,
      "motor": 55.0,
      "neden": "İran Meclis Başkanı Hürmüz'ün savaş öncesine dönmeyeceğini, Umman'la ortak yönetim anlayışına varıldığını söyledi; güvenlik yetkilisi zenginleştirilmiş malzemenin ülkeden çıkmayacağını açıkladı, ABD ile görüşme olmadığını yineledi (LR 1,05)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 71,
+     "motor": 55.0,
+     "neden": "Akşam: TCMB Enflasyon Raporu petrol varsayımlarını yükseltti (2026 ort. 87,8→97,2; 2027 76,4→86,7 $) ve enerji kaynaklı arz şoklarını başlıca risk saydı; kurumsal tahmin yüksek maliyetin 2027'ye taşınacağını öngörüyor (LR 1,05)"
     }
    ]
   },
@@ -333,7 +345,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: ticaret ateşkeslerinin yenilenmesi ve yasakların 12 aydan kısa sürede gevşetilmesi.",
    "motor": 50,
-   "p": 56,
+   "p": 58,
    "ilk_p": 58,
    "durum": "acik",
    "sonuc": null,
@@ -350,6 +362,12 @@
      "p": 56,
      "motor": null,
      "neden": "Çin tarife ve nadir toprak askısını 10 Ocak 2027'ye uzattı; beklenen, iki ayla sınırlı (teyit, ≈LR 0,92)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 58,
+     "motor": 50,
+     "neden": "Akşam: Nvidia CEO'su Huang, Çin istihbaratıyla bağlantılı olduğu iddia edilen bir kişiyle ilişkisi soruşturulurken 12 Kasım'da istifa etti; Kongre'de Çin'e çip ihracatını sınırlama çağrısı güçlendi. İhracat gevşetmesinin baş savunucusu sahneden çekildi (LR 1,1)"
     }
    ]
   },
@@ -1059,7 +1077,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: İran'ın zenginleştirilmiş uranyum konusunda taviz vermemesi ve anlaşmanın yazılı metne dönüşmeden 'statüko' olarak sürmesi.",
    "motor": 30,
-   "p": 36,
+   "p": 31,
    "ilk_p": 40,
    "durum": "acik",
    "sonuc": null,
@@ -1082,6 +1100,12 @@
      "p": 36,
      "motor": 30,
      "neden": "İran müzakereden önce yedi ön koşul (abluka, yaptırım, dondurulmuş varlıklar, tüm cephelerde savaşın bitişi) koydu; zenginleştirilmiş malzemeyi çıkarmayı reddetti; ABD nükleer konunun ilk turda olmasını istiyor (LR 0,9)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 31,
+     "motor": 30,
+     "neden": "Akşam: Trump 'İran'la anlaşmaya ihtiyacımız yok, o günler geçti' dedi; arabulucu Vance başka göreve kaydırıldı; Katar planına kabine içinden itiraz (LR 0,8)"
     }
    ],
    "bagli": "risk-catisma"
@@ -1133,7 +1157,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: yazılı anlaşma olmadan fiilî geçiş düzeninin (Umman koridoru) trafiği hızla yarıya taşıması.",
    "motor": 30,
-   "p": 33,
+   "p": 31,
    "ilk_p": 35,
    "durum": "acik",
    "sonuc": null,
@@ -1150,6 +1174,12 @@
      "p": 33,
      "motor": 30,
      "neden": "Kasım'ın ilk 10 gününde 10 gemi saldırısı (WINEP); İran Hürmüz'ün ABD şartları kabul edilene kadar kapalı kalacağını yineledi; LSEG: anlaşma olsa bile mayın temizliği ve sigorta geçişi geciktirir (LR 0,9)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 31,
+     "motor": 30,
+     "neden": "Akşam: Trump anlaşma arayışını bıraktığını açıkladı; Hürmüz'ün müzakereyle açılma yolu daraldı (LR 0,9)"
     }
    ],
    "bagli": "risk-enerji"
@@ -1324,7 +1354,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: geçen yılın Kasım–Aralık gıda artışlarının yüksek olması nedeniyle baz etkisinin yıllık oranı aşağı çekmesi.",
    "motor": 22,
-   "p": 25,
+   "p": 40,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1335,6 +1365,12 @@
      "p": 25,
      "motor": 22,
      "neden": "açılış: geçiş işi, risk-gida öncü sorusu"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 40,
+     "motor": 22,
+     "neden": "Akşam: TCMB 2026 yıl sonu gıda enflasyonu tahminini %28,5'ten %31,3'e çıkardı (eşiğin üstünde); Karahan Kasım'da yıllık düşüşün duraklayabileceğini söyledi (LR 2,0)"
     }
    ],
    "bagli": "risk-gida"
@@ -1418,7 +1454,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ocak'ta ÖTV veya KDV ayarlaması ya da kurdaki sıçramanın petroldeki düşüşü silmesi; ya da tersine, ani bir İran anlaşmasının petrolü 75 doların altına indirmesi.",
    "motor": 45.0,
-   "p": 37,
+   "p": 35,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1435,6 +1471,12 @@
      "p": 37,
      "motor": 45.0,
      "neden": "Yayın öncesi doğrulama: motor indirim öncesi 95,20 TL ile hesaplanmıştı; sektör beklentisi 3–5 TL indirim (12–14 Kasım), taban ~91 TL ile lognormal motor %45, Claude −8 (kur, dizel marjı)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 35,
+     "motor": 45.0,
+     "neden": "Akşam: Trump'ın anlaşma gerekmediği açıklamasıyla Brent sabahki düşüşü silip %1,4 yükseldi; TCMB 2027 petrol varsayımını 76,4'ten 86,7 dolara çıkardı (LR 0,9)"
     }
    ],
    "bagli": "risk-enerji"
@@ -1579,7 +1621,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: yönetimin genel iptal yerine tek tek alıcıları kara listeye almayı seçmesi.",
    "motor": 20,
-   "p": 25,
+   "p": 29,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1590,6 +1632,12 @@
      "p": 25,
      "motor": 20,
      "neden": "açılış"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 29,
+     "motor": 20,
+     "neden": "Akşam: Huang istifası ve Megaspeed soruşturması sonrası Kongre'de çip ihracatını kısma uzlaşısı (Meclis Başkanı Johnson); iki partili senatör mektubu lisansların askıya alınmasını istedi (LR 1,25)"
     }
    ],
    "bagli": "risk-abd-cin-teknoloji"

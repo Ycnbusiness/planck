@@ -24,7 +24,9 @@
     "dogrula": "eksikli kayıt 0"
   },
   "izleme": {
-    "didamar-radar": "Reuters kaynaklı piyasa haberi saldırıyı olgu olarak aktardı; ikinci bağımsız teyit yok, Umman yalanlaması duruyor. Doğrulanmadı (bitiş 13 Kasım)."
+    "didamar-radar": "Reuters kaynaklı piyasa haberi saldırıyı olgu olarak aktardı; ikinci bağımsız teyit yok, Umman yalanlaması duruyor. Doğrulanmadı (bitiş 13 Kasım).",
+    "hurmuz-iki-tanker": "IRGC 12 Kasım'da iki süper tankerin patladığını açıkladı; bağımsız teyit yok. Teyit gelirse enerji riski yeniden değerlendirilir.",
+    "hollanda-kabine": "Jetten I kabinesi: 12 Kasım vergi planı oylaması sonucu sabah kontrol edilecek."
   },
   "summary": {
     "kirmizi": 0,
@@ -120,5 +122,125 @@
       "olay": "TCMB 2026-IV Enflasyon Raporu (12 Kasım 10:30)",
       "neden": "Tarama saatinden sonra; akşam Dosya görevi değerlendirecek."
     }
-  ]
+  ],
+  "aksam": {
+    "scan_window": "2026-11-12 06:45 → 20:30 (TSİ)",
+    "events": [
+      {
+        "id": "trump-iran-anlasma-gerekmez",
+        "class": "YEŞİL",
+        "risk": "catisma",
+        "delta": 1,
+        "from": 84,
+        "to": 85,
+        "lr": 1.05,
+        "onem": 6,
+        "onem_hesap": "|+1| × Türkiye bağı 2 (sınır komşusu, akaryakıt) × etki 3",
+        "turkiye_bagi": 2,
+        "event": "Trump 12 Kasım'da Truth Social'da İran'la anlaşmaya ihtiyaç olmadığını yazdı; Vance'in görevini iç gündeme kaydırdı. Brent sabah Suudi üretim artışıyla düştükten sonra %1,4 yükselerek 94 doların üstüne çıktı.",
+        "rationale": "Diplomatik çıkışın zayıflaması savaşın uzama olasılığını artırıyor; zayıf kanıt (LR 1,05). Story saati geçtiği için Dosya'ya alındı.",
+        "secondary": [
+          {
+            "soru": "on-catisma-abd-iran-anlasma",
+            "from": 36,
+            "to": 31,
+            "lr": 0.8
+          },
+          {
+            "soru": "on-enerji-hurmuz-gecis",
+            "from": 33,
+            "to": 31,
+            "lr": 0.9
+          },
+          {
+            "soru": "pb-2026-11-11-motorin-90",
+            "from": 37,
+            "to": 35,
+            "lr": 0.9
+          }
+        ],
+        "pekibiz": [
+          "on-catisma-abd-iran-anlasma"
+        ],
+        "sources": [
+          "https://www.thenationalnews.com/news/us/2026/11/12/iran-deal-trump/",
+          "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
+          "https://leprivatebanker.com/2026/11/12/oil-jumps-above-94-after-trump-says-us-doesnt-need-an-iran-deal-clouding-a-qatari-plan-to-reopen-hormuz/"
+        ]
+      },
+      {
+        "id": "tcmb-enflasyon-raporu-2026-iv",
+        "class": "YEŞİL",
+        "risk": "enerji",
+        "delta": 1,
+        "from": 70,
+        "to": 71,
+        "lr": 1.05,
+        "onem": 4,
+        "onem_hesap": "|+1| × Türkiye bağı 2 × etki 2",
+        "turkiye_bagi": 2,
+        "event": "TCMB 2026-IV Enflasyon Raporu: 2026 yıl sonu %28→%29,5; 2027 %15→%21; 2028 %9→%13,5; gıda 2026 %28,5→%31,3; petrol varsayımı 2026 ort. 87,8→97,2, 2027 76,4→86,7 $. Karahan enerji kaynaklı arz şoklarını başlıca yukarı risk saydı.",
+        "rationale": "Kurumsal tahmin yüksek enerji maliyetinin 2027'ye taşınacağını öngörüyor (LR 1,05). Gıda %30 öncü sorusu: TCMB tahmini eşiğin üstünde (LR 2,0) %25→%40. q-tr-tufe-30 Quant kanalının sorusu; Quant görevine bırakıldı (tcmb-tahmin-hata.json hazır).",
+        "secondary": [
+          {
+            "soru": "on-gida-tr-gida-30",
+            "from": 25,
+            "to": 40,
+            "lr": 2.0
+          }
+        ],
+        "pekibiz": [
+          "on-gida-tr-gida-30"
+        ],
+        "sources": [
+          "https://www.cnbce.com/haberler/tcmbnin-yilin-son-enflasyon-raporu-tahminler-degisti-h41633",
+          "https://bigpara.hurriyet.com.tr/haberler/ekonomi-haberleri/tcmb-baskani-fatih-karahan-yilin-son-enflasyon-raporunu-acikladi_ID102288505/",
+          "https://www.habererk.com/haber/tcmb-2026-enflasyon-tahminini-yuzde-29-5-e-yukseltti_361030/"
+        ]
+      },
+      {
+        "id": "nvidia-huang-istifa",
+        "class": "YEŞİL",
+        "risk": "abd-cin-teknoloji",
+        "delta": 2,
+        "from": 56,
+        "to": 58,
+        "lr": 1.1,
+        "onem": 0,
+        "kuresel_onem": 4,
+        "onem_hesap": "Türkiye bağı 0 → küresel önem |+2| × etki 2 = 4; Dosya'ya pq/pp olmadan",
+        "turkiye_bagi": 0,
+        "event": "Nvidia CEO'su Jensen Huang, Çin istihbaratıyla bağlantılı olduğundan şüphelenilen Megaspeed eski yöneticisi Alice Huang ile ilişkisi FBI, Kongre ve şirket tarafından incelenirken 12 Kasım'da istifa etti; geçici CEO Colette Kress. Meclis Başkanı Johnson, Kongre'de Çin'e çip ihracatını sınırlama konusunda uzlaşı oluştuğunu söyledi. Çin casusluk iddialarını reddediyor.",
+        "rationale": "İhracat gevşetmesinin baş savunucusu çekildi, Kongre'de sıkılaştırma baskısı arttı (LR 1,1). H200 iptal öncü sorusu %25→%29 (LR 1,25). Sabah taraması bu dosyayı kaçırmıştı.",
+        "secondary": [
+          {
+            "soru": "on-abdcin-h200-iptal",
+            "from": 25,
+            "to": 29,
+            "lr": 1.25
+          }
+        ],
+        "sources": [
+          "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+          "https://foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy",
+          "https://www.timeslive.co.za/news/world/2026-11-12-congress-eyes-limits-on-chip-exports-after-nvidia-ceo-exit/"
+        ]
+      }
+    ],
+    "elenen": [
+      {
+        "olay": "Devrim Muhafızları: iki süper tanker Hürmüz'de 'yetkisiz rotada' patlamayla durdu",
+        "neden": "Yalnız IRGC beyanı; UKMTO, CENTCOM, armatör teyidi yok, gemi adı yok. İzlemeye alındı."
+      },
+      {
+        "olay": "Kushner–Witkoff'un Putin'le Kremlin görüşmesi; Putin Avrupa askerine karşı",
+        "neden": "Beklenen tutumun tekrarı; Δ 0. Dublin'de Zelenskiy görüşmesi sonucu yok."
+      },
+      {
+        "olay": "Hollanda'da vergi planı oylaması, VVD'nin hükümetten çekilme tehdidi",
+        "neden": "Oylama sonucu tarama saatinde belli değil; kabine düşerse avrupa riski sabah taramasında işlenecek."
+      }
+    ],
+    "summary": "Dosya 5 olaya çıktı (sabah 2 + akşam 3). Önem ≥12 yeni olay yok; Olay ve Cevap üretilmedi."
+  }
 }

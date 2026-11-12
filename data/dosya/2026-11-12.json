@@ -1,7 +1,29 @@
 {
  "date": "12 KASIM 2026",
- "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: İran'ın Hürmüz ve müzakere koşulları ile Abu Dabi'deki görüşmelerin ateşkessiz bitmesi. Her sayfada bir olay, bir cevap.",
+ "lede": "Ana akışa çıkmayan ama kayda değer beş gelişme: Trump'ın İran'la anlaşma arayışını bırakması, Merkez Bankası'nın yeni tahminleri, İran'ın Hürmüz koşulları, Abu Dabi'nin ateşkessiz bitişi ve Nvidia'da istifa.",
  "items": [
+  {
+   "tag": "Çatışma",
+   "title": "Trump: İran'la anlaşmaya artık gerek yok",
+   "text": "ABD Başkanı Trump 12 Kasım'da İran'la bir anlaşmaya ihtiyaç olmadığını, o dönemin geride kaldığını yazdı ve İran temaslarını yürüten Yardımcısı Vance'i iç gündeme yönlendirdi. Açıklamanın ardından Brent, Suudi üretim artışıyla gelen sabahki düşüşü silerek yükseldi.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 84,
+   "to": 85,
+   "pq": "ABD ile İran 30 Nisan 2027'ye kadar savaşı sona erdiren yazılı anlaşma imzalar mı?",
+   "pp": 31,
+   "pdo": "Sınır komşusunda savaşın uzaması akaryakıt ve sınır güvenliği için risk; diplomasi yolunun daralmasıyla yazılı anlaşma olasılığı %36'dan %31'e indi."
+  },
+  {
+   "tag": "Ekonomi",
+   "title": "TCMB enflasyon tahminlerini yükseltti",
+   "text": "Merkez Bankası 2026 yıl sonu enflasyon tahminini %28'den %29,5'e, 2027 ara hedefini %15'ten %21'e çıkardı; gıdada yıl sonu tahmini %28,5'ten %31,3'e yükseldi. Petrol varsayımı da arttı: 2027 ortalaması 76,4'ten 86,7 dolara.",
+   "risk": "Kalıcı Enerji ve Lojistik Maliyetleri",
+   "from": 70,
+   "to": 71,
+   "pq": "Türkiye'de Aralık 2026 gıda ve alkolsüz içecekler yıllık enflasyonu %30'un üstünde açıklanır mı?",
+   "pp": 40,
+   "pdo": "Mutfakta yıl sonu rahatlaması için erken: Merkez Bankası'nın gıda tahmini eşiğin üstüne çıkınca olasılığı %25'ten %40'a yükselttik."
+  },
   {
    "tag": "Enerji",
    "title": "İran: Hürmüz savaş öncesine dönmeyecek, görüşme için önce koşullar",
@@ -10,8 +32,8 @@
    "from": 69,
    "to": 70,
    "pq": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
-   "pp": 37,
-   "pdo": "Türkiye'ye en yakın etki: akaryakıt ve navlun. Savaş bitse bile boğazdan geçişin pahalı kalması riski biraz arttı; petrolün Kasım'daki düşüşü sürdüğü için motorin tahmini %37'de kaldı."
+   "pp": 35,
+   "pdo": "Türkiye'ye en yakın etki akaryakıt ve navlun: savaş bitse bile boğazdan geçişin pahalı kalması riski arttı, motorin tahmini akşam itibarıyla %35."
   },
   {
    "tag": "Çatışma",
@@ -23,7 +45,16 @@
    "pq": "Rusya ile Ukrayna 31 Aralık 2026'ya kadar ateşkes ilan eder mi?",
    "pp": 11,
    "pdo": "Türkiye'ye en yakın etki: Karadeniz'de ticaret ve gemi güvenliği. Görüşmelerin ateşkessiz bitmesiyle yıl sonu ateşkes olasılığı %12'den %11'e indi."
+  },
+  {
+   "tag": "Teknoloji",
+   "title": "Nvidia'nın CEO'su Jensen Huang istifa etti",
+   "text": "Huang, Çin adına çalıştığından şüphelenilen bir yöneticiyle ilişkisi FBI, Kongre ve şirket tarafından incelenirken 12 Kasım'da görevi bıraktı; geçici CEO finans direktörü Colette Kress oldu. Çin'e çip satışını gevşetmenin en güçlü savunucusu ayrılırken Kongre'de ihracatı sınırlama çağrıları güçlendi.",
+   "risk": "ABD–Çin Teknoloji Ayrışması",
+   "from": 56,
+   "to": 58,
+   "pdo": "Yapay zekâ çiplerinde ABD ile Çin arasındaki duvar yükselirse küresel teknoloji tedarik zinciri iki bloğa ayrılır."
   }
  ],
- "question": "Sizce Hürmüz'de 'yeni düzen' savaş bittikten sonra da akaryakıt fiyatlarına yansır mı?"
+ "question": "Sizce Merkez Bankası'nın yükselttiği gıda tahmini mutfak masrafınızda şimdiden hissediliyor mu?"
 }
