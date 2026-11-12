@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-12",
+  "scan_window": "2026-11-11 08:50 → 2026-11-12 06:45 (TSİ)",
+  "hakem": {
+    "vadesi_gelen": [],
+    "kapanan": [],
+    "karne": "değişiklik yok"
+  },
+  "gecis": {
+    "tamamlanan": [
+      "risk-kurumlar",
+      "risk-tayvan",
+      "risk-abd-cin-teknoloji"
+    ],
+    "yeni_oncu": [
+      "on-kurumlar-fh-abd",
+      "on-kurumlar-rsf-abd",
+      "on-tayvan-adli-tatbikat",
+      "on-tayvan-45-ucak",
+      "on-abdcin-h200-iptal",
+      "on-abdcin-entity-10"
+    ],
+    "kalan": [],
+    "dogrula": "eksikli kayıt 0"
+  },
+  "izleme": {
+    "didamar-radar": "Reuters kaynaklı piyasa haberi saldırıyı olgu olarak aktardı; ikinci bağımsız teyit yok, Umman yalanlaması duruyor. Doğrulanmadı (bitiş 13 Kasım)."
+  },
+  "summary": {
+    "kirmizi": 0,
+    "sari": 0,
+    "yesil": 2,
+    "not": "Sessiz gün: önem ≥6 olay yok; ana akış ve Story içeriği çıkmaz. İki yeşil olay Günün Dosyası'na: İran'ın Hürmüz ve müzakere koşulları (enerji 69→70, önem 4) ve Abu Dabi'nin ateşkessiz bitişi + Baltık İHA uyarıları (çatışma 83→84, önem 3). TCMB yılın son Enflasyon Raporu bugün 10:30'da; tarama saatinden sonra olduğu için akşam Dosya görevine bırakıldı."
+  },
+  "events": [
+    {
+      "id": "iran-hurmuz-kosullar",
+      "class": "YEŞİL",
+      "risk": "enerji",
+      "delta": 1,
+      "from": 69,
+      "to": 70,
+      "lr": 1.05,
+      "onem": 4,
+      "onem_hesap": "|+1| × Türkiye bağı 2 (akaryakıt ve navlun; Türkiye net enerji ithalatçısı) × etki 2 (Yüksek)",
+      "turkiye_bagi": 2,
+      "event": "İran Meclis Başkanı ve baş müzakereci Galibaf, Hürmüz Boğazı'nın savaş öncesi düzene dönmeyeceğini, boğazın kıyıdaş iki ülkenin kurallarıyla yönetileceğini ve Umman'la bu yönde bir anlayışa varıldığını söyledi; ABD ile görüşmeden önce abluka ve yaptırımların kaldırılması, dondurulmuş varlıkların serbest bırakılması ve tüm cephelerde savaşın bitmesi gibi koşullar sıraladı. İranlı güvenlik yetkilisi Rızai zenginleştirilmiş nükleer malzemenin ülkeden çıkmayacağını açıkladı. Brent 11 Kasım'ı %1,4 artışla 92,76 dolardan kapattı; Kasım başından bu yana yaklaşık %21 düşüşte.",
+      "rationale": "Beklenen yönde, mevcut eğilimi doğrulayan açıklamalar: Hürmüz'de kalıcı bir 'yönetim' talebi, savaş bitse bile geçiş maliyetinin (sigorta, olası geçiş ücreti) yüksek kalacağına işaret ediyor. Zayıf kanıt (LR 1,05): 69 → 70. Umman'ın anlayışı doğrulayan açıklaması yok; bu kısım İran beyanı olarak kaydedildi, olgu olarak kullanılmadı. Karşı olgu: Kpler'e göre Orta Doğu ham petrol kesintisi günde ≈3,8 milyon varile indi, Suudi ve Irak üretimi savaş öncesine döndü. ABD–İran yazılı anlaşma sorusu %38 → %36 (LR 0,9). Motorin 90 sorusu %37'de kaldı.",
+      "secondary": [
+        {
+          "soru": "on-catisma-abd-iran-anlasma",
+          "from": 38,
+          "to": 36,
+          "lr": 0.9
+        }
+      ],
+      "pekibiz": [
+        "pb-2026-11-11-motorin-90"
+      ],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf",
+        "https://www.businesstoday.in/world/story/there-are-no-free-waters-iran-chief-negotiator-says-hormuz-will-never-return-to-its-pre-war-status-566955-2026-11-12",
+        "https://www.thestar.com.my/business/2026/11/12/oil-rises-1-as-iran-vows-to-retain-enriched-uranium",
+        "https://justsecurity.org/164111/early-edition-november-11-2026"
+      ]
+    },
+    {
+      "id": "abu-dabi-ateskessiz-baltik-iha",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 1,
+      "from": 83,
+      "to": 84,
+      "lr": 1.05,
+      "onem": 3,
+      "onem_hesap": "|+1| × Türkiye bağı 1 (NATO üyesi; Karadeniz ticareti) × etki 3 (Çok yüksek)",
+      "turkiye_bagi": 1,
+      "event": "ABD arabuluculuğundaki Rusya–Ukrayna görüşmeleri 11 Kasım'da Abu Dabi'de ateşkes olmadan, yalnız büyük bir esir takası üzerinde ilke anlaşmasıyla sona erdi; sayılar 12 Kasım'da netleşecek, ABD elçileri aynı gün Moskova'da Putin'le görüşecek. Toprak ve savaş sonrası güvenlik garantilerinde ayrılık sürüyor. Aynı gün Ukrayna İHA'ları Baltık'taki Ust-Luga petrol limanını vurdu (Ukrayna Genelkurmayı'na göre beş tank ve bir hidrokraking ünitesi hasar gördü); Rusya'ya yönelik saldırılarda rotasından sapan İHA'lar nedeniyle Litvanya, Letonya ve Estonya sığınak uyarısı verdi, NATO uçakları havalandı.",
+      "rationale": "Beklenen sonuç (ateşkes 'yakın değil' deniyordu) ama savaşın NATO hava sahasına taşan yan etkileri sürüyor: zayıf kanıt (LR 1,05): 83 → 84. Rusya–Ukrayna ateşkes soruları: 31 Aralık %12 → %11 (LR 0,9), 30 Nisan %18 → %17 (LR 0,95). Ust-Luga hasarı, rafineri kaybı dün enerji riskine işlendiği için enerji hesabına ayrıca eklenmedi (aynı eğilimin tekrarı).",
+      "secondary": [
+        {
+          "soru": "pb-2026-W46-2",
+          "from": 12,
+          "to": 11,
+          "lr": 0.9
+        },
+        {
+          "soru": "on-catisma-rusya-ateskes",
+          "from": 18,
+          "to": 17,
+          "lr": 0.95
+        }
+      ],
+      "pekibiz": [
+        "pb-2026-W46-2"
+      ],
+      "sources": [
+        "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough",
+        "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+        "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region",
+        "https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/",
+        "https://justsecurity.org/164111/early-edition-november-11-2026"
+      ]
+    }
+  ],
+  "elenen": [
+    {
+      "olay": "Askerî bağlantılı Çin üniversitesinin aracı üzerinden Nvidia H200 alımı",
+      "neden": "Tek kaynak (Reuters); ikinci bağımsız teyit bulunamadı. Risk oynatılmadı; öncü soru on-abdcin-h200-iptal'in tabanında arka plan olarak geçiyor."
+    },
+    {
+      "olay": "Galibaf'ın Umman'la Hürmüz yönetim anlayışı",
+      "neden": "Yalnız İran beyanı; Umman teyidi yok. Olgu olarak kullanılmadı."
+    },
+    {
+      "olay": "İngiltere'de Rusya adına casuslukla suçlanan ABD askeri; Kaliningrad'da Polonyalı ajan gözaltıları",
+      "neden": "Gürültü testi: 30 gün sonra risk düzeyinde önemi düşük."
+    },
+    {
+      "olay": "TCMB 2026-IV Enflasyon Raporu (12 Kasım 10:30)",
+      "neden": "Tarama saatinden sonra; akşam Dosya görevi değerlendirecek."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T08:50:00+03:00",
+ "updated": "2026-11-12T06:45:00+03:00",
  "horizon": "2031",
  "bands": {
   "Çok yüksek": [
@@ -32,7 +32,7 @@
   {
    "id": "catisma",
    "name": "Kronik Bölgesel Çatışmalar",
-   "p": 83,
+   "p": 84,
    "impact": "Çok yüksek",
    "geo": [
     35,
@@ -42,7 +42,7 @@
   {
    "id": "enerji",
    "name": "Kalıcı Enerji ve Lojistik Maliyetleri",
-   "p": 69,
+   "p": 70,
    "impact": "Yüksek",
    "geo": [
     56.3,

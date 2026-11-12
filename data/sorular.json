@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85,
-   "p": 83,
+   "p": 84,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -42,6 +42,12 @@
      "p": 83,
      "motor": 85,
      "neden": "ABD, İran bağlantılı tehdit nedeniyle yakıt ikmal uçaklarını İngiltere'deki RAF Mildenhall'dan Almanya'ya taşıdı; ABD Adalet Bakanlığı RAF Fairford'a yönelik iddia edilen planla bağlantılı üç İranlıyı suçladı (LR 1,05)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 84,
+     "motor": 85,
+     "neden": "Abu Dabi görüşmeleri ateşkessiz bitti (yalnız esir takası); Rus topraklarına saldırılarda sapan İHA'lar üç Baltık ülkesinde sığınak uyarısı ve NATO önlemine yol açtı (LR 1,05)"
     }
    ]
   },
@@ -62,7 +68,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
    "motor": 55.0,
-   "p": 69,
+   "p": 70,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -103,6 +109,12 @@
      "p": 69,
      "motor": 55.0,
      "neden": "OPEC aylık raporu (11 Kasım): OPEC+ Ekim üretimi 2,04 milyon v/g artışla 41,23 milyona çıktı, savaş öncesinin ~%97'si (Suudi 10,56 milyon). EIA STEO: Orta Doğu üretim kaybı Mayıs'taki 10,9'dan Ekim'de 2,5 milyon v/g'ye indi, 2027 ortalaması 86 $ (+2). Arz toparlanması ağır basıyor (LR 0,95)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 70,
+     "motor": 55.0,
+     "neden": "İran Meclis Başkanı Hürmüz'ün savaş öncesine dönmeyeceğini, Umman'la ortak yönetim anlayışına varıldığını söyledi; güvenlik yetkilisi zenginleştirilmiş malzemenin ülkeden çıkmayacağını açıkladı, ABD ile görüşme olmadığını yineledi (LR 1,05)"
     }
    ]
   },
@@ -246,12 +258,15 @@
    "q": "Demokratik Kurumlarda Aşınma (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
+   "kriter": "2031 verisini içeren V-Dem raporunda (2032) G7 ülkelerinden en az ikisinin Liberal Demokrasi Endeksi 2025 değerine göre 0,10 puan veya daha fazla düşük ölçülürse evet.",
+   "kaynak_cozum": "V-Dem Enstitüsü Democracy Report ve veri seti (v-dem.net) + Reuters ya da AP haberi",
+   "taban": "Referans sınıfı: 2000–2025 arasında G7'de altı yıllık pencerede LDI'de 0,10'luk düşüş nadir; ABD'nin 2016–2020 gerilemesi sınırda tek örnek. Tek ülke için ≈%15–20; iki ülke koşulu sınırlayıcı, ancak Avrupa'da aşırı sağın yükselişi ve ABD'deki yargı-basın davaları ortak eğilim yaratıyor. Motor %30; Claude +6.",
+   "mercekler": [
+    "Siyaset bilimi: kutuplaşma ve yürütmenin denetim kurumlarıyla çatışması yukarı",
+    "Tarih/kurumsal iktisat: köklü demokrasilerde mahkemeler ve federal yapı geri dönüş sağlıyor, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: mahkemelerin ve seçimlerin kurumsal düzeltme sağlaması ya da endeks yönteminin düşüşü 0,10 eşiğinin altında ölçmesi.",
+   "motor": 30,
    "p": 36,
    "ilk_p": 35,
    "durum": "acik",
@@ -279,12 +294,15 @@
    "q": "Tayvan Krizi (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
+   "kriter": "2031 sonuna kadar ÇHC Tayvan'a doğrudan askeri saldırı başlatır ya da Tayvan'ın deniz veya hava ticaretini en az 7 gün fiilen durduran bir abluka/karantina uygularsa evet.",
+   "kaynak_cozum": "Tayvan Savunma Bakanlığı ve ÇHC resmî açıklamaları + Reuters ve AP",
+   "taban": "1949'dan beri doğrudan saldırı ya da ticareti durduran abluka yok; 1954–58 ada krizleri ve 1995–96 füze denemeleri kriterin altında kaldı. Üç ciddi kriz / 75 yıl → yıllık ≈%2–3, beş yılda ≈%10–14. 2022'den beri adlandırılmış tatbikatlar sıklaştı. Motor %11; Claude +2.",
+   "mercekler": [
+    "Uluslararası ilişkiler/oyun teorisi: ABD caydırıcılığı ve ekonomik karşılıklı bağımlılık çatışma maliyetini yükseltiyor, aşağı",
+    "Askerî tarih: tatbikatların abluka provasına dönüşmesi ve 'alan engelleme' pratikleri yetenek eşiğini düşürüyor, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: 'karantina' biçiminde, savaş ilanı olmadan uygulanan bir gümrük denetiminin 7 gün eşiğini aşması.",
+   "motor": 11,
    "p": 13,
    "ilk_p": 13,
    "durum": "acik",
@@ -306,12 +324,15 @@
    "q": "ABD–Çin Teknoloji Ayrışması (2031 ufku)",
    "acilis": "2026-11-09",
    "deadline": "2031-12-31",
-   "kriter": null,
-   "kaynak_cozum": null,
-   "taban": null,
-   "mercekler": [],
-   "on_otopsi": null,
-   "motor": null,
+   "kriter": "2031 sonuna kadar ABD en ileri yapay zekâ çiplerinin Çin'e satışını tamamen yasaklar ve Çin ABD'ye galyum, germanyum ya da nadir toprak ihracatını yasaklar; iki yasak aynı anda en az 12 ay kesintisiz yürürlükte kalırsa evet.",
+   "kaynak_cozum": "ABD Ticaret Bakanlığı BIS kuralları (Federal Register) + Çin Ticaret Bakanlığı duyuruları + Reuters",
+   "taban": "2022'den beri iki taraf da kısıtlamaları genişletti; Çin'in ABD'ye galyum/germanyum yasağı (Aralık 2024) ateşkesle askıya alındı, ABD H200 satışına sınırlı izin verdi. Yani koşulların ikisi de bir kez gerçekleşti ama kalıcı olmadı. Motor %50; Claude +6.",
+   "mercekler": [
+    "İktisat: tedarik zinciri ikamesi pahalı, ateşkesler kopuşu yavaşlatıyor, aşağı",
+    "Mühendislik/güvenlik: askerî bağlantılı alıcıların ihracat kontrolünü delmesi Washington'da sıkılaştırma baskısı yaratıyor, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: ticaret ateşkeslerinin yenilenmesi ve yasakların 12 aydan kısa sürede gevşetilmesi.",
+   "motor": 50,
    "p": 56,
    "ilk_p": 58,
    "durum": "acik",
@@ -811,7 +832,7 @@
    ],
    "on_otopsi": "Görüşmeler beklenmedik biçimde çerçeve anlaşmaya döner.",
    "motor": null,
-   "p": 12,
+   "p": 11,
    "ilk_p": 12,
    "durum": "acik",
    "sonuc": null,
@@ -822,6 +843,12 @@
      "p": 12,
      "motor": null,
      "neden": "göç: 2026-W46"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 11,
+     "motor": null,
+     "neden": "Abu Dabi görüşmeleri 11 Kasım'da yalnız esir takası anlaşmasıyla bitti; toprak ve güvenlik garantilerinde ayrılık sürüyor (LR 0,9)"
     }
    ]
   },
@@ -971,7 +998,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: ABD'nin Ukrayna'ya yardımı ateşkese bağlaması ve Kiev'in kış altyapı kayıpları altında kabul etmesi.",
    "motor": 15,
-   "p": 18,
+   "p": 17,
    "ilk_p": 18,
    "durum": "acik",
    "sonuc": null,
@@ -982,6 +1009,12 @@
      "p": 18,
      "motor": 15,
      "neden": "açılış: geçiş işi, risk-catisma öncü sorusu"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 17,
+     "motor": 15,
+     "neden": "Abu Dabi görüşmeleri ateşkessiz bitti; ABD elçileri 12 Kasım'da Putin'le görüşecek (LR 0,95)"
     }
    ],
    "bagli": "risk-catisma"
@@ -1002,7 +1035,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: İran'ın zenginleştirilmiş uranyum konusunda taviz vermemesi ve anlaşmanın yazılı metne dönüşmeden 'statüko' olarak sürmesi.",
    "motor": 30,
-   "p": 38,
+   "p": 36,
    "ilk_p": 40,
    "durum": "acik",
    "sonuc": null,
@@ -1019,6 +1052,12 @@
      "p": 38,
      "motor": 30,
      "neden": "İran Ulusal Güvenlik Konseyi 10 Kasım'da ABD ile görüşme yürütülmediğini, Katar'da görüşme planı olmadığını açıkladı (LR 0,9)"
+    },
+    {
+     "t": "2026-11-12",
+     "p": 36,
+     "motor": 30,
+     "neden": "İran müzakereden önce yedi ön koşul (abluka, yaptırım, dondurulmuş varlıklar, tüm cephelerde savaşın bitişi) koydu; zenginleştirilmiş malzemeyi çıkarmayı reddetti; ABD nükleer konunun ilk turda olmasını istiyor (LR 0,9)"
     }
    ],
    "bagli": "risk-catisma"
@@ -1375,6 +1414,192 @@
     }
    ],
    "bagli": "risk-enerji"
+  },
+  {
+   "id": "on-kurumlar-fh-abd",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Freedom House'un 'Freedom in the World 2027' raporunda ABD'nin toplam puanı 2026 raporuna göre en az 2 puan düşer mi?",
+   "acilis": "2026-11-12",
+   "deadline": "2027-04-30",
+   "kriter": "Freedom in the World 2027 raporunda ABD'nin 100 üzerinden toplam puanı, 2026 raporundaki puanından en az 2 puan düşükse evet. Rapor 30 Nisan 2027'ye kadar yayımlanmazsa iptal.",
+   "kaynak_cozum": "freedomhouse.org ülke sayfası + Reuters ya da AP",
+   "taban": "Son dokuz raporda ABD'nin yıllık 2+ puanlık düşüşü yaklaşık iki kez görüldü (≈%22). 2026'da basın ve yargıya yönelik davalar ile ajans kapatmaları yukarı baskı. Motor %22; Claude +8.",
+   "mercekler": [
+    "Siyaset bilimi: basın özgürlüğü ve yargı bağımsızlığı alt göstergeleri baskı altında, yukarı",
+    "İstatistik: puan yapışkan, tek yılda 2 puan düşüş seyrek, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: mahkemelerin basın ve kurum davalarında yürütmeyi sınırlaması nedeniyle puanın sabit kalması.",
+   "motor": 22,
+   "p": 30,
+   "ilk_p": 30,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-12",
+     "p": 30,
+     "motor": 22,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-kurumlar"
+  },
+  {
+   "id": "on-kurumlar-rsf-abd",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "RSF 2027 Dünya Basın Özgürlüğü Endeksi'nde ABD'nin sırası 2026 endeksine göre gerilir mi?",
+   "acilis": "2026-11-12",
+   "deadline": "2027-05-10",
+   "kriter": "Sınır Tanımayan Gazeteciler'in (RSF) 2027 endeksinde ABD'nin sırası 2026 endeksindeki sırasından daha kötüyse (sayıca büyükse) evet. 10 Mayıs 2027'ye kadar yayımlanmazsa iptal.",
+   "kaynak_cozum": "rsf.org/en/index + Reuters ya da AP",
+   "taban": "Son on endekste ABD'nin sırası kabaca yarısında geriledi (≈%50–55). 2026'da RSF, FCC başkanı için Kongre'ye azil çağrısı yaptı; VOA davası sürüyor. Motor %55; Claude +10.",
+   "mercekler": [
+    "Siyaset bilimi: basına yönelik davalar ve kamu yayıncılığı kesintileri yukarı",
+    "İstatistik: sıra, diğer ülkelerin hareketine de bağlı; gürültülü ölçüt, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: başka ülkelerin daha sert gerilemesiyle ABD'nin puanı düşse de sırasının iyileşmesi.",
+   "motor": 55,
+   "p": 65,
+   "ilk_p": 65,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-12",
+     "p": 65,
+     "motor": 55,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-kurumlar"
+  },
+  {
+   "id": "on-tayvan-adli-tatbikat",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "ÇHC 31 Mart 2027'ye kadar Tayvan çevresinde adı açıklanmış büyük çaplı bir ortak tatbikat ilan eder mi?",
+   "acilis": "2026-11-12",
+   "deadline": "2027-03-31",
+   "kriter": "ÇHC Doğu Tiyatro Komutanlığı 12 Kasım 2026–31 Mart 2027 arasında Tayvan çevresinde kod adıyla (Joint Sword, Strait Thunder benzeri) ortak tatbikat başlattığını açıklarsa evet.",
+   "kaynak_cozum": "Doğu Tiyatro Komutanlığı açıklaması + Reuters ya da AP",
+   "taban": "2022'den beri adlandırılmış tatbikatlar yılda yaklaşık iki kez (Ağu 2022, Nis 2023, May ve Eki 2024, Nis ve Ara 2025). 4,5 ayda Poisson ile ≈%53. Kasım 2026'da Liaoning grubunun Batı Pasifik'te alan engelleme tatbikatı yaptığı bildirildi. Motor %50; Claude +5.",
+   "mercekler": [
+    "Askerî tarih: tatbikatlar siyasi tetikleyicilere (konuşma, silah satışı) tepki olarak geliyor; takvim belirsiz",
+    "Uluslararası ilişkiler: ABD–Çin ticaret ateşkesi gerilimi sınırlayabilir, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: ticaret ateşkesini korumak için Pekin'in adlandırılmış tatbikatı bahara ertelemesi.",
+   "motor": 50,
+   "p": 55,
+   "ilk_p": 55,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-12",
+     "p": 55,
+     "motor": 50,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-tayvan"
+  },
+  {
+   "id": "on-tayvan-45-ucak",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "Tayvan 31 Ocak 2027'ye kadar tek günde 45 veya daha fazla ÇHC askeri uçağı tespit ettiğini açıklar mı?",
+   "acilis": "2026-11-12",
+   "deadline": "2027-01-31",
+   "kriter": "Tayvan Savunma Bakanlığı'nın günlük raporunda 12 Kasım 2026–31 Ocak 2027 arasında herhangi bir 24 saatlik dönem için 45 veya daha fazla ÇHC askeri uçağı bildirilirse evet.",
+   "kaynak_cozum": "Tayvan Savunma Bakanlığı günlük raporu (mnd.gov.tw) + Reuters ya da Focus Taiwan",
+   "taban": "45+ uçaklı günler son iki yılda yılda birkaç kez, çoğunlukla tatbikat günlerinde görüldü; 80 günlük pencerede ≈%40–50. Motor %45; Claude 0.",
+   "mercekler": [
+    "İstatistik: olay sıklığı tatbikatlara bağlı, kümelenmiş",
+    "Uluslararası ilişkiler: kış aylarında faaliyet genellikle azalır, aşağı; yeni ABD silah satışı tetikleyebilir, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Ocak sonuna kadar büyük tatbikat yapılmaması ve günlük sayıların 30'un altında kalması.",
+   "motor": 45,
+   "p": 45,
+   "ilk_p": 45,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-12",
+     "p": 45,
+     "motor": 45,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-tayvan"
+  },
+  {
+   "id": "on-abdcin-h200-iptal",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "ABD 31 Mart 2027'ye kadar Nvidia H200 çiplerinin Çin'e satış izinlerini iptal eder ya da askıya alır mı?",
+   "acilis": "2026-11-12",
+   "deadline": "2027-03-31",
+   "kriter": "ABD Ticaret Bakanlığı (BIS) 31 Mart 2027'ye kadar Çin'deki alıcılara H200 satışına verilen izinleri genel olarak iptal ettiğini ya da askıya aldığını açıklarsa evet. Tek tek şirket lisanslarının iptali yetmez.",
+   "kaynak_cozum": "BIS duyurusu / Federal Register + Reuters",
+   "taban": "İhracat izni gevşetmelerinin kısa sürede geri alındığı örnekler var (2025 H20 yasağı ve izni) ama ateşkes dönemlerinde nadir. Askerî bağlantılı bir üniversitenin aracıyla H200 aldığı belgelendi. Motor %20; Claude +5.",
+   "mercekler": [
+    "Mühendislik/güvenlik: kontrolün delinmesi Kongre'de sıkılaştırma baskısı yaratıyor, yukarı",
+    "İktisat: Nvidia gelirleri ve ticaret ateşkesi geri adımı zorlaştırıyor, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: yönetimin genel iptal yerine tek tek alıcıları kara listeye almayı seçmesi.",
+   "motor": 20,
+   "p": 25,
+   "ilk_p": 25,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-12",
+     "p": 25,
+     "motor": 20,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-abd-cin-teknoloji"
+  },
+  {
+   "id": "on-abdcin-entity-10",
+   "kanal": "news",
+   "tur": "oncu",
+   "q": "ABD 31 Ocak 2027'ye kadar Varlık Listesi'ne tek seferde en az 10 Çin merkezli kuruluş ekler mi?",
+   "acilis": "2026-11-12",
+   "deadline": "2027-01-31",
+   "kriter": "BIS'in 12 Kasım 2026–31 Ocak 2027 arasında Federal Register'da yayımladığı tek bir kuralla Entity List'e Çin (Hong Kong dahil) merkezli en az 10 kuruluş eklenirse evet.",
+   "kaynak_cozum": "Federal Register BIS kuralı + Reuters",
+   "taban": "2019–2024 arasında BIS yılda birkaç kez 10+ Çinli kuruluşu tek seferde listeye ekledi; ancak 2025 sonundan beri ticaret ateşkesi döneminde bağlı kuruluş kuralı askıda ve büyük eklemeler seyrek. Motor %45; Claude −10.",
+   "mercekler": [
+    "İktisat/diplomasi: ateşkesin uzatılması büyük eklemeleri caydırır, aşağı",
+    "Güvenlik: çip kaçakçılığı haberleri sıkılaştırma talebini artırır, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: ateşkese rağmen çip kaçakçılığına karşı toplu bir listeleme kararı.",
+   "motor": 45,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-12",
+     "p": 35,
+     "motor": 45,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-abd-cin-teknoloji"
   }
  ]
 }
