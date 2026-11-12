@@ -1,0 +1,16 @@
+Fed Artırımı Tam Fiyatlandı: 12 Ayda Artırım Olasılığı %85'ten %97'ye
+
+ABD Ekim TÜFE'si aylık %0,4 ile beklentinin %0,3'ün üzerinde geldi; çekirdek TÜFE %0,3 oldu. CME FedWatch verisine göre Aralık toplantısında artırım olasılığı %100'e çıktı; 50 baz puanlık artırımın payı %13. 10 yıllık getiri %5'e yaklaştı, 2 yıllık getiri bir günde 18 baz puan yükselerek %4,74'e çıktı.
+
+Planck Quant motoru Aralık artırımını vadeli faiz fiyatlamasından doğrudan alır: motor %100. Claude ayarı −3: toplantıya kalan sürede veri sürprizinin fiyatlamayı tersine çevirme ihtimali küçük ama sıfır değil. Yayınlanan olasılık %97 ile sınırlıdır.
+
+Soru: Fed 12 Ay İçinde Faiz Artırır mı?
+Motor %100 · Claude −3 · Planck %97 (Çok yüksek) · Son tarih: 8 Kasım 2027
+Eski değer: %85
+
+Aynı günün ikinci sinyali: ons altın iki günde yaklaşık %3 düşerek 4.000 dolara indi; "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?" %60'tan %53'e.
+
+Kaynaklar: CME FedWatch, Seoul Economic Daily, Sondakika, Mynet Finans, Habertürk, Cappnotes.
+
+Yatırım tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+#planckquant #fed #faiz #olasılık

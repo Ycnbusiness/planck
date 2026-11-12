@@ -1,0 +1,18 @@
+{
+ "brand": "quant",
+ "type": "sinyal",
+ "kind": "AÇILIŞ SİNYALİ",
+ "date": "12 KASIM 2026",
+ "time": "09:00",
+ "eyebrow": "Fed · Faiz Beklentisi",
+ "headline": "Fed Artırımı Tam Fiyatlandı: 12 Ayda Artırım Olasılığı %85'ten %97'ye",
+ "why": "ABD Ekim TÜFE'si aylık %0,4 ile beklentinin (%0,3) üzerinde geldi; çekirdek TÜFE %0,3 oldu. CME verisine göre Aralık'ta artırım olasılığı %100, 50 baz puanlık artırım payı %13. 10 yıllık getiri %5'e yaklaştı, 2 yıllık bir günde 18 baz puan yükseldi.",
+ "risk": "Fed 12 Ay İçinde Faiz Artırır mı?",
+ "from": 85,
+ "to": 97,
+ "motor": 100,
+ "adj": -3,
+ "impact": "Çok yüksek",
+ "deadline": "8 Kasım 2027",
+ "source": "CME FedWatch, Seoul Economic Daily, Sondakika"
+}

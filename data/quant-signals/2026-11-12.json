@@ -1,0 +1,106 @@
+{
+ "date": "2026-11-12",
+ "scan_window": "2026-11-10 08:00 → 2026-11-12 08:00 TSİ (11 Kasım taraması kayıtta yok; iki günlük pencere)",
+ "note": "Piyasa şoku yok (BIST +%0,04; Dolar/TL ~50,26). Fed Aralık artırımı %100 fiyatlandı (Ekim TÜFE %0,4). Yarın için takvimde kritik veri/karar bulunamadı; TCMB Enflasyon Raporu bugün 10:30. Ne Olur? üretilmedi: yeni olay mevcut tahminlerde yansıyor, ayrı zincir için yeterli bağımsız doğrulama yok.",
+ "summary": {
+  "sari": 2,
+  "kirmizi": 0,
+  "yesil": 6
+ },
+ "events": [
+  {
+   "id": "tcmb-aralik",
+   "q": "TCMB Aralık PPK'da Faiz İndirir mi?",
+   "from": 62,
+   "to": 62,
+   "delta": 0,
+   "motor": 70,
+   "adj": -8,
+   "class": "YEŞİL",
+   "sources": []
+  },
+  {
+   "id": "tr-tufe-30",
+   "q": "2026 Yıl Sonu Enflasyonu %30'un Altında Kalır mı?",
+   "from": 52,
+   "to": 52,
+   "delta": 0,
+   "motor": 60,
+   "adj": -8,
+   "class": "YEŞİL",
+   "sources": []
+  },
+  {
+   "id": "usdtry-60",
+   "q": "Dolar/TL 12 Ay İçinde 60'ı Aşar mı?",
+   "from": 46,
+   "to": 46,
+   "delta": 0,
+   "motor": 56,
+   "adj": -10,
+   "class": "YEŞİL",
+   "sources": []
+  },
+  {
+   "id": "fed-artirim",
+   "q": "Fed 12 Ay İçinde Faiz Artırır mı?",
+   "from": 85,
+   "to": 97,
+   "delta": 12,
+   "motor": 100,
+   "adj": -3,
+   "class": "SARI",
+   "sources": [
+    "https://www.sondakika.com/ekonomi/haber-abd-de-aylik-tufe-yuzde-0-4-artinca-fed-in-aralikt-20415570/",
+    "https://en.sedaily.com/economy/2026/11/12/us-cpi-fuels-talk-of-half-point-fed-hike-as-treasury-yields"
+   ]
+  },
+  {
+   "id": "abd-resesyon",
+   "q": "ABD 12 Ay İçinde Resesyona Girer mi?",
+   "from": 32,
+   "to": 33,
+   "delta": 1,
+   "motor": 25,
+   "adj": 8,
+   "class": "YEŞİL",
+   "sources": []
+  },
+  {
+   "id": "brent-110",
+   "q": "Brent Petrol 6 Ay İçinde 110 Doları Görür mü?",
+   "from": 54,
+   "to": 54,
+   "delta": 0,
+   "motor": 69,
+   "adj": -15,
+   "class": "YEŞİL",
+   "sources": []
+  },
+  {
+   "id": "altin-4500",
+   "q": "Ons Altın 12 Ay İçinde 4.500 Doları Aşar mı?",
+   "from": 60,
+   "to": 53,
+   "delta": -7,
+   "motor": 65,
+   "adj": -12,
+   "class": "SARI",
+   "sources": [
+    "https://www.haberturk.com/bilgi/foto/altin-fiyatlarinda-toparlanma-12-kasim-2026-gram-altin-ceyrek-altin-bugun-ne-kadar-kac-tl-3926695",
+    "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+   ]
+  },
+  {
+   "id": "nasdaq-25",
+   "q": "Nasdaq 12 Ay İçinde Zirvesinden %25 Düşer mi?",
+   "from": 33,
+   "to": 31,
+   "delta": -2,
+   "motor": 36,
+   "adj": -5,
+   "class": "YEŞİL",
+   "sources": []
+  }
+ ]
+}
