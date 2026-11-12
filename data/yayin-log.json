@@ -126,5 +126,17 @@
   "ai_etiketi": true,
   "facebook": false,
   "dogrulama": "OPEC+ 41,23 mb/g = %97 (Reuters/CP24, AA); EIA Brent ~100$ (EIA STEO, Morningstar); Mildenhall tanker taşıması (CNN, ABC)"
+ },
+ {
+  "t": "2026-11-12T21:10+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-12-gunun-dosyasi",
+  "baslik": "Günün Dosyası · 12 Kasım (5 olay)",
+  "ai_etiketi": true,
+  "facebook": false,
+  "dogrulama": "Trump İran (CNBC, The National, Axios); Nvidia istifa (SEC 8-K, Variety); TCMB raporu (CNBC-e, Para Ajansı)",
+  "duzeltme": "Nvidia maddesi SEC 8-K'ya göre nötrleştirildi; nv-1 ıska notu eklendi. Not: tarayıcı başta yusufcannesipoglu hesabındaydı, planck.news'e geçildi."
  }
 ]
