@@ -1,0 +1,457 @@
+{
+ "kaynaklar_notu": "Gerçekleşenler: TCMB 'Tüketici Fiyatları' sayfası (TÜİK verisi), 2012-2023 için ayrıca BloombergHT tablosu ile çapraz kontrol. Tahminler: TCMB rapor PDF'lerine erişilemedi; haber/banka notlarından alındı. Q3 tahminleri çoğunlukla Q4 haberlerindeki 'önceki tahmin' ifadesinden. hata = gerçekleşen − tahmin (puan). 2025'te nokta tahmin yok; istatistikte aralık ortası (32) kullanıldı (türetilmiş).",
+ "kaynak_gerceklesen_ortak": [
+  "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB%2BTR/Main%2BMenu/Istatistikler/Enflasyon%2BVerileri/Tuketici%2BFiyatlari",
+  "https://www.bloomberght.com/enflasyonda-22-yilin-en-yuksek-yil-kapanisi-2344986"
+ ],
+ "yillar": [
+  {
+   "yil": 2012,
+   "rapor": "2012-IV",
+   "rapor_tarihi": "2012-10-24",
+   "tahmin": 7.4,
+   "tahmin_araligi": [
+    6.9,
+    7.9
+   ],
+   "tahmin_q3": 6.2,
+   "gerceklesen": 6.16,
+   "hata": -1.24,
+   "kaynak_tahmin": [
+    "https://www.bloomberght.com/merkez-bankasi-enflasyon-tahminini-artirdi-1235071",
+    "https://www.sondakika.com/ekonomi/haber-enflasyon-tahmini-4040302/"
+   ],
+   "kaynak_q3": "https://www.timeturk.com/tr/2012/07/26/merkez-bankasi-yilsonu-enflasyon-beklentisini-yuzde-6-2-ye-cekti.html",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Tarih haber tarihinden."
+  },
+  {
+   "yil": 2013,
+   "rapor": "2013-IV",
+   "rapor_tarihi": "2013-10-31",
+   "tahmin": 6.8,
+   "tahmin_araligi": [
+    6.3,
+    7.3
+   ],
+   "tahmin_q3": 6.2,
+   "gerceklesen": 7.4,
+   "hata": 0.6,
+   "kaynak_tahmin": [
+    "https://www.ing.com.tr/F/Documents/pdf/Ekonomi_Sayfasi/Ekonomi_Notlari/Ekonomi_Notu_Enflasyon_Raporu_31_10_13.pdf"
+   ],
+   "kaynak_q3": "https://www.bloomberght.com/merkez-enflasyon-tahminini-yukseltti-1401013",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Q4 tahmini tek kaynak (ING notu)."
+  },
+  {
+   "yil": 2014,
+   "rapor": "2014-IV",
+   "rapor_tarihi": "2014-10-31",
+   "tahmin": 8.9,
+   "tahmin_araligi": [
+    8.4,
+    9.4
+   ],
+   "tahmin_q3": 7.6,
+   "gerceklesen": 8.17,
+   "hata": -0.73,
+   "kaynak_tahmin": [
+    "https://www.ing.com.tr/F/Documents/pdf/Ekonomi_Sayfasi/Ekonomi_Notlari/Ekonomi_Notu-_Enflasyon_Raporu-31.10.14.pdf",
+    "https://www.capital.com.tr/ekonomi/makro-ekonomi/enflasyon-tahmini-yuzde-89a-yukseldi"
+   ],
+   "kaynak_q3": "aynı ING notu",
+   "kaynak_gerceklesen": "ortak"
+  },
+  {
+   "yil": 2015,
+   "rapor": "2015-IV",
+   "rapor_tarihi": "2015-10-28",
+   "tahmin": 7.9,
+   "tahmin_araligi": [
+    7.4,
+    8.4
+   ],
+   "tahmin_q3": 6.9,
+   "gerceklesen": 8.81,
+   "hata": 0.91,
+   "kaynak_tahmin": [
+    "https://www.bloomberght.com/merkez-enflasyon-tahminlerini-yukseltti-1832301"
+   ],
+   "kaynak_q3": "aynı haber",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Tek haber kaynağı."
+  },
+  {
+   "yil": 2016,
+   "rapor": "2016-IV",
+   "rapor_tarihi": "2016-10-27",
+   "tahmin": 7.5,
+   "tahmin_araligi": [
+    7.0,
+    8.0
+   ],
+   "tahmin_q3": 7.5,
+   "gerceklesen": 8.53,
+   "hata": 1.03,
+   "kaynak_tahmin": [
+    "https://www.memurlar.net/haber/620798/2016-enflasyon-tahminini-yuzde-7-5.html",
+    "https://www.trthaber.com/haber/ekonomi/merkez-bankasindan-enflasyon-tahmini-279181.html"
+   ],
+   "kaynak_q3": "https://www.capital.com.tr/ekonomi/makro-ekonomi/enflasyon-tahmini-yuzde-75",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Aralık yalnızca TRT Haber'de; Q3 aralığı 6,6-8,4 idi."
+  },
+  {
+   "yil": 2017,
+   "rapor": "2017-IV",
+   "rapor_tarihi": "2017-11-01",
+   "tahmin": 9.8,
+   "tahmin_araligi": [
+    9.3,
+    10.3
+   ],
+   "tahmin_q3": 8.7,
+   "gerceklesen": 11.92,
+   "hata": 2.12,
+   "kaynak_tahmin": [
+    "https://www.alomaliye.com/2017/11/01/tcmb-yil-sonu-enflasyon-tahminini-yukseltti/",
+    "https://www.bloomberght.com/enflasyon-tahmini-yukseltildi-2065872"
+   ],
+   "kaynak_q3": "BloombergHT haberi",
+   "kaynak_gerceklesen": "ortak"
+  },
+  {
+   "yil": 2018,
+   "rapor": "2018-IV",
+   "rapor_tarihi": "2018-10-31",
+   "tahmin": 23.5,
+   "tahmin_araligi": [
+    21.9,
+    25.1
+   ],
+   "tahmin_q3": 13.4,
+   "gerceklesen": 20.3,
+   "hata": -3.2,
+   "kaynak_tahmin": [
+    "https://bianet.org/haber/merkez-bankasi-yilsonu-enflasyon-tahmini-yuzde-23-5-e-yukseltti-202176"
+   ],
+   "kaynak_q3": "aynı haber",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Tek haber açıldı; %23,5 çok sayıda başlıkta teyitli."
+  },
+  {
+   "yil": 2019,
+   "rapor": "2019-IV",
+   "rapor_tarihi": "2019-10-31",
+   "tahmin": 12.0,
+   "tahmin_araligi": [
+    11.2,
+    12.8
+   ],
+   "tahmin_q3": 13.9,
+   "gerceklesen": 11.84,
+   "hata": -0.16,
+   "kaynak_tahmin": [
+    "https://www.ziraatbank.com.tr/tr/makroekonomik-analizler/turkiye-ekonomisi/Yilin-Son-Enflasyon-Raporu-2019",
+    "https://medyascope.tv/2019/10/31/merkez-bankasi-enflasyon-raporunu-acikladi-2019-yuzde-12-2020-yuzde-82-2021-yuzde-54/"
+   ],
+   "kaynak_q3": "Ziraat notu",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Tarih Medyascope URL'sinden; o haber açılmadı, başlık teyidi."
+  },
+  {
+   "yil": 2020,
+   "rapor": "2020-IV",
+   "rapor_tarihi": "2020-10-28",
+   "tahmin": 12.1,
+   "tahmin_araligi": [
+    11.1,
+    13.1
+   ],
+   "tahmin_q3": 8.9,
+   "gerceklesen": 14.6,
+   "hata": 2.5,
+   "kaynak_tahmin": [
+    "https://www.ziraatbank.com.tr/tr/makroekonomik-analizler/turkiye-ekonomisi/yilin-4uncu-tcmb-enflasyon-raporu-2020-ve-2021-yil-sonu-enflasyon-tahmini-yukari-cekilerek-piyasa-beklentisine-yaklastirildi",
+    "https://medyascope.tv/2020/10/28/merkez-bankasinin-2020-ve-2021-yil-sonu-enflasyon-tahminleri-yuzde-121-ve-yuzde-94e-yukseldi/"
+   ],
+   "kaynak_q3": "Ziraat notu",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Tarih Medyascope URL'sinden; başlık teyidi."
+  },
+  {
+   "yil": 2021,
+   "rapor": "2021-IV",
+   "rapor_tarihi": "2021-10-28",
+   "tahmin": 18.4,
+   "tahmin_araligi": [
+    17.3,
+    19.5
+   ],
+   "tahmin_q3": 14.1,
+   "gerceklesen": 36.08,
+   "hata": 17.68,
+   "kaynak_tahmin": [
+    "https://www.finansingundemi.com/uploads/documents/tcmb-enflasyon-raporu-wIel.pdf",
+    "https://www.capital.com.tr/haberler/tum-haberler/2021-enflasyon-tahmini-yukseldi-merkez-bankasi-baskani-kavcioglu-acikladi"
+   ],
+   "kaynak_q3": "Capital haberi",
+   "kaynak_gerceklesen": "ortak",
+   "not": "AYKIRI yıl. İlk bağlantı rapor metninin kopyası."
+  },
+  {
+   "yil": 2022,
+   "rapor": "2022-IV",
+   "rapor_tarihi": "2022-10-27",
+   "tahmin": 65.2,
+   "tahmin_araligi": null,
+   "tahmin_q3": 60.4,
+   "gerceklesen": 64.27,
+   "hata": -0.93,
+   "kaynak_tahmin": [
+    "https://www.capital.com.tr/haberler/tum-haberler/tcmb-yil-sonu-enflasyon-tahminini-yuzde-652ye-yukseltti",
+    "https://www.bloomberght.com/yilin-son-enflasyon-raporu-2317960"
+   ],
+   "kaynak_q3": "aynı haberler",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Aralık üç kaynakta da yok; null."
+  },
+  {
+   "yil": 2023,
+   "rapor": "2023-IV",
+   "rapor_tarihi": "2023-11-02",
+   "tahmin": 65.0,
+   "tahmin_araligi": [
+    62,
+    68
+   ],
+   "tahmin_q3": 58.0,
+   "gerceklesen": 64.77,
+   "hata": -0.23,
+   "kaynak_tahmin": [
+    "https://www.capital.com.tr/haberler/tum-haberler/yilin-son-enflasyon-raporu-aciklandi-enflasyon-tahminleri-guncellendi"
+   ],
+   "kaynak_q3": "aynı haber",
+   "kaynak_gerceklesen": "ortak",
+   "not": "Tek haber açıldı; %65 çok sayıda başlıkta teyitli."
+  },
+  {
+   "yil": 2024,
+   "rapor": "2024-IV",
+   "rapor_tarihi": "2024-11-08",
+   "tahmin": 44.0,
+   "tahmin_araligi": [
+    42,
+    46
+   ],
+   "tahmin_q3": 38.0,
+   "gerceklesen": 44.38,
+   "hata": 0.38,
+   "kaynak_tahmin": [
+    "https://www.cnbce.com/piyasalar/kasim-2024-merkez-bankasi-tcmb-enflasyon-raporu-yil-sonu-enflasyon-tahmini-yukseldi-h6319",
+    "https://medyascope.tv/2024/11/08/merkez-bankasi-enflasyon-tahminini-yuzde-44e-cikardi-ileriye-donuk-endeksleme-ile-asgari-ucrete-enflasyonun-altinda-zam-riski/"
+   ],
+   "kaynak_q3": "CNBC-e haberi",
+   "kaynak_gerceklesen": "TCMB sayfası",
+   "not": "Şemadaki örnek aralık [42,48] değil; kaynakta 42-46. Tarih Medyascope URL'sinden."
+  },
+  {
+   "yil": 2025,
+   "rapor": "2025-IV",
+   "rapor_tarihi": "2025-11-07",
+   "tahmin": null,
+   "tahmin_araligi": [
+    31,
+    33
+   ],
+   "tahmin_orta_turetilmis": 32.0,
+   "tahmin_q3": null,
+   "tahmin_q3_araligi": [
+    25,
+    29
+   ],
+   "ara_hedef": 24,
+   "gerceklesen": 30.89,
+   "hata": -1.11,
+   "kaynak_tahmin": [
+    "https://www.forbes.com.tr/ekonomi/tcmb-yil-sonu-enflasyon-tahminini-yuzde-31-33-bandina-yukseltti",
+    "https://www.capital.com.tr/haberler/tum-haberler/yil-sonu-enflasyonun-yuzde-31-33-arasi-olacagini-tahmin-ediyoruz"
+   ],
+   "kaynak_q3": "https://www.bloomberght.com/tcmb-nin-enflasyonda-2025-ara-hedefi-yuzde-24-3754804",
+   "kaynak_gerceklesen": "TCMB sayfası",
+   "not": "Nokta tahmin açıklanmadı; hata aralık ortasına (32) göre. Gerçekleşen aralığın altında kaldı. Q3 için de yalnızca aralık var (orta 27, türetilmiş)."
+  }
+ ],
+ "ozet": {
+  "q4_hata_2021_dahil": {
+   "n": 14,
+   "ortalama": 1.26,
+   "medyan": 0.11,
+   "std_sapma": 4.95,
+   "mutlak_ort_hata": 2.34,
+   "rmse": 4.93
+  },
+  "q4_hata_2021_haric": {
+   "n": 13,
+   "ortalama": -0.01,
+   "medyan": -0.16,
+   "std_sapma": 1.52,
+   "mutlak_ort_hata": 1.17,
+   "rmse": 1.46
+  },
+  "q4_hata_2021_ve_2018_haric": {
+   "n": 12,
+   "ortalama": 0.26,
+   "medyan": 0.11,
+   "std_sapma": 1.23,
+   "mutlak_ort_hata": 1.0
+  },
+  "q4_hata_2022_2025": {
+   "n": 4,
+   "ortalama": -0.47,
+   "medyan": -0.58,
+   "std_sapma": 0.68,
+   "mutlak_ort_hata": 0.66
+  },
+  "q3_hata_2021_dahil": {
+   "n": 14,
+   "ortalama": 4.38,
+   "medyan": 3.55,
+   "std_sapma": 5.77,
+   "mutlak_ort_hata": 4.68
+  },
+  "q3_hata_2021_haric": {
+   "n": 13,
+   "ortalama": 3.03,
+   "medyan": 3.22,
+   "std_sapma": 2.87,
+   "mutlak_ort_hata": 3.35
+  },
+  "not": "Q3 tahminleri sistematik düşük kalmış (14 yılın 12'sinde gerçekleşen üstte). Q3 hesabında 2025 için aralık ortası 27 kullanıldı."
+ },
+ "2026": {
+  "rapor": "2026-IV",
+  "rapor_tarihi": "2026-11-12",
+  "tahmin_2026": 29.5,
+  "onceki_2026": 28.0,
+  "tahmin_araligi": null,
+  "ara_hedef_2027": 21.0,
+  "onceki_2027": 15.0,
+  "ara_hedef_2028": 13.5,
+  "onceki_2028": 9.0,
+  "ara_hedef_2029": 9.0,
+  "orta_vade_hedef": 5.0,
+  "gida_tahmin_2026": 31.3,
+  "gida_onceki_2026": 28.5,
+  "karahan_notu": "Kasım ayında yıllık enflasyondaki gerilemenin duraklaması mümkün.",
+  "q3_raporu": {
+   "rapor": "2026-III",
+   "tarih": "2026-08-13",
+   "tahmin_2026": 28.0,
+   "aralik": null,
+   "kaynak": "https://www.capital.com.tr/haberler/tum-haberler/2026-yil-sonu-enflasyon-tahminimizi-yuzde-28-olarak-yukari-yonlu-guncelledik"
+  },
+  "kaynak_tahmin": [
+   "https://www.cnbce.com/haberler/tcmbnin-yilin-son-enflasyon-raporu-tahminler-degisti-h41633",
+   "https://bigpara.hurriyet.com.tr/haberler/ekonomi-haberleri/tcmb-baskani-fatih-karahan-yilin-son-enflasyon-raporunu-acikladi_ID102288505/",
+   "https://paratic.com/tcmbnin-2026-2027-ve-2028-enflasyon-tahminleri-degisti-mi/",
+   "https://www.fintekwins.com/tcmb-2026-enflasyon-tahminini-yuzde-295e-yukseltti/",
+   "https://www.ensondakika.com.tr/tcmb-baskani-karahan-enflasyon-raporu-bilgilendirme-toplantisi-nda-konustu-1/739374/"
+  ],
+  "celiskili_kaynak": "https://www.takvim.com.tr/ekonomi/2026/11/12/tcmb-baskani-fatih-karahan-enflasyon-tahminlerini-acikladi-2026-yuzde-265 (başlıkta %26,5; yazım hatası sayıldı)",
+  "ekim_2026_tufe": {
+   "yayin": "2026-11-03",
+   "aylik": 2.58,
+   "yillik": 29.77,
+   "aralik_ayina_gore": 27.52,
+   "oniki_aylik_ort": 31.23,
+   "kaynak": [
+    "https://www.aa.com.tr/tr/ekonomi/enflasyon-rakamlari-aciklandi/4109355",
+    "https://www.alomaliye.com/2026/11/03/enflasyon-rakamlari-tufe-ekim-2026/",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB%2BTR/Main%2BMenu/Istatistikler/Enflasyon%2BVerileri/Tuketici%2BFiyatlari"
+   ]
+  },
+  "2026_aylik_tufe": {
+   "01": 4.84,
+   "02": 2.96,
+   "03": 1.94,
+   "04": 4.18,
+   "05": 1.71,
+   "06": 0.99,
+   "07": 1.78,
+   "08": 1.84,
+   "09": 1.84,
+   "10": 2.58
+  },
+  "2026_yillik_tufe": {
+   "01": 30.65,
+   "02": 31.53,
+   "03": 30.87,
+   "04": 32.37,
+   "05": 32.61,
+   "06": 32.11,
+   "07": 31.75,
+   "08": 31.51,
+   "09": 29.73,
+   "10": 29.77
+  },
+  "baz_2025": {
+   "kasim_aylik": 0.87,
+   "aralik_aylik": 0.89,
+   "kasim_yillik": 31.07,
+   "aralik_yillik": 30.89
+  },
+  "piyasa_katilimcilari_anketi": {
+   "kasim_2026": null,
+   "kasim_2026_neden": "12 Kasım 2026 itibarıyla yayımlanmamış; TCMB sayfasındaki en güncel rapor Ekim 2026.",
+   "ekim_2026": {
+    "anket_donemi": "2026-10-12/14",
+    "yil_sonu_tufe": 29.63,
+    "ekim_aylik_beklenti": 2.11,
+    "kasim_aylik_beklenti": 1.18,
+    "aralik_aylik_beklenti": 0.97,
+    "12_ay_sonrasi": 23.89,
+    "24_ay_sonrasi": 17.94,
+    "not": "Aylık sütun eşlemesi metne göre; tablo başlıkları tam okunamadı. Anket, Ekim TÜFE'si (2,58; beklenti 2,11) açıklanmadan önce yapıldı.",
+    "kaynak": [
+     "https://www.tcmb.gov.tr/wps/wcm/connect/085d78c0-9809-4b33-a6b6-21e0a22a6405/PKA_Rapor.pdf?MOD=AJPERES",
+     "https://www.capital.com.tr/haberler/tum-haberler/tcmb-acikladi-piyasanin-2026-yili-sonu-dolar-faiz-ve-enflasyon-tahmini-ne-oldu"
+    ]
+   }
+  }
+ },
+ "olasilik_tufe_30_alti": {
+  "tanim": "P(Aralık 2026 yıllık TÜFE < 30,0) = P(hata < +0,5 puan), tahmin = 29,5",
+  "normal_ornek_ort_ve_std": {
+   "2021_dahil": 0.44,
+   "2021_haric": 0.63,
+   "2021_ve_2018_haric": 0.58,
+   "2022_2025": 0.92
+  },
+  "normal_sifir_ortalama_rmse": {
+   "2021_dahil": 0.54,
+   "2021_haric": 0.63,
+   "2022_2025": 0.75
+  },
+  "ampirik": {
+   "2021_dahil": "8/14 = 0.57",
+   "2021_haric": "8/13 = 0.62",
+   "2021_ve_2018_haric": "7/12 = 0.58",
+   "2022_2025": "4/4 = 1.00 (n çok küçük)"
+  },
+  "oransal_hata_normal": {
+   "2021_dahil": 0.39,
+   "2021_haric": 0.48,
+   "not": "Hata/tahmin oranı 29,5 düzeyine ölçeklendi; düşük enflasyon yıllarının oransal hatası büyük olduğu için daha kötümser."
+  },
+  "aylik_yapisal_kontrol": {
+   "esik": "Kasım+Aralık 2026 kümülatif < %1,94 olmalı (1,30/1,2752 − 1)",
+   "tcmb_29_5_imasi": "kümülatif %1,55",
+   "2025_kasim_aralik_tekrari": "0,87 ve 0,89 → kümülatif %1,77 → Aralık 2026 = %29,77 (altında)",
+   "ekim_anketi_beklentisi": "1,18 ve 0,97 → kümülatif %2,16 → Aralık 2026 = %30,28 (üstünde)",
+   "kasim_yillik_ima": "Kasım aylık %1,18 olursa Kasım yıllık yaklaşık %30,17"
+  },
+  "degerlendirme": "Hata dağılımı tek başına yaklaşık %55-63 veriyor (2021 hariç). Aylık hesap eşiğin çok yakın olduğunu gösteriyor: TCMB yolu altında, Ekim anketi yolu üstünde. Kasım anketi ve 3 Aralık'taki Kasım TÜFE'si belirleyici olacak."
+ }
+}
