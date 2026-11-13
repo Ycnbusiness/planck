@@ -1,30 +1,30 @@
 {
  "date": "13 KASIM 2026",
- "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: Körfez'de misilleme sinyali ve Hollanda'da koalisyon ortağının kendi bütçesine karşı oy vermesi.",
+ "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: Eylül'den bu yana Körfez'e ilk teyitli İran saldırısı ve Hollanda'da koalisyonun bütçe krizi.",
  "items": [
   {
    "tag": "Çatışma",
-   "title": "Körfez'de misilleme sinyali: Sirik ve Bahreyn",
-   "text": "İran, Hürmüz kıyısındaki Sirik'te bir iletişim kulesine hava saldırısı yapıldığını açıkladı; Devrim Muhafızları karşılık olarak Bahreyn'deki bir ABD radarını vurduğunu iddia etti. ABD ve Bahreyn yorum yapmadı.",
+   "title": "Körfez'de misilleme: Bahreyn'e iki İHA",
+   "text": "İran, Hürmüz kıyısındaki Sirik'e hava saldırısı yapıldığını açıklayıp karşılık olarak Bahreyn'deki bir ABD radarını vurduğunu söyledi. ABD ordusu radar iddiasını reddetti, ancak Bahreyn'e fırlatılan iki İran İHA'sını düşürdüğünü doğruladı.",
    "risk": "Kronik Bölgesel Çatışmalar",
    "from": 85,
-   "to": 86,
-   "pq": "İstanbul'da motorin 31 Ocak'ta 90 TL'nin altında olur mu?",
+   "to": 87,
+   "pq": "İstanbul'da motorin 31 Ocak 2027'de 90 TL'nin altında olur mu?",
    "pp": 35,
-   "pdo": "Körfez'de yeni bir misilleme turu, Hürmüz'den geçişi ve akaryakıt fiyatını doğrudan etkiler; Bahreyn iddiası doğrulanmadığı için olasılığa yalnız İran'ın kendi açıklaması ve Trump'ın sözleri işlendi.",
-   "not": "Story'den taşındı (Meta Business Suite'e planck.news bağlı değil). Akşam turu Bahreyn iddiasının 'iddia' olarak aktarıldığını doğrulamalı."
+   "pdo": "Körfez'de gerilim yeniden ısınıyor ama Brent şimdilik düşüşte; akaryakıtta ani sıçrama beklemek için erken, depoyu panikle doldurmaya gerek yok.",
+   "not": "Akşam: ABD, Bahreyn'e fırlatılan iki İHA'yı düşürdüğünü doğruladı, radar iddiasını reddetti; çatışma 86→87."
   },
   {
    "tag": "Avrupa",
-   "title": "Hollanda'da koalisyon ortağı kendi bütçesine karşı oy verdi",
-   "text": "Hollanda'nın 2027 vergi planı mecliste 76'ya karşı 74 oyla geçti; koalisyon ortağı VVD, servet vergisi değişikliği nedeniyle plana karşı oy verdi. Plan, koalisyonun çoğunluğu olmadığı Senato'ya gidiyor.",
+   "title": "Hollanda'da koalisyon kendi bütçesinde bölündü",
+   "text": "Hollanda'nın 2027 vergi planı mecliste 76'ya karşı 74 oyla geçti; koalisyon ortağı VVD, servet vergisi değişikliği nedeniyle plana karşı oy verdi. Başbakan Jetten ortaklarıyla kriz görüşmesi yaptı, VVD hükümetten çekilmeyi dışlamadı.",
    "risk": "Avrupa'da Siyasi Parçalanma",
    "from": 66,
    "to": 67,
    "pq": "",
    "pp": null,
-   "pdo": "AB'nin kurucu ülkelerinden birinde hükümet krizi, Avrupa'da ortak bütçe ve savunma kararlarını yavaşlatabilir."
+   "pdo": "AB'nin kurucu ülkelerinden birinde hükümet krizi, Avrupa'nın ortak bütçe ve savunma kararlarını yavaşlatabilir."
   }
  ],
- "question": "Sizce Avrupa'daki hükümet krizleri AB'nin Ukrayna ve savunma kararlarını yavaşlatır mı?"
+ "question": "Sizce Körfez'deki yeni gerilim önümüzdeki haftalarda akaryakıt fiyatlarına yansır mı?"
 }

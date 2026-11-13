@@ -111,5 +111,63 @@
       "olay": "Starshield kısıtlamasının yeniden başladığı",
       "neden": "Tek kaynak (CNN); ikinci bağımsız teyit bulunamadı."
     }
-  ]
+  ],
+  "aksam": {
+    "scan_window": "2026-11-13 06:50 → 20:30 (TSİ)",
+    "summary": "Önem ≥12 olay yok. ABD'nin Bahreyn'e yönelik iki İran İHA'sını düşürdüğünü doğrulaması çatışmayı 86→87 taşıdı (önem 6; Story yayınlanamadığı için Dosya'ya). Hollanda'da kabine düşmedi, Δ0. Günün Dosyası 2 olayla üretildi.",
+    "events": [
+      {
+        "id": "bahreyn-iha-teyit",
+        "class": "YEŞİL",
+        "risk": "catisma",
+        "delta": 1,
+        "from": 86,
+        "to": 87,
+        "lr": 1.05,
+        "onem": 6,
+        "onem_hesap": "|+1| × Türkiye bağı 2 × etki 3",
+        "turkiye_bagi": 2,
+        "event": "ABD ordusu 13 Kasım'da İran'ın Bahreyn'deki ABD radarını vurduğu iddiasını reddetti; Devrim Muhafızları'nın Bahreyn'e fırlattığı iki tek yönlü saldırı İHA'sını düşürdüğünü ve hasar olmadığını açıkladı.",
+        "rationale": "Eylül başından beri Körfez'deki ABD varlıklarına yönelik ilk teyitli İran saldırı girişimi; hasarsız olması ve Brent'in haftalık düşüşü nedeniyle zayıf kanıt, LR 1,05 → 87. Motorin 90 sorusu %35'te, ABD–İran anlaşma sorusu %30'da kaldı.",
+        "pekibiz": [
+          "pb-2026-11-11-motorin-90"
+        ],
+        "sources": [
+          "https://www.al-monitor.com/originals/2026/11/us-denies-irans-claim-it-attacked-early-warning-radar-bahrain",
+          "https://www.iranintl.com/en/202611137770",
+          "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+          "https://www.washingtontimes.com/news/2026/nov/13/us-denies-iran-hit-early-warning-radar-system-bahrain/"
+        ]
+      },
+      {
+        "id": "hollanda-kriz-gorusmesi",
+        "class": "YEŞİL",
+        "risk": "avrupa",
+        "delta": 0,
+        "from": 67,
+        "to": 67,
+        "onem": 0,
+        "kuresel_onem": 0,
+        "turkiye_bagi": 0,
+        "event": "Başbakan Jetten 13 Kasım'da CDA ve VVD'li başbakan yardımcılarıyla kriz görüşmesi yaptı, koalisyonun yeniden başlaması gerektiğini söyledi; VVD hükümetten çekilmeyi dışlamadı. Telegraaf'ın anonim VVD kaynaklarına göre parti kabinenin bu haliyle süremeyeceğini iletti (tek kaynak, olgu sayılmadı).",
+        "rationale": "Kabine düşmedi; sabah işlenen 66→67 yeterli. Düşerse ayrıca işlenir.",
+        "sources": [
+          "https://www.dtnext.in/news/world/dutch-prime-minister-calls-crisis-talks-as-coalition-acrimony-erupts-over-tax-package",
+          "https://dutchreview.com/news/is-dutch-jetten-cabinet-about-to-collapse-13112026/",
+          "https://nltimes.nl/2026/11/13/pm-jetten-meeting-deputy-prime-ministers-try-keep-coalition-collapsing"
+        ]
+      }
+    ],
+    "elenen": [
+      {
+        "olay": "UAEA raporu: İran denetçi erişimine izin vermiyor, İsfahan yakınındaki yeraltı tesisi doğrulanamıyor; İran ABD tehditleri sürdükçe denetim olmayacağını bildirdi",
+        "neden": "Haziran 2025'ten beri süren durumun teyidi; yeni adım yok. Δ 0. (Al Jazeera, Bloomberg)"
+      },
+      {
+        "olay": "İran: LNG tankeri Hürmüz'de mayına çarptı",
+        "neden": "Yalnız İran beyanı, bağımsız teyit yok; izleme listesine not düşüldü."
+      }
+    ],
+    "dosya": "posts/2026-11-13-gunun-dosyasi (2 olay)"
+  }
 }

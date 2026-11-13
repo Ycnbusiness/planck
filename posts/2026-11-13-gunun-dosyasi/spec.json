@@ -1,0 +1,29 @@
+{
+ "date": "13 KASIM 2026",
+ "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: Eylül'den bu yana Körfez'e ilk teyitli İran saldırısı ve Hollanda'da koalisyonun bütçe krizi.",
+ "items": [
+  {
+   "tag": "Çatışma",
+   "title": "Körfez'de misilleme: Bahreyn'e iki İHA",
+   "text": "İran, Hürmüz kıyısındaki Sirik'e hava saldırısı yapıldığını açıklayıp karşılık olarak Bahreyn'deki bir ABD radarını vurduğunu söyledi. ABD ordusu radar iddiasını reddetti, ancak Bahreyn'e fırlatılan iki İran İHA'sını düşürdüğünü doğruladı.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 85,
+   "to": 87,
+   "pq": "İstanbul'da motorin 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+   "pp": 35,
+   "pdo": "Körfez'de gerilim yeniden ısınıyor ama Brent şimdilik düşüşte; akaryakıtta ani sıçrama beklemek için erken, depoyu panikle doldurmaya gerek yok."
+  },
+  {
+   "tag": "Avrupa",
+   "title": "Hollanda'da koalisyon kendi bütçesinde bölündü",
+   "text": "Hollanda'nın 2027 vergi planı mecliste 76'ya karşı 74 oyla geçti; koalisyon ortağı VVD, servet vergisi değişikliği nedeniyle plana karşı oy verdi. Başbakan Jetten ortaklarıyla kriz görüşmesi yaptı, VVD hükümetten çekilmeyi dışlamadı.",
+   "risk": "Avrupa'da Siyasi Parçalanma",
+   "from": 66,
+   "to": 67,
+   "pq": "",
+   "pp": null,
+   "pdo": "AB'nin kurucu ülkelerinden birinde hükümet krizi, Avrupa'nın ortak bütçe ve savunma kararlarını yavaşlatabilir."
+  }
+ ],
+ "question": "Sizce Körfez'deki yeni gerilim önümüzdeki haftalarda akaryakıt fiyatlarına yansır mı?"
+}

@@ -18,11 +18,13 @@
    "id": "bahreyn-abd-radar",
    "acilis": "2026-11-13",
    "olay": "IRGC, 13 Kasım'da Sirik'teki iletişim kulesine yapılan hava saldırısına karşılık Bahreyn'deki bir ABD erken uyarı radarını vurduğunu açıkladı (Reuters, İran devlet medyası aktarımıyla). Eylül başından beri Körfez'deki ABD varlıklarına yönelik ilk saldırı iddiası.",
-   "durum": "doğrulanmadı",
+   "durum": "kısmen doğrulandı",
    "eksik": "ABD (CENTCOM/Pentagon) veya Bahreyn resmî açıklaması ya da AP/AFP/BBC'nin bağımsız teyidi",
    "olursa": "Çatışma riski yeniden değerlendirilir (LR 1,25–2); önem ≥12 çıkarsa Olay ve Cevap; ABD karşılığı gelirse enerji riski de işlenir.",
    "bitis": "2026-11-16",
-   "notlar": []
+   "notlar": [
+    "2026-11-13 akşam: ABD ordusu radar iddiasını reddetti; IRGC'nin Bahreyn'e fırlattığı iki tek yönlü saldırı İHA'sını düşürdüğünü, hasar olmadığını açıkladı (Reuters/Al-Monitor, Iran International, Euronews). Saldırı girişimi olgu olarak işlendi (çatışma 86→87); radar vuruşu doğrulanmadı."
+   ]
   },
   {
    "id": "hurmuz-dort-tanker",
@@ -32,7 +34,9 @@
    "eksik": "UKMTO/JMIC bildirimi, gemi adları veya armatör açıklaması",
    "olursa": "Enerji riski ve on-enerji-hurmuz-gecis sorusu yeniden değerlendirilir.",
    "bitis": "2026-11-16",
-   "notlar": []
+   "notlar": [
+    "2026-11-13: İran Devrim Muhafızları donanması, izinsiz rotayı kullanan bir LNG tankerinin mayına çarpıp patladığını açıkladı (Reuters/gCaptain, Al Arabiya); gemi adı ve UKMTO/JMIC teyidi yok. Doğrulanmadı."
+   ]
   }
  ]
 }

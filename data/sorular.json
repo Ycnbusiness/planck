@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85,
-   "p": 86,
+   "p": 87,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -60,6 +60,12 @@
      "p": 86,
      "motor": 85,
      "neden": "13.11: Sirik saldırısı (İran resmi), IRGC'nin Bahreyn ABD radarı iddiası, Trump'ın 'tereddütsüz' uyarısı; zayıf kanıt LR 1,05"
+    },
+    {
+     "t": "2026-11-13",
+     "p": 87,
+     "motor": 85,
+     "neden": "13.11 akşam: ABD ordusu, Devrim Muhafızları'nın Bahreyn'e iki tek yönlü saldırı İHA'sı fırlattığını ve düşürdüğünü doğruladı (radar iddiasını reddetti). Eylül'den beri Körfez'e ilk teyitli İran saldırısı; hasar yok, Brent düşüşte. Zayıf kanıt LR 1,05: 86→87."
     }
    ]
   },
