@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85,
-   "p": 85,
+   "p": 86,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -54,6 +54,12 @@
      "p": 85,
      "motor": 85,
      "neden": "Akşam: Trump 12 Kasım'da İran'la anlaşmaya ihtiyaç olmadığını yazdı, Vance'in görevini iç gündeme kaydırdı; diplomatik çıkış zayıfladı (LR 1,05)"
+    },
+    {
+     "t": "2026-11-13",
+     "p": 86,
+     "motor": 85,
+     "neden": "13.11: Sirik saldırısı (İran resmi), IRGC'nin Bahreyn ABD radarı iddiası, Trump'ın 'tereddütsüz' uyarısı; zayıf kanıt LR 1,05"
     }
    ]
   },
@@ -147,7 +153,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: anket üstünlüğünün iki turlu seçim ve koalisyon dışlaması (cordon sanitaire) nedeniyle hükümete dönüşmemesi.",
    "motor": 55,
-   "p": 66,
+   "p": 67,
    "ilk_p": 65,
    "durum": "acik",
    "sonuc": null,
@@ -164,6 +170,12 @@
      "p": 66,
      "motor": null,
      "neden": "Fransa asgari ücret tavizi sendikaları yatıştırmadı; CGT 17 Kasım grevi (teyit, ≈LR 1,05)"
+    },
+    {
+     "t": "2026-11-13",
+     "p": 67,
+     "motor": 55,
+     "neden": "13.11: Hollanda'da VVD kendi koalisyonunun vergi planına karşı oy verdi (76-74), kabine krizi; LR 1,05"
     }
    ]
   },
@@ -1082,7 +1094,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: İran'ın zenginleştirilmiş uranyum konusunda taviz vermemesi ve anlaşmanın yazılı metne dönüşmeden 'statüko' olarak sürmesi.",
    "motor": 30,
-   "p": 31,
+   "p": 30,
    "ilk_p": 40,
    "durum": "acik",
    "sonuc": null,
@@ -1111,6 +1123,12 @@
      "p": 31,
      "motor": 30,
      "neden": "Akşam: Trump 'İran'la anlaşmaya ihtiyacımız yok, o günler geçti' dedi; arabulucu Vance başka göreve kaydırıldı; Katar planına kabine içinden itiraz (LR 0,8)"
+    },
+    {
+     "t": "2026-11-13",
+     "p": 30,
+     "motor": 30,
+     "neden": "13.11: karşılıklı saldırı iddiaları ve Trump'ın yeniden saldırı uyarısı; LR 0,95"
     }
    ],
    "bagli": "risk-catisma"

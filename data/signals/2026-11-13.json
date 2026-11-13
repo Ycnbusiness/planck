@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-13",
+  "scan_window": "2026-11-12 20:30 → 2026-11-13 06:50 (TSİ)",
+  "hakem": {
+    "vadesi_gelen": [],
+    "kapanan": [],
+    "karne": "değişiklik yok"
+  },
+  "gecis": {
+    "dogrula": "eksikli kayıt 0 (geçiş tamamlandı)"
+  },
+  "izleme": {
+    "didamar-radar": "Bitiş 13 Kasım; teyit gelmedi → düştü.",
+    "bahreyn-abd-radar": "Yeni öğe (IRGC iddiası, ABD/Bahreyn yorumsuz).",
+    "hurmuz-dort-tanker": "Yeni öğe (İran beyanı, Reuters doğrulayamadı).",
+    "hollanda-kabine": "Vergi planı 76-74 geçti, VVD karşı oy verdi; Jetten 13 Kasım sabahı Yeşilgöz ve Van den Brink ile görüşüyor. Olay olarak işlendi."
+  },
+  "summary": {
+    "kirmizi": 0,
+    "sari": 0,
+    "yesil": 3,
+    "not": "Önem ≥12 olay yok; Olay ve Cevap çıkmadı. Körfez'deki misilleme sinyali (çatışma 85→86, önem 6) Story Reel'i oldu. Hollanda kabine krizi (avrupa 66→67, Türkiye bağı 0, küresel önem 2) Günün Dosyası'na. Husi iddiaları enerji riskini oynatmadı (Δ0)."
+  },
+  "events": [
+    {
+      "id": "korfez-sirik-bahreyn",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 1,
+      "from": 85,
+      "to": 86,
+      "lr": 1.05,
+      "onem": 6,
+      "onem_hesap": "|+1| × Türkiye bağı 2 (sınır komşusu; akaryakıt ve navlun) × etki 3 (Çok yüksek)",
+      "turkiye_bagi": 2,
+      "event": "İran devlet medyası 12 Kasım akşamı Hürmüzgan eyaletindeki Sirik'e 'düşman' hava saldırısı yapıldığını, bir iletişim kulesinin hedef alındığını bildirdi; saldırıyı üstlenen olmadı. Devrim Muhafızları 13 Kasım'da karşılık olarak Bahreyn'deki bir ABD erken uyarı radarını vurduğunu, ABD ile Hürmüz petrol taşımacılığında çalışan şirketlerin daha ağır yaptırımla karşılaşacağını açıkladı; ABD ve Bahreyn yorum yapmadı. Trump 12 Kasım'da gerekirse İran'a saldırıları tereddütsüz yeniden başlatacağını söyledi.",
+      "rationale": "Trump'ın 'anlaşma gerekmez' çıkışının ertesinde karşılıklı saldırı beyanları, Şubat'tan beri süren savaşta Eylül'den bu yana süren göreli sükûnetin kırılganlaştığını gösteriyor. Bahreyn iddiası doğrulanmadığı için olgu sayılmadı, izleme listesine alındı; sayı yalnız iki kaynaklı kısımlara (İran'ın Sirik açıklaması, Trump'ın uyarısı) dayanıyor: zayıf kanıt, LR 1,05 → 86. ABD–İran yazılı anlaşma sorusu %31 → %30 (LR 0,95). Karşı olgu: Brent ikinci haftalık düşüşe gidiyor (≈95 $), EIA stokları 4,7 milyon varil arttı; piyasa tırmanmayı fiyatlamıyor. Motorin 90 sorusu %35'te kaldı.",
+      "secondary": [
+        {
+          "soru": "on-catisma-abd-iran-anlasma",
+          "from": 31,
+          "to": 30,
+          "lr": 0.95
+        }
+      ],
+      "pekibiz": [
+        "pb-2026-11-11-motorin-90"
+      ],
+      "sources": [
+        "https://www.arabnews.com/middle-east/southern-irans-sirik-attacked-irna-cites-official-sources-as-saying-3011512",
+        "https://www.jpost.com/middle-east/iran-news/article-914794",
+        "https://www.brecorder.com/news/40448721/irans-guards-say-they-targeted-a-us-early-warning-radar-in-bahrain",
+        "https://news.antiwar.com/2026/11/12/iranian-media-reports-enemy-strike-in-sirik/",
+        "https://www.globalbankingandfinance.com/oil-prices-set-second-weekly-decline-trump-stay-iran/"
+      ]
+    },
+    {
+      "id": "hollanda-vergi-krizi",
+      "class": "YEŞİL",
+      "risk": "avrupa",
+      "delta": 1,
+      "from": 66,
+      "to": 67,
+      "lr": 1.05,
+      "onem": 0,
+      "kuresel_onem": 2,
+      "onem_hesap": "|+1| × Türkiye bağı 0 × etki 2 = 0; küresel önem |+1| × 2 = 2",
+      "turkiye_bagi": 0,
+      "event": "Hollanda'da 2027 vergi planı 12 Kasım'da Temsilciler Meclisi'nden 76'ya karşı 74 oyla geçti; koalisyon ortağı VVD, D66 ve CDA'nın muhalefetle birlikte kabul ettiği servet vergisi değişikliği nedeniyle kendi hükümetinin planına karşı oy verdi. VVD koalisyonda kalıp kalmayacağını açıklamadı; Başbakan Jetten 13 Kasım sabahı iki başbakan yardımcısıyla görüşecek. Plan, koalisyonun çoğunluğu olmadığı Senato'ya gidiyor.",
+      "rationale": "Bir yıldan kısa sürede kurulan koalisyonda bütçe üzerinden açık bölünme, Avrupa'da hükümet istikrarsızlığı eğilimini doğruluyor; kabine düşmediği için zayıf kanıt (LR 1,05): 66 → 67. Kabine düşerse ayrıca işlenir. PVV'nin güvensizlik önergesi 116-34 reddedildi.",
+      "secondary": [],
+      "pekibiz": [],
+      "sources": [
+        "https://www.dutchnews.nl/2026/11/coalition-in-crisis-as-tax-plan-passes-without-vvd-support/",
+        "https://nltimes.nl/2026/11/12/jetten-cabinet-trouble-left-center-income-asset-tax-deals-pass-despite-vvd-protest",
+        "https://www.iamexpat.nl/expat-info/dutch-news/dutch-parliament-approves-2027-tax-plan-two-votes"
+      ]
+    },
+    {
+      "id": "husi-dogu-bati-boru-hatti",
+      "class": "YEŞİL",
+      "risk": "enerji",
+      "delta": 0,
+      "from": 71,
+      "to": 71,
+      "lr": 1.0,
+      "onem": 0,
+      "turkiye_bagi": 2,
+      "event": "Husiler 12 Kasım'da Suudi Arabistan'ın Doğu-Batı petrol boru hattındaki 7 No'lu pompa istasyonuna, Yanbu'daki petrol tesisine ve Riyad'daki bir Aramco binasına saldırdıklarını açıkladı. Suudi liderliğindeki koalisyon Riyad ve Doğu Eyaleti'nde iki İHA düşürdüğünü bildirdi; hasar teyidi yok.",
+      "rationale": "Temmuz'dan beri süren saldırı örüntüsünün tekrarı; hasar doğrulanmadı ve Brent haftalık düşüşte. Δ 0.",
+      "sources": [
+        "https://cyprus-mail.com/2026/11/12/yemens-houthis-say-they-attacked-pumping-station-on-saudi-arabias-east-west-oil-pipeline",
+        "https://www.newarab.com/news/yemens-houthis-say-targeted-saudi-east-west-pipeline-yanbu"
+      ]
+    }
+  ],
+  "elenen": [
+    {
+      "olay": "Witkoff–Kushner'in Putin ve ardından Dublin'de Zelenskiy ile görüşmesi; Avrupa'nın müzakereye katılması",
+      "neden": "Dün işlendi; Putin'in tutumu değişmedi, Avrupa temsilcisi henüz atanmadı. Δ 0."
+    },
+    {
+      "olay": "ABD 10 yıllık tahvil faizinin %5'in üstüne çıkması, Nvidia sonrası hisse düşüşü",
+      "neden": "Quant kanalının alanı (yayını durduruldu); haber risk tablosunu oynatmıyor."
+    },
+    {
+      "olay": "İran'da NPT'den çekilme tartışması",
+      "neden": "Ekim'den beri süren sert çizgi çağrılarının tekrarı; yeni resmî adım yok."
+    },
+    {
+      "olay": "Starshield kısıtlamasının yeniden başladığı",
+      "neden": "Tek kaynak (CNN); ikinci bağımsız teyit bulunamadı."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:30:00+03:00",
+ "updated": "2026-11-13T06:50:00+03:00",
  "horizon": "2031",
  "bands": {
   "Çok yüksek": [
@@ -32,7 +32,7 @@
   {
    "id": "catisma",
    "name": "Kronik Bölgesel Çatışmalar",
-   "p": 85,
+   "p": 86,
    "impact": "Çok yüksek",
    "geo": [
     35,
@@ -52,7 +52,7 @@
   {
    "id": "avrupa",
    "name": "Avrupa'da Siyasi Parçalanma",
-   "p": 66,
+   "p": 67,
    "impact": "Yüksek",
    "geo": [
     4.35,

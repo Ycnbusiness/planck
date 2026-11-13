@@ -4,14 +4,35 @@
    "id": "didamar-radar",
    "acilis": "2026-11-10",
    "olay": "IRGC yetkilisi, 9 Kasım akşamı Umman'ın Didamar adasında (Hürmüz güney rotası) gemi geçişine yardım eden radar/haberleşme sistemlerini vurduğunu söyledi. Duman videosu ve Sentinel-2 yanık izi OSINT kaynaklı; Gulf News 'iddia' olarak aktardı.",
-   "durum": "doğrulanmadı",
+   "durum": "düştü",
    "eksik": "Umman veya ABD resmî açıklaması ya da Reuters/AP/AFP/BBC haberi",
    "olursa": "Bugünkü Günün Dosyası'na ekle (risk: enerji; güney rotası etkisi). Önem ≥12 çıkarsa Olay ve Cevap adayı.",
    "bitis": "2026-11-13",
    "notlar": [
     "2026-11-11: Umman yetkilisi (anonim, The Maritime Executive) seyir yardımcılarının vurulmadığını söyledi; 10 Kasım uydu görüntüsünde belirgin hasar yok. Reuters/AP teyidi yok.",
-    "2026-11-12: Reuters kaynaklı piyasa haberi (The Star, 12 Kasım) İran güçlerinin Didamar'daki seyir sistemlerine saldırdığını olgu olarak aktardı; ikinci bağımsız teyit (AP/AFP/BBC ya da Umman/ABD resmî açıklaması) yok, Umman yetkilisinin yalanlaması duruyor. Doğrulanmadı."
+    "2026-11-12: Reuters kaynaklı piyasa haberi (The Star, 12 Kasım) İran güçlerinin Didamar'daki seyir sistemlerine saldırdığını olgu olarak aktardı; ikinci bağımsız teyit (AP/AFP/BBC ya da Umman/ABD resmî açıklaması) yok, Umman yetkilisinin yalanlaması duruyor. Doğrulanmadı.",
+    "2026-11-13: Bitiş tarihine kadar Umman/ABD resmî açıklaması ya da ikinci bağımsız ajans teyidi gelmedi. Düştü."
    ]
+  },
+  {
+   "id": "bahreyn-abd-radar",
+   "acilis": "2026-11-13",
+   "olay": "IRGC, 13 Kasım'da Sirik'teki iletişim kulesine yapılan hava saldırısına karşılık Bahreyn'deki bir ABD erken uyarı radarını vurduğunu açıkladı (Reuters, İran devlet medyası aktarımıyla). Eylül başından beri Körfez'deki ABD varlıklarına yönelik ilk saldırı iddiası.",
+   "durum": "doğrulanmadı",
+   "eksik": "ABD (CENTCOM/Pentagon) veya Bahreyn resmî açıklaması ya da AP/AFP/BBC'nin bağımsız teyidi",
+   "olursa": "Çatışma riski yeniden değerlendirilir (LR 1,25–2); önem ≥12 çıkarsa Olay ve Cevap; ABD karşılığı gelirse enerji riski de işlenir.",
+   "bitis": "2026-11-16",
+   "notlar": []
+  },
+  {
+   "id": "hurmuz-dort-tanker",
+   "acilis": "2026-11-13",
+   "olay": "İran ordusu 12 Kasım'da Hürmüz'de uyarılara uymayan dört petrol tankerinin patlamayla vurulduğunu açıkladı; Reuters doğrulayamadı. (12 Kasım'daki 'iki süper tanker' beyanının devamı.)",
+   "durum": "doğrulanmadı",
+   "eksik": "UKMTO/JMIC bildirimi, gemi adları veya armatör açıklaması",
+   "olursa": "Enerji riski ve on-enerji-hurmuz-gecis sorusu yeniden değerlendirilir.",
+   "bitis": "2026-11-16",
+   "notlar": []
   }
  ]
 }
