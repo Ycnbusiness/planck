@@ -138,5 +138,14 @@
   "facebook": false,
   "dogrulama": "Trump İran (CNBC, The National, Axios); Nvidia istifa (SEC 8-K, Variety); TCMB raporu (CNBC-e, Para Ajansı)",
   "duzeltme": "Nvidia maddesi SEC 8-K'ya göre nötrleştirildi; nv-1 ıska notu eklendi. Not: tarayıcı başta yusufcannesipoglu hesabındaydı, planck.news'e geçildi."
+ },
+ {
+  "tarih": "2026-11-13",
+  "saat": "21:10",
+  "kanal": "planck.news",
+  "tur": "carousel",
+  "klasor": "posts/2026-11-13-gunun-dosyasi",
+  "durum": "planlandı",
+  "not": "Günün Dosyası, 2 olay; Hollanda oy sayısı (76-74) doğrulanamadığı için çıkarıldı. AI etiketi açık, FB kapalı."
  }
 ]
