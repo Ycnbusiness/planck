@@ -1,0 +1,58 @@
+[
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-fed-artirim",
+  "motor": 100,
+  "kaynak_turu": "piyasa",
+  "not": "FedWatch Aralık %100, sonrası koşullu %35; koşullu taban/Nasdaq zirvesi data/quant.json'dan (bugün yeniden doğrulanmadı)"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-nasdaq-25",
+  "motor": 37,
+  "kaynak_turu": "oynaklik",
+  "not": "S=25366.09, K=0,75×27244.28=20433, σ=max(1.07×VIX 18.7, 24)=%24.0, μ=0, T=1; koşullu taban/Nasdaq zirvesi data/quant.json'dan (bugün yeniden doğrulanmadı)"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-brent-110",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: OVX güncel değil"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-altin-4500",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: GVZ güncel değil"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-usdtry-60",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: USD/TRY oynaklığı ve anket güncel değil"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-tcmb-aralik",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: yeni anket yok"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-tr-tufe-30",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: yeni anket yok"
+ },
+ {
+  "tarih": "2026-11-13",
+  "soru": "q-abd-resesyon",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: Sahm/petrol girdileri güncel değil"
+ }
+]

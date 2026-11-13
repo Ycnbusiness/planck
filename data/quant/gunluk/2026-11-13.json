@@ -1,0 +1,177 @@
+{
+ "tarih": "2026-11-13",
+ "toplama_saati_utc": "04:51-05:20",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": 50.26,
+   "kaynak": "https://www.imzagazetesi.com/dolar-bir-onceki-bultene-gore-yukseldi-merkez-bankasi-kuru-5026-lira",
+   "saat": "12.11.2026 15:30 TSİ (gösterge); haber başlığından, sayfa içeriği açılamadı",
+   "not": "13.11 kuru 15:30'da açıklanır, toplama anında yok"
+  },
+  "eurtry_tcmb": {
+   "deger": 55.74,
+   "kaynak": "https://www.duzceanaliz.com/ekonomi-haberleri/26008-gunun-doviz-kurlari-aciklandi:-dolar-50-26--euro-55-74-lira",
+   "saat": "12.11.2026 15:30 TSİ; haber başlığından, sayfa içeriği açılamadı"
+  },
+  "bist100_kapanis": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "12.11 kapanışı doğrulanamadı; arama yalnız başlık döndürdü",
+   "son_dogrulanan": {
+    "deger": 11712.67,
+    "tarih": "2026-11-09",
+    "kaynak": "https://www.foreks.com/haber/detay/6af1e6264b1852391445efdd/AA/tr/yenileme-borsa-gunu-yukselisle-tamamladi-09-11-26/"
+   }
+  },
+  "gram_altin_tl": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 12-13 Kasım değeri bulunamadı"
+  },
+  "ons_altin_usd": {
+   "deger": 3885.3,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 ABD kapanışı",
+   "not": "vadeli (futures) kapanış; spot değil"
+  },
+  "brent_usd": {
+   "deger": 95.82,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "wti_usd": {
+   "deger": 88.74,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "bitcoin_usd": {
+   "deger": 71503,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanışa yakın, yaklaşık"
+  },
+  "abd_2y": {
+   "deger": 4.88,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "abd_10y": {
+   "deger": 5.1,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "vix": {
+   "deger": 18.7,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "sp500": {
+   "deger": 7592.4,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "nasdaq_composite": {
+   "deger": 25366.09,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı güncel gösterge getiri bulunamadı"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı güncel gösterge getiri bulunamadı"
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026": {
+   "artirim_25bp": 86,
+   "daha_buyuk_artirim": 12,
+   "sabit": 3,
+   "kalshi": "25bp %87, büyük %12, sabit %3",
+   "polymarket_25bp": 86,
+   "cme_fedwatch": "artırım tam fiyatlandı, 50bp ≈%13",
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026 kapanış",
+   "not": "Kalshi/Polymarket rakamları aktarılan haber özetinden; CME'nin kendi sayfası okunamadı"
+  },
+  "fed_ocak_2027": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynakta yok"
+  },
+  "tcmb_sonraki_ppk": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Piyasa beklentisi (anket/swap) için yeni kaynaklı veri toplanamadı; son bilinen: data/quant.json anket 7 indirim/3 sabit (CNBC-e, 4 Kasım)"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  }
+ },
+ "oynaklik": {
+  "vix": {
+   "deger": 18.7,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-thursday-november-12",
+   "saat": "12.11.2026"
+  },
+  "gvz_altin": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "İma edilen oynaklık güncel değil; son bilinen 25,83 (5 Kasım)"
+  },
+  "ovx_brent": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "İma edilen oynaklık güncel değil; son bilinen 60,29 (5 Kasım)"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Fiyat serisi toplanamadı; gerçekleşen 30g hesaplanamadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Fiyat serisi toplanamadı; gerçekleşen 30g hesaplanamadı"
+  }
+ },
+ "takvim_7gun": {
+  "deger": null,
+  "kaynak": null,
+  "saat": null,
+  "neden": "Resmi takvim sayfalarından kaynaklı liste çıkarılamadı bu çalışmada"
+ },
+ "eksikler": [
+  "BIST100 12.11 kapanış",
+  "gram altın",
+  "TR 2y/10y",
+  "FedWatch Ocak",
+  "TCMB PPK beklentisi",
+  "Polymarket/Kalshi resesyon-Brent",
+  "OVX/GVZ",
+  "gerçekleşen oynaklık",
+  "7 günlük takvim"
+ ]
+}
