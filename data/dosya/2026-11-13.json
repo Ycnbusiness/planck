@@ -1,7 +1,19 @@
 {
  "date": "13 KASIM 2026",
- "lede": "Ana akışa çıkmayan ama kayda değer gelişme: Hollanda'da koalisyon ortağı kendi hükümetinin bütçesine karşı oy verdi.",
+ "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: Körfez'de misilleme sinyali ve Hollanda'da koalisyon ortağının kendi bütçesine karşı oy vermesi.",
  "items": [
+  {
+   "tag": "Çatışma",
+   "title": "Körfez'de misilleme sinyali: Sirik ve Bahreyn",
+   "text": "İran, Hürmüz kıyısındaki Sirik'te bir iletişim kulesine hava saldırısı yapıldığını açıkladı; Devrim Muhafızları karşılık olarak Bahreyn'deki bir ABD radarını vurduğunu iddia etti. ABD ve Bahreyn yorum yapmadı.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 85,
+   "to": 86,
+   "pq": "İstanbul'da motorin 31 Ocak'ta 90 TL'nin altında olur mu?",
+   "pp": 35,
+   "pdo": "Körfez'de yeni bir misilleme turu, Hürmüz'den geçişi ve akaryakıt fiyatını doğrudan etkiler; Bahreyn iddiası doğrulanmadığı için olasılığa yalnız İran'ın kendi açıklaması ve Trump'ın sözleri işlendi.",
+   "not": "Story'den taşındı (Meta Business Suite'e planck.news bağlı değil). Akşam turu Bahreyn iddiasının 'iddia' olarak aktarıldığını doğrulamalı."
+  },
   {
    "tag": "Avrupa",
    "title": "Hollanda'da koalisyon ortağı kendi bütçesine karşı oy verdi",
