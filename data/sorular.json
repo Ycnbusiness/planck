@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -18,8 +18,8 @@
     "Oyun teorisi: ateşkeslerin kalıcılığı garantör gerektiriyor, garantör yok"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
-   "motor": 85,
-   "p": 87,
+   "motor": 85.0,
+   "p": 88,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -66,6 +66,12 @@
      "p": 87,
      "motor": 85,
      "neden": "13.11 akşam: ABD ordusu, Devrim Muhafızları'nın Bahreyn'e iki tek yönlü saldırı İHA'sı fırlattığını ve düşürdüğünü doğruladı (radar iddiasını reddetti). Eylül'den beri Körfez'e ilk teyitli İran saldırısı; hasar yok, Brent düşüşte. Zayıf kanıt LR 1,05: 86→87."
+    },
+    {
+     "t": "2026-11-14",
+     "p": 88,
+     "motor": 85.0,
+     "neden": "Türkiye ile Katar 13 Kasım'da karşılıklı savunma anlaşması imzaladı; Körfez'de savaşın sürmesine yönelik bölgesel güvenlik arayışı. Karşı olgu: Trump, Suudi Arabistan'ın yeni saldırıları erteleme ricası nedeniyle beklediğini söyledi (LR 1,05)"
     }
    ]
   },
@@ -1483,7 +1489,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ocak'ta ÖTV veya KDV ayarlaması ya da kurdaki sıçramanın petroldeki düşüşü silmesi; ya da tersine, ani bir İran anlaşmasının petrolü 75 doların altına indirmesi.",
    "motor": 45.0,
-   "p": 35,
+   "p": 33,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1506,6 +1512,12 @@
      "p": 35,
      "motor": 45.0,
      "neden": "Akşam: Trump'ın anlaşma gerekmediği açıklamasıyla Brent sabahki düşüşü silip %1,4 yükseldi; TCMB 2027 petrol varsayımını 76,4'ten 86,7 dolara çıkardı (LR 0,9)"
+    },
+    {
+     "t": "2026-11-14",
+     "p": 33,
+     "motor": 45.0,
+     "neden": "14 Kasım'da beklenen ≈4 TL motorin indirimi gelmedi; sektör kaynaklarına göre uluslararası motorin ton fiyatı bir günde ≈53 dolar arttı, İstanbul Avrupa Yakası 95,20 TL'de kaldı (LR 0,9)"
     }
    ],
    "bagli": "risk-enerji"
@@ -1701,6 +1713,68 @@
     }
    ],
    "bagli": "risk-abd-cin-teknoloji"
+  },
+  {
+   "id": "pb-2026-11-14-katar-pakt-tbmm",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "TBMM, Türkiye–Katar karşılıklı savunma anlaşmasını 31 Mart 2027'ye kadar onaylar mı?",
+   "acilis": "2026-11-14",
+   "deadline": "2027-03-31",
+   "kriter": "13 Kasım 2026'da İstanbul'da imzalanan Türkiye–Katar karşılıklı savunma anlaşmasının onaylanmasının uygun bulunduğuna dair kanun 31 Mart 2027'ye kadar TBMM Genel Kurulu'nda kabul edilirse evet.",
+   "kaynak_cozum": "TBMM kanun kayıtları (tbmm.gov.tr) veya Resmî Gazete + AA ya da Reuters",
+   "taban": "İki referans sınıfı: (1) Türkiye'nin uluslararası anlaşmalarının çoğu imzadan sonra TBMM'de aylarca, kimi zaman yıllarca bekliyor; 4,5 ayda onay oranı düşük (≈%20). (2) Türkiye–Katar askerî anlaşmaları siyasi öncelik gördüğünde hızlı geçti (Haziran 2017 konuşlanma kanunu günler içinde). Karma taban %35. Claude +5: anlaşma Cumhurbaşkanı ve Emir düzeyinde imzalandı, Körfez'deki savaş ivedilik yaratıyor; Kasım–Aralık bütçe görüşmeleri Genel Kurul takvimini daraltıyor.",
+   "mercekler": [
+    "Uluslararası ilişkiler: savaş ortamında caydırıcılık mesajı ancak onaylanmış anlaşmayla tam bağlayıcı olur, yukarı",
+    "Siyaset bilimi: meclis takvimi bütçe döneminde dolu; uluslararası anlaşmalar genelde toplu ve gecikmeli geçer, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: anlaşmanın TBMM'ye sevkinin bütçe ve yasama gündemi nedeniyle bahar dönemine kalması.",
+   "motor": 35,
+   "p": 40,
+   "ilk_p": 40,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-14",
+     "p": 40,
+     "motor": 35,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-catisma"
+  },
+  {
+   "id": "pb-2026-11-14-ist-havalimani-durma",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "İstanbul Havalimanı'nda 31 Mart 2027'ye kadar bir sistem ya da hava trafik kontrol arızası nedeniyle tüm kalkışlar en az bir saat durdurulur mu?",
+   "acilis": "2026-11-14",
+   "deadline": "2027-03-31",
+   "kriter": "31 Mart 2027'ye kadar DHMİ, İGA ya da Ulaştırma Bakanlığı, İstanbul Havalimanı'nda teknik arıza, iletişim kesintisi veya siber olay nedeniyle tüm kalkışların en az bir saat durdurulduğunu açıklarsa ya da bu durum iki bağımsız ajansça (AA, Reuters, AP) haber yapılırsa evet. Hava koşulu, güvenlik tehdidi ve kaza kaynaklı durmalar sayılmaz.",
+   "kaynak_cozum": "DHMİ/İGA açıklaması + AA ya da Reuters",
+   "taban": "taban yok: İstanbul Havalimanı'nın 2018'den bu yana sistem arızası kaynaklı tam kalkış durdurması kamuya yansımadı; küresel büyük havalimanlarında benzer olaylar yılda birkaç kez görülüyor (ABD FAA 2023 NOTAM ve 13 Kasım 2026 iletişim arızası). Ayar sınırı yarıya iner. Tahmin %5.",
+   "mercekler": [
+    "Mühendislik: yeni ve tek merkezli kontrol altyapısı eski analog sistemlere göre daha az kırılgan, aşağı",
+    "Bilgisayar bilimi: havacılık BT tedarik zincirine yönelik siber olaylar artıyor, yukarı küçük"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: küresel bir yazılım ya da bulut kesintisinin (2024 CrowdStrike benzeri) Türkiye'deki havacılık sistemlerini de durdurması.",
+   "motor": 5,
+   "p": 5,
+   "ilk_p": 5,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-14",
+     "p": 5,
+     "motor": 5,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-siber"
   }
  ]
 }

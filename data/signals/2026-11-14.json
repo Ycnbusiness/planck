@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-14",
+  "scan_window": "2026-11-13 20:30 → 2026-11-14 07:00 (TSİ)",
+  "hakem": {
+    "vadesi_gelen": [],
+    "kapanan": [],
+    "karne": "değişiklik yok"
+  },
+  "gecis": {
+    "dogrula": "eksikli kayıt 0; ≤90 gün oranı %42 (hedef ≥%60)"
+  },
+  "izleme": {
+    "abd-faa-ground-stop": "Teknik arıza (eski analog telekom), siber göstergesi yok; 'olursa' uygulandı → Günün Dosyası.",
+    "hurmuz-dort-tanker": "UKMTO teyidi yok; JMIC'in kaydettiği dört saldırı 10–11 Kasım'a ait, daha önce işlendi.",
+    "bahreyn-abd-radar": "Yeni teyit yok."
+  },
+  "summary": {
+    "kirmizi": 0,
+    "sari": 0,
+    "yesil": 3,
+    "not": "Önem ≥12 olay yok; Olay ve Cevap çıkmadı. Türkiye–Katar karşılıklı savunma anlaşması (çatışma 87→88, önem 6) Story Reel'i oldu ve Günün Dosyası'na da girdi. ABD'deki FAA kalkış yasağı teknik arıza çıktı (siber Δ0); izleme listesindeki 'olursa' gereği Dosya'ya alındı. Finlandiya Körfezi'ndeki Rus savaş gemisine saldırı ve motorin indiriminin gelmemesi risk tablosunu oynatmadı; motorin sorusu %35→%33."
+  },
+  "events": [
+    {
+      "id": "turkiye-katar-savunma-pakti",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 1,
+      "from": 87,
+      "to": 88,
+      "lr": 1.05,
+      "onem": 6,
+      "onem_hesap": "|+1| × Türkiye bağı 2 (Türkiye taraf; Katar'da Türk üssü) × etki 3 (Çok yüksek)",
+      "turkiye_bagi": 2,
+      "event": "Türkiye ile Katar, 13 Kasım'da İstanbul'daki 12. Yüksek Stratejik Komite toplantısında karşılıklı savunma anlaşması dahil beş anlaşma imzaladı. Anlaşma, taraflardan birine yönelik dış silahlı saldırıya karşı ortak tutum alınmasını, ortak tatbikat, savunma sanayii ve eğitim işbirliğini öngörüyor; ayrıntılı yükümlülükler açıklanmadı. Aynı gün Trump, Suudi Arabistan'ın ricası üzerine İran'a yeni büyük saldırıları beklettiğini söyledi.",
+      "rationale": "Körfez'de savaşın Şubat'tan beri sürdüğü ve Eylül sonrası sükûnetin kırılganlaştığı ortamda bölge ülkelerinin yeni güvenlik güvenceleri araması, çatışmanın kronikleştiği beklentisini doğruluyor; anlaşma caydırıcılık amaçlı ve yeni bir cephe açmıyor, Suudi ricası ise kısa vadede tırmanmayı frenleyen karşı olgu. Zayıf kanıt, LR 1,05: 87 → 88. Yeni Peki Biz sorusu: TBMM onayı 31 Mart 2027'ye kadar %40 (Taban %35 · Claude +5).",
+      "secondary": [],
+      "pekibiz": [
+        "pb-2026-11-14-katar-pakt-tbmm"
+      ],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+        "https://www.usnews.com/news/world/articles/2026-11-13/turkey-qatar-sign-mutual-defence-agreement-turkish-presidency-says",
+        "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact",
+        "https://www.aa.com.tr/tr/gundem/turkiye-ile-katar-arasinda-5-anlasma-imzalandi/4124342",
+        "https://www.newarab.com/news/turkey-and-qatar-sign-mutual-defence-pact-among-five-agreements",
+        "https://www.dawn.com/news/2044218/trump-says-gulf-allies-asked-him-to-hold-off-on-further-iran-strikes"
+      ]
+    },
+    {
+      "id": "abd-faa-kalkis-yasagi",
+      "class": "YEŞİL",
+      "risk": "siber",
+      "delta": 0,
+      "from": 48,
+      "to": 48,
+      "lr": 1.0,
+      "onem": 0,
+      "onem_hesap": "|0| × Türkiye bağı 1 (THY ABD seferleri) × etki 2 = 0; izleme listesi 'olursa' gereği Dosya'ya alındı",
+      "turkiye_bagi": 1,
+      "event": "ABD Federal Havacılık İdaresi 13 Kasım'da hava trafik kontrol merkezlerini etkileyen iletişim arızası nedeniyle ülke çapında kalkış yasağı ilan etti; yasak yaklaşık dört saat sonra kalktı. Ulaştırma Bakanı nedeni eski analog telekom altyapısının aşırı yüklenmesi olarak açıkladı; İç Güvenlik Bakanlığı siber saldırı göstergesi olmadığını, incelemenin sürdüğünü bildirdi. Binlerce uçuş gecikti ya da iptal edildi, aksama hafta sonuna uzuyor.",
+      "rationale": "Arıza teknik; siber saldırı göstergesi yok ve risk tanımı (devlete atfedilen siber saldırıyla 24 saatlik hizmet kesintisi) karşılanmıyor: Δ0. Kritik altyapının saldırı olmadan da tek noktadan durabildiğini gösteren yüksek haber değerli olay. Yeni Peki Biz sorusu: İstanbul Havalimanı'nda sistem arızasıyla tam kalkış durması 31 Mart 2027'ye kadar %5 (taban yok).",
+      "secondary": [],
+      "pekibiz": [
+        "pb-2026-11-14-ist-havalimani-durma"
+      ],
+      "sources": [
+        "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+        "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+        "https://www.foxbusiness.com/fox-news-us/nationwide-faa-ground-stop-lifted-cancellations-significant-delays-continue-transportation-secretary",
+        "https://www.tribuneindia.com/news/air-traffic-control/us-lifts-nationwide-faa-ground-stop-after-telecom-outage-duffy-cites-ageing-system",
+        "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
+      ]
+    },
+    {
+      "id": "finlandiya-korfezi-rus-gemisi",
+      "class": "YEŞİL",
+      "risk": "catisma",
+      "delta": 0,
+      "from": 88,
+      "to": 88,
+      "lr": 1.0,
+      "onem": 0,
+      "onem_hesap": "|0| × Türkiye bağı 1 × etki 3 = 0",
+      "turkiye_bagi": 1,
+      "event": "Finlandiya ordusu 12 Kasım'da, bir gün önce Finlandiya Körfezi'nde bir Rus savaş gemisine saldırı tespit ettiğini açıkladı; Ukrayna Güvenlik Servisi Buyan-M sınıfı küçük füze gemisi Naro-Fominsk'i hedef aldığını söyledi. Finlandiya bölgedeki güvenliğin istikrarlı olduğunu, doğrudan tehdit bulunmadığını, çevre ve sivil seyrüsefer riskini Kiev'e ilettiğini bildirdi. Rusya yorum yapmadı.",
+      "rationale": "Ukrayna'nın Baltık'taki saldırılarının (Ust-Luga, 11 Kasım) devamı; savaşın sürdüğünü doğruluyor ama yeni cephe ya da NATO'ya yayılma göstergesi yok. Ust-Luga ile aynı gün, aynı eğilim: Δ0.",
+      "secondary": [],
+      "pekibiz": [],
+      "sources": [
+        "https://gcaptain.com/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
+        "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks",
+        "https://www.themoscowtimes.com/2026/11/12/finland-says-it-detected-strike-on-russian-warship-in-baltic-sea-a94245"
+      ]
+    }
+  ],
+  "sicil_guncelleme": [
+    {
+      "soru": "risk-catisma",
+      "from": 87,
+      "to": 88,
+      "lr": 1.05
+    },
+    {
+      "soru": "pb-2026-11-11-motorin-90",
+      "from": 35,
+      "to": 33,
+      "lr": 0.9,
+      "neden": "14 Kasım'da beklenen ≈4 TL motorin indirimi gelmedi; sektör kaynaklarına göre uluslararası motorin ton fiyatı bir günde ≈53 dolar arttı; İstanbul Avrupa Yakası 95,20 TL.",
+      "sources": [
+        "https://www.karar.com/ekonomi-haberleri/motorine-4-tl-indirim-var-mi-sektor-kaynaklari-son-noktayi-koydu-2083977",
+        "https://turkinform.com.tr/motorine-indirim-gelecek-mi-4-tl-indirim-neden-iptal-oldu",
+        "https://www.vanekspres.com.tr/motorine-indirim-var-mi-sektor-kaynaklari-son-noktayi-koydu"
+      ]
+    }
+  ],
+  "elenen": [
+    {
+      "olay": "Husilerin Suudi petrol ve askerî hedeflerine saldırı iddiaları, Lahic'te çatışma (IOM: 340 bin yerinden edilmiş)",
+      "neden": "Dün işlendi (enerji Δ0); Suudi tarafı yalnız önlemeleri doğruladı, hasar teyidi yok."
+    },
+    {
+      "olay": "ABD 10 yıllık tahvil faizinin %5,17'ye çıkması, Nvidia düşüşünün sürmesi",
+      "neden": "Quant kanalının alanı; risk tablosunu oynatmıyor."
+    },
+    {
+      "olay": "Trump: Suudi Arabistan İran'a yeni saldırıların ertelenmesini istedi",
+      "neden": "Ayrı olay olarak değil, Türkiye–Katar olayında karşı olgu olarak işlendi; ABD–İran anlaşma sorusu %30'da kaldı."
+    },
+    {
+      "olay": "İran'ın Hürmüz'de LPG gemisi ve dört tanker beyanları",
+      "neden": "UKMTO/JMIC teyidi yok; izleme listesinde."
+    }
+  ]
+}

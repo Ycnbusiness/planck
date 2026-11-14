@@ -1,0 +1,29 @@
+{
+ "date": "14 KASIM 2026",
+ "lede": "Ana akışa çıkmayan ama kayda değer iki gelişme: Türkiye'nin Katar'la imzaladığı karşılıklı savunma anlaşması ve ABD'de hava trafiğini dört saat durduran altyapı arızası.",
+ "items": [
+  {
+   "tag": "Çatışma",
+   "title": "Türkiye ile Katar karşılıklı savunma anlaşması imzaladı",
+   "text": "İstanbul'da imzalanan anlaşma, taraflardan birine yönelik dış silahlı saldırıya karşı ortak tutum, ortak tatbikat ve savunma sanayii işbirliği öngörüyor. Aynı gün ABD Başkanı, Suudi Arabistan'ın ricasıyla İran'a yeni saldırıları beklettiğini söyledi.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 87,
+   "to": 88,
+   "pq": "TBMM, Katar savunma anlaşmasını 31 Mart 2027'ye kadar onaylar mı?",
+   "pp": 40,
+   "pdo": "Anlaşma bağlayıcı olmak için meclis onayı bekliyor; bütçe döneminde takvim dar, ama Katar'la askerî anlaşmalar geçmişte hızlı geçti."
+  },
+  {
+   "tag": "Altyapı",
+   "title": "ABD'de hava trafiği dört saat durdu",
+   "text": "ABD Federal Havacılık İdaresi, hava trafik merkezlerindeki iletişim arızası nedeniyle ülke çapında kalkışları yaklaşık dört saat durdurdu; binlerce uçuş gecikti ya da iptal edildi. Yetkililer nedeni eski analog telekom altyapısı olarak açıkladı, siber saldırı göstergesi bulunmadı.",
+   "risk": "Kritik Altyapıya Siber Saldırılar",
+   "from": 48,
+   "to": 48,
+   "pq": "İstanbul Havalimanı'nda 31 Mart 2027'ye kadar bir sistem arızası nedeniyle tüm kalkışlar en az bir saat durur mu?",
+   "pp": 5,
+   "pdo": "Saldırı olmadan da tek bir eski bileşen bir ülkenin hava trafiğini durdurabiliyor; ABD'ye uçacaklar hafta sonu iptallerini kontrol etmeli."
+  }
+ ],
+ "question": "Sizce Türkiye'nin Körfez'deki savunma taahhütleri bizi bölgedeki gerilime daha mı yakın yapar, daha mı güvende?"
+}

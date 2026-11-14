@@ -23,7 +23,8 @@
    "olursa": "Çatışma riski yeniden değerlendirilir (LR 1,25–2); önem ≥12 çıkarsa Olay ve Cevap; ABD karşılığı gelirse enerji riski de işlenir.",
    "bitis": "2026-11-16",
    "notlar": [
-    "2026-11-13 akşam: ABD ordusu radar iddiasını reddetti; IRGC'nin Bahreyn'e fırlattığı iki tek yönlü saldırı İHA'sını düşürdüğünü, hasar olmadığını açıkladı (Reuters/Al-Monitor, Iran International, Euronews). Saldırı girişimi olgu olarak işlendi (çatışma 86→87); radar vuruşu doğrulanmadı."
+    "2026-11-13 akşam: ABD ordusu radar iddiasını reddetti; IRGC'nin Bahreyn'e fırlattığı iki tek yönlü saldırı İHA'sını düşürdüğünü, hasar olmadığını açıkladı (Reuters/Al-Monitor, Iran International, Euronews). Saldırı girişimi olgu olarak işlendi (çatışma 86→87); radar vuruşu doğrulanmadı.",
+    "2026-11-14: Yeni teyit yok; ABD'nin İHA düşürme açıklaması geçerli, radar iddiası doğrulanmadı."
    ]
   },
   {
@@ -35,19 +36,21 @@
    "olursa": "Enerji riski ve on-enerji-hurmuz-gecis sorusu yeniden değerlendirilir.",
    "bitis": "2026-11-16",
    "notlar": [
-    "2026-11-13: İran Devrim Muhafızları donanması, izinsiz rotayı kullanan bir LNG tankerinin mayına çarpıp patladığını açıkladı (Reuters/gCaptain, Al Arabiya); gemi adı ve UKMTO/JMIC teyidi yok. Doğrulanmadı."
+    "2026-11-13: İran Devrim Muhafızları donanması, izinsiz rotayı kullanan bir LNG tankerinin mayına çarpıp patladığını açıkladı (Reuters/gCaptain, Al Arabiya); gemi adı ve UKMTO/JMIC teyidi yok. Doğrulanmadı.",
+    "2026-11-14: JMIC'in 12 Kasım bülteni 10–11 Kasım'da dört tanker saldırısını kayda geçirdi (SEA 1/adsız tanker, Fujairah Energy, NCC Fajr, Dominica Prosperity; toplam 181 olay). Bunlar daha önce işlenmiş olaylar; İran'ın 12–13 Kasım 'dört tanker' ve LPG gemisi beyanları için UKMTO teyidi yok. Doğrulanmadı."
    ]
   },
   {
    "id": "abd-faa-ground-stop",
    "acilis": "2026-11-14",
    "olay": "FAA, 13 Kasım ~21:15 UTC'de hava trafik kontrol merkezlerini etkileyen iletişim arızası nedeniyle ABD'deki tüm havalimanları için ülke çapında kalkış yasağı (ground stop) ilan etti. FlightAware'e göre 18:04 ET itibarıyla 1.913 iptal, 10.494 gecikme. Doğrulanan olgu (CBS, ABC, NBC, MPR, The War Zone).",
-   "durum": "olgu doğrulandı; neden belirsiz",
+   "durum": "doğrulandı: teknik arıza, siber göstergesi yok",
    "eksik": "Arızanın nedeni (teknik mi, siber saldırı mı), yasağın kalkış saati, toplam iptal sayısı, THY/İstanbul–ABD seferlerine etkisi",
    "olursa": "Siber saldırı teyit edilirse siber/kritik altyapı riski yeniden değerlendirilir ve Olay ve Cevap; teknik arızaysa sabah taramasında 08:30 Olay ve Cevap ya da Dosya (haber değeri yüksek, risk Δ küçük). Türkiye bağı: THY ABD seferleri, ABD'deki Türk yolcular.",
    "bitis": "2026-11-16",
    "notlar": [
-    "2026-11-14 03:45 TSİ: Yusuf sordu. Kırmızı Alarm 00:19 ve 03:19 turlarında almadı: risk Δ ≥10 ölçütü karşılanmıyor (siber saldırı göstergesi yok, DHS 'bilinmiyor' dedi). Yapısal boşluk: risk oynatmayan ama haber değeri çok yüksek olaylar için yol yok."
+    "2026-11-14 03:45 TSİ: Yusuf sordu. Kırmızı Alarm 00:19 ve 03:19 turlarında almadı: risk Δ ≥10 ölçütü karşılanmıyor (siber saldırı göstergesi yok, DHS 'bilinmiyor' dedi). Yapısal boşluk: risk oynatmayan ama haber değeri çok yüksek olaylar için yol yok.",
+    "2026-11-14 07:00 TSİ: Yasak yaklaşık dört saat sonra kalktı. Ulaştırma Bakanı Duffy nedeni hava trafik merkezlerindeki eski analog telekom altyapısının aşırı yüklenmesi olarak açıkladı; İç Güvenlik Bakanı siber saldırı göstergesi olmadığını, incelemenin sürdüğünü söyledi. FlightAware ≈7.000 gecikme/iptal; iptaller hafta sonuna uzuyor (CBS, Fox Business, CNBC, ANI). Siber riski Δ0. 'olursa' uygulandı: Günün Dosyası'na alındı (Türkiye sorusu: İstanbul Havalimanı durma %5)."
    ]
   }
  ]

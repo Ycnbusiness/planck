@@ -1,0 +1,16 @@
+[
+ {
+  "saat": "11:00",
+  "tur": "story",
+  "klasor": "posts/2026-11-14-turkiye-katar-pakt-story",
+  "onem": 6,
+  "not": "Story Reel: Türkiye–Katar savunma anlaşması, çatışma 87→88; Peki Biz TBMM onayı %40. Story yayınlanamazsa olay zaten Dosya'da."
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-14-gunun-dosyasi",
+  "onem": 6,
+  "not": "2 olay: Türkiye–Katar paktı (87→88, %40), ABD FAA kalkış yasağı (siber Δ0, İstanbul Havalimanı %5; izleme 'olursa'). Spec: data/dosya/2026-11-14.json; render akşam görevi."
+ }
+]
