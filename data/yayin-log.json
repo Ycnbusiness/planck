@@ -155,5 +155,14 @@
   "tur": "sabah-turu",
   "durum": "planlanmadı",
   "not": "Kuyrukta ana akış öğesi yok. 11:00 Story (Türkiye–Katar paktı) atlandı: Planck portföyünde Instagram hesabı hâlâ yok; olay zaten 21:00 Dosya'da."
+ },
+ {
+  "tarih": "2026-11-14",
+  "saat": "21:20",
+  "kanal": "planck.news",
+  "tur": "carousel",
+  "klasor": "posts/2026-11-14-gunun-dosyasi",
+  "durum": "planlandı",
+  "not": "Günün Dosyası, 2 olay (Türkiye–Katar paktı, FAA kalkış yasağı). Düzeltme: 'Suudi ricasıyla saldırıları bekletti' → 'Körfez müttefiklerinin ertelemesini istediğini söyledi'; FAA nedeni 'eski telekom altyapısında aşırı yüklenme'. AI etiketi açık, FB kapalı."
  }
 ]
