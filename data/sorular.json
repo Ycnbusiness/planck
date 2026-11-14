@@ -1106,7 +1106,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: İran'ın zenginleştirilmiş uranyum konusunda taviz vermemesi ve anlaşmanın yazılı metne dönüşmeden 'statüko' olarak sürmesi.",
    "motor": 30,
-   "p": 30,
+   "p": 28,
    "ilk_p": 40,
    "durum": "acik",
    "sonuc": null,
@@ -1141,6 +1141,12 @@
      "p": 30,
      "motor": 30,
      "neden": "13.11: karşılıklı saldırı iddiaları ve Trump'ın yeniden saldırı uyarısı; LR 0,95"
+    },
+    {
+     "t": "2026-11-14",
+     "p": 28,
+     "motor": 30,
+     "neden": "14 Kasım: AP'ye göre İran Washington ateşkes koşullarını kabul etmeden nükleer programı konuşmayı reddediyor, Katar'ın ara deniz taşımacılığı formülü askıda; Reuters'a göre Trump 'İran'la anlaşmaya ihtiyacımız yok' dedi. Saldırıların bekletilmesi yazılı anlaşmaya yaklaşma göstergesi değil. LR 0,9."
     }
    ],
    "bagli": "risk-catisma"

@@ -131,5 +131,60 @@
       "olay": "İran'ın Hürmüz'de LPG gemisi ve dört tanker beyanları",
       "neden": "UKMTO/JMIC teyidi yok; izleme listesinde."
     }
-  ]
+  ],
+  "aksam": {
+    "scan_window": "2026-11-14 07:00 → 20:15 (TSİ)",
+    "dosya": "posts/2026-11-14-gunun-dosyasi (2 olay; Story yayınlanamadığı için Türkiye–Katar paktı Dosya'da kaldı). Yeni Dosya olayı yok, önem ≥12 olay yok.",
+    "sicil_guncelleme": [
+      {
+        "soru": "on-catisma-abd-iran-anlasma",
+        "from": 30,
+        "to": 28,
+        "lr": 0.9,
+        "neden": "AP: İran, ABD ateşkes koşullarını kabul etmeden nükleer görüşmeyi reddediyor; Katar'ın ara deniz taşımacılığı formülü askıda. Reuters: Trump 'İran'la anlaşmaya ihtiyacımız yok' dedi.",
+        "sources": [
+          "https://www.iranintl.com/en/liveblog/202611143682",
+          "https://www.ynetnews.com/article/h1rj3trafl",
+          "https://gulfnews.com/world/mena/middle-east-war-us-signals-restraint-as-iran-warns-of-retaliation-1.500746947"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "id": "trump-iran-saldiri-bekletme",
+        "risk": "catisma",
+        "delta": 0,
+        "from": 88,
+        "to": 88,
+        "onem": 0,
+        "onem_hesap": "|0| × Türkiye bağı 2 (Erdoğan'ın itidal çağrısı) × etki 3 = 0",
+        "event": "Reuters'a göre Trump, İran ya da Husilerden yeni provokasyon gelmezse saldırıları bekletebileceğini danışmanlarına söyledi; Suudi Veliaht Prensi ve Erdoğan son iki haftada saldırıların yeniden başlatılmamasını istedi. Aynı haberde üçüncü bir ABD uçak gemisinin bölgeye gelmekte olduğu, İsrail'in yeni çatışma senaryoları hazırladığı (Kanal 13) bildirildi. Rubio ekonomik baskının yeni saldırı ihtiyacını azalttığını söyledi (AP, Gulf News).",
+        "rationale": "İtidal sinyalleri ile askerî yığınak birbirini dengeliyor; sabah turunda 'Suudi ricasıyla saldırıların bekletilmesi' zaten karşı olgu olarak işlendi. Risk Δ0; yalnız ABD–İran yazılı anlaşma sorusu %30→%28.",
+        "sources": [
+          "https://www.ynetnews.com/article/h1rj3trafl",
+          "https://www.koreatimes.co.kr/world/20261114/trump-tells-advisers-he-may-hold-off-on-iran-attacks-barring-new-provocations-sources-say",
+          "https://gulfnews.com/uae/middle-east-war-7-things-uae-residents-need-to-know-tonight-november-14-1.500747461",
+          "https://www.iranintl.com/en/liveblog/202611143682"
+        ]
+      }
+    ],
+    "elenen": [
+      {
+        "olay": "Trump–Şi–Putin üçlü görüşmesi (19 Kasım, Shenzhen) gündeminin İran olacağı",
+        "neden": "Görüşme henüz yapılmadı; sonuç beklenmeden puan oynatılmadı."
+      },
+      {
+        "olay": "İran'ın 14 Kasım'da Hürmüz'de iki/üç tankerin mayına çarptığı beyanı",
+        "neden": "Gemi adı ve UKMTO/JMIC teyidi yok; izleme listesinde."
+      },
+      {
+        "olay": "Belçika İçişleri Bakanı'nın market soğutucu saldırılarında İran'ın olası rolünü dile getirmesi",
+        "neden": "Resmî atıf değil (Dışişleri 'erken' dedi); tek ajans kaynağı (AFP). on-siber-yeni-devlet-atfi kriteri karşılanmadı."
+      },
+      {
+        "olay": "KİK'in BM Güvenlik Konseyi'nde İran'dan tazminat talebi",
+        "neden": "Beyan; risk tablosunu oynatmıyor."
+      }
+    ]
+  }
 }
