@@ -37,6 +37,18 @@
    "notlar": [
     "2026-11-13: İran Devrim Muhafızları donanması, izinsiz rotayı kullanan bir LNG tankerinin mayına çarpıp patladığını açıkladı (Reuters/gCaptain, Al Arabiya); gemi adı ve UKMTO/JMIC teyidi yok. Doğrulanmadı."
    ]
+  },
+  {
+   "id": "abd-faa-ground-stop",
+   "acilis": "2026-11-14",
+   "olay": "FAA, 13 Kasım ~21:15 UTC'de hava trafik kontrol merkezlerini etkileyen iletişim arızası nedeniyle ABD'deki tüm havalimanları için ülke çapında kalkış yasağı (ground stop) ilan etti. FlightAware'e göre 18:04 ET itibarıyla 1.913 iptal, 10.494 gecikme. Doğrulanan olgu (CBS, ABC, NBC, MPR, The War Zone).",
+   "durum": "olgu doğrulandı; neden belirsiz",
+   "eksik": "Arızanın nedeni (teknik mi, siber saldırı mı), yasağın kalkış saati, toplam iptal sayısı, THY/İstanbul–ABD seferlerine etkisi",
+   "olursa": "Siber saldırı teyit edilirse siber/kritik altyapı riski yeniden değerlendirilir ve Olay ve Cevap; teknik arızaysa sabah taramasında 08:30 Olay ve Cevap ya da Dosya (haber değeri yüksek, risk Δ küçük). Türkiye bağı: THY ABD seferleri, ABD'deki Türk yolcular.",
+   "bitis": "2026-11-16",
+   "notlar": [
+    "2026-11-14 03:45 TSİ: Yusuf sordu. Kırmızı Alarm 00:19 ve 03:19 turlarında almadı: risk Δ ≥10 ölçütü karşılanmıyor (siber saldırı göstergesi yok, DHS 'bilinmiyor' dedi). Yapısal boşluk: risk oynatmayan ama haber değeri çok yüksek olaylar için yol yok."
+   ]
   }
  ]
 }
