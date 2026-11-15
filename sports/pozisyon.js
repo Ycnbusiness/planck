@@ -83,6 +83,6 @@ window.draw=draw;</script>`;
   for (let i = 0; i < FPS * DUR; i++) { const d = await pg.evaluate(t => { window.draw(t); return document.getElementById('c').toDataURL('image/jpeg', .9).split(',')[1]; }, i / FPS); if (!f.stdin.write(Buffer.from(d, 'base64'))) await new Promise(r => f.stdin.once('drain', r)); }
   f.stdin.end(); await new Promise(r => f.on('close', r)); await br.close();
   const music = path.join(R, 'audio', 'planck-arka-plan-radar-quiet.m4a');
-  await new Promise((res, rej) => spawn('ffmpeg', ['-y','-i',tmp,'-i',music,'-filter_complex',`[1:a]atrim=20:${20+DUR},asetpts=PTS-STARTPTS,afade=t=in:d=0.6,afade=t=out:st=${DUR-1.8}:d=1.6,loudnorm=I=-14:TP=-1.5[a]`,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-ar','48000','-b:a','128k','-movflags','+faststart','-shortest',OUT], { stdio: 'ignore' }).on('close', c => c ? rej(new Error('ffmpeg')) : res()));
+  await new Promise((res, rej) => spawn('ffmpeg', ['-y','-i',tmp,'-i',music,'-filter_complex',`[1:a]atrim=20:${20+DUR},asetpts=PTS-STARTPTS,afade=t=in:d=0.6,afade=t=out:st=${DUR-1.8}:d=1.6,loudnorm=I=-14:TP=-1.5[a]`,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-ar','48000','-b:a','128k','-movflags','+faststart','-use_editlist','0','-shortest',OUT], { stdio: 'ignore' }).on('close', c => c ? rej(new Error('ffmpeg')) : res()));
   fs.unlinkSync(tmp); console.log(OUT);
 })();
