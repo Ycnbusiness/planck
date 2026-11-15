@@ -172,5 +172,14 @@
   "tur": "sabah-turu",
   "durum": "planlanmadı",
   "not": "Ana akış öğesi yok. 11:00 Story (Ukrayna NATO/Donbas formülü) atlandı: Planck portföyünde Instagram hesabı yok; olay Dosya yedeğinde (data/dosya/2026-11-15.json)."
+ },
+ {
+  "tarih": "2026-11-15",
+  "saat": "13:40",
+  "kanal": "planck.news",
+  "tur": "story",
+  "klasor": "posts/2026-11-15-ukrayna-nato-donbas-story",
+  "durum": "planlandı",
+  "not": "İlk Story (MBS üzerinden, PNG kare; video işlenmedi). İçerik Irish Times/Reuters ve US News ile doğrulandı."
  }
 ]

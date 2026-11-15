@@ -102,3 +102,10 @@ Günlük taramanın **ilk adımı hakemliktir**, sonra tarama gelir:
 
 - Opus 5.5: Günlük Tarama, Haftalık Rapor, Günün Dosyası, T+ Hafta Sonu Haritası, T+ Karne. Sonnet 5.5: Kırmızı Alarm, T+ Avrupa Gecesi, Quant Açılış, Quant Haftalık (Quant yayını açılana kadar).
 - Ana oturumdaki 3 saatlik kontrol kaldırıldı. Bulut Kırmızı Alarm, @planck.news için KIRMIZI flaş üretip push ettiğinde "Planck flaş yayın (alarmla uyanır)" görevini (trig_01GgZkfkri4DJsWqzNgPyqDe) fire_trigger ile çalıştırır; ana oturum uyanır, olayı bağımsız olarak doğrular ve Chrome ile yayınlar. Sabah 08:00 ve akşam 20:40 yayın turları sürer.
+
+## Story planlama yolu (15.11.2026, çalışıyor)
+- planck.news, Meta Business Suite "Planck" portföyüne bağlandı (business_id 3974879262655090, IG asset 17841405514232179); Yusuf'a İçerik/Mesajlar/Topluluk/İstatistik izni atandı.
+- Yol: business.facebook.com/latest/content_calendar?asset_id=17841405514232179&business_id=3974879262655090 → "Gönderi oluştur" yanındaki ok → Hikaye oluştur.
+- Dosya girişi gizli: önce JS ile HTMLInputElement.prototype.click'i yamala (type=file ise body'ye ekle, picker açma), sonra "Fotoğraf/video ekle"ye tıkla, find ile file-input ref'ini bul, file_upload.
+- Video (reel.mp4) "Medya işleniyor"da takılıyor (15.11 iki deneme). Şimdilik Reel'den ~4. saniye karesi PNG (ffmpeg -ss 4 -frames:v 1) yüklenir.
+- Planla → saat/dakika spinbutton'larına ayrı ayrı tıklayıp iki hane yaz; en az 20 dk sonrası. Planlayıcıda saat görünür.
