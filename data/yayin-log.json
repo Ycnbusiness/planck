@@ -181,5 +181,14 @@
   "klasor": "posts/2026-11-15-ukrayna-nato-donbas-story",
   "durum": "planlandı",
   "not": "İlk Story (MBS üzerinden, PNG kare; video işlenmedi). İçerik Irish Times/Reuters ve US News ile doğrulandı."
+ },
+ {
+  "tarih": "2026-11-15",
+  "saat": "21:10",
+  "kanal": "planck.news",
+  "tur": "carousel",
+  "klasor": "posts/2026-11-15-gunun-dosyasi",
+  "durum": "planlandı",
+  "not": "Günün Dosyası, 2 olay (Bahreyn İHA, Bab el-Mandeb). Doğrulama: RFE/RL, Irish Times, Al-Monitor, NBC. AI etiketi açık, FB kapalı."
  }
 ]
