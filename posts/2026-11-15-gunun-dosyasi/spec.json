@@ -1,0 +1,28 @@
+{
+ "date": "15 KASIM 2026",
+ "lede": "Körfez'de ve Kızıldeniz'de iki gelişme: İran'ın Bahreyn'e yeni İHA saldırısı ve Yemen'de Bab el-Mandeb çevresinden çekilme.",
+ "not": "Sabahki Ukrayna olayı 13:40 Story ile yayınlandığı için Dosya'dan çıkarıldı. Akşam görevi iki yeni olay ekledi.",
+ "items": [
+  {
+   "tag": "Çatışma",
+   "title": "İran, Bahreyn'deki ABD radarını yeniden hedef aldı",
+   "text": "Bahreyn ordusu, ABD'nin hava savunma radarlarına yönelik İran saldırılarını önlediğini açıkladı; Devrim Muhafızları altı İHA fırlattığını söyledi. Üç günde ikinci girişim; hasar bildirilmedi.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 87,
+   "to": 88,
+   "pdo": "ABD'nin yeni saldırıları kışkırtma olmaması şartına bağladığı bildirilen bir dönemde, ABD 5. Filosu'na ev sahipliği yapan ülkeye saldırılar tırmanma eşiğini düşürüyor."
+  },
+  {
+   "tag": "Enerji",
+   "title": "Yemen'de hükümet güçleri Bab el-Mandeb çevresinden çekildi",
+   "text": "Güney Silahlı Kuvvetleri, Zubab ve Bab el-Mandeb bölgesinden Aden'e öncelik vermek için çekildiğini açıkladı; boğazı gören alan Husilerin kontrolüne geçti. Hürmüz'deki aksamayla birlikte ikinci bir deniz geçidinde baskı artıyor.",
+   "risk": "Kalıcı Enerji ve Lojistik Maliyetleri",
+   "from": 71,
+   "to": 72,
+   "pq": "Türk bayraklı ya da Türk armatörlü bir gemi 13 Şubat 2027'ye kadar Kızıldeniz'de saldırıya uğrar mı?",
+   "pp": 8,
+   "pdo": "Asya ile ticaretimizin önemli kısmı Süveyş'ten geçiyor; armatörlerin rota ve sigorta planını şimdiden gözden geçirmesi maliyeti sınırlar."
+  }
+ ],
+ "question": "Sizce iki boğazda aynı anda baskı, enerji ve navlun fiyatlarını kalıcı olarak yükseltir mi?"
+}

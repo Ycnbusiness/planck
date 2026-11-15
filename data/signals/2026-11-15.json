@@ -18,7 +18,7 @@
   "kirmizi": 0,
   "sari": 0,
   "yesil": 1,
-  "not": "Önem ≥12 olay yok; Olay ve Cevap çıkmadı. Zelenski'nin ABD'nin 'NATO üyeliği karşılığı Donbas' fikrini sorduğunu açıklaması (çatışma 88→87, önem 6) Story Reel'i oldu; Story yayınlanamazsa Günün Dosyası'nda yer alır. Hafta sonu haber akışı zayıf."
+  "not": "Önem ≥12 olay yok; Olay ve Cevap çıkmadı. Zelenski'nin ABD'nin 'NATO üyeliği karşılığı Donbas' fikrini sorduğunu açıklaması (çatışma 88→87, önem 6) Story Reel'i oldu; Story yayınlanamazsa Günün Dosyası'nda yer alır. Hafta sonu haber akışı zayıf. Akşam: İran'ın Bahreyn'e İHA saldırısı (çatışma 87→88) ve Bab el-Mandeb çekilmesi (enerji 71→72) Günün Dosyası'na girdi."
  },
  "events": [
   {
@@ -45,6 +45,51 @@
     "https://www.cnbc.com/2026/11/14/zelenskyy-us-ukraine-donbas-nato-membership.html",
     "https://www.yahoo.com/news/us/articles/us-floated-idea-ukraine-ceding-122531169.html"
    ]
+  },
+  {
+   "id": "iran-bahreyn-iha-15kasim",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 1,
+   "from": 87,
+   "to": 88,
+   "lr": 1.1,
+   "onem": 0,
+   "kuresel_onem": 3,
+   "onem_hesap": "Türkiye bağı 0 → küresel önem |1| × etki 3 = 3 → Dosya, Peki Biz yok",
+   "turkiye_bagi": 0,
+   "event": "Bahreyn ordusu 15 Kasım sabahı (yerel 04:00 ve 06:30) ABD hava savunma radarlarını hedef alan İran saldırılarını önlediğini açıkladı; IRGC Al-Riffa üssüne altı İHA fırlattığını söyledi. Hasar bildirilmedi; üç günde ikinci girişim. Aynı gece Suudi Arabistan Riyad'a atılan iki Husi balistik füzesini düşürdü.",
+   "rationale": "ABD'nin yeni saldırıları kışkırtma olmamasına bağladığı bildirilen dönemde ABD 5. Filosu'na ev sahipliği yapan ülkeye tekrarlanan saldırılar tırmanma riskini artırıyor; isabet yok. LR 1,1: 87 → 88.",
+   "pekibiz": [],
+   "sources": [
+    "https://www.rferl.org/a/bahrain-said-its-air-defenses-intercepted-and-destroyed-several-iranian-aerial-attacks/33898951.html",
+    "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html",
+    "https://www.theglobeandmail.com/world/article-bahrain-intercepts-iranian-aerial-attacks-as-tehran-claims-strikes-on/",
+    "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+   ]
+  },
+  {
+   "id": "yemen-bab-el-mandeb-cekilme",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 1,
+   "from": 71,
+   "to": 72,
+   "lr": 1.05,
+   "onem": 2,
+   "onem_hesap": "|1| × Türkiye bağı 1 (Asya ticaretinin Süveyş rotası, navlun) × etki 2 (Yüksek) = 2 → Dosya",
+   "turkiye_bagi": 1,
+   "event": "Yemen hükümetine bağlı Güney Silahlı Kuvvetleri 15 Kasım'da Zubab havalimanı ve Bab el-Mandeb çevresinden Aden'i önceliklendirmek için çekildiğini açıkladı; boğazı gören alan Husilerin kontrolüne geçti. Hükümet güçleri bölgeyi Ekim'de geri almıştı.",
+   "rationale": "Hürmüz'deki aksamayla eşzamanlı olarak ikinci deniz geçidinde Husi konumu güçleniyor; ancak Kızıldeniz'de yeni ticari gemi saldırısı bildirilmedi. Zayıf-orta kanıt, LR 1,05: 71 → 72. Yeni Peki Biz: Türk bağlantılı gemi saldırısı 13 Şubat 2027'ye kadar %8 (Taban %10 · Claude −2).",
+   "pekibiz": [
+    "pb-2026-11-15-kizildeniz-turk-gemi"
+   ],
+   "sources": [
+    "https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/",
+    "https://www.dailysabah.com/world/mid-east/yemen-govt-forces-retreat-leaves-bab-el-mandeb-control-to-houthis",
+    "https://themedialine.org/headlines/saudi-backed-yemeni-forces-withdraw-from-bab-el-mandeb-leaving-houthis-in-control/",
+    "https://www.newarab.com/news/iran-targets-bahrain-yemen-forces-withdraw-strait"
+   ]
   }
  ],
  "sicil_guncelleme": [
@@ -59,6 +104,18 @@
    "from": 17,
    "to": 18,
    "lr": 1.1
+  },
+  {
+   "soru": "risk-catisma",
+   "from": 87,
+   "to": 88,
+   "lr": 1.1
+  },
+  {
+   "soru": "risk-enerji",
+   "from": 71,
+   "to": 72,
+   "lr": 1.05
   }
  ],
  "elenen": [
@@ -81,6 +138,26 @@
   {
    "olay": "Hollanda koalisyonunun servet vergisi krizini atlatması (13 Kasım)",
    "neden": "13 Kasım taramasında işlendi; yeni gelişme yok."
+  },
+  {
+   "olay": "UKMTO 205-26: Hürmüz'e girmeden önce Körfez'de bir tanker saldırıya uğradı, mürettebat güvende",
+   "neden": "Mevcut kampanyanın devamı; Δ0, izleme notuna işlendi."
+  },
+  {
+   "olay": "Kremlin: Putin, Şi ve Trump 19 Kasım'da APEC kenarında Shenzhen'de görüşecek",
+   "neden": "Zirve henüz yapılmadı; puan oynatılmadı."
+  },
+  {
+   "olay": "Türkiye dahil 18 ülkenin İsrail'in Nasır Tıp Kompleksi saldırısını kınaması",
+   "neden": "Diplomatik tepki; Δ0."
+  },
+  {
+   "olay": "İtalya veri koruma kurumunun Meta'ya 805 milyon € cezası",
+   "neden": "Mevcut risklerden birini oynatmıyor."
   }
- ]
+ ],
+ "aksam": {
+  "scan_window": "2026-11-15 06:45 → 20:30 (TSİ)",
+  "dosya": "posts/2026-11-15-gunun-dosyasi (2 olay)"
+ }
 }

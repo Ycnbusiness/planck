@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85.0,
-   "p": 87,
+   "p": 88,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -78,6 +78,12 @@
      "p": 87,
      "motor": 85.0,
      "neden": "Zelenski (14.11): ABD, Donbas'tan çekilme karşılığında NATO üyeliği fikrini ilk kez sordu; Kiev referandum şartı koydu, Rusya yanıt vermedi. Zayıf kanıt, LR 0,95."
+    },
+    {
+     "t": "2026-11-15",
+     "p": 88,
+     "motor": 85.0,
+     "neden": "15.11 akşam: İran'ın Bahreyn'deki ABD radarına üç günde ikinci İHA saldırısı (Bahreyn önledi, hasar yok); LR 1,1"
     }
    ]
   },
@@ -98,7 +104,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Hürmüz'ün 2027 başında açılması, OPEC kapasitesinin dönmesi ve talep zayıflığıyla fiyatın 2028'den itibaren 70–80 bandına inmesi.",
    "motor": 55.0,
-   "p": 71,
+   "p": 72,
    "ilk_p": 71,
    "durum": "acik",
    "sonuc": null,
@@ -151,6 +157,12 @@
      "p": 71,
      "motor": 55.0,
      "neden": "Akşam: TCMB Enflasyon Raporu petrol varsayımlarını yükseltti (2026 ort. 87,8→97,2; 2027 76,4→86,7 $) ve enerji kaynaklı arz şoklarını başlıca risk saydı; kurumsal tahmin yüksek maliyetin 2027'ye taşınacağını öngörüyor (LR 1,05)"
+    },
+    {
+     "t": "2026-11-15",
+     "p": 72,
+     "motor": 55.0,
+     "neden": "15.11 akşam: Yemen hükümet güçleri Bab el-Mandeb çevresinden çekildi, Husiler boğazı gören alanı kontrol ediyor; Hürmüz'le birlikte ikinci boğaz baskısı; LR 1,05"
     }
    ]
   },
@@ -1824,6 +1836,37 @@
     }
    ],
    "bagli": "risk-catisma"
+  },
+  {
+   "id": "pb-2026-11-15-kizildeniz-turk-gemi",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Türk bayraklı ya da Türk armatöre ait bir ticari gemi 13 Şubat 2027'ye kadar Kızıldeniz, Bab el-Mandeb ya da Aden Körfezi'nde saldırıya uğrar mı?",
+   "acilis": "2026-11-15",
+   "deadline": "2027-02-13",
+   "kriter": "15 Kasım 2026 ile 13 Şubat 2027 arasında Türk bayraklı ya da Türk şirketine ait/işletilen bir ticari gemi Kızıldeniz, Bab el-Mandeb ya da Aden Körfezi'nde füze, İHA, insansız deniz aracı, mayın veya silahlı ele geçirme girişimiyle hedef alınırsa (isabet olmasa da saldırı UKMTO/JMIC kaydına girerse) evet.",
+   "kaynak_cozum": "UKMTO veya JMIC bildirimi + Reuters/AP haberi ya da T.C. Ulaştırma ve Altyapı Bakanlığı açıklaması",
+   "taban": "Referans sınıfı: 2023–2025 Husi deniz kampanyasında hedefler ağırlıkla İsrail, ABD ve İngiltere bağlantılı gemilerdi; Türkiye bağlantılı gemiler büyük ölçüde hedef dışı kaldı. Üç aylık pencere için taban ≈%10. Claude −2: bugünkü çekilme Husilere boğaz üzerinde konum kazandırsa da son raporlarda Kızıldeniz'de ticari gemi saldırısı yok; saldırılar Suudi hedeflerine yöneliyor.",
+   "mercekler": [
+    "Uluslararası ilişkiler: Türkiye'nin Gazze konusundaki tutumu Husilerin Türkiye bağlantılı gemileri hedef alma isteğini azaltıyor, aşağı",
+    "Askerî coğrafya: Husilerin boğazı gören kıyıya yerleşmesi her bayraktan gemi için kaza ve yanlış hedefleme riskini artırır, yukarı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Husiler kampanyayı Suudi Arabistan'la ilişkili tüm ticarete genişletir ve Türk armatörlü bir gemi bu kapsamda vurulursa olasılığı düşük vermiş oluruz.",
+   "motor": 10,
+   "p": 8,
+   "ilk_p": 8,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-15",
+     "p": 8,
+     "motor": 10,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-enerji"
   }
  ]
 }
