@@ -1,0 +1,16 @@
+[
+ {
+  "saat": "11:00",
+  "tur": "story",
+  "klasor": "posts/2026-11-15-ukrayna-nato-donbas-story",
+  "onem": 6,
+  "not": "Story Reel: Zelenski–ABD NATO/Donbas formülü, çatışma 88→87; Peki Biz Türkiye'de görüşme turu %20. Story yayınlanamazsa olay Dosya'da."
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-15-gunun-dosyasi",
+  "onem": 6,
+  "not": "data/dosya/2026-11-15.json (1 olay, yedek); akşam görevi render eder. Story yayınlandıysa ve yeni olay yoksa Dosya çıkmaz."
+ }
+]

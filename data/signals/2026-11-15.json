@@ -1,0 +1,86 @@
+{
+ "date": "2026-11-15",
+ "scan_window": "2026-11-14 20:15 → 2026-11-15 06:45 (TSİ)",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "değişiklik yok"
+ },
+ "gecis": {
+  "dogrula": "eksikli kayıt 0; ≤90 gün oranı %41 (hedef ≥%60)"
+ },
+ "izleme": {
+  "hurmuz-dort-tanker": "İran'ın 14 Kasım 'üç tanker mayına çarptı' beyanı (AFP aktarımı) için gemi adı ve UKMTO/JMIC teyidi yok. UKMTO'nun 14 Kasım haftalık özeti 11 Kasım'a kadarki 7 tanker saldırısını kapsıyor (işlendi). Doğrulanmadı.",
+  "bahreyn-abd-radar": "Yeni teyit yok.",
+  "abd-faa-ground-stop": "Kapandı (teknik arıza); FAA ertesi gün toparlanma bekliyor."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 0,
+  "yesil": 1,
+  "not": "Önem ≥12 olay yok; Olay ve Cevap çıkmadı. Zelenski'nin ABD'nin 'NATO üyeliği karşılığı Donbas' fikrini sorduğunu açıklaması (çatışma 88→87, önem 6) Story Reel'i oldu; Story yayınlanamazsa Günün Dosyası'nda yer alır. Hafta sonu haber akışı zayıf."
+ },
+ "events": [
+  {
+   "id": "ukrayna-nato-donbas-formulu",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": -1,
+   "from": 88,
+   "to": 87,
+   "lr": 0.95,
+   "onem": 6,
+   "onem_hesap": "|−1| × Türkiye bağı 2 (Ukrayna'nın NATO üyeliği TBMM onayı gerektirir; Karadeniz; Türkiye 2022 ve 2025 görüşmelerine ev sahipliği yaptı) × etki 3 (Çok yüksek)",
+   "turkiye_bagi": 2,
+   "event": "Ukrayna Devlet Başkanı Zelenski 14 Kasım'da Dublin'deki AB zirvesinde, ABD'li müzakerecilerin ilk kez Ukrayna'nın NATO'ya katılması halinde Donbas'tan çekilip çekilmeyeceğini sorduğunu söyledi. Zelenski, Rusya'nın kontrol etmediği toprakları devretmeyi reddettiğini, ancak güvenlik garantileri ve yeniden inşa fonunu içeren kapsamlı bir paket teyit edilirse kararı halkoyuna sunacağını belirtti. AB liderleri barış görüşmelerinde Avrupa'yı E5 ve AB kurumlarının temsil etmesini kararlaştırdı. ABD ve Rusya'dan resmî açıklama yok.",
+   "rationale": "NATO üyeliğini toprak meselesine bağlayan ilk formül, uzlaşma için yeni bir eksen açıyor; ancak Rusya Ukrayna'nın NATO üyeliğini savaşın gerekçelerinden biri ve kırmızı çizgi sayıyor, Kiev referandum şartı koyuyor ve ABD teyidi yok. Zayıf kanıt, LR 0,95: 88 → 87. Ateşkes öncü sorusu %17 → %18 (LR 1,1). 31 Aralık ateşkes sorusu %11'de kaldı (süre çok kısa). Yeni Peki Biz sorusu: görüşmelerin bir turu 31 Mart 2027'ye kadar Türkiye'de %20 (Taban %25 · Claude −5).",
+   "secondary": [],
+   "pekibiz": [
+    "pb-2026-11-15-ukrayna-gorusme-turkiye"
+   ],
+   "sources": [
+    "https://www.rte.ie/news/europe/2026/1114/1599202-us-ukraine-russia/",
+    "https://aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato",
+    "https://www.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl",
+    "https://www.cnbc.com/2026/11/14/zelenskyy-us-ukraine-donbas-nato-membership.html",
+    "https://www.yahoo.com/news/us/articles/us-floated-idea-ukraine-ceding-122531169.html"
+   ]
+  }
+ ],
+ "sicil_guncelleme": [
+  {
+   "soru": "risk-catisma",
+   "from": 88,
+   "to": 87,
+   "lr": 0.95
+  },
+  {
+   "soru": "on-catisma-rusya-ateskes",
+   "from": 17,
+   "to": 18,
+   "lr": 1.1
+  }
+ ],
+ "elenen": [
+  {
+   "olay": "İran: Hürmüz'de üç tanker mayına çarpıp yandı (14 Kasım)",
+   "neden": "Yalnız İran beyanı; gemi adı, UKMTO/JMIC teyidi yok. İzleme listesinde."
+  },
+  {
+   "olay": "UKMTO haftalık özeti: 11 Kasım'a kadar 7 tanker saldırısı, Hürmüz geçişleri savaş öncesinin ≈%65 altında",
+   "neden": "Önceki günlerde işlenen olayların özeti; geçiş sayısı (308) bir önceki haftaya (325) yakın. on-enerji-hurmuz-gecis %31'de kaldı."
+  },
+  {
+   "olay": "Ukrayna'nın Samara'da petrol tesisi ve hava üssüne saldırısı; Rusya saldırılarında Zaporijya'da çok sayıda yaralı",
+   "neden": "Mevcut eğilimin devamı (rafineri kampanyası 11 Kasım'da işlendi); Δ0."
+  },
+  {
+   "olay": "Beyaz Saray: Trump–Şi–Putin zirvesinin odağı Ukrayna olmayacak",
+   "neden": "Zirve henüz yapılmadı; puan oynatılmadı."
+  },
+  {
+   "olay": "Hollanda koalisyonunun servet vergisi krizini atlatması (13 Kasım)",
+   "neden": "13 Kasım taramasında işlendi; yeni gelişme yok."
+  }
+ ]
+}

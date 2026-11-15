@@ -1,0 +1,19 @@
+{
+ "date": "15 KASIM 2026",
+ "lede": "Hafta sonunun kayda değer gelişmesi: ABD'nin Ukrayna'ya NATO üyeliği karşılığında Donbas'tan çekilmeyi sorduğu ortaya çıktı.",
+ "not": "Olay önem 6 ile Story'ye yönlendirildi; Story yayınlanamazsa Dosya'da yer alır (14 Kasım uygulaması). Akşam görevi yeni olay eklerse birlikte render edilir.",
+ "items": [
+  {
+   "tag": "Çatışma",
+   "title": "Zelenski: ABD, Donbas karşılığında NATO üyeliğini sordu",
+   "text": "Ukrayna Devlet Başkanı, ABD'li müzakerecilerin ilk kez NATO üyeliği karşılığında Donbas'tan çekilme fikrini sorduğunu söyledi. Kiev toprak devrini reddediyor; kapsamlı bir paket gelirse kararı halkoyuna sunacak.",
+   "risk": "Kronik Bölgesel Çatışmalar",
+   "from": 88,
+   "to": 87,
+   "pq": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+   "pp": 20,
+   "pdo": "Türkiye 2022 ve 2025'te İstanbul turlarına ev sahipliği yaptı; bugünkü süreç ise ABD aracılığıyla Abu Dabi'de yürüyor."
+  }
+ ],
+ "question": "Sizce NATO üyeliği karşılığında toprak formülü barışa yaklaştırır mı, yoksa Rusya'nın tepkisiyle süreci zorlaştırır mı?"
+}

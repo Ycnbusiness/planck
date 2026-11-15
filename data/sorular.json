@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85.0,
-   "p": 88,
+   "p": 87,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -72,6 +72,12 @@
      "p": 88,
      "motor": 85.0,
      "neden": "Türkiye ile Katar 13 Kasım'da karşılıklı savunma anlaşması imzaladı; Körfez'de savaşın sürmesine yönelik bölgesel güvenlik arayışı. Karşı olgu: Trump, Suudi Arabistan'ın yeni saldırıları erteleme ricası nedeniyle beklediğini söyledi (LR 1,05)"
+    },
+    {
+     "t": "2026-11-15",
+     "p": 87,
+     "motor": 85.0,
+     "neden": "Zelenski (14.11): ABD, Donbas'tan çekilme karşılığında NATO üyeliği fikrini ilk kez sordu; Kiev referandum şartı koydu, Rusya yanıt vermedi. Zayıf kanıt, LR 0,95."
     }
    ]
   },
@@ -1069,7 +1075,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: ABD'nin Ukrayna'ya yardımı ateşkese bağlaması ve Kiev'in kış altyapı kayıpları altında kabul etmesi.",
    "motor": 15,
-   "p": 17,
+   "p": 18,
    "ilk_p": 18,
    "durum": "acik",
    "sonuc": null,
@@ -1086,6 +1092,12 @@
      "p": 17,
      "motor": 15,
      "neden": "Abu Dabi görüşmeleri ateşkessiz bitti; ABD elçileri 12 Kasım'da Putin'le görüşecek (LR 0,95)"
+    },
+    {
+     "t": "2026-11-15",
+     "p": 18,
+     "motor": 15,
+     "neden": "ABD'nin NATO üyeliği–Donbas formülü yeni bir uzlaşma ekseni açtı; Rusya'nın NATO kırmızı çizgisi ve Ukrayna'nın referandum şartı nedeniyle zayıf, LR 1,1."
     }
    ],
    "bagli": "risk-catisma"
@@ -1781,6 +1793,37 @@
     }
    ],
    "bagli": "risk-siber"
+  },
+  {
+   "id": "pb-2026-11-15-ukrayna-gorusme-turkiye",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+   "acilis": "2026-11-15",
+   "deadline": "2027-03-31",
+   "kriter": "Rusya ve Ukrayna resmî heyetlerinin aynı müzakere turuna katıldığı (doğrudan ya da aracılı) bir görüşme 15 Kasım 2026 ile 31 Mart 2027 arasında Türkiye topraklarında yapılırsa evet. Yalnız esir takası teknik temasları ya da tek tarafla yapılan görüşmeler sayılmaz.",
+   "kaynak_cozum": "Reuters veya AP haberi + T.C. Dışişleri Bakanlığı açıklaması",
+   "taban": "İki referans sınıfı: (1) 2022–2026 arasında doğrudan heyet görüşmesi yapılan dönemlerin yaklaşık yarısında ev sahibi Türkiye oldu (Mart 2022 ve 2025 İstanbul turları); 4,5 aylık pencere için ≈%25. (2) Güncel süreç ABD aracılığıyla Abu Dabi'de yürüyor ve Avrupa E5 ile ayrı bir kanal kurdu; mekân değişikliği için somut işaret yok. Karma taban %25. Claude −5: ABD aracılı format ve Körfez ev sahipliği sürüyor.",
+   "mercekler": [
+    "Uluslararası ilişkiler: Türkiye her iki tarafla konuşabilen az sayıdaki NATO üyesinden; NATO–toprak formülü masaya gelirse NATO içi bir arabulucu ihtiyacı artabilir, yukarı",
+    "Oyun teorisi: mekân, aracı ABD'nin tercihine bağlı; mevcut Abu Dabi kanalı işlerken mekân değiştirme maliyeti var, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: Abu Dabi kanalı tıkanır ve taraflar 2025'teki gibi İstanbul'a dönerse olasılığı düşük vermiş oluruz.",
+   "motor": 25,
+   "p": 20,
+   "ilk_p": 20,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-15",
+     "p": 20,
+     "motor": 25,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-catisma"
   }
  ]
 }
