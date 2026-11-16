@@ -3,7 +3,8 @@
 Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o haftanın maddelerinden yapılmamış olanı yapar ve yanına `[x] tarih` yazar. Kurallar: ANAYASA.md v2, TARAMA.md "Yöntem v2". Gerekçe: ekip/KARAR.md.
 
 ## Hafta 1 · 17–23 Kas — ölç ve hazırlan
-- [ ] 8–15 Kasım sinyallerinde S×K'yı geriye dönük hesapla; ≥1,4 / 0,4 eşiklerini ayarla, sonucu buraya yaz
+- [x] 16.11 · 10–16 Kasım sinyallerinde S×K geriye dönük hesaplandı (`ekip/AB-TEST-1.md`). Eşikler kalır; S kısa vadeli soruda ölçülür, 2031 endeksinde değil.
+- [ ] Şiddeti konu eden mevcut soruları bahis testine göre gözden geçir (ilk: `pb-2026-11-16-karadeniz-turk-gemi`)
 - [ ] `risk-catisma` yuvarlama düzeltmesi: geçmişi LR tablosuyla ondalıklı yeniden hesapla, `sicil.py guncelle` ile "düzeltme" notuyla işle
 - [ ] `nv-1` "Neden Yanıldık" taslağı (Quant durduğu için yayın Yusuf onayıyla)
 - [ ] 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar

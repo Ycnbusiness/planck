@@ -67,6 +67,7 @@ Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalı
 ### Önem puanı ve yönlendirme (Yöntem v2)
 Her olay için: **Önem = S × K**.
 - **S (sürpriz)** = olayın oynattığı her soruda |Δlogit| toplamı (`ln(LR)`; zayıf 0,22 · orta 0,69 · güçlü 1,39 · belirleyici 2,30).
+- **S her zaman olayın oynattığı kısa vadeli (≤90 gün) soruda ölçülür, 2031 endeksinde değil** (A/B testi 1).
 - **K (karar ilgisi)**, oynayan sorular içinde en yükseği: 3 okurun 90 gün içinde parasına, işine, güvenliğine ya da seyahatine doğrudan değen eşik; 2 fiyat ya da iş zinciri üzerinden dolaylı; 1 dünyayı anlamak için.
 
 | Önem | Nereye | Ne üretilir |
