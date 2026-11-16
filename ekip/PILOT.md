@@ -9,6 +9,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 - [ ] 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar
 - [ ] Taban ölçümü Story'leri (eski biçimle): "%12 sence ne demek?" ve "Bir risk haberinden sonra ne yapacağını biliyor musun?" (anket çıkartması MBS'de yoksa Yusuf'a telefondan ekleme notu)
 - [ ] `data/zayif-sinyal.json` dosyasını aç
+- [ ] Olay ve Cevap v2 (5 sayfa: Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler) betiğini yaz (`news/olaycevap2.js`), örnek çıktıyı Yusuf'a göster
 - [ ] 10×10 kare dizisi ve yeni künyeyi kart betiklerine ekle (`news/pekibiz.js`, `news/dosya.js`, `card.js`); örnek çıktıyı Yusuf'a göster
 
 ## Hafta 2 · 24–30 Kas — yeni biçim yayında

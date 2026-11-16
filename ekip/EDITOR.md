@@ -68,14 +68,15 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
 30. Frekans cümlesi var mı (taban varsa gerçek sayılarla, yoksa "Tabanı yok")?
 31. %80 üstü ya da %20 altıysa ters taraf yazılmış mı ("100'de 12 durumda olmaz")?
 32. "Kesin", "kaçınılmaz", "felaket" gibi kelimeler, ünlem, emoji ya da kırmızı alarm estetiği var mı? → Varsa **DÜZELT**.
-33. Görselde taşma, yanlış tarih ya da yanlış hesap adı var mı? Editör PNG'ye bakar.
+33. Olay ve Cevap v2'de beş sayfa sırası tam mı (Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler)? 4. sayfada Motor ile ayar ayrı, 5. sayfada örneklem uyarısı var mı?
+34. Görselde taşma, yanlış tarih ya da yanlış hesap adı var mı? Editör PNG'ye bakar.
 
 ## G · Künye ve platform (son kontrol)
 
-34. Künyenin üç satırı tam mı: Claude'un hesabı, insanın rolü ve "insan onayından geçmedi", kaynak adları, soru kimliği, "Kimseden fon almıyoruz"?
-35. "Yatırım veya politika tavsiyesi değildir" satırı var mı?
-36. Instagram'da yapay zekâ etiketi açık, Facebook paylaşımı kapalı mı (yayın adımında doğrulanır)?
-37. Doğru hesap mı (@planck.news), doğru saat mi, önceki gönderiden en az 2 saat sonra mı?
+35. Künyenin üç satırı tam mı: Claude'un hesabı, insanın rolü ve "insan onayından geçmedi", kaynak adları, soru kimliği, "Kimseden fon almıyoruz"?
+36. "Yatırım veya politika tavsiyesi değildir" satırı var mı?
+37. Instagram'da yapay zekâ etiketi açık, Facebook paylaşımı kapalı mı (yayın adımında doğrulanır)?
+38. Doğru hesap mı (@planck.news), doğru saat mi, önceki gönderiden en az 2 saat sonra mı?
 
 ---
 

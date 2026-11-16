@@ -105,7 +105,14 @@ Takvim formatları olay şişirmez; sessiz gün sessiz kalır.
 - Kırmızı alarm kuyruğu beklemez, hemen çıkar.
 
 ### Formatlar
-- **Olay ve Cevap** (`node news/pekibiz.js spec.json çıktı/`, spec'te `"header":"PLANCK · OLAY VE CEVAP"`, `slides:4`, tek ring): 1 olay ve olasılık · 2 ne oldu (3 satır, iki bağımsız kaynak) · 3 Peki Biz? (Türkiye'ye uyarlanmış 1–2 tarihli soru, Taban + Claude) · 4 Ne yapabiliriz + soru.
+- **Olay ve Cevap v2 (16.11.2026, Yusuf onayı; pilot 2. haftadan itibaren, betik hazır olunca)** — 5 sayfa:
+  1. **Haber:** olgu, iki kaynak, yorum yok.
+  2. **Neden?:** tarafların söyledikleri; kendi cümlelerimizle, taraf tutmadan. İddia ile olgu ayrı.
+  3. **Ne olur?:** olayın kendisi değil, sonuçları soru olur (1–3 soru; bahis testi). Her biri: soru + son tarih + %X · 100'de X.
+  4. **Olasılıklar — bu sayılar nasıl çıktı?:** Motor (taban/piyasa), Claude ayarı (+/− ve neden), frekans cümlesi, üç bağımsız hesabın aralığı (yalnız ana soru için).
+  5. **Karne ve riskler:** bu konudaki kapanışlarımız + genel karne ("N kapanış; az örnek" uyarısı 30 kapanışa kadar), izlenecek gösterge, ne yapabilirsin.
+  Türkiye bağı varsa 3. sayfadaki sorulardan en az biri Türkiye'deki okura değer (benzin, uçuş, kur değil — kur Quant'ta). Görsel: 10×10 kare dizisi.
+- **Olay ve Cevap v1 (2. haftaya kadar)** (`node news/pekibiz.js spec.json çıktı/`, spec'te `"header":"PLANCK · OLAY VE CEVAP"`, `slides:4`, tek ring): 1 olay ve olasılık · 2 ne oldu (3 satır, iki bağımsız kaynak) · 3 Peki Biz? (Türkiye'ye uyarlanmış 1–2 tarihli soru, Taban + Claude) · 4 Ne yapabiliriz + soru.
 - **Olay Reel'i** (`node scripts/olayreel.js spec.json çıktı.mp4`): olay → risk değişimi → Peki Biz? → kapanış, 16 sn.
 - **Günün Dosyası** (`node news/dosya.js spec.json çıktı/`).
 - **Haftalık Reel** (`node scripts/reel.js`, 30 sn; liste 15–20 riske kadar sayfalanır).
