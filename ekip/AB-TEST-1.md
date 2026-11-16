@@ -6,7 +6,7 @@ A = eski sistem (Önem = |Δ| × Türkiye bağı × etki; 2031 risklerinde ölç
 |---|---|---|---|---|
 | 1 | ABD Başkanı: "İran savaşı fiilen bitti, abluka kalkacak" (10 Kas) | Ana akış (puan 20) | **DÜZELT → Ana akış** | Soru: "Motorin 30 Kasım'a kadar 95 TL altına iner mi?" LR 2 · K 3 → 2,1. Ama "savaş bitti" olgu değil, beyan; başlık "dedi" olmalı. (Sonraki günler: Hürmüz kapalı, saldırılar sürdü.) |
 | 2 | Ukrayna Rus rafinerilerinin ~%30'unu devre dışı bıraktı (11 Kas) | Story (8) | **Ana akış** | Motorin sorusu, LR 2 · K 3 → 2,1. Eylem var (dizel alımı zamanlaması), 30 gün sonra önemli. Eski sistem bunu küçümsedi. |
-| 3 | Fransa market soğutma saldırısını İran'a atfetti (10 Kas) | Ana akış (12) | **Günün Dosyası** | K 1 (anlamak için). Okurun yapacağı bir şey yok → kapı 2 zayıf. |
+| 3 | Fransa market soğutma saldırısını İran'a atfetti (10 Kas) | Ana akış (12) | **Story** *(16.11 Yusuf itirazıyla düzeltildi; ilk hüküm Dosya)* | İran suçlamayı reddetti (iddia + inkâr, ikisi de yazılır). Emsal: bir AB devleti sivil altyapıya siber saldırıyı ilk kez bir devlete resmen atfetti. Soru: "AB 90 gün içinde İran'a siber yaptırım kararı alır mı?" LR 2 · K 2 (Fransa'daki Türk okur için gıda zinciri; Türkiye için emsal) → 1,4. |
 | 4 | Çin kritik mineral kontrollerini askıya aldı (10 Kas) | Dosya (4) | **Dosya** | LR 2 · K 2 → 1,4 sınırda; eylem yok. |
 | 5 | ABD Ekim enflasyonu beklentinin üstünde (11 Kas) | Quant (durmuş) → yok | **Story** | Makro takvim artık News'te. Soru: "TCMB Aralık'ta faiz indirir mi?" LR 1,25 · K 3 → 0,66. |
 | 6 | İran devlet medyası: Sirik'e hava saldırısı (13 Kas) | Story (6) | **BEKLET** | Tek kaynak (devlet medyası), kimse üstlenmedi. Olgu kontrolü geçmez. |
@@ -26,8 +26,8 @@ A = eski sistem (Önem = |Δ| × Türkiye bağı × etki; 2031 risklerinde ölç
 | | A (eski) | B (yeni) |
 |---|---|---|
 | Ana akış | 3 (#1, #3, #11) | 2 (#1 düzeltilmiş, #2) |
-| Story | 4 (#2, #6, #7, #9) | 4 (#5, #10, #11, #12) |
-| Dosya | 1 | 3 |
+| Story | 4 (#2, #6, #7, #9) | 5 (#3, #5, #10, #11, #12) |
+| Dosya | 1 | 2 |
 | Bekletilen / düzeltilen | 0 | 1 bekletildi, 2 düzeltildi |
 | Ses ve İz adayı | — | 2 (#8, #13) |
 | Okura eylem sunan ana akış | 1 / 3 | 2 / 2 |

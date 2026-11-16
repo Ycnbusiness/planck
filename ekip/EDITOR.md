@@ -48,6 +48,9 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
     - Taslağın gittiği yer bu eşikle uyuşmuyorsa **DÜZELT** (doğru yere yönlendir).
 18. **Kapı 1:** "Bu sayıyı bilen okur neyi farklı düşünür ya da yapar?" tek cümleyle yazılmış mı?
 19. **Kapı 2:** Bu hafta yapılabilecek, düşük bedelli bir eylem ya da dürüst "bireysel olarak yapılacak yok; izlenecek gösterge şu" cümlesi var mı?
+19a. **Okur kimdir?** Türkçe okuyan herkes: Türkiye'de yaşayan ve yurt dışındaki Türkler (Almanya, Fransa, Hollanda, Körfez…). Olay yurt dışındaki okurun hayatına doğrudan değiyorsa K o okura göre verilir; eylem satırı o okura yazılır ("Fransa'da yaşıyorsan: …").
+19b. **Gri haber kuralı:** Okurun yapacağı bir şey yoksa ama olay bir **emsal** ise (bir şey ilk kez oluyor ve dünyanın bir kuralını değiştiriyor: ilk resmi atıf, ilk yaptırım, ilk saldırı türü), kapı 2 "izlenecek gösterge" cümlesiyle geçer ve K en az 2 olur. Emsal olmayan, eylemsiz olay Dosya'dan yukarı çıkmaz.
+19c. **İddia ve inkâr:** Suçlama haberinde karşı tarafın cevabı (kabul, ret, sessizlik) aranır ve 2. sayfada ("Neden?") yazılır. Cevap yoksa "henüz yanıt vermedi" yazılır.
 20. **Kapı 3:** Olay 30 gün sonra hâlâ önemli mi?
     → Kapılardan biri hayırsa **REDDET** (olay sicile işlenebilir, ilgisi varsa perşembe Ses ve İz adayı yazılır).
 21. Bugün ana akışta zaten bir Olay ve Cevap var mı? Varsa ve olay kırmızı değilse **BEKLET** (yarın ya da Dosya).
