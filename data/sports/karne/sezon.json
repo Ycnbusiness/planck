@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "guncelleme": "2026-11-09",
+ "guncelleme": "2026-11-16",
  "gercek": [],
  "deneme": [],
  "bekleyen": [
@@ -12,5 +12,12 @@
    "yayinlandi": false
   }
  ],
- "not": "9 Kasım 2026 itibarıyla puanlanacak tahmin yok: yayınlanmış hafta yok (data/sports/launched yok), tek motor tahmini 12. haftaya ait ve oynanmadı."
+ "not": "16 Kasım 2026: milli ara nedeniyle puanlanacak maç yok. 12. hafta motor tahmini (week12-motor.json) 20–23 Kasım'da oynanacak maçlar için bekliyor; yayınlanmış hafta yok (data/sports/launched yok).",
+ "kayit": [
+  {
+   "tarih": "2026-11-16",
+   "hafta_araligi": "2026-11-13/2026-11-16",
+   "durum": "Kasım milli arası (FIFA penceresi 9–17 Kasım): Süper Lig ve 5 büyük ligde maç oynanmadı; sonuç dosyası açılmadı, puanlanan tahmin yok."
+  }
+ ]
 }
