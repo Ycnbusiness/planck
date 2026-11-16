@@ -11,7 +11,7 @@
  },
  "izleme": {
   "bahreyn-abd-radar": "Bitiş günü; radar isabeti doğrulanmadı → düştü.",
-  "hurmuz-dort-tanker": "15 Kasım gecesi yeni İran iddiası (tanker mayına çarptı, yangın); tek kaynak, Reuters doğrulayamadı. Doğrulanmadı."
+  "hurmuz-dort-tanker": "15 Kasım gecesi yeni İran iddiası (tanker mayına çarptı, yangın); tek kaynak, Reuters doğrulayamadı. Doğrulanmadı. Akşam: UKMTO bir tankerin vurulduğunu doğruladı (hurmuz-tanker-ukmto-16kasim); IRGC'nin altı tanker/mayın iddiası hâlâ doğrulanmadı."
  },
  "summary": {
   "kirmizi": 0,
@@ -106,6 +106,42 @@
     "https://www.brecorder.com/news/40449125/oil-prices-fall-on-expectations-of-coming-supply-surplus",
     "https://www.cnbc.com/amp/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html"
    ]
+  },
+  {
+   "id": "hurmuz-tanker-ukmto-16kasim",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "soru": "on-enerji-hurmuz-gecis",
+   "delta_soru": "31 → 26 (ondalık 26,4)",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "lr": 0.8,
+   "S": 0.22,
+   "K": 2,
+   "onem": 0.45,
+   "onem_hesap": "S = |ln 0,8| = 0,22; K = 2 (akaryakıt ve navlun üzerinden dolaylı) → 0,45 → Story/Dosya bandı; o gün ikinci olay olmadığı için Dosya çıkmaz.",
+   "turkiye_bagi": 1,
+   "event": "UKMTO, 16 Kasım 05:58 UTC'de Hürmüz Boğazı'ndan çıkan bir tankerin kimliği belirsiz bir mermiyle vurulduğunu, makine dairesinde yangın çıktığını, mürettebatın güvende olduğunu bildirdi ve olayı saldırı olarak sınıflandırdı. IRGC aynı gün güney rotasında ABD yönlendirmesindeki iki tankerin mayına çarptığını ve iki günde altı tankerin yandığını öne sürdü; bu iddia doğrulanmadı.",
+   "rationale": "Kasım başından beri süren gemi saldırıları dizisine yeni, resmî kaynakla doğrulanmış bir halka; geçişin toparlanması aleyhine zayıf kanıt (LR 0,8). risk-enerji (2031 ortalama fiyat) için LR 1,2 altında: Brent gün içinde arz fazlası beklentisiyle %1'den fazla geriledi. risk-catisma sabah güncellendi; aynı eğilim, ayrı Δ yok. IRGC'nin altı tanker iddiası tek kaynaklı, hesaba katılmadı.",
+   "pekibiz": [],
+   "sources": [
+    "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071",
+    "https://www.arabnews.com/middle-east/british-authority-tanker-targeted-by-unknown-projectile-in-strait-of-hormuz-fire-erupts-3012196",
+    "https://www.ibtimes.com/tanker-hit-unidentified-projectile-strait-hormuz-3809799",
+    "https://www.jpost.com/middle-east/article-915014",
+    "https://www.euronews.com/2026/11/16/us-and-iran-slide-closer-to-fresh-all-out-war-as-new-exchange-of-fire-increases",
+    "https://www.cnbc.com/2026/11/16/oil-prices-fall-on-expectations-of-coming-supply-surplus.html"
+   ]
   }
- ]
+ ],
+ "aksam": {
+  "scan_window": "2026-11-16 06:45 → 20:15 (TSİ)",
+  "gorev": "Günün Dosyası (akşam)",
+  "sonuc": "Dosya eşiğini (önem 0,4–1,4) geçen tek olay: Hürmüz'de tanker vuruldu (önem 0,45). İkinci olay yok → Günün Dosyası üretilmedi. Önem ≥1,4 yeni olay yok; kuyruğa ekleme yapılmadı. Yöntem v2 eşikleri uygulandı (TARAMA.md 'Yöntem v2').",
+  "zayif_sinyal": [
+   "ukrayna-1336-iha-rusya",
+   "ab-50-banka-yaptirim"
+  ]
+ }
 }

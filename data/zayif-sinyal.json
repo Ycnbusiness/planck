@@ -1,0 +1,34 @@
+{
+ "aciklama": "Zayıf Sinyal Defteri (Anayasa v2 §3): LR < 1,2 kanıtlar. Sayı oynatmaz; haftada bir toplu değerlendirilir, aynı tema tek kanıt sayılır.",
+ "ogeler": [
+  {
+   "tarih": "2026-11-16",
+   "id": "ukrayna-1336-iha-rusya",
+   "tema": "Rusya–Ukrayna karşılıklı İHA savaşı",
+   "bagli": [
+    "risk-catisma",
+    "risk-enerji"
+   ],
+   "olay": "Rusya Savunma Bakanlığı 15–16 Kasım gecesi 1.336 Ukrayna İHA'sı düşürdüğünü açıkladı (bağımsız doğrulanamıyor); Krasnodar'da Ilski rafinerisi bölgesinde ve Rostov'un Azov ilçesinde yangınlar, Kırım köprüsünde trafik kısıtlaması bildirildi. Aynı gece Rusya Ukrayna'ya 158 İHA fırlattı.",
+   "neden_zayif": "Karşılıklı saldırı yoğunluğu mevcut eğilim; sayı tek taraflı iddia.",
+   "kaynaklar": [
+    "https://abcnews.com/International/ukraine-fires-1336-drones-russia-wars-largest-attacks/story?id=138171397",
+    "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+   ]
+  },
+  {
+   "tarih": "2026-11-16",
+   "id": "ab-50-banka-yaptirim",
+   "tema": "AB'nin Rusya'ya baskısı",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "AB yaklaşık 50 banka ve finans kuruluşunu yaptırım listesine aldı; Kallas ateşkesin önce gelmesi gerektiğini yineledi. Kremlin yardımcısı Avrupalıların bir sonraki barış turuna katılacağı yönündeki ABD açıklamasını reddetti.",
+   "neden_zayif": "Müzakere tıkanıklığını doğrulayan beklenen gelişme.",
+   "kaynaklar": [
+    "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war",
+    "https://www.usnews.com/news/world/articles/2026-11-16/kremlin-aide-denies-russia-agreed-to-include-europe-in-ukraine-peace-talks"
+   ]
+  }
+ ]
+}
