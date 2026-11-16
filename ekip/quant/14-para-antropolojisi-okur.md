@@ -30,9 +30,7 @@ Quant'ın açık sorularının yarısı (altın 4.500$, Dolar/TL 60, TCMB Aralı
 
 ### 1.2 Konut: "Toprak kaybettirmez"
 
-Konut, niyette ikinci sırada (%35,6). Ama ING'de birikimi olanların yalnızca yaklaşık %4'ü gayrimenkulü bir birikim aracı olarak sayıyor (grafikten okunan değer, yaklaşık). Arzu ile erişim arasındaki bu uçurum sınıfsaldır: Konut, birikimi yetenin güvencesidir.
-
-**Quant için:** Konut fiyatı eşik soruları dikkatli açılmalı. "Konut fiyatları düşer mi?" sorusu, kiracı için bir umut, ev sahibi için bir tehdit olarak okunur.
+Konut niyette ikinci (%35,6), ama ING'de birikimi olanların yalnızca yaklaşık %4'ü gayrimenkulü birikim aracı olarak sayıyor (grafikten okunan yaklaşık değer). Arzu ile erişim arasındaki uçurum sınıfsaldır. **Quant için:** "Konut fiyatları düşer mi?" kiracıya umut, ev sahibine tehdit olarak okunur.
 
 ### 1.3 Faiz ve dinî hassasiyet
 
@@ -127,10 +125,8 @@ Bu kümeler hipotezdir. Aynı soru her kümede başka bir şey ifade eder. Örne
 Quant yayında değil, yani bugün ölçülebilecek bir Quant okuru yok. Doğrulama, mevcut @planck.quant takipçisi ve News kitlesi üzerinden yapılır.
 
 1. **Instagram İstatistikleri (1. hafta):** Takipçilerin yaş, cinsiyet, il ve ülke dağılımı. Bu taban ölçümdür; hiçbir kişisel veri toplanmaz.
-2. **Kitle anketi (3–6. haftalar):** Biyografideki bağlantıdan 8 soruluk anonim bir form. Ad, e-posta ve telefon sorulmaz; KVKK aydınlatma notu eklenir. Hedef en az 300 yanıt. Sorular: gelir türü (maaş, ticaret, emekli, öğrenci, yurt dışı), birikimin biçimi (altın, döviz, TL, borsa, kripto, birikim yok), parayla ilgili kararı kim veriyor (ben, eşimle birlikte, ailem), "Quant'tan ne beklersin?" (açık uçlu), faizsiz ürün tercihi (evet, hayır, fark etmez).
-
-   Not: KARAR §2.8'e göre Quant'ta *tahmin* anketi yapılmaz. Bu anket tahmin değil, kimlik ve ihtiyaç sorar; yine de karar vericinin onayı gerekir.
-3. **DM ve yorum kodlaması (sürekli):** Her mesaj altı koddan birini alır: tavsiye arayışı ("ne alayım"), korku, yöntem sorusu, düzeltme, siyasi itiraz, alay. "Ne alayım" mesajlarının oranı hem FOMO'nun hem de Quant'ın ne olduğunun anlaşılmadığının göstergesidir.
+2. **Kitle anketi (3–6. haftalar):** Biyografi bağlantısından 8 soruluk anonim form; ad, e-posta, telefon yok; KVKK notu var; hedef en az 300 yanıt. Sorular: gelir türü (maaş, ticaret, emekli, öğrenci, yurt dışı), birikim biçimi (altın, döviz, TL, borsa, kripto, yok), kararı kim veriyor (ben, eşimle, ailem), faizsiz ürün tercihi, "Quant'tan ne beklersin?" (açık uçlu). KARAR §2.8 Quant'ta *tahmin* anketini yasaklıyor; bu anket kimlik ve ihtiyaç sorar, yine de onay gerekir.
+3. **DM ve yorum kodlaması (sürekli):** Altı kod: tavsiye arayışı ("ne alayım"), korku, yöntem sorusu, düzeltme, siyasi itiraz, alay. "Ne alayım" oranı hem FOMO'nun hem de Quant'ın anlaşılmadığının göstergesidir.
 4. **Mülakat (4–10. haftalar):** 12 yarı yapılandırılmış görüşme, her kümeden ikişer kişi. Kritik olay tekniği: "En son parayla ilgili bir karar verirken neye baktın?" Ardından üç kart prototipi: "Bunu kime gönderirdin?" ve "%45 sana ne söylüyor?"
 5. **Karar kuralı:** Bir küme, ankette yanıtların en az %10'unu oluşturur ve mülakatta ayırt edici bir ihtiyacı görünürse "doğrulandı" sayılır. Doğrulanmayan küme için ayrı cümle yazılmaz.
 
@@ -172,7 +168,7 @@ Bu liste QUANT.md §1'deki yasak sözcüklerin (al, sat, tut, topla, hedef fiyat
 | Borç batağı, kartını batıran | Utandırır | Kredi kartı borcunun gelire oranı X (kaynak) |
 | Dolar 60 olacak | Kesinlik, yön | Dolar/TL'nin 8 Kasım 2027'ye kadar 60'ı aşma olasılığı %55 |
 
-**Uygulama:** Bu sözlüğü `quant/` altında bir yasak sözcük listesine çevirip yayın öncesi otomatik taramaya bağlamak, tek seferlik ve düşük maliyetli bir iş. Dosyayı ben açmadım; karar ve uygulama sizde.
+**Uygulama:** Sözlük, yayın öncesi otomatik taramaya bağlanacak bir yasak sözcük listesine çevrilebilir (tek seferlik iş; dosyayı açmadım).
 
 ---
 
