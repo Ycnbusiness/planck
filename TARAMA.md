@@ -53,6 +53,9 @@ Yatırım veya politika tavsiyesi değildir.
 ## Yayın
 Görevler **asla kendi başına yayınlamaz**. Kartı repoya koyar ve kullanıcıya bildirir. Kullanıcı "yayınla" deyince Instagram'a Chrome üzerinden konur (AI etiketi açık, Facebook paylaşımı kapalı).
 
+## Editör (16.11.2026)
+Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalıştırmada** `ekip/EDITOR.md` listesinden geçer. Üreten çalıştırma editörlük yapamaz. Yalnız **YAYINLA** hükmü alan içerik planlanır; hüküm `data/yayin-log.json` kaydına `editor` alanıyla yazılır.
+
 ## Otomatik yayın (09.11.2026 kararı)
 
 İki bağımsız güvenilir kaynakla doğrulanmış içerik onay beklemeden yayınlanır. Yayından önce Claude ana iddiayı kendisi iki bağımsız kaynakta yeniden doğrular; tek kaynak, söylenti veya resmi olmayan iddia yayınlanmaz. Her yayın `data/yayin-log.json`a kaynakları ve doğrulama sonucuyla kaydedilir; yanlış veri oranı buradan izlenir. Planck T+ bu kuralın dışındadır.
