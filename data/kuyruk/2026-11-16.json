@@ -4,13 +4,15 @@
   "tur": "haftalik-reel",
   "klasor": null,
   "onem": null,
-  "not": "Pazartesi haftalık Reel'e ayrılmıştır (bu taramanın kapsamı dışında)."
+  "not": "Pazartesi haftalık Reel'e ayrılmıştır (bu taramanın kapsamı dışında).",
+  "durum": "haftalık görev 07:34 çıktı vermedi; 09:40 yeniden tetiklendi, hedef 14:00"
  },
  {
   "saat": "11:00",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
   "onem": 12,
-  "not": "Karadeniz'de Sulina açıklarında gemilere İHA saldırısı; çatışma 88→90; Peki Biz %70. Carousel (4) + reel.mp4."
+  "not": "Karadeniz'de Sulina açıklarında gemilere İHA saldırısı; çatışma 88→90; Peki Biz %70. Carousel (4) + reel.mp4.",
+  "durum": "planlandı 11:00 + Reel 12:00"
  }
 ]

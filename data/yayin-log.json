@@ -190,5 +190,23 @@
   "klasor": "posts/2026-11-15-gunun-dosyasi",
   "durum": "planlandı",
   "not": "Günün Dosyası, 2 olay (Bahreyn İHA, Bab el-Mandeb). Doğrulama: RFE/RL, Irish Times, Al-Monitor, NBC. AI etiketi açık, FB kapalı."
+ },
+ {
+  "tarih": "2026-11-16",
+  "saat": "11:00",
+  "kanal": "planck.news",
+  "tur": "carousel",
+  "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
+  "durum": "planlandı",
+  "not": "Olay ve Cevap: Sulina İHA saldırıları. Doğrulama: qz, Kyiv Post, maritime.bg. AI açık, FB kapalı."
+ },
+ {
+  "tarih": "2026-11-16",
+  "saat": "12:00",
+  "kanal": "planck.news",
+  "tur": "reel",
+  "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
+  "durum": "planlandı",
+  "not": "Olay Reel'i (48 kHz/faststart ile yeniden paketlendi)."
  }
 ]
