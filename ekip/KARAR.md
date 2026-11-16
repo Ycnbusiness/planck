@@ -226,3 +226,15 @@ Yanıt sayısı 30'un altında kalan anketle hüküm verilmez; ölçüm bir ay u
 3. **Makro takvim soruları News'te serbest mi?** Enflasyon verisi, faiz kararı, akaryakıt fiyatı karar ilgisi en yüksek ve en hızlı kapanan sorular. Önerim: veri ve karar soruları News'te; varlık fiyatı eşikleri (kur, altın, endeks) Quant'ta ve durmuş kalsın.
 4. **Türkiye iç siyaseti.** Pilot boyunca seçim ve yargı sorularını tümüyle yasakladım. Bu kalıcı mı olsun, yoksa pilot sonrası "sonuç üzerinden, kişi ve parti adı olmadan" dar bir kapı açılsın mı?
 5. **§0 cümlesi.** "Planck haber vermez; geleceğe etkisini sayıyla ölçer" iddiası, senin hedefinle (güven veren, hayatı şekillendirmeye yarayan veri) aynı şey değil. Önerdiğim metni mi, kendi cümleni mi koyalım?
+
+---
+
+## 6. Kurucu kararları (16.11.2026, Yusuf)
+
+1. **Onay:** News onaysız yayınlanmaya devam eder; künye bunu açıkça yazar.
+2. **Sicil:** Halka açılır. "Kimseden fon almıyoruz" künyeye girer.
+3. **Makro takvim:** Veri ve karar soruları News'te; varlık fiyatı eşikleri Quant'ta (durmuş).
+4. **Türkiye iç siyaseti:** Pilot boyunca tam yasak; 15.12.2026'dan itibaren kişi ve parti adı geçmeyen süreç soruları için dar kapı. Kazanan, oy oranı, kişi ve süren dava yasağı kalıcı.
+5. **§0:** "Planck, belirsiz bir gelecek karşısında insanın doğru düşünmesine yardım eder: her sayıyı bir soru, bir son tarih ve yapılabilecek bir şeyle verir; sonra yanılıp yanılmadığının hesabını açıkça verir."
+
+**Uygula:** Anayasa v2 ve TARAMA.md "Yöntem v2" yazıldı; pilot 17.11.2026'da başlar (`ekip/PILOT.md`).

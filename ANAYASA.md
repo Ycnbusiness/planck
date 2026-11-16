@@ -1,14 +1,14 @@
-# Planck Anayasası (v1 · 10.11.2026)
+# Planck Anayasası (v2 · 16.11.2026)
 
 Bu belge Planck'in bütün kanallarını bağlar. `TARAMA.md`, `QUANT.md`, `SPOR.md`, `kanit/KANIT.md` kanal kurallarıdır; bu belgeyle çelişirlerse **Anayasa geçerlidir**. Her zamanlanmış görev işe başlamadan önce bu dosyayı okur. Değişikliği yalnızca Yusuf yapar; her değişiklik sürüm numarası ve tarihle en alta işlenir.
 
 ## 0. İddia
 
-Planck haber vermez. Haberin **geleceğe etkisini sayıyla ölçer** ve o sayının **tutup tutmadığının hesabını verir**.
+Planck, belirsiz bir gelecek karşısında insanın doğru düşünmesine yardım eder: her sayıyı bir soru, bir son tarih ve yapılabilecek bir şeyle verir; sonra yanılıp yanılmadığının hesabını açıkça verir.
 
-Ölçülebilir hedef: Planck'in kapanmış sorulardaki Brier skoru, üç rakibin her birinden düşük olacak: (1) yazı-tura (%50), (2) kendi Motoru, (3) varsa piyasa fiyatlaması. Bunu gösteremediğimiz yerde "daha iyi tahmin ediyoruz" demeyiz.
+Haberin birimi **sorudur**: kısa vadeli, sonucu belirsiz, okurun bir kararına ya da kavrayışına değen soru. Olay, bir sorunun güncellemesidir.
 
-## 1. Yedi ilke
+## 1. Dokuz ilke
 
 1. **Sorusuz sayı yok.** Yayınlanan her olasılık, sicile (`data/sorular.json`) kayıtlı, tarihli, evet/hayır ile kapanabilen bir soruya bağlıdır. Soruya bağlanamayan sayı yayınlanmaz.
 2. **Önce dış görünüm.** Her tahmin "benzer durumlar geçmişte ne sıklıkla böyle sonuçlandı" sorusuyla başlar. Güncel haber, taban oranın üstüne ayar olarak gelir; yerine geçmez.
@@ -17,6 +17,8 @@ Planck haber vermez. Haberin **geleceğe etkisini sayıyla ölçer** ve o sayın
 5. **Kayıt geri alınmaz.** Her tahmin ve her güncelleme git geçmişinde zaman damgasıyla durur. Kapanmış bir sorunun olasılığı, sorusu ya da kriteri sonradan değiştirilmez. Yanlış sayı silinmez; düzeltme olarak işlenir.
 6. **Karne herkese açıktır.** Tutanlar da ıskalar da aynı görünürlükte yayınlanır. Büyük ıska ayrıca incelenir (§5).
 7. **Ölçemediğimizi söyleriz.** Taban oranı bulunamayan ya da kapanış kriteri yazılamayan konu "ölçülemiyor" diye etiketlenir; uydurma sayı verilmez. Sessiz gün içerik şişirilerek doldurulmaz.
+8. **Sayı tek başına çıkmaz.** Her olasılık sorusu, son tarihi, 100'de karşılığı ve kaynağıyla yayınlanır (§2.1).
+9. **Eylemsiz tehdit yok.** Okura değen her risk, yapılabilecek bir şeyle ya da "bireysel olarak yapılacak yok; izlenecek gösterge şu" cümlesiyle çıkar.
 
 ## 2. Soru standardı
 
@@ -31,10 +33,25 @@ Bir soru şu altı alan olmadan sicile girmez:
 | Taban | Referans sınıfı ve oranı; yoksa `taban yok` etiketi. |
 | Ön-otopsi | "Bu tahmin yanlış çıkarsa en olası sebep" tek cümle. |
 
-- **Ufuk karması:** Öğrenme hızı kapanan soru sayısına bağlıdır. Yeni açılan soruların en az %60'ı 90 gün içinde kapanmalıdır.
-- **Uzun ufuklu riskler (2031 tablosu):** Tabloda kalır ama her risk için (a) 2031 kapanış kriteri yazılır, (b) aynı riski yakın vadede sınayan en az iki **öncü soru** (≤ 6 ay) açılır. Riskin olasılığı öncü sorularla tutarlı hareket etmek zorundadır.
-- **Belirsiz kapanış:** Kriter sonucu ayıramıyorsa soru `iptal` edilir, puanlanmaz, nedeni yazılır. Kriter sonradan esnetilmez.
-- **Yasak soru:** Kişilerin ölümü/sağlığı, tekil hisse yönü, bahis sonucu olarak okunacak biçimde yazılmış maç sorusu, suç isnadı.
+- **Ufuk karması:** Yeni soruların en az %80'i 90 gün içinde, bunların yarısı 30 gün içinde kapanır. Pilot boyunca 365 günü aşan yeni soru açılmaz. Omurga takvimli veri ve karar olaylarıdır (enflasyon, faiz kararı, akaryakıt, resmi karar). Varlık fiyatı eşikleri (kur, altın, endeks) yalnız Quant'tadır.
+- **Bant:** Açılışta olasılık %15–85. İstisna `kuyruk` etiketi (düşük olasılık, çok yüksek etki): havuzun en fazla %15'i, karnede ayrı satır. %90 üstüne ya da %10 altına geçen soru **sessiz izlemeye** alınır: puanlanır, içerik üretmez; yerine daha keskin soru açılır.
+- **Hacim:** Günde en fazla 4 açılış; açık soru tavanı 70.
+- **Uzun ufuk (2031 tablosu):** Yayın birimi değildir. Haftada bir toplu güncellenir, sitede ve aylık karnede "Uzun Ufuk" olarak gösterilir. Öncü sorular sürer.
+- **Belirsiz kapanış:** İptal iki türdür: *belirsiz* (gerçeklik ayırt edilemiyor) ve *hatalı soru*. İkisi de puanlanmaz, ayrı sayılır. Kriter sonradan esnetilmez. Her soru "kâhin testi"nden geçer: sonucu bilen biri 15 dakikada kapatabilmelidir.
+- **Yasak soru:** Kişilerin ölümü/sağlığı, tekil hisse yönü, bahis sonucu olarak okunacak biçimde yazılmış maç sorusu, suç isnadı ve §9'daki Türkiye çizgileri.
+
+### 2.1 Sunum standardı
+
+Her sayı şu sırayla çıkar; eksik parçayla yayınlanmaz:
+
+1. Soru ve son tarih, sayıyla aynı satırda.
+2. Tam sayı yüzde ve "100'de X" birlikte. Ondalık yok.
+3. Frekans cümlesi. Taban varsa gerçek sayılarla ("Geçmişte benzer 14 durumun 4'ünde oldu."); yoksa "Tabanı yok. Bu tür 100 tahminimizin yaklaşık X'inin gerçekleşmesini bekleriz."
+4. Aralık, yalnız üç geçiş yapılmışsa ve "üç bağımsız hesabın aralığı" adıyla. "Güven aralığı" denmez.
+5. Ters taraf, %80 üstünde ve %20 altında zorunlu: "100'de 12 durumda olmaz."
+6. Eylem satırı (ilke 9).
+
+Görsel: sabit 10×10 kare dizisi; boyutu hiç değişmez. Kırmızı alarm estetiği ve tek başına sözel ölçek ("yüksek", "olası") yasak. Karne dili "Dedik %X · Oldu / Olmadı"dır; "tuttu/tutmadı" kullanılmaz.
 
 ## 3. Tahmin üretim protokolü (sekiz adım)
 
@@ -64,7 +81,7 @@ Olasılık puan ekleyerek değil, **log-odds üzerinde** güncellenir; böylece 
 | Güçlü | 4 | Kuralı ya da yapıyı değiştiren olay (yasa, anlaşma, savaş ilanı) | %80 | %96 |
 | Belirleyici | 10 | Sonucu neredeyse tayin eden olay; yalnız kırmızı alarmda | %91 | %97 (tavan) |
 
-Ters yöndeki kanıt için `1/LR`. Aynı olgunun ikinci haberi yeni kanıt değildir. Kanal dosyalarındaki puan eşikleri (kırmızı ≥10, sarı 3–9) **yayın kararı** için geçerliliğini korur; sayı bu tabloyla hesaplanır. Tek olay 15 puan sınırı sürer.
+Ters yöndeki kanıt için `1/LR`. Aynı olgunun ikinci haberi yeni kanıt değildir. LR 1,2'nin altındaki kanıt sayıya işlenmez; **Zayıf Sinyal Defteri**'ne yazılır, haftada bir toplu değerlendirilir, aynı tema tek kanıt sayılır. Hesap ondalıkla taşınır; yalnız yayın anında yuvarlanır. Kanal dosyalarındaki puan eşikleri (kırmızı ≥10, sarı 3–9) **yayın kararı** için geçerliliğini korur; sayı bu tabloyla hesaplanır. Tek olay 15 puan sınırı sürer.
 
 ## 4. Disiplin mercekleri
 
@@ -84,7 +101,8 @@ Ters yöndeki kanıt için `1/LR`. Aynı olgunun ikinci haberi yeni kanıt deği
 ## 5. Puanlama ve öğrenme
 
 - **Ölçüler:** Brier skoru (ana), logaritmik skor, kalibrasyon tablosu (onluk dilimler), beceri skoru = `1 − Brier / Brier_referans`.
-- **Rakipler:** %50, Motor, piyasa. Planck (Motor + Claude) her birine karşı ayrı raporlanır.
+- **Ana ölçü:** Motor'a göre beceri skoru. Rakipler: %50, Motor, piyasa; Planck (Motor + Claude) her birine karşı ayrı raporlanır. Karne her farkın yanında örneklem büyüklüğünü ve şans payını söyler ("N kapanış; bu fark şans olabilir"). Brier amaç değil, hesap verme aracıdır.
+- **Yön hatası:** Olumsuz sonuçlara verdiğimiz ortalama olasılık ile gerçekleşme oranı her karnede raporlanır (kötüyü fazla mı bekliyoruz?). Siyasi kampa göre döküm yapılmaz.
 - **Hakem:** Soruyu kapatan çalıştırma, tahmini üreten çalıştırma değildir. Kapanış, kriterde yazan kaynağın bağlantısıyla yapılır: `python3 scripts/sicil.py kapat <id> evet|hayir <kaynak>`. İtirazı Yusuf karara bağlar.
 - **Asgari örneklem:** 30 kapanmış sorudan önce "isabet" iddiası yayınlanmaz; yalnız ham sonuçlar ("7 soru kapandı: 5 tuttu") verilir.
 - **Kalibrasyon düzeltmesi:** 50 kapanmış sorudan sonra kalibrasyon eğrisi çıkarılır; sistematik sapma varsa (ör. %70 dediklerimiz %55 tutuyorsa) yayın öncesi düzeltme katsayısı uygulanır ve bu açıklanır. Üç ayda bir yeniden ölçülür.
@@ -101,7 +119,9 @@ Her olay bu sırayla işlenir; cevaplanamayan soru içerikte boş bırakılır, 
 4. **Sonra ne olur?** Birinci ve ikinci halka etkiler, her biri tarihli soru olarak (Ne Olur?).
 5. **Peki biz?** Türkiye'deki okur için somut, tarihli soru (Peki Biz?).
 
-**Gürültü testi:** "Bu olay 30 gün sonra hâlâ önemli olur mu?" Cevap hayırsa ana akışa çıkmaz.
+**Önem = S × K** (ayrıntı TARAMA.md). S: olayın oynattığı sorulardaki |Δlogit| toplamı. K: karar ilgisi (3 okurun 90 gün içinde parasına, işine, güvenliğine, seyahatine doğrudan; 2 dolaylı; 1 anlamak için). Türkiye bağı önemi çarpmaz; yalnız üçüncü sayfanın "Peki Biz?" mi "Neden Önemli" mi olacağını seçer.
+
+**Üç insan kapısı** (veto; hepsi evet olmalı): (1) "Bu sayıyı bilen okur neyi farklı düşünür ya da yapar?" tek cümleyle yazılabiliyor. (2) Bu hafta uygulanabilir, düşük bedelli bir eylem ya da dürüst "yapılacak yok; izlenecek gösterge şu" cümlesi var. (3) Olay 30 gün sonra hâlâ önemli. Kapıdan geçmeyen içerik puanı ne olursa olsun yayınlanmaz.
 
 ## 7. Organizasyon
 
@@ -123,12 +143,22 @@ Planck'te bütün masalar Claude'dur; ayrım kişide değil **görevde ve çalı
 
 - Olgu hatası fark edildiği gün düzeltilir: gönderi açıklamasının başına "Düzeltme:" notu, `data/yayin-log.json`'a kayıt. Gönderi silinmez (hukuki zorunluluk hariç).
 - Olasılık hatası (hesap yanlışı) sicilde `duzeltme` kaydıyla işlenir; eski sayı görünür kalır ve o sayı puanlanır.
-- Her içerikte: yapay zekâ etiketi açık, "Claude ile hazırlanmıştır" künyesi, kanalına göre "yatırım / bahis tavsiyesi değildir".
+- Her içerikte yapay zekâ etiketi açık ve şu künye (kanalına göre "yatırım / bahis tavsiyesi değildir" eklenir):
+  > Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
+  > İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
+  > Kaynaklar: [en az iki kaynak] · Soru kaydı: [kimlik] · Kimseden fon almıyoruz.
+  Onay cümlesi yalnız gerçekten onaylanan içerikte (Quant, T+) "yayın öncesi insan onayından geçti" olur. "Kayıt değiştirilemez" cümlesi sicil halka açık yayınlandığı gün eklenir.
+- Sicil (`data/sorular.json`) ve karne halka açıktır.
 - Yöntem (bu belge) herkese açıktır.
 
 ## 9. Kırmızı çizgiler
 
-Yön/al-sat/hedef fiyat yok (SPK). Bahis oranı ve dili yok. Kişi ve parti hakkında övgü-yergi yok. Kaynak alıntısı yok, kendi cümlelerimizle. Kulüp logosu yok. Tek kaynaklı iddia olasılık oynatmaz. Sayı uydurmak, sonradan soru değiştirmek, ıskayı gizlemek: kuruluş amacına aykırıdır.
+Yön/al-sat/hedef fiyat yok (SPK).
+
+**Türkiye çizgileri — olasılık yayınlanmaz:** (1) süren dava, soruşturma, mahkeme kararı ve parti kapatma; (2) seçim ve referandumda kazanan ya da oy oranı; (3) adı geçen kişinin görevi, sağlığı, hukuki durumu; (4) terör saldırısı ve suikast; (5) belirli yer ve tarih için deprem olasılığı (resmi bilimsel kurumun uzun vadeli tahmini, hazırlık adımıyla aktarılabilir). Resmi istatistik kurum adıyla verilir; ne doğrulanır ne yalanlanır. Okurun yaşadığı deneyim küçümsenmez. Dinî dil alay konusu olmaz. Hassas sorularda yorum çağrısı yapılmaz. *Pilot sonrası (15.12.2026'dan itibaren) dar kapı:* kişi ve parti adı geçmeyen **süreç soruları** (ör. "Seçim tarihi X'ten önce resmen ilan edilir mi?") açılabilir; kazanan, oy oranı, kişi ve süren dava yasağı kalıcıdır.
+
+ Bahis oranı ve dili yok. Kişi ve parti hakkında övgü-yergi yok. Kaynak alıntısı yok, kendi cümlelerimizle. Kulüp logosu yok. Tek kaynaklı iddia olasılık oynatmaz. Sayı uydurmak, sonradan soru değiştirmek, ıskayı gizlemek: kuruluş amacına aykırıdır.
 
 ---
 Sürüm: v1 · 10.11.2026 · ilk metin.
+Sürüm: v2 · 16.11.2026 · Yusuf onayı (ekip/KARAR.md): §0 yeni iddia; haberin birimi soru; ilke 8–9; ufuk ve bant kuralları; sunum standardı; Zayıf Sinyal Defteri; beceri skoru ve yön hatası; Önem = S×K ve üç insan kapısı; yeni künye, sicil açık; Türkiye çizgileri ve pilot sonrası süreç kapısı.

@@ -4,6 +4,8 @@
 
 Bu dosya zamanlanmış görevlerin talimat kitabıdır. Görevler her çalışmada bunu okur.
 
+> **Yöntem v2 yürürlükte (16.11.2026, Anayasa v2).** Haberin birimi sorudur; önem S×K; üç insan kapısı; yeni künye. Aşağıdaki "Yöntem v2" bölümü, bu dosyadaki eski puan eşikleriyle çelişirse geçerlidir. Pilot: 17 Kasım – 14 Aralık 2026 (`ekip/PILOT.md`).
+
 ## Veri
 - `data/risks.json`: güncel olasılıklar (tek doğru kaynak). Her değişiklikten sonra `updated` alanı ve ilgili `p` güncellenir.
 - `data/history.json`: günlük kayıt. Her tarama sonunda o günün değerleri eklenir (değişiklik olmasa da).
@@ -35,10 +37,15 @@ Caption şablonu:
 
 <2–3 cümle: ne oldu, neden önemli>
 
-Etkilenen risk: <risk adı>
-Olasılık: %<eski> → %<yeni> (<bant>)
+Soru: <soru> (<son tarih>)
+Sayımız: %<yeni> · 100'de <yeni> (önce %<eski>)
+<frekans cümlesi: "Geçmişte benzer N durumun M'sinde oldu." ya da "Tabanı yok.">
+Ne yapabilirsin: <eylem ya da "Bireysel olarak yapılacak yok; izlenecek gösterge: …">
 
-Bu değerlendirme Anthropic'in yapay zekâ modeli Claude tarafından güncel haberler taranarak hazırlanmıştır. Yatırım veya politika tavsiyesi değildir.
+Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
+İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
+Kaynaklar: <en az iki kaynak adı> · Soru kaydı: <id> · Kimseden fon almıyoruz.
+Yatırım veya politika tavsiyesi değildir.
 
 #planck #küreselrisk #tahmin
 ```
@@ -54,19 +61,42 @@ Görevler **asla kendi başına yayınlamaz**. Kartı repoya koyar ve kullanıc�
 
 İlke: her içerik kendi başına anlaşılır; olay ve "Peki Biz?" cevabı aynı gönderidedir. Gönderi sayısına üst sınır yok, haber sayısı belirler. Ana akışta iki gönderi arası en az 2 saat.
 
-### Önem puanı ve yönlendirme
-Her olay için: **Önem = |Δ puan| × Türkiye bağı (0 yok · 1 dolaylı · 2 doğrudan) × etki (1 orta · 2 yüksek · 3 çok yüksek)**.
+### Önem puanı ve yönlendirme (Yöntem v2)
+Her olay için: **Önem = S × K**.
+- **S (sürpriz)** = olayın oynattığı her soruda |Δlogit| toplamı (`ln(LR)`; zayıf 0,22 · orta 0,69 · güçlü 1,39 · belirleyici 2,30).
+- **K (karar ilgisi)**, oynayan sorular içinde en yükseği: 3 okurun 90 gün içinde parasına, işine, güvenliğine ya da seyahatine doğrudan değen eşik; 2 fiyat ya da iş zinciri üzerinden dolaylı; 1 dünyayı anlamak için.
 
-| Puan | Nereye | Ne üretilir |
+| Önem | Nereye | Ne üretilir |
 |---|---|---|
-| ≥ 12 veya KIRMIZI | Ana akış | "Olay ve Cevap" carousel'i (4 sayfa) + olay Reel'i (16 sn) |
-| 6–11 | Story | Olay Reel'i (Story olarak) |
-| 2–5 ve kayda değer | Akşam | "Günün Dosyası"na tek sayfa |
+| ≥ 1,4 ya da LR ≥ 10 (kırmızı) | Ana akış | "Olay ve Cevap" carousel'i (4 sayfa) + olay Reel'i; günde en fazla 1 (kırmızı hariç) |
+| 0,4–1,4 | Story ya da Günün Dosyası (o gün en az iki olay varsa) | Story görseli / Dosya sayfası |
+| < 0,4 | Zayıf Sinyal Defteri (`data/zayif-sinyal.json`) | Yayın yok, sayı oynamaz; haftada bir toplu değerlendirme |
 
-**Türkiye bağı 0 olan olaylar (11.11.2026 kararı):** Risk ve sicil hesabına her zaman girer (Δ, LR, `risks.json`, `sorular.json` Türkiye bağından bağımsızdır). Yayın için ayrı puan kullanılır: **Küresel önem = |Δ puan| × etki**. Küresel önem ≥ 2 ise olay yalnızca "Günün Dosyası"na girer; "Peki Biz?" alanları (`pq`, `pp`) boş bırakılır, `pdo` tek cümlelik "neden önemli" açıklamasıdır. Bu olaylar Story'ye ve ana akışa gitmez; onlar Türkiye bağı olan olaylar içindir. Zorla "Peki Biz?" yazılmaz.
+Eşikler pilotun ilk haftasında 8–15 Kasım sinyalleriyle geriye dönük ayarlanır (`ekip/PILOT.md`).
 
-### Günlük takvim
-- 08:30 — pazartesi haftalık Reel (30 sn, tüm riskler, 8'li sayfalar); diğer günler ilk olay gönderisi.
+**Üç insan kapısı** (Anayasa §6) önemden sonra uygulanır; biri hayırsa içerik çıkmaz, olay yalnız sicile işlenir.
+
+**Türkiye bağı:** çarpan değil, yönlendirme. Bağ varsa 3. sayfa "Peki Biz?", yoksa "Neden Önemli". Küresel olay ana akışa çıkabilir.
+
+**Eski kural (arşiv, v2 ile geçersiz) — Türkiye bağı 0 olan olaylar (11.11.2026 kararı):** Risk ve sicil hesabına her zaman girer (Δ, LR, `risks.json`, `sorular.json` Türkiye bağından bağımsızdır). Yayın için ayrı puan kullanılır: **Küresel önem = |Δ puan| × etki**. Küresel önem ≥ 2 ise olay yalnızca "Günün Dosyası"na girer; "Peki Biz?" alanları (`pq`, `pp`) boş bırakılır, `pdo` tek cümlelik "neden önemli" açıklamasıdır. Bu olaylar Story'ye ve ana akışa gitmez; onlar Türkiye bağı olan olaylar içindir. Zorla "Peki Biz?" yazılmaz.
+
+### Haftalık ritim (Yöntem v2)
+| Gün | Format |
+|---|---|
+| Pazartesi | **Haftanın Soruları** (Reel, 30 sn): bu hafta kapanacak sorular ve sayılarımız |
+| Salı | **Sen Yüzde Kaç Dersin?** (Story anketi; Planck'in sayısı 24 saat sonra). Haftada en fazla 2 anket; Quant, T+ ve §9 hassas alanlarında yok |
+| Çarşamba | **Taban Oranı** (carousel): "X olduğunda ne sıklıkla Y olur?" |
+| Perşembe | **Ses ve İz** (pilot, 4 sayı; kuralları `ekip/KARAR.md` §2.6) |
+| Cuma 18:00 | **Dedik / Oldu**: o hafta kapanan sorular. Iska (≥%80 ya da ≤%20 verilip ters çıkan) ilk sayfada |
+| Olay olunca | **Olay ve Cevap**, günde en fazla 1 (kırmızı hariç) |
+| Gerektiğinde 21:00 | **Günün Dosyası**, yalnız en az iki olay eşiği geçtiyse |
+| Ayın ilk pazartesisi | **Karne** + Düşen Riskler + Uzun Ufuk |
+| Pazar | Boş (yalnız kırmızı) |
+
+Takvim formatları olay şişirmez; sessiz gün sessiz kalır.
+
+### Günlük takvim (saatler)
+- 08:30 — pazartesi Haftanın Soruları Reel'i; diğer günler varsa olay gönderisi.
 - 11:00'den itibaren — "Olay ve Cevap" gönderileri, önem sırasıyla, en az 2 saat arayla (11:00, 13:00, 15:00, 17:00, 19:00…). Sıra `data/kuyruk/YYYY-MM-DD.json`.
 - 21:00 — "Günün Dosyası" carousel'i (kapak + olay başına 1 sayfa + kapanış; olay yoksa yayın yok).
 - Kırmızı alarm kuyruğu beklemez, hemen çıkar.
@@ -91,8 +121,9 @@ Günlük taramanın **ilk adımı hakemliktir**, sonra tarama gelir:
 2. `python3 scripts/sicil.py karne` — `data/karne.json` yenilenir. "ISKA" uyarısı çıkan soru için `posts/<tarih>-neden-yanildik-<id>/` altında otopsi taslağı yazılır.
 3. Tarama sırasında olasılığı değişen her soru `sicil.py guncelle <id> <p> "<neden>"` ile işlenir; sayı Anayasa §3'teki LR tablosuyla hesaplanır (`sicil.py lr`). `risks.json`, `quant.json` ile sicil aynı sayıyı taşımak zorundadır.
 4. İçerikte geçen her yeni olasılık (Olay ve Cevap, Ne Olur?, Peki Biz?, Dosya) yayın kuyruğuna girmeden önce `sicil.py ekle` ile kaydedilir. Zorunlu alanı eksik soru yayınlanmaz.
-5. **Geçiş işi (16 Kasım'a kadar):** Her taramada sıradaki üç `risk-*` kaydı için 2031 kapanış kriteri, kaynağı, tabanı ve ön-otopsisi yazılır; ayrıca o riski sınayan iki öncü soru (son tarih ≤ 6 ay, tercihen ≤ 90 gün) açılır ve `bagli` alanına risk kimliği yazılır. `sicil.py dogrula` sıfır eksik gösterene kadar sürer.
-6. Kapanan her soru için `posts/<tarih>-kapandi-<id>/` altında "Tuttu / Tutmadı" kartı taslağı üretilir; cuma 18:00 toplu yayına girer (STRATEJI.md).
+5. **Yeni soru açma (v2):** Açılan soru Anayasa §2 ufuk ve bant kurallarına uyar (≥%80'i ≤90 gün, açılışta %15–85, günde en fazla 4). `kuyruk` etiketi havuzun %15'ini aşamaz. %90 üstüne ya da %10 altına geçen soru `sessiz` işaretlenir.
+   **Eski geçiş işi (tamamlandı, arşiv):** Her taramada sıradaki üç `risk-*` kaydı için 2031 kapanış kriteri, kaynağı, tabanı ve ön-otopsisi yazılır; ayrıca o riski sınayan iki öncü soru (son tarih ≤ 6 ay, tercihen ≤ 90 gün) açılır ve `bagli` alanına risk kimliği yazılır. `sicil.py dogrula` sıfır eksik gösterene kadar sürer.
+6. Kapanan her soru için `posts/<tarih>-kapandi-<id>/` altında "Dedik / Oldu" kartı taslağı üretilir ("Dedik: %60 · Oldu."); cuma 18:00 toplu yayına girer.
 
 ## İzleme listesi
 

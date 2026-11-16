@@ -2,6 +2,8 @@
 
 Yöntem ve kurallar `ANAYASA.md`'dedir. Bu belge büyümeyi anlatır: neyi, neden, hangi sırayla.
 
+> **16.11.2026:** Yöntem v2 (ekip/KARAR.md, Anayasa v2) bu belgedeki haftalık iskeleti ve "Tuttu/Tutmadı" adını geçersiz kılar: ritim TARAMA.md "Haftalık ritim" tablosundadır, kapanış kartı "Dedik / Oldu"dur. Ölçüm ve bırakma kuralı (§6) sürer.
+
 ## 1. Konum
 
 **"Hesap veren haber."** Türkiye'de haber hesapları olay anlatır, yorum hesapları görüş satar. Planck'in kimsenin kopyalayamayacağı tek varlığı **sicildir**: tarihli sorular, verilmiş sayılar, tutanlar ve ıskalar. Büyüme stratejisi bu varlığı görünür kılmak üzerine kurulur. İçerik kopyalanır; üç aylık açık karne kopyalanamaz.
