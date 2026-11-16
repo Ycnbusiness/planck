@@ -1,0 +1,216 @@
+{
+ "tarih": "2026-11-16",
+ "toplama_saati_utc": "04:50-05:20",
+ "referans_seans": "13.11.2026 Cuma kapanışı (16.11 piyasaları henüz açılmadı)",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB 13.11 gösterge kuru resmi sayfadan alınamadı (cnbce sayfası izin alamadı); 16.11 kuru 15:30'da açıklanır. Piyasa kapanışı: 50,2819 (aposto) / ~50,37 (bloomberght), kaynaklar arası fark var"
+  },
+  "usdtry_piyasa_13kasim": {
+   "deger": 50.2819,
+   "kaynak": "https://aposto.com/piyasalar/kapanis/2026-11-13",
+   "saat": "13.11.2026 kapanış",
+   "not_": "BloombergHT ~50,37 veriyor; TCMB göstergesi değil"
+  },
+  "eurtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB göstergesi alınamadı; piyasa: 55,6043 (aposto), ~55,63 (bloomberght)"
+  },
+  "bist100_kapanis": {
+   "deger": 11842.82,
+   "kaynak": "https://www.cnbce.com/borsa/borsa-gunu-yukselisle-kapadi-13-kasim-2026-h41717",
+   "saat": "13.11.2026 kapanış",
+   "not_": "aposto 11.842,80; bloomberght 11.842,82"
+  },
+  "gram_altin_tl": {
+   "deger": 6283,
+   "kaynak": "https://aposto.com/piyasalar/kapanis/2026-11-13",
+   "saat": "13.11.2026 kapanış",
+   "not_": "Kaynaklar arası fark: BloombergHT 6.300,20"
+  },
+  "ons_altin_usd": {
+   "deger": 3886.3,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 ABD kapanışı",
+   "not_": "vadeli kapanış"
+  },
+  "brent_usd": {
+   "deger": 95.84,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış",
+   "not_": "vadeli; BloombergHT 96,70 (farklı sözleşme/zaman)"
+  },
+  "wti_usd": {
+   "deger": 88.56,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "bitcoin_usd": {
+   "deger": 68237,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanışa yakın",
+   "not_": "yaklaşık; aposto 68.249"
+  },
+  "abd_2y": {
+   "deger": 4.88,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "abd_10y": {
+   "deger": 5.15,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "abd_30y": {
+   "deger": 5.47,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "vix": {
+   "deger": 19.3,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "sp500": {
+   "deger": 7561.67,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "nasdaq_composite": {
+   "deger": 25136.27,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026 kapanış"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 13.11 gösterge getirisi bulunamadı"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 13.11 gösterge getirisi bulunamadı"
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026_9aralik": {
+   "cme_fedwatch": "25bp artırım tam fiyatlanmış; 50bp ≈%10",
+   "kalshi_25bp": 87,
+   "kalshi_50bp": 10,
+   "kalshi_sabit": 4,
+   "polymarket_25bp": 86.5,
+   "polymarket_50bp_ustu": 9.3,
+   "polymarket_sabit": 3.6,
+   "kaynak": [
+    "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+    "https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026"
+   ],
+   "saat": "13.11 kapanış (cappnotes: Kalshi %91,5 / Polymarket %90,5 toplam artırım ifadesi farklı); 15.11 10:00 ET (predictionmarketspicks)",
+   "not_": "Kaynaklar arasında küçük fark var; CME'nin kendi sayfası okunamadı"
+  },
+  "fed_ocak_2027": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynakta Ocak 2027 toplantısı için olasılık yok"
+  },
+  "tcmb_sonraki_ppk_10aralik": {
+   "deger": "politika faizi beklentisi %35 (mevcut %36 → 100bp indirim)",
+   "kaynak": "https://istanbulticaretgazetesi.com/son-dakika-merkez-bankasi-kasim-2026-anketini-yayimladi-yil-sonu-enflasyon-tahmini-degisti",
+   "saat": "13.11.2026 10:08 TSİ (TCMB Piyasa Katılımcıları Anketi, Kasım)",
+   "not_": "anket medyanı; kurum sayımı yok"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  }
+ },
+ "anket_tcmb_kasim": {
+  "yil_sonu_tufe": 30.04,
+  "onceki": 29.63,
+  "usdtry_yil_sonu": 51.61,
+  "usdtry_12ay": 60.77,
+  "onceki_12ay": 59.26,
+  "kaynak": "https://istanbulticaretgazetesi.com/son-dakika-merkez-bankasi-kasim-2026-anketini-yayimladi-yil-sonu-enflasyon-tahmini-degisti",
+  "saat": "13.11.2026",
+  "tcmb_kendi_2026_sonu_tahmin": "%28 → %29,5 (aposto aktarımı: https://aposto.com/piyasalar/kapanis/2026-11-13)"
+ },
+ "oynaklik": {
+  "vix": {
+   "deger": 19.3,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+   "saat": "13.11.2026"
+  },
+  "gvz_altin": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "İma edilen oynaklık güncel bulunamadı; son bilinen 25,83 (5 Kasım)"
+  },
+  "ovx_brent": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "İma edilen oynaklık güncel bulunamadı; son bilinen 60,29 (5 Kasım)"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "30 günlük fiyat serisi kaynaklı toplanamadı; gerçekleşen oynaklık hesaplanamadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "30 günlük fiyat serisi kaynaklı toplanamadı; gerçekleşen oynaklık hesaplanamadı"
+  }
+ },
+ "takvim_7gun": {
+  "kaynak": "https://thriveinmarkets.com/calendar/2026-11-16/ ve https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
+  "saat": "15-16.11.2026",
+  "olaylar": [
+   {
+    "tarih": "2026-11-16",
+    "olay": "Fed Başkanı Warsh konuşması (17:00 UTC), Williams konuşması (14:05 UTC); Empire State imalat (beklenti 19,4)"
+   },
+   {
+    "tarih": "2026-11-17",
+    "olay": "ABD perakende satışlar ve sanayi üretimi (Ekim); Nvidia bilançosu (kapanış sonrası)"
+   },
+   {
+    "tarih": "2026-11-18",
+    "olay": "FOMC tutanakları (19:00 UTC); İngiltere TÜFE"
+   },
+   {
+    "tarih": "2026-11-20",
+    "olay": "Michigan tüketici güveni nihai"
+   }
+  ],
+  "eksik": "TÜFE (TÜİK 3 Aralık), PPK 10 Aralık, FOMC 8-9 Aralık 7 günlük pencerenin dışında; OPEC+ toplantısı kaynaklı bulunamadı; Türkiye veri takvimi bu hafta için kaynaklı alınamadı"
+ },
+ "eksikler": [
+  "TCMB gösterge USD/EUR 13.11",
+  "TR 2y/10y",
+  "GVZ/OVX",
+  "BIST100 ve USDTRY 30g oynaklık",
+  "Fed Ocak 2027",
+  "Polymarket/Kalshi resesyon ve Brent",
+  "OPEC+ ve TR takvimi"
+ ]
+}

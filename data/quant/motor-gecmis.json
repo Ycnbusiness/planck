@@ -54,5 +54,61 @@
   "motor": null,
   "kaynak_turu": null,
   "not": "hesaplanmadı: Sahm/petrol girdileri güncel değil"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-fed-artirim",
+  "motor": 100,
+  "kaynak_turu": "piyasa",
+  "not": "FedWatch Aralık 25bp tam fiyatlanmış (cappnotes 13.11); Kalshi/Polymarket %96-97 artırım; sonrası koşullu taban %35 data/quant.json'dan"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-nasdaq-25",
+  "motor": 39,
+  "kaynak_turu": "oynaklik",
+  "not": "S=25136.27 (13.11), K=0,75×27244.28=20433, σ=max(1,07×VIX 19,30; 24)=%24,0, μ=0, T=1; zirve data/quant.json'dan"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-tr-tufe-30",
+  "motor": 48,
+  "kaynak_turu": "resmi-tahmin",
+  "not": "TCMB Kasım anketi yıl sonu TÜFE medyanı %30,04 (13.11); gereken Kas+Ara <%1,95, anket ima %1,98, sd %0,6 (data/quant.json varsayımı)"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-brent-110",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: OVX güncel değil"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-altin-4500",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: GVZ güncel değil"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-usdtry-60",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: USD/TRY oynaklığı kaynaklı değil (anket 12 ay 60,77 güncel)"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-tcmb-aralik",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: anket medyanı %35 (100bp indirim) var ama kurum sayımı yok"
+ },
+ {
+  "tarih": "2026-11-16",
+  "soru": "q-abd-resesyon",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: Sahm/petrol girdileri güncel değil"
  }
 ]
