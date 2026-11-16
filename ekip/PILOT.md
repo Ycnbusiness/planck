@@ -4,6 +4,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 
 ## Hafta 1 · 17–23 Kas — ölç ve hazırlan
 - [x] 16.11 · 10–16 Kasım sinyallerinde S×K geriye dönük hesaplandı (`ekip/AB-TEST-1.md`). Eşikler kalır; S kısa vadeli soruda ölçülür, 2031 endeksinde değil.
+- [ ] `pb-2026-11-11-motorin-90` hesap hatası (mikro raporu, 17.11): Motor 2026 ÖTV takvimini (13.08.2026 RG: 1 Ara 12 TL, 1 Oca 13,90 TL) saymamış. Önce Resmî Gazete'den doğrula; doğruysa `sicil.py guncelle` ile düzeltme kaydı (Anayasa §8) ve sessiz izleme. `pb-2026-11-10-motorin`'in kurallı Motor'u yok, aynı turda not düş.
 - [ ] Şiddeti konu eden mevcut soruları bahis testine göre gözden geçir (ilk: `pb-2026-11-16-karadeniz-turk-gemi`)
 - [ ] `risk-catisma` yuvarlama düzeltmesi: geçmişi LR tablosuyla ondalıklı yeniden hesapla, `sicil.py guncelle` ile "düzeltme" notuyla işle
 - [ ] `nv-1` "Neden Yanıldık" taslağı (Quant durduğu için yayın Yusuf onayıyla)
