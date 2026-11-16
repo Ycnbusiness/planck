@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -19,7 +19,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ukrayna ve İran cephelerinin 2027–28'de yazılı anlaşmalarla kapanması ve Sahra Altı çatışmalarının 1.000 ölüm eşiğinin altına inmesi.",
    "motor": 85.0,
-   "p": 88,
+   "p": 90,
    "ilk_p": 85,
    "durum": "acik",
    "sonuc": null,
@@ -84,6 +84,12 @@
      "p": 88,
      "motor": 85.0,
      "neden": "15.11 akşam: İran'ın Bahreyn'deki ABD radarına üç günde ikinci İHA saldırısı (Bahreyn önledi, hasar yok); LR 1,1"
+    },
+    {
+     "t": "2026-11-16",
+     "p": 90,
+     "motor": 85.0,
+     "neden": "16.11: Sulina açıklarında Romanya karasularında dahil dört ticari gemiye İHA saldırısı (Reuters, Euronews/AP); LR 1,25"
     }
    ]
   },
@@ -1867,6 +1873,37 @@
     }
    ],
    "bagli": "risk-enerji"
+  },
+  {
+   "id": "pb-2026-11-16-karadeniz-turk-gemi",
+   "kanal": "news",
+   "tur": "pekibiz",
+   "q": "Türk bayraklı ya da Türk şirketine ait bir ticari gemi 15 Şubat 2027'ye kadar Karadeniz'de İHA, füze ya da mayınla hasar görür mü?",
+   "acilis": "2026-11-16",
+   "deadline": "2027-02-15",
+   "kriter": "16 Kasım 2026 ile 15 Şubat 2027 arasında Türk bayraklı ya da Türk şirketine ait/işletilen bir ticari gemi Karadeniz'de (limanlar dahil) İHA, füze, insansız deniz aracı veya mayın nedeniyle hasar görürse evet. Geminin Türk bağlantısı kaynakta açıkça belirtilmelidir.",
+   "kaynak_cozum": "Reuters veya AP haberi ya da T.C. Ulaştırma ve Altyapı Bakanlığı / Denizcilik Genel Müdürlüğü açıklaması",
+   "taban": "Referans sınıfı 1: Şubat 2022–Temmuz 2026 arasında en az 11 Türk bağlantılı gemi hasar gördü (≈0,2/ay → 91 günde ≈%46). Referans sınıfı 2: 2026'da Mayıs–Ekim arasında en az 7 olay (28 Mayıs, 22 Haziran, 20, 22, 30 Temmuz, 5 ve ~6 Ekim); Mayıs'tan bu yana her 91 günlük pencerede en az bir olay (≈%90+). Aralık %46–%90+; taban %70. Üç geçiş: dış görünüm %70, iç görünüm %76, karşı görüş %63 → medyan %70, Claude 0.",
+   "mercekler": [
+    "Uluslararası ilişkiler: Saldırıların Romanya karasularına uzanması deniz ticaretini hedef alan baskının sürdüğünü gösteriyor, yukarı",
+    "Tarih/istatistik: Olaylar kümeleniyor; Ağustos–Eylül'de iki aylık boşluk oldu, kış seferleri azaltır, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: kış koşulları, sigorta kaynaklı rota değişiklikleri ve barış görüşmeleri saldırı temposunu düşürür ya da olay olur ama kaynaklar geminin Türk bağlantısını açıkça yazmaz.",
+   "motor": 70,
+   "p": 70,
+   "ilk_p": 70,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-16",
+     "p": 70,
+     "motor": 70,
+     "neden": "açılış"
+    }
+   ],
+   "bagli": "risk-catisma"
   }
  ]
 }

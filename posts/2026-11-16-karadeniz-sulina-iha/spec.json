@@ -1,0 +1,39 @@
+{
+ "header": "PLANCK · OLAY VE CEVAP",
+ "date": "16 KASIM 2026",
+ "slides": 4,
+ "eyebrow": "Çatışma · 16 Kasım",
+ "title": "Karadeniz'de Ticari Gemilere İHA Saldırısı: Romanya Kıyısı",
+ "lede": "Romanya'nın Sulina kanalı açıklarında iki günde dört ticari gemi İHA ile vuruldu; ikisi Romanya karasularındaydı. Savaşın deniz ticaretine taşan etkisi Karadeniz'in batısına uzanıyor. Planck'in kronik bölgesel çatışmalar riski %88'den %90'a çıktı.",
+ "factsTitle": "Ne Oldu?",
+ "facts": [
+  ["Saldırı", "14 Kasım akşamı Sulina kanalı yakınında Yunan bayraklı bir kimyasal tanker, bir dökme yük gemisi ve bir ürün tankeri İHA'larla vuruldu. Bir gün önce bir kargo gemisi daha hedef alınmıştı."],
+  ["Sonuç", "Can kaybı bildirilmedi, mürettebat yangınları söndürdü. Saldırgan resmî olarak açıklanmadı; Romanya olayları Rusya'nın Ukrayna'daki savaşına bağladı, Rusya komşu ülkeleri hedef aldığını reddediyor."],
+  ["Tepki", "Romanya savaş uçaklarını iki kez havalandırdı ve müttefiklerden devriye uçağı ile İHA'ya karşı ekipman istedi. Fransa deniz devriye uçaklarını geçici olarak Romanya'ya gönderdi."]
+ ],
+ "factsNote": "Aynı gece Rusya Ukrayna'ya 132 İHA ile saldırdı; Odesa bölgesinde bir enerji tesisi vuruldu. Hesap: LR 1,25 (log-odds), %88 → %90.",
+ "rings": [
+  {
+   "name": "Peki Biz?",
+   "title": "Türk Gemileri Kışı Hasarsız Geçirir mi?",
+   "items": [
+    {
+     "q": "Türk bayraklı ya da Türk şirketine ait bir ticari gemi 15 Şubat 2027'ye kadar Karadeniz'de İHA, füze ya da mayınla hasar görür mü?",
+     "p": 70,
+     "lab": "Taban %70 · Claude 0",
+     "why": "2026'da Mayıs'tan bu yana en az yedi Türk bağlantılı gemi vuruldu; Ağustos–Eylül'de ise iki ay olay olmadı. Saldırıların Romanya kıyısına yayılması yukarı, kış koşulları ve süren barış görüşmeleri aşağı çekiyor."
+    }
+   ],
+   "note": "Okuma: Üç bağımsız geçişin medyanı (%63–%76). Soru 15 Şubat'ta kapanır ve karnede puanlanır."
+  }
+ ],
+ "watchTitle": "Ne Yapabiliriz?",
+ "watchEyebrow": "Öneriler",
+ "watch": [
+  ["Denizcilikte", "Karadeniz seferlerinde güncel seyir uyarılarını ve sigorta koşullarını sefer öncesinde yeniden kontrol edin."],
+  ["İşte", "Karadeniz üzerinden gelen tahıl, yağ ve metal tedarikinde gecikme payı ve alternatif rota planı bulundurun."],
+  ["Haberde", "Saldırıyı kimin yaptığı resmî olarak açıklanmadan kesin faili yazan iddialara temkinli yaklaşın."],
+  ["Takipte", "Planck'in öncü sorusu: Rusya ile Ukrayna 30 Nisan 2027'ye kadar genel ateşkes ilan eder mi (%18)."]
+ ],
+ "question": "Sizce Karadeniz'deki gemi saldırıları bu kış azalır mı?"
+}

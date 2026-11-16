@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:30:00+03:00",
+ "updated": "2026-11-16T07:00:00+03:00",
  "horizon": "2031",
  "bands": {
   "Çok yüksek": [
@@ -32,7 +32,7 @@
   {
    "id": "catisma",
    "name": "Kronik Bölgesel Çatışmalar",
-   "p": 88,
+   "p": 90,
    "impact": "Çok yüksek",
    "geo": [
     35,

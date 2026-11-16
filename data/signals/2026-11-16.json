@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-16",
+ "scan_window": "2026-11-15 20:15 → 2026-11-16 06:45 (TSİ)",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "değişiklik yok"
+ },
+ "gecis": {
+  "dogrula": "eksikli kayıt 0; ≤90 gün oranı %42 (hedef ≥%60)"
+ },
+ "izleme": {
+  "bahreyn-abd-radar": "Bitiş günü; radar isabeti doğrulanmadı → düştü.",
+  "hurmuz-dort-tanker": "15 Kasım gecesi yeni İran iddiası (tanker mayına çarptı, yangın); tek kaynak, Reuters doğrulayamadı. Doğrulanmadı."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 0,
+  "yesil": 4,
+  "not": "Önem ≥12 tek olay: Karadeniz'de Sulina açıklarında ticari gemilere İHA saldırısı (çatışma 88→90, önem 12) → Olay ve Cevap 11:00 + Reel. Diğer gelişmeler (üçüncü ABD uçak gemisi, Ukrayna'ya kitlesel İHA saldırısı, Prag'da kamu yayıncılığı protestosu, petrolde gevşeme) mevcut eğilimi doğruluyor, Δ0; Story ve Dosya adayı yok, bu akşam Günün Dosyası çıkmaz. Pazartesi 08:30 haftalık Reel'e ayrıldı."
+ },
+ "events": [
+  {
+   "id": "karadeniz-sulina-iha",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 2,
+   "from": 88,
+   "to": 90,
+   "lr": 1.25,
+   "onem": 12,
+   "onem_hesap": "|+2| × Türkiye bağı 2 (Karadeniz, Türk armatörlü gemiler 2026'da en az yedi kez vuruldu, Boğazlar trafiği) × etki 3 (Çok yüksek) = 12 → Olay ve Cevap",
+   "turkiye_bagi": 2,
+   "event": "13 Kasım akşamı Palau bayraklı bir kargo gemisi, 14 Kasım akşamı Yunan bayraklı bir kimyasal tanker, bir dökme yük gemisi ve bir ürün tankeri Romanya'nın Sulina kanalı yakınında İHA'larla vuruldu; iki tanker Romanya karasularında (4–5 deniz mili). Can kaybı yok. Romanya saldırganı açıklamadı, olayları Rusya'nın Ukrayna savaşına bağladı; Rusya reddediyor. Romanya iki kez savaş uçağı havalandırdı, müttefiklerden devriye uçağı ve İHA'ya karşı ekipman istedi; Fransa Atlantique 2 devriye uçaklarını geçici olarak Romanya'ya konuşlandırdı.",
+   "rationale": "Deniz ticaretine yönelik saldırıların bir NATO üyesinin karasularına uzanması beklenen eğilimin ötesinde ama yapıyı değiştiren bir olay değil; iki bağımsız kaynak. Zayıf kanıt, LR 1,25: 88 → 90. Yeni Peki Biz: Türk bağlantılı gemi 15 Şubat 2027'ye kadar Karadeniz'de hasar görür mü %70 (üç geçiş 70/76/63, medyan).",
+   "secondary": [
+    "Aynı gece Rusya Ukrayna'ya 132 İHA ile saldırdı; Odesa'da DTEK enerji tesisi vuruldu, ~41 bin hane elektriksiz (Kyiv Independent, RBC-Ukraine). Mevcut eğilim, ayrı Δ yok."
+   ],
+   "pekibiz": [
+    "pb-2026-11-16-karadeniz-turk-gemi"
+   ],
+   "sources": [
+    "https://gcaptain.com/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal/",
+    "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
+    "https://www.thestar.com.my/news/world/2026/11/15/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal-pm-says",
+    "https://kyivindependent.com/russia-launches-mass-attack-on-odesa-oblast-as-strikes-kill-4-injure-69-across-ukraine-over-past-day/",
+    "https://newsukraine.rbc.ua/news/russia-massively-strikes-ukrainian-energy-1794744024.html",
+    "https://www.turkiyetoday.com/nation/drone-hits-turkish-owned-grain-ship-ata-2-off-chornomorsk-in-black-sea-3224982",
+    "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11"
+   ]
+  },
+  {
+   "id": "abd-ucuncu-ucak-gemisi",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 90,
+   "to": 90,
+   "lr": 1.05,
+   "onem": 0,
+   "onem_hesap": "Δ0 → önem 0; yayın yok",
+   "turkiye_bagi": 1,
+   "event": "USS Theodore Roosevelt 15 Kasım'da CENTCOM bölgesine ulaştı; bölgedeki ABD uçak gemisi sayısı üçe çıktı, İran limanlarına yönelik abluka sürüyor.",
+   "rationale": "Beklenen yığınak; ABD–İran görüşmeleri tıkalı. Eğilimi doğruluyor, yuvarlamada değişiklik yok. İran dışişleri yardımcısının 'saldırıyı beklemeyiz' sözü tek kaynaklı, hesaba katılmadı.",
+   "pekibiz": [],
+   "sources": [
+    "https://www.timesofisrael.com/liveblog-november-16-2026/",
+    "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack",
+    "https://gulfnews.com/world/americas/us-aircraft-carrier-uss-theodore-roosevelt-enters-mid-east-as-iran-blockade-expands-1.500748546"
+   ]
+  },
+  {
+   "id": "prag-kamu-yayini-protesto",
+   "class": "YEŞİL",
+   "risk": "kurumlar",
+   "delta": 0,
+   "from": 36,
+   "to": 36,
+   "lr": 1.0,
+   "onem": 0,
+   "onem_hesap": "Δ0, Türkiye bağı 0 → yayın yok",
+   "turkiye_bagi": 0,
+   "event": "Prag'da kamu yayıncılarının lisans ücreti yerine devlet bütçesinden finanse edilmesi planına karşı yüz binlerce kişi (tahmini 350 bin) gösteri yaptı.",
+   "rationale": "Plan kurumsal bağımsızlık açısından aşınma sinyali, büyük protesto ise kamuoyu direncini gösteriyor; iki yön dengeleniyor. Değişiklik yok.",
+   "pekibiz": [],
+   "sources": [
+    "https://eualive.net/hundreds-of-thousands-gather-against-changes-to-czech-public-media-funding/",
+    "https://www.thenews.com.pk/latest/1423741-czechia-media-freedom-protests-draw-massive-crowds-to-prague"
+   ]
+  },
+  {
+   "id": "petrol-gevseme-16kasim",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "lr": 1.0,
+   "onem": 0,
+   "onem_hesap": "Δ0 → yayın yok",
+   "turkiye_bagi": 1,
+   "event": "Brent pazartesi Asya seansında 95 dolar civarında hafif düştü; petrol üst üste iki haftadır geriliyor, arz fazlası beklentisi fiyatları baskılarken yüksek navlun taban oluşturuyor.",
+   "rationale": "Kısa vadeli fiyat gevşemesi, 2031 ufkundaki maliyet riskini değiştirmiyor.",
+   "pekibiz": [],
+   "sources": [
+    "https://www.brecorder.com/news/40449125/oil-prices-fall-on-expectations-of-coming-supply-surplus",
+    "https://www.cnbc.com/amp/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html"
+   ]
+  }
+ ]
+}
