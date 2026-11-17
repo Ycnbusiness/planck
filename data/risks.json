@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T07:00:00+03:00",
+ "updated": "2026-11-17T07:30:00+03:00",
  "horizon": "2031",
  "bands": {
   "Çok yüksek": [
@@ -100,7 +100,7 @@
   {
    "id": "abd-cin-teknoloji",
    "name": "ABD–Çin Teknoloji Ayrışması",
-   "p": 58,
+   "p": 63,
    "impact": "Yüksek",
    "geo": [
     116.4,

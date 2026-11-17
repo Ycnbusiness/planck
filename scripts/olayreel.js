@@ -1,6 +1,6 @@
 // Planck olay Reel'i (16 sn, 1080×1920, müzikli): olay → risk değişimi → Peki Biz? → kapanış.
 // Kullanım: node scripts/olayreel.js spec.json çıktı.mp4
-// spec: {"week":"2026-W46","tag":"Enerji","title":"...","text":"...","risk":"...","from":71,"to":74,"why":"...","pq":"Türkiye ...?","pp":10,"cta":"..."}
+// spec: {"week":"2026-W46","tag":"Enerji","title":"...","text":"...","risk":"...","from":71,"to":74,"why":"...","pq":"Türkiye ...?","pp":10,"cta":"..."} · isteğe bağlı "pl": 3. bölüm etiketi (varsayılan PEKİ BİZ?), "rl": 2. bölüm etiketi (varsayılan ETKİLENEN RİSK), "yuz": true → "100'de X", "kunye": 2. bölümde alt künye satırı
 const { chromium } = require('playwright'); const fs = require('fs'); const path = require('path'); const { spawn } = require('child_process');
 const R = path.join(__dirname, '..', 'brand'); const b64 = f => fs.readFileSync(path.join(R, f)).toString('base64');
 const ff = (n, f, w) => `@font-face{font-family:${n};src:url(data:font/woff2;base64,${b64('fonts/' + f)}) format('woff2');font-weight:${w}}`;
@@ -28,12 +28,12 @@ function draw(t){bg(t);hud(t);
   x.save();x.globalAlpha=a1;x.fillStyle=BLUE;x.fillRect(96,600,120*E(seg(t,.3,.8)),8);x.restore();
   const ly=wrap(S.title,96,740,96,880,104,INK,a1,700);if(S.text)wrap(S.text,96,ly+110,38,880,54,'#c9d0db',a1*seg(t,1.2,.6),400);}
  // 2) Risk 4.8–9.6
- const a2=seg(t,4.8,.5)*(1-seg(t,9.4,.4));if(a2>0){T('ETKİLENEN RİSK',96,600,28,MUT,a2,500,true,4);wrap(S.risk,96,700,60,880,70,INK,a2,700);
+ const a2=seg(t,4.8,.5)*(1-seg(t,9.4,.4));if(a2>0){T(S.rl||'ETKİLENEN RİSK',96,600,28,MUT,a2,500,true,4);wrap(S.risk,96,700,60,880,70,INK,a2,700);
   const pr=E(seg(t,5.4,1.6)),v=Math.round(S.from+(S.to-S.from)*pr);T('%'+v,96,1080,240,BLUE,a2,500,true,-6);
-  T('%'+S.from+' → %'+S.to,96,1170,34,MUT,a2,500,true,2);if(S.why)wrap(S.why,96,1270,36,880,50,'#c9d0db',a2*seg(t,6.4,.6),400);}
+  T('%'+S.from+' → %'+S.to+(S.yuz?"  ·  100'de "+S.to:''),96,1170,34,MUT,a2,500,true,2);if(S.kunye)wrap(S.kunye,96,1700,24,880,34,MUT,a2,400);if(S.why)wrap(S.why,96,1270,36,880,50,'#c9d0db',a2*seg(t,6.4,.6),400);}
  // 3) Peki Biz 9.8–13.6
- const a3=seg(t,9.8,.5)*(1-seg(t,13.4,.4));if(a3>0){T('PEKİ BİZ?',96,600,30,BLUE,a3,500,true,4);
-  const ly=wrap(S.pq,96,720,58,880,70,INK,a3,700);T('%'+Math.round(S.pp*E(seg(t,10.3,1.2))),96,ly+260,220,BLUE,a3,500,true,-6);}
+ const a3=seg(t,9.8,.5)*(1-seg(t,13.4,.4));if(a3>0){T(S.pl||'PEKİ BİZ?',96,600,30,BLUE,a3,500,true,4);
+  const ly=wrap(S.pq,96,720,58,880,70,INK,a3,700);if(S.pp!=null)T('%'+Math.round(S.pp*E(seg(t,10.3,1.2))),96,ly+260,220,BLUE,a3,500,true,-6);}
  // 4) Kapanış 13.7–
  const a4=seg(t,13.7,.5);if(a4>0){const lk=document.getElementById('lk');x.save();x.globalAlpha=a4;const h=110,w=lk.naturalWidth/lk.naturalHeight*h;x.drawImage(lk,(W-w)/2,760,w,h);x.restore();
   T('Bilginin bittiği yerde tahmin başlar.',W/2,980,40,INK,a4,400,false,0,'center');T(S.cta||'Ne yapabiliriz? Profildeki gönderide.',W/2,1120,34,MUT,a4*seg(t,14.1,.5),500,false,0,'center');}}

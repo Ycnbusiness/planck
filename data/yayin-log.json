@@ -208,5 +208,44 @@
   "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
   "durum": "planlandı",
   "not": "Olay Reel'i (48 kHz/faststart ile yeniden paketlendi)."
+ },
+ {
+  "tarih": "2026-11-17",
+  "saat": "11:00",
+  "kanal": "planck.news",
+  "tur": "story",
+  "klasor": "posts/2026-11-17-abd-cip-uzaktan-erisim-story",
+  "durum": "kuyrukta",
+  "not": "Günlük tarama adayı; yayın turu planlar.",
+  "editor": {
+   "hukum": "YAYINLA",
+   "tur": 3,
+   "onem": {
+    "S": 0.22,
+    "K": 2,
+    "puan": 0.44
+   },
+   "kapilar": [
+    true,
+    true,
+    true
+   ],
+   "bahis_testi": true,
+   "kaynaklar_yeniden": [
+    "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "https://www.nextgov.com/artificial-intelligence/2026/11/commerce-department-moves-close-ai-chip-loophole/417255/",
+    "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+   ],
+   "duzeltmeler": [
+    "1. tur YUSUF'A SOR: nv-3 Quant sorusu, +33 puan 15 sınırını aştı, S ≤90 gün kuralı → Olay ve Cevap'tan Story'ye indirildi, nv-3 %45'e düzeltildi",
+    "2. tur DÜZELT: Story karesine soru, son tarih, 100'de 24 ve künye eklendi; etiket 'SORU'"
+   ],
+   "gerekce": "Story karesinde soru, son tarih, %24 · 100'de 24 ve kaynaklı künye var; önem 0,44 Story bandında; sicil ve hesap tutarlı.",
+   "acik_notlar": [
+    "Story künyesinde 'insan onayından geçmedi' ve 'Kimseden fon almıyoruz' yok — sistemik, cuma Yusuf'a",
+    "nv-3 kapanışı hakem/Yusuf kararında"
+   ]
+  }
  }
 ]

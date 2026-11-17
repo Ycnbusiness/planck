@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -392,8 +392,8 @@
     "Mühendislik/güvenlik: askerî bağlantılı alıcıların ihracat kontrolünü delmesi Washington'da sıkılaştırma baskısı yaratıyor, yukarı"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: ticaret ateşkeslerinin yenilenmesi ve yasakların 12 aydan kısa sürede gevşetilmesi.",
-   "motor": 50,
-   "p": 58,
+   "motor": 50.0,
+   "p": 63,
    "ilk_p": 58,
    "durum": "acik",
    "sonuc": null,
@@ -416,6 +416,12 @@
      "p": 58,
      "motor": 50,
      "neden": "Akşam: Nvidia CEO'su Huang, Çin istihbaratıyla bağlantılı olduğu iddia edilen bir kişiyle ilişkisi soruşturulurken 12 Kasım'da istifa etti; Kongre'de Çin'e çip ihracatını sınırlama çağrısı güçlendi. İhracat gevşetmesinin baş savunucusu sahneden çekildi (LR 1,1)"
+    },
+    {
+     "t": "2026-11-17",
+     "p": 63,
+     "motor": 50.0,
+     "neden": "17.11: BIS uzaktan erişim ve Güneydoğu Asya lisans kuralı; ayrışmanın kural düzeyinde genişlemesi (LR 1,25): %58 → %63."
     }
    ]
   },
@@ -786,7 +792,7 @@
    "mercekler": [],
    "on_otopsi": "İdare şirket yerine genel kural yolunu seçer.",
    "motor": null,
-   "p": 35,
+   "p": 40,
    "ilk_p": 35,
    "durum": "acik",
    "sonuc": null,
@@ -797,6 +803,12 @@
      "p": 35,
      "motor": null,
      "neden": "göç: nvidia-2026-11"
+    },
+    {
+     "t": "2026-11-17",
+     "p": 40,
+     "motor": null,
+     "neden": "17.11: BIS'in uzaktan erişim kuralı Megaspeed tartışmasının ardından ve Hazine/NSC yönlendirmesiyle çıktı; şirkete yönelik adım baskısı arttı ama idare genel kural yolunu seçti (ön-otopsi). LR 1,25: %35 → %40."
     }
    ]
   },
@@ -813,7 +825,7 @@
    "mercekler": [],
    "on_otopsi": "Ticaret müzakeresi nedeniyle kısıtlama ertelenir.",
    "motor": null,
-   "p": 30,
+   "p": 45,
    "ilk_p": 30,
    "durum": "acik",
    "sonuc": null,
@@ -824,6 +836,18 @@
      "p": 30,
      "motor": null,
      "neden": "göç: nvidia-2026-11"
+    },
+    {
+     "t": "2026-11-17",
+     "p": 63,
+     "motor": null,
+     "neden": "17.11: BIS 16 Kasım'da interim final rule yayımladı: Çin merkezli şirketlere uzaktan hesaplama sağlayabilecek veri merkezlerine YZ çipi ihracatı ve Endonezya, Malezya, Singapur, Tayland, Brezilya'ya ileri çip ihracatı lisansa bağlandı (TechCrunch, Nextgov, NPR). Kuralı değiştiren olay, LR 4: %30 → %63. Üç geçiş: dış 70 · iç 63 · karşı 48 → medyan 63; aralık 22 puan, belirsizlik yüksek (kriter yorumu: 'Çin'e ihracat' sayılır mı; Federal Register yürürlüğü ve APEC'te yumuşatma ihtimali). Hakem: Federal Register yayımı doğrulanınca kapanış değerlendirilsin."
+    },
+    {
+     "t": "2026-11-17",
+     "p": 45,
+     "motor": null,
+     "neden": "17.11 düzeltme (Anayasa §8, Editör): aynı günkü %63 kaydı tek olay 15 puan sınırını aştı; sınıra çekildi (%30 → %45). %63 kaydı geçmişte görünür kalır. Kural nv-3 kriterini karşılıyor olabilir: kapanış hakem ve Yusuf kararına bırakıldı. Quant sorusu, yayında kullanılmaz."
     }
    ]
   },
@@ -1032,7 +1056,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: ABD'nin Nvidia/Megaspeed soruşturması sonrası yeni çip ihracat kısıtlaması açıklaması ve Çin'in misilleme yapması.",
    "motor": 15,
-   "p": 20,
+   "p": 24,
    "ilk_p": 20,
    "durum": "acik",
    "sonuc": null,
@@ -1043,6 +1067,12 @@
      "p": 20,
      "motor": 15,
      "neden": "açılış: Çin askıyı 10 Ocak'a uzattı"
+    },
+    {
+     "t": "2026-11-17",
+     "p": 24,
+     "motor": 15,
+     "neden": "17.11: ABD'nin Çin'i hedefleyen yeni çip kuralı (BIS, 16 Kasım) ön-otopside sayılan misilleme tetikleyicisi; 19 Kasım APEC görüşmesi ve 0/3 taban aşağı çekiyor. LR 1,25: %20 → %24. Üç geçiş: dış 20 · iç 24 · karşı 33 → medyan 24."
     }
    ],
    "bagli": "risk-abd-cin-teknoloji"

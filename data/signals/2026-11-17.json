@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-17",
+ "scan_window": "2026-11-16 20:15 → 2026-11-17 07:00 (TSİ)",
+ "yontem": "Yöntem v2 (TARAMA.md): Önem = S × K; S kısa vadeli sorularda |Δlogit| toplamı. Zamanlanmış görev metnindeki eski önem formülü (|Δ|×TR×etki) yalnız karşılaştırma için 'onem_eski' alanına yazıldı; yönlendirme v2 ile yapıldı.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "yenilendi, değişiklik yok",
+  "not": "nv-3 için kapanış adayı: BIS kuralı Federal Register'da yayımlanınca hakem kriter uyumunu ('Çin'e YZ çipi ihracatını daraltan yeni kural ya da lisans şartı') değerlendirmeli. Ayrıca on-enerji-hurmuz-gecis kriteri (tanker sayısı) ile Reuters'ın 'sevkiyat neredeyse savaş öncesine döndü' ifadesi ve Kpler hacim verisi (~%48, 11 Kasım haftası) arasında ölçü farkı var; kriter gözden geçirilmeli (Yusuf)."
+ },
+ "izleme": {
+  "abd-faa-ground-stop": "değişiklik yok"
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 1,
+  "yesil": 0,
+  "not": "Önem ≥1,4 olay yok. Tek bant olayı: ABD'nin YZ çipi uzaktan erişim kuralı (önem 0,44) → Story (Reel + kare). İlk taslak Olay ve Cevap'tı; Editör (ayrı çalıştırma) YUSUF'A SOR dedi: S ≤90 gün kuralı, nv-3 Quant sorusu ve +33 puan 15 puan sınırını aştı. Düzeltildi: nv-3 45'e çekildi, içerik Story'ye indi. Ana akış ve Günün Dosyası yok."
+ },
+ "events": [
+  {
+   "id": "abd-cip-uzaktan-erisim-kurali",
+   "class": "SARI",
+   "risk": "abd-cin-teknoloji",
+   "delta": 5,
+   "from": 58,
+   "to": 63,
+   "lr": 1.25,
+   "sorular": {
+    "nv-3": "30 → 63, aynı gün düzeltme → 45 (tek olay 15 puan sınırı; Quant sorusu, yayında kullanılmaz; kapanış hakem/Yusuf kararına)",
+    "nv-2": "35 → 40 (LR 1,25; Quant, yayında yok)",
+    "pb-2026-11-10-nadir-toprak": "20 → 24 (LR 1,25)"
+   },
+   "S": 0.22,
+   "K": 2,
+   "onem": 0.44,
+   "onem_hesap": "Editör düzeltmesi: S yalnız ≤90 günlük sorularda ölçülür (TARAMA v2). nv-3/nv-2 son tarihi 31 Mart 2027 (134 gün) → dışarıda. S = ln1,25 = 0,22 (nadir toprak, 54 gün); K = 2 (tedarik zinciri, dolaylı) → 0,44 → Story bandı; o gün ikinci bant olayı olmadığından Dosya yok.",
+   "onem_eski": "|+5| × Türkiye bağı 1 × etki 2 = 10 → eski kurala göre de Story (6–11)",
+   "turkiye_bagi": 1,
+   "event": "ABD Ticaret Bakanlığı (BIS) 16 Kasım'da geçici nihai kural yayımladı: Çin ve diğer kısıtlı ülkelerdeki şirketlere aracılar dahil uzaktan hesaplama sağlayabilecek veri merkezlerine YZ çipi ve sunucu ihracatı lisansa bağlandı (≈750 H100 eşdeğeri eşiği); Endonezya, Malezya, Singapur, Tayland ve Brezilya'ya ileri YZ çipi ihracatına lisans şartı geldi; mevcut operatörlere 90 gün süre verildi; Biden dönemi YZ Yayılım Kuralı resmen kaldırıldı; 60 gün yorum süresi var. Çin'in resmi tepkisi henüz yok; 19 Kasım'da Shenzhen'de Trump–Xi–Putin görüşmesi planlı.",
+   "rationale": "Kural, Çin'in YZ çiplerine üçüncü ülkeler üzerinden erişimini kapatan yapısal bir değişiklik (güçlü kanıt, LR 4) ve nv-3 kriterine doğrudan değiyor; ancak kural 'Çin'e ihracat' sayılır mı, Federal Register yürürlüğü ve APEC'te yumuşatma ihtimali belirsizlik bırakıyor. Üç geçiş nv-3: 70/63/48 → medyan 63, aralık 22 → 'belirsizlik yüksek'. Nadir toprak: 20/24/33 → 24.",
+   "pekibiz": [],
+   "sayfa3": "Neden Önemli",
+   "sources": [
+    "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "https://www.nextgov.com/artificial-intelligence/2026/11/commerce-department-moves-close-ai-chip-loophole/417255/",
+    "https://www.npr.org/2026/11/16/nx-s1-6042918/new-rule-aims-to-close-loophole-on-chip-exports",
+    "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+    "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+    "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/",
+    "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-meet-with-xi-putin-nov-19-in-china-white-house-says"
+   ],
+   "yayin": "posts/2026-11-17-abd-cip-uzaktan-erisim-story (Story: reel.mp4 + story.png)",
+   "kapilar": {
+    "1": "Okur, Çin'in misillemesi hâlinde mıknatıs ve elektronik bileşen tedarikinin aksayabileceğini hesaba katar.",
+    "2": "Tedarikçiyle teslim süresi/alternatif kaynak konuşması; izlenecek gösterge Çin Ticaret Bakanlığı açıklamaları.",
+    "3": "Kural 90 günlük uyum süresi ve 60 günlük yorum süreciyle 30 gün sonra da gündemde."
+   }
+  },
+  {
+   "id": "hurmuz-khasab-tanker-16kasim",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "UKMTO 16 Kasım'da ikinci bir tankerin Umman'ın Khasab kentinin 7 deniz mili kuzeyinde saldırıya uğrayıp devre dışı kaldığını, makine dairesinde yangın çıktığını bildirdi. IRGC iki, İran donanması bir tankerin mayına çarptığını öne sürdü (doğrulanmadı); İran ordusu bir ABD MQ-1 İHA'sını düşürdüğünü iddia etti (tek kaynak). Aynı gün Reuters, Hürmüz'den Orta Doğu sevkiyatının 'neredeyse savaş öncesine döndüğünü' yazdı; Brent haftalık düşüşü sürdürdü.",
+   "rationale": "Dünkü saldırı temasıyla aynı (aynı tema tek kanıt), ters yönde arz toparlanması sinyali var; net LR ≈1. Zayıf Sinyal Defteri.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field",
+    "https://gulfnews.com/world/mena/middle-east-conflict-tanker-incident-near-hormuz-as-vance-rules-out-forever-war-1.500749924",
+    "https://finance.yahoo.com/energy/articles/oil-prices-fall-expectations-coming-020042042.html",
+    "https://www.rte.ie/news/business/2026/1116/1599343-oil-prices/"
+   ]
+  },
+  {
+   "id": "kirim-koprusu-16kasim",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 90,
+   "to": 90,
+   "lr": 0.95,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Ukrayna 15–16 Kasım gecesi savaşın en büyük İHA saldırısında Kırım (Kerç) köprüsünü vurdu; Kremlin hasarın küçük olduğunu, trafiğin sürdüğünü açıkladı, karayolu trafiği öğlene dek kısıtlandı, demiryolu açıldı.",
+   "rationale": "Dünkü zayıf sinyal kaydının (ukrayna-1336-iha-rusya) teyidi; ateşkes sorularına etkisi LR 1,2 eşiğinin altında.",
+   "sources": [
+    "https://www.irishtimes.com/world/europe/2026/11/16/ukraine-strikes-crimean-bridge-in-record-drone-attack/",
+    "https://www.themoscowtimes.com/2026/11/16/ukraine-hits-crimean-bridge-amid-record-overnight-drone-attack-a94265"
+   ]
+  },
+  {
+   "id": "maersk-veri-banka-kesinti",
+   "class": "YEŞİL",
+   "risk": "siber",
+   "delta": 0,
+   "from": 48,
+   "to": 48,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "Maersk, satın alma yoluyla devraldığı eski bir sistemden veri çalındığını doğruladı (WhiteArmor fidye grubu üstlendi; operasyon etkilenmedi). ABD'de Chase başta olmak üzere bankalarda 16 Kasım'da yaşanan kesintiyi Chase yazılım hatasına bağladı, siber saldırı olmadığını açıkladı.",
+   "rationale": "Kritik altyapıya devlet atfı yok; mevcut eğilim.",
+   "sources": [
+    "https://innovatecybersecurity.com/security-threat-advisory/top-10-cybersecurity-news-november-16-2026-and-more/",
+    "https://ransomnews.com/chase-bank-of-america-outage-cyberattack-november-2026/",
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
+   ]
+  }
+ ],
+ "editor": {
+  "tur1": {
+   "hukum": "YUSUF'A SOR",
+   "gerekce": "Ana sayı yayını durdurulmuş Quant sorusu (nv-3); +33 puan 15 puan sınırını aşıyor; nv-3 kriteri bu kuralla dolmuş olabilir; ≤90 gün kuralıyla önem 0,44 (Story/Dosya)."
+  },
+  "tur2": {
+   "hukum": "DÜZELT",
+   "gerekce": "Story karesinde sayı, soru, son tarih, künye eksikti."
+  },
+  "tur3": {
+   "hukum": "YAYINLA"
+  }
+ }
+}

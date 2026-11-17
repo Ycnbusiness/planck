@@ -29,6 +29,50 @@
     "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war",
     "https://www.usnews.com/news/world/articles/2026-11-16/kremlin-aide-denies-russia-agreed-to-include-europe-in-ukraine-peace-talks"
    ]
+  },
+  {
+   "tarih": "2026-11-17",
+   "id": "hurmuz-khasab-tanker-16kasim",
+   "tema": "Hürmüz'de gemi saldırıları",
+   "bagli": [
+    "on-enerji-hurmuz-gecis",
+    "risk-enerji"
+   ],
+   "olay": "UKMTO: 16 Kasım'da Khasab'ın 7 deniz mili kuzeyinde ikinci tanker saldırısı, makine dairesi yangını. İran'ın mayın ve MQ-1 iddiaları doğrulanmadı. Reuters: sevkiyat 'neredeyse savaş öncesine' döndü.",
+   "neden_zayif": "Dünkü temayla aynı; ters yönde toparlanma sinyali, net LR ≈1.",
+   "kaynaklar": [
+    "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field",
+    "https://gulfnews.com/world/mena/middle-east-conflict-tanker-incident-near-hormuz-as-vance-rules-out-forever-war-1.500749924"
+   ]
+  },
+  {
+   "tarih": "2026-11-17",
+   "id": "kirim-koprusu-16kasim",
+   "tema": "Rusya–Ukrayna karşılıklı İHA savaşı",
+   "bagli": [
+    "on-catisma-rusya-ateskes",
+    "pb-2026-W46-2"
+   ],
+   "olay": "Kırım köprüsü rekor İHA saldırısında vuruldu; Kremlin küçük hasar dedi, trafik kısıtlı sürdü.",
+   "neden_zayif": "ukrayna-1336-iha-rusya kaydının teyidi; aynı tema.",
+   "kaynaklar": [
+    "https://www.irishtimes.com/world/europe/2026/11/16/ukraine-strikes-crimean-bridge-in-record-drone-attack/",
+    "https://www.themoscowtimes.com/2026/11/16/ukraine-hits-crimean-bridge-amid-record-overnight-drone-attack-a94265"
+   ]
+  },
+  {
+   "tarih": "2026-11-17",
+   "id": "maersk-veri-banka-kesinti",
+   "tema": "Siber olaylar",
+   "bagli": [
+    "risk-siber"
+   ],
+   "olay": "Maersk eski sistemden veri çalındığını doğruladı (WhiteArmor); ABD banka kesintisi yazılım hatası olarak açıklandı.",
+   "neden_zayif": "Devlet atfı ve kritik altyapı aksaması yok.",
+   "kaynaklar": [
+    "https://innovatecybersecurity.com/security-threat-advisory/top-10-cybersecurity-news-november-16-2026-and-more/",
+    "https://ransomnews.com/chase-bank-of-america-outage-cyberattack-november-2026/"
+   ]
   }
  ]
 }
