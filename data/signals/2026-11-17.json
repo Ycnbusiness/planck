@@ -131,5 +131,87 @@
   "tur3": {
    "hukum": "YAYINLA"
   }
+ },
+ "aksam": {
+  "scan_window": "2026-11-17 07:00 → 20:30 (TSİ)",
+  "yontem": "Yöntem v2 (Önem = S × K). Görev metnindeki 'Küresel önem = |Δ|×etki' kuralı TARAMA.md'de arşivlendi (v2 ile geçersiz); yönlendirme v2 ile yapıldı.",
+  "dosya": "posts/2026-11-17-gunun-dosyasi",
+  "events": [
+   {
+    "id": "kerc-koprusu-cokus-kiev-kopruleri",
+    "class": "SARI",
+    "risk": "catisma",
+    "risk_from": 90,
+    "risk_to": 91,
+    "sorular": {
+     "on-catisma-rusya-ateskes": "18 → 15 (LR 0,8; üç geçiş 15/16/14)"
+    },
+    "S": 0.22,
+    "K": 2,
+    "onem": 0.44,
+    "turkiye_bagi": 1,
+    "sayfa3": "Peki Biz? (mevcut pb-2026-11-16-karadeniz-turk-gemi %70, değişmedi)",
+    "event": "16–17 Kasım gecesi Ukrayna saldırısında Kerç Köprüsü'nün bir kemeri ve karayolu açıklığı denize düştü (Reuters Ukrayna görüntülerini doğruladı, CNN geolokasyon; SBU açıkladı). Rusya Ulaştırma Bakanlığı hasarı ve trafik durdurmayı doğruladı, Peskov onarım planı hazırlanacağını söyledi; demiryolu 17 Kasım öğleden sonra tek hatta açıldı. Aynı gece Rusya Kiev'deki Kuzey ve Güney köprülerini yedi balistik füzeyle vurdu; köprüler trafiğe kapandı, metro yeşil hattın doğu kesimi durdu.",
+    "rationale": "Sabah kaydı (kirim-koprusu-16kasim) çöküşten önceydi. Şenzen zirvesinden 2 gün önce karşılıklı altyapı saldırıları; ateşkese karşı zayıf kanıt. K=2: Karadeniz navlun/sigorta ve tahıl-enerji fiyat zinciri.",
+    "sources": [
+     "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+     "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
+     "https://abcnews.com/International/ukraine-attacks-crimean-bridge-2nd-consecutive-night-officials/story?id=138201512",
+     "https://www.kyivpost.com/post/90362",
+     "https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/"
+    ]
+   },
+   {
+    "id": "iran-bahreyn-3-iha-kalibaf-cift-kullanim",
+    "class": "SARI",
+    "risk": "catisma",
+    "risk_from": 91,
+    "risk_to": 91,
+    "sorular": {
+     "on-catisma-abd-iran-anlasma": "28 → 24 (LR 0,8; üç geçiş 24/25/23)"
+    },
+    "S": 0.22,
+    "K": 2,
+    "onem": 0.44,
+    "turkiye_bagi": 0,
+    "sayfa3": "Neden Önemli (pq/pp yok)",
+    "event": "IRGC 17 Kasım sabahı Bahreyn Şeyh İsa Hava Üssü'ndeki ABD radarına İHA gönderdi (beş günde üçüncü); CENTCOM İHA'ların hasarsız önlendiğini, Bahreyn ordusu tehditlerin düşürüldüğünü açıkladı. İran Meclis Başkanı Kalibaf, NYT'nin baraj haberine yanıt olarak ABD/İsrail üslerine yakın baraj, liman ve santrallerin 'çift kullanımlı' sayılacağını yazdı. Bloomberg görüşmeleri tıkanmış nitelendirdi.",
+    "rationale": "Aynı temada üçüncü girişim tek başına zayıf; Körfez sivil altyapısına yönelik açık tehditle birlikte anlaşmaya karşı zayıf kanıt. Çatışma riskindeki +1 iki olayın ortak etkisi (LR 1,1), Kerç kaydına yazıldı. K=2: Körfez'deki okur güvenliği ve enerji fiyatı zinciri; 90 günlük doğrudan eşik yok.",
+    "sources": [
+     "https://www.aa.com.tr/en/americas/us-rejects-iranian-claim-about-drone-strike-hitting-radar-in-bahrain/4127913",
+     "https://www.washingtontimes.com/news/2026/nov/17/iran-fires-drones-us-radar-bahrain-third-time-5-days/",
+     "https://www.dawn.com/news/2045142/irans-ghalibaf-says-dams-ports-near-us-israeli-bases-should-also-be-deemed-dual-use",
+     "https://www.iranintl.com/en/202611175569",
+     "https://www.cornerstonefuturesllc.com/post/morning-highlights-iran-calls-dams-ports-and-power-plants-near-us-bases-dual-use-as-oil-holds-ne"
+    ]
+   },
+   {
+    "id": "hurmuz-khasab-tanker-ikinci-vurus",
+    "class": "YEŞİL",
+    "risk": "enerji",
+    "risk_from": 72,
+    "risk_to": 72,
+    "onem": 0,
+    "event": "UKMTO: 16 Kasım'da Khasab açığında vurulan tanker ikinci kez vuruldu, mürettebatın durumu bilinmiyor. Brent ayda %22 düşüşte, süper tanker navlunu zirveden %50+ geriledi.",
+    "rationale": "Aynı tanker/aynı tema; arz toparlanma sinyalleri ters yönde. Net LR≈1.",
+    "sources": [
+     "https://www.israelnationalnews.com/flashes/697681",
+     "https://english.alarabiya.net/News/middle-east/2026/11/17/crew-of-tanker-unaccounted-for-after-second-attack-north-of-oman-s-khasab-ukmto-says",
+     "https://www.cornerstonefuturesllc.com/post/morning-highlights-iran-calls-dams-ports-and-power-plants-near-us-bases-dual-use-as-oil-holds-ne"
+    ]
+   },
+   {
+    "id": "fcc-cin-transceiver-yasagi",
+    "class": "ZAYIF",
+    "risk": "abd-cin-teknoloji",
+    "onem": 0,
+    "event": "Reuters (özel haber): FCC'nin yeni Çin optik transceiver modellerine ithalat yasağı, Amazon/Google/Meta lobisine rağmen ilerliyor; kaynaklara göre hâlâ rafa kalkabilir.",
+    "rationale": "Tek bağımsız kaynak (diğerleri Reuters aktarımı); işlenmedi, izleme.",
+    "sources": [
+     "https://www.investing.com/news/stock-market-news/exclusivetrumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-5032280"
+    ]
+   }
+  ],
+  "not": "Quant alanı (Musalem'in faiz artırımı çağrısı, Nvidia bilançosu gece) bu görevin dışında. Yeni Peki Biz sorusu açılmadı."
  }
 }

@@ -1,0 +1,27 @@
+{
+ "date": "17 KASIM 2026",
+ "lede": "Ukrayna ile Rusya birbirinin köprülerini vurdu; İran Körfez'deki ABD radarını yeniden hedef aldı. Şenzen zirvesine iki gün kala iki cephede tırmanma.",
+ "items": [
+  {
+   "tag": "Çatışma",
+   "title": "Kerç Köprüsü'nün karayolu bölümü çöktü",
+   "text": "Ukrayna'nın saldırısında köprünün bir kemeri ve karayolu açıklığı denize düştü; Rusya trafiği durdurdu, demiryolu tek hatta açıldı. Aynı gece Rusya, Kiev'deki iki köprüyü yedi balistik füzeyle vurdu.",
+   "risk": "Rusya–Ukrayna genel ateşkesi (30 Nisan 2027)",
+   "from": 18,
+   "to": 15,
+   "pq": "Türk bayraklı ya da Türk şirketine ait bir ticari gemi 15 Şubat 2027'ye kadar Karadeniz'de İHA, füze ya da mayınla hasar görür mü?",
+   "pp": 70,
+   "pdo": "Karadeniz'de gemi işleten şirketler için savaş riski sigortası ve rota planı gündemde kalıyor."
+  },
+  {
+   "tag": "Çatışma",
+   "title": "İran, Bahreyn'deki ABD radarına beş günde üçüncü kez İHA gönderdi",
+   "text": "ABD ordusu İHA'ların hasarsız düşürüldüğünü açıkladı. İran Meclis Başkanı Kalibaf, ABD ve İsrail üslerine yakın baraj, liman ve santrallerin 'çift kullanımlı' sayılacağını söyledi.",
+   "risk": "ABD–İran yazılı barış anlaşması (30 Nisan 2027)",
+   "from": 28,
+   "to": 24,
+   "pdo": "Körfez'deki sivil altyapı yeniden hedef tartışmasına girdi; bu, bölgede yaşayan ve çalışanlar için güvenlik, enerji fiyatları için arz riski demek."
+  }
+ ],
+ "question": "Sizce iki cephedeki tırmanma Şenzen zirvesinin gündemini değiştirir mi?"
+}
