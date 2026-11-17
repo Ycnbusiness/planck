@@ -43,7 +43,7 @@ Konut niyette ikinci (%35,6), ama ING'de birikimi olanların yalnızca yaklaşı
 
 - **Borç, gündelik hayatın parçası oldu.** Tüketici kredisinin GSYH'ye oranı 2002'de %1,8'den 2012'de %18,7'ye çıktı. Kus bu düzeni "borçla refah" (*debtfare*) diye adlandırıyor ([Kus, MERIP 2016](https://www.merip.org/2016/04/financial-citizenship-in-the-new-turkey/)).
 - **Karaçimen'in İstanbul metal işçileri araştırması:** İşçilerin yaklaşık yarısı borcunu düzenli olarak yeni borçla ödüyor. Kredi kartının en yaygın kullanım nedeni gıda ve zorunlu ihtiyaçlar ([Karaçimen 2016, *Review of Radical Political Economics*](https://econpapers.repec.org/RePEc:sae:reorpe:v:48:y:2016:i:2:p:252-268)).
-- **Borç ahlaki bir dille konuşulur.** Graeber borcun her zaman ahlaki bir dille, yani "ödemeyen kötüdür" diliyle konuşulduğunu gösterir (*Debt: The First 5,000 Years*, 2011). Esnafın veresiye defteri de bir itibar kaydıdır.
+- **Borç ahlaki bir dille konuşulur** ("ödemeyen kötüdür"; Graeber, *Debt: The First 5,000 Years*, 2011). Esnafın veresiye defteri de bir itibar kaydıdır.
 
 **Quant için:** "Borç batağı", "kartlarını batıran" gibi ifadeler okuru utandırır. Borç bir olgu olarak, oranlarla verilir.
 
@@ -85,8 +85,8 @@ Esnaf için kur bir maliyettir, faiz ise kredi kartının ve tedarikçi vadesini
 2. **Çıkar beyanı.** Finfluencer ortamında ("al" deyip kendisi satanlar, Telegram grupları; [TSPB uyarısı](https://www.diken.com.tr/?p=1640587)) okurun ilk sorusu "Bunun kazancı ne?" olur. Sabit bir sayfa şunları yazmalı:
    - Planck aracı kurumdan, kripto borsasından ya da bankadan reklam, sponsorluk veya yönlendirme ücreti almaz.
    - Kurucunun Quant sorularındaki varlıklarla ilişkisi ne olacak? Bu karar vericiye ait.
-3. **Sayı fiyattan önce kaydedilir.** Her olasılık, fiyat hareketinden önce zaman damgalı olarak sicildedir. "Biz demiştik" yalnızca sicil bağlantısıyla söylenir.
-4. **Kötü başlangıç gösterilir.** İki kapanışta Brier 0,51. Bu, Quant'ın yeniden açılış gönderisinde ilk satırda durmalı. Finans okuru, yanıldığını söyleyen tek hesabı hatırlar.
+3. **Sayı fiyattan önce kaydedilir.** "Biz demiştik" yalnızca zaman damgalı sicil bağlantısıyla söylenir.
+4. **Kötü başlangıç gösterilir.** İki kapanışta Brier 0,51; yeniden açılış gönderisinin ilk satırında durmalı.
 
 ### 2.3 Güveni bir anda yok eden hatalar
 
