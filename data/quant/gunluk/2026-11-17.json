@@ -1,0 +1,35 @@
+{
+ "tarih": "2026-11-17",
+ "toplama_saati_utc": "04:50-05:10",
+ "referans_seans": "16.11.2026 Pazartesi kapanışı hedeflendi; kaynaklı veri bulunamadı",
+ "durum": "toplanamadi",
+ "neden": "Arama dizini 16.11.2026 kapanış sayfalarını döndürmedi (en yeni kaynaklı sayfa 12.11); tahmin edilen URL'lere (aposto, cappnotes 16.11) erişim izni alınamadı. Kaynaksız değer kaydedilmedi; 13.11 değerleri data/quant/gunluk/2026-11-16.json içinde.",
+ "fiyatlar": {
+  "usdtry_tcmb": {"deger": null, "neden": "TCMB 16.11 gösterge kuru kaynaklı alınamadı"},
+  "eurtry_tcmb": {"deger": null, "neden": "TCMB 16.11 gösterge kuru kaynaklı alınamadı"},
+  "bist100_kapanis": {"deger": null, "neden": "16.11 kapanışı kaynaklı bulunamadı"},
+  "gram_altin_tl": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "ons_altin_usd": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "brent_usd": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "bitcoin_usd": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "abd_2y": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "abd_10y": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "tr_2y": {"deger": null, "neden": "kaynaklı bulunamadı"},
+  "tr_10y": {"deger": null, "neden": "kaynaklı bulunamadı"}
+ },
+ "piyasa_fiyatlamasi": {
+  "fedwatch_sonraki_iki_fomc": {"deger": null, "neden": "CME sayfası okunamadı; güncel kaynaklı oran bulunamadı"},
+  "tcmb_ppk_beklenti": {"deger": null, "neden": "yeni anket/swap haberi yok; son: 13.11 anket (data/quant/gunluk/2026-11-16.json)"},
+  "polymarket_kalshi": {"deger": null, "neden": "toplanamadı"}
+ },
+ "oynaklik": {"altin": null, "brent": null, "bist100": null, "usdtry": null, "neden": "güncel ima edilen oynaklık ve 30 günlük seri kaynaklı toplanamadı"},
+ "takvim_7gun": {
+  "olaylar": [
+   {"tarih": "2026-11-17", "olay": "ABD perakende satışlar, sanayi üretimi (Ekim); Nvidia bilançosu (kapanış sonrası)"},
+   {"tarih": "2026-11-18", "olay": "FOMC tutanakları (19:00 UTC); İngiltere TÜFE"},
+   {"tarih": "2026-11-20", "olay": "Michigan tüketici güveni nihai"}
+  ],
+  "kaynak": "https://thriveinmarkets.com/calendar/2026-11-16/ ve https://cappnotes.substack.com/p/closing-look-friday-november-13-2026 (16.11 günlüğünden devralındı)",
+  "saat": "15-16.11.2026"
+ }
+}

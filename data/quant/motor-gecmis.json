@@ -110,5 +110,12 @@
   "motor": null,
   "kaynak_turu": null,
   "not": "hesaplanmadı: Sahm/petrol girdileri güncel değil"
+ },
+ {
+  "tarih": "2026-11-17",
+  "soru": "tum-acik-quant",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: 17.11 için taze kaynaklı girdi toplanamadı; 13.11 girdileriyle tekrar motor serisine eklenmedi"
  }
 ]
