@@ -117,9 +117,9 @@ Her olay bu sırayla işlenir; cevaplanamayan soru içerikte boş bırakılır, 
 2. **Sürpriz mi?** Beklenen bir şeyin gerçekleşmesi olasılığı az oynatır; beklenmeyenin gerçekleşmesi çok. Sürpriz derecesi LR'yi belirler.
 3. **Hangi soruyu, ne kadar oynatır?** Sicildeki ilgili sorular güncellenir; yoksa yeni soru açılır.
 4. **Sonra ne olur?** Birinci ve ikinci halka etkiler, her biri tarihli soru olarak (Ne Olur?).
-5. **Peki biz?** Türkiye'deki okur için somut, tarihli soru (Peki Biz?).
+5. **Peki biz?** Okur için somut, tarihli soru (Peki Biz?) — okur Türkiye'deki ve yurt dışındaki Türkçe okuyandır.
 
-**Önem = S × K** (ayrıntı TARAMA.md). S: olayın oynattığı sorulardaki |Δlogit| toplamı. K: karar ilgisi (3 okurun 90 gün içinde parasına, işine, güvenliğine, seyahatine doğrudan; 2 dolaylı; 1 anlamak için). Türkiye bağı önemi çarpmaz; yalnız üçüncü sayfanın "Peki Biz?" mi "Neden Önemli" mi olacağını seçer.
+**Önem = S × K** (ayrıntı TARAMA.md). S: olayın oynattığı sorulardaki |Δlogit| toplamı. K: karar ilgisi (okur nerede yaşarsa yaşasın; 3 okurun 90 gün içinde parasına, işine, güvenliğine, seyahatine doğrudan; 2 dolaylı; 1 anlamak için). Türkiye bağı önemi çarpmaz ve eleme gerekçesi değildir; yalnız üçüncü sayfanın "Peki Biz?" mi "Neden Önemli" mi olacağını seçer.
 
 **Üç insan kapısı** (veto; hepsi evet olmalı): (1) "Bu sayıyı bilen okur neyi farklı düşünür ya da yapar?" tek cümleyle yazılabiliyor. (2) Bu hafta uygulanabilir, düşük bedelli bir eylem ya da dürüst "yapılacak yok; izlenecek gösterge şu" cümlesi var. (3) Olay 30 gün sonra hâlâ önemli. Kapıdan geçmeyen içerik puanı ne olursa olsun yayınlanmaz.
 

@@ -68,7 +68,7 @@ Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalı
 Her olay için: **Önem = S × K**.
 - **S (sürpriz)** = olayın oynattığı her soruda |Δlogit| toplamı (`ln(LR)`; zayıf 0,22 · orta 0,69 · güçlü 1,39 · belirleyici 2,30).
 - **S her zaman olayın oynattığı kısa vadeli (≤90 gün) soruda ölçülür, 2031 endeksinde değil** (A/B testi 1).
-- **K (karar ilgisi)**, oynayan sorular içinde en yükseği: 3 okurun 90 gün içinde parasına, işine, güvenliğine ya da seyahatine doğrudan değen eşik; 2 fiyat ya da iş zinciri üzerinden dolaylı; 1 dünyayı anlamak için.
+- **K (karar ilgisi)**, oynayan sorular içinde en yükseği: 3 Türkçe okuyan okurun — Türkiye'de ya da yurt dışında, nerede yaşarsa yaşasın — 90 gün içinde parasına, işine, güvenliğine ya da seyahatine doğrudan değen eşik; 2 fiyat ya da iş zinciri üzerinden dolaylı; 1 dünyayı anlamak için.
 
 | Önem | Nereye | Ne üretilir |
 |---|---|---|
@@ -80,7 +80,7 @@ Eşikler pilotun ilk haftasında 8–15 Kasım sinyalleriyle geriye dönük ayar
 
 **Üç insan kapısı** (Anayasa §6) önemden sonra uygulanır; biri hayırsa içerik çıkmaz, olay yalnız sicile işlenir.
 
-**Türkiye bağı:** çarpan değil, yönlendirme. Bağ varsa 3. sayfa "Peki Biz?", yoksa "Neden Önemli". Küresel olay ana akışa çıkabilir.
+**Türkiye bağı:** çarpan değil, filtre hiç değil; yalnız yönlendirme. Bağ varsa 3. sayfa "Peki Biz?", yoksa "Neden Önemli". Küresel olay ana akışa çıkabilir. "Türkiye'deki okura değmiyor" bir eleme gerekçesi **değildir** (17.11.2026, Yusuf): ABD'de, Almanya'da, Körfez'de yaşayan okur da Planck okurudur; olay onların parasına, işine, güvenliğine, seyahatine değiyorsa K ona göre verilir ve eylem satırı ona yazılır.
 
 **Eski kural (arşiv, v2 ile geçersiz) — Türkiye bağı 0 olan olaylar (11.11.2026 kararı):** Risk ve sicil hesabına her zaman girer (Δ, LR, `risks.json`, `sorular.json` Türkiye bağından bağımsızdır). Yayın için ayrı puan kullanılır: **Küresel önem = |Δ puan| × etki**. Küresel önem ≥ 2 ise olay yalnızca "Günün Dosyası"na girer; "Peki Biz?" alanları (`pq`, `pp`) boş bırakılır, `pdo` tek cümlelik "neden önemli" açıklamasıdır. Bu olaylar Story'ye ve ana akışa gitmez; onlar Türkiye bağı olan olaylar içindir. Zorla "Peki Biz?" yazılmaz.
 
@@ -112,7 +112,7 @@ Takvim formatları olay şişirmez; sessiz gün sessiz kalır.
   3. **Ne olur?:** olayın kendisi değil, sonuçları soru olur (1–3 soru; bahis testi). Her biri: soru + son tarih + %X · 100'de X.
   4. **Olasılıklar — bu sayılar nasıl çıktı?:** Motor (taban/piyasa), Claude ayarı (+/− ve neden), frekans cümlesi, üç bağımsız hesabın aralığı (yalnız ana soru için).
   5. **Karne ve riskler:** bu konudaki kapanışlarımız + genel karne ("N kapanış; az örnek" uyarısı 30 kapanışa kadar), izlenecek gösterge, ne yapabilirsin.
-  Türkiye bağı varsa 3. sayfadaki sorulardan en az biri Türkiye'deki okura değer (benzin, uçuş, kur değil — kur Quant'ta). Görsel: 10×10 kare dizisi.
+  Türkiye bağı varsa 3. sayfadaki sorulardan en az biri Türkiye'deki okura değer; olay yurt dışındaki okura değiyorsa bir soru da ona değer (benzin, uçuş, kur değil — kur Quant'ta). Görsel: 10×10 kare dizisi.
 - **Olay ve Cevap v1 (2. haftaya kadar)** (`node news/pekibiz.js spec.json çıktı/`, spec'te `"header":"PLANCK · OLAY VE CEVAP"`, `slides:4`, tek ring): 1 olay ve olasılık · 2 ne oldu (3 satır, iki bağımsız kaynak) · 3 Peki Biz? (Türkiye'ye uyarlanmış 1–2 tarihli soru, Taban + Claude) · 4 Ne yapabiliriz + soru.
 - **Olay Reel'i** (`node scripts/olayreel.js spec.json çıktı.mp4`): olay → risk değişimi → Peki Biz? → kapanış, 16 sn.
 - **Günün Dosyası** (`node news/dosya.js spec.json çıktı/`).
