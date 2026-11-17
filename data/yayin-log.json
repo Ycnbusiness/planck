@@ -247,5 +247,29 @@
     "nv-3 kapanışı hakem/Yusuf kararında"
    ]
   }
+ },
+ {
+  "tarih": "2026-11-17T11:00",
+  "tur": "story",
+  "kanal": "news",
+  "klasor": "posts/2026-11-17-abd-cip-uzaktan-erisim-story",
+  "baslik": "Çin 10 Ocak'a kadar nadir toprak kontrollerini geri getirir mi? %24",
+  "yol": "MBS Story planla (PNG; video yolu takılıyor)",
+  "dogrulama": [
+   "bloomberg.com 2026-11-16",
+   "techcrunch.com 2026-11-16",
+   "nextgov.com",
+   "fortune.com"
+  ],
+  "editor": {
+   "hukum": "YAYINLA",
+   "onem": {
+    "S": 0.22,
+    "K": 2,
+    "puan": 0.44
+   }
+  },
+  "soru": "pb-2026-11-10-nadir-toprak",
+  "planlayan": "sabah turu 17.11"
  }
 ]
