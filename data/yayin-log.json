@@ -285,5 +285,17 @@
   ],
   "not": "Açıklamaların başına DÜZELTME notu eklendi (%37 → %15, ÖTV takvimi eksikti). Görseller değiştirilemez; eski sayı görselde kalır.",
   "onay": "Yusuf 17.11 08:28 'Yap.'"
+ },
+ {
+  "t": "2026-11-17T21:05+03:00",
+  "hesap": "planck.news",
+  "durum": "planlandı",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-17-gunun-dosyasi",
+  "baslik": "Günün Dosyası · 17 Kasım",
+  "ai_etiketi": true,
+  "facebook": false,
+  "dogrulama": "Kerç köprüsü kısmi çöküş (sondakika/haberler.com, CNN Türk, ssbulten); Kiev köprüleri (RayHaber); Bahreyn İHA ve Kalibaf 'çift kullanımlı' (Iran International, Gulf News, Al Jazeera)",
+  "duzeltme": "Editör: 'Türk gemisi hasar görür mü %70' Peki Biz sorusu bahis testinden kaldı (şiddetin kendisi) → kaldırıldı, Neden Önemli yazıldı; 'yedi balistik füze' ayrıntısı doğrulanamadı → çıkarıldı; künye v2'ye çevrildi."
  }
 ]
