@@ -271,5 +271,19 @@
   },
   "soru": "pb-2026-11-10-nadir-toprak",
   "planlayan": "sabah turu 17.11"
+ },
+ {
+  "tarih": "2026-11-17T08:40",
+  "tur": "duzeltme",
+  "kanal": "news",
+  "hesap": "planck.news",
+  "soru": "pb-2026-11-11-motorin-90",
+  "gonderiler": [
+   "https://www.instagram.com/planck.news/p/DfmAH6bAKDn/",
+   "https://www.instagram.com/planck.news/reel/DfmHCPiygPR/",
+   "https://www.instagram.com/planck.news/p/DfnF_GSgFZk/"
+  ],
+  "not": "Açıklamaların başına DÜZELTME notu eklendi (%37 → %15, ÖTV takvimi eksikti). Görseller değiştirilemez; eski sayı görselde kalır.",
+  "onay": "Yusuf 17.11 08:28 'Yap.'"
  }
 ]
