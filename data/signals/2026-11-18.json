@@ -190,6 +190,65 @@
     "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
    ],
    "yonlendirme": "bağlam"
+  },
+  {
+   "id": "trump-putin-senzen-kisa-gorusme-aksam",
+   "aksam": true,
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Trump ve Putin 18 Kasım'da Şenzen'de kısa bir görüşme yaptı; Alaska'dan bu yana ilk yüz yüze temas. Anlaşma ya da ateşkes açıklanmadı. Şi, Trump'a istikrarlı ilişki mesajı verdi; Putin yaptırımların 'başarısız olduğunu' söyledi. Üçlü zirve 19 Kasım'da.",
+   "rationale": "Beklenen takvim adımı, sonuç yok; on-catisma-rusya-ateskes ve pk-2026-11-18-abd-iran-ateskes oynamaz. Asıl ölçüm yarınki üçlü zirve.",
+   "sources": [
+    "https://www.arabnews.com/world/putin-and-trump-meet-in-shenzhen-their-first-talks-since-alaska-summit-3012642",
+    "https://tass.com/politics/2220519",
+    "https://kyivindependent.com/trump-putin-xi-meet-in-china-to-discuss-global-issues/"
+   ],
+   "yonlendirme": "bağlam"
+  },
+  {
+   "id": "iea-birol-hurmuz-normal-donus-yok-aksam",
+   "aksam": true,
+   "class": "ZAYIF",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "IEA Başkanı Birol, The Economist 'The World Ahead 2027' yazısında Hürmüz'de Şubat 2026 öncesine dönüş için 'inandırıcı bir yol' görmediğini yazdı. IEA Kasım raporuna göre Körfez ham petrol ihracatı Ekim'de günde ~15 milyon varil, savaş öncesinin ~%82'si.",
+   "rationale": "Görüş/değerlendirme, yeni olgu değil; ≤90 günlük Hürmüz ve Brent soruları oynamaz.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html",
+    "https://newsable.asianetnews.com/markets/iran-attacks-iea-chief-warns-hormuz-shipping-risks-are-here-to-stay-despite-recovery-in-gulf-oil-exports-articleshow-5hnk7fy",
+    "https://www.tokenpost.com/news/investing/60381"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "brent-eia-stok-aksam",
+   "aksam": true,
+   "class": "ZAYIF",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "event": "Brent, ABD ham petrol stoklarının beklentiden fazla artmasıyla (EIA) günü yaklaşık %1 düşüşle 92 dolar civarında geçirdi.",
+   "rationale": "Olağan fiyat hareketi; Brent-90/100 soruları için LR eşiğinin altında.",
+   "sources": [
+    "https://www.brecorder.com/news/40449497/oil-down-1-as-us-oil-stocks-post-larger-than-expected-rise-eia-says?v=tCZlEHCv6OExryXz5ZzImgi1",
+    "https://www.5paisa.com/blog/crude-oil-price-today-18-november-2026"
+   ],
+   "yonlendirme": "zayıf sinyal"
   }
  ],
  "editor": {
@@ -207,5 +266,10 @@
   "ogle": true,
   "scan_window": "2026-11-18 04:00 → 12:30 (TSİ)",
   "not": "Öğle taraması: ana akış, Story ya da Dosya adayı yok; kırmızı çizgi olayı yok. Dört olay zayıf sinyal/bağlam. Editöre gidecek yayın adayı çıkmadı. Türkiye'de pencere içinde öne çıkan yeni olay bulunmadı (TÜİK III. çeyrek işgücü verisi rutin)."
+ },
+ "aksam": {
+  "scan_window": "2026-11-18 12:30 → 20:10 (TSİ)",
+  "not": "Akşam Dosya taraması: yeni Δ yok; Dosya eşiğini (önem 0,4–1,4) geçen olay çıkmadı, önem ≥1,4 olay yok. Günün Dosyası üretilmedi; kuyruk değişmedi. Körfez saldırı dizisi öğle kaydında işli (çift sayım yok).",
+  "dosya": false
  }
 }
