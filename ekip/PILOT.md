@@ -8,7 +8,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 - [ ] Şiddeti konu eden mevcut soruları bahis testine göre gözden geçir (ilk: `pb-2026-11-16-karadeniz-turk-gemi`)
 - [ ] `risk-catisma` yuvarlama düzeltmesi: geçmişi LR tablosuyla ondalıklı yeniden hesapla, `sicil.py guncelle` ile "düzeltme" notuyla işle
 - [ ] `nv-1` "Neden Yanıldık" taslağı (Quant durduğu için yayın Yusuf onayıyla)
-- [ ] 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar
+- [~] 18.11 · 6 kısa vadeli soru açıldı (Kasım TÜFE %30, TCMB Aralık %35, Brent yıl sonu 90$, Kerkük–Ceyhan 300 bin v/g, asgari ücret %25, ABD–İran ateşkes); 9 soru daha gerekli. Hedef: 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar
 - [ ] Taban ölçümü Story'leri (eski biçimle): "%12 sence ne demek?" ve "Bir risk haberinden sonra ne yapacağını biliyor musun?" (anket çıkartması MBS'de yoksa Yusuf'a telefondan ekleme notu)
 - [ ] `data/zayif-sinyal.json` dosyasını aç
 - [ ] Olay ve Cevap v2 (5 sayfa: Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler) betiğini yaz (`news/olaycevap2.js`), örnek çıktıyı Yusuf'a göster

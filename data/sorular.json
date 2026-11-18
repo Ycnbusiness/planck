@@ -1992,6 +1992,185 @@
     }
    ],
    "bagli": "risk-catisma"
+  },
+  {
+   "id": "pk-2026-11-18-tufe-kasim-30",
+   "kanal": "news",
+   "tur": "veri",
+   "q": "TÜİK'in 3 Aralık'ta açıklayacağı Kasım 2026 yıllık TÜFE %30,00'ın üstünde mi olacak?",
+   "acilis": "2026-11-18",
+   "deadline": "2026-12-03",
+   "kriter": "TÜİK Kasım 2026 Tüketici Fiyat Endeksi bülteninde yıllık değişim %30,00'dan büyükse EVET. İlk açıklanan değer esas alınır.",
+   "kaynak_cozum": "TÜİK TÜFE bülteni (data.tuik.gov.tr)",
+   "taban": "Ekim yıllık %29,77; Kasım 2025 aylık %0,87. Eşik için Kasım 2026 aylık >%1,05 gerekir. TCMB Kasım Piyasa Katılımcıları Anketi yıl sonu %30,04 → Kasım+Aralık 2026 toplamı ≈%2,0, ayda ≈%1,0. Aylık sürpriz std ≈0,35 puan.",
+   "mercekler": [
+    "makro"
+   ],
+   "on_otopsi": "Yanılırsak: gıda/enerji yönetilen fiyat adımı Kasım'a kaydıysa ya da anket ortalaması Kasım'ı düşük, Aralık'ı yüksek bölüştürdüyse.",
+   "motor": 45,
+   "p": 45,
+   "ilk_p": 45,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 45,
+     "motor": 45,
+     "neden": "açılış (pilot hafta 1, kısa vadeli soru havuzu)"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-tcmb-aralik-35",
+   "kanal": "news",
+   "tur": "karar",
+   "q": "TCMB, Aralık 2026 PPK toplantısında politika faizini %35 ya da altına indirir mi?",
+   "acilis": "2026-11-18",
+   "deadline": "2026-12-12",
+   "kriter": "Aralık 2026 PPK karar metninde bir hafta vadeli repo ihale faizi %35,00 veya altıysa EVET.",
+   "kaynak_cozum": "TCMB PPK basın duyurusu (tcmb.gov.tr)",
+   "taban": "Politika faizi %36 (Ekim 2026: %37→%36). TCMB Kasım Piyasa Katılımcıları Anketi Aralık PPK beklentisi %35. Taban: anket medyanı yönünde karar oranı 2023 sonrası rejimde yüksek (≈%75–80; kaba sayım, kesinleşecek).",
+   "mercekler": [
+    "makro",
+    "siyasi-ekonomi"
+   ],
+   "on_otopsi": "Yanılırsak: Kasım TÜFE yukarı sürpriz yaptıysa ya da kur/rezerv baskısıyla TCMB duraklamayı seçtiyse.",
+   "motor": 72,
+   "p": 70,
+   "ilk_p": 70,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 70,
+     "motor": 72,
+     "neden": "açılış (pilot hafta 1). Claude −2: Ekim sonrası rezervde zayıflama haberleri."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-brent-90-yilsonu",
+   "kanal": "news",
+   "tur": "esik",
+   "q": "Brent petrolün 31 Aralık 2026 kapanış fiyatı varil başına 90 doların altında mı olacak?",
+   "acilis": "2026-11-18",
+   "deadline": "2026-12-31",
+   "kriter": "ICE Brent ön ay vadeli 31.12.2026 uzlaşma fiyatı < 90,00 $ ise EVET (kaynak: EIA/FRED DCOILBRENTEU ya da Reuters kapanışı).",
+   "kaynak_cozum": "FRED DCOILBRENTEU / EIA",
+   "taban": "18.11 civarı ≈93 $ (piyasa raporu). Eşik −%3,3. Savaş dönemi yıllık oynaklık ≈%50 → 1,4 ayda σ≈0,17; sürüklenme 0; risk-nötr düzeltmesi yok (spot eşik). Motor ≈%42.",
+   "mercekler": [
+    "enerji"
+   ],
+   "on_otopsi": "Yanılırsak: Hürmüz/ABD–İran tarafında beklenmedik ateşkes ya da tersine arz kesintisi.",
+   "motor": 42,
+   "p": 42,
+   "ilk_p": 42,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 42,
+     "motor": 42,
+     "neden": "açılış (pilot hafta 1). Okura etkisi: akaryakıt ve ÖTV takvimi ile birlikte pompa fiyatı."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-kerkuk-ceyhan-300",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "Irak, 31 Ocak 2027'ye kadar Kerkük–Ceyhan hattından günlük ihracatın 300 bin varili aştığını resmen açıklar mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-01-31",
+   "kriter": "Irak Petrol Bakanlığı ya da SOMO resmi açıklamasıyla, 31.01.2027'den önce herhangi bir gün hattan ihracat amaçlı akış ≥300.000 varil/gün olarak bildirilirse EVET; iki bağımsız ajans haberiyle doğrulanmış resmi açıklama gerekir.",
+   "kaynak_cozum": "Irak Petrol Bakanlığı / SOMO; Reuters, AA",
+   "taban": "17.11.2026 başlangıç 120 bin v/g, hedef kademeli 500 bin. Taban: Kerkük–Ceyhan ve benzeri hatlarda yeniden açılış sonrası hedef hacme 2,5 ayda ulaşma oranı düşük (2023–25 yeniden açılış girişimleri gecikti); kaba referans sınıfı, ≈3 vakada 1.",
+   "mercekler": [
+    "enerji",
+    "siyasi-ekonomi"
+   ],
+   "on_otopsi": "Yanılırsak: Hürmüz kapalılığı Irak'ı hızlanmaya zorladıysa ya da hat yeniden sabotaj/teknik arızayla kapandıysa.",
+   "motor": 30,
+   "p": 30,
+   "ilk_p": 30,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 30,
+     "motor": 30,
+     "neden": "açılış (pilot hafta 1; 18.11 sabah taramasının önerdiği aday). Türkiye bağı: geçiş ücreti ve Ceyhan terminali."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-asgari-ucret-25",
+   "kanal": "news",
+   "tur": "karar",
+   "q": "2027 için açıklanacak net asgari ücret artışı %25'i aşar mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-01-05",
+   "kriter": "Asgari Ücret Tespit Komisyonu'nun 2027 kararında net asgari ücretin 2026 net tutarına (28.075 TL) göre artışı %25,00'ı aşarsa EVET (≥35.094 TL). Ara dönem ayrımı yapılırsa 1 Ocak'tan geçerli tutar esas.",
+   "kaynak_cozum": "Çalışma ve Sosyal Güvenlik Bakanlığı / Resmî Gazete",
+   "taban": "2026 artışı ≈%27 (22.104→28.075 TL). Yıl sonu TÜFE beklentisi %30,04; hükümetin 2027 enflasyon hedefi ondan düşük. Son 3 yılda artış ≈ beklenen yıl sonu enflasyonuna yakın ya da üstünde (kaba sayım).",
+   "mercekler": [
+    "makro",
+    "mikro"
+   ],
+   "on_otopsi": "Yanılırsak: dezenflasyon hedefini öne çıkaran bir 'hedef enflasyon' artışı (%20–25) seçildiyse, ya da tersine seçim/talep kaygısıyla yüksek tutulduysa.",
+   "motor": 55,
+   "p": 52,
+   "ilk_p": 52,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 52,
+     "motor": 55,
+     "neden": "açılış (pilot hafta 1). Kurum kararı; kişi/parti adı yok."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-abd-iran-ateskes",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "ABD ile İran, 15 Şubat 2027'ye kadar resmî bir ateşkes ilan eder mi?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-02-15",
+   "kriter": "ABD hükümeti ve İran hükümetinin her ikisinin de resmi açıklamasıyla ya da arabulucu (ör. Katar) ilanını iki tarafın teyit etmesiyle, tüm cepheleri kapsayan bir ateşkes yürürlüğe girerse EVET. Tek taraflı duraklama sayılmaz.",
+   "kaynak_cozum": "Beyaz Saray / İran Dışişleri; Reuters, AP",
+   "taban": "Bağlı soru: '30 Nisan 2027'ye kadar yazılı barış anlaşması' %24. Ateşkes daha düşük eşik ama süre daha kısa (89 gün). Katar arabuluculuğu sürüyor; çatışma 8. ayında.",
+   "mercekler": [
+    "siyasi-ekonomi",
+    "enerji"
+   ],
+   "on_otopsi": "Yanılırsak: Şenzen zirvesi sonrası Çin aracılığı hızlandırdıysa.",
+   "motor": 20,
+   "p": 18,
+   "ilk_p": 18,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 18,
+     "motor": 20,
+     "neden": "açılış (pilot hafta 1). Bahis testi: şiddetin kendisi değil, diplomatik sonuç; okura etkisi akaryakıt, Körfez seyahati."
+    }
+   ],
+   "bagli": "on-catisma-abd-iran-anlasma"
   }
  ]
 }
