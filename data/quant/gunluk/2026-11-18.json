@@ -1,0 +1,206 @@
+{
+ "tarih": "2026-11-18",
+ "referans_seans": "17.11.2026 Salı kapanışı",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB gösterge kuru resmi sayfadan alınamadı; canligaste TCMB efektif alış 50,2940 / satış 50,4955 veriyor (gösterge değil)"
+  },
+  "usdtry_piyasa_17kasim": {
+   "deger": 50.42,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-17-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3794908",
+   "saat": "17.11.2026 18:30 TSİ",
+   "not_": "BloombergHT; gösterge değil"
+  },
+  "eurtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB göstergesi alınamadı"
+  },
+  "eurtry_piyasa_17kasim": {
+   "deger": 55.49,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-17-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3794908",
+   "saat": "17.11.2026 18:30 TSİ",
+   "not_": "BloombergHT; gösterge değil"
+  },
+  "bist100_kapanis": {
+   "deger": 11661.0,
+   "kaynak": "https://www.cnbce.com/borsa/borsa-gunu-dususle-kapadi-17-kasim-2026-h41979",
+   "saat": "17.11.2026 kapanış",
+   "not_": "-%1,53; BloombergHT ve canligaste aynı"
+  },
+  "gram_altin_tl": {
+   "deger": 6251.34,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-17-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3794908",
+   "saat": "17.11.2026 18:30 TSİ",
+   "not_": "Kapalıçarşı; canligaste kg fiyatından türetilen ~6.314 farklı"
+  },
+  "ons_altin_usd": {
+   "deger": 3851.9,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış",
+   "not_": "Cappnotes; BloombergHT 3.858–3.869, canligaste 3.863 (kaynaklar arası fark)"
+  },
+  "brent_usd": {
+   "deger": 93.14,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış",
+   "not_": "vadeli; BloombergHT 93,43, canligaste 93,21"
+  },
+  "wti_usd": {
+   "deger": 86.01,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "bitcoin_usd": {
+   "deger": 64211,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış",
+   "not_": "yaklaşık; BloombergHT 64.867"
+  },
+  "abd_2y": {
+   "deger": 4.8,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "abd_10y": {
+   "deger": 5.1,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "abd_30y": {
+   "deger": 5.46,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "vix": {
+   "deger": 25.46,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "sp500": {
+   "deger": 7340.53,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "nasdaq_composite": {
+   "deger": 24328.38,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "dow": {
+   "deger": 50759.42,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "dxy": {
+   "deger": 103.55,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 17.11 gösterge getirisi bulunamadı (yalnız 15.03.2028 vadeli tahvil basit %36,07, canligaste; gösterge 2y olduğu doğrulanmadı)"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 17.11 gösterge getirisi bulunamadı"
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026_9aralik": {
+   "kalshi_25bp_artirim": 91,
+   "cme_fedwatch": "Aralık artırım %100 (12.11 vadeli fiyatları; Motley Fool 16.11)",
+   "kaynak": [
+    "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+    "https://www.fool.com/investing/2026/11/16/theres-now-100-chance-fed-rate-hike-in-december-thats-not-worst-news-for-wall-street/"
+   ],
+   "saat": "Kalshi 17.11 kapanış; FedWatch 12.11 verisi"
+  },
+  "fed_ocak_2027": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynakta Ocak 2027 FedWatch/Kalshi olasılığı yok"
+  },
+  "ecb_17aralik": {
+   "deger": "25bp artırım %92 (Barchart aktarımı)",
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11 kapanış"
+  },
+  "tcmb_sonraki_ppk_10aralik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Yeni anket/swap haberi bulunamadı; son: 13.11 anket medyanı %35 (100bp indirim), 2026-11-16.json"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  }
+ },
+ "oynaklik": {
+  "vix": {
+   "deger": 25.46,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "saat": "17.11.2026 kapanış"
+  },
+  "altin_gvz": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel GVZ bulunamadı"
+  },
+  "brent_ovx": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel OVX bulunamadı"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  }
+ },
+ "takvim_7gun": {
+  "olaylar": [
+   {
+    "tarih": "2026-11-18",
+    "olay": "ABD konut başlangıçları/izinler (Ekim) 08:30 ET; bekleyen konut satışları 10:00 ET; FOMC tutanakları 14:00 ET"
+   },
+   {
+    "tarih": "2026-11-20",
+    "olay": "Michigan tüketici güveni nihai (önceki günlükten devralındı)"
+   }
+  ],
+  "kaynak": [
+   "https://cappnotes.substack.com/p/closing-look-tuesday-november-17",
+   "https://thriveinmarkets.com/calendar/2026-11-16/"
+  ],
+  "saat": "17.11.2026",
+  "not_": "TÜFE, PPK, OPEC+ ve ABD istihdam/TÜFE tarihleri önümüzdeki 7 günde kaynaklı bulunamadı"
+ }
+}
