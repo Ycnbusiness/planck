@@ -46,3 +46,6 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
+
+## Ses ve İz aday listesi
+- 18.11 (öğle) · ABD'de bir haftalık kesinti dizisi (FAA, United, JPMorgan, Apple, Microsoft); Rubio 18.11'de siber saldırı kanıtı olmadığını söyledi. İz ölçütü adayı: FAA kök neden raporu ya da Kongre brifingi (resmi karar/düzenleme). Kaynak: data/signals/2026-11-18.json

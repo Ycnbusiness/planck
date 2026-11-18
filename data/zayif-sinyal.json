@@ -147,6 +147,50 @@
     "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
     "https://www.yahoo.com/news/us/articles/trump-warns-iran-over-reported-135707578.html"
    ]
+  },
+  {
+   "tarih": "2026-11-18",
+   "id": "korfez-kuveyt-adnoc-ogle",
+   "tema": "İran'ın Körfez'deki ABD üslerine ve gemilere saldırıları",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "İran ordusu 18 Kasım'da İHA'larla Kuveyt'teki Ali Al-Salem Hava Üssü'ndeki Patriot sistemlerini hedef aldığını açıkladı (iki günde ikinci); Kuveyt ordusu hava savunmasının düşmanca İHA'lara karşılık verdiğini bildirdi, Kuveyt Dışişleri saldırıları 'tehlikeli tırmanma' olarak niteledi. Bahreyn 18 Kasım sabahı yeni önlemeler bildirdi ve sakinlere sığınak uyarısı yaptı. ADNOC, 17 Kasım gecesi Hürmüz'de vurulan gemisinde 1 mürettebatın kayıp, 11'inin yaralı olduğunu duyurdu. Etihad Abu Dabi–Riyad/Dammam uçuşlarını 19 Kasım'a kadar iptal etti. ABD yetkilileri beş günde üçüncü İran saldırı girişiminin önlendiğini söyledi.",
+   "neden_zayif": "Sabah taramasında Kuveyt saldırısı İran'a atfedilmemişti; artık İran'ın kendi beyanı ve Kuveyt'in resmi kınaması var. Ancak Körfez saldırı dizisi 17.11 akşamından beri işleniyor (aynı tema ikinci kez sayılmaz) ve Hürmüz'de gemi saldırıları neredeyse günlük. Oynattığı ≤90 günlük soru yok (on-catisma-abd-iran-anlasma ve on-enerji-hurmuz-gecis >90 gün; LR 1,2 eşiğinin altında). Önem 0 → Zayıf Sinyal Defteri. Not: Körfez'deki Türkçe okur için uçuş/güvenlik etkisi var ama sicilde ≤90 günlük Körfez seyahat sorusu yok; şiddetin kendisini soran soru bahis testinden geçmez.",
+   "kaynaklar": [
+    "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
+    "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757",
+    "https://www.arabtimesonline.com/news/kuwait-condemns-fresh-iranian-drone-attacks-reserves-right-to-defend-territory/",
+    "https://www.newarab.com/news/after-us-hits-qeshm-iran-targets-us-bases-kuwait-and-bahrain"
+   ]
+  },
+  {
+   "tarih": "2026-11-18",
+   "id": "ingiltere-tufe-ekim-ogle",
+   "tema": "Avrupa enflasyonu ve merkez bankaları",
+   "bagli": [
+    "risk-avrupa"
+   ],
+   "olay": "ONS: İngiltere'de Ekim yıllık TÜFE %3,6 (Eylül %3,5), Reuters anketiyle aynı, BoE tahmininin (%3,7) altında; çekirdek %2,8, hizmet %3,7 (beklenti %3,8). Piyasalar BoE'nin Aralık'ta faiz artırma olasılığını yaklaşık %90'dan %80'e indirdi.",
+   "neden_zayif": "Beklentiyle uyumlu veri; sürpriz küçük. Sicilde BoE sorusu yok. İngiltere'deki Türkçe okur için konut kredisi ilgisi olabilir; 17 Aralık BoE kararı için ileride soru adayı.",
+   "kaynaklar": [
+    "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
+    "https://startupfortune.com/uk-inflation-rises-to-36-in-october-but-softer-core-data-cools-bank-of-england-hike-bets/"
+   ]
+  },
+  {
+   "tarih": "2026-11-18",
+   "id": "abd-kesinti-dizisi-rubio-ogle",
+   "tema": "ABD altyapı kesintileri",
+   "bagli": [
+    "risk-siber"
+   ],
+   "olay": "Rubio 18 Kasım'da Manila'da, son bir haftadaki ABD kesintilerinin (FAA kalkış durdurması, United, JPMorgan Chase, Apple, Microsoft) birbirine bağlı olduğuna ya da siber saldırı olduğuna dair kanıt bulunmadığını söyledi; Ulusal İstihbarat Direktörü de 17 Kasım'da koordineli saldırı işareti görülmediğini açıklamıştı.",
+   "neden_zayif": "Yeni olgu yok, yalnız resmi inkâr; on-siber-yeni-devlet-atfi oynamaz. Çok konuşulan dizi: Ses ve İz adayı (iz ölçütü: FAA kök neden raporu ya da Kongre brifingi).",
+   "kaynaklar": [
+    "https://www.riotimesonline.com/rubio-no-evidence-us-outage-hack-2026/",
+    "https://coincentral.com/apple-outage-adds-to-a-week-of-tech-failures-at-airlines-banks-and-microsoft"
+   ]
   }
  ]
 }
