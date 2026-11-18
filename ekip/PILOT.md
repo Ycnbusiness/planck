@@ -3,14 +3,16 @@
 Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o haftanın maddelerinden yapılmamış olanı yapar ve yanına `[x] tarih` yazar. Kurallar: ANAYASA.md v2, TARAMA.md "Yöntem v2". Gerekçe: ekip/KARAR.md.
 
 ## Hafta 1 · 17–23 Kas — ölç ve hazırlan
+
+**Takvim (18.11 Yusuf uyarısı sonrası):** 19.11 kare dizisi + künye + Olay ve Cevap v2 betiği, örnek Yusuf'a · 20.11 risk-catisma düzeltmesi + nv-1 taslağı · 21.11 taban ölçümü Story'leri. Her tur en az bir maddeyi bitirir ve Yusuf'a yazar.
 - [x] 16.11 · 10–16 Kasım sinyallerinde S×K geriye dönük hesaplandı (`ekip/AB-TEST-1.md`). Eşikler kalır; S kısa vadeli soruda ölçülür, 2031 endeksinde değil.
 - [x] 17.11 · `pb-2026-11-11-motorin-90` düzeltildi %33 → %15 (sicilde DÜZELTME kaydı; ÖTV takvimi PwC bülteni/RG 33339). Okura düzeltme notu 17.11 eklendi (3 gönderi: 11.11 carousel, Reel, Günün Dosyası). Eski madde: hesap hatası (mikro raporu, 17.11): Motor 2026 ÖTV takvimini (13.08.2026 RG: 1 Ara 12 TL, 1 Oca 13,90 TL) saymamış. Önce Resmî Gazete'den doğrula; doğruysa `sicil.py guncelle` ile düzeltme kaydı (Anayasa §8) ve sessiz izleme. `pb-2026-11-10-motorin`'in kurallı Motor'u yok, aynı turda not düş.
-- [ ] Şiddeti konu eden mevcut soruları bahis testine göre gözden geçir (ilk: `pb-2026-11-16-karadeniz-turk-gemi`)
+- [x] 18.11 · `pb-2026-11-16-karadeniz-turk-gemi` iptal (hatalı soru, bahis testi). Diğer şiddet soruları için tarama: yeni soru açılışında editör madde 15 uygulanıyor.
 - [ ] `risk-catisma` yuvarlama düzeltmesi: geçmişi LR tablosuyla ondalıklı yeniden hesapla, `sicil.py guncelle` ile "düzeltme" notuyla işle
 - [ ] `nv-1` "Neden Yanıldık" taslağı (Quant durduğu için yayın Yusuf onayıyla)
-- [~] 18.11 · 6 kısa vadeli soru açıldı (Kasım TÜFE %30, TCMB Aralık %35, Brent yıl sonu 90$, Kerkük–Ceyhan 300 bin v/g, asgari ücret %25, ABD–İran ateşkes); 9 soru daha gerekli. Hedef: 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar
+- [x] 18.11 · 14 kısa vadeli soru açıldı (≤90 gün oranı %49→%56): 6'sı 18:50'de, 8'i 19:10'da (motorin 100 TL 1 Ara, yıl sonu TÜFE %30, emekli zammı %10,5, Hürmüz açılış, kredi kartı azami faiz, BOTAŞ Ocak, ABD Kasım TÜFE, Brent 100$ dokunma). İlk 6: (Kasım TÜFE %30, TCMB Aralık %35, Brent yıl sonu 90$, Kerkük–Ceyhan 300 bin v/g, asgari ücret %25, ABD–İran ateşkes); 9 soru daha gerekli. Hedef: 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar
 - [ ] Taban ölçümü Story'leri (eski biçimle): "%12 sence ne demek?" ve "Bir risk haberinden sonra ne yapacağını biliyor musun?" (anket çıkartması MBS'de yoksa Yusuf'a telefondan ekleme notu)
-- [ ] `data/zayif-sinyal.json` dosyasını aç
+- [x] `data/zayif-sinyal.json` (tarama görevi açtı)
 - [ ] Olay ve Cevap v2 (5 sayfa: Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler) betiğini yaz (`news/olaycevap2.js`), örnek çıktıyı Yusuf'a göster
 - [ ] 10×10 kare dizisi ve yeni künyeyi kart betiklerine ekle (`news/pekibiz.js`, `news/dosya.js`, `card.js`); örnek çıktıyı Yusuf'a göster
 

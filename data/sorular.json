@@ -1980,9 +1980,13 @@
    "motor": 70,
    "p": 70,
    "ilk_p": 70,
-   "durum": "acik",
+   "durum": "iptal",
    "sonuc": null,
-   "kapanis": null,
+   "kapanis": {
+    "t": "2026-11-18",
+    "kaynak": "https://github.com/Ycnbusiness/planck/blob/main/ekip/EDITOR.md",
+    "not": "İptal (hatalı soru): bahis testi madde 15 — şiddetin/hasarın kendisine olasılık veriyordu (Yusuf 16–17.11; A/B testi 1). Ayrıca 91 gün, ufuk kuralı dışı. Puanlanmaz; yerine sonuç sorusu yalnız kapanış kaynağı (kamuya açık sigorta primi verisi) bulunursa açılır."
+   },
    "gecmis": [
     {
      "t": "2026-11-16",
@@ -2171,6 +2175,244 @@
     }
    ],
    "bagli": "on-catisma-abd-iran-anlasma"
+  },
+  {
+   "id": "pk-2026-11-18-motorin-100-aralik",
+   "kanal": "news",
+   "tur": "esik",
+   "q": "İstanbul'da (Avrupa yakası, Opet) motorinin 1 Aralık 2026'daki litre fiyatı 100 TL'yi aşar mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2026-12-01",
+   "kriter": "1 Aralık 2026 günü (ÖTV artışı sonrası) Opet İstanbul Avrupa yakası motorin pompa fiyatı >100,00 TL ise EVET. Kaynak: Opet fiyat arşivi ya da iki bağımsız ajans haberi.",
+   "kaynak_cozum": "Opet akaryakıt fiyat arşivi; AA/Bloomberg HT",
+   "taban": "Aktarım Motoru: bugün ≈95,1 TL; 1 Aralık ÖTV 9→12 TL (+3,6 TL KDV dahil) → ≈98,7 TL. Kalan +1,3 TL için ürün fiyatında ≈+%2 gerekir; 2 haftalık dizel ürün oynaklığı σ≈%9 → z≈0,2 → %42.",
+   "mercekler": [
+    "mikro",
+    "enerji"
+   ],
+   "on_otopsi": "Yanılırsak: ÖTV adımına 'eşel mobil' benzeri bir indirimle müdahale edildiyse ya da dağıtıcı marjı değiştiyse.",
+   "motor": 42,
+   "p": 42,
+   "ilk_p": 42,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 42,
+     "motor": 42,
+     "neden": "açılış (pilot hafta 1). Hesap kartı ile birlikte: 1 Aralık ÖTV etkisi kesin, eşik belirsiz."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-tufe-yilsonu-30",
+   "kanal": "news",
+   "tur": "veri",
+   "q": "TÜİK'in Ocak başında açıklayacağı 2026 yıl sonu (Aralık) yıllık TÜFE %30,00'ın üstünde mi olacak?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-01-05",
+   "kriter": "TÜİK Aralık 2026 TÜFE bülteninde yıllık değişim >%30,00 ise EVET. İlk açıklanan değer esas.",
+   "kaynak_cozum": "TÜİK TÜFE bülteni",
+   "taban": "TCMB Kasım Piyasa Katılımcıları Anketi yıl sonu beklentisi %30,04 (13.11.2026) — eşik beklentiyle neredeyse aynı. TCMB'nin Kasım ayındaki yıl sonu tahmin hataları (2012–2025, 2021 hariç) ortalama ≈1,2 puan; anket medyanının iki aylık hata std'si ≈0,5–0,7 puan.",
+   "mercekler": [
+    "makro"
+   ],
+   "on_otopsi": "Yanılırsak: Aralık'ta yönetilen fiyat (elektrik, doğalgaz, tütün) adımı geldiyse ya da gıda sürpriz yaptıysa.",
+   "motor": 50,
+   "p": 50,
+   "ilk_p": 50,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 50,
+     "motor": 50,
+     "neden": "açılış (pilot hafta 1). Bağlı: kira tavanı, emekli/memur zammı."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-emekli-zam-105",
+   "kanal": "news",
+   "tur": "veri",
+   "q": "SSK ve Bağ-Kur emeklilerinin Ocak 2027 zammı (Temmuz–Aralık 6 aylık TÜFE) %10,50'yi aşar mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-01-05",
+   "kriter": "TÜİK Aralık 2026 bülteni sonrası Temmuz–Aralık 2026 kümülatif TÜFE artışı >%10,50 ise EVET (yasal hesap: 6 aylık TÜFE).",
+   "kaynak_cozum": "TÜİK TÜFE bülteni; SGK duyurusu",
+   "taban": "Temmuz–Ekim kümülatif %8,28 (TÜİK, 3 Kasım). Eşik için Kasım+Aralık toplamı >%2,05 gerekir; anket ima ettiği toplam ≈%2,0. İki aylık sürpriz std ≈0,5 puan → ≈%47.",
+   "mercekler": [
+    "makro",
+    "mikro"
+   ],
+   "on_otopsi": "Yanılırsak: Kasım TÜFE (3 Aralık) yönü belirleyecek; o gün güncellenir.",
+   "motor": 47,
+   "p": 47,
+   "ilk_p": 47,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 47,
+     "motor": 47,
+     "neden": "açılış (pilot hafta 1). Okura doğrudan: emekli maaşı."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-hurmuz-acilis",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "İran, 15 Şubat 2027'ye kadar Hürmüz Boğazı'nın ticari gemi geçişine şartsız açıldığını resmen ilan eder mi?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-02-15",
+   "kriter": "İran hükümeti (Dışişleri, Genelkurmay ya da IRGC Deniz Kuvvetleri) ticari geçişin ABD şartı aranmaksızın serbest olduğunu resmen açıklar ve iki bağımsız ajans bunu bildirirse EVET. Tekil gemi izinleri sayılmaz.",
+   "kaynak_cozum": "İran resmi açıklaması; Reuters, AP, UKMTO",
+   "taban": "Boğaz Ekim başından beri şarta bağlı kapalı (Al Jazeera, 4 Ekim). Bağlı sorular: ABD–İran ateşkes (15 Şubat) %18, yazılı barış (30 Nisan) %24. Açılış büyük ölçüde ateşkese bağlı; ateşkessiz açılış olasılığı düşük.",
+   "mercekler": [
+    "enerji",
+    "siyasi-ekonomi"
+   ],
+   "on_otopsi": "Yanılırsak: ateşkes sorusunu da birlikte ıskalamışızdır; ya da İran ekonomik baskıyla tek taraflı açılışa gittiyse.",
+   "motor": 18,
+   "p": 18,
+   "ilk_p": 18,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 18,
+     "motor": 18,
+     "neden": "açılış (pilot hafta 1). Bahis testi: şiddet değil, ticari sonuç. Okura: akaryakıt, navlun, Körfez seyahati."
+    }
+   ],
+   "bagli": "pk-2026-11-18-abd-iran-ateskes"
+  },
+  {
+   "id": "pk-2026-11-18-kk-azami-faiz-ocak",
+   "kanal": "news",
+   "tur": "karar",
+   "q": "TCMB'nin Ocak 2027 için ilan edeceği kredi kartı azami akdi faiz oranı, Aralık 2026 oranından düşük olur mu?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-01-02",
+   "kriter": "TCMB'nin Ocak 2027'de geçerli kredi kartı azami akdi faiz oranı (en düşük kademe) Aralık 2026 oranından düşükse EVET.",
+   "kaynak_cozum": "TCMB kredi kartı azami faiz duyurusu (tcmb.gov.tr)",
+   "taban": "Bankacılık raporu (ekip/quant/12): azami oran TCMB'nin bir referans faizine kademe baz puanı eklenerek belirleniyor; politika faiziyle bağı Tebliğ'den teyit edilmedi. Bağlı: TCMB Aralık %35 sorusu %70. İndirim olursa düşüş olasılığı yüksek, olmazsa düşük.",
+   "mercekler": [
+    "bankacilik"
+   ],
+   "on_otopsi": "Yanılırsak: formül politika faizine değil başka bir orana bağlıysa (teyit edilmemiş varsayım).",
+   "motor": 60,
+   "p": 58,
+   "ilk_p": 58,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 58,
+     "motor": 60,
+     "neden": "açılış (pilot hafta 1). Okura: kredi kartı borcu. Claude −2: formül teyitsiz."
+    }
+   ],
+   "bagli": "pk-2026-11-18-tcmb-aralik-35"
+  },
+  {
+   "id": "pk-2026-11-18-botas-ocak-zam",
+   "kanal": "news",
+   "tur": "karar",
+   "q": "BOTAŞ, 1 Ocak 2027'de konut (mesken) doğalgaz tarifesine zam yapar mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2027-01-03",
+   "kriter": "BOTAŞ'ın Ocak 2027 tarife tablosunda konut kademesi birim fiyatı Aralık 2026'dan yüksekse EVET.",
+   "kaynak_cozum": "BOTAŞ tarife duyurusu (botas.gov.tr)",
+   "taban": "Kasım 2026'da mesken tarifesi sabit, sanayi ve elektrik üretimine zam (SteelRadar). Petrol endeksli ithalat sözleşmeleri 6–9 ay gecikmeyle 2026 savaş fiyatlarını 2027'ye taşıyor (enerji raporu, doğrulanmamış). Ocak yönetilen fiyat güncellemesi geleneği. Kaba taban.",
+   "mercekler": [
+    "enerji",
+    "mikro"
+   ],
+   "on_otopsi": "Yanılırsak: dezenflasyon hedefi için konut korunduysa (Kasım'daki gibi).",
+   "motor": 55,
+   "p": 55,
+   "ilk_p": 55,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 55,
+     "motor": 55,
+     "neden": "açılış (pilot hafta 1). Okura doğrudan: kış faturası."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-abd-tufe-kasim-03",
+   "kanal": "news",
+   "tur": "veri",
+   "q": "ABD Kasım 2026 TÜFE'si (mevsimsellikten arındırılmış, aylık) %0,3 ya da üstünde açıklanır mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2026-12-12",
+   "kriter": "BLS Kasım 2026 CPI bülteninde tüm kalemler SA aylık değişim ≥%0,3 ise EVET. İlk açıklama esas.",
+   "kaynak_cozum": "BLS CPI bülteni (bls.gov)",
+   "taban": "Ekim %0,4 (beklentinin üstü), Eylül %0,6, çekirdek %0,3 (BLS, 10.11). Enerji fiyatları Kasım'da yatay-hafif düşük. Son 3 ayın 3'ünde ≥0,3.",
+   "mercekler": [
+    "makro"
+   ],
+   "on_otopsi": "Yanılırsak: benzin fiyatlarındaki düşüş manşeti çektiyse.",
+   "motor": 62,
+   "p": 62,
+   "ilk_p": 62,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 62,
+     "motor": 62,
+     "neden": "açılış (pilot hafta 1). Okura: ABD'de yaşayan Türk okur ve Fed üzerinden kur."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-18-brent-100-dokunma",
+   "kanal": "news",
+   "tur": "esik",
+   "q": "Brent petrol, 31 Aralık 2026'ya kadar herhangi bir günde 100 doların üstünde kapanır mı?",
+   "acilis": "2026-11-18",
+   "deadline": "2026-12-31",
+   "kriter": "ICE Brent ön ay vadeli günlük uzlaşma fiyatı 18.11–31.12.2026 arasında en az bir gün >100,00 $ ise EVET.",
+   "kaynak_cozum": "FRED DCOILBRENTEU / EIA",
+   "taban": "≈93 $ başlangıç; eşik +%7,3. Günlük kapanışla dokunma olasılığı, yıllık oynaklık %40 varsayımıyla 1,4 ayda ≈%55 (sürekli izleme düzeltmesi uygulandı). Çift eşik: aynı ufukta 90 $ altı kapanış sorusu %42.",
+   "mercekler": [
+    "enerji"
+   ],
+   "on_otopsi": "Yanılırsak: oynaklık varsayımı yanlış (savaş primi sönümlendiyse düşük, yeni arz şokunda yüksek).",
+   "motor": 52,
+   "p": 52,
+   "ilk_p": 52,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-18",
+     "p": 52,
+     "motor": 52,
+     "neden": "açılış (pilot hafta 1). Çift eşik kuralı (enerji raporu): yön tavsiyesi izlenimini önler."
+    }
+   ]
   }
  ]
 }
