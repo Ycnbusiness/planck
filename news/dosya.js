@@ -7,6 +7,7 @@ const mark = 'data:image/svg+xml;base64,' + b64('logos/planck-mark-reversed.svg'
 const lock = 'data:image/svg+xml;base64,' + b64('logos/planck-lockup-reversed.svg');
 const BLUE='#6b93ff', AMB='#f2a93b', MUT='#9aa3b2', DIM='#262d3d', VOID='#0a0d13';
 const band = p => p>=80?[5,'Çok yüksek']:p>=60?[4,'Yüksek']:p>=45?[3,'Orta-yüksek']:p>=25?[2,'Orta']:[1,'Düşük'];
+const grid = (p, c=14, g=4) => `<span style="display:inline-grid;grid-template-columns:repeat(10,${c}px);gap:${g}px">${Array.from({length:100},(_,k)=>`<i style="display:block;width:${c}px;height:${c}px;background:${k<p?BLUE:DIM}"></i>`).join('')}</span>`;
 const meter = (lv, w=44, h=12) => `<span style="display:inline-grid;grid-template-columns:repeat(5,${w}px);gap:6px">${[1,2,3,4,5].map(k=>`<i style="display:block;height:${h}px;background:${k<=lv?BLUE:DIM}"></i>`).join('')}</span>`;
 const css = `${fonts}*{box-sizing:border-box}body{margin:0;background:${VOID}}
 .s{width:1080px;height:1350px;background:${VOID};color:#eef1f6;font-family:AL,AX,sans-serif;position:relative;overflow:hidden}
@@ -27,7 +28,7 @@ const SP = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const OUT = pro
 const S = []; let N = SP.items.length + 2; const pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
 const frame = (inner, i) => `<div class="s"><div class="scan"></div><div class="hud"><i></i><i></i><i></i><i></i></div>
 <div class="hl mono"><span>PLANCK · GÜNÜN DOSYASI</span><span>${SP.date}</span></div><div class="in">${inner}</div>
-<div class="hb mono"><span>@PLANCK.NEWS · ${pg(i)}</span><span>CLAUDE İLE HAZIRLANMIŞTIR</span></div></div>`;
+<div class="hb mono"><span>@PLANCK.NEWS · ${pg(i)}</span><span>TARAMA VE HESAP: CLAUDE</span></div></div>`;
 const dl = (a,b) => b>a?`<span style="color:${BLUE}">▲ ${b-a}</span>`:b<a?`<span>▼ ${a-b}</span>`:`<span style="color:${MUT}">= 0</span>`;
 S.push(frame(`<div class="eb mono">Günün Dosyası<b></b></div><h1 style="margin-top:40px;font-size:110px">Bugün ${SP.items.length} Gelişme</h1>
 <p class="b" style="margin-top:36px;font-size:34px;line-height:48px">${SP.lede||'Günün öne çıkan gelişmeleri, olasılığa etkisi ve bize ne anlama geldiği. Her sayfada bir olay, bir cevap.'}</p>
@@ -35,16 +36,16 @@ S.push(frame(`<div class="eb mono">Günün Dosyası<b></b></div><h1 style="margi
 SP.items.forEach((it,k)=>{ const [lv,b]=band(it.to); S.push(frame(`<div class="eb mono">${it.tag} · ${k+1}/${SP.items.length}<b></b></div>
 <h2 style="margin-top:28px;font-size:64px;line-height:70px">${it.title}</h2>
 <p class="b" style="margin-top:26px;font-size:30px;line-height:43px">${it.text}</p>
-<div style="border-top:2px solid ${DIM};margin-top:34px;padding-top:26px"><span class="mono" style="font-size:20px;color:${MUT}">ETKİLENEN RİSK</span>
+<div style="border-top:2px solid ${DIM};margin-top:34px;padding-top:26px"><span class="mono" style="font-size:20px;color:${MUT}">SORU</span>
 <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:10px"><span style="font-size:32px;font-weight:700">${it.risk}</span><span style="font-family:ML,MX,monospace;font-size:56px;color:${BLUE}">%${it.to}</span></div>
-<div style="display:flex;gap:16px;align-items:center;margin-top:10px">${meter(lv,36,9)}<span class="mono" style="font-size:18px;color:${BLUE}">${b}</span><span class="mono" style="font-size:18px">%${it.from} → %${it.to} · ${dl(it.from,it.to)}</span></div></div>
+<div style="display:flex;gap:22px;align-items:center;margin-top:12px">${grid(it.to,11,3)}<div><span class="mono" style="font-size:22px;color:#eef1f6;display:block">100'de ${it.to}</span><span class="mono" style="font-size:18px;display:block;margin-top:8px">%${it.from} → %${it.to} · ${dl(it.from,it.to)}</span>${it.deadline?`<span class="mono" style="font-size:18px;color:${MUT};display:block;margin-top:8px">SON TARİH ${it.deadline}</span>`:''}</div></div></div>
 ${it.pq?`<div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:26px"><span class="mono" style="font-size:20px;color:${BLUE}">PEKİ BİZ?</span>
 <div style="display:flex;justify-content:space-between;gap:24px;align-items:baseline;margin-top:12px"><p style="margin:0;font-size:30px;line-height:40px;font-weight:700">${it.pq}</p><span style="font-family:ML,MX,monospace;font-size:64px;color:${BLUE}">%${it.pp}</span></div>
 ${it.pdo?`<p style="margin:14px 0 0;font-size:25px;line-height:35px;color:#c9d0db">${it.pdo}</p>`:''}</div>`
 :`<div style="margin-top:auto;border-top:2px solid ${DIM};padding-top:26px"><span class="mono" style="font-size:20px;color:${MUT}">NEDEN ÖNEMLİ?</span>
 ${it.pdo?`<p style="margin:14px 0 0;font-size:27px;line-height:38px;color:#c9d0db">${it.pdo}</p>`:''}</div>`}</div>`,k+2)); });
 S.push(frame(`<div class="eb mono">Kapanış<b></b></div><h2 style="margin-top:28px;font-size:72px">${SP.question}</h2>
-<p class="mono" style="margin-top:auto;font-size:19px;line-height:30px;color:${MUT}">HER TAHMİN SON TARİHİNDE KAPATILIR VE KARNEDE PUANLANIR. OLASILIKLAR CLAUDE'UN TAHMİNİDİR, KESİN BİLGİ DEĞİLDİR.</p>
+<p class="mono" style="margin-top:auto;font-size:19px;line-height:30px;color:${MUT}">HER TAHMİN SON TARİHİNDE KAPATILIR VE KARNEDE PUANLANIR.<br>TARAMA VE HESAP: CLAUDE (ANTHROPIC'İN YAPAY ZEKÂ MODELİ). İNSAN: KURALLARI YAZAR, İTİRAZLARI KARARA BAĞLAR. BU GÖNDERİ YAYIN ÖNCESİ İNSAN ONAYINDAN GEÇMEDİ. KİMSEDEN FON ALMIYORUZ.</p>
 <img src="${lock}" style="height:62px;margin-top:34px">`,N));
 (async () => { const br = await chromium.launch(); fs.mkdirSync(OUT, { recursive: true });
   for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
