@@ -70,7 +70,9 @@
    "eksik": "Pompaya yansıma: Opet/PO fiyat listesi ya da AA/EPDK haberi + ikinci bağımsız kaynak",
    "olursa": "pb-2026-11-10-motorin'i 'evet' kapat (kriter: 95,00 TL altı; sicil.py kapat). pk-2026-11-18-motorin-100-aralik Motor'unu yeni fiyatla yeniden hesapla (≈90 + ÖTV 3,6 ≈ 93,7 TL) ve sicil.py guncelle; pb-2026-11-11-motorin-90'ı LR tablosuyla güncelle. Önem S×K ≥1,4 çıkarsa Olay ve Cevap (Peki Biz? motorin), değilse Story/Dosya adayı.",
    "bitis": "2026-11-22",
-   "notlar": []
+   "notlar": [
+    "2026-11-19 akşam: Beklenen tutar 6,58 TL'ye çıktı, 19→20 Kasım gece yarısı (ekoturk, abcgazetesi, yeniçağ; hepsi adsız 'sektör kaynakları'). Gerçekleşirse İstanbul Avrupa ≈95,30 → ≈88,7 TL: pb-2026-11-10-motorin evet; pk-2026-11-18-motorin-100-aralik Motor'u ≈88,7+3,6≈92,3 TL ile yeniden hesaplanır (100 için ≈+%8 ürün artışı → belirgin düşüş); pb-2026-11-11-motorin-90 o gün 90 altında başlar. Sabah taraması dağıtıcı listesiyle doğrulasın; önem büyük olasılıkla ≥1,4 (K=3) → Olay ve Cevap adayı."
+   ]
   },
   {
    "id": "hurmuz-uc-tanker-mayin",
@@ -81,7 +83,8 @@
    "olursa": "Hürmüz'de mayın kullanımının teyidi: on-enerji-hurmuz-gecis ve pk-2026-11-18-brent-100-dokunma yeniden değerlendirilir (LR 1,25–2); önem ≥0,4 ise Dosya/Story, ≥1,4 ise Olay ve Cevap adayı.",
    "bitis": "2026-11-22",
    "notlar": [
-    "2026-11-19 öğle: Yalnız İran kaynaklı; aynı gece Hasab açığındaki tanker vuruşu (UKMTO) mermi olarak bildirildi, mayın değil."
+    "2026-11-19 öğle: Yalnız İran kaynaklı; aynı gece Hasab açığındaki tanker vuruşu (UKMTO) mermi olarak bildirildi, mayın değil.",
+    "2026-11-19 akşam: bağımsız teyit yok."
    ]
   }
  ]

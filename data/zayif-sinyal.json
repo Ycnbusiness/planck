@@ -316,6 +316,50 @@
     "https://www.bloomberght.com/uea-benzeri-gorulmemis-bir-sok-enerji-dunyasini-yeniden-sekillendiriyor-3795075",
     "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
    ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "riyad-pif-kulesi-husi-aksam",
+   "tema": "Suudi–Husi tırmanması",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "Riyad'daki Kral Abdullah Finans Bölgesi'nde Suudi varlık fonu PIF'in genel merkezi olan kule 19 Kasım'da Husi füzesiyle ilişkilendirilen saldırıda birkaç katından hasar gördü; Suudi hükümeti yaralı olmadığını açıkladı, koalisyon ilk değerlendirmede hasarı düşen parçalara bağladı. Bölge Kasım'da ikinci kez hedef oldu (8 Kasım Aramco binası). Husiler Kral Halid Havalimanı'nı da vurduklarını iddia etti; havalimanında yeni aksama teyit edilmedi. ABD Dışişleri Suudi Arabistan ve Bahreyn için güvenlik uyarısını yineledi.",
+   "neden_zayif": "Suudi–Husi tırmanması süren eğilim (15.11 Babülmendep, 18.11 koalisyon saldırıları işlendi). Sicilde Riyad/Suudi hedefi ölçen ≤90 günlük soru yok; pb-2026-11-15-kizildeniz-turk-gemi oynamaz (saldırılar Suudi hedeflerine). S=0 → önem 0. K, Körfez'de yaşayan okur için 3 olurdu; Riyad havalimanı yeniden kapanırsa uçuş sorusu açılması değerlendirilir. Havalimanı iddiası tek taraflı (Husi).",
+   "kaynaklar": [
+    "https://www.yahoo.com/news/articles/houthi-missile-threat-towards-riyadh-031757609.html",
+    "https://thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike",
+    "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
+   ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "trump-iran-1-ocak-aksam",
+   "tema": "ABD–İran: saldırı seçenekleri",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "Trump, Çin ziyaretinde Fox News'a İran'la çatışmada '1 Ocak'tan sonra ne olacağını göreceklerini' söyledi, tarihin anlamını açıklamadı; İran'ın kimyasal ya da biyolojik silahlara 'baktığına' dair işaretler olduğunu ileri sürdü, ayrıntı vermedi. İran Dışişleri, Washington'a 'kirli bomba' planı iddiasını içeren CNN haberini 'asılsız' dedi; Rubio başkente yakın tehdit görmediğini söyledi.",
+   "neden_zayif": "Saldırı kararı yok; 'Ocak sonrası' ifadesi kısa vadede yeni saldırı olasılığını biraz düşürür ama ateşkes/anlaşma sorularını (pk-2026-11-18-abd-iran-ateskes, on-catisma-abd-iran-anlasma) oynatmaz; LR ≈1. Kimyasal/biyolojik silah iddiası kanıtsız → olgu olarak kullanılmaz.",
+   "kaynaklar": [
+    "https://www.newarab.com/news/trump-says-will-see-what-happens-iran-after-1-january",
+    "https://www.aol.com/articles/trump-says-us-see-happens-121053000.html",
+    "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+   ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "jpmorgan-tedarikci-siber-aksam",
+   "tema": "Tedarik zinciri siber saldırıları",
+   "bagli": [
+    "risk-siber"
+   ],
+   "olay": "JPMorgan Chase, hizmet aldığı üçüncü taraf tedarikçilerin siber saldırıya uğradığını ve bu tedarikçilerdeki pazarlama verilerine (bazı müşteri adları ve e-posta adresleri) erişildiğini açıkladı; bankanın kendi sistemleri ve hizmetleri etkilenmedi.",
+   "neden_zayif": "Tedarik zinciri saldırısı teması (18.11 Optimizely işlendi); sınırlı veri, hizmet kesintisi yok. ≤90 günlük siber sorusu oynamaz.",
+   "kaynaklar": [
+    "https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705",
+    "https://www.investing.com/news/stock-market-news/jpmorgan-chase-says-vendors-hit-in-cyberattack-not-related-to-earlier-outage-5039510"
+   ]
   }
  ]
 }
