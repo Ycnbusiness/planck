@@ -13,8 +13,8 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 - [x] 18.11 · 14 kısa vadeli soru açıldı (≤90 gün oranı %49→%56): 6'sı 18:50'de, 8'i 19:10'da (motorin 100 TL 1 Ara, yıl sonu TÜFE %30, emekli zammı %10,5, Hürmüz açılış, kredi kartı azami faiz, BOTAŞ Ocak, ABD Kasım TÜFE, Brent 100$ dokunma). İlk 6: (Kasım TÜFE %30, TCMB Aralık %35, Brent yıl sonu 90$, Kerkük–Ceyhan 300 bin v/g, asgari ücret %25, ABD–İran ateşkes); 9 soru daha gerekli. Hedef: 15 yeni soru: hepsi ≤90 gün, en az 6'sı ≤30 gün, açılışta %15–85. Omurga: TÜİK Kasım enflasyonu (3 Ara), TCMB faiz kararı, akaryakıt zammı, ECB/Fed kararı, resmi takvimli olaylar
 - [ ] Taban ölçümü Story'leri (eski biçimle): "%12 sence ne demek?" ve "Bir risk haberinden sonra ne yapacağını biliyor musun?" (anket çıkartması MBS'de yoksa Yusuf'a telefondan ekleme notu)
 - [x] `data/zayif-sinyal.json` (tarama görevi açtı)
-- [~] 19.11 · `news/olaycevap2.js` yazıldı (5 sayfa, kare dizisi, yeni künye); örnek posts/ornek/olaycevap2/ — Yusuf onayı bekliyor
-- [~] 18.11 · `news/dosya.js`: 10×10 kare dizisi, "100'de X", son tarih, "SORU" etiketi, yeni künye (örnek: posts/ornek/dosya-kare-dizisi-02.png; Yusuf onayı bekliyor). Kalan: `news/pekibiz.js`, `card.js`. Eski madde: 10×10 kare dizisi ve yeni künyeyi kart betiklerine ekle (`news/pekibiz.js`, `news/dosya.js`, `card.js`); örnek çıktıyı Yusuf'a göster
+- [x] 19.11 · `news/olaycevap2.js` yazıldı ve Yusuf onayladı (09:03); hemen geçerli
+- [~] 18.11 · `news/dosya.js`: 10×10 kare dizisi, "100'de X", son tarih, "SORU" etiketi, yeni künye (Yusuf onayı 19.11). Kalan: `news/pekibiz.js`, `card.js`. Eski madde: 10×10 kare dizisi ve yeni künyeyi kart betiklerine ekle (`news/pekibiz.js`, `news/dosya.js`, `card.js`); örnek çıktıyı Yusuf'a göster
 
 ## Hafta 2 · 24–30 Kas — yeni biçim yayında
 - [ ] Yeni sunum standardı + kare dizisi + yeni künye bütün gönderilerde
