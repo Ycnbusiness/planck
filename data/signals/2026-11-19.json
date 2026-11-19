@@ -1,0 +1,143 @@
+{
+ "date": "2026-11-19",
+ "scan_window": "2026-11-18 20:40 → 2026-11-19 06:50 (TSİ)",
+ "yontem": "Yöntem v2 (TARAMA.md): Önem = S × K, S ≤90 günlük sorularda. Görev metnindeki eski formül yalnız 'onem_eski' alanında.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "yenilendi, değişiklik yok"
+ },
+ "izleme": {
+  "not": "Yeni öğe: motorin-indirim-20kasim (bitiş 2026-11-22)."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 0,
+  "yesil": 3,
+  "zayif": 3,
+  "not": "Sessiz gün. Önem ≥0,4 olay yok; risk olasılıkları değişmedi, sicilde güncelleme yok. Ana akış, Story ve Günün Dosyası yok; editör turu gerekmedi. Motorinde ~5,20 TL indirim beklentisi doğrulanmadı (izleme). Şenzen üçlü zirvesi tarama saatinden sonra; öğle taramasında değerlendirilecek."
+ },
+ "events": [
+  {
+   "id": "fed-tutanak-aralik-artis",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0| × TR 1 × etki 2 = 0",
+   "event": "Fed'in 18 Kasım'da yayımlanan Ekim toplantı tutanağına göre yetkililerin neredeyse tamamı Aralık'ta çeyrek puanlık artış bekliyor; bazıları Ekim'de artışı desteklemiş, ikisi yarım puan dile getirmiş. Faiz Ekim'de %3,9'da tutulmuştu (Eylül'de üç yılın ilk artışı). CME FedWatch'a göre piyasa Aralık artışına yaklaşık %95 olasılık veriyor. Vali Waller son üç ayda çekirdek enflasyonun yıllık ~%3,5 hızında seyrettiğini söyledi. ABD 10 yıllık getiri %5,10.",
+   "rationale": "Beklenen sonuç (piyasa ~%95 fiyatlıyordu); sürpriz düşük. pk-2026-11-18-abd-tufe-kasim-03 ve pk-2026-11-18-tcmb-aralik-35 için LR 1,2 eşiğinin altında. Sicilde Fed Aralık sorusu yok; bant dışı (>%85) olduğundan açılmadı. Gelişen piyasalara baskı kanalı TCMB sorusu için izlenir.",
+   "sources": [
+    "https://ca.finance.yahoo.com/news/fed-minutes-higher-interest-rates-191215222.html",
+    "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes",
+    "https://www.advisorhub.com/fed-minutes-show-almost-all-officials-expect-more-rate-hikes/",
+    "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "brent-uc-ayin-dibi",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "onem_eski": "|Δ 0| × TR 2 × etki 2 = 0",
+   "event": "Brent 18 Kasım'da yaklaşık %2,5 düşüşle 91 doların altına, 31 Ağustos'tan bu yana en düşük seviyeye indi; Kasım'daki kayıp %20'yi aştı. Gerekçeler: EIA'ya göre ABD ham petrol stokunun 3,4 milyon varil artması ve Körfez arzının beklenenden hızlı toparlanması (IEA dördüncü çeyrekte arz fazlası öngörüyor). WTI Ocak vadelisi 82,31 dolar. 19 Kasım Asya'da Brent ~92 dolar.",
+   "rationale": "Eğilimin devamı; fiyat hareketi pk-2026-11-18-brent-90-yilsonu ve brent-100-dokunma Motor'larının oynaklık varsayımı içinde (açılış ~93 $). LR 1,2 altı. Pompaya yansıma ayrı izleniyor (izleme: motorin-indirim-20kasim).",
+   "sources": [
+    "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "https://gulfnews.com/business/energy/oil-slips-in-asia-led-by-murban-brent-wti-what-to-know-on-nov-18-2026-1.500751476",
+    "https://www.alainguillot.com/stock-market-recap-november-18-2026/"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "motorin-indirim-beklentisi",
+   "class": "ZAYIF",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 3,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "onem_eski": "doğrulanmadı → 0",
+   "event": "Sektör kaynaklarına dayanan haberlere göre motorine 20 Kasım'dan itibaren litrede yaklaşık 5,20 TL indirim bekleniyor; gerçekleşirse İstanbul Avrupa yakasında fiyat ~95,20 TL'den ~90 TL'ye iner. Tutar ve tarih resmî değil.",
+   "rationale": "Tek kaynak zinciri (sektör kaynağı aktarımı), henüz pompaya yansımadı → olasılık oynatmaz. Gerçekleşirse: pb-2026-11-10-motorin (30 Kasım'a kadar 95 TL altı) EVET kapanır; pk-2026-11-18-motorin-100-aralik Motor'u yeniden hesaplanır (90 TL + 1 Aralık ÖTV ≈3,6 TL ≈ 93,7 TL; 100 için ürün fiyatında ~%10 artış gerekir) ve pb-2026-11-11-motorin-90 güncellenir. Okura doğrudan değer (K=3); doğrulanınca Olay ve Cevap / Story adayı.",
+   "sources": [
+    "https://www.yenisafak.com/galeri/ozgun/motorine-indirim-geldi-mi-ne-zaman-gelecek-motorin-mazot-indirimi-kac-lira-olacak-lpg-ve-benzine-indirim-olacak-mi-19-kasim-akaryakit-fiyatlari-son-durum-4874075",
+    "https://12punto.com.tr/ekonomi/motorine-indirim-beklentisi-tarih-belli-oldu-159523",
+    "https://bigpara.hurriyet.com.tr/ekonomi-haberleri/galeri-akaryakit-fiyatlari-18-kasim-2026-benzine-motorine-mazota-yeni-bir-indirim-ya-da-zam-var-mi_ID102291070/"
+   ],
+   "yonlendirme": "izleme listesi"
+  },
+  {
+   "id": "koalisyon-husi-60-hedef",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 91,
+   "to": 91,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "onem_eski": "|Δ 0| × TR 0 × etki 2 = 0",
+   "event": "Suudi liderliğindeki koalisyon 17–18 Kasım'da Sana, Amran, Saada ve Hudeyde'de 60 Husi askeri hedefini (füze depolanan tüneller, İHA atölyeleri) vurduğunu açıkladı; Riyad'a yönelik bir Husi seyir füzesinin önlendiğini bildirdi. Husi sağlık yetkilisi en az 17 ölü olduğunu söyledi. Hükümete bağlı güneyli güçlerin 15 Kasım'da Babülmendep kıyısından çekilmesinin ardından Husiler Perim'i yeniden ele geçirmişti.",
+   "rationale": "Babülmendep çekilmesi 15.11'de işlendi (aynı tema). Suudi–Husi tırmanması mevcut eğilim; ≤90 günlük soru oynamıyor. Kızıldeniz rotası (Türk armatörleri, navlun) için izlenir.",
+   "sources": [
+    "https://www.arabnews.com/middle-east/kuwait-bahrain-fend-off-iranian-aerial-attacks-as-coalition-hits-houthi-military-sites-3012614",
+    "https://www.deccanchronicle.com/west-asia/saudi-led-coalition-strikes-yemen-houthis-say-17-killed-2005500",
+    "https://www.anews.com.tr/middle-east/2026/11/18/saudi-led-coalition-says-it-destroyed-60-houthi-targets-in-yemen"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "cop31-antalya-cikmaz",
+   "class": "ZAYIF",
+   "risk": "gida",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "event": "Antalya'daki COP31'de kapanışa iki gün kala anlaşma yok: fosil yakıtlar, uyum finansmanı ve IPCC takvimi üzerinde ayrılık sürüyor; dönem başkanlığı revize taslak sözü verdi.",
+   "rationale": "Takvimli müzakere; sonuç 20 Kasım civarı. Sicilde soru yok; tek kaynaklı aktarım. Kapanış metni çıkınca Dosya adayı değerlendirilir.",
+   "sources": [
+    "https://www.turkishminute.com/2026/11/18/divisions-deepen-as-cop31-in-turkey-struggles-for-climate-deal/"
+   ],
+   "yonlendirme": "bağlam"
+  },
+  {
+   "id": "senzen-uclu-zirve-bugun",
+   "class": "ZAYIF",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Trump–Şi–Putin üçlü görüşmesi 19 Kasım'da Şenzen'de (APEC marjında, ~09:30 TSİ). Beyaz Saray gündemde İran savaşı ve nükleer silahlanmayı sayıyor; Ukrayna'nın resmî gündemde olması beklenmiyor. Zelenski, ABD temsilcilerinin görüşme sonrası müttefikleri bilgilendireceğini söyledi.",
+   "rationale": "Tarama saatinde sonuç yok. Öğle taraması için ana izleme noktası: pb-2026-W46-2 (Rusya–Ukrayna ateşkes), pk-2026-11-18-abd-iran-ateskes, pk-2026-11-18-hurmuz-acilis, pb-2026-11-10-nadir-toprak.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+    "https://www.bloomberg.com/news/articles/2026-11-18/zelenskyy-says-us-envoys-to-brief-allies-on-trump-xi-putin-talks",
+    "https://www.kyivpost.com/post/90534"
+   ],
+   "yonlendirme": "bağlam"
+  }
+ ]
+}

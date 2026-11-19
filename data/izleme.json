@@ -61,6 +61,16 @@
     "2026-11-14 03:45 TSİ: Yusuf sordu. Kırmızı Alarm 00:19 ve 03:19 turlarında almadı: risk Δ ≥10 ölçütü karşılanmıyor (siber saldırı göstergesi yok, DHS 'bilinmiyor' dedi). Yapısal boşluk: risk oynatmayan ama haber değeri çok yüksek olaylar için yol yok.",
     "2026-11-14 07:00 TSİ: Yasak yaklaşık dört saat sonra kalktı. Ulaştırma Bakanı Duffy nedeni hava trafik merkezlerindeki eski analog telekom altyapısının aşırı yüklenmesi olarak açıkladı; İç Güvenlik Bakanı siber saldırı göstergesi olmadığını, incelemenin sürdüğünü söyledi. FlightAware ≈7.000 gecikme/iptal; iptaller hafta sonuna uzuyor (CBS, Fox Business, CNBC, ANI). Siber riski Δ0. 'olursa' uygulandı: Günün Dosyası'na alındı (Türkiye sorusu: İstanbul Havalimanı durma %5)."
    ]
+  },
+  {
+   "id": "motorin-indirim-20kasim",
+   "acilis": "2026-11-19",
+   "olay": "Sektör kaynaklarına dayanan haberlere göre motorine 20 Kasım'dan itibaren litrede ~5,20 TL indirim bekleniyor (İstanbul Avrupa yakası 95,20 → ~90 TL).",
+   "durum": "açık",
+   "eksik": "Pompaya yansıma: Opet/PO fiyat listesi ya da AA/EPDK haberi + ikinci bağımsız kaynak",
+   "olursa": "pb-2026-11-10-motorin'i 'evet' kapat (kriter: 95,00 TL altı; sicil.py kapat). pk-2026-11-18-motorin-100-aralik Motor'unu yeni fiyatla yeniden hesapla (≈90 + ÖTV 3,6 ≈ 93,7 TL) ve sicil.py guncelle; pb-2026-11-11-motorin-90'ı LR tablosuyla güncelle. Önem S×K ≥1,4 çıkarsa Olay ve Cevap (Peki Biz? motorin), değilse Story/Dosya adayı.",
+   "bitis": "2026-11-22",
+   "notlar": []
   }
  ]
 }
