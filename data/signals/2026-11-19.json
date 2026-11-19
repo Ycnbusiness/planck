@@ -138,6 +138,106 @@
     "https://www.kyivpost.com/post/90534"
    ],
    "yonlendirme": "bağlam"
+  },
+  {
+   "id": "iran-yeni-saldiri-secenekleri-ogle",
+   "ogle": true,
+   "class": "ZAYIF",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 0.9,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "NYT (18 Kasım ABD saati; Türkiye'de 19 Kasım sabahı yayıldı) ABD ve İsrailli yetkililere dayanarak Trump'ın İran'a yeni bir geniş çaplı saldırı turunu değerlendirdiğini, Netanyahu'nun 4–7 gün sürecek ortak bir hava harekâtı istediğini, Trump'ın karar vermediğini yazdı. Reuters 18 Kasım'da Mossad başkanının Washington ziyaretinde ortak saldırı için lobi yaptığını bildirmişti. Beyaz Saray yetkilisi ekonomik baskının yeterli olduğunu, 'büyük muharebe operasyonuna' gerek görülmediğini ama tüm seçeneklerin masada olduğunu söyledi; Pentagon ve CIA yorum yapmadı; İsrailli yetkili baskı iddiasını reddetti.",
+   "rationale": "İki bağımsız kaynak (NYT, Reuters) müzakere değil seçenek aşamasını doğruluyor; karar yok. Trump'ın 12 Kasım'da anlaşma arayışını bırakması zaten işlendi (aynı tema). pk-2026-11-18-abd-iran-ateskes için LR ≈0,9 (1,2 eşiğinin altında) → sayı oynamaz. Brent tepki vermedi (~92 $). Saldırı kararı gelirse kırmızı alarm değerlendirmesi: ateşkes, Hürmüz açılış, Brent 100 $ soruları.",
+   "sources": [
+    "https://www.ynetnews.com/article/bjiti0irze",
+    "https://gvwire.com/2026/11/18/israeli-spy-chief-lobbied-for-joint-iran-strikes-on-us-visit-sources-say/",
+    "https://www.bloomberght.com/trump-irana-yonelik-yeni-saldiri-seceneklerini-degerlendiriyor-3795072"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "hurmuz-hasab-tanker-mayin-iddiasi-ogle",
+   "ogle": true,
+   "class": "ZAYIF",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "UKMTO, Hürmüz'den çıkan bir tankerin 18 Kasım 23:13 GMT'de (19 Kasım 02:13 TSİ) Umman'ın Hasab kentinin ~6 deniz mili kuzeyinde makine dairesinden kimliği belirsiz bir mermiyle vurulduğunu, mürettebatın güvende olduğunu duyurdu (yerel makamlara dayanarak). İran deniz kuvvetleri ayrıca Hürmüz'ün doğusunda üç petrol tankerinin mayınla etkisiz hale geldiğini açıkladı (İran medyası); bağımsız teyit yok. Reuters'a göre Hürmüz ham petrol sevkiyatı savaş öncesi düzeye yakın; Brent yatay (~92 $).",
+   "rationale": "Gemi saldırıları süren eğilim (Kasım'ın ilk 10 gününde 10 saldırı); piyasa tepkisizdi. ≤90 günlük Brent ve Hürmüz soruları oynamaz. Mayın iddiası tek taraflı → izleme listesi (hurmuz-uc-tanker-mayin, bitiş 22.11).",
+   "sources": [
+    "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-struck-unknown-projectile-near-omans-khasab-ukmto-says",
+    "https://www.aa.com.tr/en/middle-east/tanker-hit-by-unknown-projectile-near-strait-of-hormuz-uk-maritime-agency-says/4129910",
+    "https://www.arabnews.com/energy/oil-prices-steady-as-middle-east-shipping-attacks-counter-supply-surplus-outlook-3012868"
+   ],
+   "yonlendirme": "zayıf sinyal + izleme"
+  },
+  {
+   "id": "senzen-uclu-zirve-sonucsuz-ogle",
+   "ogle": true,
+   "class": "ZAYIF",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Trump–Putin ikili görüşmesi (~07:15–08:00 TSİ, Ağustos 2025'ten beri ilk yüz yüze) ve ardından Şi–Trump–Putin üçlü görüşmesi Şenzhen'de yapıldı. Kremlin danışmanı Uşakov Ukrayna ve ikili ilişkilerin konuşulduğunu söyledi; Çin 'stratejik istikrar' üzerine derinlemesine görüş alışverişi dedi. Ortak bildiri, anlaşma ya da somut sonuç açıklanmadı (AFP; Türk basını). Nükleer silah azaltımı gündemdeydi; Trump öncesinde stok azaltımının ve denetimin zor olacağını söyledi.",
+   "rationale": "Sonuçsuz; pb-2026-W46-2 (Rusya–Ukrayna ateşkes), pk-2026-11-18-abd-iran-ateskes, pk-2026-11-18-hurmuz-acilis, pb-2026-11-10-nadir-toprak oynamaz. Sembolik büyüklüğü yüksek, izi belirsiz → Ses ve İz adayı (iz ölçütü: 90 gün içinde üç ülke arasında resmî silah kontrolü görüşme turu ya da yazılı metin).",
+   "sources": [
+    "https://www.dawn.com/news/2045630/xi-trump-and-putin-begin-unprecedented-summit-in-china",
+    "https://www.aksiyon.com.tr/shenzhen-de-onemli-gorusme-trump-ve-putin-ikili-iliskiler-ve-ukrayna-yi-ele-aldi-397754",
+    "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--19-november-2026-19112026"
+   ],
+   "yonlendirme": "zayıf sinyal + Ses ve İz adayı"
+  },
+  {
+   "id": "iea-weo-2026-ogle",
+   "ogle": true,
+   "class": "ZAYIF",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "IEA, 19 Kasım'da Dünya Enerji Görünümü 2026'yı yayımladı: Hürmüz kesintisini tarihin en büyük enerji arz şoku olarak niteledi; uç senaryoda Hürmüz'den geçmesi gereken petrol 2030'da günde 8,5 milyon varile iner (kriz öncesi ~20 milyon); elektriğin nihai tüketimdeki payı 2035'te ~%30; mevcut politikalarla ısınma 2,5–2,9 °C.",
+   "rationale": "Takvimli rapor, uzun vadeli senaryolar; Birol'un aynı değerlendirmesi 18.11 akşam işlendi (aynı tema). ≤90 günlük soru oynamaz.",
+   "sources": [
+    "https://www.bloomberght.com/uea-benzeri-gorulmemis-bir-sok-enerji-dunyasini-yeniden-sekillendiriyor-3795075",
+    "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
+   ],
+   "yonlendirme": "bağlam"
+  },
+  {
+   "id": "kavcioglu-yurtdisi-yasagi-ogle",
+   "ogle": true,
+   "class": "KIRMIZI ÇİZGİ",
+   "risk": "kurumlar",
+   "delta": 0,
+   "onem": null,
+   "turkiye_bagi": 3,
+   "event": "İstanbul Cumhuriyet Başsavcılığı'nın sermaye piyasası işlemlerine ilişkin 'fon soruşturması' kapsamında eski BDDK Başkanı hakkında yurt dışına çıkış yasağı verildiği bildirildi (Bloomberg HT, 11:45). Kendisi 11 Kasım'da görevden affını istemişti.",
+   "rationale": "Kırmızı çizgi — olasılık yok (Anayasa §9: süren soruşturma, adı geçen kişinin hukuki durumu). Şimdilik tek kaynak. Yalnız kayıt; içerik ve soru açılmaz.",
+   "sources": [
+    "https://www.bloomberght.com/fon-sorusturmasinda-kavcioglu-na-yurt-disina-cikis-yasagi-3795095",
+    "https://ntv.com.tr/turkiye/bddk-baskani-sahap-kavcioglu-gorevden-affini-istedi-1750401"
+   ],
+   "yonlendirme": "kırmızı çizgi — olasılık yok"
   }
- ]
+ ],
+ "ogle": {
+  "ogle": true,
+  "scan_window": "2026-11-19 04:00 → 12:30 (TSİ)",
+  "not": "Öğle taraması: ana akış, Story ya da Dosya adayı yok (hiçbir olay ≥0,4 önem vermedi; sicilde güncelleme yok). Şenzen zirvesi sonuçsuz (Ses ve İz adayı). ABD'nin yeni İran saldırısı seçenekleri iki kaynakla doğrulandı ama karar yok (LR<1,2). Hürmüz'de tanker vuruldu (UKMTO); İran'ın mayın iddiası izlemeye alındı. Bir kırmızı çizgi kaydı (fon soruşturması, olasılık yok). Editöre gidecek yayın adayı çıkmadı. Motorin indirimi henüz doğrulanmadı (izleme sürüyor)."
+ }
 }

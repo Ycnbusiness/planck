@@ -71,6 +71,18 @@
    "olursa": "pb-2026-11-10-motorin'i 'evet' kapat (kriter: 95,00 TL altı; sicil.py kapat). pk-2026-11-18-motorin-100-aralik Motor'unu yeni fiyatla yeniden hesapla (≈90 + ÖTV 3,6 ≈ 93,7 TL) ve sicil.py guncelle; pb-2026-11-11-motorin-90'ı LR tablosuyla güncelle. Önem S×K ≥1,4 çıkarsa Olay ve Cevap (Peki Biz? motorin), değilse Story/Dosya adayı.",
    "bitis": "2026-11-22",
    "notlar": []
+  },
+  {
+   "id": "hurmuz-uc-tanker-mayin",
+   "acilis": "2026-11-19",
+   "olay": "İran deniz kuvvetleri, Hürmüz'ün doğusunda seyreden üç petrol tankerinin mayınla etkisiz hale geldiğini açıkladı (İran medyası, 18 Kasım; Reuters aktarımı). Gemi adı ve konum verilmedi.",
+   "durum": "açık",
+   "eksik": "UKMTO/JMIC, gemi sahibi ya da ABD/Umman resmî açıklaması veya Reuters/AP/AFP'nin bağımsız teyidi",
+   "olursa": "Hürmüz'de mayın kullanımının teyidi: on-enerji-hurmuz-gecis ve pk-2026-11-18-brent-100-dokunma yeniden değerlendirilir (LR 1,25–2); önem ≥0,4 ise Dosya/Story, ≥1,4 ise Olay ve Cevap adayı.",
+   "bitis": "2026-11-22",
+   "notlar": [
+    "2026-11-19 öğle: Yalnız İran kaynaklı; aynı gece Hasab açığındaki tanker vuruşu (UKMTO) mermi olarak bildirildi, mayın değil."
+   ]
   }
  ]
 }

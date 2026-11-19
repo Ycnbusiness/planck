@@ -253,6 +253,69 @@
    "kaynaklar": [
     "https://www.turkishminute.com/2026/11/18/divisions-deepen-as-cop31-in-turkey-struggles-for-climate-deal/"
    ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "iran-yeni-saldiri-secenekleri-ogle",
+   "tema": "ABD–İran: yeni saldırı mı, ekonomik baskı mı",
+   "bagli": [
+    "pk-2026-11-18-abd-iran-ateskes",
+    "pk-2026-11-18-hurmuz-acilis",
+    "pk-2026-11-18-brent-100-dokunma"
+   ],
+   "olay": "NYT (18 Kasım ABD saati; Türkiye'de 19 Kasım sabahı yayıldı) ABD ve İsrailli yetkililere dayanarak Trump'ın İran'a yeni bir geniş çaplı saldırı turunu değerlendirdiğini, Netanyahu'nun 4–7 gün sürecek ortak bir hava harekâtı istediğini, Trump'ın karar vermediğini yazdı. Reuters 18 Kasım'da Mossad başkanının Washington ziyaretinde ortak saldırı için lobi yaptığını bildirmişti. Beyaz Saray yetkilisi ekonomik baskının yeterli olduğunu, 'büyük muharebe operasyonuna' gerek görülmediğini ama tüm seçeneklerin masada olduğunu söyledi; Pentagon ve CIA yorum yapmadı; İsrailli yetkili baskı iddiasını reddetti.",
+   "neden_zayif": "İki bağımsız kaynak (NYT, Reuters) müzakere değil seçenek aşamasını doğruluyor; karar yok. Trump'ın 12 Kasım'da anlaşma arayışını bırakması zaten işlendi (aynı tema). pk-2026-11-18-abd-iran-ateskes için LR ≈0,9 (1,2 eşiğinin altında) → sayı oynamaz. Brent tepki vermedi (~92 $). Saldırı kararı gelirse kırmızı alarm değerlendirmesi: ateşkes, Hürmüz açılış, Brent 100 $ soruları.",
+   "kaynaklar": [
+    "https://www.ynetnews.com/article/bjiti0irze",
+    "https://gvwire.com/2026/11/18/israeli-spy-chief-lobbied-for-joint-iran-strikes-on-us-visit-sources-say/",
+    "https://www.bloomberght.com/trump-irana-yonelik-yeni-saldiri-seceneklerini-degerlendiriyor-3795072"
+   ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "hurmuz-hasab-tanker-mayin-iddiasi-ogle",
+   "tema": "Hürmüz gemi saldırıları",
+   "bagli": [
+    "pk-2026-11-18-brent-100-dokunma",
+    "on-enerji-hurmuz-gecis"
+   ],
+   "olay": "UKMTO, Hürmüz'den çıkan bir tankerin 18 Kasım 23:13 GMT'de (19 Kasım 02:13 TSİ) Umman'ın Hasab kentinin ~6 deniz mili kuzeyinde makine dairesinden kimliği belirsiz bir mermiyle vurulduğunu, mürettebatın güvende olduğunu duyurdu (yerel makamlara dayanarak). İran deniz kuvvetleri ayrıca Hürmüz'ün doğusunda üç petrol tankerinin mayınla etkisiz hale geldiğini açıkladı (İran medyası); bağımsız teyit yok. Reuters'a göre Hürmüz ham petrol sevkiyatı savaş öncesi düzeye yakın; Brent yatay (~92 $).",
+   "neden_zayif": "Gemi saldırıları süren eğilim (Kasım'ın ilk 10 gününde 10 saldırı); piyasa tepkisizdi. ≤90 günlük Brent ve Hürmüz soruları oynamaz. Mayın iddiası tek taraflı → izleme listesi (hurmuz-uc-tanker-mayin, bitiş 22.11).",
+   "kaynaklar": [
+    "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-struck-unknown-projectile-near-omans-khasab-ukmto-says",
+    "https://www.aa.com.tr/en/middle-east/tanker-hit-by-unknown-projectile-near-strait-of-hormuz-uk-maritime-agency-says/4129910",
+    "https://www.arabnews.com/energy/oil-prices-steady-as-middle-east-shipping-attacks-counter-supply-surplus-outlook-3012868"
+   ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "senzen-uclu-zirve-sonucsuz-ogle",
+   "tema": "Büyük güç diplomasisi (Şenzhen)",
+   "bagli": [
+    "pb-2026-W46-2",
+    "pk-2026-11-18-abd-iran-ateskes"
+   ],
+   "olay": "Trump–Putin ikili görüşmesi (~07:15–08:00 TSİ, Ağustos 2025'ten beri ilk yüz yüze) ve ardından Şi–Trump–Putin üçlü görüşmesi Şenzhen'de yapıldı. Kremlin danışmanı Uşakov Ukrayna ve ikili ilişkilerin konuşulduğunu söyledi; Çin 'stratejik istikrar' üzerine derinlemesine görüş alışverişi dedi. Ortak bildiri, anlaşma ya da somut sonuç açıklanmadı (AFP; Türk basını). Nükleer silah azaltımı gündemdeydi; Trump öncesinde stok azaltımının ve denetimin zor olacağını söyledi.",
+   "neden_zayif": "Sonuçsuz; pb-2026-W46-2 (Rusya–Ukrayna ateşkes), pk-2026-11-18-abd-iran-ateskes, pk-2026-11-18-hurmuz-acilis, pb-2026-11-10-nadir-toprak oynamaz. Sembolik büyüklüğü yüksek, izi belirsiz → Ses ve İz adayı (iz ölçütü: 90 gün içinde üç ülke arasında resmî silah kontrolü görüşme turu ya da yazılı metin).",
+   "kaynaklar": [
+    "https://www.dawn.com/news/2045630/xi-trump-and-putin-begin-unprecedented-summit-in-china",
+    "https://www.aksiyon.com.tr/shenzhen-de-onemli-gorusme-trump-ve-putin-ikili-iliskiler-ve-ukrayna-yi-ele-aldi-397754",
+    "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--19-november-2026-19112026"
+   ]
+  },
+  {
+   "tarih": "2026-11-19",
+   "id": "iea-weo-2026-ogle",
+   "tema": "Hürmüz sonrası enerji düzeni",
+   "bagli": [
+    "risk-enerji"
+   ],
+   "olay": "IEA, 19 Kasım'da Dünya Enerji Görünümü 2026'yı yayımladı: Hürmüz kesintisini tarihin en büyük enerji arz şoku olarak niteledi; uç senaryoda Hürmüz'den geçmesi gereken petrol 2030'da günde 8,5 milyon varile iner (kriz öncesi ~20 milyon); elektriğin nihai tüketimdeki payı 2035'te ~%30; mevcut politikalarla ısınma 2,5–2,9 °C.",
+   "neden_zayif": "Takvimli rapor, uzun vadeli senaryolar; Birol'un aynı değerlendirmesi 18.11 akşam işlendi (aynı tema). ≤90 günlük soru oynamaz.",
+   "kaynaklar": [
+    "https://www.bloomberght.com/uea-benzeri-gorulmemis-bir-sok-enerji-dunyasini-yeniden-sekillendiriyor-3795075",
+    "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
+   ]
   }
  ]
 }
