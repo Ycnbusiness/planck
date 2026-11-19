@@ -14,7 +14,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 - [ ] Taban ölçümü Story'leri (eski biçimle): "%12 sence ne demek?" ve "Bir risk haberinden sonra ne yapacağını biliyor musun?" (anket çıkartması MBS'de yoksa Yusuf'a telefondan ekleme notu)
 - [x] `data/zayif-sinyal.json` (tarama görevi açtı)
 - [x] 19.11 · `news/olaycevap2.js` yazıldı ve Yusuf onayladı (09:03); hemen geçerli
-- [~] 18.11 · `news/dosya.js`: 10×10 kare dizisi, "100'de X", son tarih, "SORU" etiketi, yeni künye (Yusuf onayı 19.11). Kalan: `news/pekibiz.js`, `card.js`. Eski madde: 10×10 kare dizisi ve yeni künyeyi kart betiklerine ekle (`news/pekibiz.js`, `news/dosya.js`, `card.js`); örnek çıktıyı Yusuf'a göster
+- [~] 18.11 · `news/dosya.js`: 10×10 kare dizisi, "100'de X", son tarih, "SORU" etiketi, yeni künye (Yusuf onayı 19.11). 19.11 akşam: `news/pekibiz.js` de geçti (kare dizisi, 100'de X, yeni künye). Kalan: `card.js` (eski tek kart; kullanımdaysa). Eski madde: 10×10 kare dizisi ve yeni künyeyi kart betiklerine ekle (`news/pekibiz.js`, `news/dosya.js`, `card.js`); örnek çıktıyı Yusuf'a göster
 
 ## Hafta 2 · 24–30 Kas — yeni biçim yayında
 - [ ] Yeni sunum standardı + kare dizisi + yeni künye bütün gönderilerde

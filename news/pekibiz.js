@@ -8,6 +8,7 @@ const mark = 'data:image/svg+xml;base64,' + b64('logos/planck-mark-reversed.svg'
 const lock = 'data:image/svg+xml;base64,' + b64('logos/planck-lockup-reversed.svg');
 const BLUE='#6b93ff', AMB='#f2a93b', MUT='#9aa3b2', DIM='#262d3d', VOID='#0a0d13';
 const band = p => p>=80?[5,'Çok yüksek']:p>=60?[4,'Yüksek']:p>=45?[3,'Orta-yüksek']:p>=25?[2,'Orta']:[1,'Düşük'];
+const grid = (p, c=10, g=3) => `<span style="display:inline-grid;grid-template-columns:repeat(10,${c}px);gap:${g}px">${Array.from({length:100},(_,k)=>`<i style="display:block;width:${c}px;height:${c}px;background:${k<p?BLUE:DIM}"></i>`).join('')}</span>`;
 const meter = (lv, w=44, h=12) => `<span style="display:inline-grid;grid-template-columns:repeat(5,${w}px);gap:6px">${[1,2,3,4,5].map(k=>`<i style="display:block;height:${h}px;background:${k<=lv?BLUE:DIM}"></i>`).join('')}</span>`;
 const css = `${fonts}*{box-sizing:border-box}body{margin:0;background:${VOID}}
 .s{width:1080px;height:1350px;background:${VOID};color:#eef1f6;font-family:AL,AX,sans-serif;position:relative;overflow:hidden}
@@ -26,12 +27,12 @@ const SP = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const OUT = pro
 const N = SP.slides || 6, pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
 const frame = (inner, i) => `<div class="s"><div class="scan"></div><div class="hud"><i></i><i></i><i></i><i></i></div>
 <div class="hl mono"><span>${SP.header||"PLANCK · PEKİ BİZ?"}</span><span>${SP.date}</span></div><div class="in">${inner}</div>
-<div class="hb mono"><span>@PLANCK.NEWS · ${pg(i)}</span><span>CLAUDE İLE HAZIRLANMIŞTIR</span></div></div>`;
+<div class="hb mono"><span>@PLANCK.NEWS · ${pg(i)}</span><span>TARAMA VE HESAP: CLAUDE</span></div></div>`;
 const pct = p => `<span style="font-family:ML,MX,monospace;font-weight:500">%${p}</span>`;
 const item = (q, n) => { const [lv, b] = band(q.p); return `<div style="border-top:2px solid ${DIM};padding:30px 0 34px">
 <div style="display:flex;justify-content:space-between;align-items:baseline;gap:24px"><p style="margin:0;font-size:34px;line-height:44px;font-weight:700">${q.q}</p>
 <div style="font-family:ML,MX,monospace;font-weight:500;font-size:96px;line-height:1;letter-spacing:-.04em;color:${BLUE}"><small style="font-size:.42em;vertical-align:.95em;opacity:.7">%</small>${q.p}</div></div>
-<div style="display:flex;align-items:center;gap:18px;margin-top:16px">${meter(lv,40,10)}<span class="mono" style="font-size:19px;color:${BLUE}">${b}</span><span class="mono" style="font-size:19px;color:${MUT}">${q.lab}</span></div>
+<div style="display:flex;align-items:center;gap:18px;margin-top:16px">${grid(q.p)}<span class="mono" style="font-size:19px;color:#eef1f6">100'DE ${q.p}</span><span class="mono" style="font-size:19px;color:${MUT}">${q.lab}</span></div>
 <p style="margin:16px 0 0;font-size:25px;line-height:36px;color:#c9d0db">${q.why}</p></div>`; };
 const S = [];
 S.push(frame(`<div class="eb mono">${SP.eyebrow}<b></b></div><h1 style="margin-top:40px;font-size:100px">${SP.title}</h1>
@@ -45,7 +46,7 @@ SP.rings.forEach((r,k)=>S.push(frame(`<div class="eb mono">${r.name}<b></b></div
 S.push(frame(`<div class="eb mono">${SP.watchEyebrow||"İzlenecek"}<b></b></div><h2 style="margin-top:28px;font-size:66px">${SP.watchTitle}</h2>
 <div style="margin-top:30px">${SP.watch.map(w=>`<div style="border-top:2px solid ${DIM};padding:22px 0;display:grid;grid-template-columns:230px 1fr;gap:24px"><span class="mono" style="font-size:24px;color:${BLUE}">${w[0]}</span><span style="font-size:29px;line-height:40px;color:#c9d0db">${w[1]}</span></div>`).join('')}</div>
 <div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:30px"><p style="margin:0;font-size:38px;line-height:48px;font-weight:700">${SP.question}</p>
-<p class="mono" style="margin:18px 0 0;font-size:17px;line-height:26px;color:${MUT};letter-spacing:.04em">Her tahmin son tarihinde kapatılır ve karnede puanlanır. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.</p></div>`, N));
+<p class="mono" style="margin:18px 0 0;font-size:17px;line-height:26px;color:${MUT};letter-spacing:.04em">Her tahmin son tarihinde kapatılır ve karnede puanlanır. Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli). İnsan: kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi. Kimseden fon almıyoruz.</p></div>`, N));
 (async () => { const br = await chromium.launch(); fs.mkdirSync(OUT, { recursive: true });
   for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
     const over = await p.evaluate(() => { const i = document.querySelector('.in'); return i.scrollHeight > i.clientHeight + 2; }); if (over) console.log('TAŞMA sayfa', i+1);
