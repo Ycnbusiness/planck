@@ -173,5 +173,61 @@
   "motor": null,
   "kaynak_turu": null,
   "not": "hesaplanmadı: Sahm/işsizlik girdileri güncel değil"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-fed-artirim",
+  "motor": 97,
+  "kaynak_turu": "piyasa",
+  "not": "FedWatch Aralık %95 (Yahoo 18.11), Kalshi %91; sonrası koşullu taban %35 data/quant.json'dan, yeniden doğrulanmadı"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-nasdaq-25",
+  "motor": 50,
+  "kaynak_turu": "oynaklik",
+  "not": "S=24429.89, K=0,75×27244.28=20433, σ=max(1.07×VIX 24.56, 24)=%26.3, μ=0, T=1; zirve data/quant.json'dan"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-brent-110",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: OVX güncel değil"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-altin-4500",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: GVZ güncel değil"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-usdtry-60",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: USD/TRY oynaklığı güncel değil"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-tcmb-aralik",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: yeni anket/kurum sayımı yok"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-tr-tufe-30",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: yeni anket yok"
+ },
+ {
+  "tarih": "2026-11-19",
+  "soru": "q-abd-resesyon",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: Sahm/işsizlik girdileri güncel değil"
  }
 ]

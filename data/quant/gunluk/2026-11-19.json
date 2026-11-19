@@ -1,0 +1,199 @@
+{
+ "tarih": "2026-11-19",
+ "referans_seans": "18.11.2026 Çarşamba kapanışı",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB gösterge kuru resmi sayfadan alınamadı"
+  },
+  "usdtry_piyasa_18kasim": {
+   "deger": 50.44,
+   "kaynak": "https://www.bloomberght.com/piyasa-ozeti-18-kasim-2026-borsa-doviz-altin-ve-kripto-piyasalarindaki-son-durum-pkh-3795030",
+   "saat": "18.11.2026 18:29:30 TSİ",
+   "not_": "BloombergHT; gösterge değil"
+  },
+  "eurtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB göstergesi alınamadı"
+  },
+  "eurtry_piyasa_18kasim": {
+   "deger": 55.37,
+   "kaynak": "https://www.bloomberght.com/piyasa-ozeti-18-kasim-2026-borsa-doviz-altin-ve-kripto-piyasalarindaki-son-durum-pkh-3795030",
+   "saat": "18.11.2026 18:28:45 TSİ",
+   "not_": "BloombergHT; gösterge değil"
+  },
+  "bist100_kapanis": {
+   "deger": 11477.41,
+   "kaynak": "https://www.bloomberght.com/piyasa-ozeti-18-kasim-2026-borsa-doviz-altin-ve-kripto-piyasalarindaki-son-durum-pkh-3795030",
+   "saat": "18.11.2026 kapanış",
+   "not_": "-%1,57; CNBC-e aynı: https://www.cnbce.com/borsa/borsa-gunu-dususle-kapadi-18-kasim-2026-h42070"
+  },
+  "gram_altin_tl": {
+   "deger": 6095.96,
+   "kaynak": "https://www.bloomberght.com/piyasa-ozeti-18-kasim-2026-borsa-doviz-altin-ve-kripto-piyasalarindaki-son-durum-pkh-3795030",
+   "saat": "18.11.2026 ~18:30 TSİ",
+   "not_": "Kapalıçarşı, -%2,26"
+  },
+  "ons_altin_usd": {
+   "deger": 3728.8,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış",
+   "not_": "vadeli, -%3,50; BloombergHT ons 3.757–3.769 (kaynaklar arası fark)"
+  },
+  "brent_usd": {
+   "deger": 91.95,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış",
+   "not_": "vadeli; BloombergHT 92,35 (18:30)"
+  },
+  "wti_usd": {
+   "deger": 83.26,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "bitcoin_usd": {
+   "deger": 62305,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış",
+   "not_": "yaklaşık; BloombergHT 63.491"
+  },
+  "abd_2y": {
+   "deger": 4.8,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "abd_10y": {
+   "deger": 5.07,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "abd_30y": {
+   "deger": 5.41,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "vix": {
+   "deger": 24.56,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "sp500": {
+   "deger": 7323.63,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "nasdaq_composite": {
+   "deger": 24429.89,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "dow": {
+   "deger": 50198.17,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "dxy": {
+   "deger": 103.8,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 18.11 tarihli gösterge getirisi bulunamadı (canlı sayfalar tarihsiz)"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı 18.11 tarihli gösterge getirisi bulunamadı"
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026_9aralik": {
+   "kalshi_25bp_artirim": 91,
+   "kalshi_buyuk_artirim": 8,
+   "cme_fedwatch_artirim": 95,
+   "kaynak": [
+    "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+    "https://finance.yahoo.com/economy/policy/articles/fed-officials-expect-further-interest-195844967.html"
+   ],
+   "saat": "Kalshi 18.11 kapanış; FedWatch Yahoo Finance 18.11 11:58 PST",
+   "not_": "Yahoo'nun yazdığı hedef aralık metni sicildeki aralıkla uyuşmuyor; yalnız olasılık alındı"
+  },
+  "fed_ocak_2027": {
+   "cme_fedwatch_artirim": 69,
+   "kaynak": "https://finance.yahoo.com/economy/policy/articles/fed-officials-expect-further-interest-195844967.html",
+   "saat": "18.11.2026 11:58 PST",
+   "not_": "Yahoo aktarımı; kümülatif mi toplantı bazlı mı belirsiz"
+  },
+  "fomc_tutanak": "Ekim tutanaklarında neredeyse tüm katılımcılar daha fazla artışın 'would likely be appropriate' olduğunu belirtti (https://cappnotes.substack.com/p/closing-look-wednesday-november-18)",
+  "tcmb_sonraki_ppk_10aralik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Yeni anket/swap haberi bulunamadı; son kayıt: CNBC-e 4 Kasım kurum sayımı 7 indirim/3 sabit"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  }
+ },
+ "oynaklik": {
+  "vix": {
+   "deger": 24.56,
+   "kaynak": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "saat": "18.11.2026 kapanış"
+  },
+  "altin_gvz": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel GVZ bulunamadı"
+  },
+  "brent_ovx": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel OVX bulunamadı"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  }
+ },
+ "takvim_7gun": {
+  "olaylar": [
+   {
+    "tarih": "2026-11-19",
+    "olay": "ABD ilk işsizlik başvuruları ve Philadelphia Fed imalat 08:30 ET; Öncü Ekonomik Gösterge 10:00 ET; Kansas City Fed imalat 11:00 ET; Walmart, Alibaba bilançoları; Trump–Xi–Putin görüşmesi (Shenzhen)"
+   }
+  ],
+  "kaynak": [
+   "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+  ],
+  "saat": "18.11.2026",
+  "not_": "TÜFE, PPK, OPEC+ ve ABD istihdam/TÜFE tarihleri önümüzdeki 7 günde kaynaklı bulunamadı"
+ }
+}
