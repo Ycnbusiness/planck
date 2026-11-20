@@ -2,12 +2,12 @@
  "date": "20 KASIM 2026",
  "tag": "Enerji",
  "haber": {
-  "title": "Motorine 6,50 TL indirim pompaya yansıdı",
-  "text": "20 Kasım itibarıyla motorinin litre fiyatı ortalama 6,50 TL düştü; İstanbul Avrupa yakasında 88,80 TL'ye indi. Benzin ve LPG fiyatı değişmedi.",
-  "kaynak": "Habertürk, CNN Türk"
+  "title": "Motorine yaklaşık 6,5 TL indirim pompaya yansıdı",
+  "text": "20 Kasım itibarıyla motorinin litre fiyatı ortalama 6,50–6,58 TL düştü (kaynağa göre); İstanbul Avrupa yakasında 88,80 TL'ye indi. Benzin ve LPG fiyatı değişmedi.",
+  "kaynak": "Bloomberg HT, Habertürk"
  },
  "neden": {
-  "text": "İndirim, uluslararası dizel fiyatlarındaki düşüşün pompaya yansıması olarak duyuruldu. Brent Kasım'da yüzde 20'den fazla geriledi; Körfez ihracatı toparlanırken Hürmüz'deki saldırılar sürüyor. Vergi takvimi ise fiyatı yukarı itecek.",
+  "text": "İndirim, uluslararası dizel fiyatlarındaki düşüşün pompaya yansıması olarak duyuruldu. Brent Kasım'da yüzde 20'ye yakın geriledi; IEA'ya göre Körfez ihracatı, gemilere süren saldırılara rağmen toparlanıyor. Vergi takvimi ise fiyatı yukarı itecek.",
   "taraflar": [
    [
     "Sektör",
@@ -27,7 +27,8 @@
   {
    "q": "İstanbul'da motorin 1 Aralık'ta 95 TL'yi aşar mı?",
    "p": 25,
-   "deadline": "01.12.2026"
+   "deadline": "01.12.2026",
+   "not": "TABANI YOK · MOTOR %35 · AYAR −10"
   },
   {
    "q": "İstanbul'da motorin 31 Ocak'ta 90 TL'nin altında olur mu?",

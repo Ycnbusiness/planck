@@ -33,7 +33,7 @@ function draw(t){bg(t);hud(t);
   T('%'+S.from+' → %'+S.to+(S.yuz?"  ·  100'de "+S.to:''),96,1170,34,MUT,a2,500,true,2);if(S.kunye)wrap(S.kunye,96,1700,24,880,34,MUT,a2,400);if(S.why)wrap(S.why,96,1270,36,880,50,'#c9d0db',a2*seg(t,6.4,.6),400);}
  // 3) Peki Biz 9.8–13.6
  const a3=seg(t,9.8,.5)*(1-seg(t,13.4,.4));if(a3>0){T(S.pl||'PEKİ BİZ?',96,600,30,BLUE,a3,500,true,4);
-  const ly=wrap(S.pq,96,720,58,880,70,INK,a3,700);if(S.pp!=null)T('%'+Math.round(S.pp*E(seg(t,10.3,1.2))),96,ly+260,220,BLUE,a3,500,true,-6);}
+  const ly=wrap(S.pq,96,720,58,880,70,INK,a3,700);if(S.pp!=null){T('%'+Math.round(S.pp*E(seg(t,10.3,1.2))),96,ly+260,220,BLUE,a3,500,true,-6);if(S.pd)T(S.pd,96,ly+340,34,MUT,a3,500,true,2);}}
  // 4) Kapanış 13.7–
  const a4=seg(t,13.7,.5);if(a4>0){const lk=document.getElementById('lk');x.save();x.globalAlpha=a4;const h=110,w=lk.naturalWidth/lk.naturalHeight*h;x.drawImage(lk,(W-w)/2,760,w,h);x.restore();
   T('Bilginin bittiği yerde tahmin başlar.',W/2,980,40,INK,a4,400,false,0,'center');T(S.cta||'Ne yapabiliriz? Profildeki gönderide.',W/2,1120,34,MUT,a4*seg(t,14.1,.5),500,false,0,'center');}}
