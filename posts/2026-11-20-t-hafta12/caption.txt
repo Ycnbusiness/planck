@@ -1,0 +1,27 @@
+Hafta Sonu Haritası · 12. hafta
+Süper Lig'in 9 maçı ve Avrupa'dan 6 büyük maç. Sıralama: ev sahibi / beraberlik / deplasman.
+
+SÜPER LIG
+Cmt 13:30 · Süper Lig — Gençlerbirliği %44 · Beraberlik %29 · Gaziantep FK %27
+Cmt 16:00 · Süper Lig — Amedspor %65 · Beraberlik %20 · Rizespor %15
+Cmt 16:00 · Süper Lig — Galatasaray %74 · Beraberlik %16 · Samsunspor %10
+Cmt 19:00 · Süper Lig — Kocaelispor %32 · Beraberlik %31 · Fenerbahçe %37
+Paz 13:30 · Süper Lig — Erzurumspor %34 · Beraberlik %26 · Göztepe %40
+Paz 16:00 · Süper Lig — Kasımpaşa %57 · Beraberlik %26 · Alanyaspor %17
+Paz 16:00 · Süper Lig — Konyaspor %25 · Beraberlik %31 · Beşiktaş %44
+Paz 19:00 · Süper Lig — Trabzonspor %82 · Beraberlik %12 · Eyüpspor %6
+Pzt 20:00 · Süper Lig — Başakşehir %51 · Beraberlik %23 · Çorum FK %26
+
+AVRUPA
+Cmt 20:30 · Premier League — Newcastle United %27 · Beraberlik %29 · Arsenal %44
+Paz 19:30 · Premier League — Liverpool %57 · Beraberlik %23 · Manchester United %20
+Cmt 20:30 · La Liga — Sevilla %35 · Beraberlik %27 · Real Betis %38
+Cmt 23:00 · La Liga — Real Madrid %64 · Beraberlik %23 · Celta Vigo %13
+Paz 22:45 · Serie A — Atalanta %21 · Beraberlik %21 · Inter %58
+Cmt 17:30 · Bundesliga — Borussia Mönchengladbach %20 · Beraberlik %22 · Borussia Dortmund %58
+
+Olasılıklar Planck motoruna (attığı/yediği gole dayalı güç modeli) ve Claude ayarına dayanır. Ayar yapılan maçlar: Gençlerbirliği–Gaziantep FK, Galatasaray–Samsunspor, Kocaelispor–Fenerbahçe, Kasımpaşa–Alanyaspor, Konyaspor–Beşiktaş, Trabzonspor–Eyüpspor, Newcastle United–Arsenal, Sevilla–Real Betis (gerekçeler kartlarda).
+Pazartesi karne: her tahmin Brier skoruyla puanlanır.
+
+Bahis tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+#planck #süperlig #futbol #olasılık

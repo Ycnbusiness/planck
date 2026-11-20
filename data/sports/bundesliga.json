@@ -1,0 +1,149 @@
+{
+ "league": "bundesliga",
+ "name": "Bundesliga",
+ "season": "2026-27",
+ "source": "hessenschau.de 9. hafta tablosu (20 Kasım 2026 erişim); saatler TSİ",
+ "asof": "2026-11-20",
+ "table": [
+  [
+   "Bayern Münih",
+   9,
+   29,
+   9,
+   21
+  ],
+  [
+   "Borussia Dortmund",
+   9,
+   16,
+   7,
+   21
+  ],
+  [
+   "Freiburg",
+   9,
+   20,
+   10,
+   19
+  ],
+  [
+   "RB Leipzig",
+   9,
+   27,
+   13,
+   18
+  ],
+  [
+   "Bayer Leverkusen",
+   9,
+   20,
+   17,
+   16
+  ],
+  [
+   "Werder Bremen",
+   9,
+   17,
+   15,
+   15
+  ],
+  [
+   "Elversberg",
+   9,
+   17,
+   18,
+   13
+  ],
+  [
+   "Stuttgart",
+   9,
+   15,
+   15,
+   12
+  ],
+  [
+   "Hoffenheim",
+   9,
+   16,
+   17,
+   12
+  ],
+  [
+   "Eintracht Frankfurt",
+   9,
+   15,
+   20,
+   12
+  ],
+  [
+   "Hamburger SV",
+   9,
+   10,
+   20,
+   12
+  ],
+  [
+   "Mainz",
+   9,
+   18,
+   19,
+   10
+  ],
+  [
+   "Paderborn",
+   9,
+   8,
+   11,
+   10
+  ],
+  [
+   "Augsburg",
+   9,
+   20,
+   20,
+   9
+  ],
+  [
+   "Köln",
+   9,
+   10,
+   14,
+   9
+  ],
+  [
+   "Union Berlin",
+   9,
+   7,
+   21,
+   7
+  ],
+  [
+   "Schalke",
+   9,
+   5,
+   11,
+   6
+  ],
+  [
+   "Borussia Mönchengladbach",
+   9,
+   12,
+   25,
+   4
+  ]
+ ],
+ "schedule": [
+  [
+   "Borussia Mönchengladbach",
+   "Borussia Dortmund",
+   "2026-11-21",
+   "17:30"
+  ]
+ ],
+ "fixtures": [
+  [
+   "Borussia Mönchengladbach",
+   "Borussia Dortmund"
+  ]
+ ]
+}

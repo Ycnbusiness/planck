@@ -29,7 +29,11 @@ h2{font-size:76px;line-height:1;font-weight:700;letter-spacing:-.03em;margin:0;t
 const spec = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const OUTD = process.argv[3]; fs.mkdirSync(OUTD, { recursive: true });
 const Tm = (s) => `<svg width="${s}" height="${s}" viewBox="0 0 64 64"><path d="M32 13V60" stroke="#eef1f6" stroke-width="11" fill="none"/><rect x="8" y="6" width="48" height="10" fill="${BLUE}"/></svg>`;
 const tlock = (h) => `<div style="display:flex;align-items:center;gap:${h*.3}px"><img src="${lock}" style="height:${h}px"><span style="width:2px;height:${h*.8}px;background:#3a4357"></span>${Tm(h*1.05)}</div>`;
-const pages = []; const L = spec.launch ? 2 : 0; const per = 3; const mp = Math.ceil(spec.matches.length / per); const N = 1 + L + mp + 1;
+const pages = []; const L = spec.launch ? 2 : 0; const per = 3;
+// Lig ayracı: maçlarda "grup" alanı varsa (ör. "Süper Lig", "Avrupa") sayfalar gruplara bölünür ve başlıkta grup adı yazar.
+const groups = []; for (const m of spec.matches) { const g = m.grup || ''; let G = groups.find(x => x.ad === g); if (!G) groups.push(G = { ad: g, maclar: [] }); G.maclar.push(m); }
+const chunks = []; for (const G of groups) { const n = Math.ceil(G.maclar.length / per); for (let k = 0; k < n; k++) chunks.push({ ad: G.ad, k, n, maclar: G.maclar.slice(k*per, (k+1)*per) }); }
+const mp = chunks.length; const N = 1 + L + mp + 1;
 const pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
 const frame = (inner, i, kind) => `<div class="s"><div class="scan"></div><div class="hud"><i></i><i></i><i></i><i></i></div>
 <div class="hl mono"><span>PLANCK T+ · ${kind}</span><span>${spec.date}</span></div><div class="in">${inner}</div>
@@ -59,7 +63,7 @@ if (spec.launch) {
  <div style="margin-top:44px">${['Bahis oranı yayınlamıyoruz.','Bahis şirketlerinden reklam ve sponsorluk almıyoruz.','"Banko", "kupon", "kesin maç" demiyoruz.','Tutmayan tahmini silmiyoruz; her pazartesi karne yayınlıyoruz.'].map(t=>`<div style="border-top:2px solid ${DIM};padding:26px 0;font-size:34px;line-height:44px;font-weight:700">${t}</div>`).join('')}</div>
  <p class="b" style="margin-top:auto;font-size:28px;line-height:40px;color:${MUT}">Olasılık, bir sonucun ne sıklıkla gerçekleşeceğini söyler; hangisinin gerçekleşeceğini değil. %70 diyorsak, on maçın üçünü kaybetmeyi bekliyoruz.</p>`, i++, 'LANSMAN'));
 }
-for (let k = 0; k < mp; k++) pages.push(frame(`<div class="eb mono">Maçlar · ${k+1}/${mp}<b></b></div><div style="margin-top:20px">${spec.matches.slice(k*per,(k+1)*per).map(match).join('')}</div>`, i++, 'HARİTA'));
+for (const c of chunks) pages.push(frame(`<div class="eb mono">${c.ad ? c.ad + ' · ' : 'Maçlar · '}${c.k+1}/${c.n}<b></b></div><div style="margin-top:20px">${c.maclar.map(match).join('')}</div>`, i++, c.ad ? 'HARİTA · ' + c.ad.toLocaleUpperCase('tr') : 'HARİTA'));
 pages.push(frame(`<div class="eb mono">Karne<b></b></div><h2 style="margin-top:28px">Pazartesi Hesap Verilir</h2>
 <p class="b" style="margin-top:32px">Hafta bitince her maç Brier skoru ile puanlanır: 0 kusursuz, 0,67 rastgele tahminin üç sonuçlu maçtaki karşılığı. Motor ve Claude ayrı puanlanır.</p>
 <div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:30px"><p style="margin:0;font-size:40px;line-height:50px;font-weight:700">${spec.question || 'Haftanın sürprizi sizce hangi maçta çıkar?'}</p>

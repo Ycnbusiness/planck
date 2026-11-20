@@ -1,0 +1,429 @@
+{
+ "hafta": 12,
+ "sezon": "2026-27",
+ "hazirlandi": "2026-11-20",
+ "saat_dilimi": "TSİ",
+ "not": "motor: sports/motor.py çıktısı (toplam 100'e beraberlikten yuvarlandı); motor_ham: yuvarlanmamış; planck: Claude ayarlı yayın değeri. Sonuçlar maç bitince girilir.",
+ "maclar": [
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-21",
+   "saat": "13:30",
+   "ev": "Gençlerbirliği",
+   "dep": "Gaziantep FK",
+   "motor": [
+    47,
+    28,
+    25
+   ],
+   "motor_ham": [
+    47,
+    28,
+    25
+   ],
+   "planck": [
+    44,
+    29,
+    27
+   ],
+   "xg": [
+    1.58,
+    1.11
+   ],
+   "claude_notu": "Gençlerbirliği'nde Metehan Baltacı cezalı, yedi oyuncu sakat ya da şüpheli; Gaziantep FK'da yeni teknik direktör Volkan Demirel ceza nedeniyle kulübede olamayacak.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-21",
+   "saat": "16:00",
+   "ev": "Amedspor",
+   "dep": "Rizespor",
+   "motor": [
+    65,
+    20,
+    15
+   ],
+   "motor_ham": [
+    65,
+    20,
+    15
+   ],
+   "planck": [
+    65,
+    20,
+    15
+   ],
+   "xg": [
+    2.38,
+    1.08
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-21",
+   "saat": "16:00",
+   "ev": "Galatasaray",
+   "dep": "Samsunspor",
+   "motor": [
+    79,
+    13,
+    8
+   ],
+   "motor_ham": [
+    79,
+    13,
+    8
+   ],
+   "planck": [
+    74,
+    16,
+    10
+   ],
+   "xg": [
+    3.15,
+    1.0
+   ],
+   "claude_notu": "Galatasaray'da Osimhen ve Leão sakat, Uğurcan Çakır'ın oynaması beklenmiyor.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-21",
+   "saat": "19:00",
+   "ev": "Kocaelispor",
+   "dep": "Fenerbahçe",
+   "motor": [
+    30,
+    30,
+    40
+   ],
+   "motor_ham": [
+    30,
+    30,
+    40
+   ],
+   "planck": [
+    32,
+    31,
+    37
+   ],
+   "xg": [
+    1.17,
+    1.38
+   ],
+   "claude_notu": "Fenerbahçe'de Asensio, Aké ve Oosterwolde sakat, Archie Brown cezalı; Emre Belözoğlu ile ikinci maç.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-22",
+   "saat": "13:30",
+   "ev": "Erzurumspor",
+   "dep": "Göztepe",
+   "motor": [
+    34,
+    26,
+    40
+   ],
+   "motor_ham": [
+    34,
+    27,
+    40
+   ],
+   "planck": [
+    34,
+    26,
+    40
+   ],
+   "xg": [
+    1.45,
+    1.58
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-22",
+   "saat": "16:00",
+   "ev": "Kasımpaşa",
+   "dep": "Alanyaspor",
+   "motor": [
+    62,
+    24,
+    14
+   ],
+   "motor_ham": [
+    62,
+    25,
+    14
+   ],
+   "planck": [
+    57,
+    26,
+    17
+   ],
+   "xg": [
+    1.85,
+    0.78
+   ],
+   "claude_notu": "Kasımpaşa'da beş sakat ve bir cezalı var; Alanyaspor Uğur Uçar ile ilk maçına çıkıyor.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-22",
+   "saat": "16:00",
+   "ev": "Konyaspor",
+   "dep": "Beşiktaş",
+   "motor": [
+    22,
+    30,
+    48
+   ],
+   "motor_ham": [
+    22,
+    29,
+    48
+   ],
+   "planck": [
+    25,
+    31,
+    44
+   ],
+   "xg": [
+    0.92,
+    1.46
+   ],
+   "claude_notu": "Beşiktaş'ta kaptan Orkun Kökçü sarı kart cezalı, Miretti şüpheli.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-22",
+   "saat": "19:00",
+   "ev": "Trabzonspor",
+   "dep": "Eyüpspor",
+   "motor": [
+    90,
+    8,
+    2
+   ],
+   "motor_ham": [
+    90,
+    8,
+    2
+   ],
+   "planck": [
+    82,
+    12,
+    6
+   ],
+   "xg": [
+    3.39,
+    0.48
+   ],
+   "claude_notu": "Trabzonspor'da Malinovskyi, Okay Yokuşlu, Batagov ve Franculino eksik, Nwaiwu cezalı; motorun uç değeri yumuşatıldı.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-23",
+   "saat": "20:00",
+   "ev": "Başakşehir",
+   "dep": "Çorum FK",
+   "motor": [
+    51,
+    23,
+    26
+   ],
+   "motor_ham": [
+    51,
+    23,
+    26
+   ],
+   "planck": [
+    51,
+    23,
+    26
+   ],
+   "xg": [
+    2.17,
+    1.54
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Premier League",
+   "tarih": "2026-11-21",
+   "saat": "20:30",
+   "ev": "Newcastle United",
+   "dep": "Arsenal",
+   "motor": [
+    24,
+    28,
+    48
+   ],
+   "motor_ham": [
+    24,
+    28,
+    48
+   ],
+   "planck": [
+    27,
+    29,
+    44
+   ],
+   "xg": [
+    0.92,
+    1.43
+   ],
+   "claude_notu": "Arsenal'de Saka sakat, Zubimendi şüpheli, Dowman cezalı.",
+   "sonuc": null
+  },
+  {
+   "lig": "Premier League",
+   "tarih": "2026-11-22",
+   "saat": "19:30",
+   "ev": "Liverpool",
+   "dep": "Manchester United",
+   "motor": [
+    57,
+    23,
+    20
+   ],
+   "motor_ham": [
+    57,
+    23,
+    20
+   ],
+   "planck": [
+    57,
+    23,
+    20
+   ],
+   "xg": [
+    1.89,
+    1.05
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "La Liga",
+   "tarih": "2026-11-21",
+   "saat": "20:30",
+   "ev": "Sevilla",
+   "dep": "Real Betis",
+   "motor": [
+    38,
+    26,
+    36
+   ],
+   "motor_ham": [
+    38,
+    25,
+    36
+   ],
+   "planck": [
+    35,
+    27,
+    38
+   ],
+   "xg": [
+    1.5,
+    1.46
+   ],
+   "claude_notu": "Sevilla'da Alfon ve Carmona sezonu kapattı, dört oyuncu eksik; derbi.",
+   "sonuc": null
+  },
+  {
+   "lig": "La Liga",
+   "tarih": "2026-11-21",
+   "saat": "23:00",
+   "ev": "Real Madrid",
+   "dep": "Celta Vigo",
+   "motor": [
+    64,
+    23,
+    13
+   ],
+   "motor_ham": [
+    64,
+    23,
+    13
+   ],
+   "planck": [
+    64,
+    23,
+    13
+   ],
+   "xg": [
+    1.82,
+    0.7
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Serie A",
+   "tarih": "2026-11-22",
+   "saat": "22:45",
+   "ev": "Atalanta",
+   "dep": "Inter",
+   "motor": [
+    21,
+    21,
+    58
+   ],
+   "motor_ham": [
+    21,
+    20,
+    58
+   ],
+   "planck": [
+    21,
+    21,
+    58
+   ],
+   "xg": [
+    1.4,
+    2.36
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Bundesliga",
+   "tarih": "2026-11-21",
+   "saat": "17:30",
+   "ev": "Borussia Mönchengladbach",
+   "dep": "Borussia Dortmund",
+   "motor": [
+    20,
+    22,
+    58
+   ],
+   "motor_ham": [
+    20,
+    22,
+    58
+   ],
+   "planck": [
+    20,
+    22,
+    58
+   ],
+   "xg": [
+    1.16,
+    2.11
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  }
+ ]
+}

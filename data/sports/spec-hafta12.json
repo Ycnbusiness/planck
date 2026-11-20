@@ -1,0 +1,257 @@
+{
+ "week": 12,
+ "league": "Süper Lig + Avrupa",
+ "date": "20 KASIM 2026",
+ "launch": true,
+ "matches": [
+  {
+   "ev": "Gençlerbirliği",
+   "dep": "Gaziantep FK",
+   "when": "Cmt 13:30 · Süper Lig",
+   "p": [
+    44,
+    29,
+    27
+   ],
+   "motor": [
+    47,
+    28,
+    25
+   ],
+   "grup": "Süper Lig",
+   "note": "Gençlerbirliği'nde Metehan Baltacı cezalı, yedi oyuncu sakat ya da şüpheli; Gaziantep FK'da yeni teknik direktör Volkan Demirel ceza nedeniyle kulübede olamayacak."
+  },
+  {
+   "ev": "Amedspor",
+   "dep": "Rizespor",
+   "when": "Cmt 16:00 · Süper Lig",
+   "p": [
+    65,
+    20,
+    15
+   ],
+   "motor": [
+    65,
+    20,
+    15
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Galatasaray",
+   "dep": "Samsunspor",
+   "when": "Cmt 16:00 · Süper Lig",
+   "p": [
+    74,
+    16,
+    10
+   ],
+   "motor": [
+    79,
+    13,
+    8
+   ],
+   "grup": "Süper Lig",
+   "note": "Galatasaray'da Osimhen ve Leão sakat, Uğurcan Çakır'ın oynaması beklenmiyor."
+  },
+  {
+   "ev": "Kocaelispor",
+   "dep": "Fenerbahçe",
+   "when": "Cmt 19:00 · Süper Lig",
+   "p": [
+    32,
+    31,
+    37
+   ],
+   "motor": [
+    30,
+    30,
+    40
+   ],
+   "grup": "Süper Lig",
+   "note": "Fenerbahçe'de Asensio, Aké ve Oosterwolde sakat, Archie Brown cezalı; Emre Belözoğlu ile ikinci maç."
+  },
+  {
+   "ev": "Erzurumspor",
+   "dep": "Göztepe",
+   "when": "Paz 13:30 · Süper Lig",
+   "p": [
+    34,
+    26,
+    40
+   ],
+   "motor": [
+    34,
+    26,
+    40
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Kasımpaşa",
+   "dep": "Alanyaspor",
+   "when": "Paz 16:00 · Süper Lig",
+   "p": [
+    57,
+    26,
+    17
+   ],
+   "motor": [
+    62,
+    24,
+    14
+   ],
+   "grup": "Süper Lig",
+   "note": "Kasımpaşa'da beş sakat ve bir cezalı var; Alanyaspor Uğur Uçar ile ilk maçına çıkıyor."
+  },
+  {
+   "ev": "Konyaspor",
+   "dep": "Beşiktaş",
+   "when": "Paz 16:00 · Süper Lig",
+   "p": [
+    25,
+    31,
+    44
+   ],
+   "motor": [
+    22,
+    30,
+    48
+   ],
+   "grup": "Süper Lig",
+   "note": "Beşiktaş'ta kaptan Orkun Kökçü sarı kart cezalı, Miretti şüpheli."
+  },
+  {
+   "ev": "Trabzonspor",
+   "dep": "Eyüpspor",
+   "when": "Paz 19:00 · Süper Lig",
+   "p": [
+    82,
+    12,
+    6
+   ],
+   "motor": [
+    90,
+    8,
+    2
+   ],
+   "grup": "Süper Lig",
+   "note": "Trabzonspor'da Malinovskyi, Okay Yokuşlu, Batagov ve Franculino eksik, Nwaiwu cezalı; motorun uç değeri yumuşatıldı."
+  },
+  {
+   "ev": "Başakşehir",
+   "dep": "Çorum FK",
+   "when": "Pzt 20:00 · Süper Lig",
+   "p": [
+    51,
+    23,
+    26
+   ],
+   "motor": [
+    51,
+    23,
+    26
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Newcastle United",
+   "dep": "Arsenal",
+   "when": "Cmt 20:30 · Premier League",
+   "p": [
+    27,
+    29,
+    44
+   ],
+   "motor": [
+    24,
+    28,
+    48
+   ],
+   "grup": "Avrupa",
+   "note": "Arsenal'de Saka sakat, Zubimendi şüpheli, Dowman cezalı."
+  },
+  {
+   "ev": "Liverpool",
+   "dep": "Manchester United",
+   "when": "Paz 19:30 · Premier League",
+   "p": [
+    57,
+    23,
+    20
+   ],
+   "motor": [
+    57,
+    23,
+    20
+   ],
+   "grup": "Avrupa"
+  },
+  {
+   "ev": "Sevilla",
+   "dep": "Real Betis",
+   "when": "Cmt 20:30 · La Liga",
+   "p": [
+    35,
+    27,
+    38
+   ],
+   "motor": [
+    38,
+    26,
+    36
+   ],
+   "grup": "Avrupa",
+   "note": "Sevilla'da Alfon ve Carmona sezonu kapattı, dört oyuncu eksik; derbi."
+  },
+  {
+   "ev": "Real Madrid",
+   "dep": "Celta Vigo",
+   "when": "Cmt 23:00 · La Liga",
+   "p": [
+    64,
+    23,
+    13
+   ],
+   "motor": [
+    64,
+    23,
+    13
+   ],
+   "grup": "Avrupa"
+  },
+  {
+   "ev": "Atalanta",
+   "dep": "Inter",
+   "when": "Paz 22:45 · Serie A",
+   "p": [
+    21,
+    21,
+    58
+   ],
+   "motor": [
+    21,
+    21,
+    58
+   ],
+   "grup": "Avrupa"
+  },
+  {
+   "ev": "Borussia Mönchengladbach",
+   "dep": "Borussia Dortmund",
+   "when": "Cmt 17:30 · Bundesliga",
+   "p": [
+    20,
+    22,
+    58
+   ],
+   "motor": [
+    20,
+    22,
+    58
+   ],
+   "grup": "Avrupa"
+  }
+ ],
+ "question": "Bu hafta sonu sürpriz sizce hangi maçtan çıkar?"
+}

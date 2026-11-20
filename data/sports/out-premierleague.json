@@ -1,0 +1,24 @@
+[
+ {
+  "ev": "Newcastle United",
+  "dep": "Arsenal",
+  "xg_ev": 0.92,
+  "xg_dep": 1.43,
+  "p": [
+   24,
+   28,
+   48
+  ]
+ },
+ {
+  "ev": "Liverpool",
+  "dep": "Manchester United",
+  "xg_ev": 1.89,
+  "xg_dep": 1.05,
+  "p": [
+   57,
+   23,
+   20
+  ]
+ }
+]

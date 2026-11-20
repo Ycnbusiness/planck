@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "source": "ajansspor.com + star.com.tr, 11. hafta tamamlandıktan sonra (9 Kasım 2026)",
+ "source": "ajansspor.com + star.com.tr, 11. hafta sonrası (9 Kasım 2026); milli ara nedeniyle 20 Kasım itibarıyla değişiklik yok. Program: milliyet.com.tr + kantan.news (18–19 Kasım 2026)",
  "table": [
   [
    "Galatasaray",
@@ -131,12 +131,12 @@
  ],
  "fixtures": [
   [
-   "Amedspor",
-   "Rizespor"
-  ],
-  [
    "Gençlerbirliği",
    "Gaziantep FK"
+  ],
+  [
+   "Amedspor",
+   "Rizespor"
   ],
   [
    "Galatasaray",
@@ -147,14 +147,6 @@
    "Fenerbahçe"
   ],
   [
-   "Konyaspor",
-   "Beşiktaş"
-  ],
-  [
-   "Trabzonspor",
-   "Eyüpspor"
-  ],
-  [
    "Erzurumspor",
    "Göztepe"
   ],
@@ -163,9 +155,74 @@
    "Alanyaspor"
   ],
   [
+   "Konyaspor",
+   "Beşiktaş"
+  ],
+  [
+   "Trabzonspor",
+   "Eyüpspor"
+  ],
+  [
    "Başakşehir",
    "Çorum FK"
   ]
  ],
- "week": 12
+ "week": 12,
+ "asof": "2026-11-20",
+ "schedule": [
+  [
+   "Gençlerbirliği",
+   "Gaziantep FK",
+   "2026-11-21",
+   "13:30"
+  ],
+  [
+   "Amedspor",
+   "Rizespor",
+   "2026-11-21",
+   "16:00"
+  ],
+  [
+   "Galatasaray",
+   "Samsunspor",
+   "2026-11-21",
+   "16:00"
+  ],
+  [
+   "Kocaelispor",
+   "Fenerbahçe",
+   "2026-11-21",
+   "19:00"
+  ],
+  [
+   "Erzurumspor",
+   "Göztepe",
+   "2026-11-22",
+   "13:30"
+  ],
+  [
+   "Kasımpaşa",
+   "Alanyaspor",
+   "2026-11-22",
+   "16:00"
+  ],
+  [
+   "Konyaspor",
+   "Beşiktaş",
+   "2026-11-22",
+   "16:00"
+  ],
+  [
+   "Trabzonspor",
+   "Eyüpspor",
+   "2026-11-22",
+   "19:00"
+  ],
+  [
+   "Başakşehir",
+   "Çorum FK",
+   "2026-11-23",
+   "20:00"
+  ]
+ ]
 }

@@ -1,0 +1,173 @@
+{
+ "league": "premierleague",
+ "name": "Premier League",
+ "season": "2026-27",
+ "source": "sportsmole.co.uk/football/Premier-League/table.html, 10. hafta sonrası (20 Kasım 2026 erişim); saatler TSİ",
+ "asof": "2026-11-20",
+ "table": [
+  [
+   "Arsenal",
+   10,
+   15,
+   5,
+   27
+  ],
+  [
+   "Brighton",
+   10,
+   26,
+   7,
+   22
+  ],
+  [
+   "Manchester City",
+   10,
+   21,
+   13,
+   21
+  ],
+  [
+   "Liverpool",
+   10,
+   14,
+   10,
+   18
+  ],
+  [
+   "Chelsea",
+   10,
+   19,
+   16,
+   16
+  ],
+  [
+   "Everton",
+   10,
+   12,
+   10,
+   16
+  ],
+  [
+   "Bournemouth",
+   10,
+   16,
+   14,
+   15
+  ],
+  [
+   "Brentford",
+   10,
+   16,
+   11,
+   14
+  ],
+  [
+   "Leeds United",
+   10,
+   10,
+   8,
+   14
+  ],
+  [
+   "Aston Villa",
+   10,
+   14,
+   17,
+   13
+  ],
+  [
+   "Tottenham",
+   10,
+   10,
+   11,
+   12
+  ],
+  [
+   "Newcastle United",
+   10,
+   13,
+   16,
+   12
+  ],
+  [
+   "Hull City",
+   10,
+   11,
+   11,
+   11
+  ],
+  [
+   "Ipswich Town",
+   10,
+   15,
+   20,
+   11
+  ],
+  [
+   "Fulham",
+   10,
+   10,
+   12,
+   10
+  ],
+  [
+   "Nottingham Forest",
+   10,
+   9,
+   13,
+   9
+  ],
+  [
+   "Coventry City",
+   10,
+   10,
+   19,
+   9
+  ],
+  [
+   "Manchester United",
+   10,
+   14,
+   19,
+   8
+  ],
+  [
+   "Sunderland",
+   10,
+   8,
+   17,
+   8
+  ],
+  [
+   "Crystal Palace",
+   10,
+   10,
+   24,
+   7
+  ]
+ ],
+ "schedule": [
+  [
+   "Newcastle United",
+   "Arsenal",
+   "2026-11-21",
+   "20:30"
+  ],
+  [
+   "Liverpool",
+   "Manchester United",
+   "2026-11-22",
+   "19:30"
+  ]
+ ],
+ "fixtures": [
+  [
+   "Newcastle United",
+   "Arsenal"
+  ],
+  [
+   "Liverpool",
+   "Manchester United"
+  ]
+ ]
+}
