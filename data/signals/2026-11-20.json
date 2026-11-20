@@ -243,6 +243,110 @@
     "https://www.yenicaggazetesi.com/sozcu-tv-ve-sozcucomtrye-operasyon-kayyum-atandi-gozaltilar-var-1091501h.htm"
    ],
    "yonlendirme": "kırmızı çizgi — olasılık yok"
+  },
+  {
+   "id": "brent-ucuncu-hafta-dusus",
+   "aksam": true,
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "from": 52,
+   "to": 42,
+   "sorular": [
+    {
+     "id": "pk-2026-11-18-brent-100-dokunma",
+     "plan": "%52→%42 (Motor 39, Claude +3)"
+    },
+    {
+     "id": "pk-2026-11-18-brent-90-yilsonu",
+     "plan": "%42→%47 (Motor 49, Claude −2)"
+    },
+    {
+     "id": "pk-2026-11-20-motorin-95-aralik",
+     "plan": "değişmedi %25 (tek günlük hareket <1 TL)"
+    }
+   ],
+   "S": 0.61,
+   "K": 2,
+   "onem": 1.21,
+   "turkiye_bagi": 2,
+   "event": "Brent 20 Kasım akşamı ≈90,3–90,6 $'a geriledi (gün −%1,5; sabah Riyad saldırısıyla 92,6 $'a çıkmıştı); üçüncü haftalık düşüş. Kpler: Orta Doğu petrol ihracatı Kasım'da savaş öncesinin ≈%90'ı (15,3 mv/g).",
+   "rationale": "Fiyat temelli Motor yeniden hesabı (spot 90,4 $, 41 gün). Claude ayarı: Hürmüz'de günde ≈1 saldırı (UOB), 29 Kasım OPEC+ toplantısı. Önem 0,61×2=1,21 → Dosya.",
+   "sources": [
+    "https://www.rte.ie/news/business/2026/1120/1599964-world-oil-prices/",
+    "https://www.ensondakika.com.tr/piyasalarda-gun-sonu-20-kasim-2026/744694/",
+    "https://rudaw.net/english/categories/middleeast/1080185",
+    "https://startupfortune.com/oil-heads-for-a-third-weekly-drop-as-goldman-bets-on-a-2027-glut/"
+   ],
+   "yonlendirme": "Günün Dosyası",
+   "klasor": "posts/2026-11-20-gunun-dosyasi"
+  },
+  {
+   "id": "polonya-rus-fuze",
+   "aksam": true,
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "from": 15,
+   "to": 12,
+   "lr": 0.8,
+   "sorular": [
+    {
+     "id": "pb-2026-W46-2",
+     "plan": "%11→%9, sessiz"
+    },
+    {
+     "id": "on-catisma-rusya-ateskes",
+     "plan": "%15→%12"
+    }
+   ],
+   "S": 0.22,
+   "K": 2,
+   "onem": 0.44,
+   "turkiye_bagi": 1,
+   "event": "Rusya'nın 20 Kasım gece saldırısında (≈110 füze, 400+ İHA; Kiev'de 8 ölü) iki Rus füzesi ve jet motorlu bir İHA Polonya'nın güneydoğusuna düştü; yaralı yok. Tusk kaza olmadığını söyledi, NATO jetleri havalandı; Varşova acil müttefik toplantısı isteyecek. Putin Kırım köprüsü sonrası müzakere olmayacağını söyledi; Trump Avrupalılara Putin'in anlaşmaya hazır olduğunu aktardı, Tusk buna dair olgu olmadığını söyledi.",
+   "rationale": "Öğlen izlemesindeki nesne teyit edildi (NATO toprağı). Ateşkes yönünde zayıf olumsuz kanıt, LR 0,8. Önem 0,22×2=0,44 → Dosya (Story üretilmedi).",
+   "sources": [
+    "https://www.irishtimes.com/world/europe/2026/11/20/nato-jets-scrambled-after-russian-missiles-and-drone-hit-poland-during-attacks-on-ukraine/",
+    "https://www.eurointegration.com.ua/eng/news/2026/11/20/7250444/",
+    "https://www.anews.com.tr/world/2026/11/20/nato-chief-slams-grave-violations-of-polish-airpace-after-missile-incident",
+    "https://www.yahoo.com/news/world/articles/hours-trump-putin-talks-russia-074052765.html"
+   ],
+   "yonlendirme": "Günün Dosyası",
+   "klasor": "posts/2026-11-20-gunun-dosyasi"
+  },
+  {
+   "id": "bist-fed-yz-satisi",
+   "aksam": true,
+   "class": "YEŞİL",
+   "risk": "quant",
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "event": "BIST 100 %2,36 düşüşle 11.131 puandan kapandı; 100 hisseden 96'sı geriledi. Gerekçe: Fed'in sıkılaştırmayı hızlandırabileceği endişesi ve yapay zekâ büyümesine dair şüpheler; Asya borsaları 2020'den bu yana en kötü haftasına gidiyor.",
+   "rationale": "Varlık fiyatı eşikleri Quant'ta; haber sicilinde soru oynamadı.",
+   "sources": [
+    "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-dususle-tamamladi/4132381",
+    "https://www.cnbce.com/borsa/borsa-haftayi-dususle-kapatti-20-kasim-2026-h42245"
+   ],
+   "yonlendirme": "Quant'a not · zayıf sinyal"
+  },
+  {
+   "id": "jpm-visa-mc-tedarikci-siber",
+   "aksam": true,
+   "class": "YEŞİL",
+   "risk": "siber",
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "kuresel_onem": 0,
+   "event": "JPMorgan, Visa ve Mastercard, N0n grubunun veri sızdırma iddiası sonrası üçüncü taraf tedarikçilerinin ihlal edildiğini doğruladı; kart/ödeme verisi etkilenmedi, pazarlama verisi ve e-postalar açığa çıktı.",
+   "rationale": "Kritik altyapı değil, devlet atfı yok. Küresel önem = |Δ 0| × etki = 0.",
+   "sources": [
+    "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+    "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html"
+   ],
+   "yonlendirme": "zayıf sinyal"
   }
  ],
  "editor": {
@@ -258,5 +362,12 @@
   "kirmizi_cizgi": 1,
   "izleme_yeni": 1,
   "not": "Ana akış adayı yok; kuyruk boş kaldı. Sicil değişmedi. ABD Senatosu'nun İran savaş yetkileri oylaması (48–51) ve Anthropic halka arzı 19 Kasım (ABD saati) olayları; pencere dışı, işlenmedi."
+ },
+ "aksam": {
+  "tarama": "2026-11-20 akşam (≈20:10–21:00 TSİ), pencere 12:30 → 20:30 TSİ",
+  "dosya": 2,
+  "olay_ve_cevap": 0,
+  "zayif": 2,
+  "not": "Günün Dosyası üretildi (Brent, Polonya). Önemi ≥1,4 yeni olay yok; ertesi sabah kuyruğu boş. Yeni Peki Biz? sorusu açılmadı. Hürmüz mayın iddiası hâlâ bağımsız teyitsiz."
  }
 }

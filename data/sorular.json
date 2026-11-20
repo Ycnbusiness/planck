@@ -976,7 +976,7 @@
    ],
    "on_otopsi": "Görüşmeler beklenmedik biçimde çerçeve anlaşmaya döner.",
    "motor": null,
-   "p": 11,
+   "p": 9,
    "ilk_p": 12,
    "durum": "acik",
    "sonuc": null,
@@ -993,8 +993,15 @@
      "p": 11,
      "motor": null,
      "neden": "Abu Dabi görüşmeleri 11 Kasım'da yalnız esir takası anlaşmasıyla bitti; toprak ve güvenlik garantilerinde ayrılık sürüyor (LR 0,9)"
+    },
+    {
+     "t": "2026-11-20",
+     "p": 9,
+     "motor": null,
+     "neden": "20.11: Rusya'nın 110 füze/≈400–500 İHA'lı saldırısı, iki füze ve bir jet motorlu İHA'nın Polonya'ya düşmesi (Polonya Savunma Bakanı, Rutte), Putin'in 'müzakere olmayacak' sözü; Trump'ın 'Putin anlaşmaya hazır' aktarımı karşısında Tusk 'olgu yok'. LR 0,8 (zayıf). Kaynak: CNN, Guardian/Irish Times, AFP, Avrupa Pravda."
     }
-   ]
+   ],
+   "sessiz": true
   },
   {
    "id": "pb-2026-11-10-motorin",
@@ -1154,7 +1161,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: ABD'nin Ukrayna'ya yardımı ateşkese bağlaması ve Kiev'in kış altyapı kayıpları altında kabul etmesi.",
    "motor": 15,
-   "p": 15,
+   "p": 12,
    "ilk_p": 18,
    "durum": "acik",
    "sonuc": null,
@@ -1183,6 +1190,12 @@
      "p": 15,
      "motor": 15,
      "neden": "17.11 akşam: Kerç köprüsünün karayolu açıklığı çöktü (Reuters doğruladı, CNN geolokasyon; Rusya Ulaştırma Bak. hasarı doğruladı), Rusya Kiev'in iki köprüsünü 7 balistik füzeyle vurdu; Şenzen zirvesinden 2 gün önce karşılıklı tırmanma. LR 0,8 (zayıf). Üç geçiş 15/16/14 → 15."
+    },
+    {
+     "t": "2026-11-20",
+     "p": 12,
+     "motor": 15,
+     "neden": "20.11: aynı olay (Polonya'ya düşen Rus füzeleri, Kiev'e büyük saldırı, Putin'in müzakere reddi). LR 0,8. Kaynak: CNN, Guardian/Irish Times, AFP."
     }
    ],
    "bagli": "risk-catisma"
@@ -2087,8 +2100,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: Hürmüz/ABD–İran tarafında beklenmedik ateşkes ya da tersine arz kesintisi.",
-   "motor": 42,
-   "p": 42,
+   "motor": 49.0,
+   "p": 47,
    "ilk_p": 42,
    "durum": "acik",
    "sonuc": null,
@@ -2099,6 +2112,12 @@
      "p": 42,
      "motor": 42,
      "neden": "açılış (pilot hafta 1). Okura etkisi: akaryakıt ve ÖTV takvimi ile birlikte pompa fiyatı."
+    },
+    {
+     "t": "2026-11-20",
+     "p": 47,
+     "motor": 49.0,
+     "neden": "20.11 akşam: Brent ≈90,4 $ (gün −%1,5; üçüncü haftalık düşüş, Kpler: Orta Doğu ihracatı Kasım'da savaş öncesinin ≈%90'ı). Motor %49 (spot 90,4, σ %50, 41 gün); Claude −2 (Hürmüz'de günlük saldırı sıklığı, 29 Kasım OPEC+). Kaynak: Reuters/RTE, AA, Rudaw/Kpler."
     }
    ]
   },
@@ -2428,8 +2447,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: oynaklık varsayımı yanlış (savaş primi sönümlendiyse düşük, yeni arz şokunda yüksek).",
-   "motor": 52,
-   "p": 52,
+   "motor": 39.0,
+   "p": 42,
    "ilk_p": 52,
    "durum": "acik",
    "sonuc": null,
@@ -2440,6 +2459,12 @@
      "p": 52,
      "motor": 52,
      "neden": "açılış (pilot hafta 1). Çift eşik kuralı (enerji raporu): yön tavsiyesi izlenimini önler."
+    },
+    {
+     "t": "2026-11-20",
+     "p": 42,
+     "motor": 39.0,
+     "neden": "20.11 akşam: Brent ≈90,4 $ (eşik +%10,6). Motor %39 (σ %40, 41 gün, günlük kapanış düzeltmesi); Claude +3 (Hürmüz saldırıları, Riyad, 29 Kasım OPEC+). Kaynak: Reuters/RTE, AA, Rudaw/Kpler."
     }
    ]
   },

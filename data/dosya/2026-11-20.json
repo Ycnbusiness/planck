@@ -1,0 +1,29 @@
+{
+ "date": "20 KASIM 2026",
+ "lede": "Petrol üst üste üçüncü haftasında da geriledi; Rusya'nın Ukrayna saldırısında füzeler NATO toprağına düştü.",
+ "items": [
+  {
+   "tag": "Enerji",
+   "title": "Brent üçüncü haftasında da düşüşte",
+   "text": "Brent petrol 20 Kasım akşamı varil başına yaklaşık 90 dolara geriledi ve üst üste üçüncü haftalık kaybına gidiyor. Kpler verisine göre Orta Doğu'nun petrol ihracatı Kasım'da savaş öncesinin yaklaşık %90'ına döndü; Hürmüz'de tankerlere saldırılar sürüyor.",
+   "risk": "Brent 31 Aralık'a kadar 100 doların üstünde kapanır mı?",
+   "from": 52,
+   "to": 42,
+   "deadline": "31.12.2026",
+   "pq": "İstanbul'da motorin 1 Aralık'ta litresi 95 TL'yi aşar mı?",
+   "pp": 25,
+   "pdo": "Brent'teki düşüş pompaya gecikmeyle yansır; tek günlük hareket bu soruyu oynatmadı. İzlenecek gösterge: Brent'in 90 dolar çevresinde kalıp kalmadığı."
+  },
+  {
+   "tag": "Çatışma",
+   "title": "Rus füzeleri Polonya topraklarına düştü",
+   "text": "Rusya'nın Ukrayna'ya yönelik gece saldırısında iki füze ve jet motorlu bir İHA Polonya'nın güneydoğusuna düştü; yaralanan yok. Polonya hükümeti olayın kaza olmadığını söyledi, NATO savaş uçakları havalandı.",
+   "risk": "Rusya–Ukrayna genel ateşkesi (30 Nisan 2027)",
+   "from": 15,
+   "to": 12,
+   "deadline": "30.04.2027",
+   "pdo": "NATO toprağına düşen füze, Türkiye'nin de üyesi olduğu ittifakı Polonya'nın istediği acil toplantı ve doğu kanadı takviyesi kararlarına taraf yapıyor."
+  }
+ ],
+ "question": "Sizce NATO toprağına düşen füzeler ateşkes görüşmelerini hızlandırır mı, yavaşlatır mı?"
+}
