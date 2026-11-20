@@ -81,7 +81,7 @@ Olasılık puan ekleyerek değil, **log-odds üzerinde** güncellenir; böylece 
 | Güçlü | 4 | Kuralı ya da yapıyı değiştiren olay (yasa, anlaşma, savaş ilanı) | %80 | %96 |
 | Belirleyici | 10 | Sonucu neredeyse tayin eden olay; yalnız kırmızı alarmda | %91 | %97 (tavan) |
 
-Ters yöndeki kanıt için `1/LR`. Aynı olgunun ikinci haberi yeni kanıt değildir. LR 1,2'nin altındaki kanıt sayıya işlenmez; **Zayıf Sinyal Defteri**'ne yazılır, haftada bir toplu değerlendirilir, aynı tema tek kanıt sayılır. Hesap ondalıkla taşınır; yalnız yayın anında yuvarlanır. Kanal dosyalarındaki puan eşikleri (kırmızı ≥10, sarı 3–9) **yayın kararı** için geçerliliğini korur; sayı bu tabloyla hesaplanır. Tek olay 15 puan sınırı sürer.
+Ters yöndeki kanıt için `1/LR`. Aynı olgunun ikinci haberi yeni kanıt değildir. LR 1,2'nin altındaki kanıt sayıya işlenmez; **Zayıf Sinyal Defteri**'ne yazılır, haftada bir toplu değerlendirilir, aynı tema tek kanıt sayılır. Hesap ondalıkla taşınır; yalnız yayın anında yuvarlanır. **Kesin girdi istisnası (Yusuf, 20.11.2026):** pompa fiyatı, vergi/tarife takvimi, açıklanan resmi veri gibi kesin bir girdi değişince sayı LR ile değil doğrudan Motor ile yeniden hesaplanır; tek olay ±15 sınırı yalnız haber kanıtına (LR) uygulanır. Yeniden hesap "Motor yeniden hesabı" notuyla kaydedilir ve ilişkili eşik soruları birbiriyle mantıksal tutarlı olmak zorundadır (ör. 100'ü aşma ≤ 95'i aşma). Kanal dosyalarındaki puan eşikleri (kırmızı ≥10, sarı 3–9) **yayın kararı** için geçerliliğini korur; sayı bu tabloyla hesaplanır. Tek olay 15 puan sınırı sürer.
 
 ## 4. Disiplin mercekleri
 
@@ -162,3 +162,4 @@ Yön/al-sat/hedef fiyat yok (SPK).
 ---
 Sürüm: v1 · 10.11.2026 · ilk metin.
 Sürüm: v2 · 16.11.2026 · Yusuf onayı (ekip/KARAR.md): §0 yeni iddia; haberin birimi soru; ilke 8–9; ufuk ve bant kuralları; sunum standardı; Zayıf Sinyal Defteri; beceri skoru ve yön hatası; Önem = S×K ve üç insan kapısı; yeni künye, sicil açık; Türkiye çizgileri ve pilot sonrası süreç kapısı.
+Sürüm: v2.1 · 20.11.2026 · Yusuf kararı: kesin girdi istisnası (Motor yeniden hesabı, ±15 yalnız LR için).

@@ -8,3 +8,4 @@ Yayından önce:
 3. Önem editör hesabıyla S 1,25 × K 3 = 3,76 (motorin-100 %27 ile) → ana akış.
 4. Editöre yeniden gönder (2. tur).
 5. spec.json "date" alanını tekrar "20 KASIM 2026" (ya da yayın günü) yap ve yeniden üret.
+- 20.11 · Editör 2. tur DÜZELT maddeleri uygulandı; kural çatışması (±15 / kesin girdi) Yusuf kararıyla çözüldü → YAYINLA (18:00 carousel, 19:00 Reel).
