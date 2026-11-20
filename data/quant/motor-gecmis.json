@@ -229,5 +229,61 @@
   "motor": null,
   "kaynak_turu": null,
   "not": "hesaplanmadı: Sahm/işsizlik girdileri güncel değil"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-tcmb-aralik",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-tr-tufe-30",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-usdtry-60",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-fed-artirim",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-abd-resesyon",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-nasdaq-25",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-brent-110",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
+ },
+ {
+  "tarih": "2026-11-20",
+  "soru": "q-altin-4500",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel girdi (FedWatch/OVX/GVZ/oynaklık/anket/Nasdaq 19.11) kaynaklı bulunamadı"
  }
 ]
