@@ -1014,9 +1014,13 @@
    "motor": 88.0,
    "p": 85,
    "ilk_p": 45,
-   "durum": "acik",
-   "sonuc": null,
-   "kapanis": null,
+   "durum": "kapandi",
+   "sonuc": 1,
+   "kapanis": {
+    "t": "2026-11-20",
+    "kaynak": "https://www.haberturk.com/ekonomi/son-dakika-motorine-dev-indirim-geldi-iste-guncel-20-kasim-2026-motorin-benzin-ve-lpg-fiyatlari-3928661",
+    "not": "20.11.2026: motorine ≈6,50 TL indirim; İstanbul Avrupa yakası 88,80 TL (Habertürk, CNN Türk 20.11). Dağıtıcı arşivi bu ortamdan açılamadı; iki ulusal yayın dağıtıcı fiyatını aynı veriyor."
+   },
    "gecmis": [
     {
      "t": "2026-11-10",
@@ -1610,8 +1614,8 @@
     "Uluslararası ilişkiler: yazılı ABD–İran anlaşması Hürmüz'ü açarsa Brent hızla 70'lere inebilir"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ocak'ta ÖTV veya KDV ayarlaması ya da kurdaki sıçramanın petroldeki düşüşü silmesi; ya da tersine, ani bir İran anlaşmasının petrolü 75 doların altına indirmesi.",
-   "motor": 15.0,
-   "p": 15,
+   "motor": 29.0,
+   "p": 24,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1646,6 +1650,12 @@
      "p": 15,
      "motor": 15.0,
      "neden": "DÜZELTME (hesap hatası, Anayasa §8; Quant v2 denetimi R9/R11/Fable): önceki Motor, 13.08.2026 RG (11606 sayılı Karar) motorin ÖTV takvimini saymamıştı (1 Ara 12 TL, 1 Oca 13,90 TL; pompaya KDV dahil ≈+5,9 TL). Aktarım hesabı: bugünkü 95,1 TL → KDV öncesi 79,25 − ÖTV 9 = 70,25 TL ürün+marj; 31 Oca'da 90 TL altı için ≤61,1 TL gerekir (−%13 TL; kur ≈+%4 ile dolar bazında ≈−%18). Ürün fiyatı oynaklığı yıllık %35–50, 2,5 ay → Motor %11–19, medyan %15. Claude ayarı 0 (ek ÖTV indirimi olasılığı ile dizel marjı birbirini götürür). Eski sayılar görünür kalır."
+    },
+    {
+     "t": "2026-11-20",
+     "p": 24,
+     "motor": 29.0,
+     "neden": "20.11 motorin −6,50 TL (88,80 TL; Habertürk, CNN Türk). Üç geçiş 29/24/20, medyan %24; Motor %29, Claude −5 (Ocak ÖTV 13,90 TL ve kur kayması)."
     }
    ],
    "bagli": "risk-enerji"
@@ -2197,8 +2207,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: ÖTV adımına 'eşel mobil' benzeri bir indirimle müdahale edildiyse ya da dağıtıcı marjı değiştiyse.",
-   "motor": 42,
-   "p": 42,
+   "motor": 11.0,
+   "p": 27,
    "ilk_p": 42,
    "durum": "acik",
    "sonuc": null,
@@ -2209,6 +2219,12 @@
      "p": 42,
      "motor": 42,
      "neden": "açılış (pilot hafta 1). Hesap kartı ile birlikte: 1 Aralık ÖTV etkisi kesin, eşik belirsiz."
+    },
+    {
+     "t": "2026-11-20",
+     "p": 27,
+     "motor": 11.0,
+     "neden": "20.11 motorin −6,50 TL (88,80 TL; Habertürk, CNN Türk). Aktarım Motoru: 1 Aralık ÖTV sonrası ≈92,4 TL; 100 TL için ürün fiyatında ≈%10 artış gerekir → Motor %11. Tek olay sınırı (±15) uygulandı: %42→%27."
     }
    ]
   },
@@ -2417,6 +2433,36 @@
      "p": 52,
      "motor": 52,
      "neden": "açılış (pilot hafta 1). Çift eşik kuralı (enerji raporu): yön tavsiyesi izlenimini önler."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-20-motorin-95-aralik",
+   "kanal": "news",
+   "tur": "esik",
+   "q": "İstanbul'da (Avrupa yakası) motorinin 1 Aralık 2026'daki litre fiyatı 95 TL'yi aşar mı?",
+   "acilis": "2026-11-20",
+   "deadline": "2026-12-01",
+   "kriter": "1 Aralık 2026 günü (ÖTV artışı sonrası) İstanbul Avrupa yakası büyük dağıtıcı (Opet, PO, Shell) motorin pompa fiyatı >95,00 TL ise EVET; iki ulusal yayın ya da dağıtıcı arşivi.",
+   "kaynak_cozum": "Dağıtıcı fiyat arşivi; Habertürk/CNN Türk/AA",
+   "taban": "Aktarım Motoru: 20.11 fiyatı 88,80 TL; 1 Aralık ÖTV 9→12 TL (+3,6 TL KDV dahil) → ≈92,4 TL. 95 TL için +2,6 TL, ürün fiyatında ≈+%3,6 gerekir; 11 günlük dizel ürün oynaklığı σ≈%7 → Motor ≈%35 (üç geçiş 33/25/25).",
+   "mercekler": [
+    "mikro",
+    "enerji"
+   ],
+   "on_otopsi": "Yanılırsak: OPEC+ 29 Kasım kararı ya da Hürmüz kaynaklı dizel sıçraması; ya da ÖTV adımına müdahale.",
+   "motor": 35,
+   "p": 25,
+   "ilk_p": 25,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-20",
+     "p": 25,
+     "motor": 35,
+     "neden": "açılış (20.11 motorin indirimi). Claude −10: Brent'in Kasım düşüş eğilimi ve IEA'nın 4. çeyrek arz fazlası beklentisi; dağıtıcıların indirimi kademeli geri alma geçmişi zayıf."
     }
    ]
   }
