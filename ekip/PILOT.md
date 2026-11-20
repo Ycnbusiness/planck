@@ -52,3 +52,4 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 ## Ses ve İz aday listesi
 - 18.11 (öğle) · ABD'de bir haftalık kesinti dizisi (FAA, United, JPMorgan, Apple, Microsoft); Rubio 18.11'de siber saldırı kanıtı olmadığını söyledi. İz ölçütü adayı: FAA kök neden raporu ya da Kongre brifingi (resmi karar/düzenleme). Kaynak: data/signals/2026-11-18.json
 - 19.11 (öğle) · Şenzhen'de ilk Şi–Trump–Putin üçlü görüşmesi ve Trump–Putin ikili görüşmesi; 'tarihî' denildi, ortak bildiri ya da somut sonuç yok. İz ölçütü adayı: 90 gün içinde üç ülke arasında resmî silah kontrolü görüşme turu ya da yazılı metin. Kaynak: data/signals/2026-11-19.json
+- 20.11 (öğle) · Şenzhen 'barış bildirgesinden' bir gün sonra Rusya'nın Kiev köprülerini ve enerji altyapısını vuran geniş misillemesi; Putin enerji ve deniz ateşkesini reddetti. İz ölçütü adayı: 90 gün içinde enerji altyapısı ya da Karadeniz için yazılı ateşkes metni. Kaynak: data/signals/2026-11-20.json

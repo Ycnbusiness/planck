@@ -178,10 +178,85 @@
     "pk-2026-11-18-tcmb-aralik-35"
    ],
    "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "rusya-kiev-kopru-misilleme",
+   "ogle": true,
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Rusya 20 Kasım gecesi (Kiev saatiyle ≈01:25–06:30) Ukrayna'ya balistik füze, seyir füzesi ve İHA ile geniş saldırı düzenledi. Kiev'de en az 3 ölü; Dinyeper üzerindeki üç köprü (Podilsko-Voskresenskyi, Güney, Darnytskyi) hasar gördü, biri trafiğe kapandı. Kiev'in beş ilçesinde elektrik, ısınma ve su kesintisi; Harkiv'de hastane vuruldu, Lviv'de acil elektrik kesintisi. Saldırı, Putin'in 17 Kasım Kırım Köprüsü saldırısına 'çok daha acı' karşılık vereceğini söylemesinin ve Şenzhen üçlü görüşmesinin ardından geldi. Polonya, sınıra ≈45 km uzakta bir nesne düşmüş olabileceğini araştırıyor (izleme).",
+   "rationale": "Önceden duyurulmuş misilleme; Ekim'den beri Kiev köprülerini hedef alma taktiği biliniyor. Genel ateşkes sorusu (pb-2026-W46-2, %11) zaten bu tabloyu içeriyor; LR ≈1 (bahis testi: sayıyı değiştirecek yeni bilgi yok). ≤90 günlük soru oynamıyor → S 0. Polonya iddiası tek kaynak (AFP canlı yayın) → izleme.",
+   "sources": [
+    "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+    "https://pressnewsagency.org/live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says/",
+    "https://www.cnn.com/2026/11/20/europe/russia-ukraine-putin-trump-intl-hnk"
+   ],
+   "bagli": [
+    "pb-2026-W46-2",
+    "on-catisma-rusya-ateskes",
+    "pb-2026-11-15-ukrayna-gorusme-turkiye"
+   ],
+   "yonlendirme": "zayıf sinyal (sabah taramasının penceresine düşüp kaçırdığı olay)"
+  },
+  {
+   "id": "tuketici-guven-kasim",
+   "ogle": true,
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "event": "TÜİK: tüketici güven endeksi Kasım'da %2,4 artışla 86,8'e çıktı (Eylül seviyesinin altında). TCMB aynı saatte (10:00) reel kesim güven endeksi ve kapasite kullanım oranını yayımladı.",
+   "rationale": "Takvimli veri, sürpriz düşük; ilgili açık soru yok (TCMB Aralık faiz sorusu için sinyal zayıf).",
+   "sources": [
+    "https://www.forbes.com.tr/ekonomi/tuketici-guven-endeksi-kasim-ayinda-yukseldi",
+    "https://www.ahaber.com.tr/ekonomi/2026/11/20/tuketici-guven-endeksi-kasim-ayinda-yuzde-2-4-yukseldi"
+   ],
+   "bagli": [
+    "pk-2026-11-18-tcmb-aralik-35"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "sozcu-sorusturma-adliye",
+   "ogle": true,
+   "class": "KIRMIZI ÇİZGİ",
+   "risk": null,
+   "delta": 0,
+   "lr": null,
+   "S": null,
+   "K": null,
+   "onem": null,
+   "event": "Sözcü TV/Sözcü.com.tr soruşturmasında (TMSF kayyum ataması 17 Kasım) gözaltına alınan 4 şüpheli 20 Kasım'da adliyeye sevk edildi.",
+   "rationale": "kırmızı çizgi — olasılık yok (Anayasa §9: süren soruşturma, adı geçen kişiler). Yalnız kayıt.",
+   "sources": [
+    "https://www.sabah.com.tr/gundem/2026/11/20/sozcu-medya-grubuna-operasyon-4-kisi-adliyeye-sevk-edildi",
+    "https://www.yenicaggazetesi.com/sozcu-tv-ve-sozcucomtrye-operasyon-kayyum-atandi-gozaltilar-var-1091501h.htm"
+   ],
+   "yonlendirme": "kırmızı çizgi — olasılık yok"
   }
  ],
  "editor": {
   "klasor": "posts/2026-11-20-motorin-indirim",
   "hukum": "BEKLET"
+ },
+ "ogle": {
+  "tarama": "2026-11-20 öğle (≈12:10–12:40 TSİ), pencere 04:00 → 12:30 TSİ",
+  "ana_akis": 0,
+  "dosya": 0,
+  "story": 0,
+  "zayif": 2,
+  "kirmizi_cizgi": 1,
+  "izleme_yeni": 1,
+  "not": "Ana akış adayı yok; kuyruk boş kaldı. Sicil değişmedi. ABD Senatosu'nun İran savaş yetkileri oylaması (48–51) ve Anthropic halka arzı 19 Kasım (ABD saati) olayları; pencere dışı, işlenmedi."
  }
 }

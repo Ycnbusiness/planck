@@ -438,6 +438,35 @@
     "https://aa.com.tr/tr/ekonomi/merkez-bankasi-rezervleri-159-milyar-dolar-oldu/4130710",
     "https://www.ekonomigazetesi.com/ekonomi/merkez-bankasinin-toplam-rezervleri-21-milyar-dolar-azaldi-92623"
    ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "rusya-kiev-kopru-misilleme",
+   "tema": "Rusya–Ukrayna karşılıklı saldırılar",
+   "bagli": [
+    "risk-catisma",
+    "pb-2026-W46-2"
+   ],
+   "olay": "Rusya 20 Kasım gecesi (Kiev saatiyle ≈01:25–06:30) Ukrayna'ya balistik füze, seyir füzesi ve İHA ile geniş saldırı düzenledi. Kiev'de en az 3 ölü; Dinyeper üzerindeki üç köprü (Podilsko-Voskresenskyi, Güney, Darnytskyi) hasar gördü, biri trafiğe kapandı. Kiev'in beş ilçesinde elektrik, ısınma ve su kesintisi; Harkiv'de hastane vuruldu, Lviv'de acil elektrik kesintisi. Saldırı, Putin'in 17 Kasım Kırım Köprüsü saldırısına 'çok daha acı' karşılık vereceğini söylemesinin ve Şenzhen üçlü görüşmesinin ardından geldi. Polonya, sınıra ≈45 km uzakta bir nesne düşmüş olabileceğini araştırıyor (izleme).",
+   "neden_zayif": "Önceden duyurulmuş misilleme; mevcut eğilim, ≤90 günlük soru oynamıyor.",
+   "kaynaklar": [
+    "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+    "https://pressnewsagency.org/live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says/"
+   ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "tuketici-guven-kasim",
+   "tema": "Türkiye öncü göstergeler",
+   "bagli": [
+    "pk-2026-11-18-tcmb-aralik-35"
+   ],
+   "olay": "TÜİK: tüketici güven endeksi Kasım'da %2,4 artışla 86,8'e çıktı (Eylül seviyesinin altında). TCMB aynı saatte (10:00) reel kesim güven endeksi ve kapasite kullanım oranını yayımladı.",
+   "neden_zayif": "Takvimli veri, sürpriz düşük.",
+   "kaynaklar": [
+    "https://www.forbes.com.tr/ekonomi/tuketici-guven-endeksi-kasim-ayinda-yukseldi",
+    "https://www.ahaber.com.tr/ekonomi/2026/11/20/tuketici-guven-endeksi-kasim-ayinda-yuzde-2-4-yukseldi"
+   ]
   }
  ]
 }
