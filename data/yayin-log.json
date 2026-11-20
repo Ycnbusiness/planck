@@ -297,5 +297,42 @@
   "facebook": false,
   "dogrulama": "Kerç köprüsü kısmi çöküş (sondakika/haberler.com, CNN Türk, ssbulten); Kiev köprüleri (RayHaber); Bahreyn İHA ve Kalibaf 'çift kullanımlı' (Iran International, Gulf News, Al Jazeera)",
   "duzeltme": "Editör: 'Türk gemisi hasar görür mü %70' Peki Biz sorusu bahis testinden kaldı (şiddetin kendisi) → kaldırıldı, Neden Önemli yazıldı; 'yedi balistik füze' ayrıntısı doğrulanamadı → çıkarıldı; künye v2'ye çevrildi."
+ },
+ {
+  "tarih": "2026-11-20T07:50",
+  "tur": "olay-cevap",
+  "kanal": "news",
+  "klasor": "posts/2026-11-20-motorin-indirim",
+  "baslik": "Motorine 6,58 TL indirim pompaya yansıdı",
+  "durum": "bekletildi",
+  "editor": {
+   "hukum": "BEKLET",
+   "onem": {
+    "S": 1.25,
+    "K": 3,
+    "puan": 3.76
+   },
+   "kapilar": [
+    true,
+    true,
+    true
+   ],
+   "bahis_testi": true,
+   "kaynaklar_yeniden": [
+    "https://www.karar.com/ekonomi-haberleri/depo-basina-tam-329-tl-indirim-gece-yarisi-tabelalar-bir-anda-degisti-2085193",
+    "https://www.timeturk.com/mazota-658-tl-indirim-geldi-20-kasim-2026-istanbul-ankara-ve-izmir-fiyatlari",
+    "https://www.forbes.com.tr/haberler/motorin-fiyatlari-90-liranin-altina-iniyor-motorin-litre-fiyati-ne-kadar"
+   ],
+   "duzeltmeler": [
+    "motorin-100 tek olayda 35 puan → 15 puan sınırı (%27); Motor yeniden hesabına sınır uygulanır mı Yusuf'a",
+    "pb-2026-11-10-motorin kapanışı kriterdeki çözüm kaynağına dayanmalı",
+    "fiyat 88,77 TL; 'önce' rakamı çıkarıldı",
+    "Brent/IEA için kaynak caption'a eklendi",
+    "ayar gerekçesi: 'Körfez'deki gerilim' ifadesi",
+    "olaycevap2.js künyesi 'Yatırım veya politika tavsiyesi değildir' oldu",
+    "Reel künyesine Ekotürk eklendi"
+   ],
+   "gerekce": "Ana iddiayı yalnız C katmanı, bağımsız olmayan kaynaklar doğruluyor; A/B kaynağı gerekiyor."
+  }
  }
 ]

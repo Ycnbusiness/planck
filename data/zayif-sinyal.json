@@ -360,6 +360,84 @@
     "https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705",
     "https://www.investing.com/news/stock-market-news/jpmorgan-chase-says-vendors-hit-in-cyberattack-not-related-to-earlier-outage-5039510"
    ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "shenzhen-uclu-baris-bildirgesi",
+   "tema": "Rusya–Ukrayna müzakereleri",
+   "bagli": [
+    "pb-2026-W46-2",
+    "pb-2026-11-15-ukrayna-gorusme-turkiye",
+    "on-catisma-rusya-ateskes"
+   ],
+   "olay": "Trump, Şi ve Putin 19 Kasım'da Şenzhen'de ilk üçlü görüşmeyi yaptı; dört maddelik 'barış bildirgesi' nükleer risk diyaloğu, BM reformu ve rafine ürün arzını içeriyor, Ukrayna ve İran'dan söz etmiyor. Ateşkes çerçevesi çıkmadı. Berlin'deki 'İstekliler Koalisyonu' toplantısında ABD heyeti bir sonraki turun ABD–Rusya–Ukrayna–Avrupa dörtlü biçiminde olacağını aktardı; yer ve tarih belirsiz.",
+   "neden_zayif": "Beklenen zirve, somut ateşkes adımı yok; dörtlü biçim Putin'in koşuluna bağlı. Türkiye ev sahipliği gündemde değil. LR <1,2.",
+   "kaynaklar": [
+    "https://www.rferl.org/a/trump-xi-putin-summit-four-key-takeaways/33902100.html",
+    "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+    "https://www.rte.ie/news/world/2026/1119/1599769-coalition-of-willing-berlin-meeting/"
+   ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "ab-komisyonu-siber",
+   "tema": "Avrupa kurumlarına siber saldırı",
+   "bagli": [
+    "on-siber-yeni-devlet-atfi",
+    "on-siber-ab-iran-yaptirim"
+   ],
+   "olay": "Avrupa Komisyonu, personel sistemlerini (Sysper, JSIS/MyPMO, çeviri) on günü aşkın süre aksatan bir siber kampanyayı doğruladı; CERT-EU inceliyor, saldırgan açıklanmadı, veri sızıntısı belirsiz. Haberlere göre açık kaynaklı bir yapay zekâ sızma testi aracı kullanıldı.",
+   "neden_zayif": "Kritik altyapı değil, atıf yok; soru kriterine dokunmuyor. Atıf gelirse on-siber-yeni-devlet-atfi için yeniden değerlendirilir.",
+   "kaynaklar": [
+    "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown",
+    "https://www.notebookcheck.net/European-Commission-hit-by-huge-cyberattack-with-free-AI-tool-staff-data-may-be-exposed.1454697.0.html"
+   ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "ttf-gaz-depo-dusuk",
+   "tema": "Avrupa gaz arzı",
+   "bagli": [
+    "pk-2026-11-18-botas-ocak-zam",
+    "pb-2026-W46-0"
+   ],
+   "olay": "Avrupa TTF gazı 19 Kasım'da ≈85 €/MWh'ye çıktı (günlük ≈+%5); Troll sahasındaki arıza Norveç arzını düşürdü, soğuk hava bekleniyor. AB depoları ≈%70 dolulukla mevsim düşüğünde.",
+   "neden_zayif": "Mevcut eğilimin devamı; depo verisi ikincil kaynaktan. BOTAŞ Ocak sorusu açılışta yüksek gaz fiyatını içeriyordu.",
+   "kaynaklar": [
+    "https://tradingeconomics.com/commodity/eu-natural-gas",
+    "https://finance.yahoo.com/energy/articles/ttf-gas-bounces-back-86-143000689.html"
+   ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "hurmuz-khasab-tanker-riyad",
+   "tema": "Hürmüz ve Körfez saldırıları",
+   "bagli": [
+    "pk-2026-11-18-hurmuz-acilis",
+    "pk-2026-11-18-abd-iran-ateskes",
+    "pk-2026-11-18-brent-100-dokunma"
+   ],
+   "olay": "UKMTO, 18 Kasım'da Umman'ın Hasab açığında bir tankerin makine dairesine 'bilinmeyen bir merminin' isabet ettiğini bildirdi; mürettebat güvende. Husiler Riyad'a füze attı; koalisyon önlediğini, enkazın PIF kulesinde hasar yaptığını açıkladı. Trump yeni İran saldırıları için acele etmediğini söyledi. Brent ≈92 $, haftalık üçüncü kayıba gidiyor.",
+   "neden_zayif": "Aynı tema (19.11'de Riyad ve '1 Ocak' işlendi). İran'ın mayın iddiaları doğrulanmadı (izleme). ≤90 günlük sorular oynamıyor.",
+   "kaynaklar": [
+    "https://www.arabnews.com/middle-east/tanker-struck-by-projectile-near-omans-khasab-as-attacks-in-hormuz-continue-3012815",
+    "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/",
+    "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518"
+   ]
+  },
+  {
+   "tarih": "2026-11-20",
+   "id": "tcmb-rezerv-dusus",
+   "tema": "TCMB rezervleri",
+   "bagli": [
+    "pk-2026-11-18-tcmb-aralik-35"
+   ],
+   "olay": "TCMB toplam rezervleri 13 Kasım haftasında 2,11 milyar dolar azalarak 158,95 milyar dolara indi; altın rezervi 4,34 milyar dolar düştü (fiyat etkisi), brüt döviz 2,23 milyar dolar arttı.",
+   "neden_zayif": "Düşüş altın fiyatından; döviz rezervi arttı. Faiz sorusu için sinyal yok.",
+   "kaynaklar": [
+    "https://aa.com.tr/tr/ekonomi/merkez-bankasi-rezervleri-159-milyar-dolar-oldu/4130710",
+    "https://www.ekonomigazetesi.com/ekonomi/merkez-bankasinin-toplam-rezervleri-21-milyar-dolar-azaldi-92623"
+   ]
   }
  ]
 }

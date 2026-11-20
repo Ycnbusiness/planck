@@ -1,0 +1,187 @@
+{
+ "date": "2026-11-20",
+ "scan_window": "2026-11-19 06:50 → 2026-11-20 07:30 (TSİ)",
+ "yontem": "Yöntem v2 (TARAMA.md): Önem = S × K, S ≤90 günlük sorularda. Görev metnindeki eski formül yalnız 'onem_eski' alanında. Olay ve Cevap v2 (5 sayfa, olaycevap2.js) kullanıldı; görev metnindeki v1 (pekibiz.js, 4 sayfa) 19.11'den beri arşivde.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "değişiklik yok",
+  "not": "pb-2026-11-10-motorin kapanışı, kriterdeki çözüm kaynağı (Opet/PO arşivi + AA/Reuters) bulunamadığı için bekletildi."
+ },
+ "izleme": {
+  "not": "motorin-indirim-20kasim açık kaldı (bitiş 21.11; A/B kaynağı bekleniyor). hurmuz-uc-tanker-mayin hâlâ doğrulanmadı (bitiş 22.11)."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 0,
+  "yesil": 5,
+  "zayif": 5,
+  "not": "Ana akış adayı tek: motorin indirimi (önem 3,76). Editör BEKLET verdi: iddia yalnız C katmanı kaynaklarda. Taslak hazır (posts/2026-11-20-motorin-indirim, BEKLET.md). Kuyruk boş. Story ve Günün Dosyası yok. Şenzhen üçlü zirvesi, AB Komisyonu siber saldırısı, TTF gaz, Hürmüz/Riyad, TCMB rezervleri zayıf sinyal. Risk olasılıkları ve sicil değişmedi."
+ },
+ "events": [
+  {
+   "id": "motorin-indirim-20kasim",
+   "class": "SARI",
+   "risk": "enerji",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "lr": null,
+   "S": 1.25,
+   "K": 3,
+   "onem": 3.76,
+   "turkiye_bagi": 2,
+   "onem_eski": "|Δ 15 (soru, sınırlı)| × TR 2 × etki 3 = 90",
+   "sorular": [
+    {
+     "id": "pb-2026-11-10-motorin",
+     "plan": "EVET kapanış (bekliyor)"
+    },
+    {
+     "id": "pk-2026-11-18-motorin-100-aralik",
+     "plan": "%42→%27 (15 puan sınırı; Motor %11)"
+    },
+    {
+     "id": "pb-2026-11-11-motorin-90",
+     "plan": "%15→%24"
+    },
+    {
+     "id": "pk-2026-11-20-motorin-95-aralik",
+     "plan": "yeni, %25"
+    }
+   ],
+   "event": "20 Kasım 00:01'den itibaren motorine litrede 6,58 TL indirim geldi; İstanbul Avrupa yakasında motorin ≈95,30 TL'den ≈88,77–88,80 TL'ye indi. Benzin ve LPG değişmedi. İndirim 19 Kasım akşamı sektör kaynaklarınca 6,58 TL olarak duyurulmuştu (ilk beklenti 5,20 TL).",
+   "rationale": "Pompa fiyatı yalnız C katmanı kaynaklarda (birbirini aktarıyor, dağıtıcı adı yok). Planlanan güncellemeler (üç geçiş yapıldı): motorin-100 Motor %11 (geçişler 11/7/7) ama tek olay 15 puan sınırıyla %27; motorin-90 %15→%24 (29/24/20); yeni motorin-95 %25 (33/25/25). Editör hesabıyla S 1,25 × K 3 = 3,76 ≥1,4 → ana akış adayı. EDİTÖR: BEKLET (A/B kaynağı yok). Sicil işlemleri geri alındı, A/B doğrulaması gelince uygulanacak.",
+   "sources": [
+    "https://www.karar.com/ekonomi-haberleri/depo-basina-tam-329-tl-indirim-gece-yarisi-tabelalar-bir-anda-degisti-2085193",
+    "https://www.timeturk.com/mazota-658-tl-indirim-geldi-20-kasim-2026-istanbul-ankara-ve-izmir-fiyatlari",
+    "https://www.haberkenti.com/motorine-658-tl-indirim-kesinlesti-20-kasim-yeni-akaryakit-fiyatlari-belli-oldu",
+    "https://www.ekoturk.com/sektorler/motorinde-litre-fiyati-dustu-uc-buyuksehirde-guncel-rakamlar"
+   ],
+   "yonlendirme": "ana akış adayı · BEKLET (editör) · izleme",
+   "klasor": "posts/2026-11-20-motorin-indirim"
+  },
+  {
+   "id": "shenzhen-uclu-baris-bildirgesi",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0| × … = 0",
+   "event": "Trump, Şi ve Putin 19 Kasım'da Şenzhen'de ilk üçlü görüşmeyi yaptı; dört maddelik 'barış bildirgesi' nükleer risk diyaloğu, BM reformu ve rafine ürün arzını içeriyor, Ukrayna ve İran'dan söz etmiyor. Ateşkes çerçevesi çıkmadı. Berlin'deki 'İstekliler Koalisyonu' toplantısında ABD heyeti bir sonraki turun ABD–Rusya–Ukrayna–Avrupa dörtlü biçiminde olacağını aktardı; yer ve tarih belirsiz.",
+   "rationale": "Beklenen zirve, somut ateşkes adımı yok; dörtlü biçim Putin'in koşuluna bağlı. Türkiye ev sahipliği gündemde değil. LR <1,2.",
+   "sources": [
+    "https://www.rferl.org/a/trump-xi-putin-summit-four-key-takeaways/33902100.html",
+    "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+    "https://www.rte.ie/news/world/2026/1119/1599769-coalition-of-willing-berlin-meeting/"
+   ],
+   "bagli": [
+    "pb-2026-W46-2",
+    "pb-2026-11-15-ukrayna-gorusme-turkiye",
+    "on-catisma-rusya-ateskes"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "ab-komisyonu-siber",
+   "class": "YEŞİL",
+   "risk": "siber",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "onem_eski": "|Δ 0| × … = 0",
+   "event": "Avrupa Komisyonu, personel sistemlerini (Sysper, JSIS/MyPMO, çeviri) on günü aşkın süre aksatan bir siber kampanyayı doğruladı; CERT-EU inceliyor, saldırgan açıklanmadı, veri sızıntısı belirsiz. Haberlere göre açık kaynaklı bir yapay zekâ sızma testi aracı kullanıldı.",
+   "rationale": "Kritik altyapı değil, atıf yok; soru kriterine dokunmuyor. Atıf gelirse on-siber-yeni-devlet-atfi için yeniden değerlendirilir.",
+   "sources": [
+    "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown",
+    "https://www.notebookcheck.net/European-Commission-hit-by-huge-cyberattack-with-free-AI-tool-staff-data-may-be-exposed.1454697.0.html"
+   ],
+   "bagli": [
+    "on-siber-yeni-devlet-atfi",
+    "on-siber-ab-iran-yaptirim"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "ttf-gaz-depo-dusuk",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0| × … = 0",
+   "event": "Avrupa TTF gazı 19 Kasım'da ≈85 €/MWh'ye çıktı (günlük ≈+%5); Troll sahasındaki arıza Norveç arzını düşürdü, soğuk hava bekleniyor. AB depoları ≈%70 dolulukla mevsim düşüğünde.",
+   "rationale": "Mevcut eğilimin devamı; depo verisi ikincil kaynaktan. BOTAŞ Ocak sorusu açılışta yüksek gaz fiyatını içeriyordu.",
+   "sources": [
+    "https://tradingeconomics.com/commodity/eu-natural-gas",
+    "https://finance.yahoo.com/energy/articles/ttf-gas-bounces-back-86-143000689.html"
+   ],
+   "bagli": [
+    "pk-2026-11-18-botas-ocak-zam",
+    "pb-2026-W46-0"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "hurmuz-khasab-tanker-riyad",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0| × … = 0",
+   "event": "UKMTO, 18 Kasım'da Umman'ın Hasab açığında bir tankerin makine dairesine 'bilinmeyen bir merminin' isabet ettiğini bildirdi; mürettebat güvende. Husiler Riyad'a füze attı; koalisyon önlediğini, enkazın PIF kulesinde hasar yaptığını açıkladı. Trump yeni İran saldırıları için acele etmediğini söyledi. Brent ≈92 $, haftalık üçüncü kayıba gidiyor.",
+   "rationale": "Aynı tema (19.11'de Riyad ve '1 Ocak' işlendi). İran'ın mayın iddiaları doğrulanmadı (izleme). ≤90 günlük sorular oynamıyor.",
+   "sources": [
+    "https://www.arabnews.com/middle-east/tanker-struck-by-projectile-near-omans-khasab-as-attacks-in-hormuz-continue-3012815",
+    "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/",
+    "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518"
+   ],
+   "bagli": [
+    "pk-2026-11-18-hurmuz-acilis",
+    "pk-2026-11-18-abd-iran-ateskes",
+    "pk-2026-11-18-brent-100-dokunma"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "tcmb-rezerv-dusus",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "onem_eski": "|Δ 0| × … = 0",
+   "event": "TCMB toplam rezervleri 13 Kasım haftasında 2,11 milyar dolar azalarak 158,95 milyar dolara indi; altın rezervi 4,34 milyar dolar düştü (fiyat etkisi), brüt döviz 2,23 milyar dolar arttı.",
+   "rationale": "Düşüş altın fiyatından; döviz rezervi arttı. Faiz sorusu için sinyal yok.",
+   "sources": [
+    "https://aa.com.tr/tr/ekonomi/merkez-bankasi-rezervleri-159-milyar-dolar-oldu/4130710",
+    "https://www.ekonomigazetesi.com/ekonomi/merkez-bankasinin-toplam-rezervleri-21-milyar-dolar-azaldi-92623"
+   ],
+   "bagli": [
+    "pk-2026-11-18-tcmb-aralik-35"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  }
+ ],
+ "editor": {
+  "klasor": "posts/2026-11-20-motorin-indirim",
+  "hukum": "BEKLET"
+ }
+}

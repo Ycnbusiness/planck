@@ -67,11 +67,12 @@
    "acilis": "2026-11-19",
    "olay": "Sektör kaynaklarına dayanan haberlere göre motorine 20 Kasım'dan itibaren litrede ~5,20 TL indirim bekleniyor (İstanbul Avrupa yakası 95,20 → ~90 TL).",
    "durum": "açık",
-   "eksik": "Pompaya yansıma: Opet/PO fiyat listesi ya da AA/EPDK haberi + ikinci bağımsız kaynak",
+   "eksik": "A/B katmanı: Opet/PO fiyat arşivi ya da AA/Bloomberg HT haberi (C katmanı Karar, Timeturk, Haberkenti, Ekotürk, Forbes TR var; dağıtıcı adı yok, birbirini aktarıyor)",
    "olursa": "pb-2026-11-10-motorin'i 'evet' kapat (kriter: 95,00 TL altı; sicil.py kapat). pk-2026-11-18-motorin-100-aralik Motor'unu yeni fiyatla yeniden hesapla (≈90 + ÖTV 3,6 ≈ 93,7 TL) ve sicil.py guncelle; pb-2026-11-11-motorin-90'ı LR tablosuyla güncelle. Önem S×K ≥1,4 çıkarsa Olay ve Cevap (Peki Biz? motorin), değilse Story/Dosya adayı.",
-   "bitis": "2026-11-22",
+   "bitis": "2026-11-21",
    "notlar": [
-    "2026-11-19 akşam: Beklenen tutar 6,58 TL'ye çıktı, 19→20 Kasım gece yarısı (ekoturk, abcgazetesi, yeniçağ; hepsi adsız 'sektör kaynakları'). Gerçekleşirse İstanbul Avrupa ≈95,30 → ≈88,7 TL: pb-2026-11-10-motorin evet; pk-2026-11-18-motorin-100-aralik Motor'u ≈88,7+3,6≈92,3 TL ile yeniden hesaplanır (100 için ≈+%8 ürün artışı → belirgin düşüş); pb-2026-11-11-motorin-90 o gün 90 altında başlar. Sabah taraması dağıtıcı listesiyle doğrulasın; önem büyük olasılıkla ≥1,4 (K=3) → Olay ve Cevap adayı."
+    "2026-11-19 akşam: Beklenen tutar 6,58 TL'ye çıktı, 19→20 Kasım gece yarısı (ekoturk, abcgazetesi, yeniçağ; hepsi adsız 'sektör kaynakları'). Gerçekleşirse İstanbul Avrupa ≈95,30 → ≈88,7 TL: pb-2026-11-10-motorin evet; pk-2026-11-18-motorin-100-aralik Motor'u ≈88,7+3,6≈92,3 TL ile yeniden hesaplanır (100 için ≈+%8 ürün artışı → belirgin düşüş); pb-2026-11-11-motorin-90 o gün 90 altında başlar. Sabah taraması dağıtıcı listesiyle doğrulasın; önem büyük olasılıkla ≥1,4 (K=3) → Olay ve Cevap adayı.",
+    "2026-11-20 sabah: 6,58 TL indirim C katmanı dört-beş sitede pompaya yansımış olarak geçiyor (İstanbul Avrupa 88,77 TL). Editör BEKLET verdi (A/B kaynak yok). Sicil işlemleri geri alındı; yapılacaklar posts/2026-11-20-motorin-indirim/BEKLET.md'de. Öğle taraması A/B kaynağı ararsın."
    ]
   },
   {
@@ -84,7 +85,8 @@
    "bitis": "2026-11-22",
    "notlar": [
     "2026-11-19 öğle: Yalnız İran kaynaklı; aynı gece Hasab açığındaki tanker vuruşu (UKMTO) mermi olarak bildirildi, mayın değil.",
-    "2026-11-19 akşam: bağımsız teyit yok."
+    "2026-11-19 akşam: bağımsız teyit yok.",
+    "2026-11-20 sabah: hâlâ doğrulanmadı. IRGC 19 Kasım'da iki tanker daha iddia etti; UKMTO yalnız Khasab açığında 18 Kasım 'bilinmeyen mermi' olayını bildirdi (Warning 212-26), mayın demedi; gemi adı yok."
    ]
   }
  ]

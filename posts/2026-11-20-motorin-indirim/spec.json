@@ -1,0 +1,55 @@
+{
+ "date": "TASLAK · BEKLETİLDİ",
+ "tag": "Enerji",
+ "haber": {
+  "title": "Motorine 6,58 TL indirim pompaya yansıdı",
+  "text": "20 Kasım 00:01'den itibaren motorinin litre fiyatı 6,58 TL düştü. İstanbul Avrupa yakasında motorin 88,77 TL'ye indi. Benzin ve LPG fiyatı değişmedi.",
+  "kaynak": "Karar, Timeturk, Haberkenti, Ekotürk"
+ },
+ "neden": {
+  "text": "İndirim, uluslararası dizel fiyatlarındaki düşüşün pompaya yansıması olarak duyuruldu. Brent Kasım'da yüzde 20'den fazla geriledi; Körfez ihracatı toparlanırken Hürmüz'deki saldırılar sürüyor. Vergi takvimi ise fiyatı yukarı itecek.",
+  "taraflar": [
+   [
+    "Sektör",
+    "İndirimi uluslararası ürün fiyatlarındaki gerilemeye bağlıyor."
+   ],
+   [
+    "IEA",
+    "Dördüncü çeyrekte küresel petrol arzının talebi aşmasını bekliyor."
+   ],
+   [
+    "Vergi takvimi",
+    "Motorin ÖTV'si 1 Aralık'ta 9 TL'den 12 TL'ye, 1 Ocak'ta 13,90 TL'ye çıkıyor (Resmî Gazete, 13.08.2026)."
+   ]
+  ]
+ },
+ "neolur": [
+  {
+   "q": "İstanbul'da motorin 1 Aralık'ta 95 TL'yi aşar mı?",
+   "p": 25,
+   "deadline": "01.12.2026"
+  },
+  {
+   "q": "İstanbul'da motorin 31 Ocak'ta 90 TL'nin altında olur mu?",
+   "p": 24,
+   "from": 15,
+   "deadline": "31.01.2027"
+  }
+ ],
+ "olasilik": {
+  "q": "İstanbul'da motorin 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+  "motor": 29,
+  "ayar": -5,
+  "ayar_neden": "Ocak'taki ÖTV adımı ve kur kayması fiyatı yukarı itiyor; Körfez'deki gerilim Ocak'ta petrol fiyatını yeniden yükseltebilir.",
+  "p": 24,
+  "aralik": "%20–29",
+  "frekans": "Tabanı yok. Bu tür 100 tahminimizin yaklaşık 24'ünün gerçekleşmesini bekleriz; 100'de 76 durumda olmaz. Hesap: bugünkü fiyat, ÖTV takvimi, kur ve dizel fiyat oynaklığı."
+ },
+ "karne": {
+  "konu": "Motorinde ilk kapanış: \"30 Kasım'a kadar 95 TL altı\" — Dedik %85 · Oldu (20 Kasım). Soruyu %45'le açmış, yayın öncesi %85'e düzeltmiştik; iki sayı da sicilde.",
+  "genel": "Toplam 3 kapanış var; az örnek. 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "1 Aralık ÖTV artışı (pompada ≈3,60 TL) ve 29 Kasım OPEC+ kararı.",
+  "eylem": "Dizel araç kullanıyorsan: 1 Aralık'taki vergi artışı litreye yaklaşık 3,60 TL ekleyecek; yakıt alımını planlarken bu tarihi hesaba kat."
+ },
+ "question": ""
+}
