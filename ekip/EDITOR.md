@@ -1,4 +1,4 @@
-# Editör · Yayın Karar Listesi (v1 · 16.11.2026)
+# Editör · Yayın Karar Listesi (v1.1 · 21.11.2026, Yöntem v2.2)
 
 Editör, içeriği **üreten çalıştırmadan ayrı** bir çalıştırmadır (Anayasa §7: kimse kendi işini denetlemez). Taslağı ve kaynak listesini alır, kaynakları **kendisi yeniden arar**, aşağıdaki listeyi sırayla uygular ve tek bir hüküm verir. Hüküm ve gerekçe `data/yayin-log.json` kaydına `editor` alanıyla yazılır.
 
@@ -29,7 +29,7 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
 
 7. Süren dava, soruşturma, mahkeme kararı, parti kapatma hakkında olasılık var mı?
 8. Seçim ya da referandumda kazanan veya oy oranı olasılığı var mı? (15.12.2026'dan sonra kişi ve parti adı geçmeyen süreç soruları serbest.)
-9. Adı geçen kişinin görevi, sağlığı, ölümü, hukuki durumu hakkında olasılık var mı?
+9. Adı geçen kişinin sağlığı, ölümü, hukuki durumu ya da siyasetçi/kamu görevlisinin görevi hakkında olasılık var mı? (v2.2: şirket yöneticisinin görev değişikliği serbest; suç isnadı ve özel hayat yasak.) Çizgi aşılıyorsa önce **DÜZELT**: soruyu kurum/süreç/sonuç sorusu olarak yeniden yazdır; ancak haberin kendisi çizgiyse REDDET.
 10. Terör saldırısı, suikast ya da belirli yer ve tarih için deprem olasılığı var mı?
 11. Al / sat / hedef fiyat, yön tavsiyesi (SPK) var mı?
 12. Kişi ya da parti hakkında övgü veya yergi, dinî dille alay, okurun yaşadığını küçümseme var mı?
@@ -43,7 +43,8 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
 
 ## D · Önem ve insan kapıları (gerekli mi?)
 
-17. **Önem = S × K** hesaplanmış ve yazılmış mı? S, LR tablosundan; K, karar ilgisinden (1–3).
+16a. **Haber kapısı (v2.2):** ölçek + yenilik + açık uç (0–2'şer) yazılmış mı? ≥ 4 ise olay haberdir; editör "sicilde sorusu yok" gerekçesiyle REDDET veremez, soru açtırır (DÜZELT).
+17. **Önem = S × K** (v2.2: yalnız formatı seçer) hesaplanmış ve yazılmış mı? S, LR tablosundan; K, karar ilgisinden (1–3).
     - ≥ 1,4 ya da kırmızı → ana akış · 0,4–1,4 → Story ya da Günün Dosyası · < 0,4 → Zayıf Sinyal Defteri, yayın yok.
     - Taslağın gittiği yer bu eşikle uyuşmuyorsa **DÜZELT** (doğru yere yönlendir).
 18. **Kapı 1:** "Bu sayıyı bilen okur neyi farklı düşünür ya da yapar?" tek cümleyle yazılmış mı?
@@ -52,7 +53,7 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
 19b. **İddia ve inkâr:** Suçlama haberinde karşı tarafın cevabı (kabul, ret, sessizlik) aranır ve 2. sayfada ("Neden?") yazılır. Cevap yoksa "henüz yanıt vermedi" yazılır.
 20. **Kapı 3:** Olay 30 gün sonra hâlâ önemli mi?
     → Kapılardan biri hayırsa **REDDET** (olay sicile işlenebilir, ilgisi varsa perşembe Ses ve İz adayı yazılır).
-21. Bugün ana akışta zaten bir Olay ve Cevap var mı? Varsa ve olay kırmızı değilse **BEKLET** (yarın ya da Dosya).
+21. Bugün ana akışta zaten bir Olay ve Cevap var mı? Varsa ve olay kırmızı değilse Dosya'ya yönlendir (DÜZELT). Gün sonunda hiç Olay ve Cevap çıkmadıysa günün en yüksek haber puanlı olayı çıkar (günlük taban).
 
 ## E · Sayı (hesap doğru ve dürüst mü?)
 

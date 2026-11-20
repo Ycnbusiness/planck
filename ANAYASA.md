@@ -1,4 +1,4 @@
-# Planck Anayasası (v2 · 16.11.2026)
+# Planck Anayasası (v2.2 · 21.11.2026)
 
 Bu belge Planck'in bütün kanallarını bağlar. `TARAMA.md`, `QUANT.md`, `SPOR.md`, `kanit/KANIT.md` kanal kurallarıdır; bu belgeyle çelişirlerse **Anayasa geçerlidir**. Her zamanlanmış görev işe başlamadan önce bu dosyayı okur. Değişikliği yalnızca Yusuf yapar; her değişiklik sürüm numarası ve tarihle en alta işlenir.
 
@@ -33,9 +33,9 @@ Bir soru şu altı alan olmadan sicile girmez:
 | Taban | Referans sınıfı ve oranı; yoksa `taban yok` etiketi. |
 | Ön-otopsi | "Bu tahmin yanlış çıkarsa en olası sebep" tek cümle. |
 
-- **Ufuk karması:** Yeni soruların en az %80'i 90 gün içinde, bunların yarısı 30 gün içinde kapanır. Pilot boyunca 365 günü aşan yeni soru açılmaz. Omurga takvimli veri ve karar olaylarıdır (enflasyon, faiz kararı, akaryakıt, resmi karar). Varlık fiyatı eşikleri (kur, altın, endeks) yalnız Quant'tadır.
+- **Ufuk karması:** Yeni soruların en az %80'i 90 gün içinde, bunların yarısı 30 gün içinde kapanır. Pilot boyunca 365 günü aşan yeni soru açılmaz. Omurga takvimli veri ve karar olaylarıdır (enflasyon, faiz kararı, akaryakıt, resmi karar). **Portföy genişliği (v2.2):** Açık sorular tek alana yığılmaz; dokuz alanın her birinde sürekli en az 3 açık soru tutulur: jeopolitik ve çatışma · teknoloji ve yapay zekâ · şirketler ve kurumsal yönetim (fiyat yönü yok) · enerji · iklim ve afet sonuçları · sağlık ve bilim · uzay · göç ve toplum · Türkiye ekonomisi. Türkiye, petrol ya da akaryakıt bir sınır değildir. Varlık fiyatı eşikleri (kur, altın, endeks) yalnız Quant'tadır.
 - **Bant:** Açılışta olasılık %15–85. İstisna `kuyruk` etiketi (düşük olasılık, çok yüksek etki): havuzun en fazla %15'i, karnede ayrı satır. %90 üstüne ya da %10 altına geçen soru **sessiz izlemeye** alınır: puanlanır, içerik üretmez; yerine daha keskin soru açılır.
-- **Hacim:** Günde en fazla 4 açılış; açık soru tavanı 70.
+- **Hacim:** Günde en fazla 4 açılış (büyük haber günü ve portföy kuruluşunda 10); açık soru tavanı 70.
 - **Uzun ufuk (2031 tablosu):** Yayın birimi değildir. Haftada bir toplu güncellenir, sitede ve aylık karnede "Uzun Ufuk" olarak gösterilir. Öncü sorular sürer.
 - **Belirsiz kapanış:** İptal iki türdür: *belirsiz* (gerçeklik ayırt edilemiyor) ve *hatalı soru*. İkisi de puanlanmaz, ayrı sayılır. Kriter sonradan esnetilmez. Her soru "kâhin testi"nden geçer: sonucu bilen biri 15 dakikada kapatabilmelidir.
 - **Yasak soru:** Kişilerin ölümü/sağlığı, tekil hisse yönü, bahis sonucu olarak okunacak biçimde yazılmış maç sorusu, suç isnadı ve §9'daki Türkiye çizgileri.
@@ -155,7 +155,7 @@ Planck'te bütün masalar Claude'dur; ayrım kişide değil **görevde ve çalı
 
 Yön/al-sat/hedef fiyat yok (SPK).
 
-**Türkiye çizgileri — olasılık yayınlanmaz:** (1) süren dava, soruşturma, mahkeme kararı ve parti kapatma; (2) seçim ve referandumda kazanan ya da oy oranı; (3) adı geçen kişinin görevi, sağlığı, hukuki durumu; (4) terör saldırısı ve suikast; (5) belirli yer ve tarih için deprem olasılığı (resmi bilimsel kurumun uzun vadeli tahmini, hazırlık adımıyla aktarılabilir). Resmi istatistik kurum adıyla verilir; ne doğrulanır ne yalanlanır. Okurun yaşadığı deneyim küçümsenmez. Dinî dil alay konusu olmaz. Hassas sorularda yorum çağrısı yapılmaz. *Pilot sonrası (15.12.2026'dan itibaren) dar kapı:* kişi ve parti adı geçmeyen **süreç soruları** (ör. "Seçim tarihi X'ten önce resmen ilan edilir mi?") açılabilir; kazanan, oy oranı, kişi ve süren dava yasağı kalıcıdır.
+**Türkiye çizgileri — olasılık yayınlanmaz:** (1) süren dava, soruşturma, mahkeme kararı ve parti kapatma; (2) seçim ve referandumda kazanan ya da oy oranı; (3) adı geçen kişinin sağlığı, ölümü, hukuki durumu (suç, dava, ceza) ve siyasetçi, seçilmiş ya da atanmış kamu görevlisinin görevi (v2.2: şirket yöneticisinin görev değişikliği, ör. CEO ataması, ayrılışı, geri dönüşü, kurumsal yönetim olayı olarak sorulabilir; suç isnadı ve özel hayat soru konusu olmaz); (4) terör saldırısı ve suikast; (5) belirli yer ve tarih için deprem olasılığı (resmi bilimsel kurumun uzun vadeli tahmini, hazırlık adımıyla aktarılabilir). Resmi istatistik kurum adıyla verilir; ne doğrulanır ne yalanlanır. Okurun yaşadığı deneyim küçümsenmez. Dinî dil alay konusu olmaz. Hassas sorularda yorum çağrısı yapılmaz. *Pilot sonrası (15.12.2026'dan itibaren) dar kapı:* kişi ve parti adı geçmeyen **süreç soruları** (ör. "Seçim tarihi X'ten önce resmen ilan edilir mi?") açılabilir; kazanan, oy oranı, kişi ve süren dava yasağı kalıcıdır.
 
  Bahis oranı ve dili yok. Kişi ve parti hakkında övgü-yergi yok. Kaynak alıntısı yok, kendi cümlelerimizle. Kulüp logosu yok. Tek kaynaklı iddia olasılık oynatmaz. Sayı uydurmak, sonradan soru değiştirmek, ıskayı gizlemek: kuruluş amacına aykırıdır.
 
@@ -163,3 +163,4 @@ Yön/al-sat/hedef fiyat yok (SPK).
 Sürüm: v1 · 10.11.2026 · ilk metin.
 Sürüm: v2 · 16.11.2026 · Yusuf onayı (ekip/KARAR.md): §0 yeni iddia; haberin birimi soru; ilke 8–9; ufuk ve bant kuralları; sunum standardı; Zayıf Sinyal Defteri; beceri skoru ve yön hatası; Önem = S×K ve üç insan kapısı; yeni künye, sicil açık; Türkiye çizgileri ve pilot sonrası süreç kapısı.
 Sürüm: v2.1 · 20.11.2026 · Yusuf kararı: kesin girdi istisnası (Motor yeniden hesabı, ±15 yalnız LR için).
+Sürüm: v2.2 · 21.11.2026 · Yusuf kararı ("bunlar analitik sorulardır"; Nvidia örneği): önce haber kapısı, soru yoksa soru açılır (TARAMA "Yöntem v2.2"); S×K yalnız formatı seçer; günlük taban; dokuz alanlı soru portföyü; §9(3) daraltıldı: şirket yöneticisinin görev değişikliği sorulabilir, siyaset/kamu görevi, sağlık, hukuki durum yasağı kalır.

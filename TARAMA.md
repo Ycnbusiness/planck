@@ -64,6 +64,29 @@ Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalı
 
 İlke: her içerik kendi başına anlaşılır; olay ve "Peki Biz?" cevabı aynı gönderidedir. Gönderi sayısına üst sınır yok, haber sayısı belirler. Ana akışta iki gönderi arası en az 2 saat.
 
+### Yöntem v2.2 (21.11.2026, Yusuf kararı) — önce haber, sonra soru
+
+**Neden:** 18–19 Kasım'da 26 olay tarandı, 0 yayın çıktı. Sebep: S yalnız açık sorulardan geliyordu; sicil dar olduğu için dünyadaki büyük olaylar (Nvidia CEO'sunun ayrılışı gibi) otomatik sıfır aldı. Sistem "bu haber mi?" yerine "sicilimizi oynatıyor mu?" diye soruyordu. Bu bölüm aşağıdaki v2 yönlendirmesiyle çelişirse geçerlidir.
+
+**1. Haber kapısı (önce, sicilden bağımsız).** Her olay için üç soru, her biri 0–2:
+- *Ölçek:* kaç insanı, ne kadar parayı, hangi kurumları etkiler? (0 yerel/küçük · 1 bir ülke ya da sektör · 2 küresel ya da dünyanın en büyük kurumlarından biri)
+- *Yenilik:* bir şey ilk kez mi oluyor, bir dengeyi mi bozuyor? (0 beklenen adım · 1 sürpriz · 2 emsal ya da kırılma)
+- *Açık uç:* "Şimdi ne olacak?" sorusunun birden fazla gerçek cevabı var mı? (0 sonuç belli · 1 tek belirsizlik · 2 birden çok analitik soru doğuruyor)
+
+**Haber puanı ≥ 4 → haberdir.** Haberse içerik çıkar; tartışılan yalnız formattır.
+
+**2. Soru yoksa soru açılır.** Haber kapısını geçen olay sicildeki bir soruya dokunmuyorsa "S = 0, yayın yok" denmez; olayın doğurduğu 2–3 analitik soru o gün açılır (Anayasa §2 altı alanı, Motor + ayar). Örnek (Nvidia, 12.11): "Nvidia 31 Mart 2027'ye kadar kalıcı CEO açıklar mı?", "Kalıcı CEO şirket içinden mi gelir?", "Nvidia 90 gün içinde Çin'e yapay zekâ çipi satışını yeniden başlatır mı?" Soru açılınca açılış olasılığı yayınlanır; S yeni sorularda açılış belirsizliği olarak sayılır (|logit(p) − logit(taban)|, en az 0,69).
+
+**3. Kırmızı çizgi soruyu yeniden yazdırır, haberi öldürmez.** Yasak bir soru (kişi sağlığı, dava, siyasetçinin görevi, şiddetin kendisi, fiyat yönü) haberi düşürmez; kurum, süreç ya da sonuç sorusuyla yeniden yazılır. Haber kendisi çizgiyi aşıyorsa (ör. yalnız bir davanın sonucu) olasılıksız Dosya maddesi olabilir.
+
+**4. S × K yalnız formatı seçer.** ≥ 1,4 ana akış (Olay ve Cevap + Reel) · 0,4–1,4 Story ya da Dosya · < 0,4 ve haber kapısını geçmiş → Dosya maddesi. Haber kapısını geçmeyen olay Zayıf Sinyal Defteri'ne gider.
+
+**5. K yeniden:** 3 = 90 gün içinde okurun (nerede yaşarsa yaşasın) parasına, işine, güvenliğine, seyahatine doğrudan değer · 2 = sektörleri, piyasaları ya da büyük kurumları yeniden şekillendirir (yapay zekâ yatırımı, çip zinciri, ittifak kararı) · 1 = dünyayı anlamak için. "Peki Biz?" doğal bağ varsa yazılır, zorla eklenmez; yoksa "Neden Önemli" + izlenecek gösterge.
+
+**6. Günlük taban.** Her gün en az **1 Olay ve Cevap ve 1 Günün Dosyası**. Ana akış eşiğini geçen olay yoksa günün en yüksek haber puanlı olayı Olay ve Cevap olur. Sessiz gün yalnız haber kapısını geçen hiçbir olay yoksa ilan edilir ve bunu tarama dosyasında olay listesiyle gerekçelendirir.
+
+**7. Doğruluk aynen:** iki bağımsız kaynak, iddia ile olgu ayrımı, bahis dili yok, SPK çizgisi, künye. Gevşeyen "yayınlanır mı" kararıdır; "doğru mu" denetimi değişmez. Editör varsayılanı DÜZELT'tir; BEKLET yalnız olgu doğrulanamıyorsa ve en çok 6 saat sürer (sonra düşer ya da B katmanı kaynakla çıkar).
+
 ### Önem puanı ve yönlendirme (Yöntem v2)
 Her olay için: **Önem = S × K**.
 - **S (sürpriz)** = olayın oynattığı her soruda |Δlogit| toplamı (`ln(LR)`; zayıf 0,22 · orta 0,69 · güçlü 1,39 · belirleyici 2,30).
