@@ -1,0 +1,38 @@
+{
+ "date": "21 KASIM 2026",
+ "tag": "Şirketler",
+ "haber": {
+  "title": "Nvidia CEO'suz kaldı: yerine kim gelir, Huang döner mi?",
+  "text": "Dünyanın en değerli çip şirketinin kurucusu Jensen Huang 12 Kasım'da CEO'luk ve yönetim kurulu üyeliğinden ayrıldı. Geçici CEO, finans direktörü Colette Kress. Kurul 17 Kasım'da Huang'ı geri getirme niyeti olmadığını açıkladı; ABD Başkanı 20 Kasım'da dönmesi gerektiğini söyledi.",
+  "kaynak": "Nvidia SEC 8-K, CNBC, NPR, Bloomberg"
+ },
+ "neden": {
+  "text": "Ayrılık, Huang'ın ABD yetkililerince Çin istihbaratıyla bağlantılı görülen bir şirket yöneticisiyle ilişkisinin ortaya çıkmasıyla başladı. Kurul, Huang'ın yabancı istihbarat hedefi olup olmadığını inceliyor; SEC'in de soruşturma açtığı bildirildi. Huang Aralık'ta Kongre'de ifade verecek.",
+  "taraflar": [
+   ["Yönetim kurulu", "Huang'ı göreve iade etme niyeti olmadığını, iç ve dış adayları değerlendireceğini söylüyor."],
+   ["Huang", "Özür diledi; istenirse dönmekten onur duyacağını açıkladı."],
+   ["ABD yönetimi", "Başkan Huang'ın dönmesini istiyor; Hazine Bakanı ise dışarıdan bir CEO ve köklü değişiklik çağrısı yaptı."]
+  ]
+ },
+ "neolur": [
+  {"q": "Nvidia 15 Şubat'a kadar kalıcı bir CEO açıklar mı?", "p": 25, "deadline": "15.02.2027", "not": "MOTOR %30 · AYAR −5"},
+  {"q": "Huang 15 Şubat'a kadar yeniden CEO olarak açıklanır mı?", "p": 15, "deadline": "15.02.2027", "not": "MOTOR %8 · AYAR +7"},
+  {"q": "Nvidia 19 Şubat'a kadar Çin'e yapay zekâ çipi satışını yeniden başlatır mı?", "p": 15, "deadline": "19.02.2027", "not": "TABANI YOK"}
+ ],
+ "olasilik": {
+  "q": "Nvidia 15 Şubat 2027'ye kadar kalıcı bir CEO açıklar mı?",
+  "motor": 30,
+  "ayar": -5,
+  "ayar_neden": "Kurul 13 Kasım itibarıyla arama firması bile seçmemişti; SEC soruşturması ve Aralık'taki Kongre ifadesi süreci uzatıyor.",
+  "p": 25,
+  "aralik": "%22–30",
+  "frekans": "Büyük şirketlerde ani CEO ayrılışından sonra kalıcı atama ilk üç ayda azınlık durumda gelir. Bu tür 100 tahminimizin yaklaşık 25'inin gerçekleşmesini bekleriz; 100'de 75 durumda olmaz."
+ },
+ "karne": {
+  "konu": "Bu konuda geçmiş kaydımız bir ıska: 9 Kasım'da Huang'ın görevden ayrılmasına %7 demiştik, üç gün sonra ayrıldı. Yanlış karşılaştırma grubu seçmiştik; bu yüzden bu kez tabanı soruşturma altındaki şirket ayrılıklarından kuruyoruz.",
+  "genel": "Toplam 4 kapanış var; az örnek. 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "Kongre ifadesi (Aralık), kurulun arama firması seçimi, Nvidia'nın Çin lisansı açıklamaları.",
+  "eylem": "Bireysel olarak yapılacak bir şey yok. İzlenecek gösterge: kurulun arama firması ve aday açıklaması; yapay zekâ altyapısına yatırım yapan şirketler için Nvidia'nın müşteri finansmanı politikası."
+ },
+ "question": ""
+}

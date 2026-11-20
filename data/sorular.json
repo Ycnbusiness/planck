@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -2495,6 +2495,95 @@
      "p": 25,
      "motor": 35,
      "neden": "açılış (20.11 motorin indirimi). Claude −10: Brent'in Kasım düşüş eğilimi ve IEA'nın 4. çeyrek arz fazlası beklentisi; dağıtıcıların indirimi kademeli geri alma geçmişi zayıf."
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-21-nvidia-kalici-ceo",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "Nvidia 15 Şubat 2027'ye kadar kalıcı bir CEO açıklar mı?",
+   "acilis": "2026-11-21",
+   "deadline": "2027-02-15",
+   "kriter": "Nvidia'nın 15.02.2027 (dahil) tarihine kadar SEC bildirimi ya da resmî açıklamayla 'interim' ibaresi taşımayan bir CEO ataması duyurması (göreve başlama tarihi sonra olabilir). Geçici CEO'nun kalıcı yapılması EVET sayılır.",
+   "kaynak_cozum": "Nvidia SEC 8-K / basın bülteni; Reuters, AP",
+   "taban": "Referans sınıfı: büyük halka açık şirketlerde ani/zorunlu CEO ayrılışı sonrası geçici CEO dönemleri; kalıcı atamanın ilk ~3 ayda gelmesi azınlık (yaklaşık dörtte bir–üçte bir). Motor %30. Üç geçiş: 30/25/22 → medyan 25.",
+   "mercekler": [
+    "sirketler",
+    "teknoloji"
+   ],
+   "on_otopsi": "Yanılırsak: kurul hızlı bir içeriden atamayla (Kress ya da Buck) piyasayı sakinleştirmeyi seçer; ya da Huang'ın geri dönüşü kalıcı CEO olarak açıklanır.",
+   "motor": 30,
+   "p": 25,
+   "ilk_p": 25,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-21",
+     "p": 25,
+     "motor": 30,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-21-huang-donus",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "Jensen Huang 15 Şubat 2027'ye kadar yeniden Nvidia CEO'su olarak açıklanır mı?",
+   "acilis": "2026-11-21",
+   "deadline": "2027-02-15",
+   "kriter": "Nvidia'nın 15.02.2027 (dahil) tarihine kadar Huang'ın CEO (geçici ya da kalıcı, eş-CEO dahil) olarak atandığını resmî olarak duyurması. Danışmanlık, kurul üyeliği ya da başka unvan sayılmaz.",
+   "kaynak_cozum": "Nvidia SEC 8-K / basın bülteni; Reuters, AP",
+   "taban": "Referans sınıfı: kurul baskısıyla ayrılan kurucu CEO'ların 3 ay içinde aynı göreve dönmesi; nadir (Altman 2023 gibi istisnalar günler içinde, kurul henüz dağılmadan). Motor %8. Üç geçiş: 15/12/18 → medyan 15.",
+   "mercekler": [
+    "sirketler"
+   ],
+   "on_otopsi": "Yanılırsak: Huang'ın %3,6 hissesi ve iki kurul üyesi aday gösterme hakkı, ABD yönetiminin açık desteği ve bazı direktörlerin isteği kurul kararını çevirir.",
+   "motor": 8,
+   "p": 15,
+   "ilk_p": 15,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-21",
+     "p": 15,
+     "motor": 8,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-21-nvidia-cin-cip",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "Nvidia 19 Şubat 2027'ye kadar Çin'e yapay zekâ veri merkezi çipi satışını yeniden başlattığını açıklar mı?",
+   "acilis": "2026-11-21",
+   "deadline": "2027-02-19",
+   "kriter": "Nvidia'nın ya da ABD Ticaret Bakanlığı'nın 19.02.2027'ye kadar Nvidia'nın Çin'deki müşterilere yapay zekâ veri merkezi çipi (H20 ve sonrası veya muadili) sevkiyatına yeniden başladığını resmî olarak açıklaması ya da Reuters ve AP'nin ikisinin de bunu Nvidia kaynağıyla bildirmesi.",
+   "kaynak_cozum": "Nvidia açıklaması / ABD Ticaret Bakanlığı; Reuters, AP",
+   "taban": "taban yok (benzer durum: ihracat soruşturması altındaki çip şirketi + CEO değişimi; referans sınıfı kurulamadı). Üç geçiş: 15/20/12 → medyan 15.",
+   "mercekler": [
+    "teknoloji",
+    "jeopolitik"
+   ],
+   "on_otopsi": "Yanılırsak: ABD–Çin ticaret pazarlığında çip lisansı pazarlık kozu olarak hızla açılır; geçici CEO Washington'la uzlaşmayı lisans almak için kullanır.",
+   "motor": null,
+   "p": 15,
+   "ilk_p": 15,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-21",
+     "p": 15,
+     "motor": null,
+     "neden": "açılış"
     }
    ]
   }
