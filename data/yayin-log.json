@@ -374,5 +374,42 @@
       "ai_etiketi": true,
       "facebook": false
     }
+  },
+  {
+    "tarih": "2026-11-20T20:55",
+    "tur": "dosya",
+    "kanal": "news",
+    "klasor": "posts/2026-11-20-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 20 Kasım 2026",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-20T21:10",
+    "sorular": [
+      "pk-2026-11-18-brent-100-dokunma",
+      "pk-2026-11-20-motorin-95-aralik",
+      "on-catisma-rusya-ateskes"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "duzeltmeler": [
+        "Kpler '%90' iddiası doğrulanamadı, çıkarıldı",
+        "'NATO toprağı ilk kez bu ölçekte vuruldu' çıkarıldı (Temmuz 2026'da Polonya'ya Kh-101 düşmüştü)",
+        "'kaza olmadığını söyledi' → Tusk 'provokasyon' (France 24)",
+        "Polonya sayıları Savunma Bakanı'na atfedildi (Meduza)",
+        "Brent sorusu sicil metniyle eşlendi (herhangi bir günde)",
+        "künye v2, soru kimlikleri, ters taraf (100'de 88)"
+      ],
+      "kaynaklar_yeniden": [
+        "https://www.rte.ie/news/business/2026/1120/1599964-world-oil-prices/",
+        "https://www.5paisa.com/blog/crude-oil-price-today-20-november-2026",
+        "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
+        "https://meduza.io/en/news/2026/11/20/poland-issues-air-raid-alerts-as-russia-attacks-ukraine-poland-s-defense-minister-says-two-russian-missiles-and-a-drone-fell-on-polish-soil"
+      ]
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 4 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
   }
 ]
