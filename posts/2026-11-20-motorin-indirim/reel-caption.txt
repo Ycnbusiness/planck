@@ -10,5 +10,4 @@ Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 Kaynaklar: Bloomberg HT, Habertürk · Soru kaydı: pb-2026-11-11-motorin-90, pk-2026-11-20-motorin-95-aralik · Kimseden fon almıyoruz.
 Yatırım veya politika tavsiyesi değildir.
 
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 #planck #pekibiz #akaryakıt #motorin
