@@ -17,5 +17,4 @@ Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 Kaynaklar: Yahoo Finance, Fox Business, AFP, USA Today · Soru kaydı: pk-2026-11-21-bulut-capex-kesinti, pk-2026-11-21-nvidia-kalici-ceo · Kimseden fon almıyoruz.
 Yatırım veya politika tavsiyesi değildir.
 
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 #planck #pekibiz #piyasalar

@@ -1,498 +1,562 @@
 [
- {
-  "tarih": "2026-11-09T19:12+03:00",
-  "hesap": "@planck.news",
-  "icerik": "posts/2026-W46-rapor (carousel 7 sayfa)",
-  "dogrulama": "siber: Fox Business, BleepingComputer, Irish Examiner; Kiev: Latin Times, CNBC/Reuters",
-  "onay": "Yusuf 'Yayınla' 19:06"
- },
- {
-  "tarih": "2026-11-09T19:20+03:00",
-  "hesap": "@planck.news",
-  "icerik": "posts/2026-W46-rapor/reel.mp4",
-  "dogrulama": "aynı",
-  "onay": "Yusuf 'Yayınla' 19:06"
- },
- {
-  "tarih": "2026-11-09T19:55+03:00",
-  "hesap": "@planck.news",
-  "icerik": "posts/2026-11-09-kiev-balistik-kis (planlandı)",
-  "dogrulama": "Latin Times (36 füze/4 düşürüldü/172 İHA/149, Kuzey Köprüsü, Abu Dabi 10–11 Kasım) + CNBC/Al Arabiya/US News Reuters",
-  "onay": "Yusuf 'Yayınla' 19:06"
- },
- {
-  "tarih": "2026-11-10T09:03+03:00",
-  "hesap": "@planck.news",
-  "icerik": "posts/2026-11-10-10-kasim/anma.mp4 (Reel, planlandı)",
-  "dogrulama": "okuryazarlık: 1935 sayımı 2.475.649/12.862.754; TÜİK 2025 %97,9 (Dünya); 1927 ~%10,5",
-  "onay": "Yusuf 21:33 '09.03-09.04'e kur'"
- },
- {
-  "t": "2026-11-10T10:25+03:00",
-  "durum": "bekliyor",
-  "neden": "Chrome'da @planck.news oturumu kapalı; giriş yapılamaz (şifre girişi yasak). Yusuf'a bildirildi.",
-  "ogeler": [
-   "posts/2026-11-10-iran-savas-fiilen-bitti (11:00)",
-   "posts/2026-11-10-fransa-iran-sogutucu-atfi (13:00)"
-  ],
-  "dogrulama": "Her iki olay bağımsız kaynaklarla doğrulandı (AP, Reuters, Al Jazeera, CBS). Yayın öncesi düzeltmeler: motorin sorusu %45→%85, Hürmüz ifadesi, 'ilk kez' ifadesi."
- },
- {
-  "t": "2026-11-10T11:20+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "olay-cevap carousel",
-  "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
-  "baslik": "\"Savaş Fiilen Bitti\": Brent 92 Dolara İndi",
-  "ai_etiketi": true,
-  "facebook": false
- },
- {
-  "t": "2026-11-10T12:20+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "olay reel",
-  "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
-  "baslik": "aynı",
-  "ai_etiketi": true,
-  "facebook": false
- },
- {
-  "t": "2026-11-10T13:20+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "olay-cevap carousel",
-  "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
-  "baslik": "Fransa, Market Soğutucu Saldırısını İran'a Bağladı",
-  "ai_etiketi": true,
-  "facebook": false
- },
- {
-  "t": "2026-11-10T14:20+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "olay reel",
-  "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
-  "baslik": "aynı",
-  "ai_etiketi": true,
-  "facebook": false
- },
- {
-  "t": "2026-11-10T09:03+03:00",
-  "hesap": "planck.news",
-  "durum": "yayında (profilde doğrulandı 10:59)",
-  "tur": "ozel-reel",
-  "klasor": "posts/2026-11-10-10-kasim"
- },
- {
-  "t": "2026-11-10T21:10+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "dosya",
-  "klasor": "posts/2026-11-10-dosya",
-  "baslik": "Günün Dosyası · 10 Kasım",
-  "ai_etiketi": true,
-  "facebook": false,
-  "duzeltme": "Doğrulanamayan 'ABD 301. madde askısı' ve '458'e 0' ifadeleri çıkarıldı; Çin askısı yüzde 24'lük tarife olarak netleştirildi; Çin sorusu sicile eklendi."
- },
- {
-  "t": "2026-11-11T11:00+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "olay-cevap carousel",
-  "klasor": "posts/2026-11-11-dizel-cephesi",
-  "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
-  "ai_etiketi": true,
-  "facebook": false,
-  "duzeltme": "Motorin 90 sorusu %25→%37: motor indirim öncesi fiyatla hesaplanmıştı; sektör 3–5 TL indirim bekliyor. 'Kiriși' yazımı düzeltildi."
- },
- {
-  "t": "2026-11-11T12:00+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "olay reel",
-  "klasor": "posts/2026-11-11-dizel-cephesi",
-  "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
-  "ai_etiketi": true,
-  "facebook": false
- },
- {
-  "t": "2026-11-11T21:10+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "dosya",
-  "klasor": "posts/2026-11-11-gunun-dosyasi",
-  "baslik": "Günün Dosyası · 11 Kasım",
-  "ai_etiketi": true,
-  "facebook": false,
-  "dogrulama": "OPEC+ 41,23 mb/g = %97 (Reuters/CP24, AA); EIA Brent ~100$ (EIA STEO, Morningstar); Mildenhall tanker taşıması (CNN, ABC)"
- },
- {
-  "t": "2026-11-12T21:10+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "dosya",
-  "klasor": "posts/2026-11-12-gunun-dosyasi",
-  "baslik": "Günün Dosyası · 12 Kasım (5 olay)",
-  "ai_etiketi": true,
-  "facebook": false,
-  "dogrulama": "Trump İran (CNBC, The National, Axios); Nvidia istifa (SEC 8-K, Variety); TCMB raporu (CNBC-e, Para Ajansı)",
-  "duzeltme": "Nvidia maddesi SEC 8-K'ya göre nötrleştirildi; nv-1 ıska notu eklendi. Not: tarayıcı başta yusufcannesipoglu hesabındaydı, planck.news'e geçildi."
- },
- {
-  "tarih": "2026-11-13",
-  "saat": "21:10",
-  "kanal": "planck.news",
-  "tur": "carousel",
-  "klasor": "posts/2026-11-13-gunun-dosyasi",
-  "durum": "planlandı",
-  "not": "Günün Dosyası, 2 olay; Hollanda oy sayısı (76-74) doğrulanamadığı için çıkarıldı. AI etiketi açık, FB kapalı."
- },
- {
-  "tarih": "2026-11-14",
-  "saat": "08:00",
-  "kanal": "planck.news",
-  "tur": "sabah-turu",
-  "durum": "planlanmadı",
-  "not": "Kuyrukta ana akış öğesi yok. 11:00 Story (Türkiye–Katar paktı) atlandı: Planck portföyünde Instagram hesabı hâlâ yok; olay zaten 21:00 Dosya'da."
- },
- {
-  "tarih": "2026-11-14",
-  "saat": "21:20",
-  "kanal": "planck.news",
-  "tur": "carousel",
-  "klasor": "posts/2026-11-14-gunun-dosyasi",
-  "durum": "planlandı",
-  "not": "Günün Dosyası, 2 olay (Türkiye–Katar paktı, FAA kalkış yasağı). Düzeltme: 'Suudi ricasıyla saldırıları bekletti' → 'Körfez müttefiklerinin ertelemesini istediğini söyledi'; FAA nedeni 'eski telekom altyapısında aşırı yüklenme'. AI etiketi açık, FB kapalı."
- },
- {
-  "tarih": "2026-11-15",
-  "saat": "08:00",
-  "kanal": "planck.news",
-  "tur": "sabah-turu",
-  "durum": "planlanmadı",
-  "not": "Ana akış öğesi yok. 11:00 Story (Ukrayna NATO/Donbas formülü) atlandı: Planck portföyünde Instagram hesabı yok; olay Dosya yedeğinde (data/dosya/2026-11-15.json)."
- },
- {
-  "tarih": "2026-11-15",
-  "saat": "13:40",
-  "kanal": "planck.news",
-  "tur": "story",
-  "klasor": "posts/2026-11-15-ukrayna-nato-donbas-story",
-  "durum": "planlandı",
-  "not": "İlk Story (MBS üzerinden, PNG kare; video işlenmedi). İçerik Irish Times/Reuters ve US News ile doğrulandı."
- },
- {
-  "tarih": "2026-11-15",
-  "saat": "21:10",
-  "kanal": "planck.news",
-  "tur": "carousel",
-  "klasor": "posts/2026-11-15-gunun-dosyasi",
-  "durum": "planlandı",
-  "not": "Günün Dosyası, 2 olay (Bahreyn İHA, Bab el-Mandeb). Doğrulama: RFE/RL, Irish Times, Al-Monitor, NBC. AI etiketi açık, FB kapalı."
- },
- {
-  "tarih": "2026-11-16",
-  "saat": "11:00",
-  "kanal": "planck.news",
-  "tur": "carousel",
-  "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
-  "durum": "planlandı",
-  "not": "Olay ve Cevap: Sulina İHA saldırıları. Doğrulama: qz, Kyiv Post, maritime.bg. AI açık, FB kapalı."
- },
- {
-  "tarih": "2026-11-16",
-  "saat": "12:00",
-  "kanal": "planck.news",
-  "tur": "reel",
-  "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
-  "durum": "planlandı",
-  "not": "Olay Reel'i (48 kHz/faststart ile yeniden paketlendi)."
- },
- {
-  "tarih": "2026-11-17",
-  "saat": "11:00",
-  "kanal": "planck.news",
-  "tur": "story",
-  "klasor": "posts/2026-11-17-abd-cip-uzaktan-erisim-story",
-  "durum": "kuyrukta",
-  "not": "Günlük tarama adayı; yayın turu planlar.",
-  "editor": {
-   "hukum": "YAYINLA",
-   "tur": 3,
-   "onem": {
-    "S": 0.22,
-    "K": 2,
-    "puan": 0.44
-   },
-   "kapilar": [
-    true,
-    true,
-    true
-   ],
-   "bahis_testi": true,
-   "kaynaklar_yeniden": [
-    "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
-    "https://www.nextgov.com/artificial-intelligence/2026/11/commerce-department-moves-close-ai-chip-loophole/417255/",
-    "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-    "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
-   ],
-   "duzeltmeler": [
-    "1. tur YUSUF'A SOR: nv-3 Quant sorusu, +33 puan 15 sınırını aştı, S ≤90 gün kuralı → Olay ve Cevap'tan Story'ye indirildi, nv-3 %45'e düzeltildi",
-    "2. tur DÜZELT: Story karesine soru, son tarih, 100'de 24 ve künye eklendi; etiket 'SORU'"
-   ],
-   "gerekce": "Story karesinde soru, son tarih, %24 · 100'de 24 ve kaynaklı künye var; önem 0,44 Story bandında; sicil ve hesap tutarlı.",
-   "acik_notlar": [
-    "Story künyesinde 'insan onayından geçmedi' ve 'Kimseden fon almıyoruz' yok — sistemik, cuma Yusuf'a",
-    "nv-3 kapanışı hakem/Yusuf kararında"
-   ]
-  }
- },
- {
-  "tarih": "2026-11-17T11:00",
-  "tur": "story",
-  "kanal": "news",
-  "klasor": "posts/2026-11-17-abd-cip-uzaktan-erisim-story",
-  "baslik": "Çin 10 Ocak'a kadar nadir toprak kontrollerini geri getirir mi? %24",
-  "yol": "MBS Story planla (PNG; video yolu takılıyor)",
-  "dogrulama": [
-   "bloomberg.com 2026-11-16",
-   "techcrunch.com 2026-11-16",
-   "nextgov.com",
-   "fortune.com"
-  ],
-  "editor": {
-   "hukum": "YAYINLA",
-   "onem": {
-    "S": 0.22,
-    "K": 2,
-    "puan": 0.44
-   }
+  {
+    "tarih": "2026-11-09T19:12+03:00",
+    "hesap": "@planck.news",
+    "icerik": "posts/2026-W46-rapor (carousel 7 sayfa)",
+    "dogrulama": "siber: Fox Business, BleepingComputer, Irish Examiner; Kiev: Latin Times, CNBC/Reuters",
+    "onay": "Yusuf 'Yayınla' 19:06"
   },
-  "soru": "pb-2026-11-10-nadir-toprak",
-  "planlayan": "sabah turu 17.11"
- },
- {
-  "tarih": "2026-11-17T08:40",
-  "tur": "duzeltme",
-  "kanal": "news",
-  "hesap": "planck.news",
-  "soru": "pb-2026-11-11-motorin-90",
-  "gonderiler": [
-   "https://www.instagram.com/planck.news/p/DfmAH6bAKDn/",
-   "https://www.instagram.com/planck.news/reel/DfmHCPiygPR/",
-   "https://www.instagram.com/planck.news/p/DfnF_GSgFZk/"
-  ],
-  "not": "Açıklamaların başına DÜZELTME notu eklendi (%37 → %15, ÖTV takvimi eksikti). Görseller değiştirilemez; eski sayı görselde kalır.",
-  "onay": "Yusuf 17.11 08:28 'Yap.'"
- },
- {
-  "t": "2026-11-17T21:05+03:00",
-  "hesap": "planck.news",
-  "durum": "planlandı",
-  "tur": "dosya",
-  "klasor": "posts/2026-11-17-gunun-dosyasi",
-  "baslik": "Günün Dosyası · 17 Kasım",
-  "ai_etiketi": true,
-  "facebook": false,
-  "dogrulama": "Kerç köprüsü kısmi çöküş (sondakika/haberler.com, CNN Türk, ssbulten); Kiev köprüleri (RayHaber); Bahreyn İHA ve Kalibaf 'çift kullanımlı' (Iran International, Gulf News, Al Jazeera)",
-  "duzeltme": "Editör: 'Türk gemisi hasar görür mü %70' Peki Biz sorusu bahis testinden kaldı (şiddetin kendisi) → kaldırıldı, Neden Önemli yazıldı; 'yedi balistik füze' ayrıntısı doğrulanamadı → çıkarıldı; künye v2'ye çevrildi."
- },
- {
-  "tarih": "2026-11-20T07:50",
-  "tur": "olay-cevap",
-  "kanal": "news",
-  "klasor": "posts/2026-11-20-motorin-indirim",
-  "baslik": "Motorine yaklaşık 6,5 TL indirim pompaya yansıdı",
-  "durum": "planlandi",
-  "editor": {
-   "hukum": "BEKLET",
-   "onem": {
-    "S": 1.25,
-    "K": 3,
-    "puan": 3.76
-   },
-   "kapilar": [
-    true,
-    true,
-    true
-   ],
-   "bahis_testi": true,
-   "kaynaklar_yeniden": [
-    "https://www.karar.com/ekonomi-haberleri/depo-basina-tam-329-tl-indirim-gece-yarisi-tabelalar-bir-anda-degisti-2085193",
-    "https://www.timeturk.com/mazota-658-tl-indirim-geldi-20-kasim-2026-istanbul-ankara-ve-izmir-fiyatlari",
-    "https://www.forbes.com.tr/haberler/motorin-fiyatlari-90-liranin-altina-iniyor-motorin-litre-fiyati-ne-kadar"
-   ],
-   "duzeltmeler": [
-    "motorin-100 tek olayda 35 puan → 15 puan sınırı (%27); Motor yeniden hesabına sınır uygulanır mı Yusuf'a",
-    "pb-2026-11-10-motorin kapanışı kriterdeki çözüm kaynağına dayanmalı",
-    "fiyat 88,77 TL; 'önce' rakamı çıkarıldı",
-    "Brent/IEA için kaynak caption'a eklendi",
-    "ayar gerekçesi: 'Körfez'deki gerilim' ifadesi",
-    "olaycevap2.js künyesi 'Yatırım veya politika tavsiyesi değildir' oldu",
-    "Reel künyesine Ekotürk eklendi"
-   ],
-   "gerekce": "Ana iddiayı yalnız C katmanı, bağımsız olmayan kaynaklar doğruluyor; A/B kaynağı gerekiyor."
+  {
+    "tarih": "2026-11-09T19:20+03:00",
+    "hesap": "@planck.news",
+    "icerik": "posts/2026-W46-rapor/reel.mp4",
+    "dogrulama": "aynı",
+    "onay": "Yusuf 'Yayınla' 19:06"
   },
-  "yayin_saati": "2026-11-20T18:00",
-  "editor_2": {
-   "hukum": "YAYINLA",
-   "tur": 2,
-   "kaynaklar_yeniden": [
-    "Bloomberg HT",
-    "Habertürk",
-    "CNN Türk"
-   ],
-   "gerekce": "B katmanı iki bağımsız kaynak; 2. tur düzeltmeleri uygulandı; motorin-100 Anayasa v2.1 kesin girdi kuralıyla yeniden hesaplandı."
+  {
+    "tarih": "2026-11-09T19:55+03:00",
+    "hesap": "@planck.news",
+    "icerik": "posts/2026-11-09-kiev-balistik-kis (planlandı)",
+    "dogrulama": "Latin Times (36 füze/4 düşürüldü/172 İHA/149, Kuzey Köprüsü, Abu Dabi 10–11 Kasım) + CNBC/Al Arabiya/US News Reuters",
+    "onay": "Yusuf 'Yayınla' 19:06"
   },
-  "instagram": {
-   "hesap": "@planck.news",
-   "format": "carousel 5 sayfa",
-   "ai_etiketi": true,
-   "facebook": false
-  }
- },
- {
-  "tarih": "2026-11-20T15:10",
-  "tur": "reel",
-  "kanal": "news",
-  "klasor": "posts/2026-11-20-motorin-indirim",
-  "baslik": "Motorine yaklaşık 6,5 TL indirim geldi. 31 Ocak'ta 90 TL'nin altında kalır mı?",
-  "durum": "planlandi",
-  "yayin_saati": "2026-11-20T19:00",
-  "sorular": [
-   "pb-2026-11-11-motorin-90",
-   "pk-2026-11-20-motorin-95-aralik"
-  ],
-  "editor": {
-   "hukum": "YAYINLA",
-   "not": "Olay ve Cevap ile aynı içerik, 2. tur hükmü geçerli"
+  {
+    "tarih": "2026-11-10T09:03+03:00",
+    "hesap": "@planck.news",
+    "icerik": "posts/2026-11-10-10-kasim/anma.mp4 (Reel, planlandı)",
+    "dogrulama": "okuryazarlık: 1935 sayımı 2.475.649/12.862.754; TÜİK 2025 %97,9 (Dünya); 1927 ~%10,5",
+    "onay": "Yusuf 21:33 '09.03-09.04'e kur'"
   },
-  "instagram": {
-   "hesap": "@planck.news",
-   "format": "reel 9:16",
-   "ai_etiketi": true,
-   "facebook": false
-  }
- },
- {
-  "tarih": "2026-11-20T20:55",
-  "tur": "dosya",
-  "kanal": "news",
-  "klasor": "posts/2026-11-20-gunun-dosyasi",
-  "baslik": "Günün Dosyası · 20 Kasım 2026",
-  "durum": "planlandi",
-  "yayin_saati": "2026-11-20T21:10",
-  "sorular": [
-   "pk-2026-11-18-brent-100-dokunma",
-   "pk-2026-11-20-motorin-95-aralik",
-   "on-catisma-rusya-ateskes"
-  ],
-  "editor": {
-   "hukum": "YAYINLA",
-   "duzeltmeler": [
-    "Kpler '%90' iddiası doğrulanamadı, çıkarıldı",
-    "'NATO toprağı ilk kez bu ölçekte vuruldu' çıkarıldı (Temmuz 2026'da Polonya'ya Kh-101 düşmüştü)",
-    "'kaza olmadığını söyledi' → Tusk 'provokasyon' (France 24)",
-    "Polonya sayıları Savunma Bakanı'na atfedildi (Meduza)",
-    "Brent sorusu sicil metniyle eşlendi (herhangi bir günde)",
-    "künye v2, soru kimlikleri, ters taraf (100'de 88)"
-   ],
-   "kaynaklar_yeniden": [
-    "https://www.rte.ie/news/business/2026/1120/1599964-world-oil-prices/",
-    "https://www.5paisa.com/blog/crude-oil-price-today-20-november-2026",
-    "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
-    "https://meduza.io/en/news/2026/11/20/poland-issues-air-raid-alerts-as-russia-attacks-ukraine-poland-s-defense-minister-says-two-russian-missiles-and-a-drone-fell-on-polish-soil"
-   ]
+  {
+    "t": "2026-11-10T10:25+03:00",
+    "durum": "bekliyor",
+    "neden": "Chrome'da @planck.news oturumu kapalı; giriş yapılamaz (şifre girişi yasak). Yusuf'a bildirildi.",
+    "ogeler": [
+      "posts/2026-11-10-iran-savas-fiilen-bitti (11:00)",
+      "posts/2026-11-10-fransa-iran-sogutucu-atfi (13:00)"
+    ],
+    "dogrulama": "Her iki olay bağımsız kaynaklarla doğrulandı (AP, Reuters, Al Jazeera, CBS). Yayın öncesi düzeltmeler: motorin sorusu %45→%85, Hürmüz ifadesi, 'ilk kez' ifadesi."
   },
-  "instagram": {
-   "hesap": "@planck.news",
-   "format": "carousel 4 sayfa",
-   "ai_etiketi": true,
-   "facebook": false
-  }
- },
- {
-  "tarih": "2026-11-21T07:00",
-  "tur": "olay-cevap",
-  "kanal": "news",
-  "klasor": "posts/2026-11-21-yz-satis-dalgasi",
-  "baslik": "Wall Street'te yapay zekâ satışı: S&P 500 düzeltmede",
-  "durum": "kuyrukta",
-  "yayin_saati": "2026-11-21T11:00",
-  "sorular": [
-   "pk-2026-11-21-bulut-capex-kesinti",
-   "pk-2026-11-21-nvidia-kalici-ceo"
-  ],
-  "editor": {
-   "hukum": "YAYINLA",
-   "turlar": 2,
-   "duzeltmeler": [
-    "Micron %13 (yalnız gün içi) çıkarıldı",
-    "Açılmayan CNBC/Axios kaynak satırından çıkarıldı",
-    "Ayar işareti '−12'"
-   ],
-   "kaynaklar_yeniden": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
-    "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
-    "https://www.rte.ie/news/us/2026/1120/1600079-trump-data-centers-punish/",
-    "https://www.yahoo.com/news/politics/articles/trump-threatens-tax-us-companies-201850044.html"
-   ]
-  }
- },
- {
-  "tarih": "2026-11-21T07:00",
-  "tur": "dosya",
-  "kanal": "news",
-  "klasor": "posts/2026-11-21-gunun-dosyasi",
-  "baslik": "Günün Dosyası · 21 Kasım 2026",
-  "durum": "kuyrukta",
-  "yayin_saati": "2026-11-21T21:00",
-  "sorular": [
-   "on-enerji-hurmuz-gecis",
-   "pk-2026-11-20-motorin-95-aralik"
-  ],
-  "editor": {
-   "hukum": "YAYINLA",
-   "turlar": 2,
-   "duzeltmeler": [
-    "Veri merkezi maddesinde örtük olasılık cümlesi çıkarıldı",
-    "Kaynaksız Körfez/Avrupa cümlesi çıkarıldı",
-    "Petrol düşüşü iddiası çıkarıldı",
-    "Kapanış künyesine 'Yatırım veya politika tavsiyesi değildir' eklendi (dosya.js)"
-   ],
-   "kaynaklar_yeniden": [
-    "https://www.bairdmaritime.com/security/incidents/projectile-strikes-outbound-tanker-in-strait-of-hormuz-sparks-fire",
-    "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
-    "https://www.aa.com.tr/en/middle-east/iran-says-tanker-catches-fire-after-striking-naval-mines-near-omans-khasab-port/4132530"
-   ]
+  {
+    "t": "2026-11-10T11:20+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "olay-cevap carousel",
+    "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
+    "baslik": "\"Savaş Fiilen Bitti\": Brent 92 Dolara İndi",
+    "ai_etiketi": true,
+    "facebook": false
   },
-  "guncellemeler": [
-   {
-    "tarih": "2026-11-21T12:50",
-    "tur": "öğle taraması",
-    "degisiklik": "COP31 uzatması 3. madde; Hürmüz sayfasına 100'de 25 ve frekans cümlesi; kapak 'sıklaşıyor'→'sürüyor'",
+  {
+    "t": "2026-11-10T12:20+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "olay reel",
+    "klasor": "posts/2026-11-10-iran-savas-fiilen-bitti",
+    "baslik": "aynı",
+    "ai_etiketi": true,
+    "facebook": false
+  },
+  {
+    "t": "2026-11-10T13:20+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "olay-cevap carousel",
+    "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
+    "baslik": "Fransa, Market Soğutucu Saldırısını İran'a Bağladı",
+    "ai_etiketi": true,
+    "facebook": false
+  },
+  {
+    "t": "2026-11-10T14:20+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "olay reel",
+    "klasor": "posts/2026-11-10-fransa-iran-sogutucu-atfi",
+    "baslik": "aynı",
+    "ai_etiketi": true,
+    "facebook": false
+  },
+  {
+    "t": "2026-11-10T09:03+03:00",
+    "hesap": "planck.news",
+    "durum": "yayında (profilde doğrulandı 10:59)",
+    "tur": "ozel-reel",
+    "klasor": "posts/2026-11-10-10-kasim"
+  },
+  {
+    "t": "2026-11-10T21:10+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "dosya",
+    "klasor": "posts/2026-11-10-dosya",
+    "baslik": "Günün Dosyası · 10 Kasım",
+    "ai_etiketi": true,
+    "facebook": false,
+    "duzeltme": "Doğrulanamayan 'ABD 301. madde askısı' ve '458'e 0' ifadeleri çıkarıldı; Çin askısı yüzde 24'lük tarife olarak netleştirildi; Çin sorusu sicile eklendi."
+  },
+  {
+    "t": "2026-11-11T11:00+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "olay-cevap carousel",
+    "klasor": "posts/2026-11-11-dizel-cephesi",
+    "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
+    "ai_etiketi": true,
+    "facebook": false,
+    "duzeltme": "Motorin 90 sorusu %25→%37: motor indirim öncesi fiyatla hesaplanmıştı; sektör 3–5 TL indirim bekliyor. 'Kiriși' yazımı düzeltildi."
+  },
+  {
+    "t": "2026-11-11T12:00+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "olay reel",
+    "klasor": "posts/2026-11-11-dizel-cephesi",
+    "baslik": "Dizelde İki Cephe: Rus Rafinerileri ve Hürmüz",
+    "ai_etiketi": true,
+    "facebook": false
+  },
+  {
+    "t": "2026-11-11T21:10+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "dosya",
+    "klasor": "posts/2026-11-11-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 11 Kasım",
+    "ai_etiketi": true,
+    "facebook": false,
+    "dogrulama": "OPEC+ 41,23 mb/g = %97 (Reuters/CP24, AA); EIA Brent ~100$ (EIA STEO, Morningstar); Mildenhall tanker taşıması (CNN, ABC)"
+  },
+  {
+    "t": "2026-11-12T21:10+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "dosya",
+    "klasor": "posts/2026-11-12-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 12 Kasım (5 olay)",
+    "ai_etiketi": true,
+    "facebook": false,
+    "dogrulama": "Trump İran (CNBC, The National, Axios); Nvidia istifa (SEC 8-K, Variety); TCMB raporu (CNBC-e, Para Ajansı)",
+    "duzeltme": "Nvidia maddesi SEC 8-K'ya göre nötrleştirildi; nv-1 ıska notu eklendi. Not: tarayıcı başta yusufcannesipoglu hesabındaydı, planck.news'e geçildi."
+  },
+  {
+    "tarih": "2026-11-13",
+    "saat": "21:10",
+    "kanal": "planck.news",
+    "tur": "carousel",
+    "klasor": "posts/2026-11-13-gunun-dosyasi",
+    "durum": "planlandı",
+    "not": "Günün Dosyası, 2 olay; Hollanda oy sayısı (76-74) doğrulanamadığı için çıkarıldı. AI etiketi açık, FB kapalı."
+  },
+  {
+    "tarih": "2026-11-14",
+    "saat": "08:00",
+    "kanal": "planck.news",
+    "tur": "sabah-turu",
+    "durum": "planlanmadı",
+    "not": "Kuyrukta ana akış öğesi yok. 11:00 Story (Türkiye–Katar paktı) atlandı: Planck portföyünde Instagram hesabı hâlâ yok; olay zaten 21:00 Dosya'da."
+  },
+  {
+    "tarih": "2026-11-14",
+    "saat": "21:20",
+    "kanal": "planck.news",
+    "tur": "carousel",
+    "klasor": "posts/2026-11-14-gunun-dosyasi",
+    "durum": "planlandı",
+    "not": "Günün Dosyası, 2 olay (Türkiye–Katar paktı, FAA kalkış yasağı). Düzeltme: 'Suudi ricasıyla saldırıları bekletti' → 'Körfez müttefiklerinin ertelemesini istediğini söyledi'; FAA nedeni 'eski telekom altyapısında aşırı yüklenme'. AI etiketi açık, FB kapalı."
+  },
+  {
+    "tarih": "2026-11-15",
+    "saat": "08:00",
+    "kanal": "planck.news",
+    "tur": "sabah-turu",
+    "durum": "planlanmadı",
+    "not": "Ana akış öğesi yok. 11:00 Story (Ukrayna NATO/Donbas formülü) atlandı: Planck portföyünde Instagram hesabı yok; olay Dosya yedeğinde (data/dosya/2026-11-15.json)."
+  },
+  {
+    "tarih": "2026-11-15",
+    "saat": "13:40",
+    "kanal": "planck.news",
+    "tur": "story",
+    "klasor": "posts/2026-11-15-ukrayna-nato-donbas-story",
+    "durum": "planlandı",
+    "not": "İlk Story (MBS üzerinden, PNG kare; video işlenmedi). İçerik Irish Times/Reuters ve US News ile doğrulandı."
+  },
+  {
+    "tarih": "2026-11-15",
+    "saat": "21:10",
+    "kanal": "planck.news",
+    "tur": "carousel",
+    "klasor": "posts/2026-11-15-gunun-dosyasi",
+    "durum": "planlandı",
+    "not": "Günün Dosyası, 2 olay (Bahreyn İHA, Bab el-Mandeb). Doğrulama: RFE/RL, Irish Times, Al-Monitor, NBC. AI etiketi açık, FB kapalı."
+  },
+  {
+    "tarih": "2026-11-16",
+    "saat": "11:00",
+    "kanal": "planck.news",
+    "tur": "carousel",
+    "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
+    "durum": "planlandı",
+    "not": "Olay ve Cevap: Sulina İHA saldırıları. Doğrulama: qz, Kyiv Post, maritime.bg. AI açık, FB kapalı."
+  },
+  {
+    "tarih": "2026-11-16",
+    "saat": "12:00",
+    "kanal": "planck.news",
+    "tur": "reel",
+    "klasor": "posts/2026-11-16-karadeniz-sulina-iha",
+    "durum": "planlandı",
+    "not": "Olay Reel'i (48 kHz/faststart ile yeniden paketlendi)."
+  },
+  {
+    "tarih": "2026-11-17",
+    "saat": "11:00",
+    "kanal": "planck.news",
+    "tur": "story",
+    "klasor": "posts/2026-11-17-abd-cip-uzaktan-erisim-story",
+    "durum": "kuyrukta",
+    "not": "Günlük tarama adayı; yayın turu planlar.",
     "editor": {
-     "hukum": "YAYINLA",
-     "turlar": 2,
-     "duzeltmeler": [
-      "'fosil yakıt bölümü' → 'atıflar'",
-      "ortak başkanlık → dönem başkanlığı Türkiye, müzakere başkanlığı Avustralya",
-      "AB/Panama cümlesi kaynak diline çekildi",
-      "Peki biz? yüzdesine 100'de X (dosya.js)",
-      "frekans cümlesi eklendi",
-      "haber puanı ve S×K kaydı"
-     ],
-     "kosul": "21:00 öncesi izleme cop31-nihai-metin kontrolü",
-     "kaynaklar_yeniden": [
-      "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651",
-      "https://www.clickorlando.com/news/world/2026/11/21/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming/",
-      "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime",
-      "https://www.devdiscourse.com/article/international/4009614-cop31-draft-drops-fossil-fuel-language-as-talks-near-deadline",
-      "https://www.antalyaekspres.com.tr/antalyadaki-cop31-tarihe-gecti"
-     ]
+      "hukum": "YAYINLA",
+      "tur": 3,
+      "onem": {
+        "S": 0.22,
+        "K": 2,
+        "puan": 0.44
+      },
+      "kapilar": [
+        true,
+        true,
+        true
+      ],
+      "bahis_testi": true,
+      "kaynaklar_yeniden": [
+        "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "https://www.nextgov.com/artificial-intelligence/2026/11/commerce-department-moves-close-ai-chip-loophole/417255/",
+        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+        "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+      ],
+      "duzeltmeler": [
+        "1. tur YUSUF'A SOR: nv-3 Quant sorusu, +33 puan 15 sınırını aştı, S ≤90 gün kuralı → Olay ve Cevap'tan Story'ye indirildi, nv-3 %45'e düzeltildi",
+        "2. tur DÜZELT: Story karesine soru, son tarih, 100'de 24 ve künye eklendi; etiket 'SORU'"
+      ],
+      "gerekce": "Story karesinde soru, son tarih, %24 · 100'de 24 ve kaynaklı künye var; önem 0,44 Story bandında; sicil ve hesap tutarlı.",
+      "acik_notlar": [
+        "Story künyesinde 'insan onayından geçmedi' ve 'Kimseden fon almıyoruz' yok — sistemik, cuma Yusuf'a",
+        "nv-3 kapanışı hakem/Yusuf kararında"
+      ]
     }
-   }
-  ]
- }
+  },
+  {
+    "tarih": "2026-11-17T11:00",
+    "tur": "story",
+    "kanal": "news",
+    "klasor": "posts/2026-11-17-abd-cip-uzaktan-erisim-story",
+    "baslik": "Çin 10 Ocak'a kadar nadir toprak kontrollerini geri getirir mi? %24",
+    "yol": "MBS Story planla (PNG; video yolu takılıyor)",
+    "dogrulama": [
+      "bloomberg.com 2026-11-16",
+      "techcrunch.com 2026-11-16",
+      "nextgov.com",
+      "fortune.com"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "onem": {
+        "S": 0.22,
+        "K": 2,
+        "puan": 0.44
+      }
+    },
+    "soru": "pb-2026-11-10-nadir-toprak",
+    "planlayan": "sabah turu 17.11"
+  },
+  {
+    "tarih": "2026-11-17T08:40",
+    "tur": "duzeltme",
+    "kanal": "news",
+    "hesap": "planck.news",
+    "soru": "pb-2026-11-11-motorin-90",
+    "gonderiler": [
+      "https://www.instagram.com/planck.news/p/DfmAH6bAKDn/",
+      "https://www.instagram.com/planck.news/reel/DfmHCPiygPR/",
+      "https://www.instagram.com/planck.news/p/DfnF_GSgFZk/"
+    ],
+    "not": "Açıklamaların başına DÜZELTME notu eklendi (%37 → %15, ÖTV takvimi eksikti). Görseller değiştirilemez; eski sayı görselde kalır.",
+    "onay": "Yusuf 17.11 08:28 'Yap.'"
+  },
+  {
+    "t": "2026-11-17T21:05+03:00",
+    "hesap": "planck.news",
+    "durum": "planlandı",
+    "tur": "dosya",
+    "klasor": "posts/2026-11-17-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 17 Kasım",
+    "ai_etiketi": true,
+    "facebook": false,
+    "dogrulama": "Kerç köprüsü kısmi çöküş (sondakika/haberler.com, CNN Türk, ssbulten); Kiev köprüleri (RayHaber); Bahreyn İHA ve Kalibaf 'çift kullanımlı' (Iran International, Gulf News, Al Jazeera)",
+    "duzeltme": "Editör: 'Türk gemisi hasar görür mü %70' Peki Biz sorusu bahis testinden kaldı (şiddetin kendisi) → kaldırıldı, Neden Önemli yazıldı; 'yedi balistik füze' ayrıntısı doğrulanamadı → çıkarıldı; künye v2'ye çevrildi."
+  },
+  {
+    "tarih": "2026-11-20T07:50",
+    "tur": "olay-cevap",
+    "kanal": "news",
+    "klasor": "posts/2026-11-20-motorin-indirim",
+    "baslik": "Motorine yaklaşık 6,5 TL indirim pompaya yansıdı",
+    "durum": "planlandi",
+    "editor": {
+      "hukum": "BEKLET",
+      "onem": {
+        "S": 1.25,
+        "K": 3,
+        "puan": 3.76
+      },
+      "kapilar": [
+        true,
+        true,
+        true
+      ],
+      "bahis_testi": true,
+      "kaynaklar_yeniden": [
+        "https://www.karar.com/ekonomi-haberleri/depo-basina-tam-329-tl-indirim-gece-yarisi-tabelalar-bir-anda-degisti-2085193",
+        "https://www.timeturk.com/mazota-658-tl-indirim-geldi-20-kasim-2026-istanbul-ankara-ve-izmir-fiyatlari",
+        "https://www.forbes.com.tr/haberler/motorin-fiyatlari-90-liranin-altina-iniyor-motorin-litre-fiyati-ne-kadar"
+      ],
+      "duzeltmeler": [
+        "motorin-100 tek olayda 35 puan → 15 puan sınırı (%27); Motor yeniden hesabına sınır uygulanır mı Yusuf'a",
+        "pb-2026-11-10-motorin kapanışı kriterdeki çözüm kaynağına dayanmalı",
+        "fiyat 88,77 TL; 'önce' rakamı çıkarıldı",
+        "Brent/IEA için kaynak caption'a eklendi",
+        "ayar gerekçesi: 'Körfez'deki gerilim' ifadesi",
+        "olaycevap2.js künyesi 'Yatırım veya politika tavsiyesi değildir' oldu",
+        "Reel künyesine Ekotürk eklendi"
+      ],
+      "gerekce": "Ana iddiayı yalnız C katmanı, bağımsız olmayan kaynaklar doğruluyor; A/B kaynağı gerekiyor."
+    },
+    "yayin_saati": "2026-11-20T18:00",
+    "editor_2": {
+      "hukum": "YAYINLA",
+      "tur": 2,
+      "kaynaklar_yeniden": [
+        "Bloomberg HT",
+        "Habertürk",
+        "CNN Türk"
+      ],
+      "gerekce": "B katmanı iki bağımsız kaynak; 2. tur düzeltmeleri uygulandı; motorin-100 Anayasa v2.1 kesin girdi kuralıyla yeniden hesaplandı."
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 5 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
+  },
+  {
+    "tarih": "2026-11-20T15:10",
+    "tur": "reel",
+    "kanal": "news",
+    "klasor": "posts/2026-11-20-motorin-indirim",
+    "baslik": "Motorine yaklaşık 6,5 TL indirim geldi. 31 Ocak'ta 90 TL'nin altında kalır mı?",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-20T19:00",
+    "sorular": [
+      "pb-2026-11-11-motorin-90",
+      "pk-2026-11-20-motorin-95-aralik"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "not": "Olay ve Cevap ile aynı içerik, 2. tur hükmü geçerli"
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "reel 9:16",
+      "ai_etiketi": true,
+      "facebook": false
+    }
+  },
+  {
+    "tarih": "2026-11-20T20:55",
+    "tur": "dosya",
+    "kanal": "news",
+    "klasor": "posts/2026-11-20-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 20 Kasım 2026",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-20T21:10",
+    "sorular": [
+      "pk-2026-11-18-brent-100-dokunma",
+      "pk-2026-11-20-motorin-95-aralik",
+      "on-catisma-rusya-ateskes"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "duzeltmeler": [
+        "Kpler '%90' iddiası doğrulanamadı, çıkarıldı",
+        "'NATO toprağı ilk kez bu ölçekte vuruldu' çıkarıldı (Temmuz 2026'da Polonya'ya Kh-101 düşmüştü)",
+        "'kaza olmadığını söyledi' → Tusk 'provokasyon' (France 24)",
+        "Polonya sayıları Savunma Bakanı'na atfedildi (Meduza)",
+        "Brent sorusu sicil metniyle eşlendi (herhangi bir günde)",
+        "künye v2, soru kimlikleri, ters taraf (100'de 88)"
+      ],
+      "kaynaklar_yeniden": [
+        "https://www.rte.ie/news/business/2026/1120/1599964-world-oil-prices/",
+        "https://www.5paisa.com/blog/crude-oil-price-today-20-november-2026",
+        "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
+        "https://meduza.io/en/news/2026/11/20/poland-issues-air-raid-alerts-as-russia-attacks-ukraine-poland-s-defense-minister-says-two-russian-missiles-and-a-drone-fell-on-polish-soil"
+      ]
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 4 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
+  },
+  {
+    "tarih": "2026-11-21T07:00",
+    "tur": "olay-cevap",
+    "kanal": "news",
+    "klasor": "posts/2026-11-21-yz-satis-dalgasi",
+    "baslik": "Wall Street'te yapay zekâ satışı: S&P 500 düzeltmede",
+    "durum": "kuyrukta",
+    "yayin_saati": "2026-11-21T11:00",
+    "sorular": [
+      "pk-2026-11-21-bulut-capex-kesinti",
+      "pk-2026-11-21-nvidia-kalici-ceo"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "turlar": 2,
+      "duzeltmeler": [
+        "Micron %13 (yalnız gün içi) çıkarıldı",
+        "Açılmayan CNBC/Axios kaynak satırından çıkarıldı",
+        "Ayar işareti '−12'"
+      ],
+      "kaynaklar_yeniden": [
+        "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+        "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+        "https://www.rte.ie/news/us/2026/1120/1600079-trump-data-centers-punish/",
+        "https://www.yahoo.com/news/politics/articles/trump-threatens-tax-us-companies-201850044.html"
+      ]
+    }
+  },
+  {
+    "tarih": "2026-11-21T07:00",
+    "tur": "dosya",
+    "kanal": "news",
+    "klasor": "posts/2026-11-21-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 21 Kasım 2026",
+    "durum": "kuyrukta",
+    "yayin_saati": "2026-11-21T21:00",
+    "sorular": [
+      "on-enerji-hurmuz-gecis",
+      "pk-2026-11-20-motorin-95-aralik"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "turlar": 2,
+      "duzeltmeler": [
+        "Veri merkezi maddesinde örtük olasılık cümlesi çıkarıldı",
+        "Kaynaksız Körfez/Avrupa cümlesi çıkarıldı",
+        "Petrol düşüşü iddiası çıkarıldı",
+        "Kapanış künyesine 'Yatırım veya politika tavsiyesi değildir' eklendi (dosya.js)"
+      ],
+      "kaynaklar_yeniden": [
+        "https://www.bairdmaritime.com/security/incidents/projectile-strikes-outbound-tanker-in-strait-of-hormuz-sparks-fire",
+        "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
+        "https://www.aa.com.tr/en/middle-east/iran-says-tanker-catches-fire-after-striking-naval-mines-near-omans-khasab-port/4132530"
+      ]
+    },
+    "guncellemeler": [
+      {
+        "tarih": "2026-11-21T12:50",
+        "tur": "öğle taraması",
+        "degisiklik": "COP31 uzatması 3. madde; Hürmüz sayfasına 100'de 25 ve frekans cümlesi; kapak 'sıklaşıyor'→'sürüyor'",
+        "editor": {
+          "hukum": "YAYINLA",
+          "turlar": 2,
+          "duzeltmeler": [
+            "'fosil yakıt bölümü' → 'atıflar'",
+            "ortak başkanlık → dönem başkanlığı Türkiye, müzakere başkanlığı Avustralya",
+            "AB/Panama cümlesi kaynak diline çekildi",
+            "Peki biz? yüzdesine 100'de X (dosya.js)",
+            "frekans cümlesi eklendi",
+            "haber puanı ve S×K kaydı"
+          ],
+          "kosul": "21:00 öncesi izleme cop31-nihai-metin kontrolü",
+          "kaynaklar_yeniden": [
+            "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651",
+            "https://www.clickorlando.com/news/world/2026/11/21/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming/",
+            "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime",
+            "https://www.devdiscourse.com/article/international/4009614-cop31-draft-drops-fossil-fuel-language-as-talks-near-deadline",
+            "https://www.antalyaekspres.com.tr/antalyadaki-cop31-tarihe-gecti"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "kanal": "news",
+    "klasor": "posts/2026-11-21-yz-satis-dalgasi",
+    "sorular": [
+      "pk-2026-11-21-bulut-capex-kesinti",
+      "pk-2026-11-21-nvidia-kalici-ceo"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "tur": 2,
+      "kaynaklar_yeniden": [
+        "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html",
+        "https://cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+        "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+      ],
+      "duzeltmeler": [
+        "açıklamadaki eski 'Bu içerik…' satırı kaldırıldı",
+        "Reel açıklamasına künye eklendi"
+      ]
+    },
+    "tarih": "2026-11-21T15:51",
+    "tur": "olay-cevap",
+    "baslik": "Wall Street'te yapay zekâ satışı: S&P 500 düzeltmede",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-21T16:30",
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 5 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
+  },
+  {
+    "kanal": "news",
+    "klasor": "posts/2026-11-21-yz-satis-dalgasi",
+    "sorular": [
+      "pk-2026-11-21-bulut-capex-kesinti",
+      "pk-2026-11-21-nvidia-kalici-ceo"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "tur": 2,
+      "kaynaklar_yeniden": [
+        "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html",
+        "https://cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+        "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+      ],
+      "duzeltmeler": [
+        "açıklamadaki eski 'Bu içerik…' satırı kaldırıldı",
+        "Reel açıklamasına künye eklendi"
+      ]
+    },
+    "tarih": "2026-11-21T15:55",
+    "tur": "reel",
+    "baslik": "Wall Street'te yapay zekâ satışı",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-21T17:30",
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "reel 9:16",
+      "ai_etiketi": true,
+      "facebook": false
+    }
+  }
 ]

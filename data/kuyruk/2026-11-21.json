@@ -7,12 +7,14 @@
   "durum": "beklet-yusuf"
  },
  {
-  "saat": "11:00",
+  "saat": "16:30",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-21-yz-satis-dalgasi",
   "onem": 2.77,
   "reel": "posts/2026-11-21-yz-satis-dalgasi/reel.mp4",
-  "editor": "YAYINLA (2. tur)"
+  "editor": "YAYINLA (2. tur)",
+  "durum": "planlandi",
+  "not": "Sabah turu Chrome onayı beklerken 11:00 kaçtı; 15:51'de 16:30 (carousel) + 17:30 (Reel) planlandı."
  },
  {
   "saat": "21:00",
