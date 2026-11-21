@@ -1,0 +1,57 @@
+{
+ "date": "21 KASIM 2026",
+ "tag": "Piyasalar",
+ "haber": {
+  "title": "Wall Street'te yapay zekâ satışı: S&P 500 düzeltmede",
+  "text": "20 Kasım'da Nasdaq %5,3, S&P 500 %3,7, Dow %1,9 düştü. S&P 500 ve Dow rekorlarının %10'dan fazla altına inerek düzeltme bölgesine girdi; Nasdaq 2026 kazancını sildi. Nvidia bir günde %14, AMD %13 geriledi; VIX 2025 Nisan'ından bu yana en yüksek kapanışta.",
+  "kaynak": "Yahoo Finance, Fox Business, AFP"
+ },
+ "neden": {
+  "text": "Satışın arkasında iki beklenti birleşiyor: yapay zekâya yapılan dev çip ve veri merkezi yatırımlarının beklenen getiriyi sağlayıp sağlamayacağı sorusu ve ABD Merkez Bankası'nın Aralık'ta faiz artıracağı beklentisi. Nvidia'daki yönetim boşluğu da baskıyı artırdı.",
+  "taraflar": [
+   [
+    "Fed",
+    "Yönetici Lisa Cook, artırımı geciktirmenin enflasyonun gerisinde kalma riski taşıdığını söyledi; vadeli piyasalar Aralık artırımını neredeyse kesin fiyatlıyor."
+   ],
+   [
+    "Analistler",
+    "Bir kesim satışı panik olarak niteliyor, piyasanın aşırı satıldığını söylüyor; diğerleri yatırım getirisi kaygısının sürdüğünü belirtiyor."
+   ],
+   [
+    "ABD Başkanı",
+    "Aynı gün yurt dışında veri merkezi kuran ABD şirketlerine ağır vergi koyma tehdidinde bulundu; şirket adı ya da belge yok."
+   ]
+  ]
+ },
+ "neolur": [
+  {
+   "q": "Microsoft, Alphabet, Amazon ve Meta'dan en az biri 15 Şubat'a kadar 2027 yatırım planını düşürür mü?",
+   "p": 13,
+   "deadline": "15.02.2027",
+   "not": "MOTOR %25 · AYAR −12 · KUYRUK SORUSU"
+  },
+  {
+   "q": "Nvidia 15 Şubat'a kadar kalıcı bir CEO açıklar mı?",
+   "p": 25,
+   "deadline": "15.02.2027",
+   "from": 25,
+   "not": "DEĞİŞMEDİ"
+  }
+ ],
+ "olasilik": {
+  "q": "Dört büyük bulut şirketinden biri 15 Şubat 2027'ye kadar 2027 yatırım planını düşürür mü?",
+  "motor": 25,
+  "ayar": -12,
+  "ayar_neden": "Ekim bilançolarında dördü de 2027'de daha yüksek harcama sinyali verdi ve kapasitenin yetmediğini söyledi; çip siparişleri ve kira sözleşmeleri üç ayda geri alınması zor taahhütler.",
+  "p": 13,
+  "aralik": "%13–25",
+  "frekans": "Geçmişte beş büyük teknoloji düşüşünün üçünde büyük şirketlerden biri ertesi yıl yatırımını kıstı; ama son on yılda yıllık beklentilerin yalnız 100'de 5–10'unda açık indirim oldu. 100'de 87 durumda olmaz."
+ },
+ "karne": {
+  "konu": "Bu konuda kapanmış sorumuz yok. Yapay zekâ ve çip sorularımız açık; sonuçlar kapandıkça burada.",
+  "genel": "Toplam 2 kapanış var; az örnek. 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "9–10 Aralık Fed kararı; Ocak sonu–Şubat başı bulut şirketlerinin bilançoları ve 2027 yatırım rakamları.",
+  "eylem": "Bireysel olarak yapılacak bir şey yok. İzlenecek gösterge: Fed'in Aralık kararı ve şirketlerin 2027 yatırım açıklamaları. Bu bir yatırım tavsiyesi değildir."
+ },
+ "question": "Sizce yapay zekâ yatırımlarında yavaşlama mı başlıyor, yoksa bu bir mola mı?"
+}

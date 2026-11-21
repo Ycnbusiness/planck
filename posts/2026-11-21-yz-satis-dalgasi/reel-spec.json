@@ -1,0 +1,17 @@
+{
+ "week": "2026-W47",
+ "tag": "Piyasalar",
+ "title": "Wall Street'te yapay zekâ satışı",
+ "text": "20 Kasım'da Nasdaq %5,3, S&P 500 %3,7 düştü; S&P 500 düzeltmede. Nvidia bir günde %14 geriledi.",
+ "risk": "Dört büyük bulut şirketinden biri 15 Şubat'a kadar 2027 yatırım planını düşürür mü?",
+ "rl": "YENİ SORU · MOTOR → PLANCK",
+ "from": 25,
+ "to": 13,
+ "why": "Ekim'de dördü de daha yüksek harcama sinyali verdi; taahhütler bağlayıcı.",
+ "pl": "DİĞER SORU",
+ "pq": "Nvidia 15 Şubat'a kadar kalıcı bir CEO açıklar mı?",
+ "pp": 25,
+ "yuz": true,
+ "kunye": "Tarama ve hesap: Claude · Yatırım tavsiyesi değildir",
+ "cta": "Ayrıntılar gönderide · @planck.news"
+}

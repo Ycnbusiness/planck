@@ -1,9 +1,24 @@
 [
  {
-  "saat": "11:00",
+  "saat": "—",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-21-nvidia-ceo",
-  "not": "YAYINLAMA. Yusuf 21.11 00:57: yüzde ürün değil; ürün senaryo analizi (Huang dönerse/dönmezse ne olur, mekanizma, emsal, gösterge). Sayfa 3 senaryo sayfası olarak yeniden tasarlanıyor; yeni taslak Yusuf'a gösterilmeden çıkmaz.",
+  "not": "YAYINLAMA. Yusuf 21.11 00:57: yüzde ürün değil; ürün senaryo analizi (Huang dönerse/dönmezse ne olur, mekanizma, emsal, gösterge). Sayfa 3 senaryo sayfası olarak yeniden tasarlanıyor; yeni taslak Yusuf'a gösterilmeden çıkmaz. · 21.11 tarama: günde tek Olay ve Cevap kuralı gereği 11:00 bugün yz-satis-dalgasi'na verildi; Nvidia taslağı Yusuf onaylarsa Dosya'ya ya da ertesi güne kayar.",
   "durum": "beklet-yusuf"
+ },
+ {
+  "saat": "11:00",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-21-yz-satis-dalgasi",
+  "onem": 2.77,
+  "reel": "posts/2026-11-21-yz-satis-dalgasi/reel.mp4",
+  "editor": "YAYINLA (2. tur)"
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-21-gunun-dosyasi",
+  "onem": 0,
+  "editor": "YAYINLA (2. tur)"
  }
 ]

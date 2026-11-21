@@ -2586,6 +2586,36 @@
      "neden": "açılış"
     }
    ]
+  },
+  {
+   "id": "pk-2026-11-21-bulut-capex-kesinti",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "Microsoft, Alphabet, Amazon ve Meta'dan en az biri 15 Şubat 2027'ye kadar 2027 yatırım harcaması planını düşürdüğünü açıklar mı?",
+   "acilis": "2026-11-21",
+   "deadline": "2027-02-15",
+   "kriter": "Dört şirketten en az birinin 15.02.2027'ye kadar resmî bilanço açıklamasında, yatırımcı sunumunda ya da SEC bildiriminde 2027 (Microsoft için 2027 takvim yılını kapsayan mali yıl) sermaye harcaması beklentisini daha önce açıkladığı rakamın, aralığın ya da açıkça ifade ettiği artış niyetinin altına çektiğini açıklaması. Yalnız zamanlama kayması dili 'evet' sayılmaz; açık indirim gerekir. Şirket açıklaması yoksa Reuters ve Bloomberg'in ikisinin de bunu şirket kaynağıyla bildirmesi.",
+   "kaynak_cozum": "Şirketlerin 4. çeyrek bilanço açıklamaları ve SEC bildirimleri; Reuters, Bloomberg",
+   "taban": "Dış görünüm: 1990 sonrası beş büyük teknoloji düşüşünün yaklaşık 3'ünde (2001, 2008, 2022) büyük şirketlerden biri ertesi yıl yatırımını kıstı (~%60, ama düşüş derinleşince); 2015–2026 yıllık beklentilerinin ~%5–10'unda açık indirim (çoğu Meta). Motor %25. Üç geçiş: dış 25 / iç 13 / karşı 13 → medyan 13. Etiket: kuyruk (düşük olasılık, yapay zekâ yatırım döngüsü için çok yüksek etki).",
+   "mercekler": [
+    "teknoloji",
+    "finans"
+   ],
+   "on_otopsi": "Yanılırsak: düşüş ayı piyasasına döner, Fed Aralık'ta artırır ve Meta 2023'teki gibi Şubat bilançosunda 'verimlilik' gerekçesiyle aralığı aşağı çeker.",
+   "motor": 25,
+   "p": 13,
+   "ilk_p": 13,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-21",
+     "p": 13,
+     "motor": 25,
+     "neden": "açılış"
+    }
+   ]
   }
  ]
 }

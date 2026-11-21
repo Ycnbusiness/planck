@@ -57,7 +57,7 @@ S.push(frame(`<div class="eb mono">Olasılıklar · Bu sayı nasıl çıktı?<b>
 <h2 style="margin-top:28px;font-size:52px;line-height:60px">${o.q}</h2>
 <div style="margin-top:34px">
 <div style="border-top:2px solid ${DIM};padding:20px 0;display:flex;justify-content:space-between;align-items:baseline">${lab('MOTOR · GEÇMİŞ VERİ VE PİYASA')}<span style="font-family:ML,MX,monospace;font-size:44px">%${o.motor}</span></div>
-<div style="border-top:2px solid ${DIM};padding:20px 0"><div style="display:flex;justify-content:space-between;align-items:baseline">${lab('CLAUDE AYARI · GÜNCEL KANIT')}<span style="font-family:ML,MX,monospace;font-size:44px">${o.ayar>0?'+':''}${o.ayar}</span></div><p style="margin:10px 0 0;font-size:25px;line-height:35px;color:#c9d0db">${o.ayar_neden}</p></div>
+<div style="border-top:2px solid ${DIM};padding:20px 0"><div style="display:flex;justify-content:space-between;align-items:baseline">${lab('CLAUDE AYARI · GÜNCEL KANIT')}<span style="font-family:ML,MX,monospace;font-size:44px">${o.ayar>0?'+':o.ayar<0?'−':''}${Math.abs(o.ayar)}</span></div><p style="margin:10px 0 0;font-size:25px;line-height:35px;color:#c9d0db">${o.ayar_neden}</p></div>
 <div style="border-top:2px solid ${BLUE};padding:20px 0;display:flex;justify-content:space-between;align-items:center">${grid(o.p,12,3)}<div style="text-align:right"><span style="font-family:ML,MX,monospace;font-size:72px;color:${BLUE}">%${o.p}</span><span class="mono" style="display:block;font-size:20px">100'DE ${o.p}${o.aralik?`<br>ÜÇ BAĞIMSIZ HESABIN ARALIĞI ${o.aralik}`:''}</span></div></div></div>
 <p class="b" style="margin-top:auto;font-size:27px;line-height:38px">${o.frekans}</p>`, 4));
 // 5 · Karne ve riskler

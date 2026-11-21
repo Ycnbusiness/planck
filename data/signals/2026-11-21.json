@@ -1,0 +1,173 @@
+{
+ "date": "2026-11-21",
+ "scan_window": "2026-11-20 07:30 → 2026-11-21 07:00 (TSİ)",
+ "yontem": "Yöntem v2.2 (TARAMA.md): haber kapısı → soru yoksa soru açılır → S×K yalnız format. Olay ve Cevap v2 (olaycevap2.js, 5 sayfa) kullanıldı; görev metnindeki v1 (pekibiz.js, 4 sayfa) 19.11'den beri arşivde. 'onem_eski' alanı görev metnindeki eski formülle.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "değişiklik yok (2 kapanış)",
+  "not": "nv-4 (Quant, SOX 6 Kasım kapanışının %10 altı): 20 Kasım'da SOX gün içinde ~%7 düştü, 19 Kasım kapanışı 9.419,72 (6 Kasım'dan beri en düşük). 6 ve 20 Kasım kapanış seviyeleri iki kaynakta bulunamadı; kapatılmadı. Quant hakemi pazartesi kapanış verisiyle bakmalı."
+ },
+ "izleme": {
+  "not": "hurmuz-uc-tanker-mayin hâlâ doğrulanmadı: 20 Kasım Hasab olayında İran mayın diyor, UKMTO mermi diyor (bitiş 22.11). motorin-indirim-20kasim kapandı."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 1,
+  "yesil": 5,
+  "zayif": 5,
+  "not": "Ana akış: Wall Street'te yapay zekâ satışı (haber puanı 6, S 1,38 × K 2 = 2,77). Yeni soru: pk-2026-11-21-bulut-capex-kesinti %13 (kuyruk; geçişler 25/13/13). Veri merkezi vergisi tehdidi için üç geçiş 7/5/8 → açılış bandı altında, soru açılmadı. Günün Dosyası: Hürmüz tankeri + veri merkezi vergisi. Editör: ikisine de iki turda YAYINLA. Risk olasılıkları değişmedi."
+ },
+ "events": [
+  {
+   "id": "yz-satis-wall-street",
+   "class": "SARI",
+   "risk": "abd-cin-teknoloji",
+   "delta": 0,
+   "from": 63,
+   "to": 63,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 2,
+    "acik_uc": 2,
+    "puan": 6
+   },
+   "S": 1.38,
+   "K": 2,
+   "onem": 2.77,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0 (2031)| × TR 1 × etki 3 = 0; yeni soru açılış S 0,69×2",
+   "sorular": [
+    {
+     "id": "pk-2026-11-21-bulut-capex-kesinti",
+     "plan": "yeni, %13 (Motor %25, Claude −12; kuyruk)"
+    },
+    {
+     "id": "pk-2026-11-21-nvidia-kalici-ceo",
+     "plan": "%25 değişmedi (LR<1,2)"
+    }
+   ],
+   "event": "20 Kasım'da Nasdaq Bileşik %5,28 (22.617,73), S&P 500 %3,70 (6.910,39), Dow %1,93 (48.147,33) düştü; S&P 500 ve Dow düzeltme bölgesine girdi, Nasdaq 2026 kazancını sildi. Nvidia %14,01, AMD %13,25 geriledi; VIX 2025 Nisan'ından beri en yüksek kapanış. Fed Yöneticisi Cook artırımı geciktirmenin riskli olduğunu söyledi; FedWatch Aralık artırımı ~%92–97.",
+   "rationale": "Küresel ölçek, 2020'den beri en kötü Nasdaq haftası; sicildeki News sorularına dokunmuyor → v2.2 §2 gereği soru açıldı. Varlık fiyatı eşikleri Quant'ta (q-nasdaq-25, nv-4, q-abd-resesyon Quant'a not). 2031 riskleri bu olayla oynamadı. Türkiye bağı dolaylı (küresel risk iştahı); 'Peki Biz?' zorlanmadı.",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+    "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+    "https://en.bloomingbit.io/feed/news/124916",
+    "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+   ],
+   "yonlendirme": "ana akış · Olay ve Cevap + Reel",
+   "klasor": "posts/2026-11-21-yz-satis-dalgasi"
+  },
+  {
+   "id": "veri-merkezi-vergi-tehdidi",
+   "class": "YEŞİL",
+   "risk": "abd-cin-teknoloji",
+   "delta": 0,
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 2,
+    "acik_uc": 1,
+    "puan": 5
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "onem_eski": "|Δ 0| × 0 × 2 = 0",
+   "event": "Trump 20 Kasım'da Beyaz Saray basın toplantısında yurt dışında veri merkezi kuran ABD şirketlerine 'çok ağır vergi' koyacaklarını söyledi; şirket adı, belge ya da yasal dayanak yok.",
+   "rationale": "Kararname sorusu için üç geçiş 7/5/8 → %15 açılış bandının altında; soru açılmadı, olasılıksız Dosya maddesi. Yazılı metin gelirse soru açılır.",
+   "sources": [
+    "https://www.rte.ie/news/us/2026/1120/1600079-trump-data-centers-punish/",
+    "https://www.yahoo.com/news/politics/articles/trump-threatens-tax-us-companies-201850044.html"
+   ],
+   "yonlendirme": "Günün Dosyası (olasılıksız)",
+   "klasor": "posts/2026-11-21-gunun-dosyasi"
+  },
+  {
+   "id": "hurmuz-hasab-tanker-20kasim",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0| × 1 × 2 = 0",
+   "event": "UKMTO: 20 Kasım ~15:00 GMT'de Hasab'ın ~8 deniz mili kuzeyinde Hürmüz'den çıkan bir tankere bilinmeyen mermi isabet etti, yangın, yaralı yok. IRGC tankerin mayına çarptığını iddia etti (doğrulanmadı). gCaptain/Orbital: son 7 günde 15 saldırı (+%50); UKMTO: trafik savaş öncesinin ~%65 altında.",
+   "rationale": "Süren eğilim; ≤90 günlük sorular oynamıyor. Mayın iddiası izlemede.",
+   "sources": [
+    "https://www.bairdmaritime.com/security/incidents/projectile-strikes-outbound-tanker-in-strait-of-hormuz-sparks-fire",
+    "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
+    "https://www.aa.com.tr/en/middle-east/iran-says-tanker-catches-fire-after-striking-naval-mines-near-omans-khasab-port/4132530"
+   ],
+   "bagli": [
+    "on-enerji-hurmuz-gecis",
+    "pk-2026-11-20-motorin-95-aralik",
+    "pk-2026-11-18-hurmuz-acilis"
+   ],
+   "yonlendirme": "Günün Dosyası",
+   "klasor": "posts/2026-11-21-gunun-dosyasi"
+  },
+  {
+   "id": "senato-iran-savas-yetkisi",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "ABD Senatosu 19 Kasım'da İran savaşına ilişkin savaş yetkileri kararını 51–48 ile engelledi; Trump Axios'a İran'la ilgili sonraki adıma yeni yıldan önce karar vermeyeceğini söyledi.",
+   "rationale": "Beklenen sonuç; pk-2026-11-18-abd-iran-ateskes oynamıyor.",
+   "sources": [
+    "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+   ],
+   "yonlendirme": "zayıf sinyal (tek ikincil kaynak)"
+  },
+  {
+   "id": "anthropic-halka-arz",
+   "class": "YEŞİL",
+   "risk": "yz-issizlik",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "Anthropic hisseleri 19 Kasım'da işlem görmeye başladı (halka arz fiyatı 83 $); 20 Kasım'da %8,5 düşüşle 88,91 $'dan kapandı.",
+   "rationale": "Çıkar çatışması notu: Planck içeriği Anthropic'in modeli Claude ile hazırlanıyor; bu olay ayrı içerik yapılmadı, ana içerikte de anılmadı.",
+   "sources": [
+    "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+    "https://en.bloomingbit.io/feed/news/124916"
+   ],
+   "yonlendirme": "bağlam"
+  },
+  {
+   "id": "icj-myanmar-soykirim",
+   "class": "YEŞİL",
+   "risk": "kurumlar",
+   "delta": 0,
+   "lr": 1.0,
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "UAD 19 Kasım'da Myanmar'ın Rohingyalara karşı soykırım yaptığına 9–6 karar verdi (Just Security'nin aktardığı haber); İngiltere Myanmar savunma ataşesini sınır dışı ediyor.",
+   "rationale": "19/20 Kasım taramalarında kaçırılmış; 24 saat penceresi dışında, ikinci kaynak bu turda okunmadı. Haftalık Zayıf Sinyal değerlendirmesine.",
+   "sources": [
+    "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+   ],
+   "yonlendirme": "zayıf sinyal (kaçırılan olay)"
+  }
+ ]
+}

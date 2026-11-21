@@ -467,6 +467,57 @@
     "https://www.forbes.com.tr/ekonomi/tuketici-guven-endeksi-kasim-ayinda-yukseldi",
     "https://www.ahaber.com.tr/ekonomi/2026/11/20/tuketici-guven-endeksi-kasim-ayinda-yuzde-2-4-yukseldi"
    ]
+  },
+  {
+   "tarih": "2026-11-21",
+   "id": "senato-iran-savas-yetkisi",
+   "tema": "ABD–İran savaşı iç siyaset",
+   "bagli": [],
+   "olay": "ABD Senatosu 19 Kasım'da İran savaşına ilişkin savaş yetkileri kararını 51–48 ile engelledi; Trump Axios'a İran'la ilgili sonraki adıma yeni yıldan önce karar vermeyeceğini söyledi.",
+   "neden_zayif": "Beklenen sonuç; pk-2026-11-18-abd-iran-ateskes oynamıyor.",
+   "kaynaklar": [
+    "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+   ]
+  },
+  {
+   "tarih": "2026-11-21",
+   "id": "anthropic-halka-arz",
+   "tema": "Yapay zekâ şirketleri piyasası",
+   "bagli": [],
+   "olay": "Anthropic hisseleri 19 Kasım'da işlem görmeye başladı (halka arz fiyatı 83 $); 20 Kasım'da %8,5 düşüşle 88,91 $'dan kapandı.",
+   "neden_zayif": "Çıkar çatışması notu: Planck içeriği Anthropic'in modeli Claude ile hazırlanıyor; bu olay ayrı içerik yapılmadı, ana içerikte de anılmadı.",
+   "kaynaklar": [
+    "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+    "https://en.bloomingbit.io/feed/news/124916"
+   ]
+  },
+  {
+   "tarih": "2026-11-21",
+   "id": "icj-myanmar-soykirim",
+   "tema": "Uluslararası yargı",
+   "bagli": [],
+   "olay": "UAD 19 Kasım'da Myanmar'ın Rohingyalara karşı soykırım yaptığına 9–6 karar verdi (Just Security'nin aktardığı haber); İngiltere Myanmar savunma ataşesini sınır dışı ediyor.",
+   "neden_zayif": "19/20 Kasım taramalarında kaçırılmış; 24 saat penceresi dışında, ikinci kaynak bu turda okunmadı. Haftalık Zayıf Sinyal değerlendirmesine.",
+   "kaynaklar": [
+    "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+   ]
+  },
+  {
+   "tarih": "2026-11-21",
+   "id": "hurmuz-hasab-tanker-20kasim",
+   "tema": "Hürmüz tanker saldırıları",
+   "bagli": [
+    "on-enerji-hurmuz-gecis",
+    "pk-2026-11-20-motorin-95-aralik",
+    "pk-2026-11-18-hurmuz-acilis"
+   ],
+   "olay": "UKMTO: 20 Kasım ~15:00 GMT'de Hasab'ın ~8 deniz mili kuzeyinde Hürmüz'den çıkan bir tankere bilinmeyen mermi isabet etti, yangın, yaralı yok. IRGC tankerin mayına çarptığını iddia etti (doğrulanmadı). gCaptain/Orbital: son 7 günde 15 saldırı (+%50); UKMTO: trafik savaş öncesinin ~%65 altında.",
+   "neden_zayif": "Süren eğilim; ≤90 günlük sorular oynamıyor. Mayın iddiası izlemede.",
+   "kaynaklar": [
+    "https://www.bairdmaritime.com/security/incidents/projectile-strikes-outbound-tanker-in-strait-of-hormuz-sparks-fire",
+    "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
+    "https://www.aa.com.tr/en/middle-east/iran-says-tanker-catches-fire-after-striking-naval-mines-near-omans-khasab-port/4132530"
+   ]
   }
  ]
 }
