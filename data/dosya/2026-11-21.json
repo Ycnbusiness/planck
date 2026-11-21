@@ -1,6 +1,6 @@
 {
  "date": "21 KASIM 2026",
- "lede": "Hürmüz'de tankerlere saldırılar sıklaşıyor; ABD Başkanı yurt dışında veri merkezi kuran şirketleri vergiyle tehdit etti.",
+ "lede": "Hürmüz'de tankerlere saldırılar sürüyor; ABD Başkanı yurt dışında veri merkezi kuran şirketleri vergiyle tehdit etti; Antalya'daki iklim zirvesi uzatmaya kaldı.",
  "items": [
   {
    "tag": "Enerji",
@@ -12,7 +12,7 @@
    "deadline": "31.03.2027",
    "pq": "İstanbul'da motorin 1 Aralık'ta litresi 95 TL'yi aşar mı?",
    "pp": 25,
-   "pdo": "Saldırılar sürüyor; bu tek olay iki soruyu da oynatmadı. İzlenecek gösterge: UKMTO'nun haftalık geçiş verisi."
+   "pdo": "Bu tek olay iki soruyu da oynatmadı. Sayılabilir taban yok: bu tür 100 tahminimizin yaklaşık 26'sının ve 25'inin gerçekleşmesini bekleriz. İzlenecek gösterge: UKMTO'nun haftalık geçiş verisi."
   },
   {
    "tag": "Teknoloji",
@@ -20,6 +20,23 @@
    "text": "ABD Başkanı 20 Kasım'da Beyaz Saray'daki basın toplantısında, yurt dışında veri merkezi kuran ABD şirketlerine çok ağır vergi koyacaklarını söyledi. Şirket adı verilmedi, yazılı bir metin ya da yasal dayanak açıklanmadı.",
    "nosoru": "YAZILI METİN YOK",
    "pdo": "Tehdit henüz yazılı bir karara dönüşmedi; bu yüzden soru açmadık, sayı vermiyoruz. Yazılı metin gelirse soru açılır. İzlenecek gösterge: Beyaz Saray'dan kararname ya da yasa teklifi."
+  },
+  {
+   "tag": "İklim",
+   "title": "Antalya'daki iklim zirvesi uzatmaya kaldı",
+   "text": "COP31 müzakereleri planlanan 20 Kasım kapanışında sonuçlanmadı ve 21 Kasım'a uzadı. Dönem başkanlığı Türkiye'de, müzakere başkanlığı Avustralya'da olan zirvede 19 Kasım'da yayımlanan ikinci taslaktan fosil yakıtlara yapılan atıflar ve 120 milyar dolarlık uyum finansmanı hedefi çıkarıldı. Fransa ve Panama açık bir geçiş taahhüdü istiyor, AB taslağı eleştirdi; Panama talepleri karşılanmazsa metni engelleyebileceğini bildirdi.",
+   "nosoru": "KARAR SAATLER İÇİNDE",
+   "pdo": "Açık soru, nihai metnin 2023'teki COP28'de kabul edilen fosil yakıtlardan uzaklaşma ifadesini koruyup korumayacağı. Karar saatler içinde çıkacağı için soru açmadık. İzlenecek gösterge: kapanış genel kurulunda kabul edilen metin.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "not_kayit": "Öğle taraması 21.11: soru açılmadı (karar saatler içinde). Nihai metin çıkınca v2.2 §2 gereği izleyen analitik soru açılır (ör. COP32'ye kadar fosil yakıt geçiş yol haritası). Akşam turu 21:00'den önce nihai metni kontrol edip bu maddeyi günceller (data/izleme.json: cop31-nihai-metin)."
   }
  ],
  "question": "Sizce yapay zekâ yatırımı nerede yapılacağı, ne kadar yapılacağından daha mı önemli hale geliyor?"

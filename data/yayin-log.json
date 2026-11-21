@@ -466,6 +466,33 @@
     "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
     "https://www.aa.com.tr/en/middle-east/iran-says-tanker-catches-fire-after-striking-naval-mines-near-omans-khasab-port/4132530"
    ]
-  }
+  },
+  "guncellemeler": [
+   {
+    "tarih": "2026-11-21T12:50",
+    "tur": "öğle taraması",
+    "degisiklik": "COP31 uzatması 3. madde; Hürmüz sayfasına 100'de 25 ve frekans cümlesi; kapak 'sıklaşıyor'→'sürüyor'",
+    "editor": {
+     "hukum": "YAYINLA",
+     "turlar": 2,
+     "duzeltmeler": [
+      "'fosil yakıt bölümü' → 'atıflar'",
+      "ortak başkanlık → dönem başkanlığı Türkiye, müzakere başkanlığı Avustralya",
+      "AB/Panama cümlesi kaynak diline çekildi",
+      "Peki biz? yüzdesine 100'de X (dosya.js)",
+      "frekans cümlesi eklendi",
+      "haber puanı ve S×K kaydı"
+     ],
+     "kosul": "21:00 öncesi izleme cop31-nihai-metin kontrolü",
+     "kaynaklar_yeniden": [
+      "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651",
+      "https://www.clickorlando.com/news/world/2026/11/21/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming/",
+      "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime",
+      "https://www.devdiscourse.com/article/international/4009614-cop31-draft-drops-fossil-fuel-language-as-talks-near-deadline",
+      "https://www.antalyaekspres.com.tr/antalyadaki-cop31-tarihe-gecti"
+     ]
+    }
+   }
+  ]
  }
 ]

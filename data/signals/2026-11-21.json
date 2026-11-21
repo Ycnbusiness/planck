@@ -168,6 +168,71 @@
     "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
    ],
    "yonlendirme": "zayıf sinyal (kaçırılan olay)"
+  },
+  {
+   "id": "cop31-uzatma",
+   "ogle": true,
+   "class": "YEŞİL",
+   "risk": "iklim",
+   "delta": 0,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Antalya'daki COP31 müzakereleri planlanan 20 Kasım kapanışında sonuçlanmadı, 21 Kasım'a uzadı; 20 Kasım akşamı yalnız teknik kararlar (Paris Anlaşması 6. madde dahil) kabul edildi. 19 Kasım'daki ikinci taslaktan fosil yakıt atıfları ve 120 milyar $ uyum finansmanı hedefi çıkarıldı. Fransa ve Panama açık geçiş taahhüdü istiyor, AB taslağı eleştirdi, Panama engelleme tehdidinde. Dönem Başkanı Kurum üçüncü taslağın 21 Kasım'da yayımlanacağını söyledi; 12:13 TSİ itibarıyla görüşmeler sürüyordu.",
+   "rationale": "Haber kapısı 5 (küresel ölçek, Türkiye ev sahibi; COP28 'fosil yakıtlardan uzaklaşma' dilinden olası geri adım; birden çok açık uç). Sicilde iklim/COP sorusu yok; karar saatler içinde çıkacağı için v2.2 §2 sorusu açılmadı (açılış anında sonuç belli olabilir). Nihai metin çıkınca izleyen analitik soru açılmalı (iklim alanı portföy hedefi ≥3). S 0 × K 1 → olasılıksız Dosya maddesi.",
+   "sources": [
+    "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651",
+    "https://www.clickorlando.com/news/world/2026/11/21/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming/",
+    "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime",
+    "https://www.devdiscourse.com/article/international/4009614-cop31-draft-drops-fossil-fuel-language-as-talks-near-deadline",
+    "https://www.sondakika.com/dunya/haber-cop31-baskani-kurum-bitis-cizgisine-henuz-ulasamad-20447724/"
+   ],
+   "yonlendirme": "Günün Dosyası (olasılıksız, 3. madde)",
+   "klasor": "posts/2026-11-21-gunun-dosyasi",
+   "editor": "DÜZELT (1. tur) → YAYINLA (2. tur), ayrı alt çalıştırma"
+  },
+  {
+   "id": "suriye-fakulteler-kapatildi",
+   "ogle": true,
+   "class": "YEŞİL",
+   "risk": null,
+   "delta": 0,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 0,
+    "yenilik": 1,
+    "acik_uc": 0,
+    "puan": 1
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Resmî Gazete 21.11.2026: Cumhurbaşkanı kararıyla Gaziantep Üniversitesi ve Sağlık Bilimleri Üniversitesi'nin Suriye'deki fakülte ve yüksekokulları kapatıldı (karar 12016); YÖK–Suriye Yükseköğretim Bakanlığı mutabakat zaptı onaylandı (12015). Aynı sayıda Pakistan ile hidrokarbon iş birliği protokolü (12013).",
+   "rationale": "Haber kapısının altında (1). Sabah penceresinde yayımlanmış ama sabah taraması kaydetmemiş; öğle taramasında zayıf sinyale.",
+   "sources": [
+    "https://www.bloomberght.com/resmi-gazete-de-bugun-21112026-3795363",
+    "https://www.memurlar.net/haber/1184759/21-kasim-2026-dan-onemli-gundem-basliklari.html"
+   ],
+   "yonlendirme": "zayıf sinyal"
   }
- ]
+ ],
+ "ogle": {
+  "tarama": "2026-11-21 öğle (≈12:10–13:00 TSİ), pencere 04:00 → 12:30 TSİ",
+  "ana_akis": 0,
+  "dosya": 1,
+  "story": 0,
+  "zayif": 1,
+  "kirmizi_cizgi": 0,
+  "izleme_yeni": 1,
+  "not": "Cumartesi sabahı sakin; ana akış adayı yok. COP31 uzatması Günün Dosyası'na 3. madde olarak eklendi, Dosya yeniden üretildi ve editörden geçti (DÜZELT → YAYINLA). Editör düzeltmeleri Hürmüz sayfasına da işlendi (100'de 25, frekans cümlesi; news/dosya.js). Sicil değişmedi. Pencere dışı/eski olarak elenenler: Nvidia SEC soruşturması ve Huang'ın geri alınmayacağı (17.11), Senato İran oylaması (19.11), Suudi koalisyonu–Husi Hudeyde (20.11), Ukrayna gece saldırıları (rutin, yeni bulgu yok)."
+ }
 }

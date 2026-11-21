@@ -19,6 +19,7 @@
   "tur": "dosya",
   "klasor": "posts/2026-11-21-gunun-dosyasi",
   "onem": 0,
-  "editor": "YAYINLA (2. tur)"
+  "editor": "YAYINLA (öğle, 2. tur)",
+  "not": "Öğle taraması: COP31 uzatması 3. madde olarak eklendi (5 sayfa). Editör 1. tur DÜZELT (COP31 ifadeleri, 100'de 25, frekans cümlesi) → 2. tur YAYINLA. KOŞUL: yayından önce data/izleme.json 'cop31-nihai-metin' kontrol edilir; nihai metin kabul edildiyse 4. sayfa, kapak ve caption güncellenip editörden yeniden geçer."
  }
 ]

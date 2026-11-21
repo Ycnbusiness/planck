@@ -103,6 +103,18 @@
     "2026-11-20 öğle: tek kaynak (AFP canlı yayın, pressnewsagency aktarımı).",
     "2026-11-20 akşam: doğrulandı. Polonya Savunma Bakanı Kosiniak-Kamysz iki füze (biri Kh-101) ve jet motorlu bir İHA'nın Nowy Lipowiec, Mołodycz, Rudnik nad Sanem'e düştüğünü açıkladı; yaralı yok. Tusk kaza olmadığını söyledi; Rutte NATO jetlerinin havalandığını yazdı. Madde 4 adıyla talep yok; Varşova acil müttefik toplantısı ve Eastern Sentry takviyesi isteyecek. Kaynak: Guardian/Irish Times, Avrupa Pravda, AFP, UPI. İşlem: on-catisma-rusya-ateskes %15→%12, pb-2026-W46-2 %11→%9 (sessiz); Günün Dosyası."
    ]
+  },
+  {
+   "id": "cop31-nihai-metin",
+   "acilis": "2026-11-21",
+   "olay": "COP31 (Antalya) uzatmaya kaldı; üçüncü taslak ve nihai karar 21 Kasım'da bekleniyor (12:13 TSİ itibarıyla görüşmeler sürüyordu).",
+   "durum": "açık",
+   "eksik": "Kapanış genel kurulunda kabul edilen nihai metin (UNFCCC, Reuters/AP/AFP/AA)",
+   "olursa": "Akşam turu 21:00 Günün Dosyası'ndan ÖNCE: nihai metin kabul edildiyse posts/2026-11-21-gunun-dosyasi 4. sayfa başlığı/metni/'KARAR SAATLER İÇİNDE' etiketi, kapak satırı (lede) ve caption sonuca göre yeniden yazılır (data/dosya/2026-11-21.json → news/dosya.js), editörden yeniden geçer. Metin fosil yakıt dilini içeriyor mu, Panama engelledi mi iki kaynakla yazılır. Ardından v2.2 §2 gereği izleyen analitik soru açılır (iklim alanı). Kabul edilmediyse metin olduğu gibi kalır.",
+   "bitis": "2026-11-22",
+   "notlar": [
+    "2026-11-21 öğle: editör (2. tur) YAYINLA, koşul: bu öğe akşam turu tarafından kontrol edilecek."
+   ]
   }
  ]
 }
