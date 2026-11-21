@@ -1,5 +1,5 @@
 {
- "date": "21 KASIM 2026",
+ "date": "22 KASIM 2026",
  "tag": "Şirketler",
  "haber": {
   "title": "Nvidia CEO'suz kaldı: yerine kim gelir, Huang döner mi?",
@@ -9,15 +9,39 @@
  "neden": {
   "text": "Ayrılık, Huang'ın ABD yetkililerince Çin istihbaratıyla bağlantılı görülen bir şirket yöneticisiyle ilişkisinin ortaya çıkmasıyla başladı. Kurul, Huang'ın yabancı istihbarat hedefi olup olmadığını inceliyor; SEC'in de soruşturma açtığı bildirildi. Huang Aralık'ta Kongre'de ifade verecek.",
   "taraflar": [
-   ["Yönetim kurulu", "Huang'ı göreve iade etme niyeti olmadığını, iç ve dış adayları değerlendireceğini söylüyor."],
-   ["Huang", "Özür diledi; istenirse dönmekten onur duyacağını açıkladı."],
-   ["ABD yönetimi", "Başkan Huang'ın dönmesini istiyor; Hazine Bakanı ise dışarıdan bir CEO ve köklü değişiklik çağrısı yaptı."]
+   [
+    "Yönetim kurulu",
+    "Huang'ı göreve iade etme niyeti olmadığını, iç ve dış adayları değerlendireceğini söylüyor."
+   ],
+   [
+    "Huang",
+    "Özür diledi; istenirse dönmekten onur duyacağını açıkladı."
+   ],
+   [
+    "ABD yönetimi",
+    "Başkan Huang'ın dönmesini istiyor; Hazine Bakanı ise dışarıdan bir CEO ve köklü değişiklik çağrısı yaptı."
+   ]
   ]
  },
  "neolur": [
-  {"q": "Nvidia 15 Şubat'a kadar kalıcı bir CEO açıklar mı?", "p": 25, "deadline": "15.02.2027", "not": "MOTOR %30 · AYAR −5"},
-  {"q": "Huang 15 Şubat'a kadar yeniden CEO olarak açıklanır mı?", "p": 15, "deadline": "15.02.2027", "not": "MOTOR %8 · AYAR +7"},
-  {"q": "Nvidia 19 Şubat'a kadar Çin'e yapay zekâ çipi satışını yeniden başlatır mı?", "p": 15, "deadline": "19.02.2027", "not": "TABANI YOK"}
+  {
+   "q": "Nvidia 15 Şubat'a kadar kalıcı bir CEO açıklar mı?",
+   "p": 25,
+   "deadline": "15.02.2027",
+   "not": "MOTOR %30 · AYAR −5"
+  },
+  {
+   "q": "Huang 15 Şubat'a kadar yeniden CEO olarak açıklanır mı?",
+   "p": 15,
+   "deadline": "15.02.2027",
+   "not": "MOTOR %8 · AYAR +7"
+  },
+  {
+   "q": "Nvidia 19 Şubat'a kadar Çin'e yapay zekâ çipi satışını yeniden başlatır mı?",
+   "p": 15,
+   "deadline": "19.02.2027",
+   "not": "TABANI YOK"
+  }
  ],
  "olasilik": {
   "q": "Nvidia 15 Şubat 2027'ye kadar kalıcı bir CEO açıklar mı?",
@@ -34,5 +58,34 @@
   "gosterge": "Kongre ifadesi (Aralık), kurulun arama firması seçimi, Nvidia'nın Çin lisansı açıklamaları.",
   "eylem": "Bireysel olarak yapılacak bir şey yok. İzlenecek gösterge: kurulun arama firması ve aday açıklaması; yapay zekâ altyapısına yatırım yapan şirketler için Nvidia'nın müşteri finansmanı politikası."
  },
- "question": ""
+ "question": "",
+ "senaryolar": {
+  "baslik": "15 Şubat'a kadar üç yol",
+  "dallar": [
+   {
+    "ad": "Kress geçici olarak sürer",
+    "p": 65,
+    "kosul": "Kurul acele etmez; arama, soruşturmalar bitene kadar sürer.",
+    "olursa": "Finans disiplini öne çıkar: müşterilere verilen dev finansman küçülür (Ohio veri merkezi planı 250'den 120 milyar dolara inmişti). Yapay zekâ altyapısı kuran girişimlerin para bulması zorlaşır. Çin'e çip yok.",
+    "emsal": "Ani ayrılıktan sonra büyük şirketlerde geçici dönem çoğunlukla aylar sürer.",
+    "iz": "Arama firmasının seçilmesi; yeni müşteri yatırımı duyuruları."
+   },
+   {
+    "ad": "Yeni kalıcı CEO açıklanır",
+    "p": 20,
+    "kosul": "Kurul hızlı karar verir: içeriden (Buck, Kress) ya da Arm CEO'su Rene Haas gibi eski bir Nvidia yöneticisi.",
+    "olursa": "İçeriden gelirse ürün yol haritası korunur. Dışarıdan gelirse, Hazine Bakanı'nın istediği gibi, strateji ve Çin tavrı yeniden yazılır.",
+    "emsal": "Microsoft 2014: içeriden atama, duyurudan altı ay sonra geldi.",
+    "iz": "Aday sızıntıları; Aralık'taki Kongre ifadesinden sonra kurulun açıklaması."
+   },
+   {
+    "ad": "Huang geri döner",
+    "p": 15,
+    "kosul": "Kurul çoğunluğu değişir, SEC ve Kongre süreci ondan yana kapanır, Beyaz Saray tek ses olur. Bugün üçü de yok.",
+    "olursa": "Agresif yatırım ve müşteri finansmanı sürer; kurulun bağımsızlığı tartışılır; Çin politikası Washington pazarlığına bağlanır.",
+    "emsal": "Altman 2023'te OpenAI'a 5 günde döndü ama soruşturma yoktu. Ulusal güvenlik şüphesiyle ayrılıp dönen kurucu emsali yok.",
+    "iz": "Kurulda üye değişikliği; Huang'ın aday gösterebildiği iki üye."
+   }
+  ]
+ }
 }

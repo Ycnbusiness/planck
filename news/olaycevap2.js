@@ -44,7 +44,16 @@ S.push(frame(`<div class="eb mono">Neden?<b></b></div>
 <p class="b" style="margin-top:34px;font-size:34px;line-height:48px;color:#eef1f6">${SP.neden.text}</p>
 <div style="margin-top:34px">${(SP.neden.taraflar||[]).map(t=>`<div style="border-top:2px solid ${DIM};padding:20px 0;display:grid;grid-template-columns:220px 1fr;gap:24px"><span class="mono" style="font-size:22px;color:${BLUE}">${t[0]}</span><span style="font-size:28px;line-height:39px;color:#c9d0db">${t[1]}</span></div>`).join('')}</div>
 <p class="mono" style="margin-top:auto;font-size:18px;color:${MUT}">TARAFLARIN SÖYLEDİKLERİ · KENDİ CÜMLELERİMİZLE · İDDİA OLGU DEĞİLDİR</p>`, 2));
-// 3 · Ne olur?
+// 3 · Ne olur? — senaryo modu (v2.2, Yusuf 21.11: ürün analiz, yüzde ağırlıktır)
+// spec.senaryolar: {baslik, dallar:[{ad, p, kosul, olursa, emsal, iz}]}
+if (SP.senaryolar) { const sc = SP.senaryolar;
+S.push(frame(`<div class="eb mono">Ne olur? · Senaryolar<b></b></div>
+<h2 style="margin-top:24px;font-size:54px;line-height:60px">${sc.baslik}</h2>
+<div style="margin-top:22px">${sc.dallar.map(d=>`<div style="border-top:2px solid ${DIM};padding:18px 0">
+<div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:32px;font-weight:700">${d.ad}</span><span class="mono" style="font-size:20px;color:${BLUE}">AĞIRLIK %${d.p}</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:6px 18px;margin-top:10px;font-size:23px;line-height:31px">
+${[['KOŞUL',d.kosul],['OLURSA',d.olursa],['EMSAL',d.emsal],['İZ',d.iz]].filter(r=>r[1]).map(r=>`<span class="mono" style="font-size:17px;color:${MUT};padding-top:5px">${r[0]}</span><span style="color:${r[0]==='OLURSA'?'#eef1f6':'#c9d0db'}">${r[1]}</span>`).join('')}</div></div>`).join('')}</div>`, 3));
+} else
 S.push(frame(`<div class="eb mono">Ne olur?<b></b></div>
 <h2 style="margin-top:28px;font-size:60px;line-height:66px">Olayın kendisi değil, sonuçları</h2>
 <div style="margin-top:30px">${SP.neolur.map(q=>`<div style="border-top:2px solid ${DIM};padding:24px 0;display:flex;gap:28px;align-items:center">
