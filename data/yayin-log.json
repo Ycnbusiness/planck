@@ -558,5 +558,36 @@
       "ai_etiketi": true,
       "facebook": false
     }
+  },
+  {
+    "tarih": "2026-11-21T22:04",
+    "tur": "dosya",
+    "kanal": "news",
+    "klasor": "posts/2026-11-21-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 21 Kasım 2026",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-21T22:35",
+    "sorular": [
+      "on-enerji-hurmuz-gecis",
+      "pk-2026-11-20-motorin-95-aralik"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "kaynaklar_yeniden": [
+        "https://www.cnbc.com/amp/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html",
+        "https://www.arabnews.com/middle-east/maritime-agency-says-2-tankers-struck-in-hormuz-as-iran-says-ship-on-fire-3013341",
+        "https://www.manilatimes.net/2026/11/21/world/un-news/cop31-countries-demand-stronger-climate-deal-as-talks-in-antalya-reach-final-day/2475463"
+      ],
+      "duzeltmeler": [
+        "eski 'Bu içerik…' satırı kaldırıldı",
+        "21:00 Chrome onayı beklerken kaçtı → 22:35"
+      ]
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 5 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
   }
 ]

@@ -4,7 +4,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 
 ## Hafta 1 · 17–23 Kas — ölç ve hazırlan
 
-**Yöntem v2.2 (21.11, Yusuf):** 21.11 sabah: Nvidia Olay ve Cevap (11:00) + dokuz alanlı portföy için en az 15 yeni soru (her alanda ≥3 hedefi; Anayasa §2) · 18–19.11 olaylarını haber kapısıyla yeniden puanla, sonucu Yusuf'a yaz.
+**Yöntem v2.2 (21.11, Yusuf):** 21.11 sabah: Nvidia Olay ve Cevap (11:00) + dokuz alanlı portföy için en az 15 yeni soru (her alanda ≥3 hedefi; Anayasa §2) · [x] 18–19.11 olaylarını haber kapısıyla yeniden puanla (21.11: `ekip/AB-TEST-2-v22.md`).
 
 **Takvim (18.11 Yusuf uyarısı sonrası):** 19.11 kare dizisi + künye + Olay ve Cevap v2 betiği, örnek Yusuf'a · 20.11 risk-catisma düzeltmesi + nv-1 taslağı · 21.11 taban ölçümü Story'leri. Her tur en az bir maddeyi bitirir ve Yusuf'a yazar.
 - [x] 16.11 · 10–16 Kasım sinyallerinde S×K geriye dönük hesaplandı (`ekip/AB-TEST-1.md`). Eşikler kalır; S kısa vadeli soruda ölçülür, 2031 endeksinde değil.
