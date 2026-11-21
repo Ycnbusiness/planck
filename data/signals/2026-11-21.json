@@ -223,6 +223,37 @@
     "https://www.memurlar.net/haber/1184759/21-kasim-2026-dan-onemli-gundem-basliklari.html"
    ],
    "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "hurmuz-iki-tanker-21kasim",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "lr": 0.8,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.22,
+   "K": 2,
+   "onem": 0.45,
+   "turkiye_bagi": 1,
+   "event": "UKMTO: 21 Kasım sabahı Hürmüz'den çıkan iki tanker ayrı ayrı bilinmeyen mermiyle vuruldu (biri kıçtan, biri makine dairesinden), yaralı yok. İran donanması bir tankerin boğazın doğusunda yasak bölgede mayına çarpıp yandığını iddia etti; devlet medyası gece operasyonlarını 'en yoğun ve çeşitli' diye niteledi. IRGC ayrıca ABD insansız hava araçları düşürdüğünü iddia etti (ABD doğrulaması yok, işlenmedi).",
+   "rationale": "Saldırı temposu artıyor: on-enerji-hurmuz-gecis 26→22 (LR 0,8, zayıf). 2031 enerji riski oynamadı. Motorin ve şartsız açılış soruları değişmedi. Story'ye gitmedi; sabahki Hasab maddesinin yerine Dosya 1. sayfası güncellendi.",
+   "sources": [
+    "https://www.clickondetroit.com/news/world/2026/11/21/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/",
+    "https://www.newarab.com/news/ukmto-says-2-tankers-struck-hormuz-iran-says-ship-fire",
+    "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled"
+   ],
+   "bagli": [
+    "on-enerji-hurmuz-gecis",
+    "pk-2026-11-20-motorin-95-aralik",
+    "pk-2026-11-18-hurmuz-acilis"
+   ],
+   "yonlendirme": "Günün Dosyası (1. sayfa güncellendi)",
+   "klasor": "posts/2026-11-21-gunun-dosyasi"
   }
  ],
  "ogle": {
@@ -234,5 +265,15 @@
   "kirmizi_cizgi": 0,
   "izleme_yeni": 1,
   "not": "Cumartesi sabahı sakin; ana akış adayı yok. COP31 uzatması Günün Dosyası'na 3. madde olarak eklendi, Dosya yeniden üretildi ve editörden geçti (DÜZELT → YAYINLA). Editör düzeltmeleri Hürmüz sayfasına da işlendi (100'de 25, frekans cümlesi; news/dosya.js). Sicil değişmedi. Pencere dışı/eski olarak elenenler: Nvidia SEC soruşturması ve Huang'ın geri alınmayacağı (17.11), Senato İran oylaması (19.11), Suudi koalisyonu–Husi Hudeyde (20.11), Ukrayna gece saldırıları (rutin, yeni bulgu yok)."
+ },
+ "aksam": {
+  "tarama": "2026-11-21 akşam (≈20:00–20:40 TSİ), pencere 08:00 → 20:30 TSİ",
+  "dosya": 3,
+  "ana_akis": 0,
+  "yeni_olay_cevap": 0,
+  "sicil": "on-enerji-hurmuz-gecis 26→22",
+  "cop31": "21 Kasım öğle itibarıyla nihai karar yok; üçüncü taslak yayımlanmamıştı (Irish Times 11:55 GMT, Euronews, Hürriyet Daily News). Akşam itibarıyla kabul edilmiş metin iki kaynakta bulunamadı; izleme açık kalır. AB'nin masadan kalkma sinyali tek kaynaklı ('understood'), işlenmedi.",
+  "elenen": "IRGC'nin ABD İHA'sı düşürme iddiası (tek taraflı, doğrulanmadı); İran'ın yeni füze rampası tanıtımı (gösteri, olgu yeni değil); Ukrayna'da yeni bulgu yok.",
+  "not": "Önem ≥12 olay yok. Yeni 'Peki Biz?' sorusu açılmadı."
  }
 }

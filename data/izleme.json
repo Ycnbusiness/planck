@@ -113,7 +113,8 @@
    "olursa": "Akşam turu 21:00 Günün Dosyası'ndan ÖNCE: nihai metin kabul edildiyse posts/2026-11-21-gunun-dosyasi 4. sayfa başlığı/metni/'KARAR SAATLER İÇİNDE' etiketi, kapak satırı (lede) ve caption sonuca göre yeniden yazılır (data/dosya/2026-11-21.json → news/dosya.js), editörden yeniden geçer. Metin fosil yakıt dilini içeriyor mu, Panama engelledi mi iki kaynakla yazılır. Ardından v2.2 §2 gereği izleyen analitik soru açılır (iklim alanı). Kabul edilmediyse metin olduğu gibi kalır.",
    "bitis": "2026-11-22",
    "notlar": [
-    "2026-11-21 öğle: editör (2. tur) YAYINLA, koşul: bu öğe akşam turu tarafından kontrol edilecek."
+    "2026-11-21 öğle: editör (2. tur) YAYINLA, koşul: bu öğe akşam turu tarafından kontrol edilecek.",
+    "2026-11-21 akşam (20:30): nihai metin kabul edildiğine dair iki kaynak yok (son: Irish Times 11:55 GMT, üçüncü taslak yayımlanmamış). Dosya 4. sayfa metni 'öğle saatlerinde taslak yok' olarak güncellendi. Ana oturum 21:00 öncesi yeniden bakmalı."
    ]
   }
  ]

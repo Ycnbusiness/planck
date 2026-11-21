@@ -20,8 +20,8 @@
   "saat": "21:00",
   "tur": "dosya",
   "klasor": "posts/2026-11-21-gunun-dosyasi",
-  "onem": 0,
-  "editor": "YAYINLA (öğle, 2. tur)",
-  "not": "Öğle taraması: COP31 uzatması 3. madde olarak eklendi (5 sayfa). Editör 1. tur DÜZELT (COP31 ifadeleri, 100'de 25, frekans cümlesi) → 2. tur YAYINLA. KOŞUL: yayından önce data/izleme.json 'cop31-nihai-metin' kontrol edilir; nihai metin kabul edildiyse 4. sayfa, kapak ve caption güncellenip editörden yeniden geçer."
+  "onem": 0.45,
+  "editor": "YENİDEN GEÇMELİ (akşam güncellemesi)",
+  "not": "Akşam turu: Hürmüz sayfası 21 Kasım'daki iki tanker saldırısıyla güncellendi (geçiş sorusu 26→22), COP31 metni 'öğle itibarıyla taslak yok' olarak güncellendi, kapak ve caption yenilendi. KOŞUL: yayından önce data/izleme.json 'cop31-nihai-metin' kontrol edilir; nihai metin kabul edildiyse 4. sayfa, kapak ve caption güncellenir."
  }
 ]

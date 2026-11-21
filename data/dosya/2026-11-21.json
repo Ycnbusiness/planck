@@ -1,18 +1,18 @@
 {
  "date": "21 KASIM 2026",
- "lede": "Hürmüz'de tankerlere saldırılar sürüyor; ABD Başkanı yurt dışında veri merkezi kuran şirketleri vergiyle tehdit etti; Antalya'daki iklim zirvesi uzatmaya kaldı.",
+ "lede": "Hürmüz'de iki tanker daha vuruldu; ABD Başkanı yurt dışında veri merkezi kuran şirketleri vergiyle tehdit etti; Antalya'daki iklim zirvesi uzatmada.",
  "items": [
   {
    "tag": "Enerji",
-   "title": "Hürmüz'de bir tanker daha vuruldu",
-   "text": "UKMTO'ya göre 20 Kasım'da Umman'ın Hasab kentinin yaklaşık 8 deniz mili kuzeyinde bir tankere bilinmeyen bir mermi isabet etti, yangın çıktı, yaralı yok. İran Devrim Muhafızları tankerin mayına çarptığını iddia ediyor; bu iddia bağımsız olarak doğrulanmadı.",
+   "title": "Hürmüz'de iki tanker daha vuruldu",
+   "text": "UKMTO'ya göre 21 Kasım sabahı Hürmüz'den çıkan iki tanker ayrı ayrı mermiyle vuruldu, yaralı yok; bir gün önce de Hasab açıklarında bir tanker isabet almıştı. İran donanması bir tankerin mayına çarptığını iddia ediyor; bu iddia bağımsız olarak doğrulanmadı.",
    "risk": "Hürmüz'den günlük tanker geçişi 31 Mart 2027'ye kadar savaş öncesinin yarısına döner mi?",
    "from": 26,
-   "to": 26,
+   "to": 22,
    "deadline": "31.03.2027",
    "pq": "İstanbul'da motorin 1 Aralık'ta litresi 95 TL'yi aşar mı?",
    "pp": 25,
-   "pdo": "Bu tek olay iki soruyu da oynatmadı. Sayılabilir taban yok: bu tür 100 tahminimizin yaklaşık 26'sının ve 25'inin gerçekleşmesini bekleriz. İzlenecek gösterge: UKMTO'nun haftalık geçiş verisi."
+   "pdo": "Saldırı temposu arttığı için geçiş sorusunu 26'dan 22'ye indirdik; motorin sorusu değişmedi. Bu tür 100 tahminimizin yaklaşık 22'sinin ve 25'inin gerçekleşmesini bekleriz. İzlenecek gösterge: UKMTO geçiş verisi."
   },
   {
    "tag": "Teknoloji",
@@ -24,7 +24,7 @@
   {
    "tag": "İklim",
    "title": "Antalya'daki iklim zirvesi uzatmaya kaldı",
-   "text": "COP31 müzakereleri planlanan 20 Kasım kapanışında sonuçlanmadı ve 21 Kasım'a uzadı. Dönem başkanlığı Türkiye'de, müzakere başkanlığı Avustralya'da olan zirvede 19 Kasım'da yayımlanan ikinci taslaktan fosil yakıtlara yapılan atıflar ve 120 milyar dolarlık uyum finansmanı hedefi çıkarıldı. Fransa ve Panama açık bir geçiş taahhüdü istiyor, AB taslağı eleştirdi; Panama talepleri karşılanmazsa metni engelleyebileceğini bildirdi.",
+   "text": "COP31 müzakereleri planlanan 20 Kasım kapanışında sonuçlanmadı; 21 Kasım öğle saatlerinde beklenen üçüncü taslak henüz yayımlanmamıştı. 19 Kasım taslağından fosil yakıt atıfları ve 120 milyar dolarlık uyum finansmanı hedefi çıkarılmıştı; Panama fosil yakıtı anmayan metni engelleyeceğini bildirdi, AB de taslağı eleştirdi.",
    "nosoru": "KARAR SAATLER İÇİNDE",
    "pdo": "Açık soru, nihai metnin 2023'teki COP28'de kabul edilen fosil yakıtlardan uzaklaşma ifadesini koruyup korumayacağı. Karar saatler içinde çıkacağı için soru açmadık. İzlenecek gösterge: kapanış genel kurulunda kabul edilen metin.",
    "haber_kapisi": {

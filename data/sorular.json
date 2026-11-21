@@ -1325,8 +1325,8 @@
     "Finans/sigorta: savaş riski primleri anlaşma olmadan düşmez"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: yazılı anlaşma olmadan fiilî geçiş düzeninin (Umman koridoru) trafiği hızla yarıya taşıması.",
-   "motor": 30,
-   "p": 26,
+   "motor": 30.0,
+   "p": 22,
    "ilk_p": 35,
    "durum": "acik",
    "sonuc": null,
@@ -1355,6 +1355,12 @@
      "p": 26,
      "motor": 30,
      "neden": "Akşam: UKMTO, 16 Kasım 05:58 UTC'de Hürmüz'den çıkan bir tankerin kimliği belirsiz bir mermiyle vurulduğunu, makine dairesinde yangın çıktığını bildirdi (ABC, Reuters/IBTimes, Arab News); IRGC güney rotasında mayın iddiası doğrulanmadı. Geçiş trafiğine dönük saldırının sürdüğünü doğrulayan zayıf kanıt (LR 0,8)"
+    },
+    {
+     "t": "2026-11-21",
+     "p": 22,
+     "motor": 30.0,
+     "neden": "Akşam 21.11: UKMTO'ya göre Cumartesi sabahı Hürmüz'den çıkan iki tanker ayrı ayrı mermiyle vuruldu (AP, The New Arab); İran donanması bir tankerin mayına çarptığını iddia etti, devlet medyası gece operasyonlarını 'en yoğun' diye niteledi. Saldırı temposu artıyor (LR 0,8, zayıf)."
     }
    ],
    "bagli": "risk-enerji"
