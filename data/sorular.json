@@ -2078,7 +2078,7 @@
    ],
    "on_otopsi": "Yanılırsak: Kasım TÜFE yukarı sürpriz yaptıysa ya da kur/rezerv baskısıyla TCMB duraklamayı seçtiyse.",
    "motor": 72,
-   "p": 70,
+   "p": 65,
    "ilk_p": 70,
    "durum": "acik",
    "sonuc": null,
@@ -2089,6 +2089,12 @@
      "p": 70,
      "motor": 72,
      "neden": "açılış (pilot hafta 1). Claude −2: Ekim sonrası rezervde zayıflama haberleri."
+    },
+    {
+     "t": "2026-11-22",
+     "p": 65,
+     "motor": 72,
+     "neden": "Zayıf Sinyal Defteri 1. haftalık toplu değerlendirme: 'dış finansman baskısı' teması tek kanıt (Fed tutanağı Aralık artırımı işareti 19.11 + TCMB rezervlerinde 13 Kasım haftası 2,11 milyar $ düşüş 20.11) → LR 0,8"
     }
    ]
   },
@@ -2402,7 +2408,7 @@
    ],
    "on_otopsi": "Yanılırsak: dezenflasyon hedefi için konut korunduysa (Kasım'daki gibi).",
    "motor": 55,
-   "p": 55,
+   "p": 60,
    "ilk_p": 55,
    "durum": "acik",
    "sonuc": null,
@@ -2413,6 +2419,12 @@
      "p": 55,
      "motor": 55,
      "neden": "açılış (pilot hafta 1). Okura doğrudan: kış faturası."
+    },
+    {
+     "t": "2026-11-22",
+     "p": 60,
+     "motor": 55,
+     "neden": "Zayıf Sinyal Defteri 1. haftalık toplu değerlendirme: 'Avrupa gaz arzı' teması tek kanıt (TTF ≈85 €/MWh, Troll arızası, düşük depo 19–20.11) → LR 1,25"
     }
    ]
   },

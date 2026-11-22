@@ -24,7 +24,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 
 ## Hafta 3 · 1–7 Ara
 - [ ] İlk "Sen Yüzde Kaç Dersin?" anketi
-- [ ] Zayıf Sinyal Defteri ilk toplu değerlendirme
+- [x] Zayıf Sinyal Defteri ilk toplu değerlendirme (22.11: `ekip/zayif-sinyal-hafta-1.md`; 2 güncelleme)
 - [ ] Aralık karnesi yeni kalıpla (ham döküm, örneklem cümlesi, yön hatası) — 7 Aralık pazartesi
 
 ## Hafta 4 · 8–14 Ara — karar

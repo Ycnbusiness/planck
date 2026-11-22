@@ -745,5 +745,31 @@
       "ai_etiketi": true,
       "facebook": false
     }
+  },
+  {
+    "tarih": "2026-11-22T20:44",
+    "tur": "dosya",
+    "kanal": "news",
+    "klasor": "posts/2026-11-22-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 22 Kasım 2026",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-22T21:10",
+    "sorular": [],
+    "editor": {
+      "hukum": "YAYINLA",
+      "kaynaklar_yeniden": [
+        "https://www.usnews.com/news/world/articles/2026-11-22/cop31-climate-deal-in-the-balance-after-fractious-talks",
+        "https://npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+      ],
+      "duzeltmeler": [
+        "açıklamaya künye v2 eklendi, eski satır kaldırıldı"
+      ]
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 4 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
   }
 ]
