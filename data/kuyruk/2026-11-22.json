@@ -3,11 +3,11 @@
   "saat": "—",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-21-nvidia-ceo",
-  "durum": "onaylandi-23.11-11:00",
+  "durum": "planlandi-23.11-11:00",
   "not": "Yusuf 22.11 09:38 'Onaylıyorum' (senaryo formatı). 23.11 11:00'e planlanacak; 22.11 09:45 deneme 'login_required' ile düştü (planck.news oturumu)."
  },
  {
-  "saat": "13:00",
+  "saat": "15:00",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-22-bahreyn-sivil-tesis",
   "onem": 0.67,
@@ -15,7 +15,7 @@
   "reel": "posts/2026-11-22-bahreyn-sivil-tesis/reel.mp4",
   "reel_saat": "15:00",
   "editor": "YAYINLA (3. tur)",
-  "durum": "koşullu",
+  "durum": "planlandi",
   "not": "Günlük taban (v2.2 §6). KOŞUL 1: öğle turu COP31'i değerlendirir; nihai metin kabul edildi ve haber puanı >4 ise taban COP31'e geçer, bu olay Günün Dosyası'na iner. KOŞUL 2: yayından hemen önce CENTCOM'un IRGC'nin Bahreyn açıklamasına cevap verip vermediğine bakılır; verdiyse 2. sayfa ABD satırı güncellenir. | ÖĞLE 22.11 12:40: Koşul 1 tetiklenmedi (COP31 sonucu doğrulanamadı; taban Bahreyn'de kalır). Koşul 2: CENTCOM cevabı bulunamadı; yayından hemen önce bir kez daha bakılır."
  },
  {
