@@ -71,6 +71,7 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
 30. Frekans cümlesi var mı (taban varsa gerçek sayılarla, yoksa "Tabanı yok")?
 31. %80 üstü ya da %20 altıysa ters taraf yazılmış mı ("100'de 12 durumda olmaz")?
 32. "Kesin", "kaçınılmaz", "felaket" gibi kelimeler, ünlem, emoji ya da kırmızı alarm estetiği var mı? → Varsa **DÜZELT**.
+33a. Senaryo sayfası (22.11): dallar birbirini dışlıyor mu, ağırlıklar toplamı 100 mü, her dalda koşul–olursa–emsal–iz var mı, emsal uydurma değil mi (yoksa "emsal yok")?
 33. Olay ve Cevap v2'de beş sayfa sırası tam mı (Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler)? 4. sayfada Motor ile ayar ayrı, 5. sayfada örneklem uyarısı var mı?
 34. Görselde taşma, yanlış tarih ya da yanlış hesap adı var mı? Editör PNG'ye bakar.
 

@@ -85,6 +85,8 @@ Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalı
 
 **6. Günlük taban.** Her gün en az **1 Olay ve Cevap ve 1 Günün Dosyası**. Ana akış eşiğini geçen olay yoksa günün en yüksek haber puanlı olayı Olay ve Cevap olur. Sessiz gün yalnız haber kapısını geçen hiçbir olay yoksa ilan edilir ve bunu tarama dosyasında olay listesiyle gerekçelendirir.
 
+**6a. Senaryo sayfası (Yusuf onayı 22.11.2026, HEMEN GEÇERLİ).** Olay ve Cevap'ın 3. sayfası "Ne olur? · Senaryolar"dır: 2–3 birbirini dışlayan dal, her dalda KOŞUL (bunun olması için ne gerekir), OLURSA (mekanizma ve sonuç), EMSAL (tarihte benzer durum; yoksa "emsal yok"), İZ (izlenecek işaret) ve en altta AĞIRLIK %. Dal ağırlıkları toplamı 100'dür ve sicildeki ilgili sorularla tutarlıdır. Ürün analizdir; yüzde ağırlıktır, manşet değildir. Spec alanı: `senaryolar: {baslik, dallar:[{ad,p,kosul,olursa,emsal,iz}]}` (news/olaycevap2.js). Eski `neolur` listesi yalnız senaryo kurulamayan takvimli veri olaylarında kullanılır.
+
 **7. Doğruluk aynen:** iki bağımsız kaynak, iddia ile olgu ayrımı, bahis dili yok, SPK çizgisi, künye. Gevşeyen "yayınlanır mı" kararıdır; "doğru mu" denetimi değişmez. Editör varsayılanı DÜZELT'tir; BEKLET yalnız olgu doğrulanamıyorsa ve en çok 6 saat sürer (sonra düşer ya da B katmanı kaynakla çıkar).
 
 ### Önem puanı ve yönlendirme (Yöntem v2)
