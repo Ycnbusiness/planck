@@ -1,0 +1,65 @@
+{
+ "date": "22 KASIM 2026",
+ "tag": "Körfez",
+ "haber": {
+  "title": "Bahreyn: İran saldırısında sivil sanayi tesisi isabet aldı",
+  "text": "Bahreyn İçişleri Bakanlığı, 21 Kasım gecesi İran'dan gelen saldırılarda sivil bir sanayi tesisinin hedef alındığını, yangın çıktığını ve maddi hasar oluştuğunu, yaralı olmadığını açıkladı. Bahreyn ordusu birden fazla hava saldırısını önlediğini duyurdu. Tesisin adı açıklanmadı.",
+  "kaynak": "Bahreyn İçişleri Bakanlığı, AFP, Al Jazeera"
+ },
+ "neden": {
+  "text": "Bahreyn bu hafta birkaç kez hedef oldu; AFP'ye göre haftalarca süren sakinlik sona erdi. Saldırılar, ABD ile İran arasında dolaylı görüşmelerin sürdüğü bir dönemde geliyor.",
+  "taraflar": [
+   [
+    "İran Devrim Muhafızları",
+    "Bahreyn'deki iki üste ABD mevzilerini füze ve İHA ile hedef aldığını, iki Patriot radarını vurduğunu açıkladı. Bu iddia bağımsız olarak doğrulanmadı."
+   ],
+   [
+    "Bahreyn",
+    "Saldırıyı İran saldırganlığı olarak niteledi; hasarın sivil bir sanayi tesisinde olduğunu söyledi. Radar iddiası hakkında açıklama yapmadı."
+   ],
+   [
+    "ABD",
+    "CENTCOM, Devrim Muhafızları'nın Bahreyn açıklamasıyla ilgili Reuters'ın sorusuna henüz yanıt vermedi. Ayrı bir olayda, İran'ın 20 Kasım'da bir ABD savaş uçağını vurduğu iddiasını reddetti."
+   ]
+  ]
+ },
+ "neolur": [
+  {
+   "q": "ABD ile İran 15 Şubat'a kadar resmî bir ateşkes ilan eder mi?",
+   "p": 15,
+   "deadline": "15.02.2027",
+   "from": 18,
+   "not": "ZAYIF KANIT · LR 0,8"
+  },
+  {
+   "q": "Brent 31 Aralık'a kadar herhangi bir gün 100 doların üstünde kapanır mı?",
+   "p": 42,
+   "deadline": "31.12.2026",
+   "from": 42,
+   "not": "DEĞİŞMEDİ · PİYASA PAZARTESİ AÇILIYOR"
+  },
+  {
+   "q": "İstanbul'da motorin 1 Aralık'ta litresi 95 TL'yi aşar mı?",
+   "p": 25,
+   "deadline": "01.12.2026",
+   "from": 25,
+   "not": "DEĞİŞMEDİ"
+  }
+ ],
+ "olasilik": {
+  "q": "ABD ile İran 15 Şubat 2027'ye kadar resmî bir ateşkes ilan eder mi?",
+  "motor": 20,
+  "ayar": -5,
+  "ayar_neden": "Bu hafta Bahreyn'e yönelik saldırılar yeniden başladı ve bu kez sivil bir tesiste hasar bildirildi; taraflar dolaylı görüşmeyi sürdürüyor ama sahadaki tırmanma uzlaşma zeminini daraltıyor. Kanıt zayıf (LR 0,8).",
+  "p": 15,
+  "aralik": "%14–17",
+  "frekans": "Tabanı zayıf: bu savaşta bir kez, Nisan 2026'da ateşkes ilan edildi; büyük çatışmalar durdu ama saldırılar sürüyor. 100'de 85 durumda 15 Şubat'a kadar resmî ateşkes olmaz."
+ },
+ "karne": {
+  "konu": "Bu konuda kapanmış sorumuz yok. ABD–İran ve Hürmüz sorularımız açık; kapandıkça burada.",
+  "genel": "Toplam 3 kapanış var; az örnek. 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "Bahreyn ve CENTCOM'un hasar açıklamaları; pazartesi Brent açılışı; UKMTO'nun Hürmüz uyarıları.",
+  "eylem": "Körfez'de yaşayan ya da oraya yolculuk planlayan okur: yerel makamların ve havayolunun duyurularını takip edin, uçuş durumunu yola çıkmadan kontrol edin. Türkiye'deki okur için bireysel olarak yapılacak bir şey yok; izlenecek gösterge pazartesi petrol fiyatı."
+ },
+ "question": "Sizce Körfez'deki bu tırmanma görüşmeleri hızlandırır mı, yavaşlatır mı?"
+}

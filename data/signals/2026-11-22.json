@@ -1,0 +1,119 @@
+{
+ "date": "2026-11-22",
+ "scan_window": "2026-11-21 20:30 → 2026-11-22 07:15 (TSİ)",
+ "yontem": "Yöntem v2.2 (TARAMA.md). Olay ve Cevap v2 (olaycevap2.js, 5 sayfa); görev metnindeki v1 (pekibiz.js) arşivde. Pazar: haftalık ritim 'Pazar boş' satırı v2'ye ait; v2.2 §6 günlük taban 'her gün' dediği için uygulandı (editör de aynı yorumda; tablo düzeltmesi Yusuf'a önerilecek). 'onem_eski' alanı görev metnindeki eski formülle.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "karne": "3 kapanış (karne.json yenilendi)"
+ },
+ "izleme": {
+  "not": "cop31-nihai-metin: kabul oturumu 22 Kasım 06:00 GMT (09:00 TSİ); tarama anında nihai metin kabul edilmemişti (Reuters/Al-Monitor, RTÉ). Öğle turu bakacak. hurmuz-uc-tanker-mayin: bugün bitiş; 21 Kasım'da İran yine mayın dedi, UKMTO 'bilinmeyen mermi' dedi; bağımsız mayın teyidi yok."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 0,
+  "yesil": 2,
+  "zayif": 3,
+  "not": "Ana akış eşiğini (S×K ≥1,4) geçen olay yok. Günlük taban (v2.2 §6): Bahreyn'de sivil tesis isabeti Olay ve Cevap (13:00, koşullu: COP31 kabul edilir ve daha yüksek haber puanı alırsa taban COP31'e geçer, Bahreyn Dosya'ya iner). Sicil: pk-2026-11-18-abd-iran-ateskes 18→15. 2031 risk olasılıkları değişmedi. Editör: DÜZELT → DÜZELT → YAYINLA (3 tur; 3. tur yalnız tek sayı)."
+ },
+ "events": [
+  {
+   "id": "bahreyn-sivil-tesis-21kasim",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 91,
+   "to": 91,
+   "lr": 0.8,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.22,
+   "K": 3,
+   "onem": 0.67,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0 (2031)| × TR 1 × etki 2 = 0",
+   "sorular": [
+    {
+     "id": "pk-2026-11-18-abd-iran-ateskes",
+     "plan": "18→15 (LR 0,8; üç geçiş 17/15/14)"
+    },
+    {
+     "id": "pk-2026-11-18-brent-100-dokunma",
+     "plan": "%42 değişmedi (piyasa kapalı)"
+    },
+    {
+     "id": "pk-2026-11-20-motorin-95-aralik",
+     "plan": "%25 değişmedi"
+    }
+   ],
+   "event": "Bahreyn İçişleri Bakanlığı: 21 Kasım gecesi İran saldırılarında sivil bir sanayi tesisi hedef alındı, yangın çıktı, maddi hasar var, yaralı yok; tesis adı verilmedi (AFP sakinlerden Sitra adası üzerinde duman). Bahreyn ordusu birden fazla hava saldırısını önlediğini duyurdu. IRGC Rifa ve Avali üslerinde iki ABD Patriot radarını vurduğunu iddia etti (doğrulanmadı). CENTCOM Reuters'a ilk aşamada yanıt vermedi.",
+   "rationale": "Bahreyn'e saldırılar bu hafta yeniden başladı (AFP: haftalarca süren sakinlik bitti); sivil tesiste hasar ateşkes sorusuna zayıf olumsuz kanıt. 2031 çatışma riski 91'de, eğilimi doğruluyor. K=3: Körfez'de yaşayan/seyahat eden okurun güvenliği ve seyahati.",
+   "sources": [
+    "https://sg.news.yahoo.com/bahrain-says-iran-struck-industrial-032110698.html",
+    "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+    "https://www.timesofisrael.com/bahrain-says-iranian-attack-hit-industrial-facility-irgc-says-it-targeted-us-positions/",
+    "https://www.siasat.com/two-us-radar-sites-targeted-in-bahrain-industrial-facility-hit-3583633/"
+   ],
+   "yonlendirme": "ana akış · Olay ve Cevap + Reel (günlük taban, koşullu)",
+   "klasor": "posts/2026-11-22-bahreyn-sivil-tesis"
+  },
+  {
+   "id": "cop31-kapanis-bekleniyor",
+   "class": "YEŞİL",
+   "risk": "iklim",
+   "delta": 0,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": null,
+   "K": 2,
+   "onem": null,
+   "turkiye_bagi": 2,
+   "event": "COP31 Başkanı Murat Kurum 21–22 Kasım gece genel kurulunda tüm tarafların kabul edebileceği bir metin sunulduğunu söyledi; itiraz süresi 03:00 GMT, kabul oturumu 06:00 GMT. Önceki taslakta fosil yakıt ifadesi yoktu; Panama fosil yakıtsız metni engelleme sözü vermişti.",
+   "rationale": "Sonuç tarama anında belli değil; nihai metin iki kaynakla doğrulanınca öğle turu değerlendirir (iklim alanında soru açılması ve günlük tabanın yeniden değerlendirilmesi).",
+   "sources": [
+    "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/",
+    "https://www.al-monitor.com/originals/2026/11/cop31-climate-talks-close-final-deal-says-summit-president",
+    "https://www.thenationalnews.com/news/mena/2026/11/21/cop31-climate-talks-overrun-in-dispute-over-final-deal/"
+   ],
+   "yonlendirme": "izleme (öğle turu)"
+  }
+ ],
+ "zayif": [
+  {
+   "id": "iran-f16-iddiasi",
+   "olay": "İran ordusu 20 Kasım gecesi bir ABD F-16'sını füzeyle hasara uğrattığını iddia etti; CENTCOM 21 Kasım'da kesin dille reddetti.",
+   "neden": "Tek taraflı iddia, reddedildi.",
+   "sources": [
+    "https://www.airdatanews.com/iran-claims-missile-damaged-u-s-f-16-over-persian-gulf-but-washington-denies-attack/"
+   ]
+  },
+  {
+   "id": "husi-fuze-bati-suudi",
+   "olay": "Suudi liderliğindeki koalisyon 22 Kasım gecesi batı Suudi Arabistan'a atılan bir Husi balistik füzesini düşürdüğünü açıkladı (Anadolu aktarımı); Mekke bölgesi için sivil savunma uyarısı verildi.",
+   "neden": "Tek ikincil kaynak; bu hafta benzer olaylar sürüyor (eğilim).",
+   "sources": [
+    "https://houseofsaud.com/houthi-missile-mecca-iran-bahrain-fire-nov22/"
+   ]
+  },
+  {
+   "id": "fransa-altinci-hafta-protesto",
+   "olay": "Fransa'da hayat pahalılığı ve kamu hizmetleri protestoları altıncı cumartesisine girdi; katılım düştü (İçişleri 82.500, sendikalar 150.000).",
+   "neden": "Tek ajans (AFP aktarımları); süren eğilim, katılım düşüyor.",
+   "sources": [
+    "https://www.dawn.com/news/2046255/protesters-rally-for-sixth-weekend-in-france",
+    "https://www.bangkokpost.com/world/3358916/french-protesters-rally-for-sixth-weekend-over-living-costs-public-services"
+   ]
+  }
+ ],
+ "elenen": "Hürmüz'de 21 Kasım'daki iki tanker olayı akşam turunda işlendi (geçiş 26→22). Kiev'e 21 Kasım sabahı füze saldırısı (rutin, kayıp bilgisi yok). Nvidia/YZ: pencere içinde yeni olgu yok."
+}

@@ -88,7 +88,8 @@
     "2026-11-19 öğle: Yalnız İran kaynaklı; aynı gece Hasab açığındaki tanker vuruşu (UKMTO) mermi olarak bildirildi, mayın değil.",
     "2026-11-19 akşam: bağımsız teyit yok.",
     "2026-11-20 sabah: hâlâ doğrulanmadı. IRGC 19 Kasım'da iki tanker daha iddia etti; UKMTO yalnız Khasab açığında 18 Kasım 'bilinmeyen mermi' olayını bildirdi (Warning 212-26), mayın demedi; gemi adı yok.",
-    "2026-11-21 sabah: IRGC 20 Kasım'da Hasab'ın kuzeyinde bir tankerin mayına çarptığını iddia etti; UKMTO aynı olayı 'bilinmeyen mermi' olarak bildirdi (Reuters/Baird, gCaptain). Bağımsız mayın teyidi yok."
+    "2026-11-21 sabah: IRGC 20 Kasım'da Hasab'ın kuzeyinde bir tankerin mayına çarptığını iddia etti; UKMTO aynı olayı 'bilinmeyen mermi' olarak bildirdi (Reuters/Baird, gCaptain). Bağımsız mayın teyidi yok.",
+    "2026-11-22 sabah: bitiş günü. 21 Kasım'da İran deniz kuvvetleri yine mayın dedi; UKMTO iki tankerde 'bilinmeyen mermi' bildirdi (Reuters/gCaptain). Bağımsız mayın teyidi yok; akşam turu teyit yoksa 'düştü' işaretler."
    ]
   },
   {
@@ -111,10 +112,11 @@
    "durum": "açık",
    "eksik": "Kapanış genel kurulunda kabul edilen nihai metin (UNFCCC, Reuters/AP/AFP/AA)",
    "olursa": "Akşam turu 21:00 Günün Dosyası'ndan ÖNCE: nihai metin kabul edildiyse posts/2026-11-21-gunun-dosyasi 4. sayfa başlığı/metni/'KARAR SAATLER İÇİNDE' etiketi, kapak satırı (lede) ve caption sonuca göre yeniden yazılır (data/dosya/2026-11-21.json → news/dosya.js), editörden yeniden geçer. Metin fosil yakıt dilini içeriyor mu, Panama engelledi mi iki kaynakla yazılır. Ardından v2.2 §2 gereği izleyen analitik soru açılır (iklim alanı). Kabul edilmediyse metin olduğu gibi kalır.",
-   "bitis": "2026-11-22",
+   "bitis": "2026-11-23",
    "notlar": [
     "2026-11-21 öğle: editör (2. tur) YAYINLA, koşul: bu öğe akşam turu tarafından kontrol edilecek.",
-    "2026-11-21 akşam (20:30): nihai metin kabul edildiğine dair iki kaynak yok (son: Irish Times 11:55 GMT, üçüncü taslak yayımlanmamış). Dosya 4. sayfa metni 'öğle saatlerinde taslak yok' olarak güncellendi. Ana oturum 21:00 öncesi yeniden bakmalı."
+    "2026-11-21 akşam (20:30): nihai metin kabul edildiğine dair iki kaynak yok (son: Irish Times 11:55 GMT, üçüncü taslak yayımlanmamış). Dosya 4. sayfa metni 'öğle saatlerinde taslak yok' olarak güncellendi. Ana oturum 21:00 öncesi yeniden bakmalı.",
+    "2026-11-22 sabah (07:15): Kurum gece genel kurulunda uzlaşı metni sunulduğunu söyledi; itiraz süresi 03:00 GMT, kabul oturumu 06:00 GMT (Reuters/Al-Monitor, RTÉ). Kabul henüz iki kaynakta yok. Öğle turu: kabul edildiyse fosil yakıt dili ve uyum finansmanı iki kaynakla yazılır, iklim sorusu açılır, haber puanı Bahreyn'le (4) karşılaştırılır; yüksekse 13:00 Olay ve Cevap COP31'e geçer, Bahreyn Dosya'ya iner."
    ]
   }
  ]

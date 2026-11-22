@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -2202,8 +2202,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: Şenzen zirvesi sonrası Çin aracılığı hızlandırdıysa.",
-   "motor": 20,
-   "p": 18,
+   "motor": 20.0,
+   "p": 15,
    "ilk_p": 18,
    "durum": "acik",
    "sonuc": null,
@@ -2214,6 +2214,12 @@
      "p": 18,
      "motor": 20,
      "neden": "açılış (pilot hafta 1). Bahis testi: şiddetin kendisi değil, diplomatik sonuç; okura etkisi akaryakıt, Körfez seyahati."
+    },
+    {
+     "t": "2026-11-22",
+     "p": 15,
+     "motor": 20.0,
+     "neden": "22.11: İran'ın 21 Kasım gecesi Bahreyn'e saldırısı, sivil sanayi tesisinde yangın (Bahreyn İçişleri, AFP, Al Jazeera); bu hafta Bahreyn'e saldırılar yeniden başladı. LR 0,8 (zayıf). Üç geçiş 17/15/14 → medyan 15."
     }
    ],
    "bagli": "on-catisma-abd-iran-anlasma"

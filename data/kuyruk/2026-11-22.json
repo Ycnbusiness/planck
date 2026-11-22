@@ -1,0 +1,28 @@
+[
+ {
+  "saat": "—",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-21-nvidia-ceo",
+  "durum": "beklet-yusuf",
+  "not": "Senaryo taslağı Yusuf onayı bekliyor (21.11'den devir). Onay gelirse günde tek Olay ve Cevap kuralı nedeniyle Bahreyn/COP31 ile çakışır; Yusuf karar verir."
+ },
+ {
+  "saat": "13:00",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-22-bahreyn-sivil-tesis",
+  "onem": 0.67,
+  "haber_puani": 4,
+  "reel": "posts/2026-11-22-bahreyn-sivil-tesis/reel.mp4",
+  "reel_saat": "15:00",
+  "editor": "YAYINLA (3. tur)",
+  "durum": "koşullu",
+  "not": "Günlük taban (v2.2 §6). KOŞUL 1: öğle turu COP31'i değerlendirir; nihai metin kabul edildi ve haber puanı >4 ise taban COP31'e geçer, bu olay Günün Dosyası'na iner. KOŞUL 2: yayından hemen önce CENTCOM'un IRGC'nin Bahreyn açıklamasına cevap verip vermediğine bakılır; verdiyse 2. sayfa ABD satırı güncellenir."
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-22-gunun-dosyasi",
+  "durum": "akşam turu üretir",
+  "not": "Henüz üretilmedi: tarama anında Dosya'ya girecek ikinci doğrulanmış olay yok. Adaylar: COP31 sonucu (Türkiye ev sahibi), Bahreyn (Olay ve Cevap'tan inerse), gün içi olaylar. İki olay eşiği geçmezse Dosya çıkmaz."
+ }
+]

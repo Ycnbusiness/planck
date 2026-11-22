@@ -1,35 +1,63 @@
 {
- "updated": "2026-11-20",
- "kapanan": 2,
- "acik": 65,
+ "updated": "2026-11-22",
+ "kapanan": 3,
+ "acik": 69,
  "iptal": 1,
  "kanallar": {
   "toplam": {
    "planck": {
+    "n": 3,
+    "brier": 0.3491,
+    "log": 1.1109,
+    "beceri_50": -0.397
+   },
+   "motor": {
     "n": 2,
-    "brier": 0.5124,
-    "log": 1.585,
-    "beceri_50": -1.05
+    "brier": 0.0997,
+    "log": 0.345,
+    "beceri_50": 0.601
+   },
+   "ilk": {
+    "n": 3,
+    "brier": 0.4425,
+    "log": 1.3229,
+    "beceri_50": -0.77
+   },
+   "tuttu": 2,
+   "n": 3,
+   "planck_motorlu_sorularda": {
+    "n": 2,
+    "brier": 0.0913,
+    "log": 0.3367,
+    "beceri_50": 0.635
+   }
+  },
+  "news": {
+   "planck": {
+    "n": 1,
+    "brier": 0.0225,
+    "log": 0.1625,
+    "beceri_50": 0.91
    },
    "motor": {
     "n": 1,
-    "brier": 0.1849,
-    "log": 0.5621,
-    "beceri_50": 0.26
+    "brier": 0.0144,
+    "log": 0.1278,
+    "beceri_50": 0.942
    },
    "ilk": {
-    "n": 2,
-    "brier": 0.5124,
-    "log": 1.585,
-    "beceri_50": -1.05
+    "n": 1,
+    "brier": 0.3025,
+    "log": 0.7985,
+    "beceri_50": -0.21
    },
    "tuttu": 1,
-   "n": 2,
+   "n": 1,
    "planck_motorlu_sorularda": {
     "n": 1,
-    "brier": 0.16,
-    "log": 0.5108,
-    "beceri_50": 0.36
+    "brier": 0.0225,
+    "log": 0.1625,
+    "beceri_50": 0.91
    }
   },
   "quant": {
@@ -72,6 +100,12 @@
    "dilim": "60-69",
    "n": 1,
    "ort_tahmin": 60.0,
+   "gerceklesen": 100.0
+  },
+  {
+   "dilim": "80-89",
+   "n": 1,
+   "ort_tahmin": 85.0,
    "gerceklesen": 100.0
   }
  ],

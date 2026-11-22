@@ -1,0 +1,17 @@
+{
+ "week": "2026-W47",
+ "tag": "Körfez",
+ "title": "Bahreyn'de sivil tesis isabet aldı",
+ "text": "Bahreyn, 21 Kasım gecesi İran saldırısında sivil bir sanayi tesisinde yangın çıktığını, yaralı olmadığını açıkladı.",
+ "risk": "ABD ile İran 15 Şubat'a kadar resmî bir ateşkes ilan eder mi?",
+ "rl": "ETKİLENEN SORU · ESKİ → YENİ",
+ "from": 18,
+ "to": 15,
+ "why": "Bahreyn'e saldırılar bu hafta yeniden başladı; kanıt zayıf (LR 0,8).",
+ "pl": "PEKİ BİZ?",
+ "pq": "İstanbul'da motorin 1 Aralık'ta litresi 95 TL'yi aşar mı?",
+ "pp": 25,
+ "yuz": true,
+ "kunye": "Tarama ve hesap: Claude · Yatırım tavsiyesi değildir",
+ "cta": "Ayrıntılar gönderide · @planck.news"
+}

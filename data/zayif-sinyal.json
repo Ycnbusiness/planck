@@ -530,6 +530,46 @@
     "https://www.bloomberght.com/resmi-gazete-de-bugun-21112026-3795363",
     "https://www.memurlar.net/haber/1184759/21-kasim-2026-dan-onemli-gundem-basliklari.html"
    ]
+  },
+  {
+   "tarih": "2026-11-22",
+   "id": "iran-f16-iddiasi",
+   "tema": "iran-f16-iddiasi",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "İran ordusu 20 Kasım gecesi bir ABD F-16'sını füzeyle hasara uğrattığını iddia etti; CENTCOM 21 Kasım'da kesin dille reddetti.",
+   "neden_zayif": "Tek taraflı iddia, reddedildi.",
+   "kaynaklar": [
+    "https://www.airdatanews.com/iran-claims-missile-damaged-u-s-f-16-over-persian-gulf-but-washington-denies-attack/"
+   ]
+  },
+  {
+   "tarih": "2026-11-22",
+   "id": "husi-fuze-bati-suudi",
+   "tema": "husi-fuze-bati-suudi",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "Suudi liderliğindeki koalisyon 22 Kasım gecesi batı Suudi Arabistan'a atılan bir Husi balistik füzesini düşürdüğünü açıkladı (Anadolu aktarımı); Mekke bölgesi için sivil savunma uyarısı verildi.",
+   "neden_zayif": "Tek ikincil kaynak; bu hafta benzer olaylar sürüyor (eğilim).",
+   "kaynaklar": [
+    "https://houseofsaud.com/houthi-missile-mecca-iran-bahrain-fire-nov22/"
+   ]
+  },
+  {
+   "tarih": "2026-11-22",
+   "id": "fransa-altinci-hafta-protesto",
+   "tema": "fransa-altinci-hafta-protesto",
+   "bagli": [
+    "risk-avrupa"
+   ],
+   "olay": "Fransa'da hayat pahalılığı ve kamu hizmetleri protestoları altıncı cumartesisine girdi; katılım düştü (İçişleri 82.500, sendikalar 150.000).",
+   "neden_zayif": "Tek ajans (AFP aktarımları); süren eğilim, katılım düşüyor.",
+   "kaynaklar": [
+    "https://www.dawn.com/news/2046255/protesters-rally-for-sixth-weekend-in-france",
+    "https://www.bangkokpost.com/world/3358916/french-protesters-rally-for-sixth-weekend-over-living-costs-public-services"
+   ]
   }
  ]
 }
