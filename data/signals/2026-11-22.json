@@ -184,5 +184,50 @@
    "TARAMA v2.2 §2 ('soru yoksa soru açılır') ile Anayasa §2 hacim kuralı çatışıyor; öncelik kuralı yazılı değil (bugün Anayasa esas alındı).",
    "dosya.js 03 sayfasındaki sabit künyede kaynak adı ve soru kimliği satırı yok (yalnız caption'da); tüm Dosya'ları etkileyen şablon notu."
   ]
+ },
+ "aksam": {
+  "tarama": "2026-11-22 akşam (≈20:10–20:25 TSİ), pencere 12:40 → 20:20 TSİ",
+  "events": [
+   {
+    "id": "cop31-kapanis-uzlasisiz",
+    "class": "YEŞİL",
+    "risk": "iklim",
+    "delta": 0,
+    "lr": null,
+    "haber_kapisi": {
+     "olcek": 2,
+     "yenilik": 2,
+     "acik_uc": 1,
+     "puan": 5
+    },
+    "S": 0.69,
+    "K": 2,
+    "onem": 1.38,
+    "turkiye_bagi": 2,
+    "event": "COP31 22 Kasım'da ana karar (cover decision) kabul edilmeden kapandı; Kurum uzlaşı olmadığını, kararların kabul edilmediğini açıkladı. AB resmen itiraz etti (fosil yakıt geçişi yok), Panama desteklemedi. Guterres sonucu hayal kırıcı buldu.",
+    "rationale": "İzlemedeki cop31-nihai-metin sonuçlandı. Sicilde iklim sorusu yok, 2031 listesinde iklim riski yok → Δ 0. S×K 1,38 < 1,4 → Dosya. Soru açılamadı (Anayasa §2 tavan).",
+    "sources": [
+     "https://news.un.org/en/story/2026/11/1168855",
+     "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+     "https://dailysabah.com/turkiye/cop31-ends-without-consensus-as-eu-panama-reject-final-draft/news"
+    ],
+    "yonlendirme": "Günün Dosyası 21:00"
+   }
+  ],
+  "zayif": [
+   {
+    "id": "iran-14-tanker-abluka",
+    "olay": "Gulf News: İran'ın 14 petrol tankerini ABD ablukasını delmek için hazırladığı bildirildi.",
+    "neden": "Tek kaynak, kaynak belirtilmemiş."
+   },
+   {
+    "id": "katar-heyeti-tahran",
+    "olay": "İran Dışişleri Bakan Yardımcısı Garibabadi: Katar heyeti 21 Kasım akşamı Tahran'da iki saat görüştü.",
+    "neden": "Tek kaynak (Gulf News aktarımı); içerik yok. Ateşkes sorusu (15) değişmedi."
+   }
+  ],
+  "elenen": "Bahreyn'de yeni önlemeler, Hürmüz'de tanker hasarları ve İHA düşürme iddiaları: sabah kaydedilen eğilimin sürmesi, yeni Δ yok. Ukrayna: Dimer'e İHA saldırısı (rutin yoğunluk), görüşme yok.",
+  "sicil": "Güncelleme yok; risks.json ve history.json değişmedi.",
+  "pekibiz": "Yeni soru yok (tavan)."
  }
 }

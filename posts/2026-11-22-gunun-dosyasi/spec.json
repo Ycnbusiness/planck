@@ -1,13 +1,13 @@
 {
  "date": "22 KASIM 2026",
- "lede": "Cenevre'de otonom silahlar için iki yıllık bir düzenleme metni hazırlama süreci kararlaştırıldı; metnin bağlayıcı olup olmayacağı açık bırakıldı.",
+ "lede": "Cenevre'de otonom silahlar için bağlayıcılığı belirsiz iki yıllık bir kural süreci başladı; Antalya'da iklim zirvesi ana karar metni kabul edilmeden kapandı.",
  "items": [
   {
    "tag": "Teknoloji",
    "title": "Otonom silahlara iki yıllık kural süreci",
-   "text": "BM Belirli Konvansiyonel Silahlar Sözleşmesi'nin 128 tarafı, 21 Kasım sabahı Cenevre'de biten gözden geçirme konferansında ölümcül otonom silahlar için iki yıl içinde bir düzenleme metni geliştirilmesine oybirliğiyle karar verdi. Kararda müzakere yerine geliştirme deniyor; ortaya çıkacak belgenin bağlayıcı olup olmayacağı açık bırakıldı. Yaklaşık 100 ülke bağlayıcı kural isterken ABD, Rusya ve İsrail buna karşı çıktı. Stop Killer Robots ve İnsan Hakları İzleme Örgütü sonucu yetersiz buldu.",
+   "text": "BM Belirli Konvansiyonel Silahlar Sözleşmesi'nin 128 tarafı, 21 Kasım'da Cenevre'de ölümcül otonom silahlar için iki yıl içinde bir düzenleme metni geliştirilmesine oybirliğiyle karar verdi; belgenin bağlayıcı olup olmayacağı açık bırakıldı. Yaklaşık 100 ülke bağlayıcı kural isterken ABD, Rusya ve İsrail buna karşı çıktı.",
    "nosoru": "SORU TAVANI DOLU",
-   "pdo": "Karar, savaşta makine kararına iki yıllık resmî bir kural takvimi koyuyor; okur için bireysel olarak yapılacak bir şey yok. Açık soru, 2028'e kadar çıkacak metnin bağlayıcı olup olmayacağı. Bugünkü soru açılış sınırı dolduğu için sayı vermiyoruz; soru sınır açılınca açılır. İzlenecek gösterge: çalışma grubunun 2027 toplantı takvimi.",
+   "pdo": "Karar savaşta makine kararına iki yıllık bir kural takvimi koyuyor; soru açılış sınırı dolu olduğu için sayı vermiyoruz, izlenecek gösterge çalışma grubunun 2027 toplantı takvimi.",
    "haber_kapisi": {
     "olcek": 2,
     "yenilik": 1,
@@ -25,8 +25,31 @@
    "not_kayit": "Öğle taraması 22.11: olay 21.11 ~03:00 GMT (06:00 TSİ) bitişi; 21.11 ve 22.11 sabah taramalarında kaydı yoktu, geç yakalandı. Reuters (Business Recorder) + AFP (Al Jazeera/Manila Times) bağımsız. Editör (1. tur) v2.2 §2 gereği soru açılmasını istedi; açılamadı: Anayasa §2 hacim kuralı — 22.11'de 4 açılış yapıldı (Portföy v2.2) ve açık soru 73 > tavan 70. Anayasa TARAMA'nın üstündedir. S, açılacak soru için asgari açılış belirsizliği (0,69) olarak yazıldı. Hazır soru taslakları (sınır açılınca): (a) 'CCW, otonom silahlar çalışma grubunun 2027 oturum tarihlerini 20 Şubat 2027'ye kadar resmen açıklar mı?' (b) '20 Şubat 2027'ye kadar en az bir devlet, CCW dışında bağlayıcı bir otonom silah antlaşması için ayrı müzakere süreci başlatıldığını resmen duyurur mu?'",
    "kapi1": "Okur, bağlayıcı bir kuralın en erken 2028'de gelebileceğini ve bunun da kesin olmadığını bilir.",
    "editor": "YAYINLA (2. tur, 22.11 öğle; 1. tur DÜZELT: soru açma, ifade, saat, kapı 1)"
+  },
+  {
+   "tag": "İklim",
+   "title": "COP31 ana karar olmadan kapandı",
+   "text": "Antalya'daki COP31, iki günlük uzatmanın ardından 22 Kasım'da ana karar metni kabul edilmeden sona erdi; Dönem Başkanı Murat Kurum metinde uzlaşı olmadığını ve kararların kabul edilmediğini açıkladı. AB fosil yakıtlardan geçişi anmayan metne resmen itiraz etti, Panama da metni desteklemedi.",
+   "risk": null,
+   "nosoru": "SORU TAVANI DOLU",
+   "pdo": "Ev sahibi Türkiye'nin başkanlığı ana karar olmadan kapandı; soru açılış sınırı dolu olduğu için sayı vermiyoruz, izlenecek gösterge uzlaşılamayan maddelerin bir sonraki müzakere oturumunun gündemine alınıp alınmayacağı.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 2,
+    "acik_uc": 1,
+    "puan": 5
+   },
+   "S": 0.69,
+   "K": 2,
+   "onem": 1.38,
+   "turkiye_bagi": 2,
+   "kaynaklar": [
+    "https://news.un.org/en/story/2026/11/1168855",
+    "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
+    "https://dailysabah.com/turkiye/cop31-ends-without-consensus-as-eu-panama-reject-final-draft/news"
+   ],
+   "not_kayit": "Akşam taraması 22.11: BM Haber + France 24 + Daily Sabah bağımsız; Kurum'un kapanış beyanı ve AB/Panama itirazı ortak. Marshall Adaları (yalnız BM Haber), Birleşik Krallık (yalnız CASRAI) ve 'Kopenhag'dan beri ilk' (yalnız Kyunghyang) tek kaynaklı → metne girmedi. Sicilde iklim sorusu yok; 2031 risk listesinde iklim yok → Δ 0, sicil güncellemesi yok. v2.2: S açılış belirsizliği 0,69 × K 2 = 1,38 < 1,4 → Dosya. Soru açılamadı: Anayasa §2 (açık 73 > 70). Taslak soru (sınır açılınca): 'COP31 ana karar metninde uzlaşılamayan fosil yakıt geçişi maddesi 30 Haziran 2027'ye kadar bir UNFCCC resmî oturumunun gündemine alınır mı?'"
   }
  ],
- "question": "Sizce silahlarda insan kararının yerini makineye bırakmanın sınırı kim tarafından çizilmeli?",
- "durum": "taslak — öğle turu 1 madde; akşam turu COP31 sonucunu (ve Bahreyn Olay ve Cevap'tan inerse onu) ekleyip yeniden üretir. Tek madde ile Dosya çıkmaz (TARAMA: en az iki olay)."
+ "question": "Sizce küresel müzakerelerde tek bir ülkenin itirazıyla kararın düşmesi korunmalı mı?"
 }
