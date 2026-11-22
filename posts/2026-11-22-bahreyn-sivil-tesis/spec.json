@@ -61,5 +61,34 @@
   "gosterge": "Bahreyn ve CENTCOM'un hasar açıklamaları; pazartesi Brent açılışı; UKMTO'nun Hürmüz uyarıları.",
   "eylem": "Körfez'de yaşayan ya da oraya yolculuk planlayan okur: yerel makamların ve havayolunun duyurularını takip edin, uçuş durumunu yola çıkmadan kontrol edin. Türkiye'deki okur için bireysel olarak yapılacak bir şey yok; izlenecek gösterge pazartesi petrol fiyatı."
  },
- "question": "Sizce Körfez'deki bu tırmanma görüşmeleri hızlandırır mı, yavaşlatır mı?"
+ "question": "Sizce Körfez'deki bu tırmanma görüşmeleri hızlandırır mı, yavaşlatır mı?",
+ "senaryolar": {
+  "baslik": "15 Şubat'a kadar üç yol",
+  "dallar": [
+   {
+    "ad": "Sınırlı çatışma, fiyatlar sakin",
+    "p": 47,
+    "kosul": "Saldırılar tek tük tesis ve üslerle sınırlı kalır; dolaylı görüşmeler kopmaz; Körfez ihracatı toparlanmaya devam eder.",
+    "olursa": "Brent 90 dolar civarında kalır; Körfez'de yaşayan ve çalışanlar için risk sürer ama günlük hayat ve uçuşlar büyük ölçüde işler.",
+    "emsal": "1984–88 Tanker Savaşı: Körfez'de yüzlerce gemi vuruldu, arz fazlası yüzünden petrol fiyatı düşük seyretti.",
+    "iz": "UKMTO uyarı sıklığı, Brent'in 90 dolar çizgisi."
+   },
+   {
+    "ad": "Enerji şoku: Brent 100 doları aşar",
+    "p": 38,
+    "kosul": "Saldırılar enerji altyapısına ya da Hürmüz trafiğine yayılır, sigorta primleri sıçrar, görüşmeler kesilir.",
+    "olursa": "Akaryakıt fiyatları yeniden yükselir; Aralık–Ocak vergi artışlarıyla birleşince motorin 95 TL eşiğine yaklaşır; merkez bankalarının faiz kararları zorlaşır.",
+    "emsal": "1990 Kuveyt işgali: petrol fiyatı üç ayda iki katına çıktı.",
+    "iz": "Hürmüz'den günlük tanker geçişi, savaş riski sigorta primi."
+   },
+   {
+    "ad": "Resmî ateşkes ilan edilir",
+    "p": 15,
+    "kosul": "Dolaylı görüşmeler yazılı bir metne döner; Körfez ülkeleri ve ABD aynı anda baskı yapar.",
+    "olursa": "Hürmüz trafiği normale yaklaşır, petrol fiyatı düşer; Körfez'de yaşayanlar ve havayolları için risk azalır.",
+    "emsal": "Bu savaşta Nisan 2026'da bir kez ateşkes ilan edildi; büyük çatışmalar durdu ama saldırılar tamamen bitmedi.",
+    "iz": "Umman ya da Katar arabuluculuğunda tarih açıklanması."
+   }
+  ]
+ }
 }
