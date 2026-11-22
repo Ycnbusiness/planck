@@ -2628,6 +2628,126 @@
      "neden": "açılış"
     }
    ]
+  },
+  {
+   "id": "pk-2026-11-22-starship-16",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "SpaceX 15 Şubat 2027'ye kadar Starship'in 16. test uçuşunu fırlatır mı?",
+   "acilis": "2026-11-22",
+   "deadline": "2027-02-15",
+   "kriter": "Starship Flight 16'nın (Super Heavy + Ship) 15.02.2027 23:59 (ABD Merkez saati) dahil kalkış yapması; sonucu fark etmez. Kalkış öncesi iptal sayılmaz.",
+   "kaynak_cozum": "SpaceX resmî yayın/açıklama; Space.com ya da Reuters",
+   "taban": "Kendi geçmişi: Flight 14 (28 Eylül) ile Flight 15 (13 Kasım) arası ~7 hafta; 2025–26'da uçuşlar arası çoğunlukla 6–12 hafta. 13 haftalık pencerede fırlatma çoğunluk. Motor %70. Üç geçiş: 70/65/62 → medyan 65.",
+   "mercekler": [
+    "mühendislik",
+    "istatistik"
+   ],
+   "on_otopsi": "Yanılırsak: Flight 15'teki booster yakalama iptalinin soruşturması ya da FAA kaza incelemesi takvimi uzatır.",
+   "motor": 70,
+   "p": 65,
+   "ilk_p": 65,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-22",
+     "p": 65,
+     "motor": 70,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-22-starship-yakit-aktarim",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "SpaceX 15 Şubat 2027'ye kadar iki Starship arasında yörüngede yakıt aktarımı denemesi yapar mı?",
+   "acilis": "2026-11-22",
+   "deadline": "2027-02-15",
+   "kriter": "İki ayrı Starship aracının yörüngede kenetlenip aralarında yakıt aktarmaya çalıştığının 15.02.2027'ye kadar SpaceX ya da NASA tarafından açıklanması (başarı şartı yok). Tek araç içi aktarım (2025 tankları arası test) sayılmaz.",
+   "kaynak_cozum": "SpaceX / NASA açıklaması; Space.com, Reuters",
+   "taban": "Plan: SpaceX takviminde 2027 1. çeyrek (Wikipedia, Starship Propellant Transfer Demonstration). Referans sınıfı: Starship kilometre taşlarının planlanan tarihten 3 ay içinde gerçekleşme oranı düşük (çoğu 6+ ay kaydı). Motor %15. Üç geçiş: 15/12/18 → medyan 15.",
+   "mercekler": [
+    "mühendislik",
+    "tarih"
+   ],
+   "on_otopsi": "Yanılırsak: Flight 15'te üst kademenin yörüngeden dönüp yakalanması takvimi öne çeker ve SpaceX iki fırlatmayı arka arkaya yapar.",
+   "motor": 15,
+   "p": 15,
+   "ilk_p": 15,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-22",
+     "p": 15,
+     "motor": 15,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-22-el-nino-ndj-25",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "NOAA'nın Kasım–Ocak dönemi El Niño endeksi (göreli ONI) +2,5°C ya da üstüne çıkar mı?",
+   "acilis": "2026-11-22",
+   "deadline": "2027-02-15",
+   "kriter": "NOAA İklim Tahmin Merkezi'nin (CPC) 15.02.2027'ye kadar yayımladığı Kasım–Aralık–Ocak 2026–27 (NDJ) göreli ONI değerinin +2,5 ya da üstü olması. Değer yayımlanmazsa iptal (belirsiz).",
+   "kaynak_cozum": "NOAA CPC ENSO tanı tartışması / ONI tablosu",
+   "taban": "Kayıtlı en güçlü El Niño'larda NDJ zirvesi: 1997–98 ~2,4, 2015–16 ~2,6 (klasik ONI). Güncel: ASO göreli ONI +2,0, Ekim aylık +2,5, Kasım ortası haftalık +2,2; konsolidasyon tahmini NDJ'de 2,5 üstü zirve (Econcurrents/NOAA). Motor %40. Üç geçiş: 40/35/30 → medyan 35.",
+   "mercekler": [
+    "klimatoloji",
+    "istatistik"
+   ],
+   "on_otopsi": "Yanılırsak: haftalık değer Aralık'ta 2,7–2,8'e sıçrar; tahmin modelleri zirvenin gücünü küçümsemiştir.",
+   "motor": 40,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-22",
+     "p": 35,
+     "motor": 40,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-22-who-pheic",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "Dünya Sağlık Örgütü 15 Şubat 2027'ye kadar yeni bir uluslararası halk sağlığı acil durumu (PHEIC) ilan eder mi?",
+   "acilis": "2026-11-22",
+   "deadline": "2027-02-15",
+   "kriter": "DSÖ Genel Direktörü'nün 22.11.2026–15.02.2027 arasında, bu tarihte yürürlükte olmayan bir olay için PHEIC ilan etmesi.",
+   "kaynak_cozum": "DSÖ resmî açıklaması",
+   "taban": "2009–2024 arası 8 PHEIC ilanı (H1N1 2009, çocuk felci ve Ebola 2014, Zika 2016, Ebola 2019, COVID-19 2020, mpox 2022 ve 2024): yılda ~0,5; 85 günlük pencerede Poisson ile ~%11. Motor %11. Üç geçiş: 10/11/12 → medyan 11.",
+   "mercekler": [
+    "epidemiyoloji",
+    "istatistik"
+   ],
+   "on_otopsi": "Yanılırsak: Amerika kıtasında 58 bini aşan kızamık dalgası ya da yeni bir kuş gribi kümelenmesi DSÖ'yü acil durum komitesini toplamaya iter.",
+   "motor": 11,
+   "p": 11,
+   "ilk_p": 11,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-22",
+     "p": 11,
+     "motor": 11,
+     "neden": "açılış"
+    }
+   ]
   }
  ]
 }
