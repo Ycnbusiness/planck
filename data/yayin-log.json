@@ -636,5 +636,47 @@
     "https://www.airdatanews.com/iran-claims-missile-damaged-u-s-f-16-over-persian-gulf-but-washington-denies-attack/"
    ]
   }
+ },
+ {
+  "tarih": "2026-11-22T12:40",
+  "tur": "dosya-maddesi",
+  "kanal": "news",
+  "klasor": "posts/2026-11-22-gunun-dosyasi",
+  "baslik": "Otonom silahlara iki yıllık kural süreci",
+  "durum": "aday (akşam 21:00 Dosya, en az iki madde koşuluyla)",
+  "sorular": [],
+  "kaynaklar": [
+   "https://www.brecorder.com/news/40450103/states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028",
+   "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+   "https://www.manilatimes.net/2026/11/22/world/americas-emea/countries-open-path-toward-killer-robots-agreement/2475514"
+  ],
+  "editor": {
+   "hukum": "YAYINLA",
+   "tur": 2,
+   "onem": {
+    "S": 0.69,
+    "K": 1,
+    "puan": 0.69
+   },
+   "kapilar": [
+    true,
+    true,
+    true
+   ],
+   "bahis_testi": true,
+   "kaynaklar_yeniden": [
+    "https://www.brecorder.com/news/40450103/states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028",
+    "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+    "https://www.manilatimes.net/2026/11/22/world/americas-emea/countries-open-path-toward-killer-robots-agreement/2475514"
+   ],
+   "duzeltmeler": [
+    "1. tur: v2.2 §2 soru açma (Anayasa §2 hacim nedeniyle açılamadı; gerekçe kabul edildi)",
+    "ifade: müzakere yerine geliştirme, bağlayıcılık açık",
+    "128 tarafı oybirliğiyle",
+    "saat 03:00 GMT/06:00 TSİ",
+    "kapı 1 cümlesi eklendi ve yumuşatıldı"
+   ],
+   "gerekce": "Olgular Reuters ve AFP ile tutuyor; soru açılmaması Anayasa §2 hacim kuralına dayanıyor; kapılar ve bahis testi geçiyor."
+  }
  }
 ]

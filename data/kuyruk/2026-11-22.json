@@ -16,13 +16,13 @@
   "reel_saat": "15:00",
   "editor": "YAYINLA (3. tur)",
   "durum": "koşullu",
-  "not": "Günlük taban (v2.2 §6). KOŞUL 1: öğle turu COP31'i değerlendirir; nihai metin kabul edildi ve haber puanı >4 ise taban COP31'e geçer, bu olay Günün Dosyası'na iner. KOŞUL 2: yayından hemen önce CENTCOM'un IRGC'nin Bahreyn açıklamasına cevap verip vermediğine bakılır; verdiyse 2. sayfa ABD satırı güncellenir."
+  "not": "Günlük taban (v2.2 §6). KOŞUL 1: öğle turu COP31'i değerlendirir; nihai metin kabul edildi ve haber puanı >4 ise taban COP31'e geçer, bu olay Günün Dosyası'na iner. KOŞUL 2: yayından hemen önce CENTCOM'un IRGC'nin Bahreyn açıklamasına cevap verip vermediğine bakılır; verdiyse 2. sayfa ABD satırı güncellenir. | ÖĞLE 22.11 12:40: Koşul 1 tetiklenmedi (COP31 sonucu doğrulanamadı; taban Bahreyn'de kalır). Koşul 2: CENTCOM cevabı bulunamadı; yayından hemen önce bir kez daha bakılır."
  },
  {
   "saat": "21:00",
   "tur": "dosya",
   "klasor": "posts/2026-11-22-gunun-dosyasi",
-  "durum": "akşam turu üretir",
-  "not": "Henüz üretilmedi: tarama anında Dosya'ya girecek ikinci doğrulanmış olay yok. Adaylar: COP31 sonucu (Türkiye ev sahibi), Bahreyn (Olay ve Cevap'tan inerse), gün içi olaylar. İki olay eşiği geçmezse Dosya çıkmaz."
+  "durum": "taslak hazır (1 madde) — akşam turu tamamlar",
+  "not": "Öğle turu 1 madde üretti: CCW otonom silahlar (editör YAYINLA, 2. tur; posts/2026-11-22-gunun-dosyasi). Akşam turu COP31 sonucunu (ve Bahreyn inerse onu) ekleyip yeniden üretir; tek maddeyle Dosya çıkmaz. Henüz üretilmedi: tarama anında Dosya'ya girecek ikinci doğrulanmış olay yok. Adaylar: COP31 sonucu (Türkiye ev sahibi), Bahreyn (Olay ve Cevap'tan inerse), gün içi olaylar. İki olay eşiği geçmezse Dosya çıkmaz."
  }
 ]

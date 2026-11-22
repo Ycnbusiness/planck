@@ -115,5 +115,74 @@
    ]
   }
  ],
- "elenen": "Hürmüz'de 21 Kasım'daki iki tanker olayı akşam turunda işlendi (geçiş 26→22). Kiev'e 21 Kasım sabahı füze saldırısı (rutin, kayıp bilgisi yok). Nvidia/YZ: pencere içinde yeni olgu yok."
+ "elenen": "Hürmüz'de 21 Kasım'daki iki tanker olayı akşam turunda işlendi (geçiş 26→22). Kiev'e 21 Kasım sabahı füze saldırısı (rutin, kayıp bilgisi yok). Nvidia/YZ: pencere içinde yeni olgu yok.",
+ "ogle": {
+  "ogle": true,
+  "scan_window": "2026-11-22 07:15 → 12:40 (TSİ)",
+  "ozet": "Ana akış adayı yok. Yeni kayıt: CCW otonom silahlar kararı (21.11, önceki taramalarda kaçmış) → akşam Dosya maddesi, editör YAYINLA (2. tur). COP31 nihai kabulü 12:40 itibarıyla iki kaynakla doğrulanamadı → izleme sürüyor, Bahreyn 13:00 tabanı değişmedi. Sicil güncellemesi yok. Yeni soru açılmadı: Anayasa §2 hacim (bugün 4 açılış; açık soru 73 > tavan 70).",
+  "kosul_kontrol": {
+   "bahreyn_kosul1_cop31": "Tetiklenmedi: kabul oturumu 06:00 GMT'ye planlıydı; 12:40 TSİ'ye kadar okunan en son kaynaklar (AP/Boston Globe 08:27 UTC, ABC/AFP 05:04 UTC) kabul ya da ret bildirmiyor.",
+   "bahreyn_kosul2_centcom": "CENTCOM'un IRGC radar iddiasına cevabı bulunamadı (Gulf News canlı yayın, 22.11 01:49 TSİ'ye kadar); 21.11'deki iki CENTCOM açıklaması F-16 inkârı ve abluka 130. gün. 2. sayfa değişmez; yayın turu 13:00'ten önce yeniden bakar."
+  },
+  "events": [
+   {
+    "id": "ccw-otonom-silah-2028",
+    "ogle": true,
+    "class": "YEŞİL",
+    "risk": "yz/catisma",
+    "haber_kapisi": {
+     "olcek": 2,
+     "yenilik": 1,
+     "acik_uc": 1,
+     "puan": 4
+    },
+    "S": 0.69,
+    "K": 1,
+    "onem": 0.69,
+    "turkiye_bagi": 0,
+    "event": "BM CCW 7. gözden geçirme konferansı (Cenevre, 16–20 Kasım; bitiş 21.11 ~03:00 GMT): 128 taraf oybirliğiyle ölümcül otonom silahlar için iki yıl içinde bir düzenleme metni geliştirilmesine karar verdi; müzakere yerine geliştirme dendi, bağlayıcılık açık bırakıldı. ~100 ülke bağlayıcı kural istedi; ABD, Rusya, İsrail karşı çıktı. Stop Killer Robots ve HRW yetersiz buldu.",
+    "rationale": "Haber kapısı 4 → haber. Sicilde sorusu yok; v2.2 §2 soru açılmasını ister ama Anayasa §2 hacim kuralı (günlük 4 açılış doldu, açık 73 > 70) engelliyor. S asgari açılış belirsizliği 0,69, K 1 → 0,69 → Dosya. Geç yakalandı (21.11 ve 22.11 sabah taramalarında yoktu).",
+    "sources": [
+     "https://www.brecorder.com/news/40450103/states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028",
+     "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+     "https://www.manilatimes.net/2026/11/22/world/americas-emea/countries-open-path-toward-killer-robots-agreement/2475514"
+    ],
+    "yonlendirme": "Günün Dosyası (data/dosya/2026-11-22.json)",
+    "editor": "DÜZELT → YAYINLA"
+   },
+   {
+    "id": "cop31-kapanis-ogle",
+    "ogle": true,
+    "class": "YEŞİL",
+    "risk": "iklim",
+    "event": "COP31 nihai metin: 22.11 sabahı yayımlanan son taslak (10 sayfa) fosil yakıt, petrol, kömür ya da aşamalı çıkış kelimesi içermiyor; COP28 kararına dolaylı atıf, karbon yakalamada 1 milyar ton, elektrik payı 2035'e %35 hedefi var. Panama resmî itiraz edeceğini duyurdu; kabul oturumu 06:00 GMT'ye planlıydı. 12:40 TSİ itibarıyla sonuç iki kaynakla doğrulanamadı.",
+    "sources": [
+     "https://www.bostonglobe.com/2026/11/22/world/turkey-un-climate-fossil-fuels-global-warming/",
+     "https://www.abc.net.au/news/2026-11-22/cop31-at-odds-over-fossil-fuels/107414330"
+    ],
+    "yonlendirme": "izleme (akşam turu; sonuç gelirse Dosya maddesi, haber puanı >4 ise taban sorusu yeniden)"
+   }
+  ],
+  "elenen": [
+   {
+    "id": "nato-rutte-polonya",
+    "olay": "NATO Genel Sekreteri Polonya topraklarının her karışını savunacaklarını söyledi (20.11 füze/İHA düşmesinin devamı).",
+    "neden": "Yeni değil (EDITOR A3): ana olay 20.11'de işlendi ve 20.11 Dosya'sında; yeni olgu yok.",
+    "sources": [
+     "https://newsukraine.rbc.ua/news/nato-will-defend-every-inch-of-poland-after-1795292171.html",
+     "https://english.aaj.tv/news/330481659/nato-vows-to-defend-every-inch-of-polish-territory"
+    ]
+   },
+   {
+    "id": "ukrayna-22kasim",
+    "olay": "22 Kasım için yeni büyük Rus/Ukrayna saldırısı haberi bulunamadı; arama sonuçları 2025 ya da 12–16 Kasım tarihli.",
+    "neden": "Taranan dönemde yeni olgu yok."
+   }
+  ],
+  "not_yusuf": [
+   "Açık soru sayısı 73, Anayasa §2 tavanı 70 (bugünkü Portföy v2.2 commit'i aac89e7 69→73). Kapatılacak soru ya da tavan değişikliği kararı gerekiyor.",
+   "TARAMA v2.2 §2 ('soru yoksa soru açılır') ile Anayasa §2 hacim kuralı çatışıyor; öncelik kuralı yazılı değil (bugün Anayasa esas alındı).",
+   "dosya.js 03 sayfasındaki sabit künyede kaynak adı ve soru kimliği satırı yok (yalnız caption'da); tüm Dosya'ları etkileyen şablon notu."
+  ]
+ }
 }

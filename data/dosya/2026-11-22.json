@@ -1,0 +1,32 @@
+{
+ "date": "22 KASIM 2026",
+ "lede": "Cenevre'de otonom silahlar için iki yıllık bir düzenleme metni hazırlama süreci kararlaştırıldı; metnin bağlayıcı olup olmayacağı açık bırakıldı.",
+ "items": [
+  {
+   "tag": "Teknoloji",
+   "title": "Otonom silahlara iki yıllık kural süreci",
+   "text": "BM Belirli Konvansiyonel Silahlar Sözleşmesi'nin 128 tarafı, 21 Kasım sabahı Cenevre'de biten gözden geçirme konferansında ölümcül otonom silahlar için iki yıl içinde bir düzenleme metni geliştirilmesine oybirliğiyle karar verdi. Kararda müzakere yerine geliştirme deniyor; ortaya çıkacak belgenin bağlayıcı olup olmayacağı açık bırakıldı. Yaklaşık 100 ülke bağlayıcı kural isterken ABD, Rusya ve İsrail buna karşı çıktı. Stop Killer Robots ve İnsan Hakları İzleme Örgütü sonucu yetersiz buldu.",
+   "nosoru": "SORU TAVANI DOLU",
+   "pdo": "Karar, savaşta makine kararına iki yıllık resmî bir kural takvimi koyuyor; okur için bireysel olarak yapılacak bir şey yok. Açık soru, 2028'e kadar çıkacak metnin bağlayıcı olup olmayacağı. Bugünkü soru açılış sınırı dolduğu için sayı vermiyoruz; soru sınır açılınca açılır. İzlenecek gösterge: çalışma grubunun 2027 toplantı takvimi.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 1,
+   "onem": 0.69,
+   "kaynaklar": [
+    "https://www.brecorder.com/news/40450103/states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028",
+    "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+    "https://www.manilatimes.net/2026/11/22/world/americas-emea/countries-open-path-toward-killer-robots-agreement/2475514"
+   ],
+   "not_kayit": "Öğle taraması 22.11: olay 21.11 ~03:00 GMT (06:00 TSİ) bitişi; 21.11 ve 22.11 sabah taramalarında kaydı yoktu, geç yakalandı. Reuters (Business Recorder) + AFP (Al Jazeera/Manila Times) bağımsız. Editör (1. tur) v2.2 §2 gereği soru açılmasını istedi; açılamadı: Anayasa §2 hacim kuralı — 22.11'de 4 açılış yapıldı (Portföy v2.2) ve açık soru 73 > tavan 70. Anayasa TARAMA'nın üstündedir. S, açılacak soru için asgari açılış belirsizliği (0,69) olarak yazıldı. Hazır soru taslakları (sınır açılınca): (a) 'CCW, otonom silahlar çalışma grubunun 2027 oturum tarihlerini 20 Şubat 2027'ye kadar resmen açıklar mı?' (b) '20 Şubat 2027'ye kadar en az bir devlet, CCW dışında bağlayıcı bir otonom silah antlaşması için ayrı müzakere süreci başlatıldığını resmen duyurur mu?'",
+   "kapi1": "Okur, bağlayıcı bir kuralın en erken 2028'de gelebileceğini ve bunun da kesin olmadığını bilir.",
+   "editor": "YAYINLA (2. tur, 22.11 öğle; 1. tur DÜZELT: soru açma, ifade, saat, kapı 1)"
+  }
+ ],
+ "question": "Sizce silahlarda insan kararının yerini makineye bırakmanın sınırı kim tarafından çizilmeli?",
+ "durum": "taslak — öğle turu 1 madde; akşam turu COP31 sonucunu (ve Bahreyn Olay ve Cevap'tan inerse onu) ekleyip yeniden üretir. Tek madde ile Dosya çıkmaz (TARAMA: en az iki olay)."
+}
