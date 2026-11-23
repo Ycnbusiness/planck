@@ -570,6 +570,50 @@
     "https://www.dawn.com/news/2046255/protesters-rally-for-sixth-weekend-in-france",
     "https://www.bangkokpost.com/world/3358916/french-protesters-rally-for-sixth-weekend-over-living-costs-public-services"
    ]
+  },
+  {
+   "tarih": "2026-11-23",
+   "id": "hurmuz-kasim-saldiri-sayisi",
+   "tema": "Hürmüz'de gemi saldırıları",
+   "bagli": [
+    "risk-enerji",
+    "risk-catisma"
+   ],
+   "olay": "CNN'in UKMTO verisi analizine göre 22 Kasım itibarıyla Kasım'da en az 22 saldırı bildirildi (savaşın ikinci en yüksek ayı; Ekim 30'u aştı). 20–21 Kasım'da Captain Leon, Torkel ve Arina tankerleri vuruldu (Marisks). Brent geçen hafta ~%4 geriledi; ihracat toparlanması ve hisse satışı baskın.",
+   "neden_zayif": "Haber kapısı 3 (yenilik 0): 21.11 Dosya'sında işlenen eğilimin sürmesi. Geçiş sorusu (22) ve motorin sorusu (25) değişmedi.",
+   "kaynaklar": [
+    "https://www.wrtv.com/news/international/reported-attacks-on-shipping-near-strait-of-hormuz-hit-wartime-high/",
+    "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
+    "https://www.brecorder.com/news/40450306/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses",
+    "https://www.oilandgas360.com/oil-prices-fall-as-gulf-exports-return-to-prewar-levels/"
+   ]
+  },
+  {
+   "tarih": "2026-11-23",
+   "id": "husi-suudi-rafineri",
+   "tema": "Husi saldırıları",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "Husiler 22 Kasım'da bir Suudi rafinerisine saldırı iddia etti (Reuters aktarımı).",
+   "neden_zayif": "Tek taraflı iddia, Suudi teyidi yok.",
+   "kaynaklar": [
+    "https://www.brecorder.com/news/40450306/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses"
+   ]
+  },
+  {
+   "tarih": "2026-11-23",
+   "id": "abd-katar-berlin-iran",
+   "tema": "ABD–İran arabuluculuk",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "Witkoff ve Kushner'in Berlin'de Katarlı arabulucularla İran'ı görüştüğü bildirildi; İran 21 Kasım'da Katar heyetiyle görüştüğünü ve ABD'nin şartlarını kabul etmesini istediğini açıkladı.",
+   "neden_zayif": "Somut adım yok; ateşkes sorusu (15) değişmedi.",
+   "kaynaklar": [
+    "https://www.middleeasteye.net/live-blog/live-blog-update/trump-envoys-met-qatari-officials-berlin-discuss-us-iran-mediation",
+    "https://aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions"
+   ]
   }
  ]
 }

@@ -1,0 +1,112 @@
+{
+ "date": "2026-11-23",
+ "scan_window": "2026-11-22 07:15 → 2026-11-23 07:30 (TSİ)",
+ "yontem": "Yöntem v2.2 (TARAMA.md). Günün Olay ve Cevap'ı 22.11'de planlanan Nvidia (11:00, Yusuf onaylı); editör listesi m.21 gereği ana akış eşiğini geçen yeni olay Dosya'ya yönlendirildi. 'onem_eski' görev metnindeki eski formülle (|Δ 2031| × TR × etki).",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "not": "sicil.py vadesi boş."
+ },
+ "izleme": {
+  "not": "hurmuz-uc-tanker-mayin: bitiş 22.11 geçti, bağımsız mayın teyidi yok → düştü."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 0,
+  "yesil": 2,
+  "zayif": 3,
+  "not": "Ana akış eşiğini geçen tek olay Asya'daki hükümet müdahaleleri (S×K 2,07); günün Olay ve Cevap yuvası Nvidia'da olduğu için Dosya'ya indi (editör m.21). Sicil ve 2031 olasılıkları değişmedi. Brent: Business Standard 89,80 $ ile Reuters 92,29 $ çelişiyor; eşik soruları güncellenmedi. Soru açılamadı (Anayasa §2: açık 73 > 70)."
+ },
+ "events": [
+  {
+   "id": "asya-yz-satis-mudahale",
+   "class": "YEŞİL",
+   "risk": null,
+   "delta": 0,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 2,
+    "acik_uc": 2,
+    "puan": 6
+   },
+   "S": 0.69,
+   "K": 3,
+   "onem": 2.07,
+   "turkiye_bagi": 1,
+   "onem_eski": "|Δ 0 (2031)| × TR 1 × etki 3 = 0",
+   "event": "Tayvan düzenleyicisi 21 Kasım'da düşen hisselerde önceki kapanışın altında açığa satışı yasakladı, teminat oranını %130'dan %150'ye çıkardı (Taiex haftada ~%17,5 düştü, 1990'dan beri en kötü hafta). Güney Kore 22 Kasım'da 2008'den beri kullanılmayan piyasa istikrar fonunu hazırladığını, şirketlerin geri alım sınırlarını 24 Kasım'dan itibaren üç ay gevşettiğini açıkladı. Çin borsaları kredili alım teminatını %100'den %80'e indirdi (30 Kasım'dan itibaren). 23 Kasım sabahı Kospi yeniden ~%5 düştü (Haziran zirvesinin ~%47 altı), ABD vadelileri %2 civarı yükseldi.",
+   "rationale": "Yapay zekâ satışı, devletlerin borsa kurallarını değiştirdiği bir aşamaya geçti (Kore'de 2008 sonrası ilk). Sicilde doğrudan soru yok; açılış belirsizliği asgari 0,69. K=3: okurun birikimi ve yatırım fonları. S×K 2,07 ≥ 1,4 → ana akış eşiği; günün Olay ve Cevap yuvası dolu → Dosya. 2031 listesinde finansal kriz riski yok: aday olarak Yusuf'a önerilecek (sicil tavanı nedeniyle eklenmedi).",
+   "sources": [
+    "https://uk.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-4997968",
+    "https://uk.investing.com/news/stock-market-news/asia-stocks-slide-as-ai-rout-deepens-despite-rebound-in-us-futures-4998163",
+    "https://bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets",
+    "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html",
+    "https://finance.yahoo.com/markets/stocks/articles/taiwan-stocks-suffer-worst-week-192113134.html"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00 (ana akış adayı; Nvidia yuvası)"
+  },
+  {
+   "id": "baltik-sparta2-iha",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 91,
+   "to": 91,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 1,
+   "onem": 0.69,
+   "turkiye_bagi": 0,
+   "onem_eski": "|Δ 0| × TR 0 × etki 2 = 0",
+   "event": "Rus Savunma Bakanlığı'na lojistik sağlayan Oboronlogistika'nın ABD yaptırımlı kargo gemisi Sparta II, St. Petersburg'dan Kaliningrad'a giderken 21 Kasım'da Gogland adasının batısında uluslararası sularda İHA saldırısına uğradı; 16 mürettebat tahliye edildi, gemi Finlandiya sularına sürüklenip demirledi, yangın 22 Kasım'da sürüyordu. Finlandiya ordusu saldırının büyük olasılıkla Ukrayna tarafından yapıldığını değerlendirdi; Ukrayna'dan üstlenme bildirilmedi. Finlandiya Başbakanı savaşın yakın çevreye taştığını söyledi.",
+   "rationale": "Rusya–Ukrayna deniz savaşı Baltık'ta bir NATO ülkesinin sularına taştı. 2031 çatışma riski 91'de, eğilimi doğruluyor. Sicilde Baltık sorusu yok; soru tavanı dolu. Taslak soru: '20 Şubat 2027'ye kadar Baltık Denizi'nde başka bir ticari gemiye İHA ya da füze saldırısı iki bağımsız kaynakla bildirilir mi?'",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack",
+    "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+    "https://www.kyivpost.com/post/90814",
+    "https://www.yahoo.com/news/world/articles/drones-attack-cargo-ship-gulf-161828494.html"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00"
+  }
+ ],
+ "zayif": [
+  {
+   "id": "hurmuz-kasim-saldiri-sayisi",
+   "olay": "CNN'in UKMTO verisi analizine göre 22 Kasım itibarıyla Kasım'da en az 22 saldırı bildirildi (savaşın ikinci en yüksek ayı; Ekim 30'u aştı). 20–21 Kasım'da Captain Leon, Torkel ve Arina tankerleri vuruldu (Marisks). Brent geçen hafta ~%4 geriledi; ihracat toparlanması ve hisse satışı baskın.",
+   "neden": "Haber kapısı 3 (yenilik 0): 21.11 Dosya'sında işlenen eğilimin sürmesi. Geçiş sorusu (22) ve motorin sorusu (25) değişmedi.",
+   "sources": [
+    "https://www.wrtv.com/news/international/reported-attacks-on-shipping-near-strait-of-hormuz-hit-wartime-high/",
+    "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
+    "https://www.brecorder.com/news/40450306/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses",
+    "https://www.oilandgas360.com/oil-prices-fall-as-gulf-exports-return-to-prewar-levels/"
+   ]
+  },
+  {
+   "id": "husi-suudi-rafineri",
+   "olay": "Husiler 22 Kasım'da bir Suudi rafinerisine saldırı iddia etti (Reuters aktarımı).",
+   "neden": "Tek taraflı iddia, Suudi teyidi yok.",
+   "sources": [
+    "https://www.brecorder.com/news/40450306/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses"
+   ]
+  },
+  {
+   "id": "abd-katar-berlin-iran",
+   "olay": "Witkoff ve Kushner'in Berlin'de Katarlı arabulucularla İran'ı görüştüğü bildirildi; İran 21 Kasım'da Katar heyetiyle görüştüğünü ve ABD'nin şartlarını kabul etmesini istediğini açıkladı.",
+   "neden": "Somut adım yok; ateşkes sorusu (15) değişmedi.",
+   "sources": [
+    "https://www.middleeasteye.net/live-blog/live-blog-update/trump-envoys-met-qatari-officials-berlin-discuss-us-iran-mediation",
+    "https://aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions"
+   ]
+  }
+ ],
+ "elenen": "Kaliningrad Baltiysk'te patlama iddiaları (21.11; doğrulanamadı, Rus resmî teyidi yok). Brent 89,80 $ (tek kaynak, Reuters 92,29 ile çelişiyor). Tayvan askeri hareketliliği, siber, ABD siyaseti: son 24 saatte iki kaynaklı yeni olay bulunamadı.",
+ "sicil": "Güncelleme yok; risks.json olasılıkları ve history.json değerleri değişmedi.",
+ "pekibiz": "Yeni soru yok (Anayasa §2 tavanı: açık 73 > 70)."
+}

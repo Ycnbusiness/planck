@@ -1,0 +1,61 @@
+{
+ "date": "23 KASIM 2026",
+ "lede": "Asya'da üç hükümet yapay zekâ satışına karşı borsa kurallarını değiştirdi; Finlandiya Körfezi'nde Rus Savunma Bakanlığı'na lojistik sağlayan bir şirketin kargo gemisi İHA ile vuruldu.",
+ "items": [
+  {
+   "tag": "Piyasalar",
+   "title": "Asya'da hükümetler borsaya müdahale etti",
+   "text": "Tayvan 21 Kasım'da bir önceki kapanışın altındaki fiyattan açığa satışı yasakladı, Güney Kore 22 Kasım'da 2008'den beri kullanmadığı piyasa istikrar fonunu hazırladığını, Çin de kredili alım teminatını düşürdüğünü açıkladı. Kospi 23 Kasım sabahı yeniden yaklaşık %5 geriledi ve Haziran zirvesinin yaklaşık yarısına indi.",
+   "nosoru": "SORU TAVANI DOLU",
+   "pdo": "Yapay zekâ satışı, devletlerin borsa kurallarını değiştirdiği bir aşamaya geçti; soru açılış sınırımız dolu olduğu için sayı vermiyoruz. Bireysel olarak yapılacak bir şey yok; izlenecek gösterge Kore istikrar fonunun fiilen devreye girip girmediği.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 2,
+    "acik_uc": 2,
+    "puan": 6
+   },
+   "S": 0.69,
+   "K": 3,
+   "onem": 2.07,
+   "turkiye_bagi": 1,
+   "kaynaklar": [
+    "https://uk.investing.com/news/stock-market-news/asian-countries-take-steps-to-aid-stock-markets-after-ai-rout-4997968",
+    "https://uk.investing.com/news/stock-market-news/asia-stocks-slide-as-ai-rout-deepens-despite-rebound-in-us-futures-4998163",
+    "https://bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets",
+    "https://www.business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html",
+    "https://finance.yahoo.com/markets/stocks/articles/taiwan-stocks-suffer-worst-week-192113134.html"
+   ],
+   "kapi1": "Okur, satışın şirket hisselerinden ülke piyasalarına yayıldığını ve hükümetlerin araya girdiğini bilir.",
+   "not_kayit": "S×K 2,07 ana akış eşiğinin üstünde; günün Olay ve Cevap yuvası Nvidia'da (editör m.21) → Dosya. Taiex ve Kore fon ayrıntıları Investing.com (Reuters fotoğraflı) + Bloomberg + bne/Yahoo; Kospi pazartesi Investing.com + Business Standard.",
+   "editor": "YAYINLA (2. tur, 23.11 sabah; 1. tur DÜZELT: Kospi oranı, lede iddia dili, NATO suları ifadesi, Tayvan yasak kapsamı)"
+  },
+  {
+   "tag": "Güvenlik",
+   "title": "Finlandiya Körfezi'nde Rus kargo gemisi vuruldu",
+   "text": "Rus Savunma Bakanlığı'na lojistik sağlayan bir şirketin ABD yaptırımlı gemisi Sparta II, 21 Kasım'da uluslararası sularda İHA ile vuruldu; 16 mürettebat tahliye edildi, gemi Finlandiya sularına sürüklendi. Finlandiya ordusu saldırıyı büyük olasılıkla Ukrayna'nın yaptığını değerlendirdi; Ukrayna'dan üstlenme açıklaması gelmedi.",
+   "nosoru": "SORU TAVANI DOLU",
+   "pdo": "Rusya ile Ukrayna arasındaki deniz savaşında vurulan bir gemi, Baltık'ta bir NATO ülkesinin sularına sürüklendi; soru açılış sınırımız dolu olduğu için sayı vermiyoruz. İzlenecek gösterge: Finlandiya Körfezi'nde yeni saldırı ve Baltık ülkelerinin deniz güvenliği önlemleri.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 1,
+   "onem": 0.69,
+   "turkiye_bagi": 0,
+   "kaynaklar": [
+    "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack",
+    "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+    "https://www.kyivpost.com/post/90814",
+    "https://www.yahoo.com/news/world/articles/drones-attack-cargo-ship-gulf-161828494.html"
+   ],
+   "kapi1": "Okur, savaşın deniz ticaretine ve NATO sularına yayılma biçimini izleyebilir.",
+   "not_kayit": "Al Jazeera (AFP/Reuters) + France 24 + Kyiv Post bağımsız. Taslak soru (tavan açılınca): '20 Şubat 2027'ye kadar Baltık Denizi'nde başka bir ticari gemiye İHA ya da füze saldırısı iki bağımsız kaynakla bildirilir mi?'",
+   "editor": "YAYINLA (2. tur, 23.11 sabah; 1. tur DÜZELT: Kospi oranı, lede iddia dili, NATO suları ifadesi, Tayvan yasak kapsamı)"
+  }
+ ],
+ "question": "Sizce borsada açığa satış yasağı düşüşü durdurur mu, yoksa yalnız erteler mi?",
+ "durum": "sabah taraması 23.11: 2 madde; akşam turu yeni olayları ekleyip üretir"
+}
