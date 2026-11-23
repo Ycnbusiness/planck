@@ -74,6 +74,33 @@
     "https://www.yahoo.com/news/world/articles/drones-attack-cargo-ship-gulf-161828494.html"
    ],
    "yonlendirme": "Günün Dosyası 21:00"
+  },
+  {
+   "id": "bingazi-rus-savas-gemisi",
+   "ogle": true,
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 2,
+   "onem": 1.38,
+   "turkiye_bagi": 1,
+   "event": "Bingazi deniz üssünde demirli bir Rus donanma gemisi 22 Kasım'da patlamayla vuruldu; Doğu Libya hükümeti İHA saldırısından şüphelendiğini açıkladı, BM'den soruşturma ve Kiev'den açıklama istedi. AP'ye konuşan Libyalı askerî yetkililere göre batı Libya'dan gönderilen Ukrayna deniz İHA'ları vurdu; sağlık kaynaklarına göre 10 hafif yaralı. 23.11 09:03 TSİ Reuters: Vantor uydu görüntüsüne göre gemi büyük ölçüde battı (resmî teyit yok). Ukrayna yorum yapmadı; Rusya'dan ilk saatlerde açıklama yok. Aynı akşam Malta bayraklı bir ticari gemi de vuruldu (Reuters, iki askerî kaynak).",
+   "rationale": "Sabah taramasında yoktu (olay 22.11 akşamı; batma bilgisi 04:00 sonrası). Rusya–Ukrayna deniz savaşının Akdeniz'e yayılması (Aralık 2025 Qendil, Mart 2026 Arctic Metagaz'dan sonra limanda savaş gemisi). Sicilde soru yok, açık soru tavanı dolu → S asgari 0,69; K 2 (Akdeniz ticaret yolları, Türkiye'nin Libya'daki varlığı) → 1,38 → Günün Dosyası 3. madde. 2031 çatışma riski değişmedi (eğilimi doğruluyor, LR<1,2). Taslak soru (tavan açılınca): '28 Şubat 2027'ye kadar Akdeniz'de Rusya'ya bağlı başka bir gemiye İHA saldırısı iki bağımsız kaynakla bildirilir mi?'",
+   "sources": [
+    "https://cyprus-mail.com/2026/11/23/russian-warship-hit-in-suspected-drone-attack-at-libyan-naval-base",
+    "https://kyivindependent.com/russian-warship-docked-in-benghazi-hit-by-suspected-drone-attack-libyan-officials-say/",
+    "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+    "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00 (3. madde); editör YAYINLA (2. tur)"
   }
  ],
  "zayif": [
@@ -108,5 +135,16 @@
  ],
  "elenen": "Kaliningrad Baltiysk'te patlama iddiaları (21.11; doğrulanamadı, Rus resmî teyidi yok). Brent 89,80 $ (tek kaynak, Reuters 92,29 ile çelişiyor). Tayvan askeri hareketliliği, siber, ABD siyaseti: son 24 saatte iki kaynaklı yeni olay bulunamadı.",
  "sicil": "Güncelleme yok; risks.json olasılıkları ve history.json değerleri değişmedi.",
- "pekibiz": "Yeni soru yok (Anayasa §2 tavanı: açık 73 > 70)."
+ "pekibiz": "Yeni soru yok (Anayasa §2 tavanı: açık 73 > 70).",
+ "ogle": {
+  "ogle": true,
+  "scan_window": "2026-11-23 07:30 → 12:45 (TSİ)",
+  "ozet": "Ana akış adayı yok. Yeni: Bingazi'de Rus savaş gemisi (sabah taramasında yoktu) → Dosya 3. madde, editör YAYINLA (2. tur). Piyasalarda toparlanma ve İran'ın abluka açıklaması zayıf sinyal. Sicil güncellemesi yok; yeni soru açılmadı (açık soru tavanı). Kırmızı çizgi olayı yok.",
+  "zayif": [
+   "piyasa-toparlanma-23-11",
+   "iran-abluka-tum-araclar"
+  ],
+  "elenen": "Ynet: ABD'nin İran'a olası saldırısı en az bir hafta ertelendi (tek kaynak, Gulf News aktarımı) · Trump'ın Fox'a İran açıklamaları (tarih belirsiz) · COP31 anlaşmasız kapanış (22.11'de işlendi) · Etihad/flydubai Suudi uçuş iptal uzatmaları (18.11 kararı, yeni değil) · Bakan Gürlek 23 şirkete kayyum (28.10 haberi, yeni değil) · Samsung Securities veri sızıntısı (tek kaynak, Yonhap aktarımı) · Kabine toplantısı 15:00 (sonuç henüz yok).",
+  "sicil": "Güncelleme yok."
+ }
 }

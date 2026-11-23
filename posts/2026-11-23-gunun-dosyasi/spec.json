@@ -1,6 +1,6 @@
 {
  "date": "23 KASIM 2026",
- "lede": "Asya'da üç hükümet yapay zekâ satışına karşı borsa kurallarını değiştirdi; Finlandiya Körfezi'nde Rus Savunma Bakanlığı'na lojistik sağlayan bir şirketin kargo gemisi İHA ile vuruldu.",
+ "lede": "Asya'da üç hükümet yapay zekâ satışına karşı borsa kurallarını değiştirdi; Finlandiya Körfezi'nde bir Rus kargo gemisi İHA ile vuruldu, Libya'da demirli bir Rus savaş gemisi şüpheli İHA saldırısında vuruldu.",
  "items": [
   {
    "tag": "Piyasalar",
@@ -54,8 +54,60 @@
    "kapi1": "Okur, savaşın deniz ticaretine ve NATO sularına yayılma biçimini izleyebilir.",
    "not_kayit": "Al Jazeera (AFP/Reuters) + France 24 + Kyiv Post bağımsız. Taslak soru (tavan açılınca): '20 Şubat 2027'ye kadar Baltık Denizi'nde başka bir ticari gemiye İHA ya da füze saldırısı iki bağımsız kaynakla bildirilir mi?'",
    "editor": "YAYINLA (2. tur, 23.11 sabah; 1. tur DÜZELT: Kospi oranı, lede iddia dili, NATO suları ifadesi, Tayvan yasak kapsamı)"
+  },
+  {
+   "tag": "Güvenlik",
+   "title": "Libya'da demirli Rus savaş gemisi vuruldu",
+   "text": "Bingazi deniz üssünde demirli bir Rus donanma gemisi 22 Kasım'da patlamayla vuruldu. Doğu Libya hükümeti İHA saldırısından şüphelendiğini açıkladı, BM'den uluslararası soruşturma istedi ve Kiev'den açıklama talep etti; AP'ye konuşan Libyalı askerî yetkililere göre gemiyi batı Libya'dan gönderilen Ukrayna deniz İHA'ları vurdu. Sağlık kaynaklarına göre 10 kişi hafif yaralandı. Reuters'ın aktardığı uydu görüntülerine göre gemi büyük ölçüde battı; resmî teyit yok. Ukrayna yorum yapmadı, Rusya'dan ilk saatlerde açıklama gelmedi.",
+   "nosoru": "SORU TAVANI DOLU",
+   "pdo": "Rusya ile Ukrayna arasındaki deniz savaşı Karadeniz'in dışında, Türkiye'nin de yoğun ticaret yaptığı Orta Akdeniz'de sürüyor; Aralık 2025 ve Mart 2026'daki tanker saldırılarından sonra bu kez limanda demirli bir savaş gemisi hedef oldu. Soru açılış sınırımız dolu olduğu için sayı vermiyoruz. Bireysel olarak yapılacak yok; izlenecek gösterge Libya limanlarında ve Akdeniz'de yeni saldırı.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 2,
+   "onem": 1.38,
+   "turkiye_bagi": 1,
+   "kaynaklar": [
+    "https://cyprus-mail.com/2026/11/23/russian-warship-hit-in-suspected-drone-attack-at-libyan-naval-base",
+    "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+    "https://kyivindependent.com/russian-warship-docked-in-benghazi-hit-by-suspected-drone-attack-libyan-officials-say/",
+    "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea"
+   ],
+   "kapi1": "Okur, Rusya–Ukrayna deniz savaşının Türkiye'nin ticaret yollarına yakın Akdeniz'e taşındığını bilir ve buradaki yeni saldırıları izleyebilir.",
+   "not_kayit": "Öğle taraması 23.11 (sabah taramasında yoktu; uydu tabanlı batma bilgisi 09:03 TSİ Reuters). Olgu: Reuters (Al Jazeera, Cyprus Mail) + AP (Kyiv Independent) bağımsız. Batma yalnız Reuters/Vantor uydu görüntüsüyle → iddia dili. Gemi adı (Merkury) tek kaynak zinciri → metne konmadı. Taslak soru (tavan açılınca): '28 Şubat 2027'ye kadar Akdeniz'de Rusya'ya bağlı başka bir gemiye İHA saldırısı iki bağımsız kaynakla bildirilir mi?'",
+   "editor": {
+    "hukum": "YAYINLA",
+    "tur": 2,
+    "onem": {
+     "S": 0.69,
+     "K": 2,
+     "puan": 1.38
+    },
+    "kapilar": [
+     true,
+     true,
+     true
+    ],
+    "bahis_testi": true,
+    "kaynaklar_yeniden": [
+     "https://cyprus-mail.com/2026/11/23/russian-warship-hit-in-suspected-drone-attack-at-libyan-naval-base",
+     "https://kyivindependent.com/russian-warship-docked-in-benghazi-hit-by-suspected-drone-attack-libyan-officials-say/",
+     "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+     "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea"
+    ],
+    "duzeltmeler_1_tur": [
+     "Ukrayna atfı hükümetten değil AP'ye konuşan Libyalı askerî yetkililerden; hükümet yalnız şüphe bildirip BM soruşturması ve Kiev'den açıklama istedi",
+     "10 hafif yaralı sağlık kaynaklarından (Reuters)",
+     "Lede'de şüpheli saldırı olgu diliyle verilmişti"
+    ],
+    "gerekce": "2. turda iddia ile olgu ayrıldı; olgular Reuters ve AP'de bağımsız doğrulandı; görsellerde taşma ya da tarih hatası yok."
+   }
   }
  ],
  "question": "Sizce borsada açığa satış yasağı düşüşü durdurur mu, yoksa yalnız erteler mi?",
- "durum": "sabah taraması 23.11: 2 madde; akşam turu yeni olayları ekleyip üretir"
+ "durum": "öğle taraması 23.11: 3 madde (Bingazi eklendi); akşam turu yeni olay eklerse yeniden üretir"
 }
