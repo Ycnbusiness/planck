@@ -62,6 +62,7 @@ Liste sırayla işlenir; bir aşamada REDDET ya da BEKLET çıkarsa sonraki aşa
 24. Sayı %3–97 sınırı içinde mi? Tek olay ±15 puanı aşıyor mu?
 25. Ana akış içeriğinde üç bağımsız geçiş yapılmış mı ve yayınlanan sayı bunların medyanı mı? Aralık 15 puanı aşıyorsa "belirsizlik yüksek" etiketi var mı?
 26. Motor ile Claude ayarı ayrı yazılmış mı?
+26a. Soru bir kişi/kurum kararına bağlıysa Güç Okuma kaydı (aktör tablosu + rüzgâr kaydı + denge cümlesi) var mı? Yoksa **DÜZELT** (`ekip/GUC-OKUMA.md`).
 27. Yeni sorular ufuk ve bant kurallarına uyuyor mu (≤90 gün, açılışta %15–85; kuyruk etiketi değilse)?
 
 ## F · Sunum standardı (doğru okunur mu?)

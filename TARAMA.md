@@ -87,6 +87,8 @@ Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalı
 
 **6a. Senaryo sayfası (Yusuf onayı 22.11.2026, HEMEN GEÇERLİ).** Olay ve Cevap'ın 3. sayfası "Ne olur? · Senaryolar"dır: 2–3 birbirini dışlayan dal, her dalda KOŞUL (bunun olması için ne gerekir), OLURSA (mekanizma ve sonuç), EMSAL (tarihte benzer durum; yoksa "emsal yok"), İZ (izlenecek işaret) ve en altta AĞIRLIK %. Dal ağırlıkları toplamı 100'dür ve sicildeki ilgili sorularla tutarlıdır. Ürün analizdir; yüzde ağırlıktır, manşet değildir. Spec alanı: `senaryolar: {baslik, dallar:[{ad,p,kosul,olursa,emsal,iz}]}` (news/olaycevap2.js). Eski `neolur` listesi yalnız senaryo kurulamayan takvimli veri olaylarında kullanılır.
 
+**6b. Güç Okuma (Yusuf kararı 23.11.2026).** Sonucu bir kişi ya da kurumun kararına bağlı her soruda ayrı bir Güç Okuma çalıştırması aktör tablosu, rüzgâr kaydı (bedelli/bedelsiz sinyal) ve bağ okuması yapar (`ekip/GUC-OKUMA.md`). Motor yalnız taban oranı ise ve rüzgâr kaydı yoksa sayı yayınlanmaz. Piyasa fiyatı zorunlu değil, yalnız kıyas.
+
 **7. Doğruluk aynen:** iki bağımsız kaynak, iddia ile olgu ayrımı, bahis dili yok, SPK çizgisi, künye. Gevşeyen "yayınlanır mı" kararıdır; "doğru mu" denetimi değişmez. Editör varsayılanı DÜZELT'tir; BEKLET yalnız olgu doğrulanamıyorsa ve en çok 6 saat sürer (sonra düşer ya da B katmanı kaynakla çıkar).
 
 ### Önem puanı ve yönlendirme (Yöntem v2)
