@@ -2,22 +2,41 @@
 
 Alan: jeopolitik · Açılış: 2026-11-23 · Durum: süren
 
-## Özet (her güncellemede yeniden yazılır, 3–5 cümle)
-_Doldurulacak._
+## Özet
+ABD ile İran arasındaki savaş Nisan 2026 ateşkesine rağmen düşük yoğunlukta sürüyor. Kasım'da İran Körfez'deki ABD üslerine ve sivil altyapıya İHA saldırıları yaptı (Bahreyn radarı, 21 Kasım'da Bahreyn'de sivil sanayi tesisi), ABD ise İran topraklarını vurdu (Keşm). Hürmüz'den çıkan tankerler vurulmaya devam ediyor (UKMTO, 16 ve 21 Kasım). Dolaylı görüşmeler kopmadı ama ABD Başkanı 'Ocak'tan sonra göreceğiz' diyerek süre koydu.
 
 ## Aktörler (ekip/GUC-OKUMA.md §1)
 | Aktör | Rolü (karar verir / engeller / etkiler) | Ne kazanır, ne kaybeder | Yön | Güç (1–3) |
 |---|---|---|---|---|
+| ABD Başkanı | karar verir (ABD tarafı) | Petrol fiyatı, seçmen, Körfez müttefikleri | ± | 3 |
+| İran yönetimi / Devrim Muhafızları | karar verir (İran tarafı) | Rejim güvenliği, petrol geliri, Hürmüz kozu | − | 3 |
+| Körfez ülkeleri (Bahreyn, Katar, BAE, S. Arabistan) | etkiler | Altyapı ve ihracat güvenliği | + (ateşkes yönü) | 2 |
+| Umman / Katar | arabulucu | Bölgesel istikrar | + | 1 |
+| İsrail | etkiler | İran'ın askeri kapasitesi | − | 2 |
 
 ## Rüzgâr kaydı (her yeni haber bir satır; bedelli sinyal ağır)
 | Tarih | Kim | Ne (kendi cümlemizle) | Yön | Bedel | Ağırlık | Kaynak |
 |---|---|---|---|---|---|---|
+| 2026-11-10 | ABD Başkanı | Savaşın fiilen bittiğini, ablukanın kalkacağını söyledi | + | düşük (beyan) | orta | AP, Reuters |
+| 2026-11-15 | Bahreyn | İran'ın radar saldırısının önlendiğini açıkladı | − | — | orta | Bahreyn ordusu |
+| 2026-11-16 | UKMTO | Hürmüz çıkışında tanker vuruldu | − | — | orta | UKMTO |
+| 2026-11-18 | ABD | Keşm Adası'na saldırı | − | yüksek | yüksek | Reuters |
+| 2026-11-19 | NYT | ABD ve İsrail yeni saldırı seçenekleri hazırlıyor | − | orta | orta | NYT |
+| 2026-11-19 | ABD Başkanı | '1 Ocak'tan sonra göreceğiz' | − | orta | orta | AP |
+| 2026-11-21 | UKMTO | Hürmüz'de iki tanker daha vuruldu | − | — | orta | CNBC, Arab News |
+| 2026-11-21 | Bahreyn İçişleri | Sivil sanayi tesisi isabet aldı, yaralı yok; İran radar iddiası doğrulanmadı | − | — | orta | AFP, Al Jazeera |
 
 ## Denge
-_Olumlu / olumsuz hangisi ağır basıyor ve neden._
+Olumsuz sinyaller ağır basıyor: iki taraf da sahada bedelli adımlar atıyor (saldırılar), olumlu sinyaller yalnız sözlü (10 Kasım 'savaş bitti' beyanı). Ateşkes sorusu 18→15'e indi; bu yön Ocak'a kadar değişmez görünüyor, ta ki arabulucudan tarih gelene kadar.
 
-## Yarışan açıklamalar (2–3 hipotez; hangisi güçleniyor)
+## Yarışan açıklamalar
+1. **Sınırlı çatışma sürer** (ağırlık %47): iki taraf da genişlemeden kaçınır.
+2. **Enerji şoku** (%38): saldırılar Hürmüz trafiğine ve enerji altyapısına yayılır.
+3. **Resmî ateşkes** (%15): Umman/Katar arabuluculuğuyla yazılı metin.
 
-## Bağlar (kanıtlı / çelişkili / yapısal)
+## Bağlar
+- **Yapısal:** [[petrol-akaryakit]] — Brent ve Türkiye'de motorin fiyatı bu hikâyenin dalına bağlı.
+- **Yapısal:** [[abd-cin-teknoloji]] — Şenzhen zirvesinde İran gündemi (kanıt yok).
 
-## Analist notu (en son akşam turu)
+## Analist notu
+23.11 (geriye dönük doldurma): Güç Okuma ile yeniden bakılmalı: ABD Başkanı'nın 'Ocak' süresi bedelli bir sinyal mi, pazarlık mı? Umman kanalında tarih çıkarsa ateşkes dalı en az ikiye katlanır.

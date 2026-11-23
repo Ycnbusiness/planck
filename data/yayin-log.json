@@ -819,5 +819,31 @@
       "ai_etiketi": true,
       "facebook": false
     }
+  },
+  {
+    "tarih": "2026-11-23T21:06",
+    "tur": "dosya",
+    "kanal": "news",
+    "klasor": "posts/2026-11-23-gunun-dosyasi",
+    "baslik": "Günün Dosyası · 23 Kasım 2026",
+    "durum": "planlandi",
+    "yayin_saati": "2026-11-23T21:30",
+    "sorular": [
+      "pk-2026-11-21-huang-donus"
+    ],
+    "editor": {
+      "hukum": "YAYINLA",
+      "duzeltmeler": [
+        "Nvidia maddesi eklendi (8-K, CNN, TechCrunch)",
+        "eski 'Bu içerik…' satırı kaldırıldı",
+        "Instagram Gelişmiş Koruma ekranı: Yusuf iki adımlı doğrulamayı açtı, 21:00 → 21:30"
+      ]
+    },
+    "instagram": {
+      "hesap": "@planck.news",
+      "format": "carousel 6 sayfa",
+      "ai_etiketi": true,
+      "facebook": false
+    }
   }
 ]
