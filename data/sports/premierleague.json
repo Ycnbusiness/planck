@@ -2,43 +2,50 @@
  "league": "premierleague",
  "name": "Premier League",
  "season": "2026-27",
- "source": "sportsmole.co.uk/football/Premier-League/table.html, 10. hafta sonrası (20 Kasım 2026 erişim); saatler TSİ",
- "asof": "2026-11-20",
+ "source": "espn.com (skor + puan tablosu) + skysports.com + nbcsports.com (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Brentford–Everton (2026-11-23)",
+ "asof": "2026-11-23",
  "table": [
   [
    "Arsenal",
-   10,
-   15,
-   5,
-   27
+   11,
+   17,
+   7,
+   28
   ],
   [
    "Brighton",
-   10,
+   11,
    26,
-   7,
+   9,
    22
   ],
   [
    "Manchester City",
-   10,
-   21,
-   13,
-   21
+   11,
+   22,
+   14,
+   22
   ],
   [
    "Liverpool",
+   11,
+   18,
    10,
+   21
+  ],
+  [
+   "Bournemouth",
+   11,
+   18,
    14,
-   10,
    18
   ],
   [
-   "Chelsea",
-   10,
-   19,
-   16,
-   16
+   "Leeds United",
+   11,
+   14,
+   9,
+   17
   ],
   [
    "Everton",
@@ -48,10 +55,17 @@
    16
   ],
   [
-   "Bournemouth",
-   10,
-   16,
-   14,
+   "Chelsea",
+   11,
+   20,
+   20,
+   16
+  ],
+  [
+   "Tottenham",
+   11,
+   12,
+   11,
    15
   ],
   [
@@ -62,87 +76,73 @@
    14
   ],
   [
-   "Leeds United",
-   10,
-   10,
-   8,
+   "Hull City",
+   11,
+   13,
+   11,
    14
   ],
   [
    "Aston Villa",
-   10,
+   11,
    14,
    17,
-   13
-  ],
-  [
-   "Tottenham",
-   10,
-   10,
-   11,
-   12
+   14
   ],
   [
    "Newcastle United",
-   10,
+   11,
+   15,
+   18,
+   13
+  ],
+  [
+   "Coventry City",
+   11,
    13,
-   16,
+   21,
    12
   ],
   [
-   "Hull City",
-   10,
+   "Fulham",
    11,
    11,
+   13,
    11
   ],
   [
    "Ipswich Town",
-   10,
+   11,
    15,
-   20,
+   22,
    11
   ],
   [
-   "Fulham",
-   10,
-   10,
-   12,
-   10
-  ],
-  [
    "Nottingham Forest",
-   10,
+   11,
    9,
-   13,
+   15,
    9
   ],
   [
-   "Coventry City",
-   10,
-   10,
-   19,
+   "Sunderland",
+   11,
+   8,
+   17,
    9
   ],
   [
    "Manchester United",
-   10,
+   11,
    14,
-   19,
-   8
-  ],
-  [
-   "Sunderland",
-   10,
-   8,
-   17,
+   23,
    8
   ],
   [
    "Crystal Palace",
-   10,
-   10,
-   24,
+   11,
+   12,
+   27,
    7
   ]
  ],

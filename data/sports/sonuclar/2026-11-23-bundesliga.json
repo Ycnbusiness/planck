@@ -1,0 +1,65 @@
+[
+ {
+  "tarih": "2026-11-20",
+  "ev": "Bayern Münih",
+  "dep": "Köln",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Bayer Leverkusen",
+  "dep": "Paderborn",
+  "gol_ev": 4,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Borussia Mönchengladbach",
+  "dep": "Borussia Dortmund",
+  "gol_ev": 0,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Eintracht Frankfurt",
+  "dep": "Hoffenheim",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Union Berlin",
+  "dep": "RB Leipzig",
+  "gol_ev": 1,
+  "gol_dep": 5
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Elversberg",
+  "dep": "Freiburg",
+  "gol_ev": 0,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Schalke",
+  "dep": "Stuttgart",
+  "gol_ev": 0,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Augsburg",
+  "dep": "Mainz",
+  "gol_ev": 3,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Werder Bremen",
+  "dep": "Hamburger SV",
+  "gol_ev": 4,
+  "gol_dep": 0
+ }
+]

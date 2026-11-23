@@ -1,23 +1,54 @@
 {
  "season": "2026-27",
- "guncelleme": "2026-11-16",
- "gercek": [],
- "deneme": [],
- "bekleyen": [
+ "guncelleme": "2026-11-23",
+ "gercek": [
   {
-   "dosya": "data/sports/week12-motor.json",
    "hafta": 12,
-   "lig": "Süper Lig",
-   "durum": "maçlar henüz oynanmadı (milli ara sonrası, 20–23 Kasım)",
-   "yayinlandi": false
+   "dosya": "data/sports/karne/hafta12.json",
+   "mac": 14,
+   "motor": 0.4985,
+   "planck": 0.5099,
+   "superlig": {
+    "mac": 8,
+    "motor": 0.4506,
+    "planck": 0.4777
+   },
+   "avrupa": {
+    "mac": 6,
+    "motor": 0.5624,
+    "planck": 0.5528
+   },
+   "en_buyuk_surpriz": "Amedspor–Rizespor",
+   "kismi": true,
+   "not": "Hafta Sonu Haritası (20 Kasım) üretildi, data/sports/launched yayın onayı bekliyor diyor; published/ altında kayıt yok."
   }
  ],
- "not": "16 Kasım 2026: milli ara nedeniyle puanlanacak maç yok. 12. hafta motor tahmini (week12-motor.json) 20–23 Kasım'da oynanacak maçlar için bekliyor; yayınlanmış hafta yok (data/sports/launched yok).",
+ "deneme": [
+  {
+   "hafta": 12,
+   "dosya": "data/sports/karne/deneme-week12-motor.json",
+   "mac": 8,
+   "motor": 0.4631
+  }
+ ],
+ "bekleyen": [
+  {
+   "dosya": "data/sports/karne/hafta12.json",
+   "mac": "Başakşehir–Çorum FK",
+   "durum": "23 Kasım 20:00, sonraki karnede eklenecek"
+  }
+ ],
+ "not": "23 Kasım 2026: 12. hafta karnesi (14/15 maç) ve week12-motor deneme karnesi (8/9 maç) puanlandı. Başakşehir–Çorum FK 23 Kasım akşamı oynanacak.",
  "kayit": [
   {
    "tarih": "2026-11-16",
    "hafta_araligi": "2026-11-13/2026-11-16",
    "durum": "Kasım milli arası (FIFA penceresi 9–17 Kasım): Süper Lig ve 5 büyük ligde maç oynanmadı; sonuç dosyası açılmadı, puanlanan tahmin yok."
+  },
+  {
+   "tarih": "2026-11-23",
+   "hafta_araligi": "2026-11-20/2026-11-23",
+   "durum": "53 maç sonucu toplandı (Süper Lig 8, PL 9, La Liga 9, Serie A 9, Bundesliga 9, Ligue 1 9); 4 pazartesi maçı bekliyor."
   }
  ]
 }

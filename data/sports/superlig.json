@@ -1,61 +1,75 @@
 {
  "season": "2026-27",
- "source": "ajansspor.com + star.com.tr, 11. hafta sonrası (9 Kasım 2026); milli ara nedeniyle 20 Kasım itibarıyla değişiklik yok. Program: milliyet.com.tr + kantan.news (18–19 Kasım 2026)",
+ "source": "milliyet.com.tr + dogayidinle.com + dijitalfutbol.com (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Başakşehir–Çorum FK (2026-11-23)",
  "table": [
   [
    "Galatasaray",
-   11,
-   27,
-   15,
-   28
+   12,
+   29,
+   16,
+   31
   ],
   [
    "Trabzonspor",
-   11,
-   26,
+   12,
+   27,
    8,
+   28
+  ],
+  [
+   "Beşiktaş",
+   12,
+   27,
+   14,
    25
   ],
   [
    "Amedspor",
-   11,
+   12,
    28,
-   15,
+   17,
    23
   ],
   [
-   "Beşiktaş",
-   11,
-   23,
+   "Kasımpaşa",
    12,
-   22
+   19,
+   12,
+   23
   ],
   [
-   "Kasımpaşa",
-   11,
-   17,
+   "Fenerbahçe",
+   12,
+   31,
+   12,
+   20
+  ],
+  [
+   "Kocaelispor",
+   12,
+   15,
    11,
    20
   ],
   [
-   "Fenerbahçe",
-   11,
-   29,
-   10,
-   19
-  ],
-  [
-   "Kocaelispor",
-   11,
-   13,
-   9,
-   19
+   "Göztepe",
+   12,
+   23,
+   19,
+   18
   ],
   [
    "Başakşehir",
    11,
    19,
    17,
+   17
+  ],
+  [
+   "Rizespor",
+   12,
+   15,
+   16,
    17
   ],
   [
@@ -66,66 +80,52 @@
    16
   ],
   [
-   "Göztepe",
-   11,
-   22,
-   19,
-   15
-  ],
-  [
-   "Rizespor",
-   11,
+   "Gençlerbirliği",
+   12,
    13,
-   16,
+   21,
    14
   ],
   [
    "Erzurumspor",
-   11,
+   12,
    10,
-   17,
+   18,
    14
   ],
   [
    "Alanyaspor",
-   11,
-   9,
-   18,
+   12,
+   10,
+   20,
    12
   ],
   [
-   "Gençlerbirliği",
-   11,
-   12,
-   21,
-   11
-  ],
-  [
    "Konyaspor",
-   11,
-   6,
-   14,
+   12,
+   8,
+   18,
    8
   ],
   [
    "Gaziantep FK",
-   11,
+   12,
    9,
-   19,
+   20,
    8
   ],
   [
    "Samsunspor",
-   11,
-   11,
-   26,
+   12,
+   12,
+   28,
    7
   ],
   [
    "Eyüpspor",
-   11,
+   12,
    3,
-   30,
+   31,
    3
   ]
  ],
@@ -168,7 +168,7 @@
   ]
  ],
  "week": 12,
- "asof": "2026-11-20",
+ "asof": "2026-11-23",
  "schedule": [
   [
    "Gençlerbirliği",

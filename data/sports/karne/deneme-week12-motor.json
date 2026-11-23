@@ -1,0 +1,126 @@
+{
+ "dosya": "data/sports/week12-motor.json",
+ "hafta": 12,
+ "lig": "Süper Lig",
+ "yayinlandi": false,
+ "puanlandi": "2026-11-23",
+ "mac": 8,
+ "ort_brier": 0.4631,
+ "bekleyen": [
+  "Başakşehir–Çorum FK"
+ ],
+ "maclar": [
+  {
+   "ev": "Amedspor",
+   "dep": "Rizespor",
+   "p": [
+    68,
+    20,
+    12
+   ],
+   "sonuc": [
+    0,
+    2
+   ],
+   "brier": 1.2768
+  },
+  {
+   "ev": "Gençlerbirliği",
+   "dep": "Gaziantep FK",
+   "p": [
+    50,
+    27,
+    23
+   ],
+   "sonuc": [
+    1,
+    0
+   ],
+   "brier": 0.3758
+  },
+  {
+   "ev": "Galatasaray",
+   "dep": "Samsunspor",
+   "p": [
+    78,
+    14,
+    8
+   ],
+   "sonuc": [
+    2,
+    1
+   ],
+   "brier": 0.0744
+  },
+  {
+   "ev": "Kocaelispor",
+   "dep": "Fenerbahçe",
+   "p": [
+    34,
+    30,
+    36
+   ],
+   "sonuc": [
+    2,
+    2
+   ],
+   "brier": 0.7352
+  },
+  {
+   "ev": "Konyaspor",
+   "dep": "Beşiktaş",
+   "p": [
+    24,
+    30,
+    46
+   ],
+   "sonuc": [
+    2,
+    4
+   ],
+   "brier": 0.4392
+  },
+  {
+   "ev": "Trabzonspor",
+   "dep": "Eyüpspor",
+   "p": [
+    90,
+    8,
+    2
+   ],
+   "sonuc": [
+    1,
+    0
+   ],
+   "brier": 0.0168
+  },
+  {
+   "ev": "Erzurumspor",
+   "dep": "Göztepe",
+   "p": [
+    33,
+    27,
+    40
+   ],
+   "sonuc": [
+    0,
+    1
+   ],
+   "brier": 0.5418
+  },
+  {
+   "ev": "Kasımpaşa",
+   "dep": "Alanyaspor",
+   "p": [
+    60,
+    25,
+    15
+   ],
+   "sonuc": [
+    2,
+    1
+   ],
+   "brier": 0.245
+  }
+ ]
+}

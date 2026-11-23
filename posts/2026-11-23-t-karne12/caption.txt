@@ -1,0 +1,17 @@
+Haftanın Karnesi · 12. hafta
+Cuma günü verilen olasılıklar, hafta sonunun gerçek sonuçlarıyla. 15 maçın 14'ü oynandı; Başakşehir–Çorum FK bu akşam oynanıyor, sonraki karneye eklenecek.
+
+Ortalama Brier (0 kusursuz, her sonuca %33 vermek 0,667):
+Planck (motor + Claude ayarı) 0,510 · Motor 0,498
+Süper Lig (8 maç): Planck 0,478 · Motor 0,451
+Avrupa (6 maç): Planck 0,553 · Motor 0,562
+
+Bu hafta hesap kazandı: Süper Lig'deki Claude ayarları ortalama skoru kötüleştirdi; Galatasaray, Trabzonspor ve Kasımpaşa galibiyetlerinde ham motor daha isabetliydi. Avrupa maçlarında ayar küçük bir kazanç sağladı.
+
+En isabetli: Trabzonspor 1–0 Eyüpspor (ev sahibine %82, Brier 0,050)
+En büyük sürpriz: Amedspor 0–2 Rizespor (Rizespor'a %15 verilmişti, Brier 1,185)
+Zayıf nokta: 4 beraberlik (Kocaelispor–Fenerbahçe, Newcastle United–Arsenal, Sevilla–Real Betis, Atalanta–Inter 4–4); beraberliklerde ortalama Brier 0,82.
+
+Tutmayan tahminler silinmez; her hafta hepsi burada.
+
+Bahis tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.

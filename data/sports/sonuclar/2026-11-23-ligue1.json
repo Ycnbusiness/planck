@@ -1,0 +1,65 @@
+[
+ {
+  "tarih": "2026-11-20",
+  "ev": "Troyes",
+  "dep": "Le Havre",
+  "gol_ev": 3,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Nice",
+  "dep": "PSG",
+  "gol_ev": 2,
+  "gol_dep": 3
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Lens",
+  "dep": "Toulouse",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Lille",
+  "dep": "Lyon",
+  "gol_ev": 0,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Monaco",
+  "dep": "Auxerre",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Strasbourg",
+  "dep": "Brest",
+  "gol_ev": 0,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Paris FC",
+  "dep": "Angers",
+  "gol_ev": 4,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Lorient",
+  "dep": "Rennes",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Marseille",
+  "dep": "Le Mans",
+  "gol_ev": 2,
+  "gol_dep": 3
+ }
+]

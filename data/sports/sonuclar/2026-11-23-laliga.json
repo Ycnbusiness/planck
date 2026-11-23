@@ -1,0 +1,65 @@
+[
+ {
+  "tarih": "2026-11-20",
+  "ev": "Athletic Bilbao",
+  "dep": "Espanyol",
+  "gol_ev": 0,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Alavés",
+  "dep": "Deportivo La Coruña",
+  "gol_ev": 3,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Rayo Vallecano",
+  "dep": "Valencia",
+  "gol_ev": 0,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Sevilla",
+  "dep": "Real Betis",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Real Madrid",
+  "dep": "Celta Vigo",
+  "gol_ev": 2,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Barcelona",
+  "dep": "Villarreal",
+  "gol_ev": 3,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Racing Santander",
+  "dep": "Real Sociedad",
+  "gol_ev": 3,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Osasuna",
+  "dep": "Málaga",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Getafe",
+  "dep": "Atlético Madrid",
+  "gol_ev": 0,
+  "gol_dep": 3
+ }
+]

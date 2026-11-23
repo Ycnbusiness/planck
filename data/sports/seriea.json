@@ -2,105 +2,105 @@
  "league": "seriea",
  "name": "Serie A",
  "season": "2026-27",
- "source": "vavel.com Serie A standings (8 Kasım 2026) + futbolfantasy.com, 11. hafta sonrası (20 Kasım 2026 erişim); saatler TSİ",
- "asof": "2026-11-20",
+ "source": "bloooog.it + calcionapoli24.it + tg24.sky.it + rtl.it + football-italia.net (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Monza–Fiorentina (2026-11-23)",
+ "asof": "2026-11-23",
  "table": [
   [
    "Lazio",
-   11,
-   25,
-   9,
-   29
-  ],
-  [
-   "Inter",
-   11,
+   12,
    28,
-   13,
-   28
+   9,
+   32
   ],
   [
    "Roma",
+   12,
+   36,
    11,
-   31,
-   10,
-   27
+   30
+  ],
+  [
+   "Inter",
+   12,
+   32,
+   17,
+   29
   ],
   [
    "Milan",
-   11,
-   23,
-   13,
-   24
+   12,
+   28,
+   14,
+   27
   ],
   [
    "Como",
-   11,
-   18,
+   12,
+   20,
    10,
-   23
-  ],
-  [
-   "Frosinone",
-   11,
-   24,
-   15,
-   20
+   26
   ],
   [
    "Juventus",
-   11,
-   15,
    12,
+   19,
+   12,
+   21
+  ],
+  [
+   "Frosinone",
+   12,
+   25,
+   20,
+   20
+  ],
+  [
+   "Napoli",
+   12,
+   19,
+   14,
    18
   ],
   [
    "Bologna",
-   11,
-   16,
-   14,
-   17
+   12,
+   17,
+   15,
+   18
   ],
   [
-   "Cagliari",
-   11,
-   10,
-   15,
+   "Genoa",
+   12,
+   13,
+   16,
    16
   ],
   [
-   "Napoli",
-   11,
-   18,
-   14,
+   "Cagliari",
+   12,
+   10,
+   17,
+   16
+  ],
+  [
+   "Atalanta",
+   12,
+   21,
+   24,
    15
   ],
   [
    "Torino",
-   11,
+   12,
    15,
-   17,
+   18,
    14
-  ],
-  [
-   "Atalanta",
-   11,
-   17,
-   20,
-   14
-  ],
-  [
-   "Genoa",
-   11,
-   11,
-   16,
-   13
   ],
   [
    "Lecce",
-   11,
    12,
-   22,
+   12,
+   25,
    10
   ],
   [
@@ -112,16 +112,16 @@
   ],
   [
    "Parma",
-   11,
-   9,
-   17,
+   12,
+   10,
+   22,
    8
   ],
   [
    "Sassuolo",
-   11,
+   12,
    16,
-   29,
+   31,
    8
   ],
   [
@@ -132,18 +132,18 @@
    7
   ],
   [
-   "Venezia",
-   11,
-   8,
-   21,
+   "Udinese",
+   12,
+   13,
+   26,
    6
   ],
   [
-   "Udinese",
-   11,
+   "Venezia",
    12,
+   8,
    25,
-   5
+   6
   ]
  ],
  "schedule": [

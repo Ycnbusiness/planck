@@ -1,0 +1,65 @@
+[
+ {
+  "tarih": "2026-11-21",
+  "ev": "Como",
+  "dep": "Cagliari",
+  "gol_ev": 2,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Lazio",
+  "dep": "Lecce",
+  "gol_ev": 3,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Parma",
+  "dep": "Roma",
+  "gol_ev": 1,
+  "gol_dep": 5
+ },
+ {
+  "tarih": "2026-11-21",
+  "ev": "Napoli",
+  "dep": "Torino",
+  "gol_ev": 1,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Juventus",
+  "dep": "Venezia",
+  "gol_ev": 4,
+  "gol_dep": 0
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Bologna",
+  "dep": "Udinese",
+  "gol_ev": 1,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Sassuolo",
+  "dep": "Genoa",
+  "gol_ev": 0,
+  "gol_dep": 2
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Milan",
+  "dep": "Frosinone",
+  "gol_ev": 5,
+  "gol_dep": 1
+ },
+ {
+  "tarih": "2026-11-22",
+  "ev": "Atalanta",
+  "dep": "Inter",
+  "gol_ev": 4,
+  "gol_dep": 4
+ }
+]

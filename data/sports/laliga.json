@@ -2,119 +2,126 @@
  "league": "laliga",
  "name": "La Liga",
  "season": "2026-27",
- "source": "sportsmole.co.uk/football/La-Liga/table.html, 12. hafta sonrası (20 Kasım 2026 erişim); saatler TSİ",
- "asof": "2026-11-20",
+ "source": "laliga.com + eurofootnews.net + nigfooty.com; 22 Kasım maçları yalnız eurofootnews.net (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Levante–Elche (2026-11-23)",
+ "asof": "2026-11-23",
  "table": [
   [
    "Barcelona",
-   12,
-   48,
    13,
-   33
+   51,
+   15,
+   36
   ],
   [
    "Real Madrid",
-   12,
-   31,
-   10,
-   30
+   13,
+   33,
+   11,
+   33
   ],
   [
    "Atlético Madrid",
-   12,
-   23,
+   13,
+   26,
    10,
-   28
+   31
   ],
   [
    "Real Betis",
-   12,
-   20,
-   15,
-   26
+   13,
+   21,
+   16,
+   27
   ],
   [
    "Real Sociedad",
-   12,
-   21,
-   20,
+   13,
+   23,
+   23,
    22
   ],
   [
    "Sevilla",
-   12,
-   17,
-   19,
-   18
+   13,
+   18,
+   20,
+   19
+  ],
+  [
+   "Racing Santander",
+   13,
+   20,
+   32,
+   17
   ],
   [
    "Athletic Bilbao",
-   11,
+   12,
    15,
-   11,
+   12,
+   16
+  ],
+  [
+   "Alavés",
+   13,
+   18,
+   18,
    16
   ],
   [
    "Villarreal",
-   12,
-   17,
-   15,
+   13,
+   19,
+   18,
+   15
+  ],
+  [
+   "Espanyol",
+   13,
+   14,
+   14,
    15
   ],
   [
    "Deportivo La Coruña",
-   12,
-   15,
-   14,
+   13,
+   16,
+   17,
    15
   ],
   [
-   "Racing Santander",
-   12,
-   17,
-   30,
-   14
+   "Osasuna",
+   13,
+   13,
+   23,
+   15
   ],
   [
    "Celta Vigo",
-   12,
-   10,
-   10,
-   13
-  ],
-  [
-   "Alavés",
-   12,
-   15,
-   17,
-   13
-  ],
-  [
-   "Espanyol",
-   12,
    13,
-   14,
-   12
+   11,
+   12,
+   13
   ],
   [
    "Rayo Vallecano",
-   11,
+   12,
    15,
-   21,
+   22,
+   12
+  ],
+  [
+   "Valencia",
+   13,
+   9,
+   20,
    12
   ],
   [
    "Getafe",
-   12,
+   13,
    8,
-   18,
-   12
-  ],
-  [
-   "Osasuna",
-   12,
-   12,
-   23,
+   21,
    12
   ],
   [
@@ -132,17 +139,10 @@
    10
   ],
   [
-   "Valencia",
-   12,
-   8,
-   20,
-   9
-  ],
-  [
    "Málaga",
-   12,
+   13,
    9,
-   23,
+   24,
    5
   ]
  ],

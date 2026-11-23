@@ -31,7 +31,15 @@
     1.11
    ],
    "claude_notu": "Gençlerbirliği'nde Metehan Baltacı cezalı, yedi oyuncu sakat ya da şüpheli; Gaziantep FK'da yeni teknik direktör Volkan Demirel ceza nedeniyle kulübede olamayacak.",
-   "sonuc": null
+   "sonuc": [
+    1,
+    0
+   ],
+   "brier_motor": 0.4218,
+   "brier_planck": 0.4706,
+   "gerceklesen": "ev",
+   "p_gerceklesen_planck": 44,
+   "p_gerceklesen_motor": 47
   },
   {
    "lig": "Süper Lig",
@@ -59,7 +67,15 @@
     1.08
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": [
+    0,
+    2
+   ],
+   "brier_motor": 1.185,
+   "brier_planck": 1.185,
+   "gerceklesen": "deplasman",
+   "p_gerceklesen_planck": 15,
+   "p_gerceklesen_motor": 15
   },
   {
    "lig": "Süper Lig",
@@ -87,7 +103,15 @@
     1.0
    ],
    "claude_notu": "Galatasaray'da Osimhen ve Leão sakat, Uğurcan Çakır'ın oynaması beklenmiyor.",
-   "sonuc": null
+   "sonuc": [
+    2,
+    1
+   ],
+   "brier_motor": 0.0674,
+   "brier_planck": 0.1032,
+   "gerceklesen": "ev",
+   "p_gerceklesen_planck": 74,
+   "p_gerceklesen_motor": 79
   },
   {
    "lig": "Süper Lig",
@@ -115,7 +139,15 @@
     1.38
    ],
    "claude_notu": "Fenerbahçe'de Asensio, Aké ve Oosterwolde sakat, Archie Brown cezalı; Emre Belözoğlu ile ikinci maç.",
-   "sonuc": null
+   "sonuc": [
+    2,
+    2
+   ],
+   "brier_motor": 0.74,
+   "brier_planck": 0.7154,
+   "gerceklesen": "beraberlik",
+   "p_gerceklesen_planck": 31,
+   "p_gerceklesen_motor": 30
   },
   {
    "lig": "Süper Lig",
@@ -143,7 +175,15 @@
     1.58
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": [
+    0,
+    1
+   ],
+   "brier_motor": 0.5432,
+   "brier_planck": 0.5432,
+   "gerceklesen": "deplasman",
+   "p_gerceklesen_planck": 40,
+   "p_gerceklesen_motor": 40
   },
   {
    "lig": "Süper Lig",
@@ -171,7 +211,15 @@
     0.78
    ],
    "claude_notu": "Kasımpaşa'da beş sakat ve bir cezalı var; Alanyaspor Uğur Uçar ile ilk maçına çıkıyor.",
-   "sonuc": null
+   "sonuc": [
+    2,
+    1
+   ],
+   "brier_motor": 0.2216,
+   "brier_planck": 0.2814,
+   "gerceklesen": "ev",
+   "p_gerceklesen_planck": 57,
+   "p_gerceklesen_motor": 62
   },
   {
    "lig": "Süper Lig",
@@ -199,7 +247,15 @@
     1.46
    ],
    "claude_notu": "Beşiktaş'ta kaptan Orkun Kökçü sarı kart cezalı, Miretti şüpheli.",
-   "sonuc": null
+   "sonuc": [
+    2,
+    4
+   ],
+   "brier_motor": 0.4088,
+   "brier_planck": 0.4722,
+   "gerceklesen": "deplasman",
+   "p_gerceklesen_planck": 44,
+   "p_gerceklesen_motor": 48
   },
   {
    "lig": "Süper Lig",
@@ -227,7 +283,15 @@
     0.48
    ],
    "claude_notu": "Trabzonspor'da Malinovskyi, Okay Yokuşlu, Batagov ve Franculino eksik, Nwaiwu cezalı; motorun uç değeri yumuşatıldı.",
-   "sonuc": null
+   "sonuc": [
+    1,
+    0
+   ],
+   "brier_motor": 0.0168,
+   "brier_planck": 0.0504,
+   "gerceklesen": "ev",
+   "p_gerceklesen_planck": 82,
+   "p_gerceklesen_motor": 90
   },
   {
    "lig": "Süper Lig",
@@ -255,7 +319,8 @@
     1.54
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": null,
+   "durum": "oynanmadı/sonuç yok (23 Kasım 20:00)"
   },
   {
    "lig": "Premier League",
@@ -283,7 +348,15 @@
     1.43
    ],
    "claude_notu": "Arsenal'de Saka sakat, Zubimendi şüpheli, Dowman cezalı.",
-   "sonuc": null
+   "sonuc": [
+    2,
+    2
+   ],
+   "brier_motor": 0.8064,
+   "brier_planck": 0.7706,
+   "gerceklesen": "beraberlik",
+   "p_gerceklesen_planck": 29,
+   "p_gerceklesen_motor": 28
   },
   {
    "lig": "Premier League",
@@ -311,7 +384,15 @@
     1.05
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": [
+    4,
+    0
+   ],
+   "brier_motor": 0.2778,
+   "brier_planck": 0.2778,
+   "gerceklesen": "ev",
+   "p_gerceklesen_planck": 57,
+   "p_gerceklesen_motor": 57
   },
   {
    "lig": "La Liga",
@@ -339,7 +420,15 @@
     1.46
    ],
    "claude_notu": "Sevilla'da Alfon ve Carmona sezonu kapattı, dört oyuncu eksik; derbi.",
-   "sonuc": null
+   "sonuc": [
+    1,
+    1
+   ],
+   "brier_motor": 0.8216,
+   "brier_planck": 0.7998,
+   "gerceklesen": "beraberlik",
+   "p_gerceklesen_planck": 27,
+   "p_gerceklesen_motor": 26
   },
   {
    "lig": "La Liga",
@@ -367,7 +456,15 @@
     0.7
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": [
+    2,
+    1
+   ],
+   "brier_motor": 0.1994,
+   "brier_planck": 0.1994,
+   "gerceklesen": "ev",
+   "p_gerceklesen_planck": 64,
+   "p_gerceklesen_motor": 64
   },
   {
    "lig": "Serie A",
@@ -395,7 +492,15 @@
     2.36
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": [
+    4,
+    4
+   ],
+   "brier_motor": 1.0046,
+   "brier_planck": 1.0046,
+   "gerceklesen": "beraberlik",
+   "p_gerceklesen_planck": 21,
+   "p_gerceklesen_motor": 21
   },
   {
    "lig": "Bundesliga",
@@ -423,7 +528,59 @@
     2.11
    ],
    "claude_notu": null,
-   "sonuc": null
+   "sonuc": [
+    0,
+    1
+   ],
+   "brier_motor": 0.2648,
+   "brier_planck": 0.2648,
+   "gerceklesen": "deplasman",
+   "p_gerceklesen_planck": 58,
+   "p_gerceklesen_motor": 58
   }
- ]
+ ],
+ "results": {
+  "puanlandi": "2026-11-23",
+  "mac_sayisi": 14,
+  "bekleyen": [
+   "Başakşehir–Çorum FK"
+  ],
+  "ort_brier_motor": 0.4985,
+  "ort_brier_planck": 0.5099,
+  "superlig": {
+   "mac": 8,
+   "motor": 0.4506,
+   "planck": 0.4777
+  },
+  "avrupa": {
+   "mac": 6,
+   "motor": 0.5624,
+   "planck": 0.5528
+  },
+  "beraberlik": {
+   "mac": 4,
+   "motor": 0.8431,
+   "planck": 0.8226
+  },
+  "en_isabetli": {
+   "mac": "Trabzonspor–Eyüpspor",
+   "skor": [
+    1,
+    0
+   ],
+   "brier_planck": 0.0504
+  },
+  "en_buyuk_surpriz": {
+   "mac": "Amedspor–Rizespor",
+   "skor": [
+    0,
+    2
+   ],
+   "gerceklesen": "deplasman",
+   "p_planck": 15,
+   "p_motor": 15
+  },
+  "referans": "Her sonuca %33 vermek 0.667; lig ortalaması oranları 0.639–0.660 (sports/EGITIM.md).",
+  "kaynak": "data/sports/sonuclar/2026-11-23-*.json"
+ }
 }
