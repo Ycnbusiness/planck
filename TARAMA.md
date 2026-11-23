@@ -64,6 +64,12 @@ Her yayın adayı (News, Story, Dosya) planlanmadan önce **ayrı bir alt çalı
 
 İlke: her içerik kendi başına anlaşılır; olay ve "Peki Biz?" cevabı aynı gönderidedir. Gönderi sayısına üst sınır yok, haber sayısı belirler. Ana akışta iki gönderi arası en az 2 saat.
 
+### 0a. Hikâye klasörleri (Yusuf kararı 23.11.2026: "Bütün haberlerin kendine ait klasörleri olsun")
+- Her haber bir hikâyeye bağlanır: `hikayeler/<slug>/HIKAYE.md` (özet, aktörler, rüzgâr kaydı, denge, yarışan açıklamalar, bağlar, analist notu) + `meta.json` (bağlı sorular ve gönderiler). Hikâye yoksa açılır: `python3 scripts/hikaye.py yeni <slug> "Başlık" <alan>`.
+- Her taramada, olay puanlanmadan önce rüzgâr satırı eklenir: `python3 scripts/hikaye.py ruzgar <slug> "tarih | kim | ne | yön | bedel | ağırlık | kaynak"`. Olay tek başına değil, hikâyesinin içinde okunur.
+- Açılan her soru ve her gönderi hikâyeye bağlanır (`soru`, `yayin` komutları); `python3 scripts/hikaye.py index` ile `hikayeler/INDEX.md` güncellenir.
+- **Analist sentezi (akşam turu):** O gün rüzgâr satırı eklenen her hikâyenin Özet, Denge, Yarışan açıklamalar ve Analist notu bölümleri yeniden yazılır; Güç Okuma (`ekip/GUC-OKUMA.md`) bu dosyaların üstünde çalışır. Sayı güncellemesi denge cümlesine dayanır.
+
 ### Yöntem v2.2 (21.11.2026, Yusuf kararı) — önce haber, sonra soru
 
 **Neden:** 18–19 Kasım'da 26 olay tarandı, 0 yayın çıktı. Sebep: S yalnız açık sorulardan geliyordu; sicil dar olduğu için dünyadaki büyük olaylar (Nvidia CEO'sunun ayrılışı gibi) otomatik sıfır aldı. Sistem "bu haber mi?" yerine "sicilimizi oynatıyor mu?" diye soruyordu. Bu bölüm aşağıdaki v2 yönlendirmesiyle çelişirse geçerlidir.
