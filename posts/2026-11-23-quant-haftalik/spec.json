@@ -1,0 +1,89 @@
+{
+ "range": "16–23 KASIM 2026",
+ "title": "Nasdaq Sorusu Yükseldi, Altın Geriledi",
+ "lede": "Nasdaq düşüş sorusu bir haftada 11 puan arttı, altın eşiği sorusu 11 puan azaldı. Fed ve Türkiye soruları değişmedi.",
+ "baseLabel": "16 Kasım 2026 kaydına göre",
+ "order": [
+  [
+   "tcmb-aralik",
+   "tr-tufe-30",
+   "usdtry-60",
+   "fed-artirim"
+  ],
+  [
+   "abd-resesyon",
+   "brent-110",
+   "altin-4500",
+   "nasdaq-25"
+  ]
+ ],
+ "groups": [
+  "Türkiye ve Fed",
+  "Küresel Riskler ve Piyasalar"
+ ],
+ "tableNote": "Δ: 16 Kasım kaydına göre, puan",
+ "changedTitle": "Üç Tahmin Yönü Belirledi.",
+ "changed": [
+  {
+   "id": "nasdaq-25",
+   "text": "Nasdaq 25.136'dan 24.430'a, VIX 19,30'dan 24,56'ya çıktı; oynaklık girdisi %24'ten %26,3'e yükseldi. Motor 39'dan 50'ye geldi, ayar −5'te sabit."
+  },
+  {
+   "id": "altin-4500",
+   "text": "Ons altın 3.886 dolardan 3.719 dolara indi; eşik %21 uzakta. Motor 57'den 46'ya geriledi, ayar −12'de sabit. GVZ güncellenemedi."
+  },
+  {
+   "id": "brent-110",
+   "text": "Brent 95,84 dolardan 92,83 dolara indi; eşik %18,5 uzakta. Motor 75'ten 69'a geriledi, ayar −15'te sabit. OVX güncellenemedi."
+  }
+ ],
+ "note": "Fed, TCMB ve kur girdileri yenilenemedi. 20 Kasım seansı bulunamadı.",
+ "quiet": [
+  "BIST 100, 13 Kasım'daki 11.842,82'den 19 Kasım'da 11.400,09'a indi; Dolar/TL 50,28'den 50,47'ye çıktı, 60 sorusu %55'te kaldı.",
+  "CME FedWatch'ta Aralık artırımı en son 12 Kasım'da %100; Fed sorusu %97'de, FOMC kararı 9 Aralık.",
+  "ABD 10 yıllık getiri 18 Kasım'da %5,07, iki yıllık %4,80; resesyon sorusu %33'te kaldı.",
+  "TCMB Aralık PPK ve yıl sonu enflasyon soruları için yeni anket yayımlanmadı; %62 ve %40'ta kaldı.",
+  "Gram altın 6.283'ten 6.009 liraya, Bitcoin 68.237'den 63.302 dolara indi."
+ ],
+ "cal": [
+  [
+   "23 Kasım",
+   "Öncü PMI (Euro Bölgesi, ABD 17:45)",
+   "ABD 2 yıllık tahvil ihalesi 21:00"
+  ],
+  [
+   "24 Kasım",
+   "Almanya Ifo, ABD tüketici güveni",
+   "Ifo 12:00, tüketici güveni 18:00"
+  ],
+  [
+   "26 Kasım",
+   "TCMB döviz rezervleri",
+   "14:30"
+  ],
+  [
+   "3 Aralık",
+   "TÜİK Kasım TÜFE",
+   "10:00"
+  ],
+  [
+   "9–10 Aralık",
+   "FOMC kararı 9 Aralık, TCMB PPK 10 Aralık",
+   "FOMC kararı TSİ 21:00"
+  ]
+ ],
+ "calNote": "OPEC+ için kaynaklı tarih bulunamadı; ABD Şükran Günü haftası",
+ "closingTitle": "Hesap Açık, Karne Yolda.",
+ "closingText": "Her olasılık iki katmandan oluşur ve ikisi de ayrı yayınlanır. Son tarihi gelen tahmin Brier skoruyla puanlanır; ilk Quant Karnesi 7 Aralık'ta.",
+ "method": [
+  [
+   "Motor",
+   "Veriden kurallı hesap: taban oran, piyasa fiyatlaması, oynaklık. Aynı veriyle aynı sonuç."
+  ],
+  [
+   "Claude ayarı",
+   "Motorun görmediği bağlam: ton, kurum davranışı, olaylar arası bağ. Puan ve gerekçeyle yazılır."
+  ]
+ ],
+ "closing": "Sizce Nasdaq 12 ayda zirvesinden %25 düşer mi?"
+}
