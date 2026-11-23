@@ -1,0 +1,177 @@
+{
+ "tarih": "2026-11-23",
+ "referans_seans": "19.11.2026 Perşembe kapanışı (20.11 Cuma kapanışı ve hafta sonu kaynakları bu ortamdan bulunamadı; değerler 20.11 dosyasıyla aynı)",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB gösterge kuru resmi sayfadan alınamadı"
+  },
+  "usdtry_piyasa": {
+   "deger": 50.469,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 18:29:10 TSİ",
+   "not_": "serbest piyasa satış; gösterge değil | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "eurtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB göstergesi alınamadı"
+  },
+  "eurtry_piyasa": {
+   "deger": 55.6319,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 18:29:20 TSİ",
+   "not_": "tablo değeri; metinde 55,56 geçiyor (çelişki) | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "bist100_kapanis": {
+   "deger": 11400.09,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 kapanış",
+   "not_": "-%0,67 | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "gram_altin_tl": {
+   "deger": 6008.8,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 (saat belirtilmemiş)",
+   "not_": "Kapalıçarşı, -%0,52 | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "ons_altin_usd": {
+   "deger": 3718.74,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 18:29 TSİ",
+   "not_": "tablo satış; metinde 3.688 (çelişki, belirsiz) | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "brent_usd": {
+   "deger": 92.83,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 18:30 TSİ",
+   "not_": "tek kaynak | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "bitcoin_usd": {
+   "deger": 63302,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-19-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795175",
+   "saat": "19.11.2026 18:30 TSİ",
+   "not_": "tek kaynak | 20.11 değeri bulunamadı, 19.11 kaydı taşındı"
+  },
+  "abd_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "19.11 tarihli kaynaklı değer bulunamadı"
+  },
+  "abd_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "19.11 tarihli kaynaklı değer bulunamadı"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı tarihli gösterge getirisi bulunamadı"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı tarihli gösterge getirisi bulunamadı"
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026_9aralik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "20-23 Kasım tarihli FedWatch/Kalshi değeri bulunamadı. Bulunan en yeni: CME FedWatch 12.11 itibarıyla 9 Aralık artırım %100 (5.11: %67) — Motley Fool/Mitrade 16.11; 18.11: %95 (önceki kayıt)",
+   "takvim_not": "FOMC 9 Aralık 2026 (https://www.mitrade.com/insights/news/live-news/article-8-2256575-20261116)",
+   "kaynak_en_yeni": "https://www.mitrade.com/insights/news/live-news/article-8-2256575-20261116"
+  },
+  "fed_ocak_2027": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  },
+  "tcmb_sonraki_ppk": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Yeni anket/swap haberi bulunamadı; bulunan makaleler 2025 tarihli"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı"
+  }
+ },
+ "oynaklik": {
+  "altin_gvz": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel opsiyon değeri ya da fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  },
+  "brent_ovx": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel opsiyon değeri ya da fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel opsiyon değeri ya da fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel opsiyon değeri ya da fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  },
+  "vix": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel opsiyon değeri ya da fiyat serisi toplanamadı; gerçekleşen oynaklık hesaplanmadı"
+  }
+ },
+ "takvim_7gun": {
+  "saat": "23.11.2026 (Foreks takvimleri 18-19.11 yayınlı; beklenti sütunu boş, yalnız önceki değer)",
+  "kaynaklar": [
+   "https://www.foreks.com/haber/detay/6afecfa895131d72027e0589/FRKS/tr/ekonomik-veri-takvimi-23-kasim-2026-pazartesi-19-11-26/",
+   "https://www.foreks.com/haber/detay/6afd7e2a95131d72027df85c/FRKS/tr/ekonomik-veri-takvimi-24-kasim-2026-sali-18-11-26/",
+   "https://www.foreks.com/haber/detay/6afecfab95131d72027e058c/FRKS/tr/ekonomik-veri-takvimi-26-kasim-2026-persembe-19-11-26/"
+  ],
+  "olaylar": [
+   {
+    "tarih": "2026-11-23",
+    "olay": "Öncü PMI (Euro Bölgesi, Almanya, Fransa, İngiltere, ABD 17:45), ABD 2 yıllık tahvil ihalesi 21:00"
+   },
+   {
+    "tarih": "2026-11-24",
+    "olay": "Almanya Ifo (12:00, önceki 90,2); ABD CB tüketici güveni (18:00, önceki 91,7); ABD 5 yıllık tahvil ihalesi"
+   },
+   {
+    "tarih": "2026-11-26",
+    "olay": "TCMB döviz rezervleri (14:30); Fransa ÜFE (10:45); ABD kaynağı bu takvimde yok (ABD Şükran Günü 26.11 olabilir, doğrulanmadı)"
+   },
+   {
+    "tarih": "2026-12-09",
+    "olay": "FOMC (7 gün dışında)"
+   }
+  ],
+  "neden": "25, 27 Kasım ve 28-29 Kasım takvimleri bulunamadı; TÜFE/PPK/OPEC+ tarihi 7 gün içinde kaynaklı bulunamadı"
+ }
+}
