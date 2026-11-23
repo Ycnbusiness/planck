@@ -4,7 +4,7 @@ Her haber bir hikâyeye bağlanır; yoksa yeni hikâye açılır (TARAMA §0a). 
 
 | Hikâye | Alan | Sorular | Gönderiler | Son güncelleme |
 |---|---|---|---|---|
-| [ABD–Çin teknoloji ve ticaret rekabeti (çip, nadir toprak, Tayvan)](abd-cin-teknoloji/HIKAYE.md) | jeopolitik | 6 açık / 6 | 1 | 2026-11-23 |
+| [ABD–Çin teknoloji ve ticaret rekabeti (çip, nadir toprak, Tayvan)](abd-cin-teknoloji/HIKAYE.md) | jeopolitik | 6 açık / 6 | 2 | 2026-11-23 |
 | [ABD ekonomisi ve Fed](abd-ekonomi-fed/HIKAYE.md) | şirketler/piyasa | 4 açık / 4 | 2 | 2026-11-23 |
 | [ABD–İran savaşı, Körfez ve Hürmüz](abd-iran-savasi/HIKAYE.md) | jeopolitik | 5 açık / 5 | 5 | 2026-11-23 |
 | [ABD'de demokratik kurumlar ve basın özgürlüğü](abd-kurumlar/HIKAYE.md) | göç ve toplum | 2 açık / 2 | 0 | 2026-11-23 |
@@ -12,7 +12,7 @@ Her haber bir hikâyeye bağlanır; yoksa yeni hikâye açılır (TARAMA §0a). 
 | [Süper El Niño ve gıda fiyatları](el-nino-gida/HIKAYE.md) | iklim | 2 açık / 2 | 0 | 2026-11-23 |
 | [Fransa'da bütçe ve hükümet krizi](fransa-siyaset/HIKAYE.md) | göç ve toplum | 2 açık / 2 | 0 | 2026-11-23 |
 | [İklim: COP31 Antalya ve küresel müzakereler](iklim-cop31/HIKAYE.md) | iklim | 0 açık / 0 | 2 | 2026-11-23 |
-| [Nvidia: Huang'ın ayrılışı ve dönüşü](nvidia-huang/HIKAYE.md) | şirketler | 5 açık / 8 | 2 | 2026-11-23 |
+| [Nvidia: Huang'ın ayrılışı ve dönüşü](nvidia-huang/HIKAYE.md) | şirketler | 5 açık / 8 | 3 | 2026-11-23 |
 | [Otonom silahlar için uluslararası kural süreci](otonom-silahlar/HIKAYE.md) | teknoloji | 0 açık / 0 | 1 | 2026-11-23 |
 | [Petrol fiyatı ve Türkiye'de akaryakıt](petrol-akaryakit/HIKAYE.md) | enerji | 8 açık / 8 | 3 | 2026-11-23 |
 | [Rusya–NATO deniz ve hava sınırı gerilimi (Baltık, Polonya, Akdeniz)](rusya-nato-deniz/HIKAYE.md) | jeopolitik | 0 açık / 0 | 2 | 2026-11-23 |
