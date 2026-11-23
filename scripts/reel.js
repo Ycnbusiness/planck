@@ -20,14 +20,14 @@ function T(s,X,Y,sz,col,o,w,m,ls,al){x.save();x.globalAlpha=o;F(sz,w,m);x.fillSt
 function wrap(s,X,Y,sz,maxw,lh,col,o,w){F(sz,w);const ws=s.split(' ');let line='',y=Y;x.save();x.globalAlpha=o;x.fillStyle=col;for(const q of ws){const t=line?line+' '+q:q;if(x.measureText(t).width>maxw&&line){x.fillText(line,X,y);line=q;y+=lh;}else line=t;}x.fillText(line,X,y);x.restore();return y;}
 function hud(t){x.strokeStyle=MUT;x.lineWidth=3;const m=56,L=56;[[m,m,1,1],[W-m,m,-1,1],[m,H-m,1,-1],[W-m,H-m,-1,-1]].forEach(([a,b,sx,sy])=>{x.beginPath();x.moveTo(a,b+sy*L);x.lineTo(a,b);x.lineTo(a+sx*L,b);x.stroke();});
  T('PLANCK · '+S.week,72,128,22,MUT,1,500,true,2);T('T+'+t.toFixed(2),W-72,128,22,MUT,1,500,true,2,'right');
- T('@PLANCK.NEWS',72,H-96,22,MUT,1,500,true,2);T('CLAUDE İLE HAZIRLANMIŞTIR',W-72,H-96,22,MUT,1,500,true,2,'right');}
+ T('@PLANCK.NEWS',72,H-96,22,MUT,1,500,true,2);T(S.footer||'CLAUDE İLE HAZIRLANMIŞTIR',W-72,H-96,22,MUT,1,500,true,2,'right');}
 function bg(t){x.fillStyle=BG;x.fillRect(0,0,W,H);for(const p of P){const y=((p.y-t*16*p.z)%H+H)%H;x.globalAlpha=.1+.3*p.z;x.fillStyle=p.s>.85?BLUE:MUT;x.fillRect(p.x,y,2*p.z+1,2*p.z+1);}x.globalAlpha=1;
  x.globalAlpha=.06;x.fillStyle='#000';for(let y=0;y<H;y+=6)x.fillRect(0,y,W,2);x.globalAlpha=1;}
 function draw(t){bg(t);hud(t);
  // 1) Başlık 0–3.2
- const a1=seg(t,0,.6)*(1-seg(t,3,.4));if(a1>0){T('HAFTALIK RİSK HARİTASI',96,700,30,MUT,a1,500,true,4);
+ const a1=seg(t,0,.6)*(1-seg(t,3,.4));if(a1>0){T(S.kicker||'HAFTALIK RİSK HARİTASI',96,700,30,MUT,a1,500,true,4);
   x.save();x.globalAlpha=a1;x.fillStyle=BLUE;x.fillRect(96,736,120*E(seg(t,.3,.8)),8);x.restore();
-  wrap(S.title,96,860,128,880,128,INK,a1,700);T('2031 ufkunda olasılıklar',96,1180,40,MUT,a1*seg(t,1,.6),400);}
+  wrap(S.title,96,860,128,880,128,INK,a1,700);wrap(S.sub||'2031 ufkunda olasılıklar',96,1180,40,880,50,MUT,a1*seg(t,1,.6),400);}
  // 2) Liste 3.4–14 (8'li sayfalar; 15–20 risk desteklenir)
  const PG=8,NP=Math.max(1,Math.ceil(S.items.length/PG)),PD=10.2/NP,ST=Math.min(.55,(PD-1.6)/PG);
  const a2=seg(t,3.4,.5)*(1-seg(t,13.6,.5));if(a2>0){const pi=Math.min(NP-1,Math.floor(Math.max(0,t-3.4)/PD)),t0=3.4+pi*PD;
@@ -39,7 +39,7 @@ function draw(t){bg(t);hud(t);
    if(it.d===null||it.d==='yeni'){T('YENİ',W-96,by+44,26,'#f5b14c',o*seg(t,t0+1+j*ST,.4),500,true,2,'right');}
    else if(it.d){T((it.d>0?'▲ +':'▼ ')+it.d,W-96,by+44,26,it.d>0?INK:MUT,o*seg(t,t0+1+j*ST,.4),500,true,2,'right');}});}
  // 3) Odak 14–17.6
- const a3=seg(t,14,.5)*(1-seg(t,17.4,.4));if(a3>0&&S.focus){const f=S.focus;T('HAFTANIN EN BÜYÜK DEĞİŞİMİ',96,620,28,MUT,a3,500,true,4);
+ const a3=seg(t,14,.5)*(1-seg(t,17.4,.4));if(a3>0&&S.focus){const f=S.focus;T(S.focusKicker||'HAFTANIN EN BÜYÜK DEĞİŞİMİ',96,620,28,MUT,a3,500,true,4);
   wrap(f.name,96,730,64,880,72,INK,a3,700);const pr=E(seg(t,14.6,1.6)),v=Math.round(f.from+(f.to-f.from)*pr);
   T('%'+v,96,1100,260,BLUE,a3,500,true,-6);T('%'+f.from+' → %'+f.to,96,1190,34,MUT,a3,500,true,2);wrap(f.why||'',96,1290,36,880,50,'#c9d0db',a3*seg(t,15.4,.6),400);}
  // 4) Kapanış 17.6–20

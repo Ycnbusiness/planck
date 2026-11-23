@@ -1,0 +1,13 @@
+{"week":"2026-W48","title":"Haftanın Soruları","kicker":"PAZARTESİ · HAFTANIN SORULARI","sub":"Kapanışı yaklaşan ve geçen hafta değişen sayılarımız","footer":"TARAMA VE HESAP: CLAUDE",
+"items":[
+{"name":"Motorin 1 Aralık'ta 100 TL'yi aşar mı?","p":11,"d":-31},
+{"name":"Motorin 1 Aralık'ta 95 TL'yi aşar mı?","p":25,"d":"yeni"},
+{"name":"Kasım enflasyonu %30'un üstünde mi? (3 Aralık)","p":45,"d":0},
+{"name":"TCMB Aralık'ta faizi %35'e indirir mi?","p":65,"d":-5},
+{"name":"BOTAŞ Ocak'ta konut gazına zam yapar mı?","p":60,"d":5},
+{"name":"ABD ile İran 15 Şubat'a kadar ateşkes ilan eder mi?","p":15,"d":-3},
+{"name":"Nvidia 15 Şubat'a kadar kalıcı CEO açıklar mı?","p":25,"d":"yeni"},
+{"name":"El Niño endeksi +2,5°C'ye ulaşır mı?","p":35,"d":"yeni"}],
+"focus":{"name":"İstanbul'da motorin 1 Aralık'ta 100 TL'yi aşar mı?","from":42,"to":11,"why":"Pompaya 6,5 TL indirim yansıdı; 1 Aralık ÖTV artışı da hesaba katılınca 100 TL uzaklaştı."},
+"focusKicker":"GEÇEN HAFTANIN EN BÜYÜK DEĞİŞİMİ",
+"question":"Sizce bu hafta en çok hangisinde yanılacağız?"}

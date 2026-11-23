@@ -1,5 +1,12 @@
 [
  {
+  "saat": "13:00",
+  "tur": "haftanin-sorulari",
+  "klasor": "posts/2026-W48-sorular",
+  "durum": "planlandi",
+  "not": "Pazartesi Haftanın Soruları (Yöntem v2 ritmi) ilk sayı; 08:30 hedefi tarayıcı onayı beklerken kaçtı, Nvidia 11:00 ile 2 saat arası için 13:00."
+ },
+ {
   "saat": "11:00",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-21-nvidia-ceo",
