@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -2540,9 +2540,13 @@
    "motor": 30,
    "p": 25,
    "ilk_p": 25,
-   "durum": "acik",
-   "sonuc": null,
-   "kapanis": null,
+   "durum": "kapandi",
+   "sonuc": 1,
+   "kapanis": {
+    "t": "2026-11-23",
+    "kaynak": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+    "not": "Kriter: 'interim' ibaresi taşımayan CEO ataması 15.02.2027'ye kadar → Huang 23.11'de CEO olarak (geçici değil) yeniden atandı. Dedik %25 · Oldu. Hakem notu: sabah hakemi yeniden doğrulasın."
+   },
    "gecmis": [
     {
      "t": "2026-11-21",
@@ -2569,9 +2573,13 @@
    "motor": 8,
    "p": 15,
    "ilk_p": 15,
-   "durum": "acik",
-   "sonuc": null,
-   "kapanis": null,
+   "durum": "kapandi",
+   "sonuc": 1,
+   "kapanis": {
+    "t": "2026-11-23",
+    "kaynak": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+    "not": "Nvidia 8-K 23.11: Huang CEO ve kurul üyesi olarak yeniden atandı, oybirliği, derhal geçerli. Dedik %15 · Oldu → ıska otopsisi zorunlu (Anayasa §5). Hakem notu: tahmini üreten oturum kapattı; sabah hakemi 8-K'dan yeniden doğrulasın."
+   },
    "gecmis": [
     {
      "t": "2026-11-21",
@@ -2579,7 +2587,8 @@
      "motor": 8,
      "neden": "açılış"
     }
-   ]
+   ],
+   "otopsi_gerekli": true
   },
   {
    "id": "pk-2026-11-21-nvidia-cin-cip",
