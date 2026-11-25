@@ -41,7 +41,7 @@ Bir soru şu altı alan olmadan sicile girmez:
 
 - **Ufuk karması:** Yeni soruların en az %80'i 90 gün içinde, bunların yarısı 30 gün içinde kapanır. Pilot boyunca 365 günü aşan yeni soru açılmaz. Omurga takvimli veri ve karar olaylarıdır (enflasyon, faiz kararı, akaryakıt, resmi karar). **Portföy genişliği (v2.2):** Açık sorular tek alana yığılmaz; dokuz alanın her birinde sürekli en az 3 açık soru tutulur: jeopolitik ve çatışma · teknoloji ve yapay zekâ · şirketler ve kurumsal yönetim (fiyat yönü yok) · enerji · iklim ve afet sonuçları · sağlık ve bilim · uzay · göç ve toplum · Türkiye ekonomisi. Türkiye, petrol ya da akaryakıt bir sınır değildir. Varlık fiyatı eşikleri (kur, altın, endeks) yalnız Quant'tadır.
 - **Bant:** Açılışta olasılık %15–85. İstisna `kuyruk` etiketi (düşük olasılık, çok yüksek etki): havuzun en fazla %15'i, karnede ayrı satır. %90 üstüne ya da %10 altına geçen soru **sessiz izlemeye** alınır: puanlanır, içerik üretmez; yerine daha keskin soru açılır.
-- **Hacim:** Günde en fazla 4 açılış (büyük haber günü ve portföy kuruluşunda 10); açık soru tavanı 70.
+- **Hacim:** Günde en fazla 4 açılış (büyük haber günü ve portföy kuruluşunda 10); açık soru tavanı 70. 2031 uzun ufuk tablosu (risk-*) tavana dahil değildir (Yusuf, 25.11.2026).
 - **Uzun ufuk (2031 tablosu):** Yayın birimi değildir. Haftada bir toplu güncellenir, sitede ve aylık karnede "Uzun Ufuk" olarak gösterilir. Öncü sorular sürer.
 - **Belirsiz kapanış:** İptal iki türdür: *belirsiz* (gerçeklik ayırt edilemiyor) ve *hatalı soru*. İkisi de puanlanmaz, ayrı sayılır. Kriter sonradan esnetilmez. Her soru "kâhin testi"nden geçer: sonucu bilen biri 15 dakikada kapatabilmelidir.
 - **Yasak soru:** Kişilerin ölümü/sağlığı, tekil hisse yönü, bahis sonucu olarak okunacak biçimde yazılmış maç sorusu, suç isnadı ve §9'daki Türkiye çizgileri.
@@ -171,3 +171,4 @@ Sürüm: v2 · 16.11.2026 · Yusuf onayı (ekip/KARAR.md): §0 yeni iddia; haber
 Sürüm: v2.1 · 20.11.2026 · Yusuf kararı: kesin girdi istisnası (Motor yeniden hesabı, ±15 yalnız LR için).
 Sürüm: v2.2 · 21.11.2026 · Yusuf kararı ("bunlar analitik sorulardır"; Nvidia örneği): önce haber kapısı, soru yoksa soru açılır (TARAMA "Yöntem v2.2"); S×K yalnız formatı seçer; günlük taban; dokuz alanlı soru portföyü; §9(3) daraltıldı: şirket yöneticisinin görev değişikliği sorulabilir, siyaset/kamu görevi, sağlık, hukuki durum yasağı kalır.
 Ek: 25.11.2026 · Yusuf'un amaç beyanı başa eklendi ("Amaç" bölümü); kural değişikliği yok.
+Ek: 25.11.2026 · Yusuf kararı: 2031 risk listesi açık soru tavanına dahil değil.

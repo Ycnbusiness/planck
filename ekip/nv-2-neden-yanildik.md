@@ -1,6 +1,6 @@
 # Neden Yanıldık #2 · Huang'ın dönüşü (taslak, 25.11.2026)
 
-**Durum:** Taslak. Yayın yeri Yusuf'ta. (#1'in yeri: Quant açılışı, KARAR 25.11.) Öneri: bu #2 @planck.news'te yayınlanır; çünkü soru News sorusuydu ve 23.11 11:00 senaryo gönderisi oradaydı.
+**Durum:** ARŞİV (KARAR, Yusuf 25.11.2026: "quant için bi arşiv bilgi olsun yayınlamaya gerek yok"). Yayınlanmaz; Quant için iç bilgi ve yöntem dersi olarak durur.
 
 ## Kayıt
 

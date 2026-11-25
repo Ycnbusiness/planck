@@ -8,7 +8,7 @@
 
 Bulut ortamında yalnız GitHub erişilebilir. Reddit, HN, Polymarket ve web aramaları 403 (ajan proxy izin listesi) döndü (test: 25.11, "Strait of Hormuz", 0 sonuç). Çalışması için iki yol var:
 
-1. **Bulut izin listesi (önerilen):** claude.ai Admin ayarları → Capabilities → ağ erişimine şu alan adları eklenir: `reddit.com`, `www.reddit.com`, `old.reddit.com`, `hn.algolia.com`, `gamma-api.polymarket.com`, `clob.polymarket.com`, `bsky.social`, `public.api.bsky.app`. Bunu Yusuf yapar. Sonra tüm turlar (bulut taramaları dahil) kullanır.
+1. **Bulut izin listesi (önerilen):** claude.ai Admin ayarları → Capabilities → ağ erişimine şu alan adları eklenir: `reddit.com`, `www.reddit.com`, `old.reddit.com`, `hn.algolia.com`, `gamma-api.polymarket.com`, `clob.polymarket.com`, `bsky.social`, `public.api.bsky.app`. Bunu Yusuf yapar (25.11: "ekleyeceğim ama yarından sonra", ≈27.11). Sonra tüm turlar (bulut taramaları dahil) kullanır.
 2. **Yusuf'un bilgisayarı:** Masaüstü uygulamasıyla bir klasör bağlanır, beceri orada çalışır. Ancak bilgisayar açıkken çalışır, zamanlanmış turlar için uygun değil.
 
 X, YouTube ve TikTok için ayrıca ücretli anahtar gerekir (`SCRAPECREATORS_API_KEY`, `X_BEARER_TOKEN` veya `XAI_API_KEY`). İlk aşamada ücretsiz kaynaklar yeter.
