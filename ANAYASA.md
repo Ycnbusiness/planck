@@ -2,6 +2,12 @@
 
 Bu belge Planck'in bütün kanallarını bağlar. `TARAMA.md`, `QUANT.md`, `SPOR.md`, `kanit/KANIT.md` kanal kurallarıdır; bu belgeyle çelişirlerse **Anayasa geçerlidir**. Her zamanlanmış görev işe başlamadan önce bu dosyayı okur. Değişikliği yalnızca Yusuf yapar; her değişiklik sürüm numarası ve tarihle en alta işlenir.
 
+## Amaç (Yusuf, 25.11.2026)
+
+> "Küresel olarak bilgilendirme, bilgiyi profesyonel olarak bilimsel metodlar ile anlamlandırma ve basit anlatım metodları ile insanlara anlatıp, zeki bir örneğin siyaset profesörü bu tip durumlarda nasıl beklentiler içine girer, bir ekonomist nasıl konumlanmaya başlardı'yı gösteren bir medya kurmak."
+
+Üç iş: (1) **küresel bilgi**: Planck Türkçe yazılır, Türkiye'de kuruldu, ama dünya medyasıdır; (2) **bilimsel anlamlandırma**: taban oranı, aktör okuması, senaryo, kayıt; (3) **basit anlatım**: uzmanın kafasındaki beklentiyi sade dille göstermek. Sayı bu düşünmenin özetidir, kendisi değil.
+
 ## 0. İddia
 
 Planck, belirsiz bir gelecek karşısında insanın doğru düşünmesine yardım eder: her sayıyı bir soru, bir son tarih ve yapılabilecek bir şeyle verir; sonra yanılıp yanılmadığının hesabını açıkça verir.
@@ -164,3 +170,4 @@ Sürüm: v1 · 10.11.2026 · ilk metin.
 Sürüm: v2 · 16.11.2026 · Yusuf onayı (ekip/KARAR.md): §0 yeni iddia; haberin birimi soru; ilke 8–9; ufuk ve bant kuralları; sunum standardı; Zayıf Sinyal Defteri; beceri skoru ve yön hatası; Önem = S×K ve üç insan kapısı; yeni künye, sicil açık; Türkiye çizgileri ve pilot sonrası süreç kapısı.
 Sürüm: v2.1 · 20.11.2026 · Yusuf kararı: kesin girdi istisnası (Motor yeniden hesabı, ±15 yalnız LR için).
 Sürüm: v2.2 · 21.11.2026 · Yusuf kararı ("bunlar analitik sorulardır"; Nvidia örneği): önce haber kapısı, soru yoksa soru açılır (TARAMA "Yöntem v2.2"); S×K yalnız formatı seçer; günlük taban; dokuz alanlı soru portföyü; §9(3) daraltıldı: şirket yöneticisinin görev değişikliği sorulabilir, siyaset/kamu görevi, sağlık, hukuki durum yasağı kalır.
+Ek: 25.11.2026 · Yusuf'un amaç beyanı başa eklendi ("Amaç" bölümü); kural değişikliği yok.
