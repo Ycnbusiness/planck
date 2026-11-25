@@ -12,7 +12,7 @@
   "sari": 1,
   "yesil": 2,
   "zayif": 5,
-  "not": "Ana akış: motorin indirimi + Brent 3 ay dibi (S×K 15). Sicilde 6 güncelleme, 1 düzeltme (siber geri alındı). 2031 olasılıkları değişmedi. Yeni soru gerekmedi (olaylar mevcut sorulara bağlandı)."
+  "not": "Ana akış: motorin indirimi + Brent 3 ay dibi (S×K 15). Sicilde 6 güncelleme, 1 düzeltme (siber geri alındı). 2031 olasılıkları değişmedi. Yeni soru gerekmedi (olaylar mevcut sorulara bağlandı). | Akşam: USTR 301 önerisi Dosya'ya eklendi, 1 yeni soru."
  },
  "events": [
   {
@@ -179,18 +179,20 @@
     "acik_uc": 2,
     "puan": 5
    },
-   "S": null,
-   "K": 3,
-   "onem": null,
-   "event": "AP (iki isimsiz kaynak) ve New York Post'a göre USTR, Section 301 aşırı kapasite soruşturması sonucunda Çin, AB ve 14 diğer ekonomiye ek tarifeyi yakında açıklayacak; Bloomberg ve WSJ de haberleştirdi. Oranlar ve tam liste açık değil (NY Post: Çin toplamda ≤%20, AB/Japonya/Kore ≤%15; Vietnam, Kamboçya, Malezya daha sert). Petrol, gaz, gübre muaf. Beyaz Saray ve USTR yorum yapmadı. Türkiye'nin listede olup olmadığı bilinmiyor.",
-   "rationale": "Henüz açıklanmadı; isimsiz kaynaklı plan haberi olgu değil. Açıklanınca haber kapısı 5, K=3 (ihracatçı, ABD'deki okur fiyatları) → ana akış adayı. izleme.json'a alındı (bitiş 02.12).",
+   "S": 0.69,
+   "K": 2,
+   "onem": 1.38,
+   "event": "USTR 25.11'de Section 301 aşırı kapasite soruşturmasında 14 ekonomiye önerilen ek tarifeleri açıkladı: Çin ≤%20 (alternatif ≤%40), AB %15, Japonya/Kore/İsviçre/Tayvan ≤%15, Singapur ≤%20, Vietnam ≤%35, Hindistan ≤%25, Endonezya/Malezya/Tayland/Kamboçya/Bangladeş ≤%18. 232 kapsamındaki mallar (Çin hariç) muaf. Yorum 5 Oca, duruşma 25 Oca 2027; yürürlük tarihi yok. Meksika ve Norveç için karar yok. Türkiye listede yok.",
+   "rationale": "Öneri, nihai değil; 2031 riskleri oynamadı. v2.2 m.2: soru açıldı (pk-2026-11-25-abd-301-yururluk, %35, taban: 2018 Çin 301 ve 2025 gemi inşa 301). S 0,69 × K 2 = 1,38 → Dosya maddesi. Hikâye abd-tarifeler açıldı.",
    "sources": [
-    "https://newslantern.com/news/25381/2026-11-25/us-prepares-to-announce-tariffs-on-china-eu-and-14-other-economies",
-    "https://www.yahoo.com/news/politics/articles/trump-eyes-tariff-blitz-china-212440320.html",
-    "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs"
+    "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/",
+    "https://www.mlex.com/mlex/trade/articles/2559711",
+    "https://trendandticker.com/news/markets/capital-markets/2026-11-25/ustr-section-301-excess-capacity-tariffs-14-economies"
    ],
-   "yonlendirme": "izleme",
-   "class": "İZLEME"
+   "yonlendirme": "Günün Dosyası (21:00)",
+   "class": "YEŞİL",
+   "aksam": true,
+   "turkiye_bagi": 1
   },
   {
    "id": "hurmuz-uc-tanker-mayin-2",
@@ -206,7 +208,8 @@
     "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
    ],
    "yonlendirme": "izleme",
-   "class": "İZLEME"
+   "class": "İZLEME",
+   "aksam_not": "25.11: IRGC iki yeni tanker iddiası (IRNA/OilPrice), teyit yok; İran kara listesi 266 gemi (Bloomberg). İzleme sürüyor."
   }
  ],
  "zayif": [
@@ -342,5 +345,18 @@
    }
   ]
  },
- "gecikmeli_tetik": "25.11 15:10 gecikmeli çalışma tetiği: tarama bu oturumda zaten tamamlanmıştı (pencere 23.11 akşam → 25.11); tekrar yapılmadı. Kuyruk 17:30/19:30/21:00'e uyarlandı. Güç Okuma (§6b): bugün oynayan sorular piyasa/vergi takvimi ve saldırı sıklığı sorusu; kişi/kurum kararına bağlı soru (ABD–İran ateşkesi) oynamadı, ayrı Güç Okuma çalıştırması gerekmedi. Huang soruları 23.11'de kapanmıştı."
+ "gecikmeli_tetik": "25.11 15:10 gecikmeli çalışma tetiği: tarama bu oturumda zaten tamamlanmıştı (pencere 23.11 akşam → 25.11); tekrar yapılmadı. Kuyruk 17:30/19:30/21:00'e uyarlandı. Güç Okuma (§6b): bugün oynayan sorular piyasa/vergi takvimi ve saldırı sıklığı sorusu; kişi/kurum kararına bağlı soru (ABD–İran ateşkesi) oynamadı, ayrı Güç Okuma çalıştırması gerekmedi. Huang soruları 23.11'de kapanmıştı.",
+ "aksam_taramasi": {
+  "saat": "2026-11-25 20:15 TSİ",
+  "pencere": "25.11 08:00–20:15",
+  "yeni": [
+   "abd-301-tarife-16-ekonomi → Dosya (4. madde), yeni soru %35"
+  ],
+  "izleme": [
+   "hurmuz-uc-tanker-mayin-2 (yeni IRGC iddiaları, teyit yok)"
+  ],
+  "bulunamadi": "Rusya–Ukrayna, ABD piyasaları: pencere içinde iki kaynaklı yeni olay bulunamadı.",
+  "sicil": "pk-2026-11-25-abd-301-yururluk açıldı (35). 2031 risk olasılıkları değişmedi.",
+  "olay_cevap": "Önemi ≥12 yeni olay yok."
+ }
 }

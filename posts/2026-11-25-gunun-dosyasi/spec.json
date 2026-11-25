@@ -1,6 +1,6 @@
 {
  "date": "25 KASIM 2026",
- "lede": "Suudi makamlarına göre Husiler Riyad'da bir kuleyi vurdu, koalisyon Hudeyde limanına saldırdı; Asya'da yapay zekâ satışı yeniden başladı; ABD İran'ın gölge bankacılık ağına yeni yaptırım uyguladı.",
+ "lede": "Suudi makamlarına göre Husiler Riyad'da bir kuleyi vurdu, koalisyon Hudeyde limanına saldırdı; Asya'da yapay zekâ satışı yeniden başladı; ABD İran'a yeni yaptırım uyguladı ve 14 ekonomiye ek tarife önerdi.",
  "items": [
   {
    "tag": "Körfez",
@@ -83,6 +83,16 @@
     "https://www.wbap.com/2026/11/23/u-s-sanctions-30-targets-in-irans-shadow-banking-network/"
    ],
    "kapi1": "Okur, ABD'nin ateşkes görüşmeleri sürerken ekonomik baskıyı artırdığını bilir."
+  },
+  {
+   "tag": "Ticaret",
+   "title": "ABD 14 ekonomiye ek tarife önerdi",
+   "text": "ABD Ticaret Temsilciliği 25 Kasım'da aşırı üretim kapasitesi soruşturmasının sonucunda Çin'e %20'ye, AB'ye %15'e, Vietnam'a %35'e kadar ek tarife önerdi. Yürürlük tarihi belirlenmedi, duruşmalar 25 Ocak'ta başlıyor; Türkiye listede yok.",
+   "risk": "ABD, 31 Mart 2027'ye kadar bu tarifelerden en az birini yürürlüğe koyar mı?",
+   "from": 35,
+   "to": 35,
+   "deadline": "31.03.2027",
+   "pdo": "Yeni soru: 100'de 35 durumda Mart sonuna kadar yürürlüğe girer. AB'ye ya da ABD'ye satan ihracatçı için izlenecek tarih 25 Ocak duruşmaları."
   }
  ],
  "question": "Sizce Kızıldeniz'deki gerilim deniz ticaretini yeniden aksatır mı?"

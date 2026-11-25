@@ -2819,6 +2819,36 @@
      "neden": "açılış"
     }
    ]
+  },
+  {
+   "id": "pk-2026-11-25-abd-301-yururluk",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "ABD, 31 Mart 2027'ye kadar Section 301 aşırı kapasite tarifelerinden en az birini yürürlüğe koyar mı?",
+   "acilis": "2026-11-25",
+   "deadline": "2027-03-31",
+   "kriter": "25.11.2026'da önerilen Section 301 'yapısal aşırı kapasite' ek tarifelerinden en az birinin (14 ekonomiden herhangi biri için) 31.03.2027 dahil bu tarihe kadar fiilen uygulanmaya başlaması (Federal Register'da yürürlük tarihi geçmiş nihai bildirim). Yalnız nihai karar açıklanıp yürürlük sonraya bırakılırsa HAYIR.",
+   "kaynak_cozum": "USTR / Federal Register; Reuters, AP",
+   "taban": "Emsal sınıfı küçük: Çin 301 (2018) öneriden yürürlüğe ~3 ay; gemi inşa 301 (2025) öneriden nihai karara ~2 ay, yürürlüğe ~8 ay. Burada duruşmalar 25 Ocak 2027'de başlıyor, pencere duruşmadan sonra ~2 ay. Üç geçiş: 30/40/35 → medyan 35.",
+   "mercekler": [
+    "ekonomi",
+    "jeopolitik"
+   ],
+   "on_otopsi": "Yanılırsak: Yönetim 10 Ocak'ta biten ABD–Çin ateşkesini kaldıraç olarak kullanıp Çin kalemini hızla yürürlüğe koyar; ya da tersine anlaşmalar (AB, Japonya, Kore) tarifeyi süresiz askıya aldırır.",
+   "motor": null,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-25",
+     "p": 35,
+     "motor": null,
+     "neden": "açılış"
+    }
+   ]
   }
  ]
 }
