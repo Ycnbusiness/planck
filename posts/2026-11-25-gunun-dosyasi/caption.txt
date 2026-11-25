@@ -1,23 +1,19 @@
 Günün Dosyası · 25 Kasım 2026
 
 1. Husi–Suudi gerilimi limanlara taştı. Suudi makamlarına göre Husilere ait bir İHA 24 Kasım'da Riyad'ın finans bölgesinde bir kuleyi vurdu; Suudi Sivil Savunma 11 yaralı açıkladı. Koalisyon Hudeyde limanını boşaltma çağrısı yaptı ve 25 Kasım'da limana saldırdığını duyurdu; Husiler, Hudeyde vurulursa Cidde dahil Suudi Kızıldeniz limanlarını hedef alacaklarını açıklamıştı.
-Soru: Türk bayraklı ya da Türk armatöre ait bir ticari gemi 13 Şubat 2027'ye kadar Kızıldeniz, Bab el-Mandeb ya da Aden Körfezi'nde saldırıya uğrar mı? (13.02.2027) %10 · 100'de 10 (önce %8). 100'de 90 durumda olmaz.
-Ne yapabilirsin: Cidde'ye yolculuk planlıyorsan havayolu ve yerel makam duyurularını takip et.
+Soru: Türk bayraklı ya da Türk armatöre ait bir ticari gemi 13 Şubat 2027'ye kadar Kızıldeniz, Bab el-Mandeb ya da Aden Körfezi'nde saldırıya uğrar mı? (13.02.2027) %10 · 100'de 10 (önce %8).
 
-2. Huang rallisi Asya'da bir gün sürdü. Nvidia'nın Jensen Huang'ı 23 Kasım'da yeniden CEO yapmasıyla Asya'da bir gün süren yükseliş tersine döndü: 25 Kasım'da Kospi %6,2, Taiex %5, Nikkei %2,8 geriledi; Şanghay Bileşik bir yılı aşkın sürenin en düşük seviyesine indi. Sensex ise yükseldi. Şirketin iç soruşturması sürüyor.
-Soru: Microsoft, Alphabet, Amazon ya da Meta'dan biri 2027 yatırım planını 15 Şubat 2027'ye kadar düşürür mü? (15.02.2027) %13 · 100'de 13 (değişmedi). 100'de 87 durumda olmaz. Tabanı yok. Bu tür 100 tahminimizin yaklaşık 13'ünün gerçekleşmesini bekleriz.
-Ne yapabilirsin: Bireysel olarak yapılacak yok; izlenecek gösterge büyük bulut şirketlerinin 2027 yatırım planları.
+2. Huang rallisi Asya'da bir gün sürdü. Nvidia'nın Jensen Huang'ı 23 Kasım'da yeniden CEO yapmasıyla Asya'da bir gün süren yükseliş tersine döndü: 25 Kasım'da Kospi %6,2, Taiex %5, Nikkei %2,8 geriledi; Şanghay Bileşik bir yılı aşkın sürenin en düşük seviyesine indi. Şirketin iç soruşturması sürüyor.
+Soru: Microsoft, Alphabet, Amazon ya da Meta'dan biri 2027 yatırım planını 15 Şubat 2027'ye kadar düşürür mü? (15.02.2027) %13 · 100'de 13 (değişmedi).
 
-3. ABD'den İran'ın gölge bankacılık ağına yaptırım. ABD Hazinesi 23 Kasım'da İran'ın yaptırımları aşmak için kullandığı belirtilen ağa yönelik 22 kuruluş ve 8 kişiyi yaptırım listesine ekledi; ağın Dubai ve Hong Kong'a uzandığı açıklandı.
-Soru: ABD ile İran 15 Şubat 2027'ye kadar resmî bir ateşkes ilan eder mi? (15.02.2027) %15 · 100'de 15 (değişmedi). 100'de 85 durumda olmaz.
-Bireysel olarak yapılacak yok; izlenecek gösterge Katar arabuluculuğunda bir görüşme tarihi açıklanması.
+3. ABD'den İran'ın gölge bankacılık ağına yaptırım. ABD Hazinesi 23 Kasım'da İran'ın yaptırımları aşmak için kullandığı belirtilen yirmiden fazla döviz bürosu ve paravan şirketi yaptırım listesine ekledi. Şirketlerin çoğu Dubai'de; biri Türkiye'de, biri Hong Kong'da.
+Soru: ABD ile İran 15 Şubat 2027'ye kadar resmî bir ateşkes ilan eder mi? (15.02.2027) %15 · 100'de 15 (değişmedi).
 
 Sizce Kızıldeniz'deki gerilim deniz ticaretini yeniden aksatır mı?
 
 Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
-Kaynaklar: The National, KUNA, ANI, AP, Al Jazeera, Reuters, Fox News · Soru kaydı: pb-2026-11-15-kizildeniz-turk-gemi, pk-2026-11-21-bulut-capex-kesinti, pk-2026-11-18-abd-iran-ateskes · Kimseden fon almıyoruz.
+Kaynaklar: The National, KUNA, ANI, AP, Al Jazeera, Reuters, Times of Israel · Soru kaydı: pb-2026-11-15-kizildeniz-turk-gemi, pk-2026-11-21-bulut-capex-kesinti, pk-2026-11-18-abd-iran-ateskes · Kimseden fon almıyoruz.
 Yatırım veya politika tavsiyesi değildir.
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 
 #planck #pekibiz #günündosyası

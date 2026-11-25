@@ -8,9 +8,9 @@ Motorinin litre fiyatı 26 Kasım gece yarısından itibaren 4,32 TL düşüyor;
 3. Petrol toparlanır, 95 TL'nin üstü (%42). OPEC+ kesintiye gider ya da Körfez'de enerji tesislerine saldırılar artar.
 
 Soru: İstanbul'da motorin 31 Ocak 2027'de litresi 90 TL'nin altında olur mu? (31.01.2027)
-Sayımız: %40 · 100'de 40 (önce %24). Motor %42 (pompa fiyatı, vergi takvimi, kur kayması ve ürün fiyatı oynaklığı; bugünkü fiyatlarla 31 Ocak'ta ≈92 TL, ortadaki band dar olduğu için ağırlık iki uca dağılıyor), Claude ayarı −2 (29 Kasım OPEC+ ve Hürmüz riski).
+Sayımız: %40 · 100'de 40 (önce %24). Motor %42 (bugünkü fiyatlarla 31 Ocak'ta ≈92 TL), Claude ayarı −2 (29 Kasım OPEC+ ve Hürmüz riski).
 Tabanı yok: fiyat eşiği sorusu. Bu tür 100 tahminimizin yaklaşık 40'ının gerçekleşmesini bekleriz.
-Diğer sorular: Brent 31 Aralık 2026'yı 90 doların altında kapatır mı? %57 · 100'de 57 (önce %47). Brent 31 Aralık 2026'ya kadar herhangi bir günde 100 doların üstünde kapanır mı? %28 · 100'de 28 (önce %42).
+Brent 31 Aralık'ı 90 doların altında kapatır mı? %57 · 100'de 57 (önce %47).
 
 Ne yapabilirsin: 1 Aralık'ta motorinde yaklaşık 3,60 TL vergi artışı bekleniyor; planlı bir dolum varsa bu tarihi hesaba katmak işe yarayabilir. Fiyatı dağıtıcıların resmî listesinden kontrol et.
 
@@ -18,8 +18,7 @@ Sizce motorin 31 Ocak'ta 90 TL'nin altında olur mu?
 
 Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
-Kaynaklar: ANKA, Enerji Günlüğü, Sözcü, CNBC, Reuters · Soru kaydı: pb-2026-11-11-motorin-90, pk-2026-11-18-brent-90-yilsonu, pk-2026-11-18-brent-100-dokunma, pk-2026-11-20-motorin-95-aralik · Kimseden fon almıyoruz.
+Kaynaklar: ANKA, Timeturk, Cumhuriyet, CNBC, Reuters · Soru kaydı: pb-2026-11-11-motorin-90, pk-2026-11-18-brent-90-yilsonu · Kimseden fon almıyoruz.
 Yatırım veya politika tavsiyesi değildir.
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 
 #planck #pekibiz #akaryakıt
