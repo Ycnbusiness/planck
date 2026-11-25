@@ -37,7 +37,7 @@ X, YouTube ve TikTok için ayrıca ücretli anahtar gerekir (`SCRAPECREATORS_API
 
 ## Zayıf yanları
 
-- **Türkçe kapsamı zayıf.** Reddit, X ve HN ağırlıklı İngilizce. Türkiye ekonomisi alanında az işe yarar; Ekşi Sözlük ve Türk X'i kapsanmaz.
+- **Küresel kapsam güçlü yanı.** Planck dünya medyası (Türkçe yazılır, okur Türkiye ile sınırlı değil). Kaynakların İngilizce ve küresel olması bu konsepte uyar. Türkiye konuları için ayrıca yerel kaynak gerekir (Ekşi Sözlük, Türk X'i kapsanmaz); bu bir eksik değil, ek katmandır.
 - **Gürültü ve manipülasyon.** Koordineli hesaplar etkileşimi şişirebilir. Kural 1 ve 4 bunu sınırlar.
 - **Maliyet.** Ücretsiz kaynaklar yavaş ve sığdır. X için aylık ücretli anahtar gerekir; karar Yusuf'ta.
 - **Süre.** Hızlı mod ~1–2 dakika, derin mod 5+ dakika sürer. Her olayda değil, yalnız karar bağımlı sorularda ve Ses ve İz'de kullanılır.
