@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-25",
+ "ogle": true,
+ "scan_window": "2026-11-25 04:00 → 15:30 (TSİ)",
+ "yontem": "Öğle taraması, Yöntem v2.2. Bu tarihe ait sabah taraması dosyası yok (son commit 23.11 21:30; 24.11 ve 25.11 sabah taramaları repo'ya yazmamış). Hakem adımı bu görevin işi değil, yapılmadı.",
+ "summary": {
+  "kirmizi": 0,
+  "ana_akis": 0,
+  "dosya": 1,
+  "story": 0,
+  "zayif": 0,
+  "izleme": 2,
+  "kirmizi_cizgi": 0,
+  "not": "Ana akış adayı yok. Asya YZ satışı Dosya maddesi (sicil oynamadı). ABD tarife planı ve IRGC tanker iddiası izlemede. Resmî Gazete'deki 41 vali ataması 00:00'da (pencere dışı) ve kamu görevi → kırmızı çizgi, olasılık yok; haber değeri düşük, işlenmedi."
+ },
+ "events": [
+  {
+   "id": "asya-yz-satis-yeniden",
+   "ogle": true,
+   "saat": "25.11 03:00–10:00 TSİ (Asya seansı)",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Nvidia'nın Jensen Huang'ı yeniden CEO yapmasıyla gelen yükseliş, 25 Kasım'da Asya'da yerini yeni satışa bıraktı. Kospi %6,2 düşerek 4.697'ye, Tayvan'ın Taiex endeksi %5, Nikkei %2,8 geriledi; Şanghay Bileşik bir yılı aşkın sürenin en düşük seviyesine indi. Samsung ve SK Hynix yüzde 10 civarında değer kaybetti. Hindistan'ın Sensex endeksi ise yükseldi. AP'ye göre ABD vadelileri %0,8 eksi, Brent %1,4 düşüşle ~87,5 $.",
+   "rationale": "Huang'ın 23.11'de göreve iadesi (Nvidia 8-K) sonrası rallinin silinmesi: 23.11 Asya müdahaleleriyle aynı tema, hafif sürpriz. Oynayan soru: pk-2026-11-21-bulut-capex-kesinti (%13) — LR<1,2, sayı oynamadı. nv-4 (SOX ≥%10 düşüş) bu taramada SOX seviyesi doğrulanamadı; hakem bakmalı (muhtemelen eşik zaten aşıldı). Mevcut soruya bağlandı (açık 62, endeks hariç; tavan 70).",
+   "sources": [
+    "https://www.bnnbloomberg.ca/markets/2026/11/25/global-stocks-are-mixed-as-ai-shares-tumble-after-a-retreat-on-wall-street/",
+    "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+    "https://www.ksat.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-tumble-after-a-retreat-on-wall-street/"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00 maddesi (v2.2 m.4: <0,4 ve haber kapısı geçti)",
+   "class": "YEŞİL"
+  },
+  {
+   "id": "abd-301-tarife-16-ekonomi",
+   "ogle": true,
+   "saat": "24.11 akşam–25.11",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": null,
+   "K": 3,
+   "onem": null,
+   "event": "AP (iki isimsiz kaynak) ve New York Post'a göre USTR, Section 301 aşırı kapasite soruşturması sonucunda Çin, AB ve 14 diğer ekonomiye ek tarifeyi yakında açıklayacak; Bloomberg ve WSJ de haberleştirdi. Oranlar ve tam liste açık değil (NY Post: Çin toplamda ≤%20, AB/Japonya/Kore ≤%15; Vietnam, Kamboçya, Malezya daha sert). Petrol, gaz, gübre muaf. Beyaz Saray ve USTR yorum yapmadı. Türkiye'nin listede olup olmadığı bilinmiyor.",
+   "rationale": "Henüz açıklanmadı; isimsiz kaynaklı plan haberi olgu değil. Açıklanınca haber kapısı 5, K=3 (ihracatçı, ABD'deki okur fiyatları) → ana akış adayı. izleme.json'a alındı (bitiş 02.12).",
+   "sources": [
+    "https://newslantern.com/news/25381/2026-11-25/us-prepares-to-announce-tariffs-on-china-eu-and-14-other-economies",
+    "https://www.yahoo.com/news/politics/articles/trump-eyes-tariff-blitz-china-212440320.html",
+    "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs"
+   ],
+   "yonlendirme": "izleme",
+   "class": "İZLEME"
+  },
+  {
+   "id": "hurmuz-uc-tanker-mayin-2",
+   "ogle": true,
+   "saat": "23–24.11 (pencere dışı; sabah taramaları 24 ve 25.11'de dosya üretmedi)",
+   "lr": null,
+   "delta": 0,
+   "event": "IRGC Donanması (İran devlet medyası) Hürmüz'de ABD eskortu altındaki üç tankerin mayına çarpıp yandığını açıkladı; CENTCOM ana geçiş rotalarının temiz olduğunu söyleyerek reddetti. Tanker adı ve bağımsız teyit yok. Aynı günlerde ABD Hazinesi İranlı döviz bürolarına ve paravan şirketlere yaptırımları genişletti (CNBC; okunamadı).",
+   "rationale": "Tek taraflı iddia, karşı tarafça reddedildi; 19–22.11'deki 'hurmuz-uc-tanker-mayin' iddiası da doğrulanmadan düşmüştü. Olasılık oynamaz; izleme (bitiş 27.11).",
+   "sources": [
+    "https://nationalsecurityjournal.org/the-us-navy-has-a-new-problem-iran-says-3-oil-tankers-hit-mines-in-the-strait-of-hormuz-and-centcom-says-every-main-lane-is-clear/",
+    "https://www.iranintl.com/en/202611232940",
+    "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+   ],
+   "yonlendirme": "izleme",
+   "class": "İZLEME"
+  }
+ ],
+ "elenen": [
+  {
+   "id": "anthropic-halka-arz",
+   "neden": "Pencere dışı (halka arz önceki günlerde); hisse hareketi tekil hisse yönü (yasak soru); ayrıca Claude'un kendi şirketi — çıkar çatışması, Yusuf'a bırakıldı."
+  },
+  {
+   "id": "faa-duffy-senato",
+   "neden": "Takvimli (gelecek hafta Senato ifadesi, 1 Aralık Bedford Meclis); yeni olgu yok. Ses ve İz aday satırına iz ölçütü notu olarak eklendi."
+  }
+ ]
+}

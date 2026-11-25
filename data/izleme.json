@@ -120,6 +120,34 @@
     "2026-11-22 akşam: COP31 ana karar kabul edilmeden kapandı (BM Haber, France 24, Daily Sabah); AB itirazı, Panama desteklemedi. Günün Dosyası maddesi; soru açılamadı (Anayasa §2 tavan). İzleme kapandı."
    ],
    "ogle_22_11": "12:40 TSİ: kabul/ret iki kaynakla doğrulanamadı. Son kaynaklar: AP (Boston Globe 08:27 UTC) son taslakta fosil yakıt kelimesi yok, Panama resmî itiraz edecek; ABC/AFP 05:04 UTC kabul oturumu 06:00 GMT. Akşam turu yeniden bakar."
+  },
+  {
+   "id": "abd-301-tarife-16-ekonomi",
+   "acilis": "2026-11-25",
+   "olay": "AP (iki isimsiz kaynak) ve New York Post'a göre USTR, Section 301 aşırı kapasite soruşturması sonucunda Çin, AB ve 14 diğer ekonomiye ek tarifeyi yakında açıklayacak; Bloomberg ve WSJ de haberleştirdi. Oranlar ve tam liste açık değil (NY Post: Çin toplamda ≤%20, AB/Japonya/Kore ≤%15; Vietnam, Kamboçya, Malezya daha sert). Petrol, gaz, gübre muaf. Beyaz Saray ve USTR yorum yapmadı. Türkiye'nin listede olup olmadığı bilinmiyor.",
+   "durum": "izleniyor",
+   "eksik": "USTR resmî açıklaması ya da Federal Register kaydı + ikinci bağımsız ajans; Türkiye'nin listede olup olmadığı",
+   "olursa": "Haber kapısı ve S×K yeniden; tavan açıksa 2–3 soru (ör. 'Çin 30 gün içinde misilleme tarifesi açıklar mı?', 'ABD–Çin ateşkesi 10 Ocak 2027'de uzatılır mı?'); Türkiye listedeyse Peki Biz? ile Olay ve Cevap adayı.",
+   "bitis": "2026-12-02",
+   "kaynaklar": [
+    "https://newslantern.com/news/25381/2026-11-25/us-prepares-to-announce-tariffs-on-china-eu-and-14-other-economies",
+    "https://www.yahoo.com/news/politics/articles/trump-eyes-tariff-blitz-china-212440320.html",
+    "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs"
+   ]
+  },
+  {
+   "id": "hurmuz-uc-tanker-mayin-2",
+   "acilis": "2026-11-25",
+   "olay": "IRGC Donanması (İran devlet medyası) Hürmüz'de ABD eskortu altındaki üç tankerin mayına çarpıp yandığını açıkladı; CENTCOM ana geçiş rotalarının temiz olduğunu söyleyerek reddetti. Tanker adı ve bağımsız teyit yok. Aynı günlerde ABD Hazinesi İranlı döviz bürolarına ve paravan şirketlere yaptırımları genişletti (CNBC; okunamadı).",
+   "durum": "izleniyor",
+   "eksik": "Tanker adları ve Reuters/AP/AFP ya da armatör/UKMTO teyidi",
+   "olursa": "pk-2026-11-18-hurmuz-acilis ve Brent soruları için LR değerlendirmesi; Dosya maddesi.",
+   "bitis": "2026-11-27",
+   "kaynaklar": [
+    "https://nationalsecurityjournal.org/the-us-navy-has-a-new-problem-iran-says-3-oil-tankers-hit-mines-in-the-strait-of-hormuz-and-centcom-says-every-main-lane-is-clear/",
+    "https://www.iranintl.com/en/202611232940",
+    "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+   ]
   }
  ]
 }

@@ -1,0 +1,37 @@
+{
+ "date": "25 KASIM 2026",
+ "lede": "Huang Nvidia'ya döndü, yapay zekâ hisselerindeki satış durmadı.",
+ "items": [
+  {
+   "tag": "Piyasalar",
+   "title": "Huang rallisi Asya'da bir gün sürdü",
+   "text": "Nvidia'nın Jensen Huang'ı yeniden CEO yapmasıyla gelen yükseliş, 25 Kasım'da Asya'da yerini yeni satışa bıraktı. Kospi %6,2 düşerek 4.697'ye, Tayvan'ın Taiex endeksi %5, Nikkei %2,8 geriledi; Şanghay Bileşik bir yılı aşkın sürenin en düşük seviyesine indi. Samsung ve SK Hynix yüzde 10 civarında değer kaybetti. Hindistan'ın Sensex endeksi ise yükseldi.",
+   "risk": "Büyük bulut şirketlerinden biri 2027 yatırım planını düşürür mü?",
+   "from": 13,
+   "to": 13,
+   "deadline": "15.02.2027",
+   "pdo": "CEO belirsizliği giderildi, şirketin iç soruşturması sürüyor; satış durmadı. Piyasanın sorusu yapay zekâ yatırımlarının getirisi. 100'de 87 durumda plan düşmez. Tabanı yok; bu tür 100 tahminimizin yaklaşık 13'ünün gerçekleşmesini bekleriz. Bireysel olarak yapılacak yok; izlenecek gösterge büyük bulut şirketlerinin 2027 planları.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "soru": "pk-2026-11-21-bulut-capex-kesinti",
+   "kaynaklar": [
+    "https://www.bnnbloomberg.ca/markets/2026/11/25/global-stocks-are-mixed-as-ai-shares-tumble-after-a-retreat-on-wall-street/",
+    "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+    "https://www.ksat.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-tumble-after-a-retreat-on-wall-street/"
+   ],
+   "kapi1": "Okur, YZ satışının tek bir şirketin yönetim krizinden değil, yatırım getirisi şüphesinden beslendiğini görür ve bunu bulut şirketlerinin yatırım planlarından izler.",
+   "not_kayit": "Öğle taraması 25.11. AP (Elaine Lai) + Al Jazeera (John Power) bağımsız; Huang iadesi SEC 8-K (23.11). Sicil oynamadı (LR<1,2). v2.2 m.4: <0,4 ve haber kapısı geçti → Dosya maddesi. (Tavan: açık 62, endeks hariç; soru açılabilirdi, bu madde mevcut soruya bağlandı.)",
+   "ogle": true,
+   "editor": "DÜZELT (1. tur, ayrı çalıştırma: lede 'kriz kapandı' olguyla çelişiyor — 8-K soruşturma sürüyor diyor; K 3→2; görsele ters taraf + frekans; başlık 'bir gün sürdü'; not alanı v2.2 m.6) → düzeltildi, 2. tur bekleniyor"
+  }
+ ],
+ "question": "Sizce piyasa yapay zekâ yatırımlarının getirisinden ne zaman emin olur?"
+}
