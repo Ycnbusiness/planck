@@ -1,7 +1,7 @@
 # Neden Yanıldık #1 · `nv-1` (taslak, 20.11.2026)
 
 **Durum:** Taslak. Quant yayını durdurulmuş olduğu için yayın Yusuf onayıyla (PILOT, KARAR §Hafta 1).
-**Kanal önerisi:** @planck.news, tek kare + açıklama (Quant hesabı kapalıyken). Alternatif: Quant açılışında (Ocak 2027) ilk içerik.
+**Kanal (KARAR, Yusuf 25.11.2026):** @planck.quant açılışında ilk içerik. @planck.news'te yayınlanmaz.
 
 ## Kayıt
 
@@ -52,6 +52,6 @@ Kapanan 4 sorunun (2 News, 2 Quant; 1 iptal ayrı) Brier ortalamasında nv-1 tek
 > Yatırım veya politika tavsiyesi değildir.
 > #planck #nedenyanıldık
 
-## Yusuf'a tek soru
+## Karar
 
-Yayın yeri: (a) şimdi @planck.news'te, (b) Quant açılışında ilk içerik olarak.
+25.11.2026 · Yusuf: "quantta ilk içerik olsun." Quant yayını açıldığında ilk gönderi bu.
