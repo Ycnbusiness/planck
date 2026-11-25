@@ -148,6 +148,15 @@
     "https://www.iranintl.com/en/202611232940",
     "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
    ]
+  },
+  {
+   "id": "abd-50-gemi-siber-iran",
+   "acilis": "2026-11-25",
+   "olay": "WSJ: ABD yetkilileri 50'ye kadar ticari geminin (petrol, LPG, kimyasal) hacklenmesinde İran bağlantısını araştırıyor; Rusya da olası fail; bir ABD yetkilisi İran bağı için kanıt olmadığını söyledi.",
+   "durum": "acik",
+   "eksik": "WSJ'den bağımsız ikinci kaynak (resmî ABD açıklaması ya da Reuters/AP kendi haberi)",
+   "olursa": "on-siber-yeni-devlet-atfi sorusu yeniden değerlendirilir (LR 1,25 → %60); Dosya maddesi taslağı spec geçmişinde (25.11).",
+   "bitis": "2026-12-02"
   }
  ]
 }

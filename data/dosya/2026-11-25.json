@@ -1,9 +1,33 @@
 {
  "date": "25 KASIM 2026",
- "durum": "aday",
- "not": "Öğle taraması 25.11: tek madde. Akşam turu ikinci maddeyi arar; çıkmazsa v2.2 günlük taban (m.6) gereği Dosya tek maddeyle yayınlanır (kapak 'Bugün 1 Gelişme'). Öğlen tek başına yayınlanmaz.",
- "lede": "Huang Nvidia'ya döndü, yapay zekâ hisselerindeki satış durmadı.",
+ "lede": "Suudi makamlarına göre Husiler Riyad'da bir kuleyi vurdu, koalisyon Hudeyde limanına saldırdı; Asya'da yapay zekâ satışı yeniden başladı; ABD İran'ın gölge bankacılık ağına yeni yaptırım uyguladı.",
  "items": [
+  {
+   "tag": "Körfez",
+   "title": "Husi–Suudi gerilimi limanlara taştı",
+   "text": "Suudi makamlarına göre Husilere ait bir İHA 24 Kasım'da Riyad'ın finans bölgesinde bir kuleyi vurdu; Suudi Sivil Savunma 11 kişinin yaralandığını açıkladı. Suudi liderliğindeki koalisyon sivilleri Hudeyde limanını boşaltmaya çağırdı ve 25 Kasım'da limana saldırdığını duyurdu. Husiler, Hudeyde vurulursa Cidde dahil Suudi Kızıldeniz limanlarını hedef alacaklarını açıklamıştı.",
+   "risk": "Türk bayraklı ya da Türk armatöre ait bir ticari gemi 13 Şubat'a kadar Kızıldeniz, Bab el-Mandeb ya da Aden Körfezi'nde saldırıya uğrar mı?",
+   "from": 8,
+   "to": 10,
+   "deadline": "13.02.2027",
+   "pdo": "100'de 90 durumda olmaz. Kızıldeniz'de liman riski arttı; ticari gemiye yeni saldırı bildirilmedi (zayıf kanıt, LR 1,25). Cidde'ye yolculuk planlayan okur havayolu ve yerel makam duyurularını takip edebilir.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0.22,
+   "K": 3,
+   "onem": 0.66,
+   "turkiye_bagi": 1,
+   "kaynaklar": [
+    "https://www.thenationalnews.com/news/mena/2026/11/25/saudi-led-coalition-strikes-hodeidah-port-after-riyadh-attack/",
+    "https://kuwaittimes.com/article/54321/world/coalition-strikes-yemen-after-drone-attack-injures-11-in-riyadh/",
+    "https://www.tribuneindia.com/news/evacuation-order/saudi-led-coalition-strikes-yemens-hodeidah-port-after-houthis-threaten-red-sea-ports"
+   ],
+   "kapi1": "Okur, Kızıldeniz'deki deniz yolu ve Suudi limanları riskinin yeniden arttığını bilir."
+  },
   {
    "tag": "Piyasalar",
    "title": "Huang rallisi Asya'da bir gün sürdü",
@@ -29,11 +53,37 @@
     "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
     "https://www.ksat.com/business/2026/11/25/asian-stocks-mostly-decline-as-ai-shares-tumble-after-a-retreat-on-wall-street/"
    ],
-   "kapi1": "Okur, YZ satışının CEO belirsizliğinden değil, yatırım getirisi şüphesinden beslendiğini görür ve bunu bulut şirketlerinin yatırım planlarından izler.",
+   "kapi1": "Okur, YZ satışının tek bir şirketin yönetim krizinden değil, yatırım getirisi şüphesinden beslendiğini görür ve bunu bulut şirketlerinin yatırım planlarından izler.",
    "not_kayit": "Öğle taraması 25.11. AP (Elaine Lai) + Al Jazeera (John Power) bağımsız; Huang iadesi SEC 8-K (23.11). Sicil oynamadı (LR<1,2). v2.2 m.4: <0,4 ve haber kapısı geçti → Dosya maddesi. (Tavan: açık 62, endeks hariç; soru açılabilirdi, bu madde mevcut soruya bağlandı.)",
    "ogle": true,
-   "editor": "YAYINLA (2. tur, ayrı çalıştırma; 1. tur DÜZELT: lede 'kriz kapandı', K 3→2, görsele ters taraf+frekans, başlık, not alanı)"
+   "editor": "DÜZELT (1. tur, ayrı çalıştırma: lede 'kriz kapandı' olguyla çelişiyor — 8-K soruşturma sürüyor diyor; K 3→2; görsele ters taraf + frekans; başlık 'bir gün sürdü'; not alanı v2.2 m.6) → düzeltildi, 2. tur bekleniyor"
+  },
+  {
+   "tag": "Körfez",
+   "title": "ABD'den İran'ın gölge bankacılık ağına yaptırım",
+   "text": "ABD Hazinesi 23 Kasım'da İran'ın yaptırımları aşmak için kullandığı belirtilen gölge bankacılık ağına yönelik 22 kuruluş ve 8 kişiyi yaptırım listesine ekledi; ağın Dubai ve Hong Kong'a uzandığı açıklandı. İran'dan yaptırımlara ilişkin resmî yanıt bildirilmedi.",
+   "risk": "ABD ile İran 15 Şubat 2027'ye kadar resmî bir ateşkes ilan eder mi?",
+   "from": 15,
+   "to": 15,
+   "deadline": "15.02.2027",
+   "pdo": "100'de 85 durumda olmaz; sayı değişmedi (beklenen adım, LR 1,2'nin altında). Bireysel olarak yapılacak yok; izlenecek gösterge Katar arabuluculuğunda bir görüşme tarihi açıklanması.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 0,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "kaynaklar": [
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/11/23/us-imposes-sanctions-on-dozens-linked-to-iran-s-shadow-banking-networks",
+    "https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline",
+    "https://www.wbap.com/2026/11/23/u-s-sanctions-30-targets-in-irans-shadow-banking-network/"
+   ],
+   "kapi1": "Okur, ABD'nin ateşkes görüşmeleri sürerken ekonomik baskıyı artırdığını bilir."
   }
  ],
- "question": "Sizce piyasa yapay zekâ yatırımlarının getirisinden ne zaman emin olur?"
+ "question": "Sizce Kızıldeniz'deki gerilim deniz ticaretini yeniden aksatır mı?"
 }

@@ -1,0 +1,17 @@
+{
+ "week": "2026-W48",
+ "tag": "Akaryakıt",
+ "title": "Motorine haftada ikinci indirim",
+ "text": "Motorin 26 Kasım'dan itibaren litrede 4,32 TL ucuzluyor; İstanbul'da yaklaşık 84,58 TL. 1 Aralık'ta vergi artışı bekleniyor.",
+ "risk": "Brent 31 Aralık'ı 90 doların altında kapatır mı?",
+ "rl": "ETKİLENEN SORU · ESKİ → YENİ",
+ "from": 47,
+ "to": 57,
+ "why": "Brent 87,5 dolara indi; Körfez ihracatı arttı, Libya hattı açıldı.",
+ "pl": "PEKİ BİZ?",
+ "pq": "İstanbul'da motorin 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+ "pp": 40,
+ "yuz": true,
+ "kunye": "Tarama ve hesap: Claude · Yatırım tavsiyesi değildir",
+ "cta": "Ayrıntılar gönderide · @planck.news"
+}

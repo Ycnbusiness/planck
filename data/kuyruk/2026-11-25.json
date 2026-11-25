@@ -1,11 +1,29 @@
 [
  {
+  "saat": "17:00",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-25-motorin-ikinci-indirim",
+  "onem": 15.0,
+  "onem_eski": 114,
+  "editor": "DÜZELT → düzeltildi (1. tur)",
+  "durum": "hazir",
+  "not": "11:00 yuvası tarama saatinde geçmişti; ilk boş yuva 17:00. Motorin indirimi 26.11 00:00'da pompaya yansır; yayın öncesi iki kaynakla teyit."
+ },
+ {
+  "saat": "19:00",
+  "tur": "olay-cevap-reel",
+  "klasor": "posts/2026-11-25-motorin-ikinci-indirim",
+  "dosya": "reel.mp4",
+  "onem": 15.0,
+  "durum": "hazir"
+ },
+ {
   "saat": "21:00",
   "tur": "dosya",
   "klasor": "posts/2026-11-25-gunun-dosyasi",
-  "onem": 0,
+  "onem": 0.66,
+  "editor": "Asya maddesi YAYINLA (öğle, 2. tur); Husi maddesi DÜZELT→düzeltildi; yaptırım maddesi editör sonrası eklendi, yayın turunda doğrulanmalı",
   "durum": "hazir",
-  "editor": "YAYINLA (2. tur; Asya YZ satışı maddesi)",
-  "not": "Öğle taraması 25.11 (bugün sabah taraması kaydı yok). Tek madde: Asya'da YZ satışı yeniden (S×K 0, haber kapısı 4 → Dosya maddesi, v2.2 m.4). Editör: 1. tur DÜZELT → 2. tur YAYINLA. Akşam turu ikinci madde arar (izlemede: ABD Section 301 tarifeleri açıklanırsa); bulamazsa v2.2 m.6 günlük taban gereği tek maddeyle çıkar. Bugün Olay ve Cevap yok: ana akış adayı çıkmadı; günlük taban için akşam turu karar verir."
+  "not": "Öğle taraması 25.11 (bugün sabah taraması kaydı yok). Tek madde: Asya'da YZ satışı yeniden (S×K 0, haber kapısı 4 → Dosya maddesi, v2.2 m.4). Editör: 1. tur DÜZELT → 2. tur YAYINLA. Akşam turu ikinci madde arar (izlemede: ABD Section 301 tarifeleri açıklanırsa); bulamazsa v2.2 m.6 günlük taban gereği tek maddeyle çıkar. Bugün Olay ve Cevap yok: ana akış adayı çıkmadı; günlük taban için akşam turu karar verir. | Akşamüstü taraması: 2 madde eklendi (Husi–Suudi liman, İran gölge bankacılık yaptırımı); siber 50 gemi maddesi tek kaynak → izleme. Olay ve Cevap: motorin (17:00)."
  }
 ]

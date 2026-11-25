@@ -1,0 +1,94 @@
+{
+ "date": "25 KASIM 2026",
+ "tag": "Akaryakıt",
+ "haber": {
+  "title": "Motorine bir haftada ikinci büyük indirim",
+  "text": "Motorinin litre fiyatı 26 Kasım gece yarısından itibaren 4,32 TL düşüyor; İstanbul Avrupa yakasında 88,90 TL'den yaklaşık 84,58 TL'ye iniyor. 20 Kasım'daki indirimle birlikte haftalık düşüş yaklaşık 10,90 TL. Brent petrol 25 Kasım'da 87,5 dolar civarına geriledi; 23 Kasım kapanışı Ağustos sonundan beri en düşük seviyeydi.",
+  "kaynak": "ANKA, Enerji Günlüğü, Sözcü, CNBC, Reuters"
+ },
+ "neden": {
+  "text": "Petrol fiyatı üç haftadır düşüyor: Körfez'den ihracat savaş öncesine yaklaştı, Libya'da kapalı bir boru hattı yeniden açıldı. Hürmüz'deki saldırılar ise fiyatı tamamen gevşetmiyor. İndirimin bir kısmı 1 Aralık vergi artışıyla geri gelecek.",
+  "taraflar": [
+   [
+    "Piyasa",
+    "Analistler arz fazlası beklentisinin, Hürmüz'deki saldırıların yarattığı riski şimdilik bastırdığını söylüyor. OPEC+ 29 Kasım'da 2027 üretimini görüşecek."
+   ],
+   [
+    "Vergi takvimi",
+    "Mevcut karara göre motorindeki ÖTV 1 Aralık'ta litre başına 9 TL'den 12 TL'ye, 1 Ocak'ta yaklaşık 13,90 TL'ye çıkıyor. Bu, pompada önce yaklaşık 3,60 TL, sonra yaklaşık 2,30 TL ek artış demek."
+   ],
+   [
+    "Sektör",
+    "Sektör kaynakları benzine de birkaç gün içinde indirim gelebileceğini, bunun petrol fiyatının seyrine bağlı olduğunu söylüyor. Bu bir beklentidir, kesinleşmedi."
+   ]
+  ]
+ },
+ "neolur": [
+  {
+   "q": "İstanbul'da motorin 31 Ocak 2027'de litresi 90 TL'nin altında olur mu?",
+   "p": 40,
+   "deadline": "31.01.2027",
+   "from": 24,
+   "not": "MOTOR YENİDEN HESABI · POMPA VE VERGİ"
+  },
+  {
+   "q": "Brent 31 Aralık 2026'yı 90 doların altında kapatır mı?",
+   "p": 57,
+   "deadline": "31.12.2026",
+   "from": 47,
+   "not": "MOTOR YENİDEN HESABI · SPOT 87,5 $"
+  },
+  {
+   "q": "Brent 31 Aralık'a kadar herhangi bir günde 100 doların üstünde kapanır mı?",
+   "p": 28,
+   "deadline": "31.12.2026",
+   "from": 42,
+   "not": "MOTOR YENİDEN HESABI"
+  }
+ ],
+ "olasilik": {
+  "q": "İstanbul'da motorin 31 Ocak 2027'de litresi 90 TL'nin altında olur mu?",
+  "motor": 42,
+  "ayar": -2,
+  "ayar_neden": "Motor, pompa fiyatına 1 Aralık ve 1 Ocak vergi artışlarını ekliyor (bugünkü ürün fiyatıyla ≈90,5 TL), kur kayması ile ≈92 TL'ye çıkıyor; ürün fiyatı oynaklığı geniş olduğu için iki uç da olası. Claude −2: 29 Kasım OPEC+ ve Hürmüz riski fiyatı yukarı itebilir.",
+  "p": 40,
+  "aralik": "",
+  "frekans": "Tabanı yok: fiyat eşiği sorusu, hesap petrol ürünü fiyatının geçmiş oynaklığına dayanıyor. Bu tür 100 tahminimizin yaklaşık 40'ının gerçekleşmesini bekleriz. Ortadaki 90–95 TL bandı dar olduğu için ağırlık iki uca dağılıyor."
+ },
+ "karne": {
+  "konu": "Bu konuda 1 kapanış: 'Motorin 30 Kasım'a kadar 95 TL'nin altına iner mi?' Dedik %85 · Oldu.",
+  "genel": "Toplam 5 kapanış var; az örnek. 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "29 Kasım OPEC+ kararı; 1 Aralık ÖTV artışının pompaya yansıması; Brent'in 90 dolar çizgisi.",
+  "eylem": "Aracı olan okur için: 1 Aralık'ta motorinde yaklaşık 3,60 TL vergi artışı bekleniyor; planlı bir dolum varsa bu tarihi hesaba katmak işe yarayabilir. Fiyatı dağıtıcıların resmî listesinden kontrol edin."
+ },
+ "question": "Sizce motorin 31 Ocak'ta 90 TL'nin altında olur mu?",
+ "senaryolar": {
+  "baslik": "31 Ocak'ta İstanbul'da motorin: üç yol",
+  "dallar": [
+   {
+    "ad": "Petrol gevşer: 90 TL'nin altı",
+    "p": 40,
+    "kosul": "Arz fazlası sürer, OPEC+ üretimi kısmaz; motorin ürün fiyatı dolar bazında %4'ten fazla düşer.",
+    "olursa": "Ocak vergi artışlarına rağmen pompa fiyatı 90 TL'nin altında kalır.",
+    "emsal": "2014–15: arz fazlası petrolü altı ayda yarıya indirdi.",
+    "iz": "Brent'in 85 doların altına inmesi; dağıtıcıların ardışık indirimleri."
+   },
+   {
+    "ad": "Yatay seyir: 90–95 TL",
+    "p": 18,
+    "kosul": "Petrol 85–92 dolar arasında kalır; vergi artışı ve kur kayması pompaya aynen yansır.",
+    "olursa": "Fiyat bugünkünden birkaç lira yukarıda olur; artış petrolden değil vergiden gelir.",
+    "emsal": "Emsal yok.",
+    "iz": "Pompadaki artışın vergi tutarıyla örtüşmesi."
+   },
+   {
+    "ad": "Petrol toparlanır: 95 TL'nin üstü",
+    "p": 42,
+    "kosul": "OPEC+ kesintiye gider ya da Körfez'de enerji tesislerine saldırılar artar.",
+    "olursa": "Bu haftaki indirimler geri alınır; Ocak vergisiyle birlikte motorin 95 TL'yi aşar.",
+    "emsal": "2022: Rusya'nın Ukrayna'yı işgalinden sonra dizel fiyatları birkaç ayda sert yükseldi.",
+    "iz": "29 Kasım OPEC+ kararı; Hürmüz'deki saldırılar."
+   }
+  ]
+ }
+}

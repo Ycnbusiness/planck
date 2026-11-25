@@ -12,6 +12,7 @@ _Doldurulacak._
 ## Rüzgâr kaydı (her yeni haber bir satır; bedelli sinyal ağır)
 | Tarih | Kim | Ne (kendi cümlemizle) | Yön | Bedel | Ağırlık | Kaynak |
 |---|---|---|---|---|---|---|
+| 23–24.11.2026 | ABD yetkilileri | 50'ye kadar ticari geminin hacklenmesinde İran bağlantısı araştırılıyor; Fortinet yönlendirici açığı; atıf yok | yukarı (atıf süreci) | bedelsiz (soruşturma) | orta | WSJ aktarımı: NPR, heise |
 
 ## Denge
 _Olumlu / olumsuz hangisi ağır basıyor ve neden._

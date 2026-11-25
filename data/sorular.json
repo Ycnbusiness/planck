@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -1614,6 +1614,18 @@
      "p": 55,
      "motor": 50,
      "neden": "açılış: geçiş işi, risk-siber öncü sorusu"
+    },
+    {
+     "t": "2026-11-25",
+     "p": 60,
+     "motor": 50,
+     "neden": "25.11: ABD yetkilileri, petrol, LPG ve kimyasal taşıyan 50'ye kadar ticari geminin hacklenmesinde İran bağlantısını araştırıyor (WSJ; NPR 24.11, heise). Sorumluluk henüz atfedilmedi. LR 1,25 (zayıf: resmî atfa giden süreç)."
+    },
+    {
+     "t": "2026-11-25",
+     "p": 55,
+     "motor": 50,
+     "neden": "DÜZELTME (editör 25.11, Anayasa §8/§9): 50 gemi siber soruşturması tek kaynağa (WSJ) dayanıyor; NPR, heise ve Reuters WSJ'yi aktarıyor, ABD yetkilisi İran bağı için kanıt olmadığını söyledi. Tek kaynaklı iddia olasılık oynatmaz; %60 güncellemesi geri alındı. İzleme listesine alındı."
     }
    ],
    "bagli": "risk-siber"
@@ -1634,8 +1646,8 @@
     "Uluslararası ilişkiler: yazılı ABD–İran anlaşması Hürmüz'ü açarsa Brent hızla 70'lere inebilir"
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Ocak'ta ÖTV veya KDV ayarlaması ya da kurdaki sıçramanın petroldeki düşüşü silmesi; ya da tersine, ani bir İran anlaşmasının petrolü 75 doların altına indirmesi.",
-   "motor": 29.0,
-   "p": 24,
+   "motor": 42.0,
+   "p": 40,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -1676,6 +1688,12 @@
      "p": 24,
      "motor": 29.0,
      "neden": "20.11 motorin −6,50 TL (88,80 TL; Habertürk, CNN Türk). Üç geçiş 29/24/20, medyan %24; Motor %29, Claude −5 (Ocak ÖTV 13,90 TL ve kur kayması)."
+    },
+    {
+     "t": "2026-11-25",
+     "p": 40,
+     "motor": 42.0,
+     "neden": "25.11 Motor yeniden hesabı (kesin girdi): motorin 26.11 gece yarısı −4,32 TL (İstanbul Avrupa 88,90→84,58 TL; ANKA/Kısa Dalga, Enerji Günlüğü, Sözcü fiyat tablosu). 1 Ara ÖTV 9→12 TL (≈+3,60), 1 Oca 13,90 TL (≈+2,28) → bugünkü ürün fiyatıyla 31 Oca ≈90,5 TL. 90 TL altı için ürün+marj 61,48→61,10 TL (−%0,6 TL; kur kayması ≈+%3,3 ile dolar bazında ≈−%4). Brent 25.11 ≈87,5 $ (CNBC, Reuters/Tribune). σ %35/45/55 → %40/42/43, Motor %42; Claude −2 (29 Kasım OPEC+ ve Hürmüz riskinin yukarı çarpıklığı). Tek geçiş + oynaklık duyarlılığı."
     }
    ],
    "bagli": "risk-enerji"
@@ -1982,7 +2000,7 @@
    ],
    "on_otopsi": "Yanılırsak en olası sebep: Husiler kampanyayı Suudi Arabistan'la ilişkili tüm ticarete genişletir ve Türk armatörlü bir gemi bu kapsamda vurulursa olasılığı düşük vermiş oluruz.",
    "motor": 10,
-   "p": 8,
+   "p": 10,
    "ilk_p": 8,
    "durum": "acik",
    "sonuc": null,
@@ -1993,6 +2011,12 @@
      "p": 8,
      "motor": 10,
      "neden": "açılış"
+    },
+    {
+     "t": "2026-11-25",
+     "p": 10,
+     "motor": 10,
+     "neden": "25.11: Husiler 24.11'de Riyad finans bölgesinde bir kuleyi İHA ile vurdu (11 yaralı, Suudi Sivil Savunma); koalisyon Hudeyde limanı için tahliye çağrısı yapıp 25.11'de limana saldırdığını açıkladı; Husiler Cidde dahil Suudi Kızıldeniz limanlarını tehdit etti. Kaynak: The National, KUNA/Kuwait Times, ANI. LR 1,25 (zayıf: Kızıldeniz'de liman/gemi riskini artıran tırmanma; ticari gemiye saldırı yok)."
     }
    ],
    "bagli": "risk-enerji",
@@ -2112,8 +2136,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: Hürmüz/ABD–İran tarafında beklenmedik ateşkes ya da tersine arz kesintisi.",
-   "motor": 49.0,
-   "p": 47,
+   "motor": 59.0,
+   "p": 57,
    "ilk_p": 42,
    "durum": "acik",
    "sonuc": null,
@@ -2130,6 +2154,12 @@
      "p": 47,
      "motor": 49.0,
      "neden": "20.11 akşam: Brent ≈90,4 $ (gün −%1,5; üçüncü haftalık düşüş, Kpler: Orta Doğu ihracatı Kasım'da savaş öncesinin ≈%90'ı). Motor %49 (spot 90,4, σ %50, 41 gün); Claude −2 (Hürmüz'de günlük saldırı sıklığı, 29 Kasım OPEC+). Kaynak: Reuters/RTE, AA, Rudaw/Kpler."
+    },
+    {
+     "t": "2026-11-25",
+     "p": 57,
+     "motor": 59.0,
+     "neden": "25.11: Brent ≈87,5 $ (25.11 gün içi −%1,4; 23.11 kapanışı 31 Ağustos'tan beri en düşük; Libya Şarara hattı yeniden açıldı, Orta Doğu ihracatı arttı). Kaynak: CNBC 25.11, Reuters (Yahoo/Tribune). Motor %59 (spot 87,5, σ %40, 36 gün); Claude −2 (29 Kasım OPEC+ kesinti olasılığı, Hürmüz)."
     }
    ]
   },
@@ -2245,8 +2275,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: ÖTV adımına 'eşel mobil' benzeri bir indirimle müdahale edildiyse ya da dağıtıcı marjı değiştiyse.",
-   "motor": 11.0,
-   "p": 11,
+   "motor": 3.0,
+   "p": 3,
    "ilk_p": 42,
    "durum": "acik",
    "sonuc": null,
@@ -2269,8 +2299,15 @@
      "p": 11,
      "motor": 11.0,
      "neden": "Yusuf kararı 20.11: kesin girdi (pompa fiyatı, vergi takvimi, açıklanan veri) değişince sayı doğrudan Motor ile güncellenir; ±15 sınırı yalnız haber kanıtına (LR) uygulanır. Motor %11 (88,80 TL + 1 Aralık ÖTV ≈92,4 TL; 100 TL için ürün fiyatında ≈%10 artış). 95 TL sorusuyla (%25) mantık tutarlılığı sağlandı."
+    },
+    {
+     "t": "2026-11-25",
+     "p": 3,
+     "motor": 3.0,
+     "neden": "25.11 Motor yeniden hesabı: 1 Ara beklenen ≈88,2 TL; 100 TL için ≈+%16 ürün artışı gerekir → Motor <%1, taban %3 (Anayasa §3.7). Sessiz izleme."
     }
-   ]
+   ],
+   "sessiz": true
   },
   {
    "id": "pk-2026-11-18-tufe-yilsonu-30",
@@ -2471,8 +2508,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: oynaklık varsayımı yanlış (savaş primi sönümlendiyse düşük, yeni arz şokunda yüksek).",
-   "motor": 39.0,
-   "p": 42,
+   "motor": 25.0,
+   "p": 28,
    "ilk_p": 52,
    "durum": "acik",
    "sonuc": null,
@@ -2489,6 +2526,12 @@
      "p": 42,
      "motor": 39.0,
      "neden": "20.11 akşam: Brent ≈90,4 $ (eşik +%10,6). Motor %39 (σ %40, 41 gün, günlük kapanış düzeltmesi); Claude +3 (Hürmüz saldırıları, Riyad, 29 Kasım OPEC+). Kaynak: Reuters/RTE, AA, Rudaw/Kpler."
+    },
+    {
+     "t": "2026-11-25",
+     "p": 28,
+     "motor": 25.0,
+     "neden": "25.11: Brent ≈87,5 $ (eşik +%14). Motor %25 (σ %40, 36 gün, bariyer + günlük kapanış düzeltmesi); Claude +3 (Hürmüz'de mayın/saldırı iddiaları, Husi–Suudi liman gerilimi, OPEC+). Kaynak: CNBC, Reuters."
     }
    ]
   },
@@ -2507,8 +2550,8 @@
     "enerji"
    ],
    "on_otopsi": "Yanılırsak: OPEC+ 29 Kasım kararı ya da Hürmüz kaynaklı dizel sıçraması; ya da ÖTV adımına müdahale.",
-   "motor": 35,
-   "p": 25,
+   "motor": 5.0,
+   "p": 5,
    "ilk_p": 25,
    "durum": "acik",
    "sonuc": null,
@@ -2519,8 +2562,15 @@
      "p": 25,
      "motor": 35,
      "neden": "açılış (20.11 motorin indirimi). Claude −10: Brent'in Kasım düşüş eğilimi ve IEA'nın 4. çeyrek arz fazlası beklentisi; dağıtıcıların indirimi kademeli geri alma geçmişi zayıf."
+    },
+    {
+     "t": "2026-11-25",
+     "p": 5,
+     "motor": 5.0,
+     "neden": "25.11 Motor yeniden hesabı (kesin girdi): 26.11 motorin −4,32 TL → 84,58 TL; 1 Ara ÖTV +3,60 → ≈88,2 TL. 95 TL için ürün fiyatında 5 günde ≈+%9 gerekir (σ_T ≈%5) → Motor %5. %10 altı: sessiz izleme (Anayasa §2)."
     }
-   ]
+   ],
+   "sessiz": true
   },
   {
    "id": "pk-2026-11-21-nvidia-kalici-ceo",
