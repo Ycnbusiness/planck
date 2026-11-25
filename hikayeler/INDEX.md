@@ -16,11 +16,11 @@ Her haber bir hikâyeye bağlanır; yoksa yeni hikâye açılır (TARAMA §0a). 
 | [Nvidia: Huang'ın ayrılışı ve dönüşü](nvidia-huang/HIKAYE.md) | şirketler | 5 açık / 8 | 3 | 2026-11-23 |
 | [Otonom silahlar için uluslararası kural süreci](otonom-silahlar/HIKAYE.md) | teknoloji | 0 açık / 0 | 1 | 2026-11-23 |
 | [Petrol fiyatı ve Türkiye'de akaryakıt](petrol-akaryakit/HIKAYE.md) | enerji | 8 açık / 8 | 4 | 2026-11-25 |
-| [Rusya–NATO deniz ve hava sınırı gerilimi (Baltık, Polonya, Akdeniz)](rusya-nato-deniz/HIKAYE.md) | jeopolitik | 0 açık / 0 | 2 | 2026-11-23 |
-| [Rusya–Ukrayna savaşı ve ateşkes arayışı](rusya-ukrayna/HIKAYE.md) | jeopolitik | 3 açık / 3 | 4 | 2026-11-23 |
+| [Rusya–NATO deniz ve hava sınırı gerilimi (Baltık, Polonya, Akdeniz)](rusya-nato-deniz/HIKAYE.md) | jeopolitik | 0 açık / 0 | 2 | 2026-11-25 |
+| [Rusya–Ukrayna savaşı ve ateşkes arayışı](rusya-ukrayna/HIKAYE.md) | jeopolitik | 3 açık / 3 | 4 | 2026-11-25 |
 | [Salgınlar ve küresel sağlık (kızamık, kuş gribi, DSÖ)](salgin-saglik/HIKAYE.md) | sağlık | 1 açık / 1 | 0 | 2026-11-23 |
 | [Kritik altyapıya siber saldırılar ve devlet atıfları](siber-saldirilar/HIKAYE.md) | teknoloji | 4 açık / 4 | 2 | 2026-11-25 |
 | [Türkiye ekonomisi: enflasyon, faiz, ücret, enerji tarifeleri](turkiye-ekonomi/HIKAYE.md) | türkiye ekonomisi | 12 açık / 12 | 0 | 2026-11-23 |
 | [Türkiye: savunma anlaşmaları ve kritik altyapı](turkiye-guvenlik-altyapi/HIKAYE.md) | jeopolitik | 2 açık / 2 | 1 | 2026-11-23 |
 | [Uzay: Starship ve ay programı](uzay-starship/HIKAYE.md) | uzay | 2 açık / 2 | 0 | 2026-11-23 |
-| [Yapay zekâ ekonomisi: yatırım dalgası, piyasa, istihdam](yz-ekonomisi/HIKAYE.md) | teknoloji | 4 açık / 4 | 3 | 2026-11-23 |
+| [Yapay zekâ ekonomisi: yatırım dalgası, piyasa, istihdam](yz-ekonomisi/HIKAYE.md) | teknoloji | 4 açık / 4 | 3 | 2026-11-25 |
