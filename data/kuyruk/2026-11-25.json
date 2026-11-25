@@ -1,16 +1,16 @@
 [
  {
-  "saat": "17:00",
+  "saat": "17:30",
   "tur": "olay-cevap",
   "klasor": "posts/2026-11-25-motorin-ikinci-indirim",
   "onem": 15.0,
   "onem_eski": 114,
   "editor": "DÜZELT → düzeltildi (1. tur)",
   "durum": "hazir",
-  "not": "11:00 yuvası tarama saatinde geçmişti; ilk boş yuva 17:00. Motorin indirimi 26.11 00:00'da pompaya yansır; yayın öncesi iki kaynakla teyit."
+  "not": "11:00 yuvası tarama saatinde geçmişti; ilk boş yuva 17:00. Motorin indirimi 26.11 00:00'da pompaya yansır; yayın öncesi iki kaynakla teyit. | Gecikmeli çalışma tetiklemesi (15:10): olay-cevap 17:30'a, Reel 19:30'a alındı."
  },
  {
-  "saat": "19:00",
+  "saat": "19:30",
   "tur": "olay-cevap-reel",
   "klasor": "posts/2026-11-25-motorin-ikinci-indirim",
   "dosya": "reel.mp4",

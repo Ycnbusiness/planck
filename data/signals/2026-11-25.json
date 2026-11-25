@@ -104,7 +104,8 @@
     "https://www.tribuneindia.com/news/evacuation-order/saudi-led-coalition-strikes-yemens-hodeidah-port-after-houthis-threaten-red-sea-ports"
    ],
    "yonlendirme": "Günün Dosyası 21:00",
-   "editor": "DÜZELT → düzeltildi"
+   "editor": "DÜZELT → düzeltildi",
+   "geriye_donuk": "24.11 (ve 23.11) olayı; 24.11 taraması kullanım limiti nedeniyle çalışmadı, bugün geriye dönük işlendi."
   },
   {
    "id": "abd-iran-golge-bankacilik",
@@ -137,7 +138,8 @@
     "https://www.wbap.com/2026/11/23/u-s-sanctions-30-targets-in-irans-shadow-banking-network/"
    ],
    "yonlendirme": "Günün Dosyası 21:00 (2. madde)",
-   "editor": "editör sonrası eklendi (siber maddesinin yerine); 2. tur gerekli"
+   "editor": "editör sonrası eklendi (siber maddesinin yerine); 2. tur gerekli",
+   "geriye_donuk": "24.11 (ve 23.11) olayı; 24.11 taraması kullanım limiti nedeniyle çalışmadı, bugün geriye dönük işlendi."
   },
   {
    "id": "asya-yz-satis-yeniden",
@@ -339,5 +341,6 @@
     "neden": "Takvimli (gelecek hafta Senato ifadesi, 1 Aralık Bedford Meclis); yeni olgu yok. Ses ve İz aday satırına iz ölçütü notu olarak eklendi."
    }
   ]
- }
+ },
+ "gecikmeli_tetik": "25.11 15:10 gecikmeli çalışma tetiği: tarama bu oturumda zaten tamamlanmıştı (pencere 23.11 akşam → 25.11); tekrar yapılmadı. Kuyruk 17:30/19:30/21:00'e uyarlandı. Güç Okuma (§6b): bugün oynayan sorular piyasa/vergi takvimi ve saldırı sıklığı sorusu; kişi/kurum kararına bağlı soru (ABD–İran ateşkesi) oynamadı, ayrı Güç Okuma çalıştırması gerekmedi. Huang soruları 23.11'de kapanmıştı."
 }
