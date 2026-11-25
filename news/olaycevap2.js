@@ -22,28 +22,28 @@ h1{font-size:120px;line-height:.95;font-weight:700;letter-spacing:-.04em;margin:
 h2{font-size:76px;line-height:1;font-weight:700;letter-spacing:-.03em;margin:0;text-wrap:balance}
 .b{font-size:32px;line-height:46px;color:#c9d0db;margin:0}
 .ql{display:inline-flex;align-items:center;gap:22px}.ql img{height:56px}.ql span{width:2px;height:52px;background:${MUT}}.ql em{font-style:normal;font-family:AL,AX,sans-serif;font-weight:700;letter-spacing:.01em;color:#9aa3b2}`;
-// Planck · Olay ve Cevap v2 (5 sayfa: Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler)
+// Planck · Olay ve Cevap v2 (5 sayfa; spec.uzman varsa 6: Haber · Neden? · Ne olur? · Olasılıklar · Karne ve riskler)
 // node news/olaycevap2.js spec.json çıktı/
 // spec: {date, tag, haber:{title,text,kaynak}, neden:{text, taraflar:[[taraf,beyan]]},
 //        neolur:[{q,p,from,deadline}], olasilik:{q,motor,ayar,ayar_neden,p,frekans,aralik},
 //        karne:{konu,genel,gosterge,eylem}, question}
 const SP = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); const OUT = process.argv[3];
-const N = 5, pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
+const N = 5 + (SP.uzman ? 1 : 0), pg = i => `${String(i).padStart(2,'0')}/${String(N).padStart(2,'0')}`;
 const frame = (inner, i) => `<div class="s"><div class="scan"></div><div class="hud"><i></i><i></i><i></i><i></i></div>
 <div class="hl mono"><span>PLANCK · OLAY VE CEVAP</span><span>${SP.date}</span></div><div class="in">${inner}</div>
 <div class="hb mono"><span>@PLANCK.NEWS · ${pg(i)}</span><span>TARAMA VE HESAP: CLAUDE</span></div></div>`;
 const lab = (t, c=MUT) => `<span class="mono" style="font-size:20px;color:${c}">${t}</span>`;
-const S = [];
+const S = []; let PI = 0; const nx = () => ++PI;
 // 1 · Haber
 S.push(frame(`<div class="eb mono">${SP.tag} · Haber<b></b></div>
 <h1 style="margin-top:40px;font-size:92px;line-height:96px">${SP.haber.title}</h1>
 <p class="b" style="margin-top:36px">${SP.haber.text}</p>
-<div style="margin-top:auto;border-top:2px solid ${DIM};padding-top:22px">${lab('KAYNAKLAR · ' + SP.haber.kaynak)}</div>`, 1));
+<div style="margin-top:auto;border-top:2px solid ${DIM};padding-top:22px">${lab('KAYNAKLAR · ' + SP.haber.kaynak)}</div>`, nx()));
 // 2 · Neden?
 S.push(frame(`<div class="eb mono">Neden?<b></b></div>
 <p class="b" style="margin-top:34px;font-size:34px;line-height:48px;color:#eef1f6">${SP.neden.text}</p>
 <div style="margin-top:34px">${(SP.neden.taraflar||[]).map(t=>`<div style="border-top:2px solid ${DIM};padding:20px 0;display:grid;grid-template-columns:220px 1fr;gap:24px"><span class="mono" style="font-size:22px;color:${BLUE}">${t[0]}</span><span style="font-size:28px;line-height:39px;color:#c9d0db">${t[1]}</span></div>`).join('')}</div>
-<p class="mono" style="margin-top:auto;font-size:18px;color:${MUT}">TARAFLARIN SÖYLEDİKLERİ · KENDİ CÜMLELERİMİZLE · İDDİA OLGU DEĞİLDİR</p>`, 2));
+<p class="mono" style="margin-top:auto;font-size:18px;color:${MUT}">TARAFLARIN SÖYLEDİKLERİ · KENDİ CÜMLELERİMİZLE · İDDİA OLGU DEĞİLDİR</p>`, nx()));
 // 3 · Ne olur? — senaryo modu (v2.2, Yusuf 21.11: ürün analiz, yüzde ağırlıktır)
 // spec.senaryolar: {baslik, dallar:[{ad, p, kosul, olursa, emsal, iz}]}
 if (SP.senaryolar) { const sc = SP.senaryolar;
@@ -52,15 +52,26 @@ S.push(frame(`<div class="eb mono">Ne olur? · Senaryolar<b></b></div>
 <div style="margin-top:22px">${sc.dallar.map(d=>`<div style="border-top:2px solid ${DIM};padding:18px 0">
 <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:32px;font-weight:700">${d.ad}</span><span class="mono" style="font-size:20px;color:${BLUE}">AĞIRLIK %${d.p}</span></div>
 <div style="display:grid;grid-template-columns:150px 1fr;gap:6px 18px;margin-top:10px;font-size:23px;line-height:31px">
-${[['KOŞUL',d.kosul],['OLURSA',d.olursa],['EMSAL',d.emsal],['İZ',d.iz]].filter(r=>r[1]).map(r=>`<span class="mono" style="font-size:17px;color:${MUT};padding-top:5px">${r[0]}</span><span style="color:${r[0]==='OLURSA'?'#eef1f6':'#c9d0db'}">${r[1]}</span>`).join('')}</div></div>`).join('')}</div>`, 3));
+${[['KOŞUL',d.kosul],['OLURSA',d.olursa],['EMSAL',d.emsal],['İZ',d.iz]].filter(r=>r[1]).map(r=>`<span class="mono" style="font-size:17px;color:${MUT};padding-top:5px">${r[0]}</span><span style="color:${r[0]==='OLURSA'?'#eef1f6':'#c9d0db'}">${r[1]}</span>`).join('')}</div></div>`).join('')}</div>`, nx()));
 } else
 S.push(frame(`<div class="eb mono">Ne olur?<b></b></div>
 <h2 style="margin-top:28px;font-size:60px;line-height:66px">Olayın kendisi değil, sonuçları</h2>
 <div style="margin-top:30px">${SP.neolur.map(q=>`<div style="border-top:2px solid ${DIM};padding:24px 0;display:flex;gap:28px;align-items:center">
 ${grid(q.p,10,3)}<div style="flex:1"><p style="margin:0;font-size:29px;line-height:39px;font-weight:700">${q.q}</p>
 <span class="mono" style="font-size:19px;display:block;margin-top:10px;color:${MUT}">SON TARİH ${q.deadline}${q.from!=null?` · %${q.from} → %${q.p}`:''}${q.not?`<br>${q.not}`:''}</span></div>
-<div style="text-align:right"><span style="font-family:ML,MX,monospace;font-size:60px;color:${BLUE}">%${q.p}</span><span class="mono" style="display:block;font-size:18px">100'DE ${q.p}</span></div></div>`).join('')}</div>`, 3));
-// 4 · Olasılıklar
+<div style="text-align:right"><span style="font-family:ML,MX,monospace;font-size:60px;color:${BLUE}">%${q.p}</span><span class="mono" style="display:block;font-size:18px">100'DE ${q.p}</span></div></div>`).join('')}</div>`, nx()));
+// 4 · Uzman okuması (Yusuf 25.11: "bir siyaset profesörü nasıl beklentiye girer, bir ekonomist nasıl konumlanır")
+// spec.uzman: {baslik, mercekler:[{kim, bakar, bekler, izler}], ayrisma}
+if (SP.uzman) { const u = SP.uzman;
+S.push(frame(`<div class="eb mono">Uzman okuması · Nasıl düşünürler?<b></b></div>
+<h2 style="margin-top:24px;font-size:52px;line-height:58px">${u.baslik}</h2>
+<div style="margin-top:22px">${u.mercekler.map(m=>`<div style="border-top:2px solid ${DIM};padding:18px 0">
+<span class="mono" style="font-size:22px;color:${BLUE}">${m.kim}</span>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:6px 18px;margin-top:12px;font-size:24px;line-height:33px">
+${[['NEYE BAKAR',m.bakar],['NE BEKLER',m.bekler],['NEYİ İZLER',m.izler]].filter(r=>r[1]).map(r=>`<span class="mono" style="font-size:17px;color:${MUT};padding-top:5px">${r[0]}</span><span style="color:${r[0]==='NE BEKLER'?'#eef1f6':'#c9d0db'}">${r[1]}</span>`).join('')}</div></div>`).join('')}</div>
+${u.ayrisma?`<div style="margin-top:auto;border-top:2px solid ${BLUE};padding-top:18px">${lab('NEREDE AYRIŞIYORLAR', BLUE)}<p style="margin:8px 0 0;font-size:26px;line-height:36px">${u.ayrisma}</p></div>`:''}`, nx()));
+}
+// 5 · Olasılıklar
 const o = SP.olasilik;
 S.push(frame(`<div class="eb mono">Olasılıklar · Bu sayı nasıl çıktı?<b></b></div>
 <h2 style="margin-top:28px;font-size:52px;line-height:60px">${o.q}</h2>
@@ -68,7 +79,7 @@ S.push(frame(`<div class="eb mono">Olasılıklar · Bu sayı nasıl çıktı?<b>
 <div style="border-top:2px solid ${DIM};padding:20px 0;display:flex;justify-content:space-between;align-items:baseline">${lab('MOTOR · GEÇMİŞ VERİ VE PİYASA')}<span style="font-family:ML,MX,monospace;font-size:44px">%${o.motor}</span></div>
 <div style="border-top:2px solid ${DIM};padding:20px 0"><div style="display:flex;justify-content:space-between;align-items:baseline">${lab('CLAUDE AYARI · GÜNCEL KANIT')}<span style="font-family:ML,MX,monospace;font-size:44px">${o.ayar>0?'+':o.ayar<0?'−':''}${Math.abs(o.ayar)}</span></div><p style="margin:10px 0 0;font-size:25px;line-height:35px;color:#c9d0db">${o.ayar_neden}</p></div>
 <div style="border-top:2px solid ${BLUE};padding:20px 0;display:flex;justify-content:space-between;align-items:center">${grid(o.p,12,3)}<div style="text-align:right"><span style="font-family:ML,MX,monospace;font-size:72px;color:${BLUE}">%${o.p}</span><span class="mono" style="display:block;font-size:20px">100'DE ${o.p}${o.aralik?`<br>ÜÇ BAĞIMSIZ HESABIN ARALIĞI ${o.aralik}`:''}</span></div></div></div>
-<p class="b" style="margin-top:auto;font-size:27px;line-height:38px">${o.frekans}</p>`, 4));
+<p class="b" style="margin-top:auto;font-size:27px;line-height:38px">${o.frekans}</p>`, nx()));
 // 5 · Karne ve riskler
 const k = SP.karne;
 S.push(frame(`<div class="eb mono">Karne ve riskler<b></b></div>
@@ -77,7 +88,7 @@ S.push(frame(`<div class="eb mono">Karne ve riskler<b></b></div>
 <div style="border-top:2px solid ${DIM};padding:20px 0">${lab('GENEL KARNE')}<p style="margin:10px 0 0;font-size:28px;line-height:39px;color:#c9d0db">${k.genel}</p></div>
 <div style="border-top:2px solid ${DIM};padding:20px 0">${lab('İZLENECEK GÖSTERGE')}<p style="margin:10px 0 0;font-size:28px;line-height:39px;color:#c9d0db">${k.gosterge}</p></div>
 <div style="border-top:2px solid ${BLUE};padding:20px 0">${lab('NE YAPABİLİRSİN', BLUE)}<p style="margin:10px 0 0;font-size:30px;line-height:41px;font-weight:700">${k.eylem}</p></div></div>
-<p class="mono" style="margin-top:auto;font-size:17px;line-height:27px;color:${MUT}">HER TAHMİN SON TARİHİNDE KAPATILIR VE KARNEDE PUANLANIR. TARAMA VE HESAP: CLAUDE (ANTHROPIC'İN YAPAY ZEKÂ MODELİ). İNSAN: KURALLARI YAZAR, İTİRAZLARI KARARA BAĞLAR. BU GÖNDERİ YAYIN ÖNCESİ İNSAN ONAYINDAN GEÇMEDİ. KİMSEDEN FON ALMIYORUZ. YATIRIM VEYA POLİTİKA TAVSİYESİ DEĞİLDİR.</p>`, 5));
+<p class="mono" style="margin-top:auto;font-size:17px;line-height:27px;color:${MUT}">HER TAHMİN SON TARİHİNDE KAPATILIR VE KARNEDE PUANLANIR. TARAMA VE HESAP: CLAUDE (ANTHROPIC'İN YAPAY ZEKÂ MODELİ). İNSAN: KURALLARI YAZAR, İTİRAZLARI KARARA BAĞLAR. BU GÖNDERİ YAYIN ÖNCESİ İNSAN ONAYINDAN GEÇMEDİ. KİMSEDEN FON ALMIYORUZ. YATIRIM VEYA POLİTİKA TAVSİYESİ DEĞİLDİR.</p>`, nx()));
 (async () => { const br = await chromium.launch(); fs.mkdirSync(OUT, { recursive: true });
   for (let i = 0; i < S.length; i++) { const p = await br.newPage({ viewport: { width: 1080, height: 1350 } }); await p.setContent(`<html lang="tr"><head><style>${css}</style></head><body>${S[i]}</body></html>`); await p.waitForTimeout(300);
     const over = await p.evaluate(() => { const i = document.querySelector('.in'); return i.scrollHeight > i.clientHeight + 2; }); if (over) console.log('TAŞMA sayfa', i+1);
