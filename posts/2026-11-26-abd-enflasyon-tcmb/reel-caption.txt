@@ -9,5 +9,4 @@ Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 Kaynaklar: SBS, TheStreet, AA, Ekotürk · Soru kaydı: pk-2026-11-18-tcmb-aralik-35, pk-2026-11-18-abd-tufe-kasim-03 · Kimseden fon almıyoruz.
 Yatırım veya politika tavsiyesi değildir.
 
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 #planck #pekibiz #faiz

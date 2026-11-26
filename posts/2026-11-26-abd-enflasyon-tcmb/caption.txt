@@ -8,7 +8,7 @@ TCMB Aralık kararı için üç yol:
 3. Duraklama, faiz %36'da kalır (%18). Kasım enflasyonu yukarı sürpriz yapar ya da rezerv kaybı hızlanır.
 
 Soru: TCMB Aralık toplantısında politika faizini %35 ya da altına indirir mi? (12.12.2026)
-Sayımız: %60 · 100'de 60 (önce %65). Motor %72 (anket medyanı yönünde karar oranı), Claude ayarı −12 (Fed artırımının büyük ölçüde fiyatlanması, bankacılık ağırlıklı satış, rezerv haberleri). Üç bağımsız hesap 58–66 aralığında, medyan %60.
+Sayımız: %60 · 100'de 60 (önce %65). Motor %72 (anket medyanı yönünde karar oranı), Claude ayarı −12 (Fed artırım beklentisi, banka satışı, rezerv haberleri). Üç bağımsız hesap 58–66 aralığında, medyan %60.
 Taban: TCMB 2023'ten beri kararlarının çoğunda anket medyanı yönünde hareket etti (kaba sayım ≈%75–80). Bu tür 100 tahminimizin yaklaşık 60'ının gerçekleşmesini bekleriz.
 
 Ne yapabilirsin: Bireysel olarak yapılacak bir acele yok. Kredi ya da mevduat kararı veriyorsan faiz yolunun Aralık'ta netleşeceğini hesaba katabilirsin. İzlenecek: 3 Aralık Kasım TÜFE'si, 9 Aralık Fed kararı, TCMB haftalık rezerv verisi.
@@ -20,5 +20,4 @@ Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 Kaynaklar: SBS, TheStreet, AA (Referans Gazetesi), Ekotürk · Soru kaydı: pk-2026-11-18-tcmb-aralik-35 · Kimseden fon almıyoruz.
 Yatırım veya politika tavsiyesi değildir.
 
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 #planck #pekibiz #faiz

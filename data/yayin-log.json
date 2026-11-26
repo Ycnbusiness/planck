@@ -926,5 +926,54 @@
    "ai_etiketi": true,
    "facebook": false
   }
+ },
+ {
+  "tarih": "2026-11-26T17:02",
+  "tur": "olay-cevap",
+  "kanal": "news",
+  "klasor": "posts/2026-11-26-abd-enflasyon-tcmb",
+  "baslik": "ABD'de çekirdek enflasyon 2023'ten beri en yüksekte",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-26T17:40",
+  "sorular": [
+   "pk-2026-11-18-tcmb-aralik-35"
+  ],
+  "editor": {
+   "hukum": "YAYINLA",
+   "duzeltmeler": [
+    "PCE %3,3 (UPI, Marketplace) ve BIST %2,83 (AA, Memurlar) doğrulandı",
+    "ilk 6 sayfalık gönderi (Uzman okuması)",
+    "eski 'Bu içerik…' satırı kaldırıldı; açıklama 2276→1990",
+    "11:00 yuvası sabah turu tamamlanmadığı için kaçtı → 17:40"
+   ]
+  },
+  "instagram": {
+   "hesap": "@planck.news",
+   "format": "carousel 6 sayfa",
+   "ai_etiketi": true,
+   "facebook": false
+  }
+ },
+ {
+  "tarih": "2026-11-26T17:03",
+  "tur": "olay-cevap-reel",
+  "kanal": "news",
+  "klasor": "posts/2026-11-26-abd-enflasyon-tcmb",
+  "baslik": "ABD çekirdek enflasyon (Reel)",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-26T18:40",
+  "sorular": [
+   "pk-2026-11-18-tcmb-aralik-35",
+   "pk-2026-11-18-abd-tufe-kasim-03"
+  ],
+  "editor": {
+   "hukum": "YAYINLA"
+  },
+  "instagram": {
+   "hesap": "@planck.news",
+   "format": "reel 9:16",
+   "ai_etiketi": true,
+   "facebook": false
+  }
  }
 ]
