@@ -238,6 +238,37 @@
      "not": "güncelleme (önce %65)"
     }
    ]
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-26",
+   "tema": "Günün Dosyası · 26 Kasım (akşam)",
+   "items": [
+    {
+     "id": "pb-2026-11-11-motorin-90",
+     "alan": "Ekonomi",
+     "q": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+     "p": 38,
+     "deadline": "2027-01-31",
+     "olay": "husi-cizan-rafineri"
+    },
+    {
+     "id": "pk-2026-11-20-motorin-95-aralik",
+     "alan": "Ekonomi",
+     "q": "İstanbul'da motorinin 1 Aralık 2026'daki litre fiyatı 95 TL'yi aşar mı?",
+     "p": 5,
+     "deadline": "2026-12-01",
+     "olay": "dubai-tanker-hurmuz-mayin"
+    },
+    {
+     "id": "pb-2026-11-15-ukrayna-gorusme-turkiye",
+     "alan": "Uluslararası İlişkiler",
+     "q": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+     "p": 20,
+     "deadline": "2027-03-31",
+     "olay": "kushner-gorusme-tikandi"
+    }
+   ]
   }
  ]
 }

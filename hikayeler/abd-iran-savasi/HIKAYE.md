@@ -29,6 +29,7 @@ ABD ile İran arasındaki savaş Nisan 2026 ateşkesine rağmen düşük yoğunl
 | 23–24.11.2026 | ABD Hazinesi / İran | OFAC İran gölge bankacılık ağına 22 kuruluş, 8 kişi yaptırımı; Galibaf 7 şart karşılanmadan görüşme yok dedi; İran 3 tankerin Hürmüz'de mayına çarptığını iddia etti (bağımsız teyit yok) | tırmanma | yaptırım bedelli, şartlar bedelsiz | düşük | Gulf News, Fox, Reuters/Internazionale |
 | 2026-11-26 | UKMTO | Dubai'nin 50 deniz mili batısında bir tankerin yakınında kimliği belirsiz mermi patladı; hasar ve yaralı yok | tırmanma | bedelsiz | zayıf | AA, Times of Israel (Reuters) |
 | 2026-11-25 | İran (IRGC, ordu) | iki tankerin ve bir LNG gemisinin mayına çarptığını iddia etti; Reuters doğrulayamadı | tırmanma | bedelsiz (iddia) | zayıf | Arab News (Reuters), OilPrice (IRNA) |
+| 2026-11-26 | Husiler / Suudi koalisyonu | Ras Tanura'dan bir gün sonra Aramco Cizan rafinerisine saldırı; koalisyon Hudeyde'de fırlatma rampasını vurduğunu açıkladı | tırmanma | bedelli (askerî) | orta | jpost.com/middle-east/article-916252, arabnews.pk/...-3008163 |
 
 ## Denge
 Olumsuz sinyaller ağır basıyor: iki taraf da sahada bedelli adımlar atıyor (saldırılar), olumlu sinyaller yalnız sözlü (10 Kasım 'savaş bitti' beyanı). Ateşkes sorusu 18→15'e indi; bu yön Ocak'a kadar değişmez görünüyor, ta ki arabulucudan tarih gelene kadar.

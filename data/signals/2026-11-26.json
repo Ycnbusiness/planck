@@ -241,5 +241,101 @@
    "husi-riyad-fuze-26-11",
    "bok-faiz-325"
   ]
+ },
+ "aksam_taramasi": {
+  "scan_window": "2026-11-26 08:00 → 20:30 TSİ",
+  "summary": {
+   "dosya": 2,
+   "ana_akis": 0,
+   "not": "Dosya 3 maddeye çıktı. Sicil: brent-100 28→31, brent-90-yilsonu 57→55, motorin-90 40→38, ateşkes-2026 9→8. 2031 riskleri değişmedi. Nvidia GDA (hâlâ yalnız FT) ve TCMB altın izlemede; MGK bildirisi beklenen adım; fon basın toplantısı kırmızı çizgi."
+  },
+  "events": [
+   {
+    "id": "husi-cizan-rafineri",
+    "class": "YEŞİL",
+    "risk": "enerji",
+    "delta": 0,
+    "sorular": {
+     "pk-2026-11-18-brent-100-dokunma": [
+      28,
+      31
+     ],
+     "pk-2026-11-18-brent-90-yilsonu": [
+      57,
+      55
+     ],
+     "pb-2026-11-11-motorin-90": [
+      40,
+      38
+     ]
+    },
+    "lr": 1.15,
+    "haber_kapisi": {
+     "olcek": 2,
+     "yenilik": 1,
+     "acik_uc": 2,
+     "puan": 5
+    },
+    "S": 0.14,
+    "K": 3,
+    "onem": 0.42,
+    "turkiye_bagi": 1,
+    "event": "Suudi koalisyonu: Husiler 26.11'de Aramco Cizan rafinerisine saldırdı; koalisyon Hudeyde'de fırlatma rampasını vurdu. 25.11'de Ras Tanura üzerinde 4 İHA önlendiğini açıklamıştı. Hasar/üretim etkisi açıklanmadı; Brent ≈94 $.",
+    "rationale": "Ras Tanura izleme kaydı kısmen teyit: saldırı girişimi resmî, hasar teyitsiz. Art arda iki rafineri hedefi arz riskini artırıyor → LR 1,15.",
+    "sources": [
+     "https://www.jpost.com/middle-east/article-916252",
+     "https://www.arabnews.pk/saudi-arabia/coalition-strikes-houthi-missile-site-after-attack-on-saudi-arabias-jazan-refinery-3008163",
+     "https://kuwaittimes.com/article/54416/world/coalition-destroys-houthi-missile-launcher-after-attack-on-jazan-refinery/"
+    ],
+    "yonlendirme": "Günün Dosyası 21:00"
+   },
+   {
+    "id": "kushner-gorusme-tikandi",
+    "class": "YEŞİL",
+    "risk": "catisma",
+    "delta": 0,
+    "sorular": {
+     "pb-2026-W46-2": [
+      9,
+      8
+     ]
+    },
+    "lr": 0.88,
+    "haber_kapisi": {
+     "olcek": 2,
+     "yenilik": 1,
+     "acik_uc": 1,
+     "puan": 4
+    },
+    "S": 0.13,
+    "K": 2,
+    "onem": 0.26,
+    "turkiye_bagi": 1,
+    "event": "Kushner: Rusya–Ukrayna görüşmeleri toprak meselesinde tıkandı; 2025'teki iddia edilen Putin konutu saldırısı süreci geciktirdi.",
+    "rationale": "Bedelsiz sözlü sinyal, yıl sonu ateşkesi daha uzak → LR 0,88.",
+    "sources": [
+     "https://www.pravda.com.ua/eng/news/2026/11/26/8064710/",
+     "https://www.ukrinform.net/rubric-polytics/4188841-kushner-blames-ukraine-for-stalling-peace-talks-over-attack-on-putins-house-in-2025.html",
+     "https://www.yahoo.com/news/politics/articles/us-envoy-kushner-claims-ukraine-004500102.html"
+    ],
+    "yonlendirme": "Günün Dosyası 21:00"
+   },
+   {
+    "id": "mgk-bildirisi",
+    "class": "ZAYIF",
+    "haber_kapisi": {
+     "olcek": 1,
+     "yenilik": 0,
+     "acik_uc": 0,
+     "puan": 1
+    },
+    "event": "Yılın son MGK'sı 9 maddelik bildiri (Terörsüz Türkiye, Karadeniz'den Akdeniz'e yayılma kaygısı, TDT dönem başkanlığı).",
+    "sources": [
+     "https://tr.euronews.com/2026/11/26/mgk-toplantisi-sona-erdi-9-maddelik-bildiri-yayimlandi",
+     "https://medyascope.tv/2026/11/26/mgk-bildirisi-yayimlandi-terorsuz-turkiye-calismalari-surecek/"
+    ],
+    "yonlendirme": "yayın yok"
+   }
+  ]
  }
 }

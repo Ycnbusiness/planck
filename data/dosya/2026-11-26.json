@@ -1,16 +1,45 @@
 {
  "date": "26 KASIM 2026",
- "lede": "Körfez'de ticari gemilere yönelik olaylar sürüyor: Dubai açıklarında bir tankerin yakınında mermi patladı; İran ise Hürmüz'de mayına çarpan gemiler olduğunu iddia ediyor.",
+ "lede": "Körfez'de enerji altyapısına baskı artıyor: Husiler ikinci Suudi rafinerisini hedef aldı, tanker olayları sürüyor. Ukrayna'da ateşkes yıl sonuna yetişmiyor.",
  "items": [
+  {
+   "tag": "Kızıldeniz",
+   "title": "Husiler bir günde ikinci Suudi rafinerisini hedef aldı",
+   "text": "Suudi öncülüğündeki koalisyon, Husilerin 26 Kasım'da Aramco'nun Cizan rafinerisine saldırdığını ve Hudeyde'de bir füze fırlatma rampasını vurduğunu açıkladı; bu, Ras Tanura'ya yönelik saldırı iddiasından bir gün sonra geldi. Hasar ve üretim etkisi açıklanmadı, Brent varil başına 94 dolar civarında.",
+   "risk": "Brent petrol, 31 Aralık 2026'ya kadar herhangi bir günde 100 doların üstünde kapanır mı?",
+   "from": 28,
+   "to": 31,
+   "deadline": "31.12.2026",
+   "pq": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
+   "pp": 38,
+   "pdo": "Rafinerilere saldırı sürdükçe pompa indirimi zorlaşır; araç ve filo sahipleri yakıt bütçesini Brent 100 eşiğine göre izleyebilir.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0.14,
+   "K": 3,
+   "onem": 0.42,
+   "turkiye_bagi": 1,
+   "soru": "pk-2026-11-18-brent-100-dokunma",
+   "kaynaklar": [
+    "https://www.jpost.com/middle-east/article-916252",
+    "https://www.arabnews.pk/saudi-arabia/coalition-strikes-houthi-missile-site-after-attack-on-saudi-arabias-jazan-refinery-3008163",
+    "https://kuwaittimes.com/article/54416/world/coalition-destroys-houthi-missile-launcher-after-attack-on-jazan-refinery/",
+    "https://piqmarkets.com/story/brent-holds-near-94-71-after-houthi-claim-on-ras-tanura-refinery"
+   ]
+  },
   {
    "tag": "Hürmüz",
    "title": "Dubai açıklarında tankerin yakınında patlama",
-   "text": "İngiltere Deniz Ticaret Operasyonları (UKMTO), 26 Kasım sabahı Dubai'nin yaklaşık 50 deniz mili batısında bir tankerin yakınında kimliği belirsiz bir merminin patladığını bildirdi; hasar ve yaralı yok. İran ordusu ve Devrim Muhafızları 25 Kasım'da Hürmüz'de en az iki tanker ve bir LNG gemisinin mayına çarptığını iddia etti (açıklamalardaki sayılar birbirini tutmuyor); Reuters doğrulayamadı.",
+   "text": "İngiltere Deniz Ticaret Operasyonları (UKMTO), 26 Kasım sabahı Dubai'nin yaklaşık 50 deniz mili batısında bir tankerin yakınında kimliği belirsiz bir merminin patladığını bildirdi; hasar ve yaralı yok. İran ise 25 Kasım'da Hürmüz'de tanker ve LNG gemilerinin mayına çarptığını iddia etti; Reuters doğrulayamadı.",
    "risk": "İran, 15 Şubat'a kadar Hürmüz Boğazı'nın ticari gemi geçişine şartsız açıldığını resmen ilan eder mi?",
    "from": 18,
    "to": 18,
    "deadline": "15.02.2027",
-   "pdo": "100'de 82 durumda olmaz. Gemilere yönelik olaylar sürüyor, İran açılışı ABD şartlarına bağlamaya devam ediyor; sayı değişmedi. Bireysel olarak yapılacak yok; izlenecek gösterge haftalık tanker geçişi ve akaryakıt fiyatı.",
+   "pdo": "Sayılar değişmedi; bireysel yapılacak yok, izlenecek gösterge haftalık tanker geçişi ve pompa fiyatı.",
    "haber_kapisi": {
     "olcek": 2,
     "yenilik": 1,
@@ -27,8 +56,38 @@
     "https://www.timesofisrael.com/liveblog_entry/projectile-said-to-cause-explosion-near-tanker-west-of-dubai/",
     "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942",
     "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+   ],
+   "pq": "İstanbul'da motorinin 1 Aralık 2026'daki litre fiyatı 95 TL'yi aşar mı?",
+   "pp": 5
+  },
+  {
+   "tag": "Ukrayna",
+   "title": "ABD temsilcisi: görüşmeler toprak meselesinde tıkandı",
+   "text": "ABD özel temsilcisi Jared Kushner, Rusya–Ukrayna görüşmelerinin toprak meselesinde tıkandığını ve 2025'te Putin'in konutuna yapıldığı iddia edilen saldırının süreci geciktirdiğini söyledi. Ukrayna yeni tur için ABD'nin tarih belirlemesini beklediğini açıklamıştı.",
+   "risk": "Rusya ile Ukrayna 31 Aralık 2026'ya kadar ateşkes ilan eder mi?",
+   "from": 9,
+   "to": 8,
+   "deadline": "31.12.2026",
+   "pq": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+   "pp": 20,
+   "pdo": "Türkiye sorusu değişmedi; ateşkes yıl sonuna yetişmiyor, Karadeniz ticareti ve navlun riski sürüyor.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0.13,
+   "K": 2,
+   "onem": 0.26,
+   "turkiye_bagi": 1,
+   "soru": "pb-2026-W46-2",
+   "kaynaklar": [
+    "https://www.pravda.com.ua/eng/news/2026/11/26/8064710/",
+    "https://www.ukrinform.net/rubric-polytics/4188841-kushner-blames-ukraine-for-stalling-peace-talks-over-attack-on-putins-house-in-2025.html",
+    "https://www.yahoo.com/news/politics/articles/us-envoy-kushner-claims-ukraine-004500102.html"
    ]
   }
  ],
- "question": "Sizce Körfez'deki gemi olayları akaryakıttaki son indirimleri tersine çevirir mi?"
+ "question": "Sizce Körfez'deki saldırılar akaryakıttaki son indirimleri tersine çevirir mi?"
 }

@@ -25,6 +25,7 @@ Kasım'da iki hat birlikte ilerledi: masada ABD arabuluculuğunda Abu Dabi gör�
 | 2026-11-19 | ABD, Çin, Rusya | Şenzhen üçlü zirvesi; bildiri Ukrayna'dan söz etmiyor | − | düşük | düşük | RFE/RL, Al Jazeera |
 | 2026-11-20 | Rusya | ≈110 füze, 400+ İHA; Kiev'de üç köprü hasarlı; Polonya'ya füze düştü | − | yüksek | yüksek | Kyiv Independent, Irish Times |
 | 2026-11-21/22 | Ukrayna (iddia/şüphe) | Baltık'ta Sparta II, Bingazi'de Rus savaş gemisi vuruldu | − | yüksek | orta | Al Jazeera, Cyprus Mail |
+| 2026-11-26 | Kushner (ABD) | Görüşmelerin toprak meselesinde tıkandığını, 2025'teki iddia edilen Putin konutu saldırısının süreci geciktirdiğini söyledi | ateşkesten uzak | bedelsiz | zayıf | pravda.com.ua/eng/news/2026/11/26/8064710, ukrinform.net/...-4188841 |
 
 ## Denge
 Olumsuz ağır basıyor. Bedelli sinyallerin tamamı (büyük saldırılar, altyapı hedefleri, savaşın Baltık ve Akdeniz'e taşması) tırmanma yönünde; olumlu sinyaller (Abu Dabi, Şenzhen) düşük bedelli ve sonuçsuz. Esir takası tek somut adım.
