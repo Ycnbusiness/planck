@@ -1,63 +1,63 @@
 {
- "updated": "2026-11-23",
- "kapanan": 3,
- "acik": 73,
+ "updated": "2026-11-26",
+ "kapanan": 5,
+ "acik": 72,
  "iptal": 1,
  "kanallar": {
   "toplam": {
    "planck": {
-    "n": 3,
-    "brier": 0.3491,
-    "log": 1.1109,
-    "beceri_50": -0.397
+    "n": 5,
+    "brier": 0.4665,
+    "log": 1.3232,
+    "beceri_50": -0.866
    },
    "motor": {
-    "n": 2,
-    "brier": 0.0997,
-    "log": 0.345,
-    "beceri_50": 0.601
+    "n": 4,
+    "brier": 0.3839,
+    "log": 1.1049,
+    "beceri_50": -0.536
    },
    "ilk": {
-    "n": 3,
-    "brier": 0.4425,
-    "log": 1.3229,
-    "beceri_50": -0.77
+    "n": 5,
+    "brier": 0.5225,
+    "log": 1.4504,
+    "beceri_50": -1.09
    },
    "tuttu": 2,
-   "n": 3,
+   "n": 5,
    "planck_motorlu_sorularda": {
-    "n": 2,
-    "brier": 0.0913,
-    "log": 0.3367,
-    "beceri_50": 0.635
+    "n": 4,
+    "brier": 0.3669,
+    "log": 0.9892,
+    "beceri_50": -0.468
    }
   },
   "news": {
    "planck": {
-    "n": 1,
-    "brier": 0.0225,
-    "log": 0.1625,
-    "beceri_50": 0.91
+    "n": 3,
+    "brier": 0.4358,
+    "log": 1.1486,
+    "beceri_50": -0.743
    },
    "motor": {
-    "n": 1,
-    "brier": 0.0144,
-    "log": 0.1278,
-    "beceri_50": 0.942
+    "n": 3,
+    "brier": 0.4503,
+    "log": 1.2858,
+    "beceri_50": -0.801
    },
    "ilk": {
-    "n": 1,
-    "brier": 0.3025,
-    "log": 0.7985,
-    "beceri_50": -0.21
+    "n": 3,
+    "brier": 0.5292,
+    "log": 1.3606,
+    "beceri_50": -1.117
    },
    "tuttu": 1,
-   "n": 1,
+   "n": 3,
    "planck_motorlu_sorularda": {
-    "n": 1,
-    "brier": 0.0225,
-    "log": 0.1625,
-    "beceri_50": 0.91
+    "n": 3,
+    "brier": 0.4358,
+    "log": 1.1486,
+    "beceri_50": -0.743
    }
   },
   "quant": {
@@ -97,6 +97,18 @@
    "gerceklesen": 100.0
   },
   {
+   "dilim": "10-19",
+   "n": 1,
+   "ort_tahmin": 15.0,
+   "gerceklesen": 100.0
+  },
+  {
+   "dilim": "20-29",
+   "n": 1,
+   "ort_tahmin": 25.0,
+   "gerceklesen": 100.0
+  },
+  {
    "dilim": "60-69",
    "n": 1,
    "ort_tahmin": 60.0,
@@ -110,7 +122,8 @@
   }
  ],
  "otopsi_bekleyen": [
-  "nv-1"
+  "nv-1",
+  "pk-2026-11-21-huang-donus"
  ],
  "iddia_serbest": false,
  "kalibrasyon_duzeltmesi_serbest": false

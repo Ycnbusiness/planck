@@ -12,6 +12,7 @@ _Doldurulacak._
 ## Rüzgâr kaydı (her yeni haber bir satır; bedelli sinyal ağır)
 | Tarih | Kim | Ne (kendi cümlemizle) | Yön | Bedel | Ağırlık | Kaynak |
 |---|---|---|---|---|---|---|
+| 2026-11-25 | ABD Ticaret Bakanlığı (BEA) | Ekim çekirdek PCE yıllık %3,3 (beklenti %3,2; 2023'ten beri en yüksek), manşet %3,8 | Fed Aralık artırımı yönünde | bedelsiz (veri) | orta | SBS, TheStreet |
 
 ## Denge
 _Olumlu / olumsuz hangisi ağır basıyor ve neden._

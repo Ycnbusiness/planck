@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -2101,8 +2101,8 @@
     "siyasi-ekonomi"
    ],
    "on_otopsi": "Yanılırsak: Kasım TÜFE yukarı sürpriz yaptıysa ya da kur/rezerv baskısıyla TCMB duraklamayı seçtiyse.",
-   "motor": 72,
-   "p": 65,
+   "motor": 72.0,
+   "p": 60,
    "ilk_p": 70,
    "durum": "acik",
    "sonuc": null,
@@ -2119,6 +2119,12 @@
      "p": 65,
      "motor": 72,
      "neden": "Zayıf Sinyal Defteri 1. haftalık toplu değerlendirme: 'dış finansman baskısı' teması tek kanıt (Fed tutanağı Aralık artırımı işareti 19.11 + TCMB rezervlerinde 13 Kasım haftası 2,11 milyar $ düşüş 20.11) → LR 0,8"
+    },
+    {
+     "t": "2026-11-26",
+     "p": 60,
+     "motor": 72.0,
+     "neden": "26.11 tarama: ABD Ekim çekirdek PCE %3,3 (2023'ten beri en yüksek), Fed Aralık artırımı neredeyse tam fiyatlandı; BIST 100 −%2,83, banka endeksi −%4,46. Dış finansman baskısı TCMB'nin indirim alanını daraltıyor → LR 0,8"
     }
    ]
   },

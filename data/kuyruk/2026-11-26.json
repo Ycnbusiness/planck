@@ -1,0 +1,31 @@
+[
+ {
+  "saat": "11:00",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-26-abd-enflasyon-tcmb",
+  "baslik": "ABD'de çekirdek enflasyon 2023'ten beri en yüksekte",
+  "onem": 0.66,
+  "onem_eski": 30,
+  "editor": "DÜZELT → düzeltildi (1. tur)",
+  "durum": "hazir",
+  "not": "v2.2 m.6 günlük taban. ABD piyasaları 26.11 Şükran Günü nedeniyle kapalı; BIST açılışını yayın öncesi kontrol et."
+ },
+ {
+  "saat": "13:00",
+  "tur": "olay-cevap-reel",
+  "klasor": "posts/2026-11-26-abd-enflasyon-tcmb",
+  "dosya": "reel.mp4",
+  "onem": 0.66,
+  "durum": "hazir"
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-26-gunun-dosyasi",
+  "baslik": "Dubai açıklarında tankerin yakınında patlama",
+  "onem": 0,
+  "editor": "DÜZELT → düzeltildi",
+  "durum": "hazir",
+  "not": "Tek madde (Hürmüz). Akşam turu ikinci madde ekleyebilir."
+ }
+]

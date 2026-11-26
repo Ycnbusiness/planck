@@ -1,0 +1,103 @@
+{
+ "date": "26 KASIM 2026",
+ "tag": "Faiz",
+ "haber": {
+  "title": "ABD'de çekirdek enflasyon 2023'ten beri en yüksekte",
+  "text": "ABD'de Fed'in izlediği çekirdek PCE enflasyonu Ekim'de yıllık %3,3'e çıktı; beklenti %3,2, Eylül %3,1'di. Manşet PCE %3,8. Vadeli piyasalar Fed'in 8–9 Aralık toplantısında faiz artırımını yüzde 90'ın üzerinde fiyatlıyor. Aynı gün küresel teknoloji satışı ve veriyle birlikte BIST 100 %2,83 düşüşle 10.655 puandan kapandı; banka endeksi %4,46 geriledi. Ons altın gün içinde yaklaşık %2 değer kaybetti.",
+  "kaynak": "SBS, TheStreet, AA, Ekotürk"
+ },
+ "neden": {
+  "text": "Fed faizi artırırsa dolar güçlenir ve gelişmekte olan ülkelere giden para azalabilir. Türkiye Merkez Bankası Aralık'ta indirime devam etmeyi planlıyordu; dışarıdaki bu sıkılaşma indirim alanını daraltabilir.",
+  "taraflar": [
+   [
+    "Veri",
+    "Çekirdek PCE aylık %0,3 arttı. Fed'in hedefi yıllık %2; Ekim'de bu hedefin 1,3 puan üstünde."
+   ],
+   [
+    "Piyasa",
+    "Vadeli fiyatlara göre piyasa Aralık artırımını büyük ölçüde bekliyor. Nasdaq vadeli işlemleri veriden sonra %3'ün üzerinde düştü."
+   ],
+   [
+    "Türkiye",
+    "Politika faizi %36. Kasım Piyasa Katılımcıları Anketi'nde Aralık beklentisi %35'ti. Bir aracı kurum bülteninde (A1 Capital) TCMB'nin indirim alanının daralabileceği yazıldı. Bu bir değerlendirmedir, karar değildir."
+   ]
+  ]
+ },
+ "neolur": [
+  {
+   "q": "TCMB Aralık toplantısında politika faizini %35 ya da altına indirir mi?",
+   "p": 60,
+   "from": 65,
+   "deadline": "12.12.2026"
+  },
+  {
+   "q": "ABD Kasım TÜFE'si (aylık) %0,3 ya da üstünde açıklanır mı?",
+   "p": 62,
+   "from": 62,
+   "deadline": "12.12.2026"
+  }
+ ],
+ "olasilik": {
+  "q": "TCMB Aralık toplantısında politika faizini %35 ya da altına indirir mi?",
+  "motor": 72,
+  "ayar": -12,
+  "ayar_neden": "Motor, anket medyanı yönünde karar oranına dayanıyor (%72). Claude −12: Fed artırımının büyük ölçüde fiyatlanması, BIST'te bankacılık ağırlıklı satış ve son haftalardaki rezerv düşüşü haberleri dış finansman baskısına işaret ediyor (orta-zayıf kanıt). Ayarın −7'si önceki haftalardan, −5'i bugünkü veriden.",
+  "p": 60,
+  "aralik": "58–66 · medyan 60",
+  "frekans": "Taban: TCMB 2023'ten beri kararlarının çoğunda anket medyanı yönünde hareket etti (kaba sayım ≈%75–80). Bu tür 100 tahminimizin yaklaşık 60'ının gerçekleşmesini bekleriz."
+ },
+ "karne": {
+  "konu": "Bu konuda henüz kapanış yok; TCMB sorusu Aralık toplantısıyla kapanacak.",
+  "genel": "Toplam kapanış sayısı az; 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "3 Aralık Kasım TÜFE'si; 8–9 Aralık Fed kararı; TCMB haftalık rezerv verisi.",
+  "eylem": "Bireysel olarak yapılacak bir acele yok. Kredi ya da mevduat kararı veren okur, faiz yolunun Aralık'ta netleşeceğini hesaba katabilir; panikle karar vermek gerekmiyor."
+ },
+ "question": "Sizce TCMB Aralık'ta faizi %35'e ya da altına indirir mi?",
+ "senaryolar": {
+  "baslik": "TCMB Aralık kararı: üç yol",
+  "dallar": [
+   {
+    "ad": "Planlanan indirim: %35 ya da altı",
+    "p": 60,
+    "kosul": "Kasım enflasyonu beklentiye yakın gelir, kur ve rezervlerde ek baskı oluşmaz.",
+    "olursa": "TCMB en az 100 baz puan indirir; Fed artırımına rağmen gevşeme takvimi sürer.",
+    "emsal": "Aralık 2024'te TCMB indirime başladı, ama Fed de o sırada indiriyordu. Fed artırırken indirime doğrudan emsal yok.",
+    "iz": "3 Aralık TÜFE verisi; TCMB'nin karar öncesi açıklamaları."
+   },
+   {
+    "ad": "Küçük indirim: %35,5 civarı",
+    "p": 22,
+    "kosul": "Dış koşullar sertleşir ama iç enflasyon görünümü bozulmaz.",
+    "olursa": "TCMB indirimi sürdürür ama adımı küçültür; temkin mesajı verir.",
+    "emsal": "Emsal sınırlı: 2025'te adım büyüklüğü birkaç kez piyasaya göre ayarlandı.",
+    "iz": "Fed kararından sonra kur ve risk primi (CDS)."
+   },
+   {
+    "ad": "Duraklama: faiz %36'da kalır",
+    "p": 18,
+    "kosul": "Kasım enflasyonu yukarı sürpriz yapar ya da rezerv kaybı hızlanır.",
+    "olursa": "İndirim döngüsü durur; mevduat ve kredi faizleri bir süre yüksek kalır.",
+    "emsal": "2025 Mart–Nisan: piyasa çalkantısında TCMB indirimleri durdurdu, Nisan'da faizi %42,5'ten %46'ya çıkardı.",
+    "iz": "Haftalık rezerv verisi; Kasım TÜFE'si %30'un üstünde mi?"
+   }
+  ]
+ },
+ "uzman": {
+  "baslik": "Bu kararı iki uzman nasıl okur?",
+  "mercekler": [
+   {
+    "kim": "Para politikası iktisatçısı",
+    "bakar": "Türkiye'de gerçek faize: politika faizi ile beklenen enflasyon arasındaki fark.",
+    "bekler": "Gerçek faiz pozitif kaldığı sürece indirime devam edilebileceğini düşünür; Fed artırımı karar için ikincil bir etkendir.",
+    "izler": "3 Aralık Kasım TÜFE'si ve hanehalkı enflasyon beklentisi."
+   },
+   {
+    "kim": "Uluslararası finans uzmanı",
+    "bakar": "Doların gücüne ve gelişmekte olan ülkelere giren-çıkan kısa vadeli paraya.",
+    "bekler": "Fed artırırken indirim yapan ülkelerde dış finansman maliyetinin yükseleceğini, halkın kur ve faiz yoluyla bunu hissedeceğini düşünür.",
+    "izler": "Fed'in 9 Aralık kararı ve sonrasında TCMB rezervleri."
+   }
+  ],
+  "ayrisma": "İlki iç enflasyona, ikincisi dış paraya bakar. Kasım enflasyonu beklentiye yakın gelirse ilk bakış, rezerv kaybı sürerse ikinci bakış kararı belirler."
+ }
+}

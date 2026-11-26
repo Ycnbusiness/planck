@@ -221,6 +221,23 @@
      "not": "yeni soru; Günün Dosyası"
     }
    ]
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-26",
+   "tema": "Olay ve Cevap · ABD enflasyonu ve TCMB",
+   "items": [
+    {
+     "id": "pk-2026-11-18-tcmb-aralik-35",
+     "alan": "Ekonomi",
+     "q": "TCMB, Aralık 2026 PPK toplantısında politika faizini %35 ya da altına indirir mi?",
+     "p": 60,
+     "lab": "Motor %72 · Claude −12",
+     "deadline": "2026-12-12",
+     "olay": "abd-enflasyon-tcmb",
+     "not": "güncelleme (önce %65)"
+    }
+   ]
   }
  ]
 }

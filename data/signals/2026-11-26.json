@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-26",
+ "scan_window": "2026-11-25 akşam → 2026-11-26 06:40 TSİ",
+ "yontem": "Yöntem v2.2 (TARAMA.md), olaycevap2 + senaryo + uzman sayfası. Görev metnindeki eski önem formülü 'onem_eski' alanında.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "not": "sicil.py vadesi boş."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 1,
+  "yesil": 2,
+  "zayif": 3,
+  "not": "Ana akış: ABD çekirdek PCE + TCMB Aralık (günlük taban, haber puanı 5). Sicilde 1 güncelleme (TCMB ≤%35: 65→60). 2031 olasılıkları değişmedi. Yeni soru yok."
+ },
+ "events": [
+  {
+   "id": "abd-enflasyon-tcmb",
+   "class": "SARI",
+   "risk": "kurumlar/ekonomi (2031 riski yok)",
+   "delta": 0,
+   "sorular": {
+    "pk-2026-11-18-tcmb-aralik-35": [
+     65,
+     60
+    ]
+   },
+   "lr": 0.8,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0.22,
+   "K": 3,
+   "onem": 0.66,
+   "turkiye_bagi": 2,
+   "onem_eski": "|Δ 5 (TCMB sorusu)| × TR 2 × etki 3 = 30",
+   "event": "ABD Ekim çekirdek PCE yıllık %3,3 (beklenti %3,2; Eylül %3,1; 2023'ten beri en yüksek), manşet %3,8 (25.11). Fed 8–9 Aralık artırımı vadeli piyasalarda %93–99,8. BIST 100 −%2,83 (10.655,74), banka −%4,46; ons altın gün içi ≈−%2.",
+   "rationale": "Dış finansman baskısı TCMB'nin Aralık indirim alanını daraltıyor; bedelli sinyal yalnız piyasa fiyatı, Kurul yönlendirmesi değişmedi → LR 0,8 (65→60). S×K 0,66 → normalde Story/Dosya; v2.2 m.6 günlük taban: haber puanı en yüksek olay (5) → Olay ve Cevap.",
+   "sources": [
+    "https://news.sbs.co.kr/english/article.do?news_id=N1008863817",
+    "https://pro.thestreet.com/market-commentary/core-pce-inflation-climbs-to-highest-since-2023-as-real-spending-slips",
+    "https://www.referansgazetesi.com.tr/borsa-gunu-dususle-tamamladi-25-kasim",
+    "https://www.ekoturk.com/borsa/abd-enflasyonu-beklentiyi-asti-borsa-ve-altinda-satislar-derinlesti",
+    "https://hibya.com/tcmbnin-faiz-indirimi-alaninin-daralabilecegi-degerlendiriliyor-1105157"
+   ],
+   "yonlendirme": "Olay ve Cevap 11:00 + Reel 13:00",
+   "editor": "DÜZELT → düzeltildi (aralık alanı, Güç Okuma kaydı, emsaller, nedensellik, kaynak uyumu, dil, reel son tarih). Künye satırı görev metni gereği korundu."
+  },
+  {
+   "id": "dubai-tanker-hurmuz-mayin",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 91,
+   "to": 91,
+   "sorular": {
+    "pk-2026-11-18-hurmuz-acilis": [
+     18,
+     18
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 3,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "0",
+   "event": "UKMTO: 26.11 sabahı Dubai'nin ≈50 dm batısında bir tankerin yakınında kimliği belirsiz mermi patladı, hasar/yaralı yok. İran ordusu ve IRGC 25.11'de Hürmüz'de tanker ve LNG gemisinin mayına çarptığını iddia etti; Reuters doğrulayamadı. İran Katar üzerinden şartlı (48 saat) açılış teklifini iletti (yalnız Reuters/Arab News).",
+   "rationale": "Olaylar sürüyor, açılış şartlı; iki yön dengede → LR 1. Mayın iddiaları izlemede (hurmuz-uc-tanker-mayin-2).",
+   "sources": [
+    "https://www.aa.com.tr/en/middle-east/explosion-reported-near-tanker-west-of-dubai-uk-maritime-agency/4138116",
+    "https://www.timesofisrael.com/liveblog_entry/projectile-said-to-cause-explosion-near-tanker-west-of-dubai/",
+    "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942",
+    "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00",
+   "editor": "DÜZELT → düzeltildi"
+  },
+  {
+   "id": "abd-301-oneri-takip",
+   "class": "YEŞİL",
+   "risk": "abd-cin-teknoloji",
+   "delta": 0,
+   "from": 63,
+   "to": 63,
+   "sorular": {
+    "pk-2026-11-25-abd-301-yururluk": [
+     35,
+     35
+    ]
+   },
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 0,
+    "acik_uc": 1,
+    "puan": 3
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "USTR 25.11 önerisi ayrıntılandı: 14 ekonomi (Meksika, Norveç incelemede), Çin'e %20'ye kadar ek; yorum 5 Ocak, duruşmalar 25 Ocak 2027; Çin 'aşırı kapasite iddiası yanlış' dedi. Türkiye listede yok.",
+   "rationale": "Dün Dosya'da işlendi; yeni bilgi beklenen adım → yayın yok, sicil değişmedi.",
+   "sources": [
+    "https://www.investing.com/news/world-news/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity-5050714",
+    "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
+    "https://www.globaltradeandsanctionslaw.com/ustr-proposes-section-301-tariffs-on-14-economies-in-structural-excess-capacity-investigations/"
+   ],
+   "yonlendirme": "Yayın yok (dünkü Dosya)"
+  }
+ ],
+ "zayif": [
+  "ABD BIS uzaktan erişim (bulut) çip kuralı — yalnız toplayıcı siteler, birincil kaynak yok → izleme",
+  "Estonya'nın Rusya sınır kapılarını 1 Aralık'ta kapatması — tek kaynak (Rio Times otomatik bülten)",
+  "Ukrayna'nın Rus hava üssüne saldırısı (5 uçak hasarlı, Ukrayna Genelkurmayı) — tek taraf açıklaması"
+ ]
+}

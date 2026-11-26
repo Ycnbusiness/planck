@@ -1,0 +1,34 @@
+{
+ "date": "26 KASIM 2026",
+ "lede": "Körfez'de ticari gemilere yönelik olaylar sürüyor: Dubai açıklarında bir tankerin yakınında mermi patladı; İran ise Hürmüz'de mayına çarpan gemiler olduğunu iddia ediyor.",
+ "items": [
+  {
+   "tag": "Hürmüz",
+   "title": "Dubai açıklarında tankerin yakınında patlama",
+   "text": "İngiltere Deniz Ticaret Operasyonları (UKMTO), 26 Kasım sabahı Dubai'nin yaklaşık 50 deniz mili batısında bir tankerin yakınında kimliği belirsiz bir merminin patladığını bildirdi; hasar ve yaralı yok. İran ordusu ve Devrim Muhafızları 25 Kasım'da Hürmüz'de en az iki tanker ve bir LNG gemisinin mayına çarptığını iddia etti (açıklamalardaki sayılar birbirini tutmuyor); Reuters doğrulayamadı.",
+   "risk": "İran, 15 Şubat'a kadar Hürmüz Boğazı'nın ticari gemi geçişine şartsız açıldığını resmen ilan eder mi?",
+   "from": 18,
+   "to": 18,
+   "deadline": "15.02.2027",
+   "pdo": "100'de 82 durumda olmaz. Gemilere yönelik olaylar sürüyor, İran açılışı ABD şartlarına bağlamaya devam ediyor; sayı değişmedi. Bireysel olarak yapılacak yok; izlenecek gösterge haftalık tanker geçişi ve akaryakıt fiyatı.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 3,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "soru": "pk-2026-11-18-hurmuz-acilis",
+   "kaynaklar": [
+    "https://www.aa.com.tr/en/middle-east/explosion-reported-near-tanker-west-of-dubai-uk-maritime-agency/4138116",
+    "https://www.timesofisrael.com/liveblog_entry/projectile-said-to-cause-explosion-near-tanker-west-of-dubai/",
+    "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942",
+    "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+   ]
+  }
+ ],
+ "question": "Sizce Körfez'deki gemi olayları akaryakıttaki son indirimleri tersine çevirir mi?"
+}

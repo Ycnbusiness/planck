@@ -27,6 +27,8 @@ ABD ile İran arasındaki savaş Nisan 2026 ateşkesine rağmen düşük yoğunl
 | 2026-11-21 | Bahreyn İçişleri | Sivil sanayi tesisi isabet aldı, yaralı yok; İran radar iddiası doğrulanmadı | − | — | orta | AFP, Al Jazeera |
 | 24–25.11.2026 | Husiler / Suudi koalisyonu | Riyad'da finans bölgesinde kuleye İHA (11 yaralı); koalisyon Hudeyde limanına tahliye çağrısı ve saldırı; Husiler Cidde dahil Suudi Kızıldeniz limanlarını tehdit etti | tırmanma | bedelli (saldırı) | orta | The National, KUNA/Kuwait Times, ANI |
 | 23–24.11.2026 | ABD Hazinesi / İran | OFAC İran gölge bankacılık ağına 22 kuruluş, 8 kişi yaptırımı; Galibaf 7 şart karşılanmadan görüşme yok dedi; İran 3 tankerin Hürmüz'de mayına çarptığını iddia etti (bağımsız teyit yok) | tırmanma | yaptırım bedelli, şartlar bedelsiz | düşük | Gulf News, Fox, Reuters/Internazionale |
+| 2026-11-26 | UKMTO | Dubai'nin 50 deniz mili batısında bir tankerin yakınında kimliği belirsiz mermi patladı; hasar ve yaralı yok | tırmanma | bedelsiz | zayıf | AA, Times of Israel (Reuters) |
+| 2026-11-25 | İran (IRGC, ordu) | iki tankerin ve bir LNG gemisinin mayına çarptığını iddia etti; Reuters doğrulayamadı | tırmanma | bedelsiz (iddia) | zayıf | Arab News (Reuters), OilPrice (IRNA) |
 
 ## Denge
 Olumsuz sinyaller ağır basıyor: iki taraf da sahada bedelli adımlar atıyor (saldırılar), olumlu sinyaller yalnız sözlü (10 Kasım 'savaş bitti' beyanı). Ateşkes sorusu 18→15'e indi; bu yön Ocak'a kadar değişmez görünüyor, ta ki arabulucudan tarih gelene kadar.
