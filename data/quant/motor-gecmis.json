@@ -341,5 +341,61 @@
   "motor": null,
   "kaynak_turu": null,
   "not": "hesaplanmadı: güncel girdi (FedWatch 20-23.11, OVX/GVZ/VIX, anket, Nasdaq/UST 20.11) kaynaklı bulunamadı; arama dizini 19.11 sonrası piyasa verisi döndürmedi"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-fed-artirim",
+  "motor": 99,
+  "kaynak_turu": "piyasa",
+  "not": "FedWatch Aralık %97,8 (25.11, Gate News/CME), sonrası koşullu taban %35 (data/quant.json varsayımı); 1-(1-0,978)(1-0,35)"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-tr-tufe-30",
+  "motor": 48,
+  "kaynak_turu": "resmi-tahmin",
+  "not": "TCMB Kasım anketi yıl sonu medyan %30,04 (13.11) ve Ekim TÜFE %29,77 (data/quant.json'dan, bugün yeniden doğrulanmadı); gereken Kas+Ara <%1,95, anket ima %1,98, sd 0,6"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-tcmb-aralik",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: yeni anket (Kasım PKA) yalnız medyan %35,00 veriyor (mevcut %36), indirim/sabit dağılımı yok; motor oran bekliyor"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-usdtry-60",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: USD/TRY oynaklığı güncel değil, gerçekleşen oynaklık serisi toplanamadı"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-abd-resesyon",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: Sahm/getiri girdileri güncel değil (ABD 10y/3a kaynaklı bulunamadı)"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-brent-110",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: OVX güncel değil; Brent kaynaklar arası çelişkili (93,42 / 89,79)"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-altin-4500",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: GVZ güncel değil; ons altın kaynaklar arası çelişkili (3.439 / 3.513,98 / 3.511,40)"
+ },
+ {
+  "tarih": "2026-11-26",
+  "soru": "q-nasdaq-25",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: VIX güncel değil; Nasdaq kaynaklar arası çelişkili (23.185 / 23.586)"
  }
 ]

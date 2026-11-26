@@ -1,0 +1,215 @@
+{
+ "tarih": "2026-11-26",
+ "referans_seans": "25.11.2026 Çarşamba kapanışı (24.11 ve 25.11 arası ayrı günlük dosya yok; 26.11 ABD Şükran Günü tatili)",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB gösterge kuru resmi sayfadan alınamadı"
+  },
+  "usdtry_piyasa": {
+   "deger": 50.6793,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 18:29:37 TSİ",
+   "not_": "serbest piyasa satış; gösterge değil | Aposto aynı gün 50,6725 (%+0,14): https://aposto.com/piyasalar/kapanis/2026-11-25"
+  },
+  "eurtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB göstergesi alınamadı"
+  },
+  "eurtry_piyasa": {
+   "deger": 55.4732,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 18:29:17 TSİ",
+   "not_": "tablo satış; metin 55,44 | ÇELİŞKİ: Aposto 55,6555 (%+0,70, yön ters): https://aposto.com/piyasalar/kapanis/2026-11-25"
+  },
+  "bist100_kapanis": {
+   "deger": 10655.74,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 kapanış",
+   "not_": "%-2,83; iki kaynakta aynı (BloombergHT + Aposto https://aposto.com/piyasalar/kapanis/2026-11-25); gün aralığı 10.649,50–10.969,11; önceki kapanış 10.965,90"
+  },
+  "gram_altin_tl": {
+   "deger": 5643.21,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 (saat belirtilmemiş)",
+   "not_": "Kapalıçarşı, %-2,42 | ÇELİŞKİ: Aposto 5.721 TL (%-1,28, hesaplanmış): https://aposto.com/piyasalar/kapanis/2026-11-25"
+  },
+  "ons_altin_usd": {
+   "deger": 3513.98,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 18:29 TSİ",
+   "not_": "tablo satış (alış 3.513,04), %-3,32; metin 3.439 | ÇELİŞKİ: Aposto 3.511,40 (%-1,42): https://aposto.com/piyasalar/kapanis/2026-11-25 | belirsiz, motorda kullanılmadı"
+  },
+  "brent_usd": {
+   "deger": 93.42,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 18:30 TSİ",
+   "not_": "ÇELİŞKİ: Aposto 89,79 (%-1,76): https://aposto.com/piyasalar/kapanis/2026-11-25 | belirsiz, motorda kullanılmadı"
+  },
+  "bitcoin_usd": {
+   "deger": 57890,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-25-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795672",
+   "saat": "25.11.2026 (saat belirtilmemiş)",
+   "not_": "ÇELİŞKİ: Aposto 59.385: https://aposto.com/piyasalar/kapanis/2026-11-25"
+  },
+  "abd_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "CNBC 25.11 sayfası okunamadı; başka kaynaklı değer yok"
+  },
+  "abd_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "CNBC 25.11 sayfası okunamadı; arama başlığında %4,824 (journalarta.com) görüldü, sayfa okunmadı, tek kaynak: kaydedilmedi"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı tarihli gösterge getirisi bulunamadı"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı tarihli gösterge getirisi bulunamadı"
+  },
+  "yurtdisi_endeks": {
+   "sp500": {
+    "deger": 7101.43,
+    "kaynak": "https://aposto.com/piyasalar/kapanis/2026-11-25",
+    "saat": "25.11.2026",
+    "not_": "Aposto %-1,38"
+   },
+   "nasdaq": {
+    "deger": 23184.92,
+    "kaynak": "https://aposto.com/piyasalar/kapanis/2026-11-25",
+    "saat": "25.11.2026",
+    "not_": "Aposto %-2,31 | ÇELİŞKİ: Yahoo Finance Nasdaq Comp. 23.585,80 (%-0,62), Dow 50.182,90 (%+0,33), S&P ~%-0,2: https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html | motorda kullanılmadı"
+   }
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026_9aralik": {
+   "deger": {
+    "artirim_25bp": 97.8,
+    "sabit": 2.2
+   },
+   "kaynak": "https://www.gate.com/news/detail/cme-fedwatch-978-probability-of-25bp-fed-rate-hike-in-december-2026-25860188",
+   "saat": "25.11.2026 14:01 UTC",
+   "not_": "CME FedWatch (PCE sonrası); Yahoo aynı gün ~%98 artırım: https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+  },
+  "fed_ocak_2027": {
+   "deger": {
+    "artirim_25bp": 40.7,
+    "kumulatif_50bp_ocak_itibariyle": 58.4
+   },
+   "kaynak": "https://www.gate.com/news/detail/cme-fedwatch-978-probability-of-25bp-fed-rate-hike-in-december-2026-25860188",
+   "saat": "25.11.2026 14:01 UTC",
+   "not_": "tek kaynak (Gate News aktarımı); sayfa metni 'ocak itibarıyla' ifadesini kullanıyor"
+  },
+  "tcmb_sonraki_ppk": {
+   "deger": {
+    "ppk_tarihi": "2026-12-10 14:00",
+    "politika_faizi_mevcut": 36.0,
+    "piyasa_katilimcilari_anketi_aralik_ppk_beklenti": 35.0,
+    "katilimci": 70
+   },
+   "kaynak": "https://uzmanpara.milliyet.com.tr/uzmanpara/merkez-bankasi-faiz-karari-beklentisi-2026-aralik-tahmini-merkez-bankasi-faiz-karari-ne-zaman-aciklanacak-7703808",
+   "saat": "19.11.2026 17:46 TSİ",
+   "not_": "TCMB Kasım Piyasa Katılımcıları Anketi (Milliyet aktarımı); dağılım yok, yalnız beklenti seviyesi; tek kaynak"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı (arama sonucu yok)"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı (arama sonucu yok)"
+  }
+ },
+ "makro_veri": {
+  "abd_core_pce_ekim_yillik": {
+   "deger": 3.3,
+   "kaynak": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+   "saat": "25.11.2026",
+   "not_": "beklenti %3,2; headline PCE yıllık %3,8 / aylık %0,3 beklentiyle aynı (sayfa özetinden, doğrulanmadı); tek kaynak"
+  },
+  "abd_gsyh_3ç_final": {
+   "deger": 4.3,
+   "kaynak": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html",
+   "saat": "25.11.2026",
+   "not_": "yıllıklandırılmış, beklenti %3,5; model özetinden, doğrulanmadı"
+  }
+ },
+ "oynaklik": {
+  "altin_gvz": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "brent_ovx": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "vix": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  }
+ },
+ "takvim_7gun": {
+  "saat": "26.11.2026",
+  "kaynaklar": [
+   "https://www.foreks.com/haber/detay/6afecfab95131d72027e058c/FRKS/tr/ekonomik-veri-takvimi-26-kasim-2026-persembe-19-11-26/",
+   "https://uzmanpara.milliyet.com.tr/uzmanpara/merkez-bankasi-faiz-karari-beklentisi-2026-aralik-tahmini-merkez-bankasi-faiz-karari-ne-zaman-aciklanacak-7703808",
+   "QUANT.md §4 sabit takvim (TÜİK TÜFE ayın 3'ü 10:00)"
+  ],
+  "olaylar": [
+   {
+    "tarih": "2026-11-26",
+    "olay": "ABD piyasaları Şükran Günü nedeniyle kapalı (genel takvim bilgisi); Güney Kore faiz kararı 04:00 (önceki %3); TCMB döviz rezervleri 14:30 (Foreks, beklenti yok)"
+   },
+   {
+    "tarih": "2026-12-03",
+    "olay": "TÜİK Kasım TÜFE 10:00 (QUANT.md sabit takvim; tarih TÜİK takviminden ayrıca doğrulanmadı)"
+   },
+   {
+    "tarih": "2026-12-09",
+    "olay": "FOMC kararı (Mitrade/FedWatch haberleri; 7 gün dışı, yaklaşan)"
+   },
+   {
+    "tarih": "2026-12-10",
+    "olay": "TCMB PPK 14:00 (Milliyet 19.11; 7 gün dışı, yaklaşan)"
+   }
+  ],
+  "bulunamayan": "ABD istihdam (genelde ayın ilk cuması), ABD TÜFE ve OPEC+ toplantı tarihleri kaynaklı bulunamadı"
+ },
+ "gozlem": "25.11'de BIST 100 %-2,83 ile sert geriledi; iki kaynak da nedeni vermiyor (Aposto: bankacılık endeksi %-4,45). Yurt dışında teknoloji satışı; Nasdaq değeri kaynaklar arasında çelişkili."
+}
