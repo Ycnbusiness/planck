@@ -24,6 +24,7 @@ Brent, Orta Doğu ihracatının toparlanmasıyla Kasım'da üç hafta üst üste
 | 2026-11-21 | UKMTO | Hürmüz'de iki tanker vuruldu | − | — | orta | CNBC |
 | 25.11.2026 | Dağıtıcılar / piyasa | Motorine 26.11 gece yarısı −4,32 TL (haftada ikinci indirim, toplam ≈10,90 TL); İstanbul Avrupa ≈84,58 TL. 1 Ara ÖTV 9→12 TL (≈+3,60), 1 Oca 13,90 TL | aşağı (pompa), yukarı (vergi) | bedelli (fiyat listesi) | yüksek | ANKA/Kısa Dalga, Enerji Günlüğü, Demokrat Gündem, Sözcü |
 | 25.11.2026 | Petrol piyasası | Brent ≈87,5 $ (23.11 kapanışı 31 Ağustos'tan beri en düşük); Libya Şarara hattı yeniden açıldı, Orta Doğu ihracatı arttı; 29 Kasım OPEC+ toplantısı | aşağı | bedelli (fiyat) | yüksek | CNBC, Reuters |
+| 26.11 | Suudi koalisyonu / Husiler | Riyad'a 2 balistik füze ve Doğu Eyaleti'nde 2 İHA düşürüldü; hasar yok. Ras Tanura iddiası teyitsiz (izleme) | arz riski ↑ (zayıf) | bedelli (fiilî saldırı) | zayıf | AA, Al Arabiya |
 
 ## Denge
 Kısa vadede aşağı yönlü (arz toparlanıyor) ama vergi takvimi pompa fiyatını yukarı itiyor; Türkiye için belirleyici olan Brent'ten çok ÖTV ve kur.

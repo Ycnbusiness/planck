@@ -641,6 +641,34 @@
     "https://srnnews.com/iran-says-it-will-use-all-available-tools-to-confront-us-naval-blockade/",
     "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-23-2026-1.500757486"
    ]
+  },
+  {
+   "tarih": "2026-11-26",
+   "id": "husi-riyad-fuze-26-11",
+   "tema": "Husi–Suudi tırmanması",
+   "bagli": [
+    "pb-2026-11-15-kizildeniz-turk-gemi",
+    "pk-2026-11-18-brent-100-dokunma"
+   ],
+   "olay": "Suudi liderliğindeki koalisyon (sözcü Türki el-Maliki) 26.11 sabahı Riyad'a atılan iki Husi balistik füzesini ve Doğu Eyaleti üzerinde iki İHA'yı düşürdüğünü açıkladı; kayıp/hasar bildirilmedi. 25.11'de Cidde limanı yakınında İHA ve bir seyir füzesi düşürülmüş, Cizan limanında küçük hasar olmuştu.",
+   "neden_zayif": "24–25.11'den süren tırmanmanın devamı (25.11 sinyalinde işlendi); yeni hasar ya da ticari gemiye saldırı yok → LR<1,2, sayı oynamaz.",
+   "kaynaklar": [
+    "https://www.aa.com.tr/en/world/morning-briefing-nov-26-2026/4138215",
+    "https://english.alarabiya.net/News/saudi-arabia/2026/11/26/coalition-says-intercepted-destroyed-two-houthi-ballistic-missiles-launched-toward-riyadh",
+    "https://tribune.com.pk/story/2642423/saudi-led-coalition-intercepts-2-houthi-ballistic-missiles-launched-toward-riyadh"
+   ]
+  },
+  {
+   "tarih": "2026-11-26",
+   "id": "bok-faiz-325",
+   "tema": "Merkez bankaları",
+   "bagli": [],
+   "olay": "Kore Merkez Bankası politika faizini 25 baz puan artırarak %3,25'e çıkardı; 2026 büyüme tahminini %3,9'a, 2027'yi %4,1'e yükseltti.",
+   "neden_zayif": "Haber kapısı 3 (ölçek 1, yenilik 1, açık uç 1): Ekim'den beri 'Kasım'da artırım gündemde' beklentisi vardı; sicilde bağlı soru yok. Küresel sıkılaşma temasıyla (ABD PCE, Fed) birlikte haftalık değerlendirmede okunur.",
+   "kaynaklar": [
+    "https://news.sbs.co.kr/english/article.do?news_id=N1008864795",
+    "https://www.koreatimes.co.kr/economy/20261019/bok-poised-to-hold-rates-as-november-hike-remains-in-view"
+   ]
   }
  ]
 }

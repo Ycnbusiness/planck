@@ -118,11 +118,128 @@
     "https://www.globaltradeandsanctionslaw.com/ustr-proposes-section-301-tariffs-on-14-economies-in-structural-excess-capacity-investigations/"
    ],
    "yonlendirme": "Yayın yok (dünkü Dosya)"
+  },
+  {
+   "id": "nvidia-gda-sevkiyat-durdurma",
+   "ogle": true,
+   "class": "İZLEME",
+   "saat": "26.11 sabah (FT, Perşembe)",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "FT'ye göre (üç kaynak) Nvidia, üretim ortaklarına Malezya, Singapur, Tayland ve Endonezya'ya kendi çiplerini taşıyan sunucu sevkiyatını durdurmalarını söyledi; Dell ve Supermicro bu ülkelerdeki alıcılara siparişlerin gönderilmeyeceğini bildirdi. Geçici mi kalıcı mı belirsiz. Arka plan: ABD Ticaret Bakanlığı'nın geçen hafta yürürlüğe giren, bu ülkelere gelişmiş çip sevkiyatını lisansa bağlayan geçici kuralı.",
+   "rationale": "Haber kapısı 5 (doğrulanırsa haber); ama tüm kaynaklar FT'nin tek haberini aktarıyor (The National, TNW, The Week). Nvidia, Dell, Supermicro ve BIS yorum yapmadı. Tek kaynak olasılık oynatmaz → izleme (bitiş 03.12). Doğrulanırsa nv-3 ve on-abdcin-* soruları yeniden okunur, 'yasak bölgeye sızıntı' için yeni soru açılabilir.",
+   "sources": [
+    "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
+    "https://thenextweb.com/news/nvidia-halts-server-shipments-southeast-asia",
+    "https://www.theweek.in/news/biz-tech/2026/11/26/nvidia-halts-chip-exports-to-southeast-asian-countries-amid-us-curbs-whats-the-impact-on-india.html"
+   ],
+   "yonlendirme": "izleme"
+  },
+  {
+   "id": "tcmb-yerli-altin-alimi-durdu",
+   "ogle": true,
+   "class": "İZLEME",
+   "saat": "26.11 11:36–11:50 TSİ",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 3
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "event": "Cumhuriyet ve Sözcü'ye göre TCMB 26.11'den itibaren yurt içinde cevherden üretilen altını alımına ara verdi (bankacılara dayanan haber; TCMB yorum yapmadı). Önceki ara Ekim 2025'te verilmiş, alımlar Mart 2026'da yeniden başlamıştı. Newsquawk 'resmî duyuru değil, haber' notuyla aktardı.",
+   "rationale": "Resmî açıklama ya da A/B katmanı kaynak yok; iki yerli haber aynı isimsiz kaynağa dayanıyor → izleme (bitiş 28.11). Doğrulansa da haber kapısı 3 (beklenen araç, önceki emsali var), fiyat etkisi Quant alanı.",
+   "sources": [
+    "https://www.cumhuriyet.com.tr/ekonomi/tcmb-den-altin-karari-yurtici-uretimden-alimlara-ara-verildi-2559578",
+    "https://www.sozcu.com.tr/merkez-bankasi-ndan-kritik-karar-altin-alimlari-durduruldu-p384575",
+    "https://www.newsquawk.com/headlines/the-cbrt-has-reportedly-stopped-purchasing-domestically-mined-gold-according-to-reports"
+   ],
+   "yonlendirme": "izleme"
+  },
+  {
+   "id": "husi-ras-tanura-iddiasi",
+   "ogle": true,
+   "class": "İZLEME",
+   "saat": "25.11 gün içi (sabah taramasında yoktu; geriye dönük)",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 5
+   },
+   "S": 0,
+   "K": 3,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "Husiler Suudi Arabistan'ın en büyük rafinerisi Ras Tanura'yı ve Riyad finans bölgesini vurduklarını iddia etti; Brent 25.11'de %3,5 artışla 94,61 $'dan kapandı. Reuters'a konuşan bir kişi rafinerinin saldırıya uğradığını söyledi; Suudi hükümeti ve Aramco yorum yapmadı, üretime etkisi belirsiz. Koalisyon açıklamaları yalnız önlenen saldırıları ve Cizan limanında küçük hasarı içeriyor.",
+   "rationale": "Hasar ve üretim etkisi resmî olarak teyit edilmedi (iddia + tek isimsiz kaynak) → izleme (bitiş 02.12). Doğrulanırsa pk-2026-11-18-brent-100-dokunma ve brent-90-yilsonu soruları LR ile güncellenir.",
+   "sources": [
+    "https://www.nationthailand.com/news/world/40073934",
+    "https://www.irishtimes.com/business/markets/2026/11/26/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships/",
+    "https://www.aa.com.tr/en/world/morning-briefing-nov-26-2026/4138215"
+   ],
+   "yonlendirme": "izleme"
+  },
+  {
+   "id": "fon-sorusturmasi-basin-toplantisi",
+   "ogle": true,
+   "class": "KIRMIZI ÇİZGİ",
+   "saat": "26.11 (toplantı 19:00 TSİ, Külliye)",
+   "lr": null,
+   "delta": 0,
+   "S": 0,
+   "K": 3,
+   "onem": null,
+   "turkiye_bagi": 2,
+   "event": "Cumhurbaşkanı Yardımcısı Yılmaz, Hazine ve Maliye Bakanı Şimşek ve Adalet Bakanı Gürlek 19:00'da fon soruşturması, tasfiye süreci ve Sermaye Piyasası Kanunu değişiklik teklifi üzerine ortak basın toplantısı yapacak (NTV, Sözcü/AA). Şimşek'in eski BDDK Başkanı Kavcıoğlu hakkında soruşturma izni verdiği bildirildi.",
+   "rationale": "Kırmızı çizgi — olasılık yok (Anayasa §9/1 süren soruşturma; §9/3 adı geçen kişinin hukuki durumu). Kanun teklifi metni açıklanırsa akşam turu kurum/süreç sorusu (ör. tasfiye takvimi, kanunun TBMM'den geçişi) açılabilir mi diye bakar; kişi ve dava sorusu açılmaz.",
+   "sources": [
+    "https://www.ntv.com.tr/turkiye/fon-sorusturmasiyla-ilgili-ortak-basin-toplantisi-yilmaz-simsek-ve-gurlek-bugun-aciklama-yapacak-1752597",
+    "https://www.sozcu.com.tr/borsa-gune-yukselisle-basladi-26-kasim-2026-p384540"
+   ],
+   "yonlendirme": "yayın yok (kırmızı çizgi — olasılık yok)"
   }
  ],
  "zayif": [
   "ABD BIS uzaktan erişim (bulut) çip kuralı — yalnız toplayıcı siteler, birincil kaynak yok → izleme",
   "Estonya'nın Rusya sınır kapılarını 1 Aralık'ta kapatması — tek kaynak (Rio Times otomatik bülten)",
   "Ukrayna'nın Rus hava üssüne saldırısı (5 uçak hasarlı, Ukrayna Genelkurmayı) — tek taraf açıklaması"
- ]
+ ],
+ "ogle_taramasi": {
+  "date": "2026-11-26",
+  "ogle": true,
+  "scan_window": "2026-11-26 04:00 → 12:40 (TSİ)",
+  "yontem": "Öğle taraması, Yöntem v2.2. Sabah taraması (06:40'a kadar) işlenmiş olaylar tekrar işlenmedi. Hakem adımı bu görevin işi değil.",
+  "summary": {
+   "kirmizi": 0,
+   "ana_akis": 0,
+   "dosya": 0,
+   "story": 0,
+   "zayif": 2,
+   "izleme": 3,
+   "kirmizi_cizgi": 1,
+   "not": "Ana akış adayı yok. İki kaynak şartını geçen yeni olay yok: Nvidia'nın Güneydoğu Asya sevkiyatı (yalnız FT), TCMB yerli altın alımı (isimsiz bankacı) ve Husilerin Ras Tanura iddiası (Suudi/Aramco teyidi yok) izlemede. Husi füzeleri ve Kore Merkez Bankası artırımı zayıf sinyal. Fon soruşturması basın toplantısı kırmızı çizgi. Sicil değişmedi, kuyruğa ekleme yok. MGK (14:00) ve 19:00 basın toplantısı akşam turuna kaldı."
+  },
+  "zayif": [
+   "husi-riyad-fuze-26-11",
+   "bok-faiz-325"
+  ]
+ }
 }

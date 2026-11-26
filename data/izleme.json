@@ -164,6 +164,33 @@
    "eksik": "WSJ'den bağımsız ikinci kaynak (resmî ABD açıklaması ya da Reuters/AP kendi haberi)",
    "olursa": "on-siber-yeni-devlet-atfi sorusu yeniden değerlendirilir (LR 1,25 → %60); Dosya maddesi taslağı spec geçmişinde (25.11).",
    "bitis": "2026-12-02"
+  },
+  {
+   "id": "nvidia-gda-sevkiyat",
+   "acilis": "2026-11-26",
+   "olay": "FT: Nvidia, ortaklarına Malezya, Singapur, Tayland ve Endonezya'ya sunucu sevkiyatını durdurmalarını söyledi; Dell ve Supermicro alıcılara siparişlerin çıkmayacağını bildirdi.",
+   "durum": "acik",
+   "eksik": "FT'den bağımsız ikinci kaynak (Reuters/Bloomberg kendi haberi) ya da Nvidia/Dell/Supermicro/BIS açıklaması",
+   "olursa": "Haber kapısı 5 → Olay ve Cevap adayı; nv-3 ve on-abdcin-* soruları yeniden okunur; 'ABD lisans kuralı kapsamında GDA'ya ilk lisans 90 gün içinde verilir mi?' türü kurum sorusu açılabilir.",
+   "bitis": "2026-12-03"
+  },
+  {
+   "id": "tcmb-yerli-altin-alimi",
+   "acilis": "2026-11-26",
+   "olay": "TCMB'nin 26.11'den itibaren yurt içi cevher altını alımına ara verdiği haberi (Cumhuriyet, Sözcü; isimsiz bankacılar).",
+   "durum": "acik",
+   "eksik": "TCMB açıklaması ya da Reuters/Bloomberg haberi",
+   "olursa": "Signals'a Türkiye ekonomisi notu; fiyat etkisi Quant; News'te ancak haber kapısı ≥4 olursa Dosya maddesi.",
+   "bitis": "2026-11-28"
+  },
+  {
+   "id": "husi-ras-tanura-hasar",
+   "acilis": "2026-11-26",
+   "olay": "Husilerin 25.11'de Ras Tanura rafinerisini vurduğu iddiası; Reuters'a bir kişi saldırıyı doğruladı, Suudi/Aramco yorum yok.",
+   "durum": "acik",
+   "eksik": "Suudi hükümeti/Aramco hasar ya da üretim açıklaması veya ikinci bağımsız B katmanı haber",
+   "olursa": "Brent soruları (pk-2026-11-18-brent-100-dokunma, brent-90-yilsonu) LR 1,25–2 ile güncellenir; petrol-akaryakit hikâyesine rüzgâr satırı.",
+   "bitis": "2026-12-02"
   }
  ]
 }
