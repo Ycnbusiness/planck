@@ -975,5 +975,32 @@
    "ai_etiketi": true,
    "facebook": false
   }
+ },
+ {
+  "tarih": "2026-11-26T22:34",
+  "tur": "dosya",
+  "kanal": "news",
+  "klasor": "posts/2026-11-26-gunun-dosyasi",
+  "baslik": "Günün Dosyası · 26 Kasım 2026",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-26T23:00",
+  "sorular": [
+   "pk-2026-11-18-brent-100-dokunma",
+   "pk-2026-11-18-brent-90-yilsonu"
+  ],
+  "editor": {
+   "hukum": "YAYINLA",
+   "duzeltmeler": [
+    "BRENT HATASI: 25.11 tarama ve gönderisindeki 'Brent ≈87,5 $' yanlış; 25.11 kapanış 94,61 $ (CNBC/Nation Thailand, FinanceFeeds, piq). Sicilde Motor yeniden hesabı: brent-100 %31→%69, brent-90 %55→%33. Dosya maddesine 'Düzeltme' cümlesi eklendi.",
+    "Cizan (Arab News, JPost) ve Kushner (Meduza, Ukrayinska Pravda) doğrulandı",
+    "21:00 yuvası onay beklemesiyle kaçtı → 23:00"
+   ]
+  },
+  "instagram": {
+   "hesap": "@planck.news",
+   "format": "carousel 5 sayfa",
+   "ai_etiketi": true,
+   "facebook": false
+  }
  }
 ]

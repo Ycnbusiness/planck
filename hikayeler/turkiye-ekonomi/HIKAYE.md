@@ -1,32 +1,37 @@
 # Türkiye ekonomisi: enflasyon, faiz, ücret, enerji tarifeleri
 
-Alan: türkiye ekonomisi · Açılış: 2026-11-23 · Durum: süren
+Alan: türkiye ekonomisi · Açılış: 2026-11-23 · Durum: süren · Geriye dönük dolduruldu: 2026-11-26 (akşam turu)
 
 ## Özet (her güncellemede yeniden yazılır, 3–5 cümle)
-TCMB Ekim'de politika faizini %37'den %36'ya indirdi; Kasım Piyasa Katılımcıları Anketi Aralık için %35 bekliyor. Kasım'ın ikinci yarısında dış koşullar sertleşti: ABD'de çekirdek PCE 2023'ten beri en yüksek seviyeye çıktı, Fed'in 8–9 Aralık'ta faiz artırması büyük ölçüde fiyatlanıyor. 25 Kasım'da BIST 100 %2,83, banka endeksi %4,46 düştü; rezervlerde düşüş haberleri var. Karar 3 Aralık Kasım TÜFE'si ile netleşecek.
+TCMB'nin Aralık'ta indirim döngüsünü sürdürüp sürdürmeyeceği, dış koşulların sertleşmesiyle belirsizleşti. Fed'in artırıma yönelmesi ve küresel teknoloji satışıyla BIST 100 25.11'de %2,83 düştü (banka endeksi −%4,46). Akaryakıtta Brent düşüşüyle gelen iki indirim (20.11 ve 26.11) 1 Aralık ve 1 Ocak ÖTV artışlarıyla kısmen geri gelecek. Asgari ücret ve Kasım TÜFE (3 Aralık) Aralık kararının ana girdileri.
 
 ## Aktörler (ekip/GUC-OKUMA.md §1)
 | Aktör | Rolü (karar verir / engeller / etkiler) | Ne kazanır, ne kaybeder | Yön | Güç (1–3) |
 |---|---|---|---|---|
-| TCMB Para Politikası Kurulu | karar verir | İndirimle büyümeye nefes; erken indirimle kur ve rezerv baskısı riski | belirsiz (anket yönünde indirim eğilimli) | 3 |
-| Fed (FOMC) | etkiler (dış koşul) | Enflasyonla mücadele; artırım gelişmekte olan ülkelere giden parayı azaltır | indirime karşı | 2 |
-| Yabancı yatırımcı / portföy akımı | etkiler | Yüksek gerçek faiz getirisi; risk primi artarsa çıkış | indirime karşı (kısa vadede) | 2 |
-| Hazine ve Maliye Bakanlığı | etkiler | Borçlanma maliyetinin düşmesi; dezenflasyon programının güvenilirliği | indirimden yana, temkinli | 1 |
+| TCMB | karar verir | Dezenflasyon itibarı; rezerv ve kur istikrarı | ± | 3 |
+| Hazine / Maliye | karar verir (vergi) | Gelir; ÖTV artışı akaryakıt indirimini emer | − (halka indirim yansımasına) | 3 |
+| Fed / küresel faiz | etkiler | Dış finansman maliyeti | − | 2 |
+| Yabancı yatırımcı | etkiler | Taşıma getirisi | ± | 2 |
 
 ## Rüzgâr kaydı (her yeni haber bir satır; bedelli sinyal ağır)
 | Tarih | Kim | Ne (kendi cümlemizle) | Yön | Bedel | Ağırlık | Kaynak |
 |---|---|---|---|---|---|---|
-| 2026-11-20 | TCMB haftalık veri | 13 Kasım haftasında rezervlerde ≈2,11 milyar $ düşüş | indirime karşı | bedelli (rezerv kullanımı) | zayıf | TCMB, basın |
-| 2026-11-25 | Aracı kurum bülteni (A1 Capital) | TCMB'nin indirim alanının daralabileceği değerlendirmesi | indirime karşı | bedelsiz (yorum) | zayıf | Hibya |
-| 2026-11-25 | Borsa İstanbul | BIST 100 %2,83 düştü (10.655,74), banka endeksi %4,46; ABD verisi sonrası küresel satış | TCMB indirim alanı daralır yönünde | bedelli (piyasa fiyatı) | zayıf | Referans Gazetesi (AA), Ekotürk |
+| 2026-11-20 | Piyasa/EPDK | Motorine ≈6,5 TL indirim (İstanbul 88,80 TL) | + | orta | düşük | Bloomberg HT, Habertürk |
+| 2026-11-25 | Borsa İstanbul | BIST 100 −%2,83 (10.655), banka −%4,46 | − | orta | orta | AA, Memurlar.net |
+| 2026-11-26 | Piyasa | Motorine 4,32 TL indirim (≈84,58 TL); ÖTV 1 Aralık 9→12 TL | ± | orta | düşük | Timeturk, Cumhuriyet |
 
 ## Denge
-26.11: Karar vericinin kendi yönlendirmesi ve anket hâlâ Aralık indirimini (%35) gösteriyor; buna karşı rüzgâr yalnız dış koşullardan ve piyasa fiyatından geliyor (Fed artırımı, banka hisselerinde satış, rezerv haberleri). Kurulun indirim yönünden çıktığına dair bedelli bir sinyal yok. Denge hâlâ indirimden yana ama zayıfladı → %65'ten %60'a.
+Belirsiz: iç veri (henüz yok) ile dış sertleşme çekişiyor. TCMB-aralık-35 %60; denge 3 Aralık TÜFE'si ile netleşir.
 
 ## Yarışan açıklamalar (2–3 hipotez; hangisi güçleniyor)
-1. İç enflasyon belirler: Kasım TÜFE'si beklentiye yakınsa TCMB takvimi sürdürür (hâlâ ağır basıyor).
-2. Dış para belirler: Fed artırımı ve rezerv kaybı TCMB'yi küçük adıma ya da duraklamaya iter (26.11'de güçlendi).
+1. **Planlı indirim sürer** (iç veri iyi gelirse; %60).
+2. **Temkinli küçük adım** (dış sertleşme).
+3. **Duraklama** (rezerv kaybı ya da TÜFE sürprizi).
 
 ## Bağlar (kanıtlı / çelişkili / yapısal)
+- **Kanıtlı:** [[abd-ekonomi-fed]] (Fed artışı).
+- **Kanıtlı:** [[petrol-akaryakit]] (pompa fiyatı, ÖTV).
+- **Yapısal:** [[yz-ekonomisi]] (küresel risk iştahı).
 
 ## Analist notu (en son akşam turu)
+26.11: Dikkat — 25.11 motorin gönderisindeki Brent 87,5 $ hatası Brent sorularını etkiledi (düzeltildi); motorin-90 sorusu pompa fiyatıyla hesaplandığı için doğrudan değişmedi ama Brent'in 95 $ civarında kalması 31 Ocak sorusunu aşağı itebilir: yarın sabah turunda Motor yeniden hesabı.

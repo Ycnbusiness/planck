@@ -9,7 +9,7 @@ Her haber bir hikâyeye bağlanır; yoksa yeni hikâye açılır (TARAMA §0a). 
 | [ABD–İran savaşı, Körfez ve Hürmüz](abd-iran-savasi/HIKAYE.md) | jeopolitik | 5 açık / 5 | 7 | 2026-11-26 |
 | [ABD'de demokratik kurumlar ve basın özgürlüğü](abd-kurumlar/HIKAYE.md) | göç ve toplum | 2 açık / 2 | 0 | 2026-11-23 |
 | [ABD tarifeleri ve küresel ticaret](abd-tarifeler/HIKAYE.md) | Ekonomi | 1 açık / 1 | 1 | 2026-11-25 |
-| [Asya piyasalarında satış ve müdahaleler](asya-piyasalar/HIKAYE.md) | şirketler/piyasa | 0 açık / 0 | 1 | 2026-11-23 |
+| [Asya piyasalarında satış ve müdahaleler](asya-piyasalar/HIKAYE.md) | şirketler/piyasa | 0 açık / 0 | 1 | 2026-11-26 |
 | [Süper El Niño ve gıda fiyatları](el-nino-gida/HIKAYE.md) | iklim | 2 açık / 2 | 0 | 2026-11-23 |
 | [Fransa'da bütçe ve hükümet krizi](fransa-siyaset/HIKAYE.md) | göç ve toplum | 2 açık / 2 | 0 | 2026-11-23 |
 | [İklim: COP31 Antalya ve küresel müzakereler](iklim-cop31/HIKAYE.md) | iklim | 0 açık / 0 | 2 | 2026-11-23 |

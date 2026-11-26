@@ -6,7 +6,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 
 **Yöntem v2.2 (21.11, Yusuf):** 21.11 sabah: Nvidia Olay ve Cevap (11:00) + dokuz alanlı portföy için en az 15 yeni soru (her alanda ≥3 hedefi; Anayasa §2) — 22.11: 4 açıldı (uzay 2, iklim 1, sağlık 1); kalan 11: uzay 1, iklim 2, sağlık 2, göç-toplum 3, teknoloji 1, şirketler 1, jeopolitik 1. açık soru 64 (endeks hariç, tavan 70) · [x] 18–19.11 olaylarını haber kapısıyla yeniden puanla (21.11: `ekip/AB-TEST-2-v22.md`).
 
-**Hikâye klasörleri (Yusuf 23.11):** 19 hikâye açıldı (`hikayeler/INDEX.md`); Nvidia dolu; 23.11 akşam: abd-iran-savasi, petrol-akaryakit, iklim-cop31 dolduruldu (4/19). 25.11 akşam: rusya-ukrayna, rusya-nato-deniz, yz-ekonomisi (7/20). Akşam turları her gün en az 3 hikâyenin Özet/Aktörler/Rüzgâr kaydını 10–23 Kasım sinyallerinden geriye dönük doldurur, hepsi bitene kadar.
+**Hikâye klasörleri (Yusuf 23.11):** 19 hikâye açıldı (`hikayeler/INDEX.md`); Nvidia dolu; 23.11 akşam: abd-iran-savasi, petrol-akaryakit, iklim-cop31 dolduruldu (4/19). 25.11 akşam: rusya-ukrayna, rusya-nato-deniz, yz-ekonomisi (7/20). 26.11 akşam: abd-ekonomi-fed, turkiye-ekonomi, asya-piyasalar (10/20). Akşam turları her gün en az 3 hikâyenin Özet/Aktörler/Rüzgâr kaydını 10–23 Kasım sinyallerinden geriye dönük doldurur, hepsi bitene kadar.
 
 **Takvim (18.11 Yusuf uyarısı sonrası):** 19.11 kare dizisi + künye + Olay ve Cevap v2 betiği, örnek Yusuf'a · 20.11 risk-catisma düzeltmesi + nv-1 taslağı · 21.11 taban ölçümü Story'leri. Her tur en az bir maddeyi bitirir ve Yusuf'a yazar.
 - [x] 16.11 · 10–16 Kasım sinyallerinde S×K geriye dönük hesaplandı (`ekip/AB-TEST-1.md`). Eşikler kalır; S kısa vadeli soruda ölçülür, 2031 endeksinde değil.

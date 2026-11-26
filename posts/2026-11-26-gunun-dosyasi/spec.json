@@ -5,10 +5,10 @@
   {
    "tag": "Kızıldeniz",
    "title": "Husiler bir günde ikinci Suudi rafinerisini hedef aldı",
-   "text": "Suudi öncülüğündeki koalisyon, Husilerin 26 Kasım'da Aramco'nun Cizan rafinerisine saldırdığını ve Hudeyde'de bir füze fırlatma rampasını vurduğunu açıkladı; bu, Ras Tanura'ya yönelik saldırı iddiasından bir gün sonra geldi. Hasar ve üretim etkisi açıklanmadı, Brent varil başına 94 dolar civarında.",
+   "text": "Suudi öncülüğündeki koalisyon, Husilerin 26 Kasım'da Aramco'nun Cizan rafinerisine saldırdığını açıkladı; Ras Tanura iddiasından bir gün sonra. Hasar açıklanmadı. Brent 25 Kasım'ı 94,6 dolardan kapattı. Düzeltme: dün Brent'i 87,5 dolar yazmıştık; yanlıştı, sayılarımızı yeniden hesapladık.",
    "risk": "Brent petrol, 31 Aralık 2026'ya kadar herhangi bir günde 100 doların üstünde kapanır mı?",
-   "from": 28,
-   "to": 31,
+   "from": 31,
+   "to": 69,
    "deadline": "31.12.2026",
    "pq": "İstanbul'da motorin litre fiyatı 31 Ocak 2027'de 90 TL'nin altında olur mu?",
    "pp": 38,

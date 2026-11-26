@@ -2155,7 +2155,7 @@
    ],
    "on_otopsi": "Yanılırsak: Hürmüz/ABD–İran tarafında beklenmedik ateşkes ya da tersine arz kesintisi.",
    "motor": 59.0,
-   "p": 55,
+   "p": 33,
    "ilk_p": 42,
    "durum": "acik",
    "sonuc": null,
@@ -2184,6 +2184,12 @@
      "p": 55,
      "motor": 59.0,
      "neden": "26.11 akşam: Suudi rafinerilerine art arda Husi saldırısı; LR 0,92."
+    },
+    {
+     "t": "2026-11-26",
+     "p": 33,
+     "motor": 59.0,
+     "neden": "DÜZELTME (26.11 akşam turu): 25.11 güncellemesindeki 'Brent ≈87,5 $' yanlıştı; Brent 25.11'de 94,61 $'dan kapandı (CNBC, Nation Thailand), 26.11 gün içi ≈95,6 $ (FinanceFeeds). Kesin girdi istisnası (Anayasa §3): Motor yeniden hesabı spot 95,6, σ %50, 35 gün → %35; Claude −2 (Husi–Suudi saldırı dizisi, 29.11 OPEC+) → %33. Eski sayılar (57, 55) kayıtta kalır ve puanlanır."
     }
    ]
   },
@@ -2533,7 +2539,7 @@
    ],
    "on_otopsi": "Yanılırsak: oynaklık varsayımı yanlış (savaş primi sönümlendiyse düşük, yeni arz şokunda yüksek).",
    "motor": 25.0,
-   "p": 31,
+   "p": 69,
    "ilk_p": 52,
    "durum": "acik",
    "sonuc": null,
@@ -2562,6 +2568,12 @@
      "p": 31,
      "motor": 25.0,
      "neden": "26.11 akşam: Husilerin Ras Tanura'dan bir gün sonra Aramco Cizan rafinerisini hedef alması (koalisyon açıklaması, Reuters/Arab News); hasar açıklanmadı. Arz riski sürüyor, LR 1,15."
+    },
+    {
+     "t": "2026-11-26",
+     "p": 69,
+     "motor": 25.0,
+     "neden": "DÜZELTME (26.11 akşam turu): 25.11'deki 'Brent ≈87,5 $' yanlıştı; 25.11 kapanış 94,61 $, 26.11 ≈95,6 $ (eşik +%4,6). Motor yeniden hesabı: σ %40, 35 gün, bariyer + günlük kapanış düzeltmesi → ≈%66; Claude +3 (Hürmüz/Husi saldırıları, OPEC+) → %69. Kesin girdi istisnası."
     }
    ]
   },
