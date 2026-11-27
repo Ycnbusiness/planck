@@ -13,6 +13,7 @@ _Doldurulacak._
 | Tarih | Kim | Ne (kendi cümlemizle) | Yön | Bedel | Ağırlık | Kaynak |
 |---|---|---|---|---|---|---|
 | 23–24.11.2026 | ABD yetkilileri | 50'ye kadar ticari geminin hacklenmesinde İran bağlantısı araştırılıyor; Fortinet yönlendirici açığı; atıf yok | yukarı (atıf süreci) | bedelsiz (soruşturma) | orta | WSJ aktarımı: NPR, heise |
+| 2026-11-25 | FinCEN (ABD Hazine) | Sistemlerin bir kısmına yetkisiz erişim doğrulandı, bazı sistemler kapatıldı; atıf yok | kamu kurumlarına saldırı ↑ | bedelli | zayıf | ABC News, Help Net Security, Federal News Network |
 
 ## Denge
 _Olumlu / olumsuz hangisi ağır basıyor ve neden._

@@ -1,0 +1,42 @@
+[
+ {
+  "saat": "11:00",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-27-mekke-savunma",
+  "baslik": "Türkiye, Mekke Savunma Anlaşması'nın onayını tamamladı",
+  "onem": 2.11,
+  "onem_eski": 54,
+  "durum": "hazir",
+  "not": "EDİTÖR BEKLET: Yayın turu 27.11.2026 Resmî Gazete (sayı 33443, Mekke Anlaşması onay kararı) sayfasını resmigazete.gov.tr'de açıp doğrulamadan yayınlamaz. Doğrulanırsa 11:00 (Reel 13:00); 17:00'ye kadar doğrulanmazsa düşer, olay Dosya'ya iner. 'Yürürlüğe girdi' deme (m.16 tevdi teyitsiz).",
+  "editor": "BEKLET (≤6 saat) → DÜZELT maddeleri uygulandı"
+ },
+ {
+  "saat": "13:00",
+  "tur": "olay-cevap-reel",
+  "klasor": "posts/2026-11-27-mekke-savunma",
+  "dosya": "reel.mp4",
+  "onem": 2.11,
+  "durum": "hazir",
+  "not": "Ana gönderiyle aynı koşul."
+ },
+ {
+  "saat": "15:00",
+  "tur": "story",
+  "klasor": "posts/2026-11-27-kasim-enflasyon-story",
+  "dosya": "reel.mp4",
+  "baslik": "İki anket: Kasım enflasyonu yeniden %30'un üstünde bekleniyor",
+  "onem": 1.2,
+  "onem_eski": 60,
+  "durum": "hazir",
+  "not": "MBS video takılırsa story.png yükle.",
+  "editor": "DÜZELT → düzeltildi"
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-27-gunun-dosyasi",
+  "baslik": "AB zirvesinden bütçe anlaşması çıkmadı",
+  "onem": 0,
+  "durum": "veri hazır (data/dosya/2026-11-27.json); akşam görevi üretir"
+ }
+]

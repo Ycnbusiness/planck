@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -2084,7 +2084,7 @@
    ],
    "on_otopsi": "Yanılırsak: gıda/enerji yönetilen fiyat adımı Kasım'a kaydıysa ya da anket ortalaması Kasım'ı düşük, Aralık'ı yüksek bölüştürdüyse.",
    "motor": 45,
-   "p": 45,
+   "p": 55,
    "ilk_p": 45,
    "durum": "acik",
    "sonuc": null,
@@ -2095,6 +2095,12 @@
      "p": 45,
      "motor": 45,
      "neden": "açılış (pilot hafta 1, kısa vadeli soru havuzu)"
+    },
+    {
+     "t": "2026-11-27",
+     "p": 55,
+     "motor": 45,
+     "neden": "27.11: Bloomberg HT (16 kurum, 26.11) Kasım yıllık TÜFE beklentisi %30,10 (aralık 29,70–30,30), Matriks (19 kurum) medyan %30,07; aylık medyan %1,10. Eşik ≈ aylık %1,05'e denk; iki bağımsız anket eşiğin hemen üstünde. LR 1,5 (orta-zayıf). Tek geçiş (Story düzeyi)."
     }
    ]
   },
@@ -2888,6 +2894,37 @@
      "t": "2026-11-25",
      "p": 35,
      "motor": null,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-27-tbmm-suudi-tezkere",
+   "kanal": "news",
+   "tur": "olay",
+   "q": "TBMM, 25 Şubat 2027'ye kadar Türk Silahlı Kuvvetleri unsurlarının Suudi Arabistan'a gönderilmesine izin veren bir tezkereyi ya da kanunu kabul eder mi?",
+   "acilis": "2026-11-27",
+   "deadline": "2027-02-25",
+   "kriter": "TBMM Genel Kurulu'nun 25.02.2027 dahil bu tarihe kadar, TSK unsurlarının Suudi Arabistan'a gönderilmesine ya da orada görevlendirilmesine açıkça izin veren bir tezkereyi (Anayasa m.92) ya da kanunu kabul etmesi. Yalnız Mekke Anlaşması kapsamında eğitim/danışma protokolü, tatbikat ya da tezkeresiz personel görevlendirmesi HAYIR sayılır.",
+   "kaynak_cozum": "TBMM Genel Kurul tutanağı / Resmî Gazete; AA, Reuters",
+   "taban": "Emsal sınıfı: Türkiye'nin onayladığı savunma/güvenlik anlaşmalarından sonra 3 ay içinde o ülkeye yeni asker tezkeresi (Katar 2015 onay → 2017 kriz kanunu; Libya 2019 mutabakat → Ocak 2020 tezkere; Somali; Azerbaycan Şuşa 2021): 4'te 1, o tek örnekte doğrudan kriz ve talep vardı. Küçük örnek, aşağı doğru daraltma → Motor %20. Üç geçiş: dış görünüm 11, iç görünüm 22, karşı görüş 9 → medyan 11. Etiket: kuyruk.",
+   "mercekler": [
+    "uluslararası ilişkiler",
+    "oyun teorisi",
+    "tarih"
+   ],
+   "on_otopsi": "Yanılırsak: Husi ya da İran saldırıları Suudi sivil altyapısında büyük kayba yol açar, Riyad resmen yardım ister ve hükümet hava savunma unsuru için hızlı bir tezkere getirir (Libya 2020 gibi bir haftada).",
+   "motor": 20,
+   "p": 11,
+   "ilk_p": 11,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-27",
+     "p": 11,
+     "motor": 20,
      "neden": "açılış"
     }
    ]

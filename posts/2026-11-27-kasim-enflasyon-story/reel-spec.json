@@ -1,0 +1,17 @@
+{
+ "week": "2026-W48",
+ "tag": "Enflasyon",
+ "title": "İki anket: Kasım enflasyonu yeniden %30'un üstünde bekleniyor",
+ "text": "Bloomberg HT (16 kurum) yıllık %30,10, Matriks (19 kurum) %30,07 bekliyor; aylık beklenti %1,10. TÜİK 3 Aralık'ta açıklayacak.",
+ "risk": "TÜİK'in 3 Aralık'ta açıklayacağı Kasım yıllık TÜFE %30,00'ın üstünde mi olacak?",
+ "rl": "ETKİLENEN SORU · SON TARİH 03.12.2026",
+ "from": 45,
+ "to": 55,
+ "why": "İki bağımsız anket eşiğin hemen üstünde; aylık %1,05'in üstü yeterli.",
+ "pl": "SIRADAKİ EŞİK · SON TARİH 12.12.2026",
+ "pq": "TCMB Aralık toplantısında politika faizini %35 ya da altına indirir mi?",
+ "pp": 60,
+ "yuz": true,
+ "kunye": "Tarama ve hesap: Claude · Yatırım tavsiyesi değildir",
+ "cta": "Soru 3 Aralık'ta kapanır, karnede puanlanır · @planck.news"
+}

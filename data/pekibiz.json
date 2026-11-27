@@ -269,6 +269,31 @@
      "olay": "kushner-gorusme-tikandi"
     }
    ]
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-27",
+   "tema": "Olay ve Cevap · 27 Kasım",
+   "items": [
+    {
+     "id": "pk-2026-11-27-tbmm-suudi-tezkere",
+     "alan": "Uluslararası İlişkiler",
+     "q": "TBMM, 25 Şubat 2027'ye kadar Türk Silahlı Kuvvetleri unsurlarının Suudi Arabistan'a gönderilmesine izin veren bir tezkereyi ya da kanunu kabul eder mi?",
+     "p": 11,
+     "lab": "Motor %20 · Claude −9",
+     "deadline": "2027-02-25",
+     "olay": "mekke-savunma-onay"
+    },
+    {
+     "id": "pk-2026-11-18-tufe-kasim-30",
+     "alan": "Ekonomi",
+     "q": "TÜİK'in 3 Aralık'ta açıklayacağı Kasım 2026 yıllık TÜFE %30,00'ın üstünde mi olacak?",
+     "p": 55,
+     "lab": "Motor %45 · LR 1,5 (anketler)",
+     "deadline": "2026-12-03",
+     "olay": "kasim-tufe-beklenti"
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,226 @@
+{
+ "date": "2026-11-27",
+ "scan_window": "2026-11-26 sabah → 2026-11-27 sabah TSİ",
+ "yontem": "Yöntem v2.2 (TARAMA.md), olaycevap2 + senaryo + uzman sayfası. Görev metnindeki eski önem formülü (|Δ|×TR×etki) 'onem_eski' alanında.",
+ "hakem": {
+  "vadesi_gelen": [],
+  "kapanan": [],
+  "not": "sicil.py vadesi boş."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 2,
+  "yesil": 3,
+  "zayif": 3,
+  "not": "Ana akış: Mekke Savunma Anlaşması onayı (yeni soru, kuyruk etiketi, %11). Story: Kasım TÜFE beklentisi (45→55). Dosya: AB zirvesi/Ukrayna, FinCEN siber olayı, Husi–Cizan. 2031 olasılıkları değişmedi."
+ },
+ "events": [
+  {
+   "id": "mekke-savunma-onay",
+   "class": "SARI",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 91,
+   "to": 91,
+   "sorular": {
+    "pk-2026-11-27-tbmm-suudi-tezkere": [
+     null,
+     11
+    ]
+   },
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 0,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.7,
+   "K": 3,
+   "onem": 2.11,
+   "turkiye_bagi": 2,
+   "onem_eski": "Yeni soru: |Motor 20 → 11 = 9| × TR 2 × etki 3 = 54",
+   "event": "Türkiye–Pakistan–Suudi Arabistan Mekke Ortak Savunma Anlaşması'nın Cumhurbaşkanı onay kararı 27.11 Resmî Gazete'de (sayı 33443). TBMM onayı 5.11, onay kanunu 14.11. Madde 2: dış silahlı saldırı hepsine saldırı sayılır. Aynı hafta Suudi Enerji Bakanlığı Cizan rafinerisine 26.11 isabette 1 ölü, operasyonlarda kısmi duruş açıkladı. Yürürlük (m.16: son onay belgesinin tevdii) teyit edilmedi; NTV 'yürürlüğe girdi' yazdı, içerikte 'Türkiye onay sürecini tamamladı' denir.",
+   "rationale": "Hukuki çerçeve tamamlandı, Suudi altyapısına saldırılar sürüyor; ama sunulmuş tezkere, Suudi resmî talebi yok ve Dışişleri sınırları çizdi. Yeni soru açıldı: Motor 20 (emsal 4'te 1, daraltılmış), Claude −9; üç geçiş 11/22/9 → medyan 11. Açılış bandı altı → 'kuyruk' etiketi. K=3: Suudi Arabistan'da yaşayan ve umreye giden okurun güvenliği/seyahati. Güç Okuma: hikayeler/mekke-savunma-pakti.",
+   "sources": [
+    "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127.htm",
+    "https://www.aksamhaberleri.com.tr/haber/29232774/mekke-ortak-savunma-anlasmasi-onaylandi-resmi-gazete-27-kasim-2026",
+    "https://www.ensonhaber.com/mekke-anlasmasi-onaylandi-resmi-gazetede-yayimlandi-h1586014",
+    "https://www.gencgazete.net/27-kasim-2026-resmi-gazete-kararlari-yayimlandi-ortak-savunma-anlasmasi-gecikme-zammi-ve-yeni-yonetmelikler",
+    "https://www.aa.com.tr/tr/gundem/mekke-anlasmasinin-onaylanmasinin-uygun-bulunduguna-dair-kanun-resmi-gazetede/4124780",
+    "https://www.arti5tv.com/haber/turkiye-pakistan-ve-suudi-arabistan-arasindaki-mekke-savunma-anlasmasi-onaylandi-ilk-10-yil-ayrilik-yok-12637",
+    "https://tr.euronews.com/2026/11/05/mekke-anlasmasi-tbmmde-ilk-madde-kabul-edildi-asker-gonderme-yetkisi-tartisiliyor",
+    "https://www.middleeasteye.net/news/turkey-moves-closer-saudi-troop-deployment-parliament-approves-mecca-defence-pact",
+    "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+   ],
+   "yonlendirme": "Olay ve Cevap 11:00 + Reel 13:00 (posts/2026-11-27-mekke-savunma)",
+   "editor": "BEKLET (A katmanı: 27.11 Resmî Gazete sayısı bulut ortamından açılamadı; olgu çok sayıda bağımsız Türk kaynağında) + DÜZELT maddeleri uygulandı (soru metni sicille eşitlendi, 'tezkere gerekir' olgu dilinden çıkarıldı, Cizan 'geçici', komite ilk toplantısı 31.08, kuyruk etiketi, reel künye)."
+  },
+  {
+   "id": "kasim-tufe-beklenti",
+   "class": "SARI",
+   "risk": "türkiye ekonomisi (2031 riski yok)",
+   "delta": 0,
+   "from": 47,
+   "to": 47,
+   "sorular": {
+    "pk-2026-11-18-tufe-kasim-30": [
+     45,
+     55
+    ]
+   },
+   "lr": 1.5,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.4,
+   "K": 3,
+   "onem": 1.2,
+   "turkiye_bagi": 2,
+   "onem_eski": "|Δ 10| × TR 2 × etki 3 = 60",
+   "event": "Bloomberg HT (16 kurum, 26.11) Kasım yıllık TÜFE beklentisi %30,10 (29,70–30,30), aylık %1,10; Matriks (19 kurum) medyan %30,07. Ekim yıllık %29,77. TÜİK 3.12 10:00'da açıklayacak.",
+   "rationale": "Eşik yaklaşık aylık %1,05'e denk; iki bağımsız anket eşiğin hemen üstünde, TCMB anketi (13.11, %1,09) zaten biliniyordu → LR 1,5 (45→55). S×K 1,2 → Story (günde 1 Olay ve Cevap kuralı).",
+   "sources": [
+    "https://www.bloomberght.com/piyasa-enflasyonun-yeniden-yuzde-30un-uzerine-cikmasini-bekliyor-3795728",
+    "https://www.yenisafak.com/galeri/ozgun/kasim-2026-enflasyon-beklentisi-yuzde-kac-oldu-tuik-kasim-ayi-enflasyon-orani-ne-zaman-aciklanacak-4876895",
+    "https://paratic.com/enflasyon-yeniden-yuzde-30u-asabilir-ekonomistlerin-tahmini-aciklandi/"
+   ],
+   "yonlendirme": "Story Reel (posts/2026-11-27-kasim-enflasyon-story)",
+   "editor": "DÜZELT → düzeltildi (başlık 'bekleniyor', story.png soru karesinden)."
+  },
+  {
+   "id": "ab-zirvesi-butce-ukrayna",
+   "class": "YEŞİL",
+   "risk": "avrupa",
+   "delta": 0,
+   "from": 67,
+   "to": 67,
+   "sorular": {
+    "on-catisma-rusya-ateskes": [
+     12,
+     12
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "0",
+   "event": "26.11 Brüksel özel zirvesi: 2028–2034 AB bütçesinde (Costa uzlaşı önerisi ≈%10 kesinti) ve Ukrayna'ya 45 milyar avroluk ortak borç kredisinde anlaşma çıkmadı; konu 17–18 Aralık zirvesine kaldı. Zirve sabahına karşı (26.11 gecesi) Rusya balistik füze ve 113 İHA ile saldırdı (Harkiv'de 3 ölü, Kiev'de 7 yaralı).",
+   "rationale": "Beklenen ayrışma; ateşkes sorusu yönünde yeni bilgi yok → LR 1.",
+   "sources": [
+    "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+    "https://euobserver.com/252027/eu-leaders-leave-brussels-with-no-budget-deal-piling-pressure-on-christmas-summit/",
+    "https://www.usnews.com/news/world/articles/2026-11-26/eu-leaders-aim-for-budget-deal-before-the-end-of-the-year-merz-says",
+    "https://euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00",
+   "editor": "DÜZELT → düzeltildi"
+  },
+  {
+   "id": "fincen-siber",
+   "class": "YEŞİL",
+   "risk": "siber",
+   "delta": 0,
+   "from": 48,
+   "to": 48,
+   "sorular": {
+    "on-siber-yeni-devlet-atfi": [
+     55,
+     55
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "onem_eski": "0",
+   "event": "ABD Hazine'ye bağlı FinCEN, 25.11'de sistemlerinin bir kısmına yetkisiz erişim olduğunu doğruladı ve bazı sistemleri önlem olarak kapattı; BSA e-dosyalama açık, atıf yok.",
+   "rationale": "Atıf yok, kritik altyapı değil; eğilimi doğrulayan olay → LR 1.",
+   "sources": [
+    "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
+    "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+    "https://federalnewsnetwork.com/cybersecurity/2026/11/treasury-fincen-systems-latest-to-be-hit-by-cyber-incident/"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00",
+   "editor": "DÜZELT → düzeltildi"
+  },
+  {
+   "id": "husi-cizan-olu",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "sorular": {
+    "pk-2026-11-18-brent-100-dokunma": [
+     69,
+     69
+    ]
+   },
+   "lr": 1.05,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 0,
+    "acik_uc": 1,
+    "puan": 3
+   },
+   "S": 0,
+   "K": 3,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "onem_eski": "0",
+   "event": "Suudi Enerji Bakanlığı: 26.11 Cizan rafinerisine isabette 1 işçi öldü, bazı operasyonlar durdu. Brent haftayı ≈96 $ ile kazançla kapatıyor; OPEC+ bakanlar toplantısı 29.11.",
+   "rationale": "Dünkü Dosya'da işlendi; yeni bilgi (ölü, duruş) 26.11 akşam düzeltmesinde fiyatlandı → LR 1,05 işlenmez. Mekke gönderisinin bağlamına girdi.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+    "https://leprivatebanker.com/2026/11/27/oil-heads-for-weekly-gain-as-houthi-strikes-on-saudi-sites-reverse-a-three-month-low-before-opec-meeting/"
+   ],
+   "yonlendirme": "Mekke gönderisinde bağlam; ayrıca yayın yok"
+  }
+ ],
+ "zayif": [
+  {
+   "id": "sap-yz-kesinti",
+   "olay": "Bloomberg: SAP yapay zekâ yeniden yapılanmasında en az 10.000 kadro kesintisini değerlendiriyor (26.11).",
+   "neden": "Tek kaynak (Bloomberg), karar değil değerlendirme.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+   ]
+  },
+  {
+   "id": "jpm-yz-24-milyon",
+   "olay": "JP Morgan raporu: yapay zekâ beş yılda küresel 24 milyon bilgi işçisi işini riske atabilir.",
+   "neden": "Model tahmini, olay değil; tek aktarım.",
+   "sources": [
+    "https://aninews.in/news/business/ai-may-put-24-million-knowledge-worker-jobs-at-risk-globally-over-five-years-jp-morgan20261127075515"
+   ]
+  },
+  {
+   "id": "trump-putin-gorusme",
+   "olay": "Trump, Putin'le görüştüğünü ve Avrupa'daki askerî baskıyı durdurmasını istediğini söyledi (26.11).",
+   "neden": "Görüşme içeriği tek taraflı beyan; Kremlin teyidi bulunamadı.",
+   "sources": [
+    "https://www.washingtontimes.com/news/2026/nov/26/trump-tells-putin-pull-back-military-aggression-europe-negotiate-deal/",
+    "https://pravda.com.ua/eng/news/2026/11/26/8064838"
+   ]
+  }
+ ]
+}

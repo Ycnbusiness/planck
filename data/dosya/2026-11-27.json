@@ -1,0 +1,64 @@
+{
+ "date": "27 KASIM 2026",
+ "lede": "Avrupa bütçede ve Ukrayna kredisinde uzlaşamadı; ABD'nin mali suçlar biriminde siber sızıntı.",
+ "items": [
+  {
+   "tag": "Avrupa",
+   "title": "AB zirvesinden bütçe ve Ukrayna kredisi çıkmadı",
+   "text": "AB liderleri 26 Kasım'daki özel zirvede 2028–2034 bütçesinde anlaşamadı; EUobserver ve Euronews'e göre Ukrayna'ya önerilen 45 milyar avroluk kredi kararı da 17–18 Aralık zirvesine kaldı. Zirve sabahına karşı Rusya'nın füze ve İHA saldırısında Harkiv'de üç kişi öldü.",
+   "risk": "Rusya ile Ukrayna 30 Nisan 2027'ye kadar genel ateşkes ilan eder mi?",
+   "from": 12,
+   "to": 12,
+   "deadline": "30.04.2027",
+   "pq": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+   "pp": 20,
+   "pdo": "Sayılar değişmedi. Bireysel olarak yapılacak yok; izlenecek gösterge 17–18 Aralık AB zirvesi ve Karadeniz'deki saldırılar.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "soru": "on-catisma-rusya-ateskes",
+   "kaynaklar": [
+    "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+    "https://euobserver.com/252027/eu-leaders-leave-brussels-with-no-budget-deal-piling-pressure-on-christmas-summit/",
+    "https://euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+   ],
+   "editor": "DÜZELT → düzeltildi (1. tur)"
+  },
+  {
+   "tag": "Siber",
+   "title": "ABD'nin mali suçlar birimi sistemlerine yetkisiz erişimi inceliyor",
+   "text": "ABD Hazine Bakanlığı'na bağlı Mali Suçlar Birimi (FinCEN), sistemlerinin bir kısmına yetkisiz erişimi incelediğini açıkladı ve bazı sistemleri önlem olarak kapattı. Saldırı henüz kimseye atfedilmedi.",
+   "risk": "Bir AB ya da NATO üyesi hükümet, 31 Ocak 2027'ye kadar kritik altyapıya yönelik yeni bir siber saldırıyı resmen bir devlete atfeder mi?",
+   "from": 55,
+   "to": 55,
+   "deadline": "31.01.2027",
+   "pq": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
+   "pp": 40,
+   "pdo": "Sayılar değişmedi. Şirket ya da kurum hesaplarında iki aşamalı doğrulamayı açmak bu hafta yapılabilecek düşük bedelli bir adım.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "soru": "on-siber-yeni-devlet-atfi",
+   "kaynaklar": [
+    "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
+    "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+    "https://federalnewsnetwork.com/cybersecurity/2026/11/treasury-fincen-systems-latest-to-be-hit-by-cyber-incident/"
+   ],
+   "editor": "DÜZELT → düzeltildi (1. tur)"
+  }
+ ]
+}

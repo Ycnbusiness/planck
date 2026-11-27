@@ -19,6 +19,7 @@ TCMB'nin Aralık'ta indirim döngüsünü sürdürüp sürdürmeyeceği, dış k
 | 2026-11-20 | Piyasa/EPDK | Motorine ≈6,5 TL indirim (İstanbul 88,80 TL) | + | orta | düşük | Bloomberg HT, Habertürk |
 | 2026-11-25 | Borsa İstanbul | BIST 100 −%2,83 (10.655), banka −%4,46 | − | orta | orta | AA, Memurlar.net |
 | 2026-11-26 | Piyasa | Motorine 4,32 TL indirim (≈84,58 TL); ÖTV 1 Aralık 9→12 TL | ± | orta | düşük | Timeturk, Cumhuriyet |
+| 2026-11-26 | Bloomberg HT (16 kurum), Matriks (19 kurum) | Kasım yıllık TÜFE beklentisi %30,10 / %30,07, aylık %1,10 | Kasım %30 üstü ↑ | bedelsiz (anket) | orta | Bloomberg HT, Yeni Şafak/Matriks |
 
 ## Denge
 Belirsiz: iç veri (henüz yok) ile dış sertleşme çekişiyor. TCMB-aralık-35 %60; denge 3 Aralık TÜFE'si ile netleşir.

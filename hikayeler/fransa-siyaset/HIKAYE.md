@@ -12,6 +12,7 @@ _Doldurulacak._
 ## Rüzgâr kaydı (her yeni haber bir satır; bedelli sinyal ağır)
 | Tarih | Kim | Ne (kendi cümlemizle) | Yön | Bedel | Ağırlık | Kaynak |
 |---|---|---|---|---|---|---|
+| 2026-11-26 | AB Konseyi | 2028–2034 bütçesinde ve Ukrayna kredisinde anlaşma çıkmadı; 17–18 Aralık zirvesine kaldı | AB içi ayrışma ↑ | bedelli (zirve sonucu) | zayıf | Euronews, EUobserver, US News/Reuters |
 
 ## Denge
 _Olumlu / olumsuz hangisi ağır basıyor ve neden._
