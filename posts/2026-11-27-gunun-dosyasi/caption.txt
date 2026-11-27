@@ -1,0 +1,12 @@
+Günün Dosyası · 27 Kasım 2026
+
+TCMB faizi değiştirmeden fonlamayı pahalılaştırdı; Avrupa bütçede ve Ukrayna kredisinde uzlaşamadı; ABD'nin mali suçlar biriminde siber sızıntı.
+
+1. TCMB 26 Kasım akşamı bir hafta vadeli repo ihalelerine geçici ara verdi; politika faizi %36'da kaldı ama bankaların TCMB fonlaması %39'luk gecelik faizden yapılıyor. Ekonomistler adımı örtülü faiz artışı olarak okuyor. TCMB'nin Aralık 2026 PPK'da politika faizini %35 ya da altına indirmesi (12.12.2026): %60 → %45 · 100'de 45. Geçmişte benzer 2 durumun 2'sinde sonraki toplantıda indirim gelmedi (az örnek). Ne yapabilirsin: kredi planlıyorsan teklif edilen faizi ve faizin sabit mi değişken mi olduğunu kontrol et. İzlenecek: 3 Aralık enflasyonu, 10 Aralık PPK.
+2. AB liderleri 2028–2034 bütçesinde ve Ukrayna'ya 45 milyar avroluk kredide anlaşamadı; karar 17–18 Aralık zirvesine kaldı. Rusya ile Ukrayna'nın 30 Nisan 2027'ye kadar genel ateşkes ilan etmesi: %12 (değişmedi). Peki biz? Bir görüşme turunun 31 Mart 2027'ye kadar Türkiye'de yapılması: %20.
+3. ABD Hazine'ye bağlı FinCEN sistemlerine yetkisiz erişimi inceliyor; saldırı henüz kimseye atfedilmedi. Bir AB ya da NATO üyesi hükümetin 31 Ocak 2027'ye kadar kritik altyapıya yeni bir siber saldırıyı resmen bir devlete atfetmesi: %55 (değişmedi). Peki biz? Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketinin siber saldırı nedeniyle hizmet aksaması açıklaması: %40.
+
+Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli). İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
+Kaynaklar: TCMB, BloombergHT, Foreks, Para Ajansı, Euronews, EUobserver, ABC News, Help Net Security · Soru kaydı: pk-2026-11-18-tcmb-aralik-35, on-catisma-rusya-ateskes, on-siber-yeni-devlet-atfi · Kimseden fon almıyoruz. Yatırım veya politika tavsiyesi değildir.
+
+#planck #günündosyası

@@ -20,14 +20,15 @@ TCMB'nin Aralık'ta indirim döngüsünü sürdürüp sürdürmeyeceği, dış k
 | 2026-11-25 | Borsa İstanbul | BIST 100 −%2,83 (10.655), banka −%4,46 | − | orta | orta | AA, Memurlar.net |
 | 2026-11-26 | Piyasa | Motorine 4,32 TL indirim (≈84,58 TL); ÖTV 1 Aralık 9→12 TL | ± | orta | düşük | Timeturk, Cumhuriyet |
 | 2026-11-26 | Bloomberg HT (16 kurum), Matriks (19 kurum) | Kasım yıllık TÜFE beklentisi %30,10 / %30,07, aylık %1,10 | Kasım %30 üstü ↑ | bedelsiz (anket) | orta | Bloomberg HT, Yeni Şafak/Matriks |
+| 2026-11-26 ~22:20 | TCMB | bir hafta vadeli repo ihalelerine geçici ara; TL zorunlu karşılık faiz telafisi %86→%90; politika faizi %36 değişmedi, fonlama %39'luk gecelik borç verme faizine (~3 puan yukarı) kaydı | sıkılaştırma (Aralık indirimi aleyhine) | bedelli (bankacılık fonlama maliyeti, kredi faizleri) | orta (LR 0,5) | TCMB DUY2026-51/52; BloombergHT |
 
 ## Denge
-Belirsiz: iç veri (henüz yok) ile dış sertleşme çekişiyor. TCMB-aralık-35 %60; denge 3 Aralık TÜFE'si ile netleşir.
+Belirsiz, sıkılaşma yönüne kaydı (27.11 öğle): TCMB 26.11'de faizi değiştirmeden fonlamayı ~3 puan pahalılaştırdı; haftalık repo arası verilen son iki durumda sonraki PPK'da indirim gelmedi. TCMB-aralık-35 %60→%45 (Motor 48); denge 3 Aralık TÜFE'si ve repo ihalelerinin yeniden başlayıp başlamamasıyla netleşir.
 
 ## Yarışan açıklamalar (2–3 hipotez; hangisi güçleniyor)
-1. **Planlı indirim sürer** (iç veri iyi gelirse; %60).
+1. **Planlı indirim sürer** (iç veri iyi gelirse; %45, 27.11 öğle: repo arası sonrası zayıfladı).
 2. **Temkinli küçük adım** (dış sertleşme).
-3. **Duraklama** (rezerv kaybı ya da TÜFE sürprizi).
+3. **Duraklama** (rezerv kaybı ya da TÜFE sürprizi; 27.11: repo arasıyla güçleniyor).
 
 ## Bağlar (kanıtlı / çelişkili / yapısal)
 - **Kanıtlı:** [[abd-ekonomi-fed]] (Fed artışı).

@@ -1,0 +1,95 @@
+{
+ "date": "27 KASIM 2026",
+ "lede": "TCMB faizi değiştirmeden fonlamayı pahalılaştırdı; Avrupa bütçede ve Ukrayna kredisinde uzlaşamadı; ABD'nin mali suçlar biriminde siber sızıntı.",
+ "items": [
+  {
+   "tag": "Türkiye ekonomisi",
+   "title": "TCMB faizi değiştirmeden fonlamayı pahalılaştırdı",
+   "text": "TCMB 26 Kasım akşamı bir hafta vadeli repo ihalelerine geçici ara verdi. Politika faizi %36'da kaldı, ama fonlama artık %39'luk gecelik faizden yapılıyor; fiilî maliyet yaklaşık 3 puan arttı. Ekonomistler adımı örtülü faiz artışı olarak okuyor. Benzer son iki arada (Mart 2025, Mart 2026) sonraki toplantıda indirim gelmedi.",
+   "risk": "TCMB, Aralık 2026 PPK toplantısında politika faizini %35 ya da altına indirir mi?",
+   "from": 60,
+   "to": 45,
+   "deadline": "12.12.2026",
+   "pdo": "Geçmişte benzer 2 durumun 2'sinde indirim gelmedi (az örnek). Kredi planlayan için bu hafta: teklif edilen faizi ve sabit mi değişken mi olduğunu kontrol etmek. İzlenecek: 3 Aralık enflasyonu, 10 Aralık PPK.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 3,
+   "onem": 2.08,
+   "turkiye_bagi": 2,
+   "soru": "pk-2026-11-18-tcmb-aralik-35",
+   "kaynaklar": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-51",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-52",
+    "https://www.bloomberght.com/tcmb-bir-hafta-vadeli-repo-ihalelerine-gecici-ara-verdi-3795855",
+    "https://www.foreks.com/haber/detay/6b08d37a4b18523914469ea3/PICNEWS/tr/ekonomistler-tcmb-kararini-degerlendirdi-ortulu-faiz-artisi-27-11-26/",
+    "https://paraajansi.com.tr/ekonomi/merkez-bankasi-faizi-degistirmeden-fonlamayi-3-puan-pahalilastirdi-22232100h"
+   ],
+   "editor": "YAYINLA (2. tur; 1. tur DÜZELT uygulandı)",
+   "onemli": true,
+   "ogle": true
+  },
+  {
+   "tag": "Avrupa",
+   "title": "AB zirvesinden bütçe ve Ukrayna kredisi çıkmadı",
+   "text": "AB liderleri 26 Kasım'daki özel zirvede 2028–2034 bütçesinde anlaşamadı; EUobserver ve Euronews'e göre Ukrayna'ya önerilen 45 milyar avroluk kredi kararı da 17–18 Aralık zirvesine kaldı. Zirve sabahına karşı Rusya'nın füze ve İHA saldırısında Harkiv'de üç kişi öldü.",
+   "risk": "Rusya ile Ukrayna 30 Nisan 2027'ye kadar genel ateşkes ilan eder mi?",
+   "from": 12,
+   "to": 12,
+   "deadline": "30.04.2027",
+   "pq": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+   "pp": 20,
+   "pdo": "Sayılar değişmedi. Bireysel olarak yapılacak yok; izlenecek gösterge 17–18 Aralık AB zirvesi ve Karadeniz'deki saldırılar.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "soru": "on-catisma-rusya-ateskes",
+   "kaynaklar": [
+    "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+    "https://euobserver.com/252027/eu-leaders-leave-brussels-with-no-budget-deal-piling-pressure-on-christmas-summit/",
+    "https://euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+   ],
+   "editor": "DÜZELT → düzeltildi (1. tur)"
+  },
+  {
+   "tag": "Siber",
+   "title": "ABD'nin mali suçlar birimi sistemlerine yetkisiz erişimi inceliyor",
+   "text": "ABD Hazine Bakanlığı'na bağlı Mali Suçlar Birimi (FinCEN), sistemlerinin bir kısmına yetkisiz erişimi incelediğini açıkladı ve bazı sistemleri önlem olarak kapattı. Saldırı henüz kimseye atfedilmedi.",
+   "risk": "Bir AB ya da NATO üyesi hükümet, 31 Ocak 2027'ye kadar kritik altyapıya yönelik yeni bir siber saldırıyı resmen bir devlete atfeder mi?",
+   "from": 55,
+   "to": 55,
+   "deadline": "31.01.2027",
+   "pq": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
+   "pp": 40,
+   "pdo": "Sayılar değişmedi. Şirket ya da kurum hesaplarında iki aşamalı doğrulamayı açmak bu hafta yapılabilecek düşük bedelli bir adım.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "soru": "on-siber-yeni-devlet-atfi",
+   "kaynaklar": [
+    "https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822",
+    "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+    "https://federalnewsnetwork.com/cybersecurity/2026/11/treasury-fincen-systems-latest-to-be-hit-by-cyber-incident/"
+   ],
+   "editor": "DÜZELT → düzeltildi (1. tur)"
+  }
+ ]
+}

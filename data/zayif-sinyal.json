@@ -669,6 +669,34 @@
     "https://news.sbs.co.kr/english/article.do?news_id=N1008864795",
     "https://www.koreatimes.co.kr/economy/20261019/bok-poised-to-hold-rates-as-november-hike-remains-in-view"
    ]
+  },
+  {
+   "tarih": "2026-11-27",
+   "id": "kuveyt-italyan-teknisyen",
+   "tema": "İran'ın Körfez'deki ABD üslerine ve gemilere saldırıları",
+   "bagli": [
+    "risk-catisma"
+   ],
+   "olay": "Kuveyt'te hava savunma sahasına İHA saldırısında Rheinmetall için çalışan iki İtalyan teknisyen öldü. Kuveyt ve İtalyan kaynakları saldırıyı İran'a bağladı; İran Dışişleri Bakanı Kuveytli mevkidaşına İran'ın dahli olmadığını söyledi.",
+   "neden_zayif": "Körfez saldırı dizisi teması 17.11'den beri işleniyor (aynı tema ikinci kez kanıt sayılmaz); ≤90 günlük soru oynamıyor. Zayıf Sinyal Defteri.",
+   "kaynaklar": [
+    "https://www.bloomberg.com/news/articles/2026-11-26/iran-attack-on-kuwait-kills-two-italian-rheinmetall-workers",
+    "https://www.thenationalnews.com/news/gulf/2026/11/26/two-italian-workers-killed-in-iranian-drone-attack-on-kuwait/",
+    "https://www.upi.com/Top_News/World-News/2026/11/26/italy-Italians-killed-Kuwait-drone-strike-Iran/1511795749242"
+   ]
+  },
+  {
+   "tarih": "2026-11-27",
+   "id": "karadag-vize-karsilik",
+   "tema": "Türk vatandaşlarına seyahat ve vize kuralları",
+   "bagli": [],
+   "olay": "Türkiye, Karadağ ile vize muafiyeti anlaşmasının umuma mahsus pasaport hükümlerini askıya aldı (Cumhurbaşkanı kararı, 27.11 Resmî Gazete). Karadağ, AB vize politikasına uyum gerekçesiyle Türk vatandaşlarına vizesiz girişi 1 Kasım'da kaldırmıştı.",
+   "neden_zayif": "Beklenen karşılıklılık adımı; Türk yolcu için değişiklik 1 Kasım'da olmuştu. Haber kapısı 0 → Zayıf Sinyal Defteri.",
+   "kaynaklar": [
+    "https://www.aa.com.tr/en/turkiye/turkiye-suspends-visa-exemption-for-montenegrin-citizens-holding-ordinary-passports/4140039",
+    "https://medyascope.tv/2026/11/27/turkiye-ile-karadag-arasindaki-vize-muafiyeti-anlasmasi-askiya-alindi/",
+    "https://europeanwesternbalkans.com/2026/09/25/montenegro-to-terminate-visa-free-regime-with-russia-belarus-and-turkey-from-1-november/"
+   ]
   }
  ]
 }

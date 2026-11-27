@@ -35,8 +35,11 @@
   "saat": "21:00",
   "tur": "dosya",
   "klasor": "posts/2026-11-27-gunun-dosyasi",
-  "baslik": "AB zirvesinden bütçe anlaşması çıkmadı",
-  "onem": 0,
-  "durum": "veri hazır (data/dosya/2026-11-27.json); akşam görevi üretir"
+  "baslik": "TCMB faizi değiştirmeden fonlamayı pahalılaştırdı",
+  "onem": 2.08,
+  "durum": "hazır (öğle taraması posts/2026-11-27-gunun-dosyasi üretti; akşam görevi yeni madde eklerse yeniden üretir)",
+  "onemli": true,
+  "not": " ÖNEMLİ (öğle 27.11): 1. madde TCMB repo arası (S×K 2,08 ana akış düzeyinde; günün Olay ve Cevap'ı Mekke olduğu için Dosya'da). pk-2026-11-18-tcmb-aralik-35 %60→%45. EDİTÖR: YAYINLA (2. tur). Yayın adımında G.37–38 doğrulanır.",
+  "editor": "1. madde: YAYINLA (2. tur)"
  }
 ]

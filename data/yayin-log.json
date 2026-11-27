@@ -1055,5 +1055,39 @@
   "klasor": "posts/2026-11-27-kasim-enflasyon-story",
   "durum": "atlandi",
   "neden": "MBS bağlı değil; olay akşam Dosya'ya taşınacak"
+ },
+ {
+  "tarih": "2026-11-27T13:10",
+  "tur": "dosya-madde",
+  "kanal": "news",
+  "klasor": "posts/2026-11-27-gunun-dosyasi",
+  "baslik": "TCMB faizi değiştirmeden fonlamayı pahalılaştırdı (Dosya 1. madde)",
+  "durum": "kuyrukta (21:00 Dosya ile)",
+  "sorular": [
+   "pk-2026-11-18-tcmb-aralik-35"
+  ],
+  "editor": {
+   "hukum": "YAYINLA",
+   "tur": "2 (1. tur DÜZELT: TCMB bağlantısı, iki emsal, frekans cümlesi, Bloomberg cümlesi çıktı, Motor yeniden hesabı 72→48)",
+   "onem": {
+    "S": 0.69,
+    "K": 3,
+    "puan": 2.08
+   },
+   "kapilar": [
+    true,
+    true,
+    true
+   ],
+   "bahis_testi": true,
+   "gerekce": "Olgu A katmanında doğrulandı (TCMB DUY2026-51/52); düzeltmeler uygulandı, %45 Motor 48'in ±15 bandında."
+  },
+  "kaynaklar": [
+   "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-51",
+   "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-52",
+   "https://www.bloomberght.com/tcmb-bir-hafta-vadeli-repo-ihalelerine-gecici-ara-verdi-3795855",
+   "https://www.foreks.com/haber/detay/6b08d37a4b18523914469ea3/PICNEWS/tr/ekonomistler-tcmb-kararini-degerlendirdi-ortulu-faiz-artisi-27-11-26/",
+   "https://paraajansi.com.tr/ekonomi/merkez-bankasi-faizi-degistirmeden-fonlamayi-3-puan-pahalilastirdi-22232100h"
+  ]
  }
 ]

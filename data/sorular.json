@@ -2119,8 +2119,8 @@
     "siyasi-ekonomi"
    ],
    "on_otopsi": "Yanılırsak: Kasım TÜFE yukarı sürpriz yaptıysa ya da kur/rezerv baskısıyla TCMB duraklamayı seçtiyse.",
-   "motor": 72.0,
-   "p": 60,
+   "motor": 48.0,
+   "p": 45,
    "ilk_p": 70,
    "durum": "acik",
    "sonuc": null,
@@ -2143,6 +2143,18 @@
      "p": 60,
      "motor": 72.0,
      "neden": "26.11 tarama: ABD Ekim çekirdek PCE %3,3 (2023'ten beri en yüksek), Fed Aralık artırımı neredeyse tam fiyatlandı; BIST 100 −%2,83, banka endeksi −%4,46. Dış finansman baskısı TCMB'nin indirim alanını daraltıyor → LR 0,8"
+    },
+    {
+     "t": "2026-11-27",
+     "p": 45,
+     "motor": 72.0,
+     "neden": "27.11 öğle taraması (sabahta işlenmemiş, 26.11 ~22:20 TSİ): TCMB bir hafta vadeli repo ihalelerine geçici ara verdi, TL zorunlu karşılık faiz telafisini %86→%90 yaptı (TCMB basın duyurusu + Bloomberg/BloombergHT). Politika faizi %36 değişmeden fonlama gecelik borç verme faizine (~3 puan yukarı) kaydı; ekonomistler örtülü faiz artışı diyor. Emsal Mart 2025: ara → Nisan PPK'da artırım. LR 0,5 (orta, beklenmeyen, mekanizma doğrudan) → %43; tek olay ±15 sınırı → %45."
+    },
+    {
+     "t": "2026-11-27",
+     "p": 45,
+     "motor": 48.0,
+     "neden": "Motor yeniden hesabı (editör DÜZELT, 27.11): iki referans sınıfı ayrışıyor — (a) karar Kasım anketi medyanı (%35) yönünde: 72; (b) haftalık repo ihalelerine ara verilen son iki durumda sonraki PPK'da indirim yok (Mart 2025 → 17.04.2025 artırım %42,5→%46; Mart 2026 → 12.03.2026 sabit %37), Laplace (0+1)/(2+2)=25. Motor = ortalama 48; yayın %45 (Claude −3). Kaynaklar: TCMB DUY2026-51/52, BloombergHT."
     }
    ]
   },

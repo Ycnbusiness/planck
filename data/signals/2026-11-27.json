@@ -194,6 +194,93 @@
     "https://leprivatebanker.com/2026/11/27/oil-heads-for-weekly-gain-as-houthi-strikes-on-saudi-sites-reverse-a-three-month-low-before-opec-meeting/"
    ],
    "yonlendirme": "Mekke gönderisinde bağlam; ayrıca yayın yok"
+  },
+  {
+   "id": "tcmb-repo-ara-ortulu-sikilastirma",
+   "ogle": true,
+   "class": "SARI",
+   "saat": "26.11 ~22:20 TSİ (sabah taramasında işlenmemişti; geriye dönük)",
+   "risk": "türkiye ekonomisi (2031 riski yok)",
+   "delta": 0,
+   "sorular": {
+    "pk-2026-11-18-tcmb-aralik-35": [
+     60,
+     45
+    ]
+   },
+   "lr": 0.5,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 3,
+   "onem": 2.08,
+   "turkiye_bagi": 2,
+   "event": "TCMB, piyasa gelişmelerini gerekçe göstererek bir hafta vadeli repo ihalelerine geçici ara verdi ve TL zorunlu karşılıklara ödenen faiz telafisini ağırlıklı ortalama fonlama maliyetinin %86'sından %90'ına çıkardı. Politika faizi %36'da değişmedi; TCMB fonlaması %39'luk gecelik borç verme faizine kaydı (yaklaşık 3 puan yukarı). Ekonomistler adımı 'örtülü faiz artışı' olarak niteledi, rezerv baskısı ve TL'yi savunmayla ilişkilendirdi. Son PPK 10 Aralık (tek kaynak).",
+   "rationale": "Beklenmeyen, iki kaynaklı (TCMB A + Bloomberg/BloombergHT B), mekanizması doğrudan: fiilî fonlama faizi yükselirken Aralık'ta politika faizini %35'e indirmek çelişkili sinyal olur. Emsaller: Mart 2025 ara → 17.04.2025 PPK artırım; Mart 2026 ara → 12.03.2026 PPK sabit (2'de 0 indirim). LR 0,5 → %43; tek olay ±15 sınırı → %60→%45. Haber kapısı 4. S×K = 0,69×3 = 2,08 (ana akış eşiği) ama bugünün Olay ve Cevap'ı Mekke (11:00, kırmızı değil; TARAMA 'günde en fazla 1', EDITOR m.21; 23.11 Asya emsali) → Günün Dosyası 1. madde, ÖNEMLİ. Quant'taki q-tcmb-aralik (%62) Quant görevine bırakıldı (Quant yayını kapalı). Editör 1. tur DÜZELT: TCMB bağlantısı DUY2026-51/52, iki emsal, frekans cümlesi, Motor yeniden hesabı (72→48, iki referans sınıfı ortalaması; yayın %45, ayar −3).",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-51",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-52",
+    "https://www.bloomberght.com/tcmb-bir-hafta-vadeli-repo-ihalelerine-gecici-ara-verdi-3795855",
+    "https://www.foreks.com/haber/detay/6b08d37a4b18523914469ea3/PICNEWS/tr/ekonomistler-tcmb-kararini-degerlendirdi-ortulu-faiz-artisi-27-11-26/",
+    "https://paraajansi.com.tr/ekonomi/merkez-bankasi-faizi-degistirmeden-fonlamayi-3-puan-pahalilastirdi-22232100h"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00 · 1. madde · ÖNEMLİ (S×K ana akış düzeyinde; günün Olay ve Cevap'ı dolu)"
+  },
+  {
+   "id": "kuveyt-italyan-teknisyen",
+   "ogle": true,
+   "class": "ZAYIF",
+   "saat": "26.11 (sabah taramasında yoktu; geriye dönük)",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 3
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "event": "Kuveyt'te hava savunma sahasına İHA saldırısında Rheinmetall için çalışan iki İtalyan teknisyen öldü. Kuveyt ve İtalyan kaynakları saldırıyı İran'a bağladı; İran Dışişleri Bakanı Kuveytli mevkidaşına İran'ın dahli olmadığını söyledi.",
+   "rationale": "Körfez saldırı dizisi teması 17.11'den beri işleniyor (aynı tema ikinci kez kanıt sayılmaz); ≤90 günlük soru oynamıyor. Zayıf Sinyal Defteri.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-11-26/iran-attack-on-kuwait-kills-two-italian-rheinmetall-workers",
+    "https://www.thenationalnews.com/news/gulf/2026/11/26/two-italian-workers-killed-in-iranian-drone-attack-on-kuwait/",
+    "https://www.upi.com/Top_News/World-News/2026/11/26/italy-Italians-killed-Kuwait-drone-strike-Iran/1511795749242"
+   ],
+   "yonlendirme": "zayıf sinyal"
+  },
+  {
+   "id": "karadag-vize-karsilik",
+   "ogle": true,
+   "class": "ZAYIF",
+   "saat": "27.11 Resmî Gazete",
+   "lr": null,
+   "delta": 0,
+   "haber_kapisi": {
+    "olcek": 0,
+    "yenilik": 0,
+    "acik_uc": 0,
+    "puan": 0
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "event": "Türkiye, Karadağ ile vize muafiyeti anlaşmasının umuma mahsus pasaport hükümlerini askıya aldı (Cumhurbaşkanı kararı, 27.11 Resmî Gazete). Karadağ, AB vize politikasına uyum gerekçesiyle Türk vatandaşlarına vizesiz girişi 1 Kasım'da kaldırmıştı.",
+   "rationale": "Beklenen karşılıklılık adımı; Türk yolcu için değişiklik 1 Kasım'da olmuştu. Haber kapısı 0 → Zayıf Sinyal Defteri.",
+   "sources": [
+    "https://www.aa.com.tr/en/turkiye/turkiye-suspends-visa-exemption-for-montenegrin-citizens-holding-ordinary-passports/4140039",
+    "https://medyascope.tv/2026/11/27/turkiye-ile-karadag-arasindaki-vize-muafiyeti-anlasmasi-askiya-alindi/",
+    "https://europeanwesternbalkans.com/2026/09/25/montenegro-to-terminate-visa-free-regime-with-russia-belarus-and-turkey-from-1-november/"
+   ],
+   "yonlendirme": "zayıf sinyal"
   }
  ],
  "zayif": [
@@ -222,5 +309,25 @@
     "https://pravda.com.ua/eng/news/2026/11/26/8064838"
    ]
   }
- ]
+ ],
+ "ogle_taramasi": {
+  "date": "2026-11-27",
+  "ogle": true,
+  "scan_window": "2026-11-27 04:00 → 12:45 (TSİ); sabahta kaçan 26.11 akşam olayları geriye dönük",
+  "yontem": "Öğle taraması, Yöntem v2.2. Sabahta işlenen olaylar (Mekke, Kasım TÜFE, AB zirvesi, FinCEN, Cizan) tekrar işlenmedi. Hakem adımı bu görevin işi değil.",
+  "summary": {
+   "kirmizi": 0,
+   "ana_akis": 0,
+   "dosya": 1,
+   "story": 0,
+   "zayif": 2,
+   "izleme": 0,
+   "kirmizi_cizgi": 0,
+   "not": "04:00 sonrası haber kapısını geçen yeni olay yok (TÜİK güven endeksi, Finansal İstikrar Raporu, Türkiye–Rusya KEK takvimli/rutin). Sabahta kaçan TCMB repo arası (26.11 ~22:20) işlendi: pk-2026-11-18-tcmb-aralik-35 %60→%45, S×K 2,08; günün Olay ve Cevap'ı dolu olduğu için Günün Dosyası 1. madde (ÖNEMLİ). Kuveyt'te iki İtalyan teknisyenin ölümü ve Karadağ vize karşılıklılığı zayıf sinyal."
+  },
+  "zayif": [
+   "kuveyt-italyan-teknisyen",
+   "karadag-vize-karsilik"
+  ]
+ }
 }
