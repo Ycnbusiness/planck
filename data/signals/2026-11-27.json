@@ -329,5 +329,104 @@
    "kuveyt-italyan-teknisyen",
    "karadag-vize-karsilik"
   ]
+ },
+ "aksam_taramasi": {
+  "date": "2026-11-27",
+  "scan_window": "2026-11-27 08:00 → 20:30 TSİ; sabahta kaçan 26.11 akşam olayı (AMB) geriye dönük",
+  "summary": {
+   "kirmizi": 0,
+   "ana_akis": 0,
+   "dosya": 2,
+   "story": 0,
+   "zayif": 3,
+   "not": "Yeni haber kapısını geçen 2 olay Dosya'ya eklendi; 2031 risk olasılıkları değişmedi (Δ=0), risks.json/history.json dokunulmadı."
+  },
+  "events": [
+   {
+    "id": "iran-gaz-2032-uzatma",
+    "class": "YEŞİL",
+    "risk": "enerji",
+    "delta": 0,
+    "from": 72,
+    "to": 72,
+    "sorular": {
+     "pk-2026-11-18-botas-ocak-zam": [
+      60,
+      60
+     ],
+     "pk-2026-11-27-iran-gaz-resmi": [
+      null,
+      35
+     ]
+    },
+    "lr": 1.0,
+    "haber_kapisi": {
+     "olcek": 1,
+     "yenilik": 1,
+     "acik_uc": 2,
+     "puan": 4
+    },
+    "S": 0.69,
+    "K": 1,
+    "onem": 0.69,
+    "turkiye_bagi": 2,
+    "event": "Bloomberg (27.11, isimsiz kaynaklar; Forbes Türkiye aktarımı) ve Mynet (24.11, sektör kaynakları; EPDK ithalat lisansı 18.04.2032'ye uzatıldı) BOTAŞ–NIGC sözleşmesinin 2032'ye uzatıldığını bildirdi; hacim 10 bcm/yıl, formül aynı (Mynet). BOTAŞ ve ETKB yorum yapmadı. İran 2025'te ithalatın %13,2'si (EPDK).",
+    "rationale": "Fiyat formülü değişmediği için Ocak zam sorusu LR 1. Yeni soru: resmî teyit; Motor 40, Claude −5 (yaptırım bedeli, geleneksel sessizlik) → 35. Güç Okuma: hikayeler/turkiye-iran-gaz.",
+    "sources": [
+     "https://www.forbes.com.tr/haberler/turkiye-ile-iran-arasindaki-dogal-gaz-anlasmasi-2032-ye-kadar-uzatildi",
+     "https://finans.mynet.com/haber/detay/ekonomi/iran-la-dogal-gaz-anlasmasi-uzatildi-gaz-alimi-5-yil-daha-devam-edecek/585038/",
+     "https://www.iranintl.com/en/liveblog/202611214578"
+    ],
+    "yonlendirme": "Günün Dosyası 21:00 · 2. madde",
+    "editor": "DÜZELT → düzeltildi"
+   },
+   {
+    "id": "amb-baskan-de-cos",
+    "class": "YEŞİL",
+    "risk": "avrupa",
+    "delta": 0,
+    "from": 67,
+    "to": 67,
+    "sorular": {},
+    "lr": null,
+    "haber_kapisi": {
+     "olcek": 2,
+     "yenilik": 1,
+     "acik_uc": 1,
+     "puan": 4
+    },
+    "S": 0,
+    "K": 2,
+    "onem": 0,
+    "turkiye_bagi": 0,
+    "event": "26.11 euro zirvesi: liderler Lagarde'ın yerine Pablo Hernández de Cos'u önerdi; Klaas Knot çekildi; Boone ve Brunnermeier yönetim kuruluna. Resmî atama Aralık'ta Avrupa Konseyi'nde; Lagarde 7.2.2027'de ayrılıyor. Ekim enflasyonu %4; 17.12 kararında artış ~%90 fiyatlı.",
+    "rationale": "Sicilde soru yok; Aralık artışı sorusu bant dışı (~%90) olduğu için açılmadı. Türkiye bağı 0 → pq/pp yok, 'Neden önemli'.",
+    "sources": [
+     "https://english.news.cn/20261127/250460ad0af44bdea5cdc93ea8ddfe7a/c.html",
+     "https://cphpost.dk/2026-11-27/global/eu-leaders-agree-on-new-european-central-bank-president/",
+     "https://eualive.net/spains-hernandez-de-cos-set-to-lead-ecb-after-franco-german-deal/",
+     "https://admiralmarkets.com/analytics/traders-blog/ecb-rate-decision-december-2026-preview"
+    ],
+    "yonlendirme": "Günün Dosyası 21:00 · 4. madde",
+    "editor": "DÜZELT → düzeltildi"
+   }
+  ],
+  "zayif": [
+   {
+    "id": "kuveyt-iran-buyukelci",
+    "olay": "Kuveyt, 26.11 İHA saldırısı nedeniyle İran büyükelçisini çağırdı (27.11); İran sorumluluğu reddedip ortak soruşturma önerdi.",
+    "neden": "Rutin diplomatik adım; sabah zayıf sinyalinin devamı."
+   },
+   {
+    "id": "iran-kamyoncu-grevi",
+    "olay": "İran'da kamyoncu grevi 6. gününde, 20 şehirde (Iran International, sendika).",
+    "neden": "Tek kaynak."
+   },
+   {
+    "id": "devrim-muhafizlari-abluka-tehdidi",
+    "olay": "DMO Hava-Uzay komutanı abluka kırılacak dedi (X paylaşımı).",
+    "neden": "Bedelsiz söylem, tek kaynak."
+   }
+  ]
  }
 }

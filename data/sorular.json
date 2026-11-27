@@ -2940,6 +2940,36 @@
      "neden": "açılış"
     }
    ]
+  },
+  {
+   "id": "pk-2026-11-27-iran-gaz-resmi",
+   "kanal": "news",
+   "tur": "karar",
+   "q": "BOTAŞ ya da Enerji Bakanlığı, İran'la doğal gaz alım sözleşmesinin uzatıldığını 31 Aralık 2026'ya kadar resmen açıklar mı?",
+   "acilis": "2026-11-27",
+   "deadline": "2026-12-31",
+   "kriter": "BOTAŞ, ETKB ya da Enerji Bakanı'nın yazılı açıklaması veya kayda geçen beyanı İran sözleşmesinin uzatıldığını teyit ederse EVET. Yalnız isimsiz kaynak ya da EPDK lisans kaydı yetmez.",
+   "kaynak_cozum": "botas.gov.tr, enerji.gov.tr, AA",
+   "taban": "Bloomberg (27.11, isimsiz kaynaklar) ve Mynet (24.11, sektör kaynakları; EPDK ithalat lisansı 18.04.2032'ye uzatıldı) uzatmayı bildirdi; BOTAŞ ve Bakanlık yorum yapmadı. Sözleşme ayrıntıları geleneksel olarak açıklanmıyor; ABD ablukası döneminde resmî teyit siyasi bedel taşır. Bakan beyanları sık; 34 günlük pencere.",
+   "mercekler": [
+    "enerji",
+    "uluslararası ilişkiler"
+   ],
+   "on_otopsi": "Yanılırsak: Bakan bir soru üzerine 'sözleşme devam ediyor' derse (EVET) ya da Ankara yaptırım hassasiyetiyle sessiz kalırsa (HAYIR).",
+   "motor": 40,
+   "p": 35,
+   "ilk_p": 35,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-27",
+     "p": 35,
+     "motor": 40,
+     "neden": "açılış"
+    }
+   ]
   }
  ]
 }

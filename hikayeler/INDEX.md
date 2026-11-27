@@ -23,5 +23,6 @@ Her haber bir hikâyeye bağlanır; yoksa yeni hikâye açılır (TARAMA §0a). 
 | [Kritik altyapıya siber saldırılar ve devlet atıfları](siber-saldirilar/HIKAYE.md) | teknoloji | 4 açık / 4 | 2 | 2026-11-27 |
 | [Türkiye ekonomisi: enflasyon, faiz, ücret, enerji tarifeleri](turkiye-ekonomi/HIKAYE.md) | türkiye ekonomisi | 12 açık / 12 | 3 | 2026-11-27 |
 | [Türkiye: savunma anlaşmaları ve kritik altyapı](turkiye-guvenlik-altyapi/HIKAYE.md) | jeopolitik | 2 açık / 2 | 1 | 2026-11-23 |
+| [Türkiye–İran gaz sözleşmesi](turkiye-iran-gaz/HIKAYE.md) | enerji | 2 açık / 2 | 1 | 2026-11-27 |
 | [Uzay: Starship ve ay programı](uzay-starship/HIKAYE.md) | uzay | 2 açık / 2 | 0 | 2026-11-23 |
 | [Yapay zekâ ekonomisi: yatırım dalgası, piyasa, istihdam](yz-ekonomisi/HIKAYE.md) | teknoloji | 4 açık / 4 | 3 | 2026-11-25 |

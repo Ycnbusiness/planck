@@ -294,6 +294,22 @@
      "olay": "kasim-tufe-beklenti"
     }
    ]
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-27",
+   "tema": "Günün Dosyası · 27 Kasım (akşam)",
+   "items": [
+    {
+     "id": "pk-2026-11-27-iran-gaz-resmi",
+     "alan": "Enerji",
+     "q": "BOTAŞ ya da Enerji Bakanlığı, İran'la doğal gaz alım sözleşmesinin uzatıldığını 31 Aralık 2026'ya kadar resmen açıklar mı?",
+     "p": 35,
+     "lab": "Motor %40 · Claude −5",
+     "deadline": "2026-12-31",
+     "olay": "iran-gaz-2032-uzatma"
+    }
+   ]
   }
  ]
 }

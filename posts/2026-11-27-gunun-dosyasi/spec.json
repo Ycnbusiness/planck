@@ -1,6 +1,6 @@
 {
  "date": "27 KASIM 2026",
- "lede": "TCMB faizi değiştirmeden fonlamayı pahalılaştırdı; Avrupa bütçede ve Ukrayna kredisinde uzlaşamadı; ABD'nin mali suçlar biriminde siber sızıntı.",
+ "lede": "TCMB fonlamayı pahalılaştırdı; İran gazı sözleşmesinin uzatıldığı bildirildi; Avrupa bütçede uzlaşamadı ama yeni merkez bankası başkanını seçti; ABD'de siber sızıntı.",
  "items": [
   {
    "tag": "Türkiye ekonomisi",
@@ -34,6 +34,36 @@
    "ogle": true
   },
   {
+   "tag": "Enerji",
+   "title": "İran gazı sözleşmesinin 2032'ye uzatıldığı bildirildi",
+   "text": "Bloomberg'in isimsiz kaynaklara, Mynet'in sektör kaynaklarına dayandırdığı haberlere göre BOTAŞ, Temmuz'da süresi dolan İran sözleşmesini 2032'ye uzattı; BOTAŞ ve Enerji Bakanlığı yorum yapmadı. EPDK verisine göre İran 2025'te gaz ithalatının %13'ünü karşıladı.",
+   "risk": "BOTAŞ, 1 Ocak 2027'de konut doğalgaz tarifesine zam yapar mı?",
+   "from": 60,
+   "to": 60,
+   "deadline": "03.01.2027",
+   "pq": "BOTAŞ ya da Enerji Bakanlığı uzatmayı 31 Aralık 2026'ya kadar resmen açıklar mı?",
+   "pp": 35,
+   "pdo": "Mynet'e göre hacim (yılda 10 milyar m³) ve fiyat formülü değişmedi; zam sorusu yerinde kaldı. İzlenecek: resmî açıklama.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 1,
+   "onem": 0.69,
+   "turkiye_bagi": 2,
+   "soru": "pk-2026-11-18-botas-ocak-zam",
+   "pq_soru": "pk-2026-11-27-iran-gaz-resmi",
+   "kaynaklar": [
+    "https://www.forbes.com.tr/haberler/turkiye-ile-iran-arasindaki-dogal-gaz-anlasmasi-2032-ye-kadar-uzatildi",
+    "https://finans.mynet.com/haber/detay/ekonomi/iran-la-dogal-gaz-anlasmasi-uzatildi-gaz-alimi-5-yil-daha-devam-edecek/585038/",
+    "https://www.iranintl.com/en/liveblog/202611214578"
+   ],
+   "aksam": true
+  },
+  {
    "tag": "Avrupa",
    "title": "AB zirvesinden bütçe ve Ukrayna kredisi çıkmadı",
    "text": "AB liderleri 26 Kasım'daki özel zirvede 2028–2034 bütçesinde anlaşamadı; EUobserver ve Euronews'e göre Ukrayna'ya önerilen 45 milyar avroluk kredi kararı da 17–18 Aralık zirvesine kaldı. Zirve sabahına karşı Rusya'nın füze ve İHA saldırısında Harkiv'de üç kişi öldü.",
@@ -63,16 +93,40 @@
    "editor": "DÜZELT → düzeltildi (1. tur)"
   },
   {
+   "tag": "Avrupa ekonomisi",
+   "title": "Avrupa Merkez Bankası'nın yeni başkan adayı belli oldu",
+   "text": "Euro bölgesi liderleri 26 Kasım'da Lagarde'ın yerine İspanyol Pablo Hernández de Cos'u önerdi; Hollandalı aday Klaas Knot yarıştan çekildi, resmî atamayı Aralık'ta AB liderleri yapacak. Lagarde 7 Şubat 2027'de ayrılıyor; Ekim'de euro bölgesi enflasyonu %4'tü.",
+   "risk": null,
+   "nosoru": "PİYASA 17 ARALIK'TA FAİZ ARTIŞINI ~%90 FİYATLIYOR · BANT DIŞI",
+   "pdo": "Dünyanın ikinci büyük para biriminin faiz yolu Şubat'tan sonra yeni başkanla çizilecek. İzlenecek: 17 Aralık faiz kararı ve Aralık'taki resmî atama.",
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "kaynaklar": [
+    "https://english.news.cn/20261127/250460ad0af44bdea5cdc93ea8ddfe7a/c.html",
+    "https://cphpost.dk/2026-11-27/global/eu-leaders-agree-on-new-european-central-bank-president/",
+    "https://eualive.net/spains-hernandez-de-cos-set-to-lead-ecb-after-franco-german-deal/"
+   ],
+   "aksam": true
+  },
+  {
    "tag": "Siber",
-   "title": "ABD'nin mali suçlar birimi sistemlerine yetkisiz erişimi inceliyor",
-   "text": "ABD Hazine Bakanlığı'na bağlı Mali Suçlar Birimi (FinCEN), sistemlerinin bir kısmına yetkisiz erişimi incelediğini açıkladı ve bazı sistemleri önlem olarak kapattı. Saldırı henüz kimseye atfedilmedi.",
+   "title": "ABD'nin mali suçlar biriminde yetkisiz erişim",
+   "text": "ABD Hazine'ye bağlı Mali Suçlar Birimi (FinCEN), sistemlerine yetkisiz erişimi incelediğini açıkladı ve bazılarını önlem olarak kapattı. Saldırı henüz kimseye atfedilmedi.",
    "risk": "Bir AB ya da NATO üyesi hükümet, 31 Ocak 2027'ye kadar kritik altyapıya yönelik yeni bir siber saldırıyı resmen bir devlete atfeder mi?",
    "from": 55,
    "to": 55,
    "deadline": "31.01.2027",
    "pq": "Türkiye'de 31 Mart 2027'ye kadar bir market zinciri, hastane veya enerji şirketi siber saldırı nedeniyle hizmetin aksadığını açıklar mı?",
    "pp": 40,
-   "pdo": "Sayılar değişmedi. Şirket ya da kurum hesaplarında iki aşamalı doğrulamayı açmak bu hafta yapılabilecek düşük bedelli bir adım.",
+   "pdo": "Sayılar değişmedi. Hesaplarda iki aşamalı doğrulamayı açmak düşük bedelli bir adım.",
    "haber_kapisi": {
     "olcek": 1,
     "yenilik": 1,
@@ -91,5 +145,6 @@
    ],
    "editor": "DÜZELT → düzeltildi (1. tur)"
   }
- ]
+ ],
+ "question": "Sizce BOTAŞ İran sözleşmesini Aralık'ta resmen açıklar mı?"
 }
