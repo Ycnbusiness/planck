@@ -7,6 +7,5 @@ Ne yapabilirsin: Bireysel olarak yapılacak bir acele yok; Suudi Arabistan'a umr
 Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
 Kaynaklar: Resmî Gazete, Akşam, Euronews, Al Jazeera · Soru kaydı: pk-2026-11-27-tbmm-suudi-tezkere · Kimseden fon almıyoruz. Yatırım veya politika tavsiyesi değildir.
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 
 #planck #pekibiz #savunma

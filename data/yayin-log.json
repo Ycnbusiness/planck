@@ -1002,5 +1002,58 @@
    "ai_etiketi": true,
    "facebook": false
   }
+ },
+ {
+  "tarih": "2026-11-27T08:28",
+  "tur": "olay-cevap",
+  "kanal": "news",
+  "klasor": "posts/2026-11-27-mekke-savunma",
+  "baslik": "Türkiye, Mekke Savunma Anlaşması'nın onayını tamamladı",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-27T11:00",
+  "sorular": [
+   "pk-2026-11-27-tbmm-suudi-tezkere"
+  ],
+  "editor": {
+   "hukum": "DÜZELT→YAYINLA",
+   "duzeltmeler": [
+    "Resmî Gazete onayı doğrulandı (Milli Gazete, Akşam, Politikam)",
+    "'Cizan'da bir işçi öldü' doğrulanamadı → çıkarıldı",
+    "uzman satırı: 'İran'la doğrudan karşı karşıya gelir' → 'Husilerle ve onları destekleyen İran'la karşı karşıya gelme riski'",
+    "açıklama 2535→2030; eski 'Bu içerik…' satırı kaldırıldı"
+   ]
+  },
+  "instagram": {
+   "hesap": "@planck.news",
+   "ai_etiketi": true,
+   "facebook": false,
+   "format": "carousel 6 sayfa"
+  }
+ },
+ {
+  "tarih": "2026-11-27T08:29",
+  "tur": "olay-cevap-reel",
+  "kanal": "news",
+  "klasor": "posts/2026-11-27-mekke-savunma",
+  "baslik": "Mekke Savunma Anlaşması (Reel)",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-27T12:00",
+  "editor": {
+   "hukum": "YAYINLA"
+  },
+  "instagram": {
+   "hesap": "@planck.news",
+   "ai_etiketi": true,
+   "facebook": false,
+   "format": "reel 9:16"
+  }
+ },
+ {
+  "tarih": "2026-11-27T08:30",
+  "tur": "story",
+  "kanal": "news",
+  "klasor": "posts/2026-11-27-kasim-enflasyon-story",
+  "durum": "atlandi",
+  "neden": "MBS bağlı değil; olay akşam Dosya'ya taşınacak"
  }
 ]

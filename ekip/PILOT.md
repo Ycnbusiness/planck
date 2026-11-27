@@ -22,7 +22,7 @@ Yayın turları (sabah 08:00, akşam 20:40) her çalışmada bu dosyayı okur, o
 
 ## Hafta 2 · 24–30 Kas — yeni biçim yayında
 - [ ] Yeni sunum standardı + kare dizisi + yeni künye bütün gönderilerde
-- [ ] Pzt Haftanın Soruları ([x] 23.11 ilk Reel, `posts/2026-W48-sorular`; scripts/reel.js kicker/sub/footer parametreli) · Çrş Taban Oranı · Prş ilk Ses ve İz · Cuma ilk Dedik / Oldu
+- [ ] Pzt Haftanın Soruları ([x] 23.11 ilk Reel, `posts/2026-W48-sorular`; scripts/reel.js kicker/sub/footer parametreli) · Çrş Taban Oranı · Prş ilk Ses ve İz · Cuma ilk Dedik / Oldu ([x] 27.11 haftalık özet dosyası `ekip/haftalik/2026-W48.md`, Dedik/Oldu bölümüyle)
 
 ## Hafta 3 · 1–7 Ara
 - [ ] İlk "Sen Yüzde Kaç Dersin?" anketi
