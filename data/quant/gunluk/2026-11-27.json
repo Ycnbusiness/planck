@@ -1,0 +1,178 @@
+{
+ "tarih": "2026-11-27",
+ "referans_seans": "26.11.2026 Perşembe kapanışı (BIST açıktı; ABD piyasaları Şükran Günü nedeniyle kapalıydı, ABD değerleri 25.11 seansına aittir)",
+ "fiyatlar": {
+  "usdtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB gösterge kuru resmi sayfadan alınamadı (arama yalnız 2025 tarihli sayfalar döndürdü)"
+  },
+  "usdtry_piyasa": {
+   "deger": 50.68,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "serbest piyasa; alış 50,6757 / satış 50,6788; gösterge değil; tek kaynak (Aposto sayfası okunamadı)"
+  },
+  "eurtry_tcmb": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "TCMB göstergesi alınamadı"
+  },
+  "eurtry_piyasa": {
+   "deger": 55.76,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "tablo; alış 55,7723 / satış 55,7863; tek kaynak"
+  },
+  "bist100_kapanis": {
+   "deger": 10743.11,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "%+0,82; iki kaynakta aynı (BloombergHT + CNBC-e https://www.cnbce.com/borsa/borsa-gunu-yukselisle-kapadi-26-kasim-2026-h42662, 18:12 TSİ); önceki kapanış 10.655,74; gün aralığı 10.738,61–10.916,38"
+  },
+  "gram_altin_tl": {
+   "deger": 5826.37,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "Kapalıçarşı, %+0,04; tek kaynak"
+  },
+  "ons_altin_usd": {
+   "deger": 3565.53,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "tablo satış (alış 3.564,87), %-0,36; ÇELİŞKİ: aynı sayfa metni 3.574 dolar diyor; tek kaynak, belirsiz, motorda kullanılmadı"
+  },
+  "brent_usd": {
+   "deger": 95.99,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "tek kaynak; ABD tatili nedeniyle ICE kapanışı değil; resmi kapanış teyidi yok, motorda kullanılmadı"
+  },
+  "bitcoin_usd": {
+   "deger": 60160,
+   "kaynak": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-26-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3795780",
+   "saat": "tek kaynak"
+  },
+  "abd_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel kaynaklı değer yok (ROIC 19.11: %4,832 gün içi; bayat)"
+  },
+  "abd_10y": {
+   "deger": 4.81,
+   "kaynak": "https://tradingeconomics.com/united-states/government-bond-yield/news/604405",
+   "saat": "Trading Economics haber akışı '%4,81'e geriledi' (604347 de aynı); tek kuruluş. Aynı akışta 27.11 için 'rose above 4.90%' (https://tradingeconomics.com/united-states/government-bond-yield/news/604880) var, tam değer yok, kaydedilmedi"
+  },
+  "tr_2y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Kaynaklı tarihli gösterge getirisi bulunamadı"
+  },
+  "tr_10y": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel değer yok; yalnız BloombergHT 19.11 gün içi %36,97 (rekor) görüldü, bayat: https://www.bloomberght.com/turkiye-10-yillik-tahvil-getirisi-rekor-seviyeye-yukseldi-3795167"
+  }
+ },
+ "piyasa_fiyatlamasi": {
+  "fed_aralik_2026_9aralik": {
+   "deger": {
+    "artirim_25bp": 97.8,
+    "sabit": 2.2
+   },
+   "kaynak": "https://www.gate.com/news/detail/cme-fedwatch-978-probability-of-25bp-fed-rate-hike-in-december-2026-25860188",
+   "saat": "25.11.2026 14:01 UTC",
+   "not_": "CME FedWatch aktarımı (PCE sonrası). Diğer ölçümler: FXStreet %94,09 artırım (saat yok) https://www.fxstreet.com/analysis/what-a-33-core-pce-reading-means-for-a-january-fed-hike-202611251701 ; Kalshi 'Hike 25bps' %92 (sayfada saat yok, yaklaşık 27.11) https://kalshi.com/markets/kxfeddecision/kxfeddecision-26dec (sabit %5, >25bp %2)"
+  },
+  "fed_ocak_2027": {
+   "deger": {
+    "artirim_25bp": 40.7,
+    "kumulatif_50bp": 58.4
+   },
+   "kaynak": "https://www.gate.com/news/detail/cme-fedwatch-978-probability-of-25bp-fed-rate-hike-in-december-2026-25860188",
+   "saat": "25.11.2026 14:01 UTC",
+   "not_": "FXStreet: 27 Ocak'a kadar ikinci artırım %51,5; ölçüler birebir karşılaştırılamaz"
+  },
+  "tcmb_sonraki_ppk": {
+   "deger": {
+    "ppk_tarihi": "2026-12-10 14:00",
+    "politika_faizi_mevcut": 36.0,
+    "piyasa_katilimcilari_anketi_beklenti": 35.0
+   },
+   "kaynak": "https://uzmanpara.milliyet.com.tr/uzmanpara/merkez-bankasi-faiz-karari-beklentisi-2026-aralik-tahmini-merkez-bankasi-faiz-karari-ne-zaman-aciklanacak-7703808",
+   "saat": "19.11.2026 17:46 TSİ",
+   "not_": "yeni veri yok; 26.11 dosyasındaki değer korundu; dağılım yok; tek kaynak"
+  },
+  "polymarket_kalshi_resesyon": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Güncel değer yok; yalnız Polymarket 'ABD 2026 sonuna kadar resesyon' ~%8 (31.08.2026, KuCoin aktarımı) görüldü, bayat"
+  },
+  "polymarket_kalshi_brent_esik": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Toplanamadı (arama sonucu yok)"
+  }
+ },
+ "oynaklik": {
+  "altin_gvz": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon (ima edilen) değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "brent_ovx": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon (ima edilen) değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "bist100": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon (ima edilen) değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "usdtry": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon (ima edilen) değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  },
+  "vix": {
+   "deger": null,
+   "kaynak": null,
+   "saat": null,
+   "neden": "Opsiyon (ima edilen) değeri bulunamadı; kaynaklı 30 günlük fiyat serisi toplanamadığından gerçekleşen oynaklık hesaplanmadı"
+  }
+ },
+ "takvim_7gun": {
+  "saat": "27.11.2026",
+  "kaynaklar": [
+   "https://www.bls.gov/schedule/2026/12_sched_list.htm (arama sonucu; sayfa okunmadı)",
+   "https://uzmanpara.milliyet.com.tr/uzmanpara/merkez-bankasi-faiz-karari-beklentisi-2026-aralik-tahmini-merkez-bankasi-faiz-karari-ne-zaman-aciklanacak-7703808",
+   "QUANT.md §4 sabit takvim"
+  ],
+  "olaylar": [
+   {
+    "tarih": "2026-12-03",
+    "olay": "TÜİK Kasım TÜFE 10:00 (QUANT.md sabit takvim; TÜİK takviminden ayrıca doğrulanmadı)"
+   },
+   {
+    "tarih": "2026-12-04",
+    "olay": "ABD Kasım istihdam raporu (arama sonuçlarında 4 Aralık 2026 olarak geçiyor; BLS sayfası okunmadı, doğrulanmadı)"
+   },
+   {
+    "tarih": "2026-12-09",
+    "olay": "FOMC kararı (7 gün dışı; Kalshi/FedWatch haberleri)"
+   },
+   {
+    "tarih": "2026-12-10",
+    "olay": "TCMB PPK 14:00 (7 gün dışı)"
+   }
+  ],
+  "bulunamayan": "ABD TÜFE tarihi ve bir sonraki OPEC+ toplantı tarihi kaynaklı bulunamadı; 27.11 günlük veri takvimi sayfası bulunamadı"
+ },
+ "gozlem": "26.11'de BIST 100 %0,82 yükselerek önceki gün kaybının bir kısmını geri aldı. Aposto sayfası okunamadığından ikinci kaynak yok; USD/TRY, EUR/TRY, altın, Brent, Bitcoin tek kaynaklı."
+}

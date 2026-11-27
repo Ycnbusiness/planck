@@ -397,5 +397,61 @@
   "motor": null,
   "kaynak_turu": null,
   "not": "hesaplanmadı: VIX güncel değil; Nasdaq kaynaklar arası çelişkili (23.185 / 23.586)"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-fed-artirim",
+  "motor": 99,
+  "kaynak_turu": "piyasa",
+  "not": "FedWatch Aralık %97.8, sonrası koşullu %35 (CME FedWatch aktarımı, Gate 25.11 14:01 UTC; Kalshi %92, FXStreet %94,09 ile uyumlu)"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-tr-tufe-30",
+  "motor": 48,
+  "kaynak_turu": "resmi-tahmin",
+  "not": "gereken Kas+Ara < %1.95, anket ima %1.98, sd %0.6; girdiler 26.11'den değişmedi (yeni anket/TÜFE yok)"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-tcmb-aralik",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: yalnız anket medyanı %35,00; indirim/sabit dağılımı yok"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-usdtry-60",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel oynaklık yok"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-abd-resesyon",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: güncel işsizlik/3 aylık getiri girdisi yok"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-brent-110",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: OVX yok; Brent tek kaynaklı"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-altin-4500",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: GVZ yok; ons metin/tablo çelişkili"
+ },
+ {
+  "tarih": "2026-11-27",
+  "soru": "q-nasdaq-25",
+  "motor": null,
+  "kaynak_turu": null,
+  "not": "hesaplanmadı: VIX ve güncel Nasdaq yok"
  }
 ]
