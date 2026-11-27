@@ -2,8 +2,8 @@
  "league": "laliga",
  "name": "La Liga",
  "season": "2026-27",
- "source": "laliga.com + eurofootnews.net + nigfooty.com; 22 Kasım maçları yalnız eurofootnews.net (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Levante–Elche (2026-11-23)",
- "asof": "2026-11-23",
+ "source": "laliga.com + eurofootnews.net + nigfooty.com; program: sportnewsafrica.com (26 Kasım 2026). Saatler TSİ.",
+ "asof": "2026-11-27",
  "table": [
   [
    "Barcelona",
@@ -148,26 +148,16 @@
  ],
  "schedule": [
   [
-   "Sevilla",
-   "Real Betis",
-   "2026-11-21",
-   "20:30"
-  ],
-  [
    "Real Madrid",
-   "Celta Vigo",
-   "2026-11-21",
+   "Alavés",
+   "2026-11-28",
    "23:00"
   ]
  ],
  "fixtures": [
   [
-   "Sevilla",
-   "Real Betis"
-  ],
-  [
    "Real Madrid",
-   "Celta Vigo"
+   "Alavés"
   ]
  ]
 }

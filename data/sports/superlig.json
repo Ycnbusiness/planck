@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "source": "milliyet.com.tr + dogayidinle.com + dijitalfutbol.com (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Başakşehir–Çorum FK (2026-11-23)",
+ "source": "milliyet.com.tr + dogayidinle.com + dijitalfutbol.com (23 Kasım 2026 erişim); 23 Kasım Başakşehir 4-2 Çorum FK (sporx.com) eklendi. 13. hafta programı: yeniasir.com.tr (AA, 26 Kasım 2026). Saatler TSİ.",
  "table": [
   [
    "Galatasaray",
@@ -45,6 +45,13 @@
    20
   ],
   [
+   "Başakşehir",
+   12,
+   23,
+   19,
+   20
+  ],
+  [
    "Kocaelispor",
    12,
    15,
@@ -59,13 +66,6 @@
    18
   ],
   [
-   "Başakşehir",
-   11,
-   19,
-   17,
-   17
-  ],
-  [
    "Rizespor",
    12,
    15,
@@ -74,9 +74,9 @@
   ],
   [
    "Çorum FK",
-   11,
-   21,
-   21,
+   12,
+   23,
+   25,
    16
   ],
   [
@@ -131,98 +131,98 @@
  ],
  "fixtures": [
   [
-   "Gençlerbirliği",
-   "Gaziantep FK"
+   "Alanyaspor",
+   "Konyaspor"
   ],
   [
-   "Amedspor",
-   "Rizespor"
+   "Rizespor",
+   "Kasımpaşa"
   ],
   [
-   "Galatasaray",
-   "Samsunspor"
+   "Samsunspor",
+   "Gençlerbirliği"
   ],
   [
-   "Kocaelispor",
-   "Fenerbahçe"
+   "Gaziantep FK",
+   "Amedspor"
   ],
   [
-   "Erzurumspor",
-   "Göztepe"
+   "Çorum FK",
+   "Kocaelispor"
   ],
   [
-   "Kasımpaşa",
-   "Alanyaspor"
+   "Eyüpspor",
+   "Başakşehir"
   ],
   [
-   "Konyaspor",
-   "Beşiktaş"
+   "Fenerbahçe",
+   "Erzurumspor"
   ],
   [
-   "Trabzonspor",
-   "Eyüpspor"
+   "Göztepe",
+   "Trabzonspor"
   ],
   [
-   "Başakşehir",
-   "Çorum FK"
+   "Beşiktaş",
+   "Galatasaray"
   ]
  ],
- "week": 12,
- "asof": "2026-11-23",
+ "week": 13,
+ "asof": "2026-11-27",
  "schedule": [
   [
-   "Gençlerbirliği",
-   "Gaziantep FK",
-   "2026-11-21",
-   "13:30"
-  ],
-  [
-   "Amedspor",
-   "Rizespor",
-   "2026-11-21",
-   "16:00"
-  ],
-  [
-   "Galatasaray",
-   "Samsunspor",
-   "2026-11-21",
-   "16:00"
-  ],
-  [
-   "Kocaelispor",
-   "Fenerbahçe",
-   "2026-11-21",
-   "19:00"
-  ],
-  [
-   "Erzurumspor",
-   "Göztepe",
-   "2026-11-22",
-   "13:30"
-  ],
-  [
-   "Kasımpaşa",
    "Alanyaspor",
-   "2026-11-22",
-   "16:00"
-  ],
-  [
    "Konyaspor",
-   "Beşiktaş",
-   "2026-11-22",
+   "2026-11-27",
+   "20:00"
+  ],
+  [
+   "Rizespor",
+   "Kasımpaşa",
+   "2026-11-27",
+   "20:00"
+  ],
+  [
+   "Samsunspor",
+   "Gençlerbirliği",
+   "2026-11-28",
    "16:00"
   ],
   [
-   "Trabzonspor",
-   "Eyüpspor",
-   "2026-11-22",
+   "Gaziantep FK",
+   "Amedspor",
+   "2026-11-28",
    "19:00"
   ],
   [
-   "Başakşehir",
    "Çorum FK",
-   "2026-11-23",
-   "20:00"
+   "Kocaelispor",
+   "2026-11-29",
+   "13:30"
+  ],
+  [
+   "Eyüpspor",
+   "Başakşehir",
+   "2026-11-29",
+   "16:00"
+  ],
+  [
+   "Fenerbahçe",
+   "Erzurumspor",
+   "2026-11-29",
+   "19:00"
+  ],
+  [
+   "Göztepe",
+   "Trabzonspor",
+   "2026-11-30",
+   "19:00"
+  ],
+  [
+   "Beşiktaş",
+   "Galatasaray",
+   "2026-11-30",
+   "21:00"
   ]
  ]
 }

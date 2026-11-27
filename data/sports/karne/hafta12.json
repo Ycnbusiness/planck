@@ -319,8 +319,16 @@
     1.54
    ],
    "claude_notu": null,
-   "sonuc": null,
-   "durum": "oynanmadı/sonuç yok (23 Kasım 20:00)"
+   "sonuc": [
+    4,
+    2
+   ],
+   "durum": "oynanmadı/sonuç yok (23 Kasım 20:00)",
+   "gerceklesen": "ev",
+   "brier_motor": 0.3606,
+   "brier_planck": 0.3606,
+   "p_gerceklesen_planck": 51,
+   "p_gerceklesen_motor": 51
   },
   {
    "lig": "Premier League",
@@ -541,16 +549,14 @@
  ],
  "results": {
   "puanlandi": "2026-11-23",
-  "mac_sayisi": 14,
-  "bekleyen": [
-   "Başakşehir–Çorum FK"
-  ],
-  "ort_brier_motor": 0.4985,
-  "ort_brier_planck": 0.5099,
+  "mac_sayisi": 15,
+  "bekleyen": [],
+  "ort_brier_motor": 0.4893,
+  "ort_brier_planck": 0.4999,
   "superlig": {
-   "mac": 8,
-   "motor": 0.4506,
-   "planck": 0.4777
+   "mac": 9,
+   "motor": 0.4406,
+   "planck": 0.4647
   },
   "avrupa": {
    "mac": 6,
@@ -581,6 +587,7 @@
    "p_motor": 15
   },
   "referans": "Her sonuca %33 vermek 0.667; lig ortalaması oranları 0.639–0.660 (sports/EGITIM.md).",
-  "kaynak": "data/sports/sonuclar/2026-11-23-*.json"
+  "kaynak": "data/sports/sonuclar/2026-11-23-*.json",
+  "tamamlandi": "2026-11-27 (Başakşehir 4-2 Çorum FK, sporx.com)"
  }
 }

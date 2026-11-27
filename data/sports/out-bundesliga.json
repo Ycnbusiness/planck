@@ -1,13 +1,13 @@
 [
  {
-  "ev": "Borussia Mönchengladbach",
-  "dep": "Borussia Dortmund",
-  "xg_ev": 1.16,
-  "xg_dep": 2.11,
+  "ev": "Borussia Dortmund",
+  "dep": "Bayer Leverkusen",
+  "xg_ev": 1.91,
+  "xg_dep": 1.23,
   "p": [
-   20,
-   22,
-   58
+   52,
+   24,
+   24
   ]
  }
 ]

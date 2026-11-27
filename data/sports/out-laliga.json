@@ -1,24 +1,13 @@
 [
  {
-  "ev": "Sevilla",
-  "dep": "Real Betis",
-  "xg_ev": 1.5,
-  "xg_dep": 1.46,
-  "p": [
-   38,
-   25,
-   36
-  ]
- },
- {
   "ev": "Real Madrid",
-  "dep": "Celta Vigo",
-  "xg_ev": 1.82,
-  "xg_dep": 0.7,
+  "dep": "Alavés",
+  "xg_ev": 2.37,
+  "xg_dep": 0.92,
   "p": [
-   64,
-   23,
-   13
+   69,
+   18,
+   12
   ]
  }
 ]

@@ -2,8 +2,8 @@
  "league": "bundesliga",
  "name": "Bundesliga",
  "season": "2026-27",
- "source": "hessenschau.de + bundesliga.com + foxsports.com (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: yok",
- "asof": "2026-11-23",
+ "source": "hessenschau.de + bundesliga.com + foxsports.com (23 Kasım 2026 erişim); program: sportnewsafrica.com (26 Kasım 2026). Saatler TSİ.",
+ "asof": "2026-11-27",
  "table": [
   [
    "Borussia Dortmund",
@@ -134,16 +134,16 @@
  ],
  "schedule": [
   [
-   "Borussia Mönchengladbach",
    "Borussia Dortmund",
-   "2026-11-21",
-   "17:30"
+   "Bayer Leverkusen",
+   "2026-11-29",
+   "21:30"
   ]
  ],
  "fixtures": [
   [
-   "Borussia Mönchengladbach",
-   "Borussia Dortmund"
+   "Borussia Dortmund",
+   "Bayer Leverkusen"
   ]
  ]
 }

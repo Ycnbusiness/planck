@@ -1,0 +1,401 @@
+{
+ "hafta": 13,
+ "sezon": "2026-27",
+ "hazirlandi": "2026-11-27",
+ "saat_dilimi": "TSİ",
+ "not": "motor: sports/motor.py çıktısı (toplam 100'e beraberlikten yuvarlandı); motor_ham: yuvarlanmamış; planck: Claude ayarlı yayın değeri. Sonuçlar maç bitince girilir.",
+ "maclar": [
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-27",
+   "saat": "20:00",
+   "ev": "Alanyaspor",
+   "dep": "Konyaspor",
+   "motor": [
+    43,
+    31,
+    26
+   ],
+   "motor_ham": [
+    43,
+    32,
+    26
+   ],
+   "planck": [
+    43,
+    31,
+    26
+   ],
+   "xg": [
+    1.27,
+    0.93
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-27",
+   "saat": "20:00",
+   "ev": "Rizespor",
+   "dep": "Kasımpaşa",
+   "motor": [
+    35,
+    30,
+    35
+   ],
+   "motor_ham": [
+    35,
+    30,
+    35
+   ],
+   "planck": [
+    35,
+    30,
+    35
+   ],
+   "xg": [
+    1.24,
+    1.26
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-28",
+   "saat": "16:00",
+   "ev": "Samsunspor",
+   "dep": "Gençlerbirliği",
+   "motor": [
+    38,
+    27,
+    35
+   ],
+   "motor_ham": [
+    38,
+    27,
+    35
+   ],
+   "planck": [
+    38,
+    27,
+    35
+   ],
+   "xg": [
+    1.52,
+    1.45
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-28",
+   "saat": "19:00",
+   "ev": "Gaziantep FK",
+   "dep": "Amedspor",
+   "motor": [
+    23,
+    25,
+    52
+   ],
+   "motor_ham": [
+    23,
+    25,
+    52
+   ],
+   "planck": [
+    23,
+    25,
+    52
+   ],
+   "xg": [
+    1.17,
+    1.86
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-29",
+   "saat": "13:30",
+   "ev": "Çorum FK",
+   "dep": "Kocaelispor",
+   "motor": [
+    39,
+    27,
+    34
+   ],
+   "motor_ham": [
+    39,
+    27,
+    34
+   ],
+   "planck": [
+    39,
+    27,
+    34
+   ],
+   "xg": [
+    1.54,
+    1.45
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-29",
+   "saat": "16:00",
+   "ev": "Eyüpspor",
+   "dep": "Başakşehir",
+   "motor": [
+    13,
+    21,
+    66
+   ],
+   "motor_ham": [
+    13,
+    21,
+    66
+   ],
+   "planck": [
+    13,
+    21,
+    66
+   ],
+   "xg": [
+    0.89,
+    2.18
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-29",
+   "saat": "19:00",
+   "ev": "Fenerbahçe",
+   "dep": "Erzurumspor",
+   "motor": [
+    74,
+    17,
+    9
+   ],
+   "motor_ham": [
+    74,
+    17,
+    9
+   ],
+   "planck": [
+    70,
+    19,
+    11
+   ],
+   "xg": [
+    2.48,
+    0.77
+   ],
+   "claude_notu": "Fenerbahçe Çarşamba Şampiyonlar Ligi'nde oynadı; Asensio ve Aké sakat, Skriniar'ın durumu belirsiz, rotasyon bekleniyor.",
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-30",
+   "saat": "19:00",
+   "ev": "Göztepe",
+   "dep": "Trabzonspor",
+   "motor": [
+    28,
+    26,
+    46
+   ],
+   "motor_ham": [
+    28,
+    26,
+    46
+   ],
+   "planck": [
+    28,
+    26,
+    46
+   ],
+   "xg": [
+    1.34,
+    1.75
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Süper Lig",
+   "tarih": "2026-11-30",
+   "saat": "21:00",
+   "ev": "Beşiktaş",
+   "dep": "Galatasaray",
+   "motor": [
+    49,
+    23,
+    28
+   ],
+   "motor_ham": [
+    49,
+    23,
+    28
+   ],
+   "planck": [
+    45,
+    28,
+    27
+   ],
+   "xg": [
+    2.1,
+    1.55
+   ],
+   "claude_notu": "Derbi baskısı beraberlik payını artırıyor; Beşiktaş Perşembe Avrupa Ligi'nde oynadı, Galatasaray'da Leão yok, Osimhen ve Sallai belirsiz.",
+   "sonuc": null
+  },
+  {
+   "lig": "Premier League",
+   "tarih": "2026-11-29",
+   "saat": "15:00",
+   "ev": "Everton",
+   "dep": "Liverpool",
+   "motor": [
+    30,
+    28,
+    42
+   ],
+   "motor_ham": [
+    30,
+    28,
+    42
+   ],
+   "planck": [
+    31,
+    30,
+    39
+   ],
+   "xg": [
+    1.06,
+    1.32
+   ],
+   "claude_notu": "Liverpool'da Gakpo ve Gravenberch yok, takım Çarşamba Şampiyonlar Ligi'nde oynadı; Merseyside derbisi.",
+   "sonuc": null
+  },
+  {
+   "lig": "Premier League",
+   "tarih": "2026-11-29",
+   "saat": "19:30",
+   "ev": "Arsenal",
+   "dep": "Manchester City",
+   "motor": [
+    49,
+    26,
+    25
+   ],
+   "motor_ham": [
+    49,
+    26,
+    25
+   ],
+   "planck": [
+    49,
+    26,
+    25
+   ],
+   "xg": [
+    1.57,
+    1.06
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "La Liga",
+   "tarih": "2026-11-28",
+   "saat": "23:00",
+   "ev": "Real Madrid",
+   "dep": "Alavés",
+   "motor": [
+    69,
+    19,
+    12
+   ],
+   "motor_ham": [
+    69,
+    18,
+    12
+   ],
+   "planck": [
+    69,
+    19,
+    12
+   ],
+   "xg": [
+    2.37,
+    0.92
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  },
+  {
+   "lig": "Serie A",
+   "tarih": "2026-11-29",
+   "saat": "22:45",
+   "ev": "Como",
+   "dep": "Juventus",
+   "motor": [
+    44,
+    30,
+    26
+   ],
+   "motor_ham": [
+    44,
+    30,
+    26
+   ],
+   "planck": [
+    47,
+    29,
+    24
+   ],
+   "xg": [
+    1.31,
+    0.94
+   ],
+   "claude_notu": "Juventus'ta Kenan Yıldız ameliyat sonrası yok; Locatelli, Thuram, González ve Milik de eksik, takım Perşembe Avrupa Ligi'nde oynadı.",
+   "sonuc": null
+  },
+  {
+   "lig": "Bundesliga",
+   "tarih": "2026-11-29",
+   "saat": "21:30",
+   "ev": "Borussia Dortmund",
+   "dep": "Bayer Leverkusen",
+   "motor": [
+    52,
+    24,
+    24
+   ],
+   "motor_ham": [
+    52,
+    24,
+    24
+   ],
+   "planck": [
+    52,
+    24,
+    24
+   ],
+   "xg": [
+    1.91,
+    1.23
+   ],
+   "claude_notu": null,
+   "sonuc": null
+  }
+ ]
+}

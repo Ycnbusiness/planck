@@ -1,0 +1,237 @@
+{
+ "week": 13,
+ "league": "Süper Lig + Avrupa",
+ "date": "27 KASIM 2026",
+ "launch": false,
+ "matches": [
+  {
+   "ev": "Alanyaspor",
+   "dep": "Konyaspor",
+   "when": "Cum 20:00 · Süper Lig",
+   "p": [
+    43,
+    31,
+    26
+   ],
+   "motor": [
+    43,
+    31,
+    26
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Rizespor",
+   "dep": "Kasımpaşa",
+   "when": "Cum 20:00 · Süper Lig",
+   "p": [
+    35,
+    30,
+    35
+   ],
+   "motor": [
+    35,
+    30,
+    35
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Samsunspor",
+   "dep": "Gençlerbirliği",
+   "when": "Cmt 16:00 · Süper Lig",
+   "p": [
+    38,
+    27,
+    35
+   ],
+   "motor": [
+    38,
+    27,
+    35
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Gaziantep FK",
+   "dep": "Amedspor",
+   "when": "Cmt 19:00 · Süper Lig",
+   "p": [
+    23,
+    25,
+    52
+   ],
+   "motor": [
+    23,
+    25,
+    52
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Çorum FK",
+   "dep": "Kocaelispor",
+   "when": "Paz 13:30 · Süper Lig",
+   "p": [
+    39,
+    27,
+    34
+   ],
+   "motor": [
+    39,
+    27,
+    34
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Eyüpspor",
+   "dep": "Başakşehir",
+   "when": "Paz 16:00 · Süper Lig",
+   "p": [
+    13,
+    21,
+    66
+   ],
+   "motor": [
+    13,
+    21,
+    66
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Fenerbahçe",
+   "dep": "Erzurumspor",
+   "when": "Paz 19:00 · Süper Lig",
+   "p": [
+    70,
+    19,
+    11
+   ],
+   "motor": [
+    74,
+    17,
+    9
+   ],
+   "grup": "Süper Lig",
+   "note": "Fenerbahçe Çarşamba Şampiyonlar Ligi'nde oynadı; Asensio ve Aké sakat, Skriniar'ın durumu belirsiz, rotasyon bekleniyor."
+  },
+  {
+   "ev": "Göztepe",
+   "dep": "Trabzonspor",
+   "when": "Pzt 19:00 · Süper Lig",
+   "p": [
+    28,
+    26,
+    46
+   ],
+   "motor": [
+    28,
+    26,
+    46
+   ],
+   "grup": "Süper Lig"
+  },
+  {
+   "ev": "Beşiktaş",
+   "dep": "Galatasaray",
+   "when": "Pzt 21:00 · Süper Lig",
+   "p": [
+    45,
+    28,
+    27
+   ],
+   "motor": [
+    49,
+    23,
+    28
+   ],
+   "grup": "Süper Lig",
+   "note": "Derbi baskısı beraberlik payını artırıyor; Beşiktaş Perşembe Avrupa Ligi'nde oynadı, Galatasaray'da Leão yok, Osimhen ve Sallai belirsiz."
+  },
+  {
+   "ev": "Everton",
+   "dep": "Liverpool",
+   "when": "Paz 15:00 · Premier League",
+   "p": [
+    31,
+    30,
+    39
+   ],
+   "motor": [
+    30,
+    28,
+    42
+   ],
+   "grup": "Avrupa",
+   "note": "Liverpool'da Gakpo ve Gravenberch yok, takım Çarşamba Şampiyonlar Ligi'nde oynadı; Merseyside derbisi."
+  },
+  {
+   "ev": "Arsenal",
+   "dep": "Manchester City",
+   "when": "Paz 19:30 · Premier League",
+   "p": [
+    49,
+    26,
+    25
+   ],
+   "motor": [
+    49,
+    26,
+    25
+   ],
+   "grup": "Avrupa"
+  },
+  {
+   "ev": "Real Madrid",
+   "dep": "Alavés",
+   "when": "Cmt 23:00 · La Liga",
+   "p": [
+    69,
+    19,
+    12
+   ],
+   "motor": [
+    69,
+    19,
+    12
+   ],
+   "grup": "Avrupa"
+  },
+  {
+   "ev": "Como",
+   "dep": "Juventus",
+   "when": "Paz 22:45 · Serie A",
+   "p": [
+    47,
+    29,
+    24
+   ],
+   "motor": [
+    44,
+    30,
+    26
+   ],
+   "grup": "Avrupa",
+   "note": "Juventus'ta Kenan Yıldız ameliyat sonrası yok; Locatelli, Thuram, González ve Milik de eksik, takım Perşembe Avrupa Ligi'nde oynadı."
+  },
+  {
+   "ev": "Borussia Dortmund",
+   "dep": "Bayer Leverkusen",
+   "when": "Paz 21:30 · Bundesliga",
+   "p": [
+    52,
+    24,
+    24
+   ],
+   "motor": [
+    52,
+    24,
+    24
+   ],
+   "grup": "Avrupa"
+  }
+ ],
+ "question": "Pazartesi akşamki Beşiktaş–Galatasaray derbisinde sizce hangi sonuç olasılığın söylediğinden daha sık gerçekleşir?"
+}

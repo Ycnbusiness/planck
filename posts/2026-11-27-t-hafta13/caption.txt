@@ -1,0 +1,28 @@
+Hafta Sonu Haritası · 13. hafta
+Süper Lig'in 9 maçı ve Avrupa'dan 5 büyük maç. Sıralama: ev sahibi / beraberlik / deplasman. Saatler TSİ.
+
+SÜPER LİG
+Cum 20:00 · Süper Lig — Alanyaspor %43 · Beraberlik %31 · Konyaspor %26
+Cum 20:00 · Süper Lig — Rizespor %35 · Beraberlik %30 · Kasımpaşa %35
+Cmt 16:00 · Süper Lig — Samsunspor %38 · Beraberlik %27 · Gençlerbirliği %35
+Cmt 19:00 · Süper Lig — Gaziantep FK %23 · Beraberlik %25 · Amedspor %52
+Paz 13:30 · Süper Lig — Çorum FK %39 · Beraberlik %27 · Kocaelispor %34
+Paz 16:00 · Süper Lig — Eyüpspor %13 · Beraberlik %21 · Başakşehir %66
+Paz 19:00 · Süper Lig — Fenerbahçe %70 · Beraberlik %19 · Erzurumspor %11
+Pzt 19:00 · Süper Lig — Göztepe %28 · Beraberlik %26 · Trabzonspor %46
+Pzt 21:00 · Süper Lig — Beşiktaş %45 · Beraberlik %28 · Galatasaray %27
+
+AVRUPA
+Paz 15:00 · Premier League — Everton %31 · Beraberlik %30 · Liverpool %39
+Paz 19:30 · Premier League — Arsenal %49 · Beraberlik %26 · Manchester City %25
+Cmt 23:00 · La Liga — Real Madrid %69 · Beraberlik %19 · Alavés %12
+Paz 22:45 · Serie A — Como %47 · Beraberlik %29 · Juventus %24
+Paz 21:30 · Bundesliga — Borussia Dortmund %52 · Beraberlik %24 · Bayer Leverkusen %24
+
+Olasılıklar Planck motoruna (attığı/yediği gole dayalı güç modeli) ve Claude ayarına dayanır. Ayar yapılan maçlar: Fenerbahçe–Erzurumspor, Beşiktaş–Galatasaray, Everton–Liverpool, Como–Juventus (gerekçeler kartlarda).
+Pazartesi karne: her tahmin Brier skoruyla puanlanır.
+
+Pazartesi akşamki Beşiktaş–Galatasaray derbisinde sizce hangi sonuç olasılığın söylediğinden daha sık gerçekleşir?
+
+Bahis tavsiyesi değildir. Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+#planck #süperlig #futbol #olasılık

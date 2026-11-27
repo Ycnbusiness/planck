@@ -2,8 +2,8 @@
  "league": "seriea",
  "name": "Serie A",
  "season": "2026-27",
- "source": "bloooog.it + calcionapoli24.it + tg24.sky.it + rtl.it + football-italia.net (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Monza–Fiorentina (2026-11-23)",
- "asof": "2026-11-23",
+ "source": "bloooog.it + calcionapoli24.it + tg24.sky.it + rtl.it + football-italia.net (23 Kasım 2026 erişim); program: livesoccertv.com. Saatler TSİ.",
+ "asof": "2026-11-27",
  "table": [
   [
    "Lazio",
@@ -148,16 +148,16 @@
  ],
  "schedule": [
   [
-   "Atalanta",
-   "Inter",
-   "2026-11-22",
+   "Como",
+   "Juventus",
+   "2026-11-29",
    "22:45"
   ]
  ],
  "fixtures": [
   [
-   "Atalanta",
-   "Inter"
+   "Como",
+   "Juventus"
   ]
  ]
 }

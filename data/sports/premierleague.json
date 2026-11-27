@@ -2,8 +2,8 @@
  "league": "premierleague",
  "name": "Premier League",
  "season": "2026-27",
- "source": "espn.com (skor + puan tablosu) + skysports.com + nbcsports.com (23 Kasım 2026 erişim); 20–22 Kasım sonuçları eklenerek güncellendi. Oynanmamış: Brentford–Everton (2026-11-23)",
- "asof": "2026-11-23",
+ "source": "espn.com (skor + puan tablosu) + skysports.com + nbcsports.com (23 Kasım 2026 erişim); 23 Kasım Brentford 4-0 Everton (thescore.com) eklendi. Program: premierleague.com. Saatler TSİ.",
+ "asof": "2026-11-27",
  "table": [
   [
    "Arsenal",
@@ -41,18 +41,18 @@
    18
   ],
   [
+   "Brentford",
+   11,
+   20,
+   11,
+   17
+  ],
+  [
    "Leeds United",
    11,
    14,
    9,
    17
-  ],
-  [
-   "Everton",
-   10,
-   12,
-   10,
-   16
   ],
   [
    "Chelsea",
@@ -62,18 +62,18 @@
    16
   ],
   [
+   "Everton",
+   11,
+   12,
+   14,
+   16
+  ],
+  [
    "Tottenham",
    11,
    12,
    11,
    15
-  ],
-  [
-   "Brentford",
-   10,
-   16,
-   11,
-   14
   ],
   [
    "Hull City",
@@ -148,26 +148,26 @@
  ],
  "schedule": [
   [
-   "Newcastle United",
-   "Arsenal",
-   "2026-11-21",
-   "20:30"
+   "Everton",
+   "Liverpool",
+   "2026-11-29",
+   "15:00"
   ],
   [
-   "Liverpool",
-   "Manchester United",
-   "2026-11-22",
+   "Arsenal",
+   "Manchester City",
+   "2026-11-29",
    "19:30"
   ]
  ],
  "fixtures": [
   [
-   "Newcastle United",
-   "Arsenal"
+   "Everton",
+   "Liverpool"
   ],
   [
-   "Liverpool",
-   "Manchester United"
+   "Arsenal",
+   "Manchester City"
   ]
  ]
 }
