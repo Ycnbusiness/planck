@@ -1,0 +1,24 @@
+Bloomberg: Yasaklı Nvidia Blackwell sunucuları Şanghay'da bir veri merkezinde
+
+Bloomberg'in incelediği, Çinli düzenleyicilere sunulmuş belgelere göre Şanghay'daki bir veri merkezi projesinde iki Çinli şirket, ABD'nin Çin'e satışını yasakladığı Nvidia Blackwell sunucularını kurdu; biri 72 Blackwell Ultra çipli bir GB300 rafını teminat göstererek yaklaşık 14 milyon dolar kredi aldı. Aynı tesiste önceki nesil sunucular da kayıtlı. Tesis, ABD'nin bu ay kara listeye aldığı Singapurlu Megaspeed'in eski yönetimiyle bağlantılı; şirket suçlamaları reddediyor. Nvidia henüz yanıt vermedi.
+
+31 Mart'a kadar üç yol:
+1. Tekil yaptırım, izinler sürer (ağırlık %50). Bağlantılı şirketler listeye girer, satış izinleri devam eder.
+2. İzinlere yeni şart (%21). Konum doğrulama, alıcı denetimi gibi şartlar eklenir.
+3. H200 izinleri askıya alınır (%29). Kongre'de yeni bulgu çıkar ya da ABD–Çin ateşkesi bozulur.
+
+Soru: ABD 31 Mart 2027'ye kadar Nvidia H200 çiplerinin Çin'e satış izinlerini genel olarak iptal eder ya da askıya alır mı? (31.03.2027)
+Sayımız: %29 · 100'de 29 (değişmedi). Motor %20, Claude ayarı +9. Bulgu şimdilik tek kaynaklı (Bloomberg); ikinci bağımsız teyide kadar sayıyı oynatmıyoruz.
+Tabanı zayıf: son iki yılda izinli bir çipin satışı 1 kez lisansa bağlandı (H20, Nisan 2025) ve 3 ay sonra yeniden açıldı.
+
+Neden önemli: Yapay zekâ çiplerine erişim, şirketlerin ve ülkelerin bu alanda ne kadar hızlı ilerleyeceğini belirliyor. Bireysel olarak yapılacak bir şey yok. İzlenecek: Jensen Huang'ın 3 Aralık'taki Senato ifadesi, Ticaret Bakanlığı duyuruları.
+
+Sizce ihracat yasakları bu büyüklükteki çipleri gerçekten durdurabilir mi?
+
+Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
+İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
+Kaynaklar: Bloomberg (Anadolu Ajansı ve JoongAng Daily aktarımıyla) · Soru kaydı: on-abdcin-h200-iptal · Kimseden fon almıyoruz.
+Yatırım veya politika tavsiyesi değildir.
+Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+
+#planck #pekibiz #teknoloji

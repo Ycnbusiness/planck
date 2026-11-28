@@ -1,0 +1,227 @@
+{
+ "date": "2026-11-28",
+ "scan_window": "2026-11-27 sabah → 2026-11-28 sabah TSİ",
+ "yontem": "Yöntem v2.2 (TARAMA.md), olaycevap2 + senaryo + uzman sayfası. Görev metnindeki eski önem formülü (|Δ|×TR×etki) 'onem_eski' alanında.",
+ "hakem": {
+  "vadesi_gelen": [
+   "pk-2026-11-18-motorin-100-aralik (01.12)",
+   "pk-2026-11-20-motorin-95-aralik (01.12)"
+  ],
+  "kapanan": [
+   "nv-2 EVET (BIS 23.11, FR 25.11; editör bulgusu)"
+  ],
+  "not": "Vadesi 1 Aralık; kapanış o gün pompa fiyatıyla."
+ },
+ "summary": {
+  "kirmizi": 0,
+  "sari": 2,
+  "yesil": 2,
+  "zayif": 3,
+  "not": "Ana akış eşiğini geçen olay yok; günlük taban kuralıyla en yüksek haber puanlı olay (Nvidia Blackwell, haber 6) Bloomberg atfıyla Olay ve Cevap; tek kaynaklı olduğu için sayı oynamadı. Story: İspanya seçimi (yeni süreç sorusu %42). Dosya sabah 2 madde: Karadeniz, DWP siber. Hakem: nv-2 (Megaspeed kara listesi) EVET kapandı. 2031 olasılıkları değişmedi."
+ },
+ "events": [
+  {
+   "id": "nvidia-blackwell-sanghay",
+   "class": "SARI",
+   "risk": "abd-cin-teknoloji",
+   "delta": 0,
+   "from": 63,
+   "to": 63,
+   "sorular": {
+    "on-abdcin-h200-iptal": [
+     29,
+     29
+    ],
+    "on-abdcin-entity-10": [
+     35,
+     35
+    ],
+    "pk-2026-11-21-nvidia-cin-cip": [
+     15,
+     15
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 2,
+    "acik_uc": 2,
+    "puan": 6
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "onem_eski": "|Δ 5 (ana soru)| × TR 0 × etki 3 = 0 (görev metni formülü; v2'de Türkiye bağı filtre değil)",
+   "event": "Bloomberg (27.11) kredi kayıtlarına dayanarak Şanghay'daki Yangtze Nehri Deltası veri merkezi projesinde iki Çinli şirketin (Shuoyao, Kezhan) ABD'nin Çin'e yasakladığı Blackwell sunucularını (GB300 NVL72 rafı, GB200 sunucu) kredi teminatı gösterdiğini yazdı; NYT aynı tesiste Hopper sunucuları buldu. Raf seri numarası Gigabyte'a izlendi. Tesis Megaspeed'in eski yönetimiyle bağlantılı; Megaspeed reddediyor. Nvidia ve Ticaret Bakanlığı yanıt vermedi. Yasaklı Blackwell'in Çin'de kurulu olduğuna dair ilk belgelenmiş örnek.",
+   "rationale": "Haber puanı 6 (dünyanın en değerli şirketlerinden biri, ilk belgelenmiş örnek, birden çok analitik soru). S×K 1,34 < 1,4 → normalde Story; ana akış eşiğini geçen olay olmadığından günlük taban kuralıyla günün Olay ve Cevap'ı. LR 1,25 (Kongre baskısı; yönetim satıştan yana olduğu için zayıf). Türkiye bağı 0 → 'Neden Önemli'. 2031 endeksi değişmedi (ayrışma zaten fiyatlı). EDİTÖR DÜZELTMESİ: olgu tek kaynaklı (Bloomberg; NYT atfı yanlıştı, Hopper bulgusu da Bloomberg'in) → Anayasa §9 gereği LR 1, sayılar geri alındı (29/35/15). Haber puanı 6 ile günün en yükseği; günlük taban kuralıyla Olay ve Cevap, Bloomberg atfıyla.",
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang",
+    "https://www.aa.com.tr/en/science-technology/nvidia-blackwell-chips-found-at-china-data-center-linked-to-alice-huang-report/4140762",
+    "https://www.koreajoongangdaily.com/business/nvidias-blackwell-chips-found-at-china-data-center-linked-to-alice-huang/12995289",
+    "https://engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang",
+    "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"
+   ],
+   "kaynak_notu": "Tek bağımsız kaynak: Bloomberg. AA, JoongAng, Decoder, Engadget, IBTimes aktarım. İkinci bağımsız teyit (Reuters/FT/AP ya da birincil kayıt) gelirse 34/40/12 yeniden işlenir.",
+   "yonlendirme": "Olay ve Cevap 11:00 + Reel 13:00 (posts/2026-11-28-nvidia-blackwell-cin)",
+   "editor": "DÜZELT (1. tur) → yol (a) uygulandı: sayılar geri, başlık 'Bloomberg:', kaynak satırı, 72 Blackwell Ultra çip, H20 tarihi, Jensen Huang 3 Aralık Senato, Çinli şirket yanıtı eklendi."
+  },
+  {
+   "id": "ispanya-secim-29kasim",
+   "class": "SARI",
+   "risk": "avrupa",
+   "delta": 0,
+   "from": 67,
+   "to": 67,
+   "sorular": {
+    "pk-2026-11-28-ispanya-guvenoyu": [
+     null,
+     42
+    ]
+   },
+   "lr": null,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0.69,
+   "K": 1,
+   "onem": 0.69,
+   "turkiye_bagi": 0,
+   "onem_eski": "Yeni soru, Δ0 × TR 0 = 0",
+   "event": "İspanya 29 Kasım'da erken genel seçime gidiyor (Başbakan 5 Ekim'de konut kararnameleri reddedilince erken seçim kararı aldı). Yayın yasağı öncesi anket ortalamaları sağ bloku 176 çoğunluk eşiğinin üstünde (poll.graphics 22.11 nowcast 186, simülasyonda %68; Rio Times 19 anket ortalaması ~191), PP'yi tek başına eşiğin çok altında gösteriyor. Başbakan sol çoğunluk beklediğini söyledi (Reuters).",
+   "rationale": "Kazanan ya da oy oranı sorulmaz; süreç sorusu açıldı: 31 Ocak'a kadar güvenoyu. Motor %43 (2008–2023: 7 seçimin 3'ünde 63 gün içinde investidura), Claude −1 (anket çoğunluğu kısaltır, ortaklık pazarlığı ve Aralık sonu Kongre takvimi uzatır; 2023 anket hatası). S yeni soruda en az 0,69; K 1 → Story.",
+   "sources": [
+    "https://poll.graphics/en/spain-election-2026-final-projection/",
+    "https://www.riotimesonline.com/spain-election-poll-tracker/",
+    "https://www.france24.com/en/europe/20261109-spain-right-leads-sanchez-socialists-in-polls-for-november-29-snap-election",
+    "https://www.devdiscourse.com/article/international/4013390-reuters-world-news-summary"
+   ],
+   "yonlendirme": "Story 15:00 (posts/2026-11-28-ispanya-secim-story); sonuçlar 29.11 taramasında",
+   "editor": "DÜZELT (1. tur) → düzeltildi: soru sicille eşitlendi ('bir başbakan adayına'), 'net çoğunluk' kaldırıldı, 2023 anket hatası notu."
+  },
+  {
+   "id": "karadeniz-ateskes-teklifi",
+   "class": "YEŞİL",
+   "risk": "catisma",
+   "delta": 0,
+   "from": 91,
+   "to": 91,
+   "sorular": {
+    "on-catisma-rusya-ateskes": [
+     12,
+     12
+    ],
+    "pb-2026-11-15-ukrayna-gorusme-turkiye": [
+     20,
+     20
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "onem_eski": "|Δ0| × 2 × 2 = 0",
+   "event": "Ukrayna Dışişleri Bakanı 27.11'de Karadeniz'de tarım ürünleri taşımacılığı için ateşkes önerisini ortaklara ilettiklerini ve Rusya'nın yanıtını beklediklerini söyledi; Rusya'nın petrol ihracatını da pakete eklemek istediğini, Kiev'in bunu ancak tüm bileşenleri kapsayan bir enerji ateşkesinde düşüneceğini belirtti. Türkiye, Hindistan ve Mısır'a gerginliği azaltma çabaları için teşekkür etti.",
+   "rationale": "Öneri 10 Kasım'dan beri biliniyor; yeni olan Rusya'nın petrol talebi. Taraflar uzak → LR 1. Türkiye bağı 2 (Karadeniz ticareti, arabuluculuk) → Dosya.",
+   "sources": [
+    "https://www.ukrinform.net/rubric-polytics/4189335-fm-sybiha-russia-seeks-to-include-oil-exports-in-black-sea-agricultural-truce-deal.html",
+    "https://english.news.cn/20261128/37bd4526dea7440796bf25a3346f38d6/c.html",
+    "https://www.business-standard.com/world-news/ukraine-submits-black-sea-truce-offer-waits-for-russian-response-minister-126112701458_1.html",
+    "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00",
+   "editor": "DÜZELT → düzeltildi"
+  },
+  {
+   "id": "abluka-pacific-archer-trump",
+   "class": "YEŞİL",
+   "risk": "enerji",
+   "delta": 0,
+   "from": 72,
+   "to": 72,
+   "sorular": {
+    "pk-2026-11-18-abd-iran-ateskes": [
+     15,
+     15
+    ],
+    "pk-2026-11-18-brent-100-dokunma": [
+     69,
+     69
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 2,
+    "yenilik": 0,
+    "acik_uc": 1,
+    "puan": 3
+   },
+   "S": 0,
+   "K": 3,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "onem_eski": "0",
+   "event": "CENTCOM 26.11'de Bender Abbas'tan çıkıp ablukayı yarmaya çalışan Çin sahipli, Palau bayraklı dökme yük gemisi Pacific Archer'ı havadan vurup durdurdu (Temmuz'dan beri 6. gemi; mürettebat yara almadı). ABD Başkanı 26.11'de çatışma yeniden başlarsa Natanz yakınındaki yeraltı tesisinin vurulacağını, İran'ın anlaşma yapacağından şüpheli olduğunu söyledi; İran ablukayı kırma ve Hürmüz'ü kapalı tutma sözü verdi. Arakçi, Katar ve Pakistan aracılığıyla teklif alışverişinin sürdüğünü söyledi.",
+   "rationale": "Süren gerginliğin devamı, yeni kırılma yok → haber kapısı 3, LR 1. Dosya'da bağlam maddesi.",
+   "sources": [
+    "https://maritime-executive.com/article/us-disables-chinese-owned-bulker-running-the-iran-blockade",
+    "https://www.foxnews.com/world/us-military-disables-tanker-ship-attempting-slip-through-iran-blockade-thanksgiving-day",
+    "https://www.iranintl.com/en/202611274175",
+    "https://www.business-standard.com/world-news/us-could-hit-iran-s-pickaxe-mountain-nuclear-site-if-strikes-resume-trump-126112700363_1.html",
+    "https://www.devdiscourse.com/article/international/4013390-reuters-world-news-summary"
+   ],
+   "yonlendirme": "Zayıf Sinyal Defteri (editör DÜŞÜR: haber kapısı 3)",
+   "editor": "DÜŞÜR; not: 'Temmuz'dan beri' değil 'abluka yeniden başladığından beri altıncı'"
+  },
+  {
+   "id": "ingiltere-dwp-siber",
+   "class": "YEŞİL",
+   "risk": "siber",
+   "delta": 0,
+   "from": 48,
+   "to": 48,
+   "sorular": {
+    "on-siber-yeni-devlet-atfi": [
+     55,
+     55
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "onem_eski": "0",
+   "event": "İngiltere Çalışma ve Emeklilik Bakanlığı (DWP) 27.11'de tespit ettiği siber olay nedeniyle Universal Credit başvurusu ve hesap girişi dahil bazı çevrimiçi hizmetleri önlem olarak kapattı; ödemeler etkilenmedi, veri çalındığına dair kanıt yok; NCSC ile çalışılıyor. Atıf yok.",
+   "rationale": "Devlet atfı yok → LR 1. Kamu hizmeti kesintisi olarak Dosya maddesi; Türkiye'ye en yakın soru pb-2026-W46-1.",
+   "sources": [
+    "https://www.itv.com/news/2026-11-27/dwp-removes-some-online-services-amid-cyber-incident",
+    "https://english.news.cn/20261128/37bd4526dea7440796bf25a3346f38d6/c.html",
+    "https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline"
+   ],
+   "yonlendirme": "Günün Dosyası 21:00",
+   "editor": "DÜZELT → düzeltildi (Peki Biz kaldırıldı)"
+  }
+ ],
+ "zayif_sinyal": [
+  "abd-hava-kuvvetleri-cloud-one",
+  "tayvan-yerel-secim"
+ ],
+ "izleme_kontrol": "tcmb-yerli-altin-alimi (bitiş 28.11) bu taramada doğrulanmadı; akşam turu bitişte 'düştü' yapar. Diğer açık öğelerde yeni teyit bulunmadı."
+}

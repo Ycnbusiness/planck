@@ -1,0 +1,65 @@
+{
+ "date": "28 KASIM 2026",
+ "lede": "Kiev'e göre Rusya, Karadeniz tahıl ateşkesine petrolü de eklemek istiyor; İngiltere'de bir bakanlık siber olay nedeniyle çevrimiçi hizmetlerini kapattı.",
+ "items": [
+  {
+   "tag": "Karadeniz",
+   "title": "Karadeniz'de tahıl ateşkesi: Kiev, Rusya'nın petrolü de pakete eklemek istediğini söyledi",
+   "text": "Ukrayna, tarım ürünleri taşımacılığı için Karadeniz'de ateşkes önerisini ortaklara iletti ve Rusya'nın yanıtını bekliyor. Kiev'e göre Moskova petrol ihracatını da pakete eklemek istiyor; Kiev bunu yalnız kapsamlı bir enerji ateşkesinde düşüneceğini söylüyor.",
+   "risk": "Rusya ile Ukrayna 30 Nisan 2027'ye kadar genel ateşkes ilan eder mi?",
+   "from": 12,
+   "to": 12,
+   "deadline": "30.04.2027",
+   "pq": "Rusya–Ukrayna görüşmelerinin bir turu 31 Mart 2027'ye kadar Türkiye'de yapılır mı?",
+   "pp": 20,
+   "pdo": "Ukrayna, Karadeniz'de gerginliği azaltma ve arabuluculuk çabaları için Türkiye, Hindistan ve Mısır'a teşekkür etti. İzlenecek: Rusya'nın yanıtı.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 2,
+   "soru": "pb-2026-11-15-ukrayna-gorusme-turkiye",
+   "kaynaklar": [
+    "https://www.ukrinform.net/rubric-polytics/4189335-fm-sybiha-russia-seeks-to-include-oil-exports-in-black-sea-agricultural-truce-deal.html",
+    "https://english.news.cn/20261128/37bd4526dea7440796bf25a3346f38d6/c.html",
+    "https://www.business-standard.com/world-news/ukraine-submits-black-sea-truce-offer-waits-for-russian-response-minister-126112701458_1.html",
+    "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
+   ]
+  },
+  {
+   "tag": "Siber",
+   "title": "İngiltere'de sosyal yardım bakanlığı siber olay nedeniyle hizmetleri kapattı",
+   "text": "İngiltere Çalışma ve Emeklilik Bakanlığı, tespit ettiği siber olay nedeniyle Universal Credit başvurusu ve girişi dahil bazı çevrimiçi hizmetleri önlem olarak kapattı. Ödemeler etkilenmedi; veri çalındığına dair kanıt yok, saldırı kimseye atfedilmedi.",
+   "risk": "Bir AB ya da NATO üyesi hükümet, 31 Ocak 2027'ye kadar kritik altyapıya yönelik yeni bir siber saldırıyı resmen bir devlete atfeder mi?",
+   "from": 55,
+   "to": 55,
+   "deadline": "31.01.2027",
+   "pq": null,
+   "pp": null,
+   "pdo": "Kamu hizmetleri giderek çevrimiçi; bir kesinti milyonlarca başvuruyu etkileyebiliyor. Ödemeler bu kez etkilenmedi.",
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 2,
+    "puan": 4
+   },
+   "S": 0,
+   "K": 1,
+   "onem": 0,
+   "turkiye_bagi": 0,
+   "soru": "on-siber-yeni-devlet-atfi",
+   "kaynaklar": [
+    "https://www.itv.com/news/2026-11-27/dwp-removes-some-online-services-amid-cyber-incident",
+    "https://english.news.cn/20261128/37bd4526dea7440796bf25a3346f38d6/c.html",
+    "https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline"
+   ]
+  }
+ ],
+ "not": "Sabah taraması 2 madde. Akşam görevi Tayvan yerel seçim sonucunu ve gün içi gelişmeleri ekler; Nvidia (ana akış) ve İspanya (Story) Dosya'ya girmez.",
+ "editor": "Sabah 1. tur: Karadeniz DÜZELT→düzeltildi; abluka DÜŞÜR (haber kapısı 3 → Zayıf Sinyal); DWP DÜZELT→düzeltildi (zorla Peki Biz kaldırıldı)."
+}

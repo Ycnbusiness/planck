@@ -28,6 +28,7 @@ Jensen Huang 12 Kasım'da, ABD yetkililerinin Çin istihbaratıyla bağlantılı
 | 2026-11-20 | ABD Başkanı / Hazine Bakanı | Başkan: Huang'ı Xi ile konuştum. Bakan: konu açılmadı | ± | — | çelişkili bağ | CNBC, NewsNation |
 | 2026-11-21/22 | ABD Başkanı | Kurulun Huang'ı geri alması gerektiğini yazdı, "ikinci şans" dedi | + | yüksek | yüksek | Reason |
 | 2026-11-23 | Kurul | Hükümetle görüşüp "ulusal güvenlik riski yok" dedi; oybirliğiyle iade; hisse açılış öncesi +%27 | sonuç | — | — | Nvidia 8-K, CNN, TechCrunch |
+| 2026-11-27 | Nvidia | Blackwell'in Çin'de bulunması üzerine yanıt vermedi; Huang daha önce bu boy sunucunun kaçırılamayacağını savunmuştu | − | düşük (sessizlik) | orta | Engadget, JoongAng |
 
 ## Denge
 17 Kasım'dan sonra olumlu sinyaller ağır bastı: engeli kaldırabilecek tek merci (ABD hükümeti) açıkça dönüşten yanaydı, karar vericinin çıkarı (hisse) aynı yöndeydi, kurulun "niyet yok" açıklaması bedelsizdi. Biz %15 dedik; bu okumayla 20 Kasım'da en az %45–55 olmalıydı (Neden Yanıldık #2).

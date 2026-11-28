@@ -697,6 +697,54 @@
     "https://medyascope.tv/2026/11/27/turkiye-ile-karadag-arasindaki-vize-muafiyeti-anlasmasi-askiya-alindi/",
     "https://europeanwesternbalkans.com/2026/09/25/montenegro-to-terminate-visa-free-regime-with-russia-belarus-and-turkey-from-1-november/"
    ]
+  },
+  {
+   "tarih": "2026-11-28",
+   "id": "abd-hava-kuvvetleri-cloud-one",
+   "tema": "Devlet sistemlerine siber saldırılar",
+   "bagli": [
+    "risk-siber",
+    "on-siber-yeni-devlet-atfi"
+   ],
+   "olay": "Reuters'a göre (isimsiz kaynaklar) ABD Hava Kuvvetleri'nin Cloud One bulut platformu bir saldırıya uğradı; saldırgan, kapsam ve veri kaybı bilinmiyor. Hava Kuvvetleri ayrıntı vermedi.",
+   "neden_zayif": "Tek bağımsız kaynak (diğer yayınlar Reuters'ı aktarıyor), atıf yok → olgu olarak kullanılmaz; ikinci kaynak gelirse siber Dosya maddesi.",
+   "kaynaklar": [
+    "https://www.militarytimes.com/news/your-military/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+    "https://www.usnews.com/news/top-news/articles/2026-11-27/exclusive-hackers-breach-us-air-force-flagship-cloud-one-computing-platform"
+   ]
+  },
+  {
+   "tarih": "2026-11-28",
+   "id": "tayvan-yerel-secim",
+   "tema": "Tayvan iç siyaseti ve Çin baskısı",
+   "bagli": [
+    "risk-tayvan",
+    "on-tayvan-45-ucak"
+   ],
+   "olay": "Tayvan 28.11'de 22 il ve şehirde yerel seçim yapıyor; Çin'in Cuma–Cumartesi Tayvan yönüne ~33 uçuşu bildirildi. Sonuçlar akşam bekleniyor.",
+   "neden_zayif": "Sonuç henüz yok; yerel seçim, sicil sorularına doğrudan değmiyor. Akşam taraması sonucu ve Pekin tepkisini değerlendirir.",
+   "kaynaklar": [
+    "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders",
+    "https://www.devdiscourse.com/article/international/4013390-reuters-world-news-summary"
+   ]
+  },
+  {
+   "tarih": "2026-11-28",
+   "id": "abluka-pacific-archer",
+   "tema": "ABD–İran ablukası",
+   "bagli": [
+    "pk-2026-11-18-abd-iran-ateskes",
+    "pk-2026-11-18-brent-100-dokunma"
+   ],
+   "olay": "CENTCOM 26.11'de ablukayı yarmaya çalışan Çin sahipli Pacific Archer'ı havadan vurup durdurdu (abluka yeniden başladığından beri 6. gemi). ABD Başkanı çatışma yeniden başlarsa Natanz yakınındaki yeraltı tesisinin vurulacağını söyledi; İran ablukayı kırma sözü verdi.",
+   "neden_zayif": "Haber kapısı 3 (yenilik yok, koşullu tehdit tekrarı); LR 1. Editör DÜŞÜR.",
+   "kaynaklar": [
+    "https://maritime-executive.com/article/us-disables-chinese-owned-bulker-running-the-iran-blockade",
+    "https://www.foxnews.com/world/us-military-disables-tanker-ship-attempting-slip-through-iran-blockade-thanksgiving-day",
+    "https://www.iranintl.com/en/202611274175",
+    "https://www.business-standard.com/world-news/us-could-hit-iran-s-pickaxe-mountain-nuclear-site-if-strikes-resume-trump-126112700363_1.html",
+    "https://www.devdiscourse.com/article/international/4013390-reuters-world-news-summary"
+   ]
   }
  ]
 }

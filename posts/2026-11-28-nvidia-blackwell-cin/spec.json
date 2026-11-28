@@ -1,0 +1,113 @@
+{
+ "date": "28 KASIM 2026",
+ "tag": "Teknoloji",
+ "haber": {
+  "title": "Bloomberg: Yasaklı Nvidia Blackwell sunucuları Şanghay'da bir veri merkezinde",
+  "text": "Bloomberg'in incelediği, Çinli düzenleyicilere sunulmuş belgelere göre Şanghay'daki bir veri merkezi projesinde iki Çinli şirket, ABD'nin Çin'e satışını yasakladığı Nvidia Blackwell sunucularını kurdu. Biri 72 Blackwell Ultra çipli bir GB300 rafını teminat göstererek 96 milyon yuan (yaklaşık 14 milyon dolar) kredi aldı. Aynı tesiste önceki nesil sunucular da kayıtlı. Bloomberg bunu yasaklı Blackwell'in Çin'e ulaştığına dair ilk belgesel işaret olarak niteledi.",
+  "kaynak": "Bloomberg (Anadolu Ajansı ve JoongAng Daily aktarımıyla)"
+ },
+ "neden": {
+  "text": "Blackwell, ABD'nin Çin'e en sıkı kapattığı çip ailesi. Bloomberg rafın seri numarasını Tayvanlı Gigabyte'a kadar izledi; şirket ilk alıcıyı açıklamadı. Asıl soru, kontrolün nerede delindiği ve Washington'ın cevabı.",
+  "taraflar": [
+   [
+    "Nvidia",
+    "Habere henüz yanıt vermedi. Şirket daha önce bu büyüklükteki sunucuların kaçırılmasının zor olduğunu savunmuştu."
+   ],
+   [
+    "Megaspeed",
+    "Tesis, ABD'nin bu ay kara listeye aldığı Singapurlu şirketin eski yönetimiyle bağlantılı. Şirket suçlamaları reddediyor; Bloomberg yönlendirme kanıtı bulmadığını yazdı."
+   ],
+   [
+    "Çinli şirketler",
+    "Rafı teminat gösteren şirket Megaspeed'le ilişkisinin sıradan ticari işbirliği olduğunu söyledi; bulguya yanıtı bilinmiyor."
+   ],
+   [
+    "ABD",
+    "Adalet Bakanlığı Megaspeed'i ihracat kuralları açısından soruşturuyor. Ticaret Bakanlığı yeni bulgu hakkında açıklama yapmadı."
+   ]
+  ]
+ },
+ "neolur": [
+  {
+   "q": "ABD 31 Mart 2027'ye kadar Nvidia H200 çiplerinin Çin'e satış izinlerini genel olarak iptal eder ya da askıya alır mı?",
+   "p": 29,
+   "from": 29,
+   "deadline": "31.03.2027"
+  },
+  {
+   "q": "ABD 31 Ocak 2027'ye kadar Varlık Listesi'ne tek seferde en az 10 Çin merkezli kuruluş ekler mi?",
+   "p": 35,
+   "from": 35,
+   "deadline": "31.01.2027"
+  },
+  {
+   "q": "Nvidia 19 Şubat 2027'ye kadar Çin'e yapay zekâ veri merkezi çipi satışını yeniden başlattığını açıklar mı?",
+   "p": 15,
+   "from": 15,
+   "deadline": "19.02.2027"
+  }
+ ],
+ "olasilik": {
+  "q": "ABD 31 Mart 2027'ye kadar Nvidia H200 çiplerinin Çin'e satış izinlerini genel olarak iptal eder ya da askıya alır mı?",
+  "motor": 20,
+  "ayar": 9,
+  "ayar_neden": "Motor %20: izinli satışın kısa sürede lisansa bağlandığı örnek var (Nisan 2025, H20) ama ticaret ateşkesi dönemlerinde nadir. Claude +9: açılışta askerî bağlantılı alıcı belgesi (+5); 12.11 Megaspeed soruşturması ve Kongre baskısı (+4). Bugünkü Blackwell bulgusu şimdilik tek kaynaklı (Bloomberg); ikinci bağımsız teyide kadar sayıyı oynatmıyoruz.",
+  "p": 29,
+  "aralik": "24–34 · medyan 29",
+  "frekans": "Tabanı zayıf: son iki yılda izinli bir çipin satışı 1 kez lisansa bağlandı (H20, Nisan 2025) ve 3 ay sonra yeniden açıldı; ateşkes döneminde örnek yok. 100'de 71 durumda izinler sürer."
+ },
+ "senaryolar": {
+  "baslik": "Washington'ın cevabı: üç yol (31 Mart'a kadar)",
+  "dallar": [
+   {
+    "ad": "Tekil yaptırım, izinler sürer",
+    "p": 50,
+    "kosul": "Yönetim ticaret ateşkesini korumak ister; soruşturma şirket ve kişi düzeyinde kalır.",
+    "olursa": "Bağlantılı birkaç şirket kara listeye girer, davalar açılır; H200 satış izinleri devam eder.",
+    "emsal": "2024–2025 kaçakçılık haberleri: tekil davalar ve listelemeler, genel yasak yok.",
+    "iz": "Federal Register'da yeni Varlık Listesi kuralı; Adalet Bakanlığı iddianameleri."
+   },
+   {
+    "ad": "İzinlere yeni şart",
+    "p": 21,
+    "kosul": "Kongre baskısı artar ama yönetim satışları durdurmak istemez.",
+    "olursa": "Çiplerde konum doğrulama, alıcı denetimi gibi şartlar eklenir; satış yavaşlar ama durmaz.",
+    "emsal": "Nisan 2025: H20 satışı lisansa bağlandı, Temmuz'da yeniden açıldı.",
+    "iz": "Çip güvenliği yasa tasarılarının komite takvimi."
+   },
+   {
+    "ad": "H200 izinleri askıya alınır",
+    "p": 29,
+    "kosul": "Kongre oturumlarında yeni kaçakçılık bulguları çıkar ya da ABD–Çin ateşkesi bozulur.",
+    "olursa": "Ticaret Bakanlığı Çin'e H200 izinlerini genel olarak durdurur; Nvidia'nın Çin geliri yeniden sıfıra yaklaşır.",
+    "emsal": "2025 H20 yasağı: Nvidia milyarlarca dolarlık stok zararı açıkladı.",
+    "iz": "Jensen Huang'ın 3 Aralık'taki Senato ifadesi; BIS duyuruları."
+   }
+  ]
+ },
+ "uzman": {
+  "baslik": "Bu haberi iki uzman nasıl okur?",
+  "mercekler": [
+   {
+    "kim": "Ticaret iktisatçısı",
+    "bakar": "Yasaklı ürünün fiyat farkına: ürün yasak bölgede ne kadar pahalıysa kaçırma kârı o kadar büyük olur.",
+    "bekler": "Talep ve fiyat farkı sürdükçe yasağın sızıntıyı tamamen durduramayacağını, kontrolün daha çok maliyeti artıracağını düşünür.",
+    "izler": "Çin'de Blackwell sunucularının kiralama fiyatları ve Nvidia'nın Asya satış payları."
+   },
+   {
+    "kim": "Teknoloji politikası uzmanı",
+    "bakar": "Kontrolün hangi halkada delindiğine: üretici, aracı, kiralama mı, kredi mi?",
+    "bekler": "Bu tür bulguların genel yasaktan çok izleme şartlarını (seri numarası, konum doğrulama) güçlendirdiğini düşünür.",
+    "izler": "Ticaret Bakanlığı'nın aracı şirketlere yönelik yeni kuralları ve Kongre'deki çip güvenliği tasarıları."
+   }
+  ],
+  "ayrisma": "İktisatçı sızıntının süreceğini, politika uzmanı denetimin sıkılaşacağını öne çıkarır. Washington'ın seçimi H200 sorusunun cevabını belirler."
+ },
+ "karne": {
+  "konu": "Bu konuda henüz kapanış yok; H200 sorusu 31 Mart 2027'de kapanacak.",
+  "genel": "Toplam kapanış sayısı az; 30 kapanışa kadar sayılarımıza temkinle bakın.",
+  "gosterge": "Jensen Huang'ın 3 Aralık'taki Senato ifadesi; Ticaret Bakanlığı'nın Varlık Listesi duyuruları; Nvidia'nın açıklaması.",
+  "eylem": "Bireysel olarak yapılacak bir şey yok. Neden önemli: Yapay zekâ çiplerine erişim, şirketlerin ve ülkelerin bu alanda ne kadar hızlı ilerleyeceğini belirliyor."
+ },
+ "question": "Sizce ihracat yasakları bu büyüklükteki çipleri gerçekten durdurabilir mi?"
+}

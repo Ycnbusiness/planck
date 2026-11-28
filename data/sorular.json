@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "sorular": [
   {
    "id": "risk-catisma",
@@ -819,9 +819,13 @@
    "motor": null,
    "p": 40,
    "ilk_p": 35,
-   "durum": "acik",
-   "sonuc": null,
-   "kapanis": null,
+   "durum": "kapandi",
+   "sonuc": 1,
+   "kapanis": {
+    "t": "2026-11-28",
+    "kaynak": "https://www.techtimes.com/articles/331401/20261123/us-adds-nvidia-customer-megaspeed-entity-list-exports-seven-firms-now-need-licenses.htm",
+    "not": "BIS kuralı 23.11 (Federal Register 25.11), Fox Business ile teyit; 28.11 editör bulgusu, hakem turu kaçırmıştı"
+   },
    "gecmis": [
     {
      "t": "2026-11-09",
@@ -1867,6 +1871,18 @@
      "p": 29,
      "motor": 20,
      "neden": "Akşam: Huang istifası ve Megaspeed soruşturması sonrası Kongre'de çip ihracatını kısma uzlaşısı (Meclis Başkanı Johnson); iki partili senatör mektubu lisansların askıya alınmasını istedi (LR 1,25)"
+    },
+    {
+     "t": "2026-11-28",
+     "p": 34,
+     "motor": 20,
+     "neden": "28.11: Bloomberg ve NYT, yasaklı Blackwell sunucularının Şanghay'da bir veri merkezinde kurulu olduğunu belgeledi (kredi teminatı kayıtları); Kongre'de sıkılaştırma baskısı artar (LR 1,25)"
+    },
+    {
+     "t": "2026-11-28",
+     "p": 29,
+     "motor": 20,
+     "neden": "DÜZELTME (editör 28.11): Blackwell bulgusu tek kaynaklı (Bloomberg); Anayasa §9 tek kaynaklı iddia olasılık oynatmaz; aynı gün geri alındı, ikinci bağımsız teyit gelirse yeniden işlenir"
     }
    ],
    "bagli": "risk-abd-cin-teknoloji"
@@ -1898,6 +1914,18 @@
      "p": 35,
      "motor": 45,
      "neden": "açılış"
+    },
+    {
+     "t": "2026-11-28",
+     "p": 40,
+     "motor": 45,
+     "neden": "28.11: Megaspeed bağlantılı Şanghay tesisinde yasaklı Blackwell bulundu; bağlantılı şirketlerin listeye eklenme baskısı (LR 1,25)"
+    },
+    {
+     "t": "2026-11-28",
+     "p": 35,
+     "motor": 45,
+     "neden": "DÜZELTME (editör 28.11): Blackwell bulgusu tek kaynaklı (Bloomberg); Anayasa §9 tek kaynaklı iddia olasılık oynatmaz; aynı gün geri alındı, ikinci bağımsız teyit gelirse yeniden işlenir"
     }
    ],
    "bagli": "risk-abd-cin-teknoloji"
@@ -2727,6 +2755,18 @@
      "p": 15,
      "motor": null,
      "neden": "açılış"
+    },
+    {
+     "t": "2026-11-28",
+     "p": 12,
+     "motor": null,
+     "neden": "28.11: yasaklı Blackwell'in Çin'de bulunması Çin'e yeni satış izni ihtimalini zayıflatır (LR 0,8)"
+    },
+    {
+     "t": "2026-11-28",
+     "p": 15,
+     "motor": null,
+     "neden": "DÜZELTME (editör 28.11): Blackwell bulgusu tek kaynaklı (Bloomberg); Anayasa §9 tek kaynaklı iddia olasılık oynatmaz; aynı gün geri alındı, ikinci bağımsız teyit gelirse yeniden işlenir"
     }
    ]
   },
@@ -2967,6 +3007,36 @@
      "t": "2026-11-27",
      "p": 35,
      "motor": 40,
+     "neden": "açılış"
+    }
+   ]
+  },
+  {
+   "id": "pk-2026-11-28-ispanya-guvenoyu",
+   "kanal": "news",
+   "tur": "surec",
+   "q": "İspanya'da Kongre, 31 Ocak 2027'ye kadar bir başbakan adayına güvenoyu (investidura) verir mi?",
+   "acilis": "2026-11-28",
+   "deadline": "2027-01-31",
+   "kriter": "29 Kasım 2026 seçimiyle oluşan Kongre'de 31.01.2027 23:59 (Madrid) öncesinde yapılan bir investidura oylamasında aday mutlak ya da basit çoğunlukla güvenoyu alırsa EVET. Adayın kim olduğu ve hangi partiden olduğu önemsizdir.",
+   "kaynak_cozum": "Congreso de los Diputados resmî kayıtları + Reuters ya da AFP",
+   "taban": "2008–2023 arası 7 genel seçimin 3'ünde (2008, 2011, Kasım 2019) investidura seçimden sonraki 63 gün içinde gerçekleşti; 4'ünde (2015, 2016, Nisan 2019, 2023) gerçekleşmedi → Motor %43. Anket ortalamaları (poll.graphics 22.11 nowcast, Rio Times 19 anket) sağ bloku 176 eşiğinin üstünde gösteriyor (poll.graphics simülasyonu %68); bu süreyi kısaltır, ancak iki partili ortaklık görüşmeleri ve Kongre'nin Aralık sonunda toplanması süreyi uzatır. Claude −1.",
+   "mercekler": [
+    "Siyaset bilimi: anket ortalaması ve tarihsel anket hatası (2023'te anketler sağ blok çoğunluğunu abartmıştı), aşağı",
+    "Anayasa hukuku/süreç: Kongre seçimden sonra en geç 25 gün içinde toplanır; yılbaşı tatili takvimi sıkıştırır, aşağı"
+   ],
+   "on_otopsi": "Yanılırsak en olası sebep: seçim gecesi net çoğunluk çıkması ve ortaklığın hızlı kurulması (EVET) ya da çoğunluğun çıkmaması ve tıkanma (HAYIR, bu durumda %42 yüksek kalmış olur).",
+   "motor": 43,
+   "p": 42,
+   "ilk_p": 42,
+   "durum": "acik",
+   "sonuc": null,
+   "kapanis": null,
+   "gecmis": [
+    {
+     "t": "2026-11-28",
+     "p": 42,
+     "motor": 43,
      "neden": "açılış"
     }
    ]

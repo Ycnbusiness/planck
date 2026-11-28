@@ -1,0 +1,12 @@
+İspanya yarın (29 Kasım) erken seçimde sandık başında. 350 sandalyelik Kongre'de çoğunluk 176; anket ortalamaları sağ bloku eşiğin üstünde gösteriyor, ama İspanya'da hükümet kurmak çoğu zaman uzun sürüyor.
+
+Yeni soru: İspanya'da Kongre 31 Ocak 2027'ye kadar bir başbakan adayına güvenoyu verir mi? Sayımız %42 · 100'de 42. Motor %43 (son 7 seçimin 3'ünde başbakan 63 gün içinde güvenoyu aldı), Claude −1 (anket ortalamaları sağ bloku eşiğin üstünde gösteriyor ama 2023'te anketler yanılmıştı; ortaklık görüşmeleri ve yılbaşı takvimi süreyi uzatabilir).
+
+Neden önemli: Avro bölgesinin dördüncü büyük ekonomisinde hükümetin ne zaman kurulacağı, bütçe ve AB'deki uzlaşmalar için belirleyici. İzlenecek: seçim gecesi sandalye dağılımı ve koalisyon görüşmelerinin takvimi.
+
+Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
+İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
+Kaynaklar: poll.graphics, Rio Times anket ortalaması, France 24 · Soru kaydı: pk-2026-11-28-ispanya-guvenoyu · Kimseden fon almıyoruz. Yatırım veya politika tavsiyesi değildir.
+Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+
+#planck #pekibiz #avrupa

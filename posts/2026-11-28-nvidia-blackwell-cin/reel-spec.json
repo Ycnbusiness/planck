@@ -1,0 +1,17 @@
+{
+ "week": "2026-W48",
+ "tag": "Teknoloji",
+ "title": "Bloomberg: Yasaklı Nvidia Blackwell sunucuları Şanghay'da bir veri merkezinde",
+ "text": "Belgelere göre iki Çinli şirket ABD'nin Çin'e yasakladığı Blackwell sunucularını kurdu. Bloomberg'e göre ilk belgelenmiş örnek.",
+ "risk": "ABD 31 Mart'a kadar Nvidia H200'ün Çin'e satış izinlerini iptal eder ya da askıya alır mı?",
+ "rl": "ETKİLENEN SORU · SON TARİH 31.03.2027",
+ "from": 29,
+ "to": 29,
+ "why": "Bulgu şimdilik tek kaynaklı; ikinci teyide kadar sayımız değişmiyor.",
+ "pl": "İZLENECEK GÖSTERGE",
+ "pq": "Jensen Huang'ın 3 Aralık'taki Senato ifadesi ve Ticaret Bakanlığı duyuruları",
+ "pp": null,
+ "yuz": true,
+ "kunye": "Motor %20 · Claude +9 · Tarama ve hesap: Claude",
+ "cta": "100'de 29 · Ayrıntılar gönderide · @planck.news"
+}

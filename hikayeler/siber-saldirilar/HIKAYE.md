@@ -14,6 +14,7 @@ _Doldurulacak._
 |---|---|---|---|---|---|---|
 | 23–24.11.2026 | ABD yetkilileri | 50'ye kadar ticari geminin hacklenmesinde İran bağlantısı araştırılıyor; Fortinet yönlendirici açığı; atıf yok | yukarı (atıf süreci) | bedelsiz (soruşturma) | orta | WSJ aktarımı: NPR, heise |
 | 2026-11-25 | FinCEN (ABD Hazine) | Sistemlerin bir kısmına yetkisiz erişim doğrulandı, bazı sistemler kapatıldı; atıf yok | kamu kurumlarına saldırı ↑ | bedelli | zayıf | ABC News, Help Net Security, Federal News Network |
+| 2026-11-27 | İngiltere DWP | Siber olay nedeniyle Universal Credit başvuru ve giriş dahil bazı çevrimiçi hizmetleri kapattı; ödemeler etkilenmedi, veri sızıntısı kanıtı yok; atıf yok | yeşil | — | düşük | ITV, Xinhua |
 
 ## Denge
 _Olumlu / olumsuz hangisi ağır basıyor ve neden._

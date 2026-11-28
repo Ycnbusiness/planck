@@ -1,0 +1,17 @@
+{
+ "week": "2026-W48",
+ "tag": "Avrupa",
+ "title": "İspanya yarın erken seçimde sandık başında",
+ "text": "29 Kasım seçiminde 350 sandalyelik Kongre'de çoğunluk 176. Anket ortalamaları sağ bloku eşiğin üstünde gösteriyor.",
+ "risk": "İspanya'da Kongre 31 Ocak 2027'ye kadar bir başbakan adayına güvenoyu verir mi?",
+ "rl": "YENİ SORU · SON TARİH 31.01.2027",
+ "from": 42,
+ "to": 42,
+ "why": "Son 7 seçimin 3'ünde başbakan 63 gün içinde güvenoyu aldı.",
+ "pl": "İZLENECEK GÖSTERGE",
+ "pq": "Seçim gecesi sandalye dağılımı ve koalisyon görüşmelerinin takvimi",
+ "pp": null,
+ "yuz": true,
+ "kunye": "Motor %43 · Claude −1 · Tarama ve hesap: Claude",
+ "cta": "Soru 31 Ocak'ta kapanır, karnede puanlanır · @planck.news"
+}

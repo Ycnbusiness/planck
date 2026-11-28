@@ -1,0 +1,45 @@
+[
+ {
+  "saat": "11:00",
+  "tur": "olay-cevap",
+  "klasor": "posts/2026-11-28-nvidia-blackwell-cin",
+  "baslik": "Bloomberg: Yasaklı Nvidia Blackwell sunucuları Şanghay'da bir veri merkezinde",
+  "onem": 0,
+  "onem_eski": 0,
+  "durum": "hazir",
+  "not": "Günlük taban kuralı. Yayın turu Bloomberg haberini yeniden açıp doğrular; ikinci bağımsız teyit yoksa başlık 'Bloomberg:' atfıyla kalır.",
+  "haber_puani": 6,
+  "editor": "DÜZELT (1. tur) → düzeltildi (yol a)"
+ },
+ {
+  "saat": "13:00",
+  "tur": "olay-cevap-reel",
+  "klasor": "posts/2026-11-28-nvidia-blackwell-cin",
+  "dosya": "reel.mp4",
+  "onem": 0,
+  "durum": "hazir",
+  "not": "Ana gönderiyle aynı koşul."
+ },
+ {
+  "saat": "15:00",
+  "tur": "story",
+  "klasor": "posts/2026-11-28-ispanya-secim-story",
+  "dosya": "reel.mp4",
+  "baslik": "İspanya yarın erken seçimde sandık başında",
+  "onem": 0.69,
+  "onem_eski": 0,
+  "durum": "hazir",
+  "not": "Seçimden önce çıkmalı (29.11 sabahı oy başlar). MBS video takılırsa story.png yükle.",
+  "editor": "DÜZELT (1. tur) → düzeltildi"
+ },
+ {
+  "saat": "21:00",
+  "tur": "dosya",
+  "klasor": "posts/2026-11-28-gunun-dosyasi",
+  "baslik": "Karadeniz'de tahıl ateşkesi: Kiev, Rusya'nın petrolü de pakete eklemek istediğini söyledi",
+  "onem": 0,
+  "durum": "taslak",
+  "not": "Akşam Dosya görevi data/dosya/2026-11-28.json'dan üretir (3 madde + akşam eklemeleri, Tayvan sonucu).",
+  "editor": "Karadeniz, DWP DÜZELT→düzeltildi; abluka DÜŞÜR"
+ }
+]

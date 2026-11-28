@@ -310,6 +310,31 @@
      "olay": "iran-gaz-2032-uzatma"
     }
    ]
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-28",
+   "tema": "Tarama · 28 Kasım",
+   "items": [
+    {
+     "id": "pk-2026-11-28-ispanya-guvenoyu",
+     "alan": "Siyaset bilimi",
+     "q": "İspanya'da Kongre, 31 Ocak 2027'ye kadar bir başbakan adayına güvenoyu (investidura) verir mi?",
+     "p": 42,
+     "lab": "Motor %43 · Claude −1",
+     "deadline": "2027-01-31",
+     "olay": "ispanya-secim-29kasim"
+    },
+    {
+     "id": "on-abdcin-h200-iptal",
+     "alan": "Teknoloji politikası",
+     "q": "ABD 31 Mart 2027'ye kadar Nvidia H200 çiplerinin Çin'e satış izinlerini genel olarak iptal eder ya da askıya alır mı?",
+     "p": 29,
+     "lab": "Motor %20 · Claude +9 (değişmedi; bulgu tek kaynaklı)",
+     "deadline": "2027-03-31",
+     "olay": "nvidia-blackwell-sanghay"
+    }
+   ]
   }
  ]
 }
