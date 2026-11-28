@@ -1089,5 +1089,61 @@
    "https://www.foreks.com/haber/detay/6b08d37a4b18523914469ea3/PICNEWS/tr/ekonomistler-tcmb-kararini-degerlendirdi-ortulu-faiz-artisi-27-11-26/",
    "https://paraajansi.com.tr/ekonomi/merkez-bankasi-faizi-degistirmeden-fonlamayi-3-puan-pahalilastirdi-22232100h"
   ]
+ },
+ {
+  "tarih": "2026-11-27T21:00",
+  "tur": "dosya",
+  "kanal": "news",
+  "klasor": "posts/2026-11-27-gunun-dosyasi",
+  "durum": "kacti",
+  "neden": "Akşam turu yarıda kaldı; planlanmadı. 5 maddenin hepsi doğrulanmıştı (TCMB repo arası, İran gazı 2032, AB zirvesi, de Cos, FinCEN). Bir gün sonra yayınlanmadı (bayat)."
+ },
+ {
+  "tarih": "2026-11-28T14:58",
+  "tur": "olay-cevap",
+  "kanal": "news",
+  "klasor": "posts/2026-11-28-nvidia-blackwell-cin",
+  "baslik": "Bloomberg: Yasaklı Nvidia Blackwell sunucuları Şanghay'da",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-28T15:30",
+  "sorular": [
+   "on-abdcin-h200-iptal"
+  ],
+  "editor": {
+   "hukum": "YAYINLA",
+   "duzeltmeler": [
+    "Tek özgün kaynak Bloomberg; gönderi atıflı ('Bloomberg:') ve sayıyı oynatmıyor; TechSpot, Quartz, IBTimes aktarımı",
+    "11:00 yuvası sabah turu yarım kaldığı için kaçtı → 15:30",
+    "eski 'Bu içerik…' satırı kaldırıldı"
+   ]
+  },
+  "instagram": {
+   "hesap": "@planck.news",
+   "ai_etiketi": true,
+   "facebook": false,
+   "format": "carousel 6 sayfa"
+  }
+ },
+ {
+  "tarih": "2026-11-28T14:59",
+  "tur": "olay-cevap-reel",
+  "kanal": "news",
+  "klasor": "posts/2026-11-28-nvidia-blackwell-cin",
+  "durum": "planlandi",
+  "yayin_saati": "2026-11-28T16:30",
+  "instagram": {
+   "hesap": "@planck.news",
+   "ai_etiketi": true,
+   "facebook": false,
+   "format": "reel 9:16"
+  }
+ },
+ {
+  "tarih": "2026-11-28T15:00",
+  "tur": "story",
+  "kanal": "news",
+  "klasor": "posts/2026-11-28-ispanya-secim-story",
+  "durum": "atlandi",
+  "neden": "MBS bağlı değil; akşam Dosya'ya"
  }
 ]

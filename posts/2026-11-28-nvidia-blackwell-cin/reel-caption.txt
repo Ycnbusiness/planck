@@ -7,6 +7,5 @@ Bireysel olarak yapılacak bir şey yok; izlenecek: Jensen Huang'ın 3 Aralık't
 Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
 İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
 Kaynaklar: Bloomberg (Anadolu Ajansı ve JoongAng Daily aktarımıyla) · Soru kaydı: on-abdcin-h200-iptal · Kimseden fon almıyoruz. Yatırım veya politika tavsiyesi değildir.
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
 
 #planck #pekibiz #teknoloji

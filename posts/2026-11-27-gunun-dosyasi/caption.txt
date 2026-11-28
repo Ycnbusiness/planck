@@ -2,12 +2,15 @@ Günün Dosyası · 27 Kasım 2026
 
 TCMB fonlamayı pahalılaştırdı; İran gazı sözleşmesinin uzatıldığı bildirildi; Avrupa bütçede uzlaşamadı ama yeni merkez bankası başkan adayını seçti; ABD'de siber sızıntı.
 
-1. TCMB bir hafta vadeli repo ihalelerine ara verdi; politika faizi %36'da kaldı ama fonlama %39'luk gecelik faizden yapılıyor. TCMB'nin Aralık PPK'da faizi %35 ya da altına indirmesi (12.12.2026): %60 → %45 · 100'de 45. Ne yapabilirsin: kredi planlıyorsan teklif edilen faizi ve sabit mi değişken mi olduğunu kontrol et.
+1. TCMB bir hafta vadeli repo ihalelerine ara verdi; politika faizi %36'da kaldı ama fonlama %39'luk gecelik faizden yapılıyor. TCMB'nin Aralık PPK'da faizi %35 ya da altına indirmesi (12.12.2026): %60 → %45 · 100'de 45. Kredi planlıyorsan faizin sabit mi değişken mi olduğunu kontrol et.
 2. Bloomberg ve Mynet'in kaynaklarına göre BOTAŞ, İran gaz sözleşmesini 2032'ye uzattı; BOTAŞ ve Bakanlık yorum yapmadı. 1 Ocak 2027'de konut doğalgazına zam: %60 (değişmedi). Peki biz? BOTAŞ ya da Enerji Bakanlığı'nın uzatmayı 31 Aralık 2026'ya kadar resmen açıklaması: %35.
 3. AB liderleri 2028–2034 bütçesinde ve Ukrayna'ya 45 milyar avroluk kredide anlaşamadı; karar 17–18 Aralık zirvesine kaldı. Rusya–Ukrayna genel ateşkesi (30.04.2027): %12 (değişmedi). Peki biz? Bir görüşme turunun 31 Mart 2027'ye kadar Türkiye'de yapılması: %20.
-4. Euro bölgesi liderleri Lagarde'ın yerine Pablo Hernández de Cos'u önerdi; resmî atama Aralık'ta. Neden önemli: dünyanın ikinci büyük para biriminin faiz yolu Şubat'tan sonra yeni başkanla çizilecek; ilk iz 17 Aralık kararı.
+4. Euro bölgesi liderleri Lagarde'ın yerine Pablo Hernández de Cos'u önerdi; resmî atama Aralık'ta. Neden önemli: dünyanın ikinci büyük para biriminin faiz yolu Şubat'tan sonra yeni başkanla çizilecek.
 5. ABD Hazine'ye bağlı FinCEN sistemlerine yetkisiz erişimi inceliyor; saldırı henüz kimseye atfedilmedi. Bir AB ya da NATO hükümetinin 31 Ocak 2027'ye kadar kritik altyapıya yeni bir siber saldırıyı resmen bir devlete atfetmesi: %55 (değişmedi). Peki biz? Türkiye'de 31 Mart 2027'ye kadar market, hastane ya da enerji şirketinde siber saldırı kaynaklı hizmet aksaması açıklanması: %40.
 
-Kaynaklar: TCMB, BloombergHT, Foreks, Forbes Türkiye (Bloomberg), Mynet, Euronews, EUobserver, Xinhua, Ritzau, ABC News, Help Net Security · Soru kaydı: pk-2026-11-18-tcmb-aralik-35, pk-2026-11-18-botas-ocak-zam, pk-2026-11-27-iran-gaz-resmi, on-catisma-rusya-ateskes, on-siber-yeni-devlet-atfi · Kimseden fon almıyoruz. Yatırım veya politika tavsiyesi değildir. Bu gönderi yayın öncesi insan onayından geçmedi.
-Bu içerik Anthropic'in yapay zekâ modeli Claude tarafından hazırlanmıştır.
+Tarama ve hesap: Claude (Anthropic'in yapay zekâ modeli).
+İnsan: Kuralları yazar, itirazları karara bağlar. Bu gönderi yayın öncesi insan onayından geçmedi.
+Kaynaklar: TCMB, BloombergHT, Akşam, Euronews, NL Times, ABC News, Help Net Security · Soru kaydı: pk-2026-11-18-tcmb-aralik-35, pk-2026-11-27-iran-gaz-resmi, on-catisma-rusya-ateskes, on-siber-yeni-devlet-atfi · Kimseden fon almıyoruz.
+Yatırım veya politika tavsiyesi değildir.
+
 #planck #günündosyası
