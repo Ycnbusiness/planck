@@ -217,11 +217,76 @@
    ],
    "yonlendirme": "Günün Dosyası 21:00",
    "editor": "DÜZELT → düzeltildi (Peki Biz kaldırıldı)"
+  },
+  {
+   "id": "iran-tanker-geri-alma-iddiasi",
+   "ogle": true,
+   "class": "YEŞİL",
+   "risk": "abd-iran",
+   "delta": 0,
+   "sorular": {
+    "pk-2026-11-18-abd-iran-ateskes": [
+     null,
+     null
+    ]
+   },
+   "lr": 1.0,
+   "haber_kapisi": {
+    "olcek": 1,
+    "yenilik": 1,
+    "acik_uc": 1,
+    "puan": 3
+   },
+   "S": 0,
+   "K": 2,
+   "onem": 0,
+   "turkiye_bagi": 1,
+   "event": "İran Deniz Kuvvetleri Komutanı, ABD'nin el koyduğu iki İran tankerinin bir operasyonla geri alındığını öne sürdü (yer ve zaman yok); Devrim Muhafızları Hava-Uzay komutanı ablukayı kırmanın kesin görev olduğunu yineledi. AA'nın başlığına göre ABD, tankerin geri alındığı ve Hürmüz'de geçiş ücreti alındığı iddialarını yalanladı.",
+   "rationale": "İddia ve inkâr; tek taraflı açıklama olasılık oynatmaz (Anayasa §9). Haber kapısı 3 (<4). Sayı oynamadı; izleme listesine bitişle.",
+   "sources": [
+    "https://www.diyaloggazetesi.com/dunya/askeri-adimlar-atilabilir-h122639.html",
+    "https://aa.com.tr/tr/dunya/abdden-iranin-ele-gecirilen-tankerini-geri-aldigi-ve-hurmuzde-gecis-ucreti-iddialarina-yalanlama/4141115"
+   ],
+   "yonlendirme": "Zayıf Sinyal Defteri + izleme (bitiş 2026-11-30)"
   }
  ],
  "zayif_sinyal": [
   "abd-hava-kuvvetleri-cloud-one",
   "tayvan-yerel-secim"
  ],
- "izleme_kontrol": "tcmb-yerli-altin-alimi (bitiş 28.11) bu taramada doğrulanmadı; akşam turu bitişte 'düştü' yapar. Diğer açık öğelerde yeni teyit bulunmadı."
+ "izleme_kontrol": "tcmb-yerli-altin-alimi (bitiş 28.11) bu taramada doğrulanmadı; akşam turu bitişte 'düştü' yapar. Diğer açık öğelerde yeni teyit bulunmadı.",
+ "ogle_taramasi": {
+  "date": "2026-11-28",
+  "ogle": true,
+  "scan_window": "2026-11-28 04:00 → 12:30 (TSİ)",
+  "yontem": "Öğle taraması, Yöntem v2.2. Sabahta işlenen olaylar (Nvidia Blackwell, İspanya seçimi, Karadeniz, Pacific Archer, DWP siber, Tayvan yerel seçimi) tekrar işlenmedi. Hakem adımı bu görevin işi değil.",
+  "summary": {
+   "kirmizi": 0,
+   "ana_akis": 0,
+   "dosya": 0,
+   "story": 0,
+   "zayif": 1,
+   "izleme": 1,
+   "kirmizi_cizgi": 1,
+   "not": "Cumartesi sabahı; 04:00 sonrası haber kapısını geçen yeni olay yok. Gündem planlı programdan ibaret (Erdoğan–Tasulas 16:00, bakan programları, Tayvan yerel seçim oylaması; sonuçlar akşam turunda). İran'ın tanker geri alma iddiası (ABD yalanladı) tek taraflı iddia → izleme + zayıf sinyal. 29 ilde DEAŞ operasyonu (84 gözaltı) kırmızı çizgi (terör, süren soruşturma): olasılık yok."
+  },
+  "zayif": [
+   "iran-tanker-geri-alma-iddiasi"
+  ],
+  "izleme": [
+   "iran-tanker-geri-alma-iddiasi"
+  ],
+  "kirmizi_cizgi": [
+   {
+    "id": "deas-29-il-operasyon",
+    "ogle": true,
+    "event": "İçişleri Bakanlığı 29 ilde DEAŞ operasyonlarında 84 gözaltı açıkladı.",
+    "not": "kırmızı çizgi — olasılık yok (terör; süren soruşturma). Rutin operasyon duyurusu, yayın yok.",
+    "kaynaklar": [
+     "https://www.sabah.com.tr/gundem/2026/11/28/icisleri-bakanligi-acikladi-29-ildeki-deas-operasyonu-84-gozalti",
+     "https://haberton.com/29-ilde-deas-operasyonlari-84-gozalti/"
+    ]
+   }
+  ]
+ }
 }

@@ -34,6 +34,7 @@ ABD ile İran arasındaki savaş Nisan 2026 ateşkesine rağmen düşük yoğunl
 | 26.11 | Kuveyt / İran | Kuveyt'te hava savunma sahasına İHA saldırısı, Rheinmetall'de çalışan 2 İtalyan teknisyen öldü; Kuveyt ve İtalya İran'ı işaret etti, İran Dışişleri sorumluluğu reddetti | tırmanma (Körfez'e yayılma) | bedelli (yabancı sivil kaybı) | orta | Bloomberg; The National; UPI |
 | 27.11.2026 | Bloomberg/Mynet | Türkiye'nin İran gaz alımını 2032'ye uzattığı bildirildi (abluka döneminde) | — | orta | orta | https://www.forbes.com.tr/haberler/turkiye-ile-iran-arasindaki-dogal-gaz-anlasmasi-2032-ye-kadar-uzatildi |
 | 2026-11-26/27 | ABD (CENTCOM, Başkan) | Abluka yarmaya çalışan Pacific Archer'ı vurup durdurdu (6. gemi); Başkan çatışma yeniden başlarsa Natanz yakınındaki yeraltı tesisinin vurulacağını söyledi; İran ablukayı kırma sözü verdi | tırmanma − | orta | orta | CENTCOM, Maritime Executive, Iran International, SBS |
+| 2026-11-28 | İran Deniz K.K. | el konan iki tankerin geri alındığını iddia etti; ABD yalanladı | gerilim ↑ (iddia) | bedelsiz | zayıf | Diyalog/AA (öğle) |
 
 ## Denge
 Olumsuz sinyaller ağır basıyor: iki taraf da sahada bedelli adımlar atıyor (saldırılar), olumlu sinyaller yalnız sözlü (10 Kasım 'savaş bitti' beyanı). Ateşkes sorusu 18→15'e indi; bu yön Ocak'a kadar değişmez görünüyor, ta ki arabulucudan tarih gelene kadar.

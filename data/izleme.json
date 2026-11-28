@@ -191,6 +191,15 @@
    "eksik": "Suudi hükümeti/Aramco hasar ya da üretim açıklaması veya ikinci bağımsız B katmanı haber",
    "olursa": "Brent soruları (pk-2026-11-18-brent-100-dokunma, brent-90-yilsonu) LR 1,25–2 ile güncellenir; petrol-akaryakit hikâyesine rüzgâr satırı.",
    "bitis": "2026-12-02"
+  },
+  {
+   "id": "iran-tanker-geri-alma-iddiasi",
+   "acilis": "2026-11-28",
+   "olay": "İran Deniz Kuvvetleri komutanının, ABD'nin el koyduğu iki İran tankerinin geri alındığı iddiası; ABD yalanladı (AA başlığı).",
+   "durum": "acik",
+   "eksik": "Gemi adı/konumu ile bağımsız teyit (Reuters/AP, UKMTO, gemi takip verisi) ya da CENTCOM açıklaması",
+   "olursa": "Abluka ihlali teyidi: pk-2026-11-18-abd-iran-ateskes ve Hürmüz/Brent soruları LR 1,25 ile değerlendirilir; abd-iran-savasi hikâyesine rüzgâr satırı; önem ≥0,4 ise Dosya maddesi.",
+   "bitis": "2026-11-30"
   }
  ]
 }
